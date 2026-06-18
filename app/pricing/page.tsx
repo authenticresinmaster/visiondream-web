@@ -6,7 +6,12 @@ export const metadata: Metadata = {
   description: "무료로 시작하세요. 프리미엄으로 AI 기능과 무제한 꿈·목표를, 팀 플랜으로 조직·기관 관리를.",
 };
 
-const PLANS = [
+type Plan = {
+  name: string; price: string; per: string; highlight: boolean;
+  feats: string[]; cta: string; ctaStyle: "solid" | "border"; href?: string;
+};
+
+const PLANS: Plan[] = [
   {
     name: "무료", price: "₩0", per: "", highlight: false,
     feats: ["비전보드·꿈·목표", "플래너·습관 트래커", "성공의 나무", "꿈 3 · 목표 5"],
@@ -20,7 +25,7 @@ const PLANS = [
   {
     name: "팀 · 기관", price: "₩29,900", per: "/월 (연 ₩299,000)", highlight: false,
     feats: ["프리미엄 전체", "팀·기관 관리", "조직 성장 리포트(익명)", "멘토 관리", "꿈·목표 무제한"],
-    cta: "도입 문의", ctaStyle: "border",
+    cta: "도입 문의", ctaStyle: "border", href: "/for-teams",
   },
 ];
 
@@ -46,7 +51,7 @@ export default function PricingPage() {
                 ))}
               </ul>
               <a
-                href="https://app.visiondream.kr"
+                href={p.href ?? "https://app.visiondream.kr"}
                 className={`mt-7 block rounded-xl py-3 text-center font-extrabold transition ${p.ctaStyle === "solid" ? "bg-brand text-white hover:brightness-110" : "border border-navy/15 text-navy hover:bg-navy/5"}`}
               >
                 {p.cta}

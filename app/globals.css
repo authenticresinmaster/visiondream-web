@@ -28,3 +28,24 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 .animate-fade-up { animation: fadeUp 0.6s ease both; }
+
+/* 블로그 본문(마크다운) 스타일 */
+.prose-vd { color: #2b3850; line-height: 1.8; font-size: 1.02rem; }
+.prose-vd h2 { font-size: 1.35rem; font-weight: 800; color: #1a2332; margin: 2rem 0 0.75rem; }
+.prose-vd h3 { font-size: 1.1rem; font-weight: 800; color: #1a2332; margin: 1.5rem 0 0.5rem; }
+.prose-vd p { margin: 0.9rem 0; }
+.prose-vd ul, .prose-vd ol { margin: 0.9rem 0; padding-left: 1.4rem; }
+.prose-vd ul { list-style: disc; }
+.prose-vd ol { list-style: decimal; }
+.prose-vd li { margin: 0.4rem 0; }
+.prose-vd strong { color: #105d9e; font-weight: 700; }
+.prose-vd a { color: #105d9e; text-decoration: underline; }
+.prose-vd blockquote {
+  margin: 1.2rem 0; padding: 0.8rem 1.2rem; border-left: 4px solid #f59e0b;
+  background: #fafbfc; border-radius: 0 0.75rem 0.75rem 0;
+  font-weight: 700; color: #1a2332;
+}
+.prose-vd code {
+  background: #f1f5f9; padding: 0.15rem 0.4rem; border-radius: 0.35rem;
+  font-size: 0.9em;
+}

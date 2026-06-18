@@ -14,8 +14,10 @@ export function PageShell({ children }: { children: React.ReactNode }) {
           <nav className="hidden items-center gap-6 text-sm font-semibold text-navy/70 md:flex">
             <Link href="/features" className="hover:text-brand">기능</Link>
             <Link href="/method" className="hover:text-brand">S=BTA</Link>
+            <Link href="/blog" className="hover:text-brand">블로그</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
-            <Link href="/for-coaches" className="hover:text-brand">강사·기관</Link>
+            <Link href="/for-coaches" className="hover:text-brand">강사</Link>
+            <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
           </nav>
           <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
             앱 시작하기
@@ -33,7 +35,9 @@ export function PageShell({ children }: { children: React.ReactNode }) {
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/features" className="hover:text-brand">기능</Link>
+            <Link href="/blog" className="hover:text-brand">블로그</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
+            <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">개인정보처리방침</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">이용약관</a>
           </nav>
