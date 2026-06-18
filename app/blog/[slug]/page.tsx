@@ -40,9 +40,38 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const others = getAllPosts().filter((p) => p.slug !== post.slug).slice(0, 2);
+  const SITE = "https://visiondream.kr";
+
+  const articleLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    dateModified: post.updated ?? post.date,
+    author: { "@type": "Organization", name: "서우 비전드림" },
+    publisher: { "@type": "Organization", name: "서우 비전드림" },
+    mainEntityOfPage: `${SITE}/blog/${post.slug}`,
+    ...(post.cover ? { image: `${SITE}${post.cover}` } : {}),
+  };
+  const faqLd = post.faq?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: post.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
 
   return (
     <PageShell>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
+      {faqLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
       <article className="bg-white px-5 py-14">
         <div className="mx-auto max-w-2xl">
           <Link href="/blog" className="text-sm font-bold text-brand hover:underline">
@@ -59,9 +88,28 @@ export default async function BlogPostPage({
             {post.title}
           </h1>
 
+          {post.cover && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={post.cover} alt={post.title} className="mt-6 w-full rounded-2xl" />
+          )}
+
           <div className="prose-vd mt-8">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
           </div>
+
+          {post.faq && post.faq.length > 0 && (
+            <div className="mt-12">
+              <h2 className="text-xl font-black text-navy">자주 묻는 질문</h2>
+              <div className="mt-5 space-y-4">
+                {post.faq.map((f) => (
+                  <div key={f.q} className="rounded-2xl border border-black/5 bg-[#fafbfc] p-5">
+                    <h3 className="text-base font-extrabold text-navy">{f.q}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-navy/70">{f.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="mt-12 rounded-2xl bg-gradient-to-br from-[#1a2332] to-[#105d9e] p-8 text-center text-white">
             <p className="text-lg font-bold text-gold">비전을 심으면, 반드시 열매가 열립니다 🌱</p>

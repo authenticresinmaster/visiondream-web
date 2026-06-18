@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" role="img" aria-label="성공 = 믿음 × 생각 × 행동 공식 다이어그램">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e2746"/>
+      <stop offset="1" stop-color="#105d9e"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="360" rx="20" fill="url(#bg)"/>
+  <text x="410" y="56" text-anchor="middle" fill="#ffd700" font-family="sans-serif" font-size="22" font-weight="800">성공은 더하기가 아니라 곱하기입니다</text>
+
+  <!-- S = -->
+  <text x="70" y="210" fill="#ffffff" font-family="sans-serif" font-size="56" font-weight="800">S</text>
+  <text x="118" y="210" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="700">=</text>
+
+  <!-- B -->
+  <g>
+    <circle cx="280" cy="190" r="62" fill="#105d9e" stroke="#439ae3" stroke-width="3"/>
+    <text x="280" y="180" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="40" font-weight="800">B</text>
+    <text x="280" y="208" text-anchor="middle" fill="#cfe6ff" font-family="sans-serif" font-size="15" font-weight="700">믿음</text>
+  </g>
+  <text x="372" y="202" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="40" font-weight="800">×</text>
+  <!-- T -->
+  <g>
+    <circle cx="464" cy="190" r="62" fill="#439ae3" stroke="#7bbef0" stroke-width="3"/>
+    <text x="464" y="180" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="40" font-weight="800">T</text>
+    <text x="464" y="208" text-anchor="middle" fill="#eaf4ff" font-family="sans-serif" font-size="15" font-weight="700">생각</text>
+  </g>
+  <text x="556" y="202" text-anchor="middle" fill="#f59e0b" font-family="sans-serif" font-size="40" font-weight="800">×</text>
+  <!-- A -->
+  <g>
+    <circle cx="648" cy="190" r="62" fill="#568a35" stroke="#7cb15a" stroke-width="3"/>
+    <text x="648" y="180" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="40" font-weight="800">A</text>
+    <text x="648" y="208" text-anchor="middle" fill="#e7f3dd" font-family="sans-serif" font-size="15" font-weight="700">행동</text>
+  </g>
+
+  <text x="410" y="312" text-anchor="middle" fill="#cfe0f2" font-family="sans-serif" font-size="16" font-weight="600">하나라도 0이면 전체가 0 — 믿음·생각·행동이 함께 곱해질 때 성공이 됩니다</text>
+</svg>

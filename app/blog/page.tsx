@@ -24,10 +24,18 @@ export default function BlogPage() {
             <Link
               key={p.slug}
               href={`/blog/${p.slug}`}
-              className="group flex flex-col rounded-2xl border border-black/5 bg-[#fafbfc] p-6 transition hover:border-brand/30 hover:shadow-md"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-black/5 bg-[#fafbfc] transition hover:border-brand/30 hover:shadow-md"
             >
-              <div className="text-3xl">{p.emoji}</div>
-              <div className="mt-4 flex items-center gap-2 text-xs font-bold text-brand">
+              {p.cover ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={p.cover} alt={p.title} className="aspect-[2/1] w-full object-cover" />
+              ) : (
+                <div className="flex aspect-[2/1] w-full items-center justify-center bg-gradient-to-br from-[#0e2746] to-[#105d9e] text-5xl">
+                  {p.emoji}
+                </div>
+              )}
+              <div className="flex flex-1 flex-col p-6">
+              <div className="flex items-center gap-2 text-xs font-bold text-brand">
                 <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
                 <span className="text-navy/40">· {p.readMinutes}분</span>
               </div>
@@ -36,6 +44,7 @@ export default function BlogPage() {
               </h2>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
               <span className="mt-4 text-sm font-bold text-brand">읽기 →</span>
+              </div>
             </Link>
           ))}
         </div>

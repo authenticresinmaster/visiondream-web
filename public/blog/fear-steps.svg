@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" role="img" aria-label="두려움 해체기: 큰 두려움을 작은 한 걸음으로 분해하는 흐름">
+  <rect width="820" height="380" rx="20" fill="#fff7ed"/>
+  <text x="410" y="48" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">두려움 해체기 — 큰 두려움을 작은 한 걸음으로</text>
+
+  <!-- big fear -->
+  <g>
+    <rect x="70" y="120" width="200" height="140" rx="18" fill="#1a2332"/>
+    <text x="170" y="180" text-anchor="middle" fill="#ff8a8a" font-family="sans-serif" font-size="40">🦁</text>
+    <text x="170" y="220" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="800">막연한 두려움</text>
+    <text x="170" y="244" text-anchor="middle" fill="#b9c4d6" font-family="sans-serif" font-size="13">"발표가 무섭다"</text>
+  </g>
+
+  <defs>
+    <marker id="arr2" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto">
+      <path d="M0,0 L10,6 L0,12 Z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+  <line x1="280" y1="190" x2="345" y2="190" stroke="#f59e0b" stroke-width="4" marker-end="url(#arr2)"/>
+
+  <!-- small steps -->
+  <g font-family="sans-serif">
+    <rect x="360" y="92" width="390" height="48" rx="12" fill="#ffffff" stroke="#f0d6a8"/>
+    <text x="384" y="121" fill="#568a35" font-size="20">①</text>
+    <text x="410" y="122" fill="#1a2332" font-size="15" font-weight="700">대본 3줄만 써보기 · 5분</text>
+
+    <rect x="360" y="152" width="390" height="48" rx="12" fill="#ffffff" stroke="#f0d6a8"/>
+    <text x="384" y="181" fill="#568a35" font-size="20">②</text>
+    <text x="410" y="182" fill="#1a2332" font-size="15" font-weight="700">거울 앞에서 한 번 말해보기 · 10분</text>
+
+    <rect x="360" y="212" width="390" height="48" rx="12" fill="#ffffff" stroke="#f0d6a8"/>
+    <text x="384" y="241" fill="#568a35" font-size="20">③</text>
+    <text x="410" y="242" fill="#1a2332" font-size="15" font-weight="700">친구 1명 앞에서 발표 연습</text>
+  </g>
+
+  <text x="410" y="318" text-anchor="middle" fill="#92400e" font-family="sans-serif" font-size="14" font-weight="700">감당 가능한 크기로 쪼개면, 두려움은 '오늘 할 수 있는 일'이 됩니다</text>
+  <text x="410" y="346" text-anchor="middle" fill="#a16207" font-family="sans-serif" font-size="13">→ 각 단계를 내 꿈·목표에 연결해 계획·습관으로 반영</text>
+</svg>

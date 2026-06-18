@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" role="img" aria-label="비전에서 꿈, 목표, 계획, 습관으로 이어지는 연결 흐름">
+  <rect width="820" height="360" rx="20" fill="#ffffff" stroke="#e6edf5"/>
+  <text x="410" y="50" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">하나로 연결되는 비전관리</text>
+
+  <defs>
+    <marker id="a3" markerWidth="11" markerHeight="11" refX="7" refY="5.5" orient="auto">
+      <path d="M0,0 L9,5.5 L0,11 Z" fill="#9bb4cf"/>
+    </marker>
+  </defs>
+
+  <g font-family="sans-serif" text-anchor="middle">
+    <!-- vision -->
+    <rect x="40" y="150" width="120" height="70" rx="14" fill="#1a2332"/>
+    <text x="100" y="186" fill="#ffd700" font-size="22">🌳</text>
+    <text x="100" y="208" fill="#fff" font-size="15" font-weight="800">비전</text>
+    <line x1="162" y1="185" x2="196" y2="185" stroke="#9bb4cf" stroke-width="2.5" marker-end="url(#a3)"/>
+
+    <rect x="198" y="150" width="120" height="70" rx="14" fill="#105d9e"/>
+    <text x="258" y="186" fill="#fff" font-size="20">🌙</text>
+    <text x="258" y="208" fill="#fff" font-size="15" font-weight="800">꿈</text>
+    <line x1="320" y1="185" x2="354" y2="185" stroke="#9bb4cf" stroke-width="2.5" marker-end="url(#a3)"/>
+
+    <rect x="356" y="150" width="120" height="70" rx="14" fill="#439ae3"/>
+    <text x="416" y="186" fill="#fff" font-size="20">🎯</text>
+    <text x="416" y="208" fill="#fff" font-size="15" font-weight="800">목표</text>
+    <line x1="478" y1="185" x2="512" y2="185" stroke="#9bb4cf" stroke-width="2.5" marker-end="url(#a3)"/>
+
+    <rect x="514" y="150" width="120" height="70" rx="14" fill="#7cb15a"/>
+    <text x="574" y="186" fill="#fff" font-size="20">📅</text>
+    <text x="574" y="208" fill="#fff" font-size="15" font-weight="800">계획</text>
+    <line x1="636" y1="185" x2="670" y2="185" stroke="#9bb4cf" stroke-width="2.5" marker-end="url(#a3)"/>
+
+    <rect x="672" y="150" width="108" height="70" rx="14" fill="#568a35"/>
+    <text x="726" y="186" fill="#fff" font-size="20">✅</text>
+    <text x="726" y="208" fill="#fff" font-size="15" font-weight="800">습관</text>
+  </g>
+
+  <text x="410" y="285" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="14" font-weight="600">막연한 비전이 매일 체크하는 습관까지 끊김 없이 이어집니다</text>
+  <text x="410" y="312" text-anchor="middle" fill="#9aa7b8" font-family="sans-serif" font-size="13">실천할수록 '성공의 나무'에 열매가 열립니다</text>
+</svg>
