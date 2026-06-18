@@ -38,6 +38,8 @@ export function PageShell({ children }: { children: React.ReactNode }) {
             <Link href="/blog" className="hover:text-brand">블로그</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
+            <Link href="/faq" className="hover:text-brand">FAQ</Link>
+            <Link href="/about" className="hover:text-brand">이야기</Link>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">개인정보처리방침</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">이용약관</a>
           </nav>

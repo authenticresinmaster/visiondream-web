@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
+import { getAllPosts } from "@/lib/posts";
 
 const APP_URL = "https://app.visiondream.kr";
 
@@ -29,10 +31,12 @@ export default function Home() {
             <span className="text-lg font-extrabold text-navy">서우 비전드림</span>
           </div>
           <nav className="hidden items-center gap-6 text-sm font-semibold text-navy/70 md:flex">
-            <a href="#features" className="hover:text-brand">기능</a>
-            <a href="#method" className="hover:text-brand">S=BTA</a>
-            <a href="#ebook" className="hover:text-brand">전자책</a>
-            <a href="#download" className="hover:text-brand">다운로드</a>
+            <Link href="/features" className="hover:text-brand">기능</Link>
+            <Link href="/method" className="hover:text-brand">S=BTA</Link>
+            <Link href="/blog" className="hover:text-brand">블로그</Link>
+            <Link href="/pricing" className="hover:text-brand">요금제</Link>
+            <Link href="/for-coaches" className="hover:text-brand">강사</Link>
+            <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
           </nav>
           <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
             앱 시작하기
@@ -155,6 +159,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 최신 블로그 */}
+      <section className="bg-[#f5f8fb] px-5 py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="flex items-end justify-between">
+            <div>
+              <p className="text-sm font-bold text-brand">인사이트</p>
+              <h2 className="mt-2 text-2xl font-black text-navy md:text-3xl">비전을 행동으로 잇는 글</h2>
+            </div>
+            <Link href="/blog" className="hidden text-sm font-bold text-brand hover:underline sm:block">
+              전체 보기 →
+            </Link>
+          </div>
+          <div className="mt-10 grid gap-5 sm:grid-cols-3">
+            {getAllPosts().slice(0, 3).map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="group flex flex-col rounded-2xl border border-black/5 bg-white p-6 transition hover:border-brand/30 hover:shadow-md"
+              >
+                <div className="text-3xl">{p.emoji}</div>
+                <div className="mt-3 flex items-center gap-2 text-xs font-bold text-brand">
+                  <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
+                  <span className="text-navy/40">· {p.readMinutes}분</span>
+                </div>
+                <h3 className="mt-3 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{p.title}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 text-center sm:hidden">
+            <Link href="/blog" className="text-sm font-bold text-brand hover:underline">전체 글 보기 →</Link>
+          </div>
+        </div>
+      </section>
+
       {/* 푸터 */}
       <footer className="border-t border-black/5 bg-[#fafbfc] px-5 py-10">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-sm text-navy/50 md:flex-row">
@@ -163,10 +202,14 @@ export default function Home() {
             <p className="mt-1 text-xs">S = 믿음 × 생각 × 행동</p>
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-4">
+            <Link href="/features" className="hover:text-brand">기능</Link>
+            <Link href="/blog" className="hover:text-brand">블로그</Link>
+            <Link href="/pricing" className="hover:text-brand">요금제</Link>
+            <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
+            <Link href="/faq" className="hover:text-brand">FAQ</Link>
+            <Link href="/about" className="hover:text-brand">이야기</Link>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">개인정보처리방침</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">이용약관</a>
-            <a href="#ebook" className="hover:text-brand">전자책</a>
-            <a href={APP_URL} className="hover:text-brand">앱</a>
           </nav>
         </div>
         <p className="mt-6 text-center text-xs text-navy/30">© 2026 서우 비전드림. All rights reserved.</p>

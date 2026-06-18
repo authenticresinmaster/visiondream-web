@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/posts";
 const SITE = "https://visiondream.kr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/features", "/method", "/pricing", "/for-coaches", "/for-teams", "/blog"];
+  const routes = ["", "/features", "/method", "/pricing", "/for-coaches", "/for-teams", "/blog", "/faq", "/about"];
   const staticEntries: MetadataRoute.Sitemap = routes.map((path) => ({
     url: `${SITE}${path}`,
     lastModified: new Date("2026-06-18"),
