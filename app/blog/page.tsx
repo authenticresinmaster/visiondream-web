@@ -6,7 +6,7 @@ import { getAllPosts } from "@/lib/posts";
 export const metadata: Metadata = {
   title: "블로그 — 비전·목표·습관 인사이트",
   description:
-    "성공법칙 S=BTA, 비전보드 작성법, 습관 설계까지. 비전을 행동으로 잇는 실천 인사이트를 전합니다.",
+    "성공법칙 성공(S)=믿음(B)×생각(T)×행동(A), 비전보드 작성법, 습관 설계까지. 비전을 행동으로 잇는 실천 인사이트를 전합니다.",
 };
 
 export default function BlogPage() {

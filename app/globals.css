@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* 비전드림 브랜드 토큰 (S = 믿음 × 생각 × 행동) */
+/* 비전드림 브랜드 토큰 (성공(S) = 믿음(B) × 생각(T) × 행동(A)) */
 @theme {
   --color-navy: #1a2332;
   --color-brand: #105d9e;

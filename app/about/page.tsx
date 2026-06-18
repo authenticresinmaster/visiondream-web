@@ -4,7 +4,7 @@ import { PageShell, PageHero } from "@/components/PageShell";
 export const metadata: Metadata = {
   title: "이야기 — 서우 비전드림",
   description:
-    "비전드림은 '비전을 심으면 반드시 열매가 열린다'는 믿음에서 시작했습니다. 성공법칙 S=BTA와 비전드림이 추구하는 가치를 소개합니다.",
+    "비전드림은 '비전을 심으면 반드시 열매가 열린다'는 믿음에서 시작했습니다. 성공법칙 성공(S)=믿음(B)×생각(T)×행동(A)와 비전드림이 추구하는 가치를 소개합니다.",
 };
 
 export default function AboutPage() {
@@ -31,7 +31,7 @@ export default function AboutPage() {
 
           <div className="rounded-2xl bg-[#f5f8fb] p-7">
             <h2 className="text-xl font-black text-navy md:text-2xl">우리가 믿는 성공법칙</h2>
-            <p className="mt-3 text-lg font-extrabold text-brand">S = 믿음(B) × 생각(T) × 행동(A)</p>
+            <p className="mt-3 text-lg font-extrabold text-brand">성공(S) = 믿음(B) × 생각(T) × 행동(A)</p>
             <p className="mt-3 leading-[1.9] text-navy/70">
               성공은 더하기가 아니라 곱하기입니다. 강한 믿음과 좋은 계획이 있어도
               행동하지 않으면 결과는 0입니다. 세 가지가 함께 곱해질 때 비로소

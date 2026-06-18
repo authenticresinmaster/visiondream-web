@@ -3,6 +3,7 @@ import { EbookForm } from "@/components/EbookForm";
 import { getAllPosts } from "@/lib/posts";
 
 const APP_URL = "https://app.visiondream.kr";
+const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 
 const STEPS = [
   { n: "1", t: "비전", d: "되고 싶은 궁극의 나를 선언" },
@@ -30,13 +31,15 @@ export default function Home() {
             <span className="text-xl">🌳</span>
             <span className="text-lg font-extrabold text-navy">서우 비전드림</span>
           </div>
-          <nav className="hidden items-center gap-6 text-sm font-semibold text-navy/70 md:flex">
+          <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
             <Link href="/features" className="hover:text-brand">기능</Link>
-            <Link href="/method" className="hover:text-brand">S=BTA</Link>
+            <Link href="/method" className="hover:text-brand">성공법칙</Link>
             <Link href="/blog" className="hover:text-brand">블로그</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
             <Link href="/for-coaches" className="hover:text-brand">강사</Link>
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
+            <Link href="/faq" className="hover:text-brand">FAQ</Link>
+            <Link href="/about" className="hover:text-brand">이야기</Link>
           </nav>
           <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
             앱 시작하기
@@ -48,13 +51,13 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-[#0e2746] to-[#105d9e] px-5 py-20 text-center text-white md:py-28">
         <div className="mx-auto max-w-3xl animate-fade-up">
           <div className="mb-5 inline-block rounded-full bg-amber px-4 py-1.5 text-sm font-extrabold text-navy">
-            S = B × T × A
+            성공(S) = 믿음(B) × 생각(T) × 행동(A)
           </div>
           <h1 className="text-3xl font-black leading-tight md:text-5xl">
             비전을 심으면,<br />반드시 열매가 열립니다 🌱
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-base text-white/80 md:text-lg">
-            성공 = 믿음(B) × 생각(T) × 행동(A).<br />
+            성공(S) = 믿음(B) × 생각(T) × 행동(A).<br />
             비전·꿈·목표·습관을 하나로 연결하고, AI가 미래에서 오늘 할 일까지 설계합니다.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
@@ -134,7 +137,7 @@ export default function Home() {
               왜 나는 안 되고,<br />저 사람은 되는가?
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-white/70">
-              성공법칙 S=BTA와 비전관리 프로세스를 담은 전자책을 무료로 받아보세요.
+              성공법칙 성공(S)=믿음(B)×생각(T)×행동(A)과 비전관리 프로세스를 담은 전자책을 무료로 받아보세요.
               이메일로 바로 보내드립니다.
             </p>
           </div>
@@ -194,12 +197,32 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 커뮤니티 */}
+      <section className="bg-white px-5 py-20">
+        <div className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-[#5865F2] to-[#404EED] p-10 text-center text-white">
+          <div className="text-5xl">💬</div>
+          <h2 className="mt-4 text-2xl font-black md:text-3xl">함께 비전을 키우는 커뮤니티</h2>
+          <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-white/80">
+            디스코드에서 다른 사용자들과 목표를 나누고, 서로 응원하며 함께 실천하세요.
+            팁·업데이트 소식도 가장 먼저 받아볼 수 있어요.
+          </p>
+          <a
+            href={DISCORD_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block rounded-xl bg-white px-8 py-3.5 font-extrabold text-[#404EED] transition hover:brightness-95"
+          >
+            디스코드 커뮤니티 참여하기 →
+          </a>
+        </div>
+      </section>
+
       {/* 푸터 */}
       <footer className="border-t border-black/5 bg-[#fafbfc] px-5 py-10">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-sm text-navy/50 md:flex-row">
           <div>
             <div className="flex items-center gap-2 font-extrabold text-navy">🌳 서우 비전드림</div>
-            <p className="mt-1 text-xs">S = 믿음 × 생각 × 행동</p>
+            <p className="mt-1 text-xs">성공(S) = 믿음(B) × 생각(T) × 행동(A)</p>
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/features" className="hover:text-brand">기능</Link>
@@ -208,6 +231,7 @@ export default function Home() {
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
             <Link href="/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/about" className="hover:text-brand">이야기</Link>
+            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-brand">커뮤니티</a>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">개인정보처리방침</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">이용약관</a>
           </nav>

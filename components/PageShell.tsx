@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const APP_URL = "https://app.visiondream.kr";
+const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 
 export function PageShell({ children }: { children: React.ReactNode }) {
   return (
@@ -11,13 +12,15 @@ export function PageShell({ children }: { children: React.ReactNode }) {
             <span className="text-xl">🌳</span>
             <span className="text-lg font-extrabold text-navy">서우 비전드림</span>
           </Link>
-          <nav className="hidden items-center gap-6 text-sm font-semibold text-navy/70 md:flex">
+          <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
             <Link href="/features" className="hover:text-brand">기능</Link>
-            <Link href="/method" className="hover:text-brand">S=BTA</Link>
+            <Link href="/method" className="hover:text-brand">성공법칙</Link>
             <Link href="/blog" className="hover:text-brand">블로그</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
             <Link href="/for-coaches" className="hover:text-brand">강사</Link>
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
+            <Link href="/faq" className="hover:text-brand">FAQ</Link>
+            <Link href="/about" className="hover:text-brand">이야기</Link>
           </nav>
           <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
             앱 시작하기
@@ -31,7 +34,7 @@ export function PageShell({ children }: { children: React.ReactNode }) {
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-sm text-navy/50 md:flex-row">
           <div>
             <div className="flex items-center gap-2 font-extrabold text-navy">🌳 서우 비전드림</div>
-            <p className="mt-1 text-xs">S = 믿음 × 생각 × 행동</p>
+            <p className="mt-1 text-xs">성공(S) = 믿음(B) × 생각(T) × 행동(A)</p>
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/features" className="hover:text-brand">기능</Link>
@@ -40,6 +43,7 @@ export function PageShell({ children }: { children: React.ReactNode }) {
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
             <Link href="/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/about" className="hover:text-brand">이야기</Link>
+            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-brand">커뮤니티</a>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">개인정보처리방침</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">이용약관</a>
           </nav>

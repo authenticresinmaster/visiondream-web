@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
 
 export const metadata: Metadata = {
-  title: "성공법칙 S = B × T × A",
+  title: "성공법칙 — 성공(S) = 믿음(B) × 생각(T) × 행동(A)",
   description: "서우의 성공법칙: 성공(S)은 믿음(B) × 생각(T) × 행동(A)의 곱이다. 비전관리 프로세스로 미래를 오늘의 행동으로 연결하는 방법.",
 };
 
@@ -16,12 +16,18 @@ export default function MethodPage() {
   return (
     <PageShell>
       <PageHero
-        badge="S = B × T × A"
+        badge="성공(S) = 믿음(B) × 생각(T) × 행동(A)"
         title="성공은 더하기가 아니라 곱하기입니다"
         sub="하나라도 0이면 전체가 0. 믿음·생각·행동이 함께 곱해질 때 성공이 됩니다."
       />
       <section className="bg-white px-5 py-16">
         <div className="mx-auto max-w-3xl">
+          <div className="mb-10 rounded-2xl bg-[#f5f8fb] p-6 text-center">
+            <p className="text-lg font-black text-navy md:text-xl">
+              <span className="text-amber">성공(S)</span> = 믿음(B) <span className="text-navy/40">×</span> 생각(T) <span className="text-navy/40">×</span> 행동(A)
+            </p>
+            <p className="mt-2 text-sm text-navy/60">성공(S)은 믿음(B)·생각(T)·행동(A) 세 가지의 곱입니다</p>
+          </div>
           <div className="grid gap-5 sm:grid-cols-3">
             {BTA.map((x) => (
               <div key={x.k} className="rounded-2xl border border-black/5 bg-[#fafbfc] p-6 text-center">
