@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
+  path: "/features",
   title: "기능",
   description: "비전보드·플래너·습관 트래커·AI 코치·두려움 해체기·꿈 역설계까지, 비전을 행동으로 연결하는 모든 기능.",
-};
+});
 
 const GROUPS = [
   {
@@ -35,7 +36,7 @@ const GROUPS = [
 
 export default function FeaturesPage() {
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "기능", path: "/features" }}>
       <PageHero
         badge="FEATURES"
         title="하나의 앱, 완전한 연결"

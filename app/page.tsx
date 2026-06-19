@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { getAllPosts } from "@/lib/posts";
+import { JsonLd } from "@/components/JsonLd";
+import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
@@ -24,6 +26,7 @@ const FEATURES = [
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
+      <JsonLd data={[softwareApplicationSchema, homeFaqSchema]} />
       {/* 헤더 */}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">

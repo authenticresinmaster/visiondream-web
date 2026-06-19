@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "jose": "^6.2.3",
     "next": "^15.1.6",
+    "postgres": "^3.4.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1"
+    "recharts": "^3.8.1",
+    "remark-gfm": "^4.0.1",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",

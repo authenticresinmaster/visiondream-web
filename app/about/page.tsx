@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "이야기 — 서우 비전드림",
+export const metadata = pageMeta({
+  path: "/about",
+  title: "이야기",
   description:
     "비전드림은 '비전을 심으면 반드시 열매가 열린다'는 믿음에서 시작했습니다. 성공법칙 성공(S)=믿음(B)×생각(T)×행동(A)와 비전드림이 추구하는 가치를 소개합니다.",
-};
+});
 
 export default function AboutPage() {
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "이야기", path: "/about" }}>
       <PageHero
         badge="OUR STORY"
         title="비전을 심으면, 반드시 열매가 열립니다"

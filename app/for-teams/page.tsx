@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
+  path: "/for-teams",
   title: "기관·팀 도입",
   description:
     "학교·기관·기업·교회를 위한 비전드림 팀 플랜. 조직 단위 비전 관리, 익명 성장 리포트, 멘토 관리, 관리자→멘토→멘티 권한 운영.",
-};
+});
 
 const VALUE = [
   ["🏢 조직 단위 도입", "팀·학급·부서·소그룹 단위로 구성원을 초대하고 한곳에서 관리합니다."],
@@ -25,7 +26,7 @@ const USECASES = [
 
 export default function ForTeamsPage() {
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "기관·팀", path: "/for-teams" }}>
       <PageHero
         badge="FOR TEAMS & ORGANIZATIONS"
         title="조직의 비전을, 구성원의 매일로"

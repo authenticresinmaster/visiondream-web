@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
+  path: "/pricing",
   title: "요금제",
   description: "무료로 시작하세요. 프리미엄으로 AI 기능과 무제한 꿈·목표를, 팀 플랜으로 조직·기관 관리를.",
-};
+});
 
 type Plan = {
   name: string; price: string; per: string; highlight: boolean;
@@ -31,7 +32,7 @@ const PLANS: Plan[] = [
 
 export default function PricingPage() {
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "요금제", path: "/pricing" }}>
       <PageHero badge="PRICING" title="무료로 시작, 필요할 때 업그레이드" sub="추천코드로 가입하면 프리미엄 무료 혜택도 받을 수 있어요." />
       <section className="bg-white px-5 py-16">
         <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">

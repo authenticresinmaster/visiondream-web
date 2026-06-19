@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
+  path: "/for-coaches",
   title: "강사·컨설턴트·기관",
   description: "강사·컨설턴트·교사·청소년지도사·기관을 위한 비전드림. 멘티 성장 관리, 추천 보상, 조직 성장 리포트.",
-};
+});
 
 const COACH = [
   ["🎓 멘티 성장 관리", "멘티의 비전·목표·습관 달성을 (동의 기반) 한눈에 보고 코칭하세요."],
@@ -19,7 +20,7 @@ const TEAM = [
 
 export default function ForCoachesPage() {
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "강사·컨설턴트", path: "/for-coaches" }}>
       <PageHero
         badge="FOR COACHES & TEAMS"
         title="혼자가 아니라, 함께 성장시키세요"

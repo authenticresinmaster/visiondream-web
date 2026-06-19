@@ -1,11 +1,20 @@
 import Link from "next/link";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbLd } from "@/lib/seo";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 
-export function PageShell({ children }: { children: React.ReactNode }) {
+export function PageShell({
+  children,
+  crumb,
+}: {
+  children: React.ReactNode;
+  crumb?: { name: string; path: string };
+}) {
   return (
     <main className="overflow-x-hidden">
+      {crumb && <JsonLd data={breadcrumbLd(crumb)} />}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
           <Link href="/" className="flex items-center gap-2">

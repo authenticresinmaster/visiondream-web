@@ -18,14 +18,26 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return { title: "글을 찾을 수 없습니다" };
+  const url = `/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.description,
+    alternates: { canonical: url },
     openGraph: {
       title: post.title,
       description: post.description,
       type: "article",
+      url,
+      siteName: "서우 비전드림",
       publishedTime: post.date,
+      modifiedTime: post.updated ?? post.date,
+      images: ["/og.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: ["/og.png"],
     },
   };
 }

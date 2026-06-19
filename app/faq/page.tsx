@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
+  path: "/faq",
   title: "자주 묻는 질문",
   description:
     "비전드림 요금·기능·데이터·팀 플랜·지원 플랫폼에 대해 자주 묻는 질문과 답변을 모았습니다.",
-};
+});
 
 const FAQ: { q: string; a: string }[] = [
   {
@@ -54,7 +55,7 @@ export default function FaqPage() {
   };
 
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "FAQ", path: "/faq" }}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

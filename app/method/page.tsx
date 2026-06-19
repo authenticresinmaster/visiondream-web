@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import { PageShell, PageHero } from "@/components/PageShell";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = pageMeta({
+  path: "/method",
   title: "성공법칙 — 성공(S) = 믿음(B) × 생각(T) × 행동(A)",
   description: "서우의 성공법칙: 성공(S)은 믿음(B) × 생각(T) × 행동(A)의 곱이다. 비전관리 프로세스로 미래를 오늘의 행동으로 연결하는 방법.",
-};
+});
 
 const BTA = [
   { k: "B", w: "믿음 (Belief)", c: "#105d9e", d: "'나는 된다'는 확신. 비전이 흔들리지 않게 잡아주는 뿌리입니다." },
@@ -14,7 +15,7 @@ const BTA = [
 
 export default function MethodPage() {
   return (
-    <PageShell>
+    <PageShell crumb={{ name: "성공법칙", path: "/method" }}>
       <PageHero
         badge="성공(S) = 믿음(B) × 생각(T) × 행동(A)"
         title="성공은 더하기가 아니라 곱하기입니다"
