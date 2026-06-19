@@ -24,16 +24,16 @@
 - 무료: 비전보드·꿈·목표·플래너·습관 트래커·성공의 나무 등 핵심 기능 무료.
 - 프리미엄: 월 ₩9,900(연 ₩99,000). AI 기능 전체, 두려움 해체기·꿈 역설계, 고급 통계, 꿈 50·목표 100 확장 포함.
 
-## 바로가기
+## 핵심 페이지
 
-- 웹앱: https://app.visiondream.kr
-- 기능: https://visiondream.kr/features
-- 성공법칙: https://visiondream.kr/method
-- 요금제: https://visiondream.kr/pricing
-- 강사·컨설턴트: https://visiondream.kr/for-coaches
-- 기관·팀: https://visiondream.kr/for-teams
-- 자주 묻는 질문: https://visiondream.kr/faq
-- 이야기/소개: https://visiondream.kr/about
+- [웹앱 바로가기](https://app.visiondream.kr): 가입·로그인 후 비전관리 시작 (Android·iOS·웹)
+- [기능](https://visiondream.kr/features): 비전보드·플래너·습관 트래커·AI 코치·두려움 해체기·꿈 역설계 전체 기능
+- [성공법칙](https://visiondream.kr/method): 성공(S) = 믿음(B) × 생각(T) × 행동(A) 상세 설명
+- [요금제](https://visiondream.kr/pricing): 무료 · 프리미엄(월 ₩9,900) · 팀/기관 플랜
+- [강사·컨설턴트](https://visiondream.kr/for-coaches): 멘티 성장 관리·추천 보상
+- [기관·팀 도입](https://visiondream.kr/for-teams): 학교·기업·교회·소그룹 단체 도입
+- [자주 묻는 질문](https://visiondream.kr/faq): 요금·기능·데이터·팀 운영 FAQ
+- [이야기·소개](https://visiondream.kr/about): 비전드림의 시작과 가치
 
 ## 블로그 (인사이트)
 
