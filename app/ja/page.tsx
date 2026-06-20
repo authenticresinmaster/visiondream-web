@@ -190,7 +190,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-3">
-            {getAllPosts().slice(0, 3).map((p) => (
+            {getAllPosts("ja").slice(0, 3).map((p) => (
               <Link
                 key={p.slug}
                 href={`/ja/blog/${p.slug}`}

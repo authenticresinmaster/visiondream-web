@@ -5,8 +5,7 @@ const SITE = "https://visiondream.kr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/features", "/method", "/pricing", "/for-coaches", "/for-teams", "/blog", "/faq", "/about"];
-  // 영어·일본어는 블로그 제외(글 본문 다국어는 추후)
-  const intlRoutes = ["", "/features", "/method", "/pricing", "/for-coaches", "/for-teams", "/faq", "/about"];
+  const intlRoutes = ["", "/features", "/method", "/pricing", "/for-coaches", "/for-teams", "/blog", "/faq", "/about"];
   const entry = (path: string): MetadataRoute.Sitemap[number] => ({
     url: `${SITE}${path}`,
     lastModified: new Date("2026-06-20"),
@@ -19,12 +18,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...intlRoutes.map((p) => entry(`/ja${p}`)),
   ];
 
-  const postEntries: MetadataRoute.Sitemap = getAllPosts().map((p) => ({
-    url: `${SITE}/blog/${p.slug}`,
+  const postEntry = (prefix: string) => (p: { slug: string; date: string }): MetadataRoute.Sitemap[number] => ({
+    url: `${SITE}${prefix}/blog/${p.slug}`,
     lastModified: new Date(p.date),
     changeFrequency: "monthly",
     priority: 0.6,
-  }));
+  });
+  const postEntries: MetadataRoute.Sitemap = [
+    ...getAllPosts("ko").map(postEntry("")),
+    ...getAllPosts("en").map(postEntry("/en")),
+    ...getAllPosts("ja").map(postEntry("/ja")),
+  ];
 
   return [...staticEntries, ...postEntries];
 }

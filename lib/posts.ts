@@ -1,3 +1,9 @@
+import { en as backcastingEn, ja as backcastingJa } from "./blog-i18n/backcasting-goal-setting";
+import { en as fearEn, ja as fearJa } from "./blog-i18n/fear-deconstruction-overcome";
+import { en as successEn, ja as successJa } from "./blog-i18n/success-formula-bta";
+import { en as visionboardEn, ja as visionboardJa } from "./blog-i18n/vision-board-how-to";
+import { en as beatEn, ja as beatJa } from "./blog-i18n/beat-three-day-quitting";
+
 export type FaqItem = { q: string; a: string };
 
 export type Post = {
@@ -427,10 +433,17 @@ export const POSTS: Post[] = [
   },
 ];
 
-export function getAllPosts(): Post[] {
-  return [...POSTS].sort((a, b) => (a.date < b.date ? 1 : -1));
+/** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
+export const POSTS_EN: Post[] = [backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_JA: Post[] = [backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+
+export type PostLang = "ko" | "en" | "ja";
+const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
+
+export function getAllPosts(lang: PostLang = "ko"): Post[] {
+  return [...(BY_LANG[lang] ?? POSTS)].sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export function getPostBySlug(slug: string): Post | undefined {
-  return POSTS.find((p) => p.slug === slug);
+export function getPostBySlug(slug: string, lang: PostLang = "ko"): Post | undefined {
+  return (BY_LANG[lang] ?? POSTS).find((p) => p.slug === slug);
 }
