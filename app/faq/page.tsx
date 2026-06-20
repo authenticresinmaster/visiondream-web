@@ -84,7 +84,7 @@ export default function FaqPage() {
           <h2 className="text-xl font-black">더 궁금한 점이 있으신가요?</h2>
           <p className="mt-3 text-sm text-white/70">언제든 문의해 주시면 안내드리겠습니다.</p>
           <a
-            href="mailto:authenticresinmaster@gmail.com?subject=비전드림 문의"
+            href="/contact"
             className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy"
           >
             문의하기

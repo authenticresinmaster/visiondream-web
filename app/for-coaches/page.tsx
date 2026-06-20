@@ -53,7 +53,7 @@ export default function ForCoachesPage() {
           <div className="rounded-2xl bg-gradient-to-br from-[#1a2332] to-[#105d9e] p-8 text-center text-white">
             <h3 className="text-xl font-black">강사·기관으로 함께하시겠어요?</h3>
             <p className="mt-3 text-sm text-white/70">도입·제휴 문의를 남겨주시면 안내드리겠습니다.</p>
-            <a href="mailto:authenticresinmaster@gmail.com?subject=비전드림 강사/기관 문의" className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy">문의하기</a>
+            <a href="/contact?type=coach" className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy">문의하기</a>
           </div>
         </div>
       </section>

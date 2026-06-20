@@ -85,7 +85,7 @@ export default function FaqPage() {
           <h2 className="text-xl font-black">Still have questions?</h2>
           <p className="mt-3 text-sm text-white/70">Reach out anytime and we'll be happy to help.</p>
           <a
-            href="mailto:authenticresinmaster@gmail.com?subject=Vision Dream Inquiry"
+            href="/contact"
             className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy"
           >
             Contact Us

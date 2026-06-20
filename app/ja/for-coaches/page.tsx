@@ -54,7 +54,7 @@ export default function ForCoachesPage() {
           <div className="rounded-2xl bg-gradient-to-br from-[#1a2332] to-[#105d9e] p-8 text-center text-white">
             <h3 className="text-xl font-black">講師・団体として一緒に取り組みませんか？</h3>
             <p className="mt-3 text-sm text-white/70">導入・提携のお問い合わせをいただければ、ご案内いたします。</p>
-            <a href="mailto:authenticresinmaster@gmail.com?subject=ビジョンドリーム 講師・団体お問い合わせ" className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy">お問い合わせ</a>
+            <a href="/contact?type=coach" className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy">お問い合わせ</a>
           </div>
         </div>
       </section>

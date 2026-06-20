@@ -69,12 +69,11 @@ export default function ForTeamsPage() {
             Tell us your size and goals, and we'll guide you through a tailored rollout plan and quote. A pilot program is also available.
           </p>
           <a
-            href="mailto:authenticresinmaster@gmail.com?subject=Vision Dream Teams/Organizations Inquiry"
+            href="/contact?type=team"
             className="mt-6 inline-block rounded-xl bg-amber px-8 py-3.5 font-extrabold text-navy"
           >
             Get in touch
           </a>
-          <p className="mt-4 text-xs text-white/50">authenticresinmaster@gmail.com</p>
         </div>
       </section>
     </PageShell>

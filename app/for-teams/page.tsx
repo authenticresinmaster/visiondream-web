@@ -68,12 +68,11 @@ export default function ForTeamsPage() {
             규모·목표를 알려주시면 맞춤 도입 방안과 견적을 안내드립니다. 시범 운영(파일럿)도 가능합니다.
           </p>
           <a
-            href="mailto:authenticresinmaster@gmail.com?subject=비전드림 기관/팀 도입 문의"
+            href="/contact?type=team"
             className="mt-6 inline-block rounded-xl bg-amber px-8 py-3.5 font-extrabold text-navy"
           >
             도입 문의하기
           </a>
-          <p className="mt-4 text-xs text-white/50">authenticresinmaster@gmail.com</p>
         </div>
       </section>
     </PageShell>

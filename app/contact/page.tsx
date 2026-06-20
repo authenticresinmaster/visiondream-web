@@ -8,7 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://visiondream.kr/contact" },
 };
 
-export default function ContactPage() {
+export default async function ContactPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ type?: string }>;
+}) {
+  const { type } = await searchParams;
+  const defaultType = type === "coach" || type === "general" ? type : "team";
   return (
     <PageShell>
       <section className="bg-gradient-to-b from-[#0e2746] to-[#105d9e] px-5 py-16 text-center text-white">
@@ -21,7 +27,7 @@ export default function ContactPage() {
       </section>
       <section className="bg-[#F0F7FF] px-5 py-14">
         <div className="mx-auto max-w-xl">
-          <InquiryForm defaultType="team" />
+          <InquiryForm defaultType={defaultType} />
         </div>
       </section>
     </PageShell>
