@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
+import { InquiryForm } from "@/components/InquiryForm";
 import { getAllPosts } from "@/lib/posts";
 import { JsonLd } from "@/components/JsonLd";
 import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
@@ -223,6 +224,19 @@ export default function Home() {
           >
             디스코드 커뮤니티 참여하기 →
           </a>
+        </div>
+      </section>
+
+      {/* 도입 문의 */}
+      <section id="contact" className="bg-[#f5f8fb] px-5 py-20">
+        <div className="mx-auto max-w-xl">
+          <div className="mb-6 text-center">
+            <h2 className="text-2xl font-black text-navy md:text-3xl">기관·팀 도입 문의</h2>
+            <p className="mx-auto mt-3 max-w-md text-base text-navy/60">
+              기업·학교·교회·소그룹, 강사·코치를 위한 비전드림 도입을 도와드립니다. 남겨주시면 담당자가 연락드립니다.
+            </p>
+          </div>
+          <InquiryForm defaultType="team" />
         </div>
       </section>
 
