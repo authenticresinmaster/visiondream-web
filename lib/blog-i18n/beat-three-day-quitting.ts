@@ -9,7 +9,10 @@ export const en: Post = {
   category: "Habit",
   readMinutes: 5,
   emoji: "🔥",
+  cover: "/blog/habit-system.svg",
   body: `Making a decision is easy; sustaining it is hard. But the three-day resolution (작심삼일) doesn't happen because your willpower is weak. It happens because **your habit was never designed to last**.
+
+![Four principles to beat the three-day resolution: start small, stack on an existing habit, make it visible, connect to your vision](/blog/habit-system.svg)
 
 ## Four Principles That Make Habits Stick
 
@@ -45,7 +48,10 @@ export const ja: Post = {
   category: "習慣",
   readMinutes: 5,
   emoji: "🔥",
+  cover: "/blog/habit-system.svg",
   body: `決心は簡単で、継続は難しいものです。けれども三日坊主は、あなたの意志が弱いからではありません。**習慣が続くように設計されていないから**です。
+
+![三日坊主に打ち勝つ習慣の4原理：小さく始める → 既存の習慣に紐づける → 見えるようにする → ビジョンとつなぐ](/blog/habit-system.svg)
 
 ## 習慣を続けさせる4つの原理
 

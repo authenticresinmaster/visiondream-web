@@ -413,7 +413,10 @@ export const POSTS: Post[] = [
     category: "습관",
     readMinutes: 5,
     emoji: "🔥",
+    cover: "/blog/habit-system.svg",
     body: `결심은 쉽고 지속은 어렵습니다. 하지만 작심삼일은 당신의 의지가 약해서가 아닙니다. **습관이 지속되도록 설계되지 않았기 때문**입니다.
+
+![작심삼일을 이기는 습관 4원리: 작게 시작 → 기존 습관에 붙이기 → 보이게 만들기 → 비전과 연결](/blog/habit-system.svg)
 
 ## 습관을 지속시키는 4가지 원리
 
