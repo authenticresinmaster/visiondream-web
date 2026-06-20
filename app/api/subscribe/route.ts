@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
+import { subscribeContact } from "@/lib/marketing";
 
 /**
- * 전자책 신청 → ConvertKit 구독자 등록(여기 붙인 시퀀스가 자동 너처 발송).
+ * 전자책 신청 → ① 자체 마케팅(marketing.contacts + welcome 시퀀스) + ② ConvertKit(선택).
+ * 자체 엔진(앱 스케줄러)이 환영 시퀀스를 발송하므로 ConvertKit 없이도 동작.
  * 환경변수(Vercel):
  *   CONVERTKIT_API_KEY  (필수)
  *   CONVERTKIT_FORM_ID  (필수 — 이 폼에 시퀀스/오토메이션 연결)
@@ -20,6 +22,10 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "invalid email" }, { status: 400 });
     }
 
+    // ① 자체 마케팅 시스템 등록 + 환영 시퀀스 시작 (앱 스케줄러가 발송)
+    await subscribeContact({ email, name, source, consent: true });
+
+    // ② ConvertKit (선택 — 키 설정 시에만)
     const apiKey = process.env.CONVERTKIT_API_KEY;
     const formId = process.env.CONVERTKIT_FORM_ID;
     const tagId = process.env.CONVERTKIT_TAG_ID;

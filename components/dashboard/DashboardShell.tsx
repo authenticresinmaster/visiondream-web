@@ -12,6 +12,11 @@ const ROLE_LABEL: Record<UserRole, string> = {
 const NAV: Record<UserRole, { href: string; label: string }[]> = {
   admin: [
     { href: "/admin", label: "대시보드" },
+    { href: "/admin/journey", label: "고객여정" },
+    { href: "/admin/scoring", label: "스코어" },
+    { href: "/admin/retention", label: "리텐션" },
+    { href: "/admin/kpi", label: "KPI" },
+    { href: "/admin/campaigns", label: "캠페인" },
     { href: "/org", label: "조직" },
     { href: "/coach", label: "코치" },
     { href: "/my", label: "내 비전" },
