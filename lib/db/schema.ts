@@ -114,3 +114,44 @@ export const coupons = pgTable("coupons", {
 });
 
 export type Coupon = typeof coupons.$inferSelect;
+
+/** 추천코드 사용 기록 — 코치(coupons.ownerUserId)와 멘티(userId) 연결 */
+export const couponRedemptions = pgTable("coupon_redemptions", {
+  id: serial("id").primaryKey(),
+  couponId: integer("couponId").notNull(),
+  userId: integer("userId").notNull(),
+  rewardMonths: integer("rewardMonths"),
+  redeemedAt: timestamp("redeemedAt").defaultNow(),
+});
+
+export type CouponRedemption = typeof couponRedemptions.$inferSelect;
+
+/**
+ * 멘티가 (동의 시에만) 동기화하는 성장 데이터. 레코드 존재 자체가 공유 동의를 의미.
+ * 원문 비전은 키워드만, 나머지는 JSON + 집계 컬럼. 코치 대시보드 읽기 전용.
+ */
+export const userSyncedData = pgTable("user_synced_data", {
+  id: serial("id").primaryKey(),
+  userId: integer("userId").notNull(),
+  teamId: integer("teamId"),
+  visionStatement: text("visionStatement"),
+  visionMission: text("visionMission"),
+  visionCoreValues: text("visionCoreValues"),
+  dreamsJson: text("dreamsJson"),
+  dreamsCount: integer("dreamsCount"),
+  goalsJson: text("goalsJson"),
+  goalsCount: integer("goalsCount"),
+  goalsCompletedCount: integer("goalsCompletedCount"),
+  plansJson: text("plansJson"),
+  plansCount: integer("plansCount"),
+  plansCompletedCount: integer("plansCompletedCount"),
+  habitsJson: text("habitsJson"),
+  habitsCount: integer("habitsCount"),
+  level: integer("level"),
+  streak: integer("streak"),
+  fruitCount: integer("fruitCount"),
+  treeStage: varchar("treeStage", { length: 32 }),
+  syncedAt: timestamp("syncedAt").defaultNow(),
+});
+
+export type UserSyncedData = typeof userSyncedData.$inferSelect;
