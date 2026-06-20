@@ -16,6 +16,7 @@ const NAV: Record<UserRole, { href: string; label: string }[]> = {
     { href: "/admin/scoring", label: "스코어" },
     { href: "/admin/retention", label: "리텐션" },
     { href: "/admin/kpi", label: "KPI" },
+    { href: "/admin/testimonials", label: "사례" },
     { href: "/admin/campaigns", label: "캠페인" },
     { href: "/org", label: "조직" },
     { href: "/coach", label: "코치" },
