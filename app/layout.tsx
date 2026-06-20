@@ -37,6 +37,13 @@ export const metadata: Metadata = {
     images: ["/og.png"],
   },
   alternates: { canonical: SITE_URL },
+  verification: {
+    google: "eItK-LhzjH9F79uFVPmmAhOTQ_OK7DIJCYa6p9hv3-8",
+    other: {
+      "naver-site-verification": "3b758f8751c3b49f04a0591fb6fc58aeb9890eaa",
+      "msvalidate.01": "16D2C238DF1479E9A43213AA90676318",
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
