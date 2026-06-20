@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="지속되는 모닝루틴 4원리: 취침부터 설계 → 전날 밤 트리거 → 2분으로 시작 → 비전과 연결">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">지속되는 모닝루틴 4원리</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">새벽 기상은 의지가 아니라 '시스템'이 만든 결과</text>
+  <text x="120" y="118" text-anchor="middle" font-family="sans-serif" font-size="26">🌙</text>
+  <text x="760" y="118" text-anchor="middle" font-family="sans-serif" font-size="26">🌅</text>
+  <text x="120" y="140" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">밤(설계)</text>
+  <text x="760" y="140" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">아침(실행)</text>
+  <defs>
+    <marker id="mmA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="148" y1="220" x2="742" y2="220" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#mmA)"/>
+  <g>
+    <circle cx="140" cy="220" r="32" fill="#1a2332"/>
+    <text x="140" y="230" text-anchor="middle" font-family="sans-serif" font-size="24">🛏️</text>
+    <text x="140" y="282" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">① 취침부터 설계</text>
+    <text x="140" y="302" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">잠드는 시각 고정</text>
+  </g>
+  <g>
+    <circle cx="340" cy="220" r="32" fill="#105d9e"/>
+    <text x="340" y="230" text-anchor="middle" font-family="sans-serif" font-size="24">📝</text>
+    <text x="340" y="282" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">② 밤에 1줄 예약</text>
+    <text x="340" y="302" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">내일 첫 행동 적기</text>
+  </g>
+  <g>
+    <circle cx="540" cy="220" r="32" fill="#568a35"/>
+    <text x="540" y="230" text-anchor="middle" font-family="sans-serif" font-size="24">⏱️</text>
+    <text x="540" y="282" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">③ 2분으로 시작</text>
+    <text x="540" y="302" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">감당 가능한 한 걸음</text>
+  </g>
+  <g>
+    <circle cx="740" cy="220" r="32" fill="#d99a00"/>
+    <text x="740" y="230" text-anchor="middle" font-family="sans-serif" font-size="24">🎯</text>
+    <text x="740" y="282" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">④ 비전과 연결</text>
+    <text x="740" y="302" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">동기는 구조에서</text>
+  </g>
+  <text x="440" y="360" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="13">시간대(새벽 5시)보다 중요한 건 '연결과 작은 시작' — 야행성은 밤을 미라클타임으로</text>
+</svg>

@@ -3,6 +3,8 @@ import { en as fearEn, ja as fearJa } from "./blog-i18n/fear-deconstruction-over
 import { en as successEn, ja as successJa } from "./blog-i18n/success-formula-bta";
 import { en as visionboardEn, ja as visionboardJa } from "./blog-i18n/vision-board-how-to";
 import { en as beatEn, ja as beatJa } from "./blog-i18n/beat-three-day-quitting";
+import { en as newyearEn, ja as newyearJa } from "./blog-i18n/new-year-plan-system";
+import { en as miracleEn, ja as miracleJa } from "./blog-i18n/miracle-morning-system";
 
 export type FaqItem = { q: string; a: string };
 
@@ -31,6 +33,7 @@ export const POSTS: Post[] = [
     category: "목표 설정",
     readMinutes: 8,
     emoji: "🎯",
+    cover: "/blog/new-year-flow.svg",
     body: `신년 계획이 매년 1월 셋째 주면 사라지는 이유는 **의지가 약해서가 아니라, 계획에 '연결'이 없어서**입니다. 결심(새해 목표)과 오늘의 행동 사이가 비어 있으면 동기는 며칠 만에 증발합니다. 연간계획은 **비전 → 꿈 → 목표 → 습관**을 끊김 없이 이어 붙일 때 비로소 한 해를 끝까지 끌고 갑니다.
 
 > **핵심 요약**
@@ -38,6 +41,8 @@ export const POSTS: Post[] = [
 > - 큰 결심 1개보다 **비전→목표→이번 주 행동**으로 쪼갠 구조가 끝까지 간다
 > - 좋은 연간계획 = ① 비전 한 문장 ② 3~5개 핵심 목표 ③ 분기 마일스톤 ④ 주간 습관 ⑤ 회고 루프
 > - 비전드림은 이 5단계를 앱 하나에서 연결하고, AI가 미래에서 오늘 할 일까지 역설계해 준다
+
+![끝까지 가는 연간계획 5단계: 비전 → 핵심 목표 → 분기 마일스톤 → 주간 습관 → 분기 회고](/blog/new-year-flow.svg)
 
 ## 왜 신년 결심은 작심삼일이 되는가
 
@@ -92,6 +97,7 @@ export const POSTS: Post[] = [
     category: "습관",
     readMinutes: 7,
     emoji: "🌅",
+    cover: "/blog/morning-system.svg",
     body: `미라클모닝이 사흘 만에 무너지는 이유는 게을러서가 아니라, **'일찍 일어나기'라는 의지 하나에 모든 걸 걸기 때문**입니다. 새벽 기상은 결과지 원인이 아닙니다. 모닝루틴은 **기상을 떠받치는 시스템(잠·신호·작은 시작·연결)** 을 설계할 때만 지속됩니다.
 
 > **핵심 요약**
@@ -99,6 +105,8 @@ export const POSTS: Post[] = [
 > - 새벽 기상은 목표가 아니라 **취침·신호·환경**이 만든 결과
 > - 지속의 4원리: ① 취침부터 설계 ② 전날 밤 트리거 ③ 2분 시작 ④ 비전과 연결
 > - 비전드림 습관 트래커로 모닝루틴을 '꿈·목표와 연결'하면 동기가 매일 갱신된다
+
+![지속되는 모닝루틴 4원리: 취침부터 설계 → 전날 밤 트리거 → 2분으로 시작 → 비전과 연결](/blog/morning-system.svg)
 
 ## 미라클모닝은 왜 사흘을 못 넘기는가
 
@@ -434,8 +442,8 @@ export const POSTS: Post[] = [
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_EN: Post[] = [newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_JA: Post[] = [newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };

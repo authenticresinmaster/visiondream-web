@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 440" role="img" aria-label="끝까지 가는 연간계획 5단계: 비전 한 문장 → 핵심 목표 → 분기 마일스톤 → 주간 습관 → 분기 회고가 다시 비전으로 순환">
+  <rect width="940" height="440" rx="20" fill="#f5f8fb"/>
+  <text x="470" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">끝까지 가는 연간계획 5단계</text>
+  <text x="470" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">비전에서 출발해 → 회고로 다시 굴린다</text>
+  <defs>
+    <marker id="nyA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+    <marker id="nyG" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#d99a00"/></marker>
+  </defs>
+  <line x1="118" y1="200" x2="822" y2="200" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#nyA)"/>
+  <g>
+    <circle cx="110" cy="200" r="30" fill="#1a2332"/>
+    <text x="110" y="207" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">비전</text>
+    <text x="110" y="258" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">① 비전 한 문장</text>
+    <text x="110" y="278" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">올해 말 내 모습</text>
+  </g>
+  <g>
+    <circle cx="290" cy="200" r="30" fill="#105d9e"/>
+    <text x="290" y="207" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">목표</text>
+    <text x="290" y="258" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">② 핵심 목표 3~5</text>
+    <text x="290" y="278" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">가장 중요한 것만</text>
+  </g>
+  <g>
+    <circle cx="470" cy="200" r="30" fill="#439ae3"/>
+    <text x="470" y="207" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">분기</text>
+    <text x="470" y="258" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">③ 분기 마일스톤</text>
+    <text x="470" y="278" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">역설계로 쪼개기</text>
+  </g>
+  <g>
+    <circle cx="650" cy="200" r="30" fill="#568a35"/>
+    <text x="650" y="207" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">주간</text>
+    <text x="650" y="258" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">④ 주간 습관</text>
+    <text x="650" y="278" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">매주 반복 행동</text>
+  </g>
+  <g>
+    <circle cx="830" cy="200" r="30" fill="#d99a00"/>
+    <text x="830" y="207" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">회고</text>
+    <text x="830" y="258" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">⑤ 분기 회고</text>
+    <text x="830" y="278" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">조정하고 반복</text>
+  </g>
+  <path d="M830,300 C830,392 110,392 110,300" fill="none" stroke="#d99a00" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#nyG)"/>
+  <text x="470" y="372" text-anchor="middle" fill="#d99a00" font-family="sans-serif" font-size="13" font-weight="700">⑤ 회고가 다시 ①로 — 계획은 한 번이 아니라 굴리는 것</text>
+</svg>
