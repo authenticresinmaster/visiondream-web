@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbLd } from "@/lib/seo";
+import { AuthNav } from "@/components/AuthNav";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
@@ -32,9 +33,7 @@ export function PageShell({
             <Link href="/about" className="hover:text-brand">이야기</Link>
           </nav>
           <div className="flex items-center gap-3">
-            <Link href="/login" className="text-sm font-semibold text-navy/70 transition hover:text-brand">
-              로그인
-            </Link>
+            <AuthNav />
             <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
               앱 시작하기
             </a>
