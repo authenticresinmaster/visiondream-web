@@ -1,101 +1,107 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { getAllPosts } from "@/lib/posts";
-import { JsonLd } from "@/components/JsonLd";
-import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
+import { pageMeta } from "@/lib/seo";
+
+export const metadata = pageMeta({
+  lang: "en",
+  path: "/",
+  title: "Plant a vision, and fruit will surely grow",
+  description:
+    "Seowoo Vision Dream connects vision, dreams, goals, and habits into one. With Success(S) = Belief(B) × Thinking(T) × Action(A), AI designs everything from your future back to what to do today.",
+});
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 
 const STEPS = [
-  { n: "1", t: "비전", d: "되고 싶은 궁극의 나를 선언" },
-  { n: "2", t: "꿈", d: "영역별 인생 목표로 구체화" },
-  { n: "3", t: "목표", d: "측정 가능한 3개월 목표" },
-  { n: "4", t: "습관·계획", d: "오늘 할 일로 매일 실천" },
+  { n: "1", t: "Vision", d: "Declare the ultimate you that you want to become" },
+  { n: "2", t: "Dream", d: "Crystallize into life goals by area" },
+  { n: "3", t: "Goal", d: "Measurable 3-month goals" },
+  { n: "4", t: "Habits & Plans", d: "Practice every day with today's to-dos" },
 ];
 
 const FEATURES = [
-  { e: "🗂️", t: "비전보드", d: "비전·꿈을 시각화하고 한눈에 관리" },
-  { e: "📅", t: "플래너", d: "연·월·주·일 계획을 우선순위로" },
-  { e: "✅", t: "습관 트래커", d: "꿈·목표와 연계된 매일의 실천" },
-  { e: "🤖", t: "AI 코치", d: "비전·목표를 함께 다듬는 코칭" },
-  { e: "🦁", t: "두려움 해체기", d: "무서워서 못 하던 일을 작은 한 걸음으로" },
-  { e: "🛰️", t: "꿈 역설계", d: "원하는 미래에서 오늘 할 일까지 역산" },
+  { e: "🗂️", t: "Vision Board", d: "Visualize your vision and dreams, manage them at a glance" },
+  { e: "📅", t: "Planner", d: "Yearly, monthly, weekly, and daily plans by priority" },
+  { e: "✅", t: "Habit Tracker", d: "Daily practice linked to your dreams and goals" },
+  { e: "🤖", t: "AI Coach", d: "Coaching that refines your vision and goals together with you" },
+  { e: "🦁", t: "Fear Buster", d: "Turn the things you were too scared to do into one small step" },
+  { e: "🛰️", t: "Dream Backcasting", d: "Work backward from the future you want to today's to-dos" },
 ];
 
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-      <JsonLd data={[softwareApplicationSchema, homeFaqSchema]} />
-      {/* 헤더 */}
+      {/* Header */}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
           <div className="flex items-center gap-2">
             <span className="text-xl">🌳</span>
-            <span className="text-lg font-extrabold text-navy">서우 비전드림</span>
+            <span className="text-lg font-extrabold text-navy">Seowoo Vision Dream</span>
           </div>
           <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
-            <Link href="/features" className="hover:text-brand">기능</Link>
-            <Link href="/method" className="hover:text-brand">성공법칙</Link>
-            <Link href="/blog" className="hover:text-brand">블로그</Link>
-            <Link href="/pricing" className="hover:text-brand">요금제</Link>
-            <Link href="/for-coaches" className="hover:text-brand">강사</Link>
-            <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
-            <Link href="/faq" className="hover:text-brand">FAQ</Link>
-            <Link href="/about" className="hover:text-brand">이야기</Link>
+            <Link href="/en/features" className="hover:text-brand">Features</Link>
+            <Link href="/en/method" className="hover:text-brand">Success Formula</Link>
+            <Link href="/en/blog" className="hover:text-brand">Blog</Link>
+            <Link href="/en/pricing" className="hover:text-brand">Pricing</Link>
+            <Link href="/en/for-coaches" className="hover:text-brand">Coaches</Link>
+            <Link href="/en/for-teams" className="hover:text-brand">Organizations & Teams</Link>
+            <Link href="/en/faq" className="hover:text-brand">FAQ</Link>
+            <Link href="/en/about" className="hover:text-brand">Our Story</Link>
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitch />
             <AuthNav />
             <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
-              앱 시작하기
+              Open App
             </a>
           </div>
         </div>
       </header>
 
-      {/* 히어로 */}
+      {/* Hero */}
       <section className="relative bg-gradient-to-b from-[#0e2746] to-[#105d9e] px-5 py-20 text-center text-white md:py-28">
         <div className="mx-auto max-w-3xl animate-fade-up">
           <div className="mb-5 inline-block rounded-full bg-amber px-4 py-1.5 text-sm font-extrabold text-navy">
-            성공(S) = 믿음(B) × 생각(T) × 행동(A)
+            Success(S) = Belief(B) × Thinking(T) × Action(A)
           </div>
           <h1 className="text-3xl font-black leading-tight md:text-5xl">
-            비전을 심으면,<br />반드시 열매가 열립니다 🌱
+            Plant a vision,<br />and fruit will surely grow 🌱
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-base text-white/80 md:text-lg">
-            성공(S) = 믿음(B) × 생각(T) × 행동(A).<br />
-            비전·꿈·목표·습관을 하나로 연결하고, AI가 미래에서 오늘 할 일까지 설계합니다.
+            Success(S) = Belief(B) × Thinking(T) × Action(A).<br />
+            Connect vision, dreams, goals, and habits into one, and let AI design everything from your future to what to do today.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <a href={APP_URL} className="rounded-xl bg-amber px-7 py-3.5 text-base font-extrabold text-navy transition hover:brightness-105">
-              지금 무료로 시작 →
+              Start free now →
             </a>
             <a href="#ebook" className="rounded-xl border border-white/30 bg-white/10 px-7 py-3.5 text-base font-bold text-white transition hover:bg-white/20">
-              📚 무료 전자책 받기
+              📚 Get the free ebook
             </a>
           </div>
         </div>
       </section>
 
-      {/* 문제 제기 */}
+      {/* The Problem */}
       <section className="bg-white px-5 py-20 text-center">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-2xl font-black text-navy md:text-3xl">"왜 나는 안 되고, 저 사람은 되는가?"</h2>
+          <h2 className="text-2xl font-black text-navy md:text-3xl">"Why do they succeed when I can't?"</h2>
           <p className="mt-5 text-base leading-relaxed text-navy/70">
-            목표는 있는데 매일 무엇을 할지 막막하고, 결심은 작심삼일로 끝나죠.<br />
-            문제는 의지가 아니라 <strong className="text-brand">비전에서 오늘 행동까지 연결되는 시스템</strong>의 부재입니다.
+            You have goals, but each day you're unsure what to do, and your resolve fizzles out in three days.<br />
+            The problem isn't willpower — it's the absence of a <strong className="text-brand">system that connects your vision to today's action</strong>.
           </p>
         </div>
       </section>
 
-      {/* 솔루션 — 4단계 */}
+      {/* Solution — 4 Steps */}
       <section id="method" className="bg-[#f5f8fb] px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <p className="text-center text-sm font-bold text-brand">비전관리 프로세스</p>
-          <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">미래에서 오늘로, 거꾸로 설계합니다</h2>
+          <p className="text-center text-sm font-bold text-brand">The Vision Management Process</p>
+          <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">From the future to today, designed in reverse</h2>
           <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
             {STEPS.map((s) => (
               <div key={s.n} className="rounded-2xl bg-white p-6 text-center shadow-sm">
@@ -108,11 +114,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 핵심 기능 */}
+      {/* Core Features */}
       <section id="features" className="bg-white px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <h2 className="text-center text-2xl font-black text-navy md:text-3xl">하나의 앱, 완전한 연결</h2>
-          <p className="mt-3 text-center text-navy/60">비전 → 꿈 → 목표 → 계획 → 습관이 끊김 없이 이어집니다</p>
+          <h2 className="text-center text-2xl font-black text-navy md:text-3xl">One app, fully connected</h2>
+          <p className="mt-3 text-center text-navy/60">Vision → Dream → Goal → Plan → Habit, all seamlessly linked</p>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {FEATURES.map((f) => (
               <div key={f.t} className="rounded-2xl border border-black/5 bg-[#fafbfc] p-6 transition hover:shadow-md">
@@ -125,75 +131,75 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 성공의 나무 */}
+      {/* Tree of Success */}
       <section className="bg-gradient-to-b from-[#f5f8fb] to-white px-5 py-20 text-center">
         <div className="mx-auto max-w-2xl">
           <div className="text-6xl">🌳</div>
-          <h2 className="mt-4 text-2xl font-black text-navy md:text-3xl">실천할수록 자라는 성공의 나무</h2>
+          <h2 className="mt-4 text-2xl font-black text-navy md:text-3xl">A Tree of Success that grows as you practice</h2>
           <p className="mt-4 text-base leading-relaxed text-navy/70">
-            매일의 작은 실천이 열매🍎가 되어 나만의 나무를 키웁니다.<br />
-            레벨·연속 기록·과수원·리더보드로 동기부여를 이어가세요.
+            Each small daily practice becomes a fruit 🍎 that grows your very own tree.<br />
+            Stay motivated with levels, streaks, an orchard, and a leaderboard.
           </p>
         </div>
       </section>
 
-      {/* 전자책 CTA */}
+      {/* Ebook CTA */}
       <section id="ebook" className="bg-gradient-to-br from-[#1a2332] to-[#105d9e] px-5 py-20">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-8 md:flex-row md:justify-between">
           <div className="text-center md:text-left">
-            <p className="text-sm font-bold text-gold">무료 전자책</p>
+            <p className="text-sm font-bold text-gold">Free Ebook</p>
             <h2 className="mt-2 text-2xl font-black text-white md:text-3xl">
-              왜 나는 안 되고,<br />저 사람은 되는가?
+              Why do they succeed<br />when I can't?
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-white/70">
-              성공법칙 성공(S)=믿음(B)×생각(T)×행동(A)과 비전관리 프로세스를 담은 전자책을 무료로 받아보세요.
-              이메일로 바로 보내드립니다.
+              Get the free ebook covering the Success Formula — Success(S) = Belief(B) × Thinking(T) × Action(A) — and the vision management process.
+              We'll send it straight to your email.
             </p>
           </div>
           <EbookForm />
         </div>
       </section>
 
-      {/* 다운로드 */}
+      {/* Download */}
       <section id="download" className="bg-white px-5 py-20 text-center">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-2xl font-black text-navy md:text-3xl">지금 바로 시작하세요</h2>
-          <p className="mt-3 text-navy/60">웹에서 즉시 사용하거나 앱으로 설치하세요</p>
+          <h2 className="text-2xl font-black text-navy md:text-3xl">Get started right now</h2>
+          <p className="mt-3 text-navy/60">Use it instantly on the web or install the app</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <a href={APP_URL} className="rounded-xl bg-brand px-7 py-3.5 font-extrabold text-white transition hover:brightness-110">
-              🌐 웹에서 시작하기
+              🌐 Start on the web
             </a>
             <a href={APP_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
-              📱 앱 다운로드
+              📱 Download the app
             </a>
           </div>
           <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>
         </div>
       </section>
 
-      {/* 최신 블로그 */}
+      {/* Latest Blog */}
       <section className="bg-[#f5f8fb] px-5 py-20">
         <div className="mx-auto max-w-5xl">
           <div className="flex items-end justify-between">
             <div>
-              <p className="text-sm font-bold text-brand">인사이트</p>
-              <h2 className="mt-2 text-2xl font-black text-navy md:text-3xl">비전을 행동으로 잇는 글</h2>
+              <p className="text-sm font-bold text-brand">Insights</p>
+              <h2 className="mt-2 text-2xl font-black text-navy md:text-3xl">Articles that turn vision into action</h2>
             </div>
-            <Link href="/blog" className="hidden text-sm font-bold text-brand hover:underline sm:block">
-              전체 보기 →
+            <Link href="/en/blog" className="hidden text-sm font-bold text-brand hover:underline sm:block">
+              View all →
             </Link>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-3">
             {getAllPosts().slice(0, 3).map((p) => (
               <Link
                 key={p.slug}
-                href={`/blog/${p.slug}`}
+                href={`/en/blog/${p.slug}`}
                 className="group flex flex-col rounded-2xl border border-black/5 bg-white p-6 transition hover:border-brand/30 hover:shadow-md"
               >
                 <div className="text-3xl">{p.emoji}</div>
                 <div className="mt-3 flex items-center gap-2 text-xs font-bold text-brand">
                   <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
-                  <span className="text-navy/40">· {p.readMinutes}분</span>
+                  <span className="text-navy/40">· {p.readMinutes} min</span>
                 </div>
                 <h3 className="mt-3 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{p.title}</h3>
                 <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
@@ -201,19 +207,19 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-8 text-center sm:hidden">
-            <Link href="/blog" className="text-sm font-bold text-brand hover:underline">전체 글 보기 →</Link>
+            <Link href="/en/blog" className="text-sm font-bold text-brand hover:underline">View all articles →</Link>
           </div>
         </div>
       </section>
 
-      {/* 커뮤니티 */}
+      {/* Community */}
       <section className="bg-white px-5 py-20">
         <div className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-[#5865F2] to-[#404EED] p-10 text-center text-white">
           <div className="text-5xl">💬</div>
-          <h2 className="mt-4 text-2xl font-black md:text-3xl">함께 비전을 키우는 커뮤니티</h2>
+          <h2 className="mt-4 text-2xl font-black md:text-3xl">A community that grows visions together</h2>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-white/80">
-            디스코드에서 다른 사용자들과 목표를 나누고, 서로 응원하며 함께 실천하세요.
-            팁·업데이트 소식도 가장 먼저 받아볼 수 있어요.
+            Share your goals with other users on Discord, cheer each other on, and practice together.
+            You'll also be the first to get tips and update news.
           </p>
           <a
             href={DISCORD_URL}
@@ -221,32 +227,32 @@ export default function Home() {
             rel="noopener noreferrer"
             className="mt-6 inline-block rounded-xl bg-white px-8 py-3.5 font-extrabold text-[#404EED] transition hover:brightness-95"
           >
-            디스코드 커뮤니티 참여하기 →
+            Join the Discord community →
           </a>
         </div>
       </section>
 
-      {/* 푸터 */}
+      {/* Footer */}
       <footer className="border-t border-black/5 bg-[#fafbfc] px-5 py-10">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-sm text-navy/50 md:flex-row">
           <div>
-            <div className="flex items-center gap-2 font-extrabold text-navy">🌳 서우 비전드림</div>
-            <p className="mt-1 text-xs">성공(S) = 믿음(B) × 생각(T) × 행동(A)</p>
+            <div className="flex items-center gap-2 font-extrabold text-navy">🌳 Seowoo Vision Dream</div>
+            <p className="mt-1 text-xs">Success(S) = Belief(B) × Thinking(T) × Action(A)</p>
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-4">
-            <Link href="/features" className="hover:text-brand">기능</Link>
-            <Link href="/blog" className="hover:text-brand">블로그</Link>
-            <Link href="/pricing" className="hover:text-brand">요금제</Link>
-            <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
-            <Link href="/faq" className="hover:text-brand">FAQ</Link>
-            <Link href="/about" className="hover:text-brand">이야기</Link>
-            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 소개</a>
-            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-brand">커뮤니티</a>
-            <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">개인정보처리방침</a>
-            <a href="https://app.visiondream.kr/terms" className="hover:text-brand">이용약관</a>
+            <Link href="/en/features" className="hover:text-brand">Features</Link>
+            <Link href="/en/blog" className="hover:text-brand">Blog</Link>
+            <Link href="/en/pricing" className="hover:text-brand">Pricing</Link>
+            <Link href="/en/for-teams" className="hover:text-brand">Organizations & Teams</Link>
+            <Link href="/en/faq" className="hover:text-brand">FAQ</Link>
+            <Link href="/en/about" className="hover:text-brand">Our Story</Link>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">About S=BTA</a>
+            <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-brand">Community</a>
+            <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">Privacy Policy</a>
+            <a href="https://app.visiondream.kr/terms" className="hover:text-brand">Terms of Service</a>
           </nav>
         </div>
-        <p className="mt-6 text-center text-xs text-navy/30">© 2026 서우 비전드림. All rights reserved.</p>
+        <p className="mt-6 text-center text-xs text-navy/30">© 2026 Seowoo Vision Dream. All rights reserved.</p>
       </footer>
     </main>
   );
