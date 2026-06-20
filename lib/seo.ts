@@ -45,7 +45,8 @@ export function pageMeta({
   const url = localeUrl(lang, path);
   const socialTitle = ogTitle ?? `${title} | ${BRAND[lang]}`;
   return {
-    title,
+    // 한국어는 layout의 title template(한국어 브랜드) 사용, 영어·일본어는 브랜드까지 해당 언어로 고정
+    title: lang === "ko" ? title : { absolute: `${title} | ${BRAND[lang]}` },
     description,
     alternates: {
       canonical: url,
