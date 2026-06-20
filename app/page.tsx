@@ -9,6 +9,7 @@ import { LangSwitch } from "@/components/LangSwitch";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
+const KAKAO_URL = "https://pf.kakao.com/_xkmeqX";
 
 const STEPS = [
   { n: "1", t: "비전", d: "되고 싶은 궁극의 나를 선언" },
@@ -215,16 +216,26 @@ export default function Home() {
           <h2 className="mt-4 text-2xl font-black md:text-3xl">함께 비전을 키우는 커뮤니티</h2>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-white/80">
             디스코드에서 다른 사용자들과 목표를 나누고, 서로 응원하며 함께 실천하세요.
-            팁·업데이트 소식도 가장 먼저 받아볼 수 있어요.
+            문의는 카카오톡 채널로 편하게 남겨주시면 빠르게 답해드립니다.
           </p>
-          <a
-            href={DISCORD_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-block rounded-xl bg-white px-8 py-3.5 font-extrabold text-[#404EED] transition hover:brightness-95"
-          >
-            디스코드 커뮤니티 참여하기 →
-          </a>
+          <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a
+              href={DISCORD_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-xl bg-white px-7 py-3.5 font-extrabold text-[#404EED] transition hover:brightness-95"
+            >
+              💬 디스코드 참여하기
+            </a>
+            <a
+              href={KAKAO_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-xl bg-[#FEE500] px-7 py-3.5 font-extrabold text-[#191600] transition hover:brightness-95"
+            >
+              💛 카카오톡 채널 문의
+            </a>
+          </div>
         </div>
       </section>
 
