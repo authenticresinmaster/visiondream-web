@@ -90,6 +90,7 @@ export function PageShell({
             <Link href={p("/for-teams")} className="hover:text-brand">{t.teams}</Link>
             <Link href={p("/faq")} className="hover:text-brand">{t.faq}</Link>
             <Link href={p("/about")} className="hover:text-brand">{t.about}</Link>
+            <a href={LANDING_URL} className="hover:text-brand">{LANDING_LABEL[lang]}</a>
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitch />

@@ -51,6 +51,7 @@ export default function Home() {
             <Link href="/en/for-teams" className="hover:text-brand">Organizations & Teams</Link>
             <Link href="/en/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/en/about" className="hover:text-brand">Our Story</Link>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">About S=BTA</a>
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitch />

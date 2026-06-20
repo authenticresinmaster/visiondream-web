@@ -51,6 +51,7 @@ export default function Home() {
             <Link href="/ja/for-teams" className="hover:text-brand">機関・チーム</Link>
             <Link href="/ja/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/ja/about" className="hover:text-brand">ストーリー</Link>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 紹介</a>
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitch />
