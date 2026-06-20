@@ -45,13 +45,13 @@ export default function Home() {
           <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
             <Link href="/ja/features" className="hover:text-brand">機能</Link>
             <Link href="/ja/method" className="hover:text-brand">成功法則</Link>
-            <Link href="/ja/blog" className="hover:text-brand">ブログ</Link>
             <Link href="/ja/pricing" className="hover:text-brand">料金プラン</Link>
             <Link href="/ja/for-coaches" className="hover:text-brand">講師</Link>
             <Link href="/ja/for-teams" className="hover:text-brand">機関・チーム</Link>
+            <Link href="/ja/blog" className="hover:text-brand">ブログ</Link>
             <Link href="/ja/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/ja/about" className="hover:text-brand">ストーリー</Link>
-            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 紹介</a>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA ランディング</a>
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitch />
@@ -247,7 +247,7 @@ export default function Home() {
             <Link href="/ja/for-teams" className="hover:text-brand">機関・チーム</Link>
             <Link href="/ja/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/ja/about" className="hover:text-brand">ストーリー</Link>
-            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 紹介</a>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA ランディング</a>
             <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-brand">コミュニティ</a>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">プライバシーポリシー</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">利用規約</a>

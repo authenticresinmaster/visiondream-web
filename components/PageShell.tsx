@@ -17,9 +17,9 @@ const BRAND: Record<Lang, string> = {
 
 const LANDING_URL = "https://landing.visiondream.kr";
 const LANDING_LABEL: Record<Lang, string> = {
-  ko: "S=BTA 소개",
-  en: "About S=BTA",
-  ja: "S=BTA 紹介",
+  ko: "S=BTA 랜딩페이지",
+  en: "S=BTA Landing",
+  ja: "S=BTA ランディング",
 };
 
 const T: Record<
@@ -84,10 +84,10 @@ export function PageShell({
           <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
             <Link href={p("/features")} className="hover:text-brand">{t.features}</Link>
             <Link href={p("/method")} className="hover:text-brand">{t.method}</Link>
-            <Link href={p("/blog")} className="hover:text-brand">{t.blog}</Link>
             <Link href={p("/pricing")} className="hover:text-brand">{t.pricing}</Link>
             <Link href={p("/for-coaches")} className="hover:text-brand">{t.coaches}</Link>
             <Link href={p("/for-teams")} className="hover:text-brand">{t.teams}</Link>
+            <Link href={p("/blog")} className="hover:text-brand">{t.blog}</Link>
             <Link href={p("/faq")} className="hover:text-brand">{t.faq}</Link>
             <Link href={p("/about")} className="hover:text-brand">{t.about}</Link>
             <a href={LANDING_URL} className="hover:text-brand">{LANDING_LABEL[lang]}</a>

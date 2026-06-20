@@ -45,13 +45,13 @@ export default function Home() {
           <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
             <Link href="/en/features" className="hover:text-brand">Features</Link>
             <Link href="/en/method" className="hover:text-brand">Success Formula</Link>
-            <Link href="/en/blog" className="hover:text-brand">Blog</Link>
             <Link href="/en/pricing" className="hover:text-brand">Pricing</Link>
             <Link href="/en/for-coaches" className="hover:text-brand">Coaches</Link>
             <Link href="/en/for-teams" className="hover:text-brand">Organizations & Teams</Link>
+            <Link href="/en/blog" className="hover:text-brand">Blog</Link>
             <Link href="/en/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/en/about" className="hover:text-brand">Our Story</Link>
-            <a href="https://landing.visiondream.kr" className="hover:text-brand">About S=BTA</a>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA Landing</a>
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitch />
@@ -247,7 +247,7 @@ export default function Home() {
             <Link href="/en/for-teams" className="hover:text-brand">Organizations & Teams</Link>
             <Link href="/en/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/en/about" className="hover:text-brand">Our Story</Link>
-            <a href="https://landing.visiondream.kr" className="hover:text-brand">About S=BTA</a>
+            <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA Landing</a>
             <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="hover:text-brand">Community</a>
             <a href="https://app.visiondream.kr/privacy" className="hover:text-brand">Privacy Policy</a>
             <a href="https://app.visiondream.kr/terms" className="hover:text-brand">Terms of Service</a>
