@@ -35,7 +35,7 @@ export async function getFunnelOverview(): Promise<FunnelOverview> {
       (select count(distinct uid) from (
         select "userId" as uid from public.user_synced_data where "goalsCount" > 0 or streak > 0
         union
-        select user_id as uid from public.activity_events where user_id is not null and type in ('vision_set','goal_create','goal_complete','habit_check','bta_check')
+        select user_id as uid from public.activity_events where user_id is not null and type in ('vision_set','dream_create','goal_create','goal_complete','habit_check','bta_check')
       ) act)::int as activated,
       (select count(*) from public.users where "lastSignedIn" > now() - interval '30 days')::int as active30d,
       (select count(*) from public.user_subscriptions where status='active')::int as subscribers,
