@@ -31,9 +31,14 @@ export function PageShell({
             <Link href="/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/about" className="hover:text-brand">이야기</Link>
           </nav>
-          <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
-            앱 시작하기
-          </a>
+          <div className="flex items-center gap-3">
+            <Link href="/login" className="text-sm font-semibold text-navy/70 transition hover:text-brand">
+              로그인
+            </Link>
+            <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+              앱 시작하기
+            </a>
+          </div>
         </div>
       </header>
 
