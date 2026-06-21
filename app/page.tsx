@@ -9,6 +9,7 @@ import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
 import { MobileNav } from "@/components/MobileNav";
+import { Reveal } from "@/components/Reveal";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
@@ -91,27 +92,33 @@ export default function Home() {
 
       {/* 문제 제기 */}
       <section className="bg-white px-5 py-20 text-center">
-        <div className="mx-auto max-w-2xl">
+        <Reveal className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-black text-navy md:text-3xl">"왜 나는 안 되고, 저 사람은 되는가?"</h2>
           <p className="mt-5 text-base leading-relaxed text-navy/70">
             목표는 있는데 매일 무엇을 할지 막막하고, 결심은 작심삼일로 끝나죠.<br />
             문제는 의지가 아니라 <strong className="text-brand">비전에서 오늘 행동까지 연결되는 시스템</strong>의 부재입니다.
           </p>
-        </div>
+        </Reveal>
       </section>
 
       {/* 솔루션 — 4단계 */}
       <section id="method" className="bg-[#f5f8fb] px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <p className="text-center text-sm font-bold text-brand">비전관리 프로세스</p>
-          <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">미래에서 오늘로, 거꾸로 설계합니다</h2>
+          <Reveal>
+            <p className="text-center text-sm font-bold text-brand">비전관리 프로세스</p>
+            <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">미래에서 오늘로, 거꾸로 설계합니다</h2>
+          </Reveal>
           <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-            {STEPS.map((s) => (
-              <div key={s.n} className="rounded-2xl bg-white p-6 text-center shadow-sm">
+            {STEPS.map((s, i) => (
+              <Reveal
+                key={s.n}
+                delay={i * 90}
+                className="rounded-2xl bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+              >
                 <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-brand text-lg font-black text-white">{s.n}</div>
                 <h3 className="mt-4 text-lg font-extrabold text-navy">{s.t}</h3>
                 <p className="mt-1.5 text-sm text-navy/60">{s.d}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -120,15 +127,21 @@ export default function Home() {
       {/* 핵심 기능 */}
       <section id="features" className="bg-white px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <h2 className="text-center text-2xl font-black text-navy md:text-3xl">하나의 앱, 완전한 연결</h2>
-          <p className="mt-3 text-center text-navy/60">비전 → 꿈 → 목표 → 계획 → 습관이 끊김 없이 이어집니다</p>
+          <Reveal>
+            <h2 className="text-center text-2xl font-black text-navy md:text-3xl">하나의 앱, 완전한 연결</h2>
+            <p className="mt-3 text-center text-navy/60">비전 → 꿈 → 목표 → 계획 → 습관이 끊김 없이 이어집니다</p>
+          </Reveal>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {FEATURES.map((f) => (
-              <div key={f.t} className="rounded-2xl border border-black/5 bg-[#fafbfc] p-6 transition hover:shadow-md">
+            {FEATURES.map((f, i) => (
+              <Reveal
+                key={f.t}
+                delay={(i % 3) * 90}
+                className="rounded-2xl border border-black/5 bg-[#fafbfc] p-6 transition duration-300 hover:-translate-y-1 hover:border-brand/20 hover:shadow-lg"
+              >
                 <div className="text-3xl">{f.e}</div>
                 <h3 className="mt-3 text-lg font-extrabold text-navy">{f.t}</h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-navy/60">{f.d}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -136,14 +149,14 @@ export default function Home() {
 
       {/* 성공의 나무 */}
       <section className="bg-gradient-to-b from-[#f5f8fb] to-white px-5 py-20 text-center">
-        <div className="mx-auto max-w-2xl">
+        <Reveal className="mx-auto max-w-2xl">
           <div className="text-6xl">🌳</div>
           <h2 className="mt-4 text-2xl font-black text-navy md:text-3xl">실천할수록 자라는 성공의 나무</h2>
           <p className="mt-4 text-base leading-relaxed text-navy/70">
             매일의 작은 실천이 열매🍎가 되어 나만의 나무를 키웁니다.<br />
             레벨·연속 기록·과수원·리더보드로 동기부여를 이어가세요.
           </p>
-        </div>
+        </Reveal>
       </section>
 
       {/* 영상으로 보는 비전드림 */}
@@ -178,7 +191,7 @@ export default function Home() {
 
       {/* 다운로드 */}
       <section id="download" className="bg-white px-5 py-20 text-center">
-        <div className="mx-auto max-w-2xl">
+        <Reveal className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-black text-navy md:text-3xl">지금 바로 시작하세요</h2>
           <p className="mt-3 text-navy/60">웹에서 즉시 사용하거나 앱으로 설치하세요</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
@@ -190,13 +203,13 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>
-        </div>
+        </Reveal>
       </section>
 
       {/* 최신 블로그 */}
       <section className="bg-[#f5f8fb] px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <div className="flex items-end justify-between">
+          <Reveal className="flex items-end justify-between">
             <div>
               <p className="text-sm font-bold text-brand">인사이트</p>
               <h2 className="mt-2 text-2xl font-black text-navy md:text-3xl">비전을 행동으로 잇는 글</h2>
@@ -204,22 +217,23 @@ export default function Home() {
             <Link href="/blog" className="hidden text-sm font-bold text-brand hover:underline sm:block">
               전체 보기 →
             </Link>
-          </div>
+          </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-3">
-            {getAllPosts().slice(0, 3).map((p) => (
-              <Link
-                key={p.slug}
-                href={`/blog/${p.slug}`}
-                className="group flex flex-col rounded-2xl border border-black/5 bg-white p-6 transition hover:border-brand/30 hover:shadow-md"
-              >
-                <div className="text-3xl">{p.emoji}</div>
-                <div className="mt-3 flex items-center gap-2 text-xs font-bold text-brand">
-                  <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
-                  <span className="text-navy/40">· {p.readMinutes}분</span>
-                </div>
-                <h3 className="mt-3 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{p.title}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
-              </Link>
+            {getAllPosts().slice(0, 3).map((p, i) => (
+              <Reveal key={p.slug} delay={i * 90} className="h-full">
+                <Link
+                  href={`/blog/${p.slug}`}
+                  className="group flex h-full flex-col rounded-2xl border border-black/5 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-brand/30 hover:shadow-lg"
+                >
+                  <div className="text-3xl">{p.emoji}</div>
+                  <div className="mt-3 flex items-center gap-2 text-xs font-bold text-brand">
+                    <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
+                    <span className="text-navy/40">· {p.readMinutes}분</span>
+                  </div>
+                  <h3 className="mt-3 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{p.title}</h3>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
+                </Link>
+              </Reveal>
             ))}
           </div>
           <div className="mt-8 text-center sm:hidden">
@@ -230,7 +244,7 @@ export default function Home() {
 
       {/* 커뮤니티 */}
       <section className="bg-white px-5 py-20">
-        <div className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-[#5865F2] to-[#404EED] p-10 text-center text-white">
+        <Reveal className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-[#5865F2] to-[#404EED] p-10 text-center text-white">
           <div className="text-5xl">💬</div>
           <h2 className="mt-4 text-2xl font-black md:text-3xl">함께 비전을 키우는 커뮤니티</h2>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-white/80">
@@ -255,12 +269,12 @@ export default function Home() {
               💛 카카오톡 채널 문의
             </a>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* 도입 문의 */}
       <section id="contact" className="bg-[#f5f8fb] px-5 py-20">
-        <div className="mx-auto max-w-xl">
+        <Reveal className="mx-auto max-w-xl">
           <div className="mb-6 text-center">
             <h2 className="text-2xl font-black text-navy md:text-3xl">기관·팀 도입 문의</h2>
             <p className="mx-auto mt-3 max-w-md text-base text-navy/60">
@@ -268,7 +282,7 @@ export default function Home() {
             </p>
           </div>
           <InquiryForm defaultType="team" />
-        </div>
+        </Reveal>
       </section>
 
       {/* 푸터 */}
