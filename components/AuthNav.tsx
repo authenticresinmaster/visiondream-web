@@ -23,14 +23,14 @@ export function AuthNav() {
     };
   }, []);
 
-  // 로딩 중엔 자리만 차지(깜빡임/오표시 방지)
-  if (me === null) return <span className="w-14" aria-hidden />;
+  // 로딩 중엔 버튼 크기만큼 자리 차지(깜빡임/레이아웃 점프 방지)
+  if (me === null) return <span className="inline-block h-9 w-[68px]" aria-hidden />;
 
   if (me.authenticated) {
     return (
       <Link
         href={me.home ?? "/my"}
-        className="text-sm font-semibold text-navy/70 transition hover:text-brand"
+        className="rounded-full border border-brand/40 px-4 py-2 text-sm font-bold text-brand transition hover:bg-brand/10"
       >
         내 대시보드
       </Link>
@@ -40,7 +40,7 @@ export function AuthNav() {
   return (
     <Link
       href="/login"
-      className="text-sm font-semibold text-navy/70 transition hover:text-brand"
+      className="rounded-full border border-brand/40 px-4 py-2 text-sm font-bold text-brand transition hover:bg-brand/10"
     >
       로그인
     </Link>

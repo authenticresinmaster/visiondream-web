@@ -79,7 +79,7 @@ export function MobileNav({ lang = "ko" }: { lang?: Lang }) {
               </a>
 
               <div className="mt-3 flex items-center justify-between gap-3 border-t border-black/5 pt-4">
-                <div className="flex items-center gap-3" onClick={close}>
+                <div className="flex items-center gap-3">
                   <LangSwitch />
                   <AuthNav />
                 </div>
