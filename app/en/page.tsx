@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
+import { VideoGallery } from "@/components/VideoGallery";
+import { videosFor } from "@/lib/videos";
 import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
@@ -147,6 +149,19 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      {/* Videos */}
+      {videosFor("en").length > 0 && (
+        <section id="videos" className="bg-white px-5 py-20">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="text-center text-2xl font-black text-navy md:text-3xl">VisionDream in 30 seconds</h2>
+            <p className="mt-3 text-center text-navy/60">Tap a video to unmute.</p>
+            <div className="mt-10">
+              <VideoGallery videos={videosFor("en")} />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Ebook CTA */}
       <section id="ebook" className="bg-gradient-to-br from-[#1a2332] to-[#105d9e] px-5 py-20">

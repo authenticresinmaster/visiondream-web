@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
+import { VideoGallery } from "@/components/VideoGallery";
+import { videosFor } from "@/lib/videos";
 import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
@@ -147,6 +149,19 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      {/* 動画 */}
+      {videosFor("ja").length > 0 && (
+        <section id="videos" className="bg-white px-5 py-20">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="text-center text-2xl font-black text-navy md:text-3xl">30秒でわかるビジョンドリーム</h2>
+            <p className="mt-3 text-center text-navy/60">タップで音声オン。</p>
+            <div className="mt-10">
+              <VideoGallery videos={videosFor("ja")} />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 電子書籍 CTA */}
       <section id="ebook" className="bg-gradient-to-br from-[#1a2332] to-[#105d9e] px-5 py-20">
