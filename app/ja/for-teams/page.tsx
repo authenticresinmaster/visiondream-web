@@ -69,7 +69,7 @@ export default function ForTeamsPage() {
             規模・目標をお知らせいただければ、最適な導入プランとお見積もりをご案内します。試験運用(パイロット)も可能です。
           </p>
           <a
-            href="/contact?type=team"
+            href="/ja/contact?type=team"
             className="mt-6 inline-block rounded-xl bg-amber px-8 py-3.5 font-extrabold text-navy"
           >
             導入を問い合わせる

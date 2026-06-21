@@ -54,7 +54,7 @@ export default function ForCoachesPage() {
           <div className="rounded-2xl bg-gradient-to-br from-[#1a2332] to-[#105d9e] p-8 text-center text-white">
             <h3 className="text-xl font-black">Would you like to join us as a coach or organization?</h3>
             <p className="mt-3 text-sm text-white/70">Leave us a rollout or partnership inquiry and we'll get back to you.</p>
-            <a href="/contact?type=coach" className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy">Contact Us</a>
+            <a href="/en/contact?type=coach" className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy">Contact Us</a>
           </div>
         </div>
       </section>

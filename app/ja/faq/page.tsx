@@ -85,7 +85,7 @@ export default function FaqPage() {
           <h2 className="text-xl font-black">さらに気になる点はありますか？</h2>
           <p className="mt-3 text-sm text-white/70">いつでもお問い合わせいただければご案内いたします。</p>
           <a
-            href="/contact"
+            href="/ja/contact"
             className="mt-5 inline-block rounded-xl bg-amber px-7 py-3.5 font-extrabold text-navy"
           >
             お問い合わせ

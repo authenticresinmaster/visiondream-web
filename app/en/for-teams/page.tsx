@@ -69,7 +69,7 @@ export default function ForTeamsPage() {
             Tell us your size and goals, and we'll guide you through a tailored rollout plan and quote. A pilot program is also available.
           </p>
           <a
-            href="/contact?type=team"
+            href="/en/contact?type=team"
             className="mt-6 inline-block rounded-xl bg-amber px-8 py-3.5 font-extrabold text-navy"
           >
             Get in touch
