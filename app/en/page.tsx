@@ -6,6 +6,7 @@ import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
 import { MobileNav } from "@/components/MobileNav";
+import { Reveal } from "@/components/Reveal";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta({
@@ -95,27 +96,33 @@ export default function Home() {
 
       {/* The Problem */}
       <section className="bg-white px-5 py-20 text-center">
-        <div className="mx-auto max-w-2xl">
+        <Reveal className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-black text-navy md:text-3xl">"Why do they succeed when I can't?"</h2>
           <p className="mt-5 text-base leading-relaxed text-navy/70">
             You have goals, but each day you're unsure what to do, and your resolve fizzles out in three days.<br />
             The problem isn't willpower — it's the absence of a <strong className="text-brand">system that connects your vision to today's action</strong>.
           </p>
-        </div>
+        </Reveal>
       </section>
 
       {/* Solution — 4 Steps */}
       <section id="method" className="bg-[#f5f8fb] px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <p className="text-center text-sm font-bold text-brand">The Vision Management Process</p>
-          <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">From the future to today, designed in reverse</h2>
+          <Reveal>
+            <p className="text-center text-sm font-bold text-brand">The Vision Management Process</p>
+            <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">From the future to today, designed in reverse</h2>
+          </Reveal>
           <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-            {STEPS.map((s) => (
-              <div key={s.n} className="rounded-2xl bg-white p-6 text-center shadow-sm">
+            {STEPS.map((s, i) => (
+              <Reveal
+                key={s.n}
+                delay={i * 90}
+                className="rounded-2xl bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+              >
                 <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-brand text-lg font-black text-white">{s.n}</div>
                 <h3 className="mt-4 text-lg font-extrabold text-navy">{s.t}</h3>
                 <p className="mt-1.5 text-sm text-navy/60">{s.d}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -124,15 +131,21 @@ export default function Home() {
       {/* Core Features */}
       <section id="features" className="bg-white px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <h2 className="text-center text-2xl font-black text-navy md:text-3xl">One app, fully connected</h2>
-          <p className="mt-3 text-center text-navy/60">Vision → Dream → Goal → Plan → Habit, all seamlessly linked</p>
+          <Reveal>
+            <h2 className="text-center text-2xl font-black text-navy md:text-3xl">One app, fully connected</h2>
+            <p className="mt-3 text-center text-navy/60">Vision → Dream → Goal → Plan → Habit, all seamlessly linked</p>
+          </Reveal>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {FEATURES.map((f) => (
-              <div key={f.t} className="rounded-2xl border border-black/5 bg-[#fafbfc] p-6 transition hover:shadow-md">
+            {FEATURES.map((f, i) => (
+              <Reveal
+                key={f.t}
+                delay={(i % 3) * 90}
+                className="rounded-2xl border border-black/5 bg-[#fafbfc] p-6 transition duration-300 hover:-translate-y-1 hover:border-brand/20 hover:shadow-lg"
+              >
                 <div className="text-3xl">{f.e}</div>
                 <h3 className="mt-3 text-lg font-extrabold text-navy">{f.t}</h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-navy/60">{f.d}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -140,22 +153,24 @@ export default function Home() {
 
       {/* Tree of Success */}
       <section className="bg-gradient-to-b from-[#f5f8fb] to-white px-5 py-20 text-center">
-        <div className="mx-auto max-w-2xl">
+        <Reveal className="mx-auto max-w-2xl">
           <div className="text-6xl">🌳</div>
           <h2 className="mt-4 text-2xl font-black text-navy md:text-3xl">A Tree of Success that grows as you practice</h2>
           <p className="mt-4 text-base leading-relaxed text-navy/70">
             Each small daily practice becomes a fruit 🍎 that grows your very own tree.<br />
             Stay motivated with levels, streaks, an orchard, and a leaderboard.
           </p>
-        </div>
+        </Reveal>
       </section>
 
       {/* Videos */}
       {videosFor("en").length > 0 && (
         <section id="videos" className="bg-white px-5 py-20">
           <div className="mx-auto max-w-5xl">
-            <h2 className="text-center text-2xl font-black text-navy md:text-3xl">VisionDream in 30 seconds</h2>
-            <p className="mt-3 text-center text-navy/60">Tap a video to unmute.</p>
+            <Reveal>
+              <h2 className="text-center text-2xl font-black text-navy md:text-3xl">VisionDream in 30 seconds</h2>
+              <p className="mt-3 text-center text-navy/60">Tap a video to unmute.</p>
+            </Reveal>
             <div className="mt-10">
               <VideoGallery videos={videosFor("en")} />
             </div>
@@ -182,7 +197,7 @@ export default function Home() {
 
       {/* Download */}
       <section id="download" className="bg-white px-5 py-20 text-center">
-        <div className="mx-auto max-w-2xl">
+        <Reveal className="mx-auto max-w-2xl">
           <h2 className="text-2xl font-black text-navy md:text-3xl">Get started right now</h2>
           <p className="mt-3 text-navy/60">Use it instantly on the web or install the app</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
@@ -194,13 +209,13 @@ export default function Home() {
             </a>
           </div>
           <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>
-        </div>
+        </Reveal>
       </section>
 
       {/* Latest Blog */}
       <section className="bg-[#f5f8fb] px-5 py-20">
         <div className="mx-auto max-w-5xl">
-          <div className="flex items-end justify-between">
+          <Reveal className="flex items-end justify-between">
             <div>
               <p className="text-sm font-bold text-brand">Insights</p>
               <h2 className="mt-2 text-2xl font-black text-navy md:text-3xl">Articles that turn vision into action</h2>
@@ -208,22 +223,23 @@ export default function Home() {
             <Link href="/en/blog" className="hidden text-sm font-bold text-brand hover:underline sm:block">
               View all →
             </Link>
-          </div>
+          </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-3">
-            {getAllPosts("en").slice(0, 3).map((p) => (
-              <Link
-                key={p.slug}
-                href={`/en/blog/${p.slug}`}
-                className="group flex flex-col rounded-2xl border border-black/5 bg-white p-6 transition hover:border-brand/30 hover:shadow-md"
-              >
-                <div className="text-3xl">{p.emoji}</div>
-                <div className="mt-3 flex items-center gap-2 text-xs font-bold text-brand">
-                  <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
-                  <span className="text-navy/40">· {p.readMinutes} min</span>
-                </div>
-                <h3 className="mt-3 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{p.title}</h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
-              </Link>
+            {getAllPosts("en").slice(0, 3).map((p, i) => (
+              <Reveal key={p.slug} delay={i * 90} className="h-full">
+                <Link
+                  href={`/en/blog/${p.slug}`}
+                  className="group flex h-full flex-col rounded-2xl border border-black/5 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-brand/30 hover:shadow-lg"
+                >
+                  <div className="text-3xl">{p.emoji}</div>
+                  <div className="mt-3 flex items-center gap-2 text-xs font-bold text-brand">
+                    <span className="rounded-full bg-brand/10 px-2.5 py-1">{p.category}</span>
+                    <span className="text-navy/40">· {p.readMinutes} min</span>
+                  </div>
+                  <h3 className="mt-3 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{p.title}</h3>
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/60">{p.description}</p>
+                </Link>
+              </Reveal>
             ))}
           </div>
           <div className="mt-8 text-center sm:hidden">
@@ -234,7 +250,7 @@ export default function Home() {
 
       {/* Community */}
       <section className="bg-white px-5 py-20">
-        <div className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-[#5865F2] to-[#404EED] p-10 text-center text-white">
+        <Reveal className="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-[#5865F2] to-[#404EED] p-10 text-center text-white">
           <div className="text-5xl">💬</div>
           <h2 className="mt-4 text-2xl font-black md:text-3xl">A community that grows visions together</h2>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-white/80">
@@ -249,7 +265,7 @@ export default function Home() {
           >
             Join the Discord community →
           </a>
-        </div>
+        </Reveal>
       </section>
 
       {/* Footer */}
