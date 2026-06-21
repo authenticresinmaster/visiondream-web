@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { InquiryForm } from "@/components/InquiryForm";
+import { VideoGallery } from "@/components/VideoGallery";
+import { HOME_VIDEOS } from "@/lib/videos";
 import { getAllPosts } from "@/lib/posts";
 import { JsonLd } from "@/components/JsonLd";
 import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
@@ -139,6 +141,19 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      {/* 영상으로 보는 비전드림 */}
+      {HOME_VIDEOS.length > 0 && (
+        <section id="videos" className="bg-white px-5 py-20">
+          <div className="mx-auto max-w-5xl">
+            <h2 className="text-center text-2xl font-black text-navy md:text-3xl">영상으로 보는 비전드림</h2>
+            <p className="mt-3 text-center text-navy/60">30초면 충분해요. 탭하면 소리가 켜집니다.</p>
+            <div className="mt-10">
+              <VideoGallery videos={HOME_VIDEOS} />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* 전자책 CTA */}
       <section id="ebook" className="bg-gradient-to-br from-[#1a2332] to-[#105d9e] px-5 py-20">
