@@ -25,6 +25,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "다 놓고 싶은 날", sub: "작은 한 걸음 — 두려움 해체기",
       transcript: "다 놓아 버리고 싶은 날, 분명 있죠. 그건 당신이 약해서가 아니에요. 너무 오래, 너무 많은 걸 혼자 짊어졌기 때문이에요. 이럴 땐 더 큰 목표가 아니라 가장 작은 한 걸음이 필요합니다. 비전드림은 당신이 왜 시작했는지 그 비전을 다시 비춰 줍니다. 그리고 거대해 보이는 일을 단 몇 분이면 되는 작은 한 걸음으로 잘게 쪼개 줘요. 큰 산을 단숨에 오르라는 게 아니에요. 오늘은 그냥 한 걸음. 그거면 충분합니다. 다시 천천히 시작해요.",
     },
+    {
+      kind: "local", src: "/videos/newyear-ko.mp4", poster: "/videos/newyear-ko.jpg",
+      title: "올해도 작년이랑 똑같지?", sub: "미래에서 오늘로 역산 — 꿈 역설계",
+      transcript: "야, 올해 계획. 작년이랑 또 똑같이 세우고 있지? 다이어리 앞장만 빼곡하게 적어 놓고, 2월이면 텅 비잖아. 그건 네가 못해서가 절대 아니야. 큰 목표만 덩그러니 있고, 거기서 오늘까지 내려오는 길이 없어서 그래. 비전드림은 거꾸로 가. 네가 되고 싶은 미래를 먼저 딱 정하고, 거기서 일 년, 한 달, 이번 주, 그리고 오늘 할 일까지 쭉 역산해 줘. 그러니까 막막한 다짐이 아니라, 오늘 당장 뭘 할지가 눈에 딱 보이는 거지. 올해는 미래에서부터 거꾸로 한번 설계해 보자.",
+    },
+    {
+      kind: "local", src: "/videos/procrastinate-ko.mp4", poster: "/videos/procrastinate-ko.jpg",
+      title: "그거, 아직도 안 했지?", sub: "작은 첫 걸음 — 두려움 해체기",
+      transcript: "야, 그거. 해야 하는 거 알면서, 아직도 미루고 있지? 괜찮아, 네가 게을러서가 아니야. 그 일이 너무 크고 막막해 보여서, 시작이 무서운 거야. 그래서 자꾸 딴 걸 하게 되는 거고. 비전드림 두려움 해체기는, 그 거대한 일을 단 몇 분이면 되는 아주 작은 첫 걸음으로 쪼개 줘. 보고서 쓰기가 아니라, 그냥 문서 열고 제목만 적기. 이 정도면 시작할 만하지? 일단 시작만 하면, 나머지는 알아서 따라와. 자, 그 작은 한 걸음부터 같이 해보자.",
+    },
+    {
+      kind: "local", src: "/videos/visionboard-ko.mp4", poster: "/videos/visionboard-ko.jpg",
+      title: "꿈이 흐릿하지 않아?", sub: "이미지로 한눈에 — 비전보드",
+      transcript: "요즘, 네 꿈이 좀 흐릿하지 않아? 뭘 원하는지 말로는 잘 안 나오고, 그냥 막연하지. 사실 꿈은 글자로만 적어 두면 금방 잊혀. 눈에 보여야 마음이 따라가거든. 비전드림 비전보드는, 네가 되고 싶은 모습이랑 이루고 싶은 꿈을 이미지로 붙여서 한눈에 보이게 해 줘. 그리고 그 꿈을 목표랑 오늘 할 일까지 쭉 연결해 주지. 매일 그 보드를 보다 보면, 어느새 마음이 그쪽으로 기울더라. 자, 오늘은 네 꿈을 한번 눈에 보이게 만들어 보자.",
+    },
   ],
   en: [
     {
@@ -66,6 +81,25 @@ const VIDEO_UPLOAD_DATE = "2026-06-21";
  * 구글 동영상 검색·리치결과용 VideoObject(JSON-LD). 대본(transcript) 포함 → 영상 내용이 검색에 색인.
  * 로컬 MP4=contentUrl, 유튜브=embedUrl. (유튜브 발행 시 자동으로 더 강력)
  */
+/** 동영상 사이트맵 항목(Next.js sitemap `videos` 형식) — 색인 가속. */
+export function videoSitemap(lang: Lang) {
+  return videosFor(lang).map((v) =>
+    v.kind === "youtube"
+      ? {
+          title: v.title,
+          thumbnail_loc: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`,
+          description: (v.transcript ?? v.sub ?? v.title).slice(0, 2000),
+          player_loc: `https://www.youtube.com/embed/${v.id}`,
+        }
+      : {
+          title: v.title,
+          thumbnail_loc: `${SITE}${v.poster ?? v.src}`,
+          description: (v.transcript ?? v.sub ?? v.title).slice(0, 2000),
+          content_loc: `${SITE}${v.src}`,
+        },
+  );
+}
+
 export function videosJsonLd(lang: Lang): object[] {
   return videosFor(lang).map((v) => {
     const base: Record<string, unknown> = {

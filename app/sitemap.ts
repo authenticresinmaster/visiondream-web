@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/posts";
+import { videoSitemap, type Lang } from "@/lib/videos";
 
 const SITE = "https://visiondream.kr";
 const LANGS = ["ko", "en", "ja"] as const;
@@ -41,6 +42,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: path === "" ? 1 : 0.7,
       alternates: { languages: altLanguages(path) },
+      // 홈 항목에 동영상 사이트맵 첨부 → 구글 동영상 색인 가속
+      ...(path === "" ? { videos: videoSitemap(lang as Lang) } : {}),
     })),
   );
 
