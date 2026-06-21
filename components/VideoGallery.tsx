@@ -65,13 +65,28 @@ function YouTubeCard({ v }: { v: Extract<VideoItem, { kind: "youtube" }> }) {
   );
 }
 
-export function VideoGallery({ videos }: { videos: VideoItem[] }) {
+export function VideoGallery({ videos, transcriptLabel = "대본 보기" }: { videos: VideoItem[]; transcriptLabel?: string }) {
   if (videos.length === 0) return null;
+  const withText = videos.filter((v) => v.transcript);
   return (
-    <div className="flex justify-center gap-4 overflow-x-auto pb-2">
-      {videos.map((v, i) =>
-        v.kind === "youtube" ? <YouTubeCard key={i} v={v} /> : <LocalCard key={i} v={v} />,
+    <>
+      <div className="flex justify-center gap-4 overflow-x-auto pb-2">
+        {videos.map((v, i) =>
+          v.kind === "youtube" ? <YouTubeCard key={i} v={v} /> : <LocalCard key={i} v={v} />,
+        )}
+      </div>
+
+      {/* 대본(transcript) — 검색엔진 색인용. 접이식이지만 DOM에 포함되어 검색 노출. */}
+      {withText.length > 0 && (
+        <div className="mx-auto mt-8 max-w-2xl space-y-2">
+          {withText.map((v, i) => (
+            <details key={i} className="rounded-xl border border-black/5 bg-[#fafbfc] px-4 py-3">
+              <summary className="cursor-pointer text-sm font-semibold text-navy">📝 {v.title} — {transcriptLabel}</summary>
+              <p className="mt-2 text-sm leading-relaxed text-navy/70">{v.transcript}</p>
+            </details>
+          ))}
+        </div>
       )}
-    </div>
+    </>
   );
 }

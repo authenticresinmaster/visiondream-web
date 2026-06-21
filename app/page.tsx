@@ -2,7 +2,7 @@ import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { InquiryForm } from "@/components/InquiryForm";
 import { VideoGallery } from "@/components/VideoGallery";
-import { HOME_VIDEOS } from "@/lib/videos";
+import { HOME_VIDEOS, videosJsonLd } from "@/lib/videos";
 import { getAllPosts } from "@/lib/posts";
 import { JsonLd } from "@/components/JsonLd";
 import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
@@ -34,7 +34,7 @@ const FEATURES = [
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-      <JsonLd data={[softwareApplicationSchema, homeFaqSchema]} />
+      <JsonLd data={[softwareApplicationSchema, homeFaqSchema, ...videosJsonLd("ko")]} />
       {/* 헤더 */}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">

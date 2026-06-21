@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { VideoGallery } from "@/components/VideoGallery";
-import { videosFor } from "@/lib/videos";
+import { videosFor, videosJsonLd } from "@/lib/videos";
+import { JsonLd } from "@/components/JsonLd";
 import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
@@ -39,6 +40,7 @@ const FEATURES = [
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
+      <JsonLd data={videosJsonLd("en")} />
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
@@ -172,7 +174,7 @@ export default function Home() {
               <p className="mt-3 text-center text-navy/60">Tap a video to unmute.</p>
             </Reveal>
             <div className="mt-10">
-              <VideoGallery videos={videosFor("en")} />
+              <VideoGallery videos={videosFor("en")} transcriptLabel="Transcript" />
             </div>
           </div>
         </section>
