@@ -8,6 +8,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
+import { MobileNav } from "@/components/MobileNav";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
@@ -52,11 +53,14 @@ export default function Home() {
             <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 랜딩페이지</a>
           </nav>
           <div className="flex items-center gap-3">
-            <LangSwitch />
-            <AuthNav />
-            <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
-              앱 시작하기
-            </a>
+            <div className="hidden items-center gap-3 lg:flex">
+              <LangSwitch />
+              <AuthNav />
+              <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+                앱 시작하기
+              </a>
+            </div>
+            <MobileNav />
           </div>
         </div>
       </header>

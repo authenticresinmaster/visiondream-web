@@ -3,6 +3,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbLd } from "@/lib/seo";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
+import { MobileNav } from "@/components/MobileNav";
 
 const APP_URL = "https://app.visiondream.kr";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
@@ -93,11 +94,14 @@ export function PageShell({
             <a href={LANDING_URL} className="hover:text-brand">{LANDING_LABEL[lang]}</a>
           </nav>
           <div className="flex items-center gap-3">
-            <LangSwitch />
-            <AuthNav />
-            <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
-              {t.start}
-            </a>
+            <div className="hidden items-center gap-3 lg:flex">
+              <LangSwitch />
+              <AuthNav />
+              <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+                {t.start}
+              </a>
+            </div>
+            <MobileNav lang={lang} />
           </div>
         </div>
       </header>

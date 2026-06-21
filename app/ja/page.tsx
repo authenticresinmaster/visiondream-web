@@ -3,6 +3,7 @@ import { EbookForm } from "@/components/EbookForm";
 import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
+import { MobileNav } from "@/components/MobileNav";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta({
@@ -54,11 +55,14 @@ export default function Home() {
             <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA ランディング</a>
           </nav>
           <div className="flex items-center gap-3">
-            <LangSwitch />
-            <AuthNav />
-            <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
-              アプリを開く
-            </a>
+            <div className="hidden items-center gap-3 lg:flex">
+              <LangSwitch />
+              <AuthNav />
+              <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+                アプリを開く
+              </a>
+            </div>
+            <MobileNav lang="ja" />
           </div>
         </div>
       </header>
