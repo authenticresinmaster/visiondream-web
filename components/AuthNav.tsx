@@ -28,12 +28,17 @@ export function AuthNav() {
 
   if (me.authenticated) {
     return (
-      <Link
-        href={me.home ?? "/my"}
-        className="rounded-full border border-brand/40 px-4 py-2 text-sm font-bold text-brand transition hover:bg-brand/10"
-      >
-        내 대시보드
-      </Link>
+      <span className="flex items-center gap-2">
+        <Link
+          href={me.home ?? "/my"}
+          className="rounded-full border border-brand/40 px-4 py-2 text-sm font-bold text-brand transition hover:bg-brand/10"
+        >
+          내 대시보드
+        </Link>
+        <a href="/logout" className="text-sm font-semibold text-navy/50 transition hover:text-brand">
+          로그아웃
+        </a>
+      </span>
     );
   }
 
