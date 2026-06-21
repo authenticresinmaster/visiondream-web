@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { subscribeContact } from "@/lib/marketing";
+import { sendEbookEmail } from "@/lib/email";
 
 /**
  * 전자책 신청 → ① 자체 마케팅(marketing.contacts + welcome 시퀀스) + ② ConvertKit(선택).
@@ -22,8 +23,13 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "invalid email" }, { status: 400 });
     }
 
-    // ① 자체 마케팅 시스템 등록 + 환영 시퀀스 시작 (앱 스케줄러가 발송)
-    await subscribeContact({ email, name, source, consent: true });
+    // ① 신청 즉시 전자책 환영메일 발송 (랜딩과 동일 템플릿·발신: noreply@visiondream.kr)
+    await sendEbookEmail({ to: email, name }).catch((e) =>
+      console.warn("[subscribe] ebook email error:", e),
+    );
+
+    // ② 마케팅 리스트 등록(향후 캠페인용). 즉시 전자책을 직접 보냈으므로 자동 드립은 끈다(enroll:false)
+    await subscribeContact({ email, name, source, consent: true, enroll: false });
 
     // ② ConvertKit (선택 — 키 설정 시에만)
     const apiKey = process.env.CONVERTKIT_API_KEY;

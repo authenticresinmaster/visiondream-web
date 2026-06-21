@@ -19,6 +19,8 @@ export type SubscribeInput = {
   locale?: string;
   consent?: boolean;
   appOpenId?: string | null;
+  /** welcome 드립 시퀀스 자동 시작 여부 (기본 true). 홈은 즉시 전자책 메일을 직접 보내므로 false 권장 */
+  enroll?: boolean;
 };
 
 /**
@@ -59,7 +61,7 @@ export async function subscribeContact(input: SubscribeInput): Promise<{ ok: boo
 
     if (!row) return { ok: false };
 
-    if (row.status === "active") {
+    if ((input.enroll ?? true) && row.status === "active") {
       await db
         .insert(mktEnrollments)
         .values({ contactId: row.id, sequenceKey: "welcome", step: 0, status: "active", nextDueAt: new Date() })
