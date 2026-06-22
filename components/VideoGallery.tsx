@@ -70,10 +70,12 @@ export function VideoGallery({ videos, transcriptLabel = "대본 보기" }: { vi
   const withText = videos.filter((v) => v.transcript);
   return (
     <>
-      <div className="flex justify-center gap-4 overflow-x-auto pb-2">
-        {videos.map((v, i) =>
-          v.kind === "youtube" ? <YouTubeCard key={i} v={v} /> : <LocalCard key={i} v={v} />,
-        )}
+      <div className="overflow-x-auto pb-2">
+        <div className="mx-auto flex w-max gap-4 px-5">
+          {videos.map((v, i) =>
+            v.kind === "youtube" ? <YouTubeCard key={i} v={v} /> : <LocalCard key={i} v={v} />,
+          )}
+        </div>
       </div>
 
       {/* 대본(transcript) — 검색엔진 색인용. 접이식이지만 DOM에 포함되어 검색 노출. */}
