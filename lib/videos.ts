@@ -43,24 +43,24 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
   ],
   en: [
     {
-      kind: "local", src: "/videos/habit-en.mp4", poster: "/videos/habit-en.jpg",
+      kind: "youtube", id: "bwV4tAkLmBE",
       title: "Quit again?", sub: "Not willpower — a system",
       transcript: "Hey, hey — quit again after like three days? Relax, it's not that your willpower is weak. You just can't see what to actually do today. A big resolution cools off in three days, every single time. But one tiny habit tied to your dream stacks up, day after day. That's exactly what VisionDream's habit tracker does. It pins a small daily habit right onto your goal. Every time you check it off, your streak grows, and little fruits pop up on your Success Tree. You're not white-knuckling it on willpower — the system carries you. So come on, let's just start with one today.",
     },
     {
-      kind: "local", src: "/videos/morning-en.mp4", poster: "/videos/morning-en.jpg",
+      kind: "youtube", id: "3T45MqdsqNk",
       title: "Slept through it?", sub: "One tiny morning habit",
       transcript: "Missed your miracle morning again? Hey, it's okay — waking up at five isn't a willpower thing. The trick isn't waking up early, it's knowing exactly what to do once you're up. So drop just one tiny morning habit into VisionDream. The moment you open your eyes, today's one small thing is right there waiting. You check that one box, and your day's already started. Stack a few days, and suddenly that's just your morning now. So tomorrow? Just one thing. You got this.",
     },
   ],
   ja: [
     {
-      kind: "local", src: "/videos/habit-ja.mp4", poster: "/videos/habit-ja.jpg",
+      kind: "youtube", id: "9bEeXuZiONs",
       title: "また三日坊主?", sub: "意志じゃなくシステム",
       transcript: "ねえねえ、また三日坊主でしょ? 大丈夫、意志が弱いわけじゃないよ。ただ、今日何をすればいいかが見えてないだけなんだ。大きな決心ひとつは、三日で冷めちゃうもんね。でもさ、夢とつながった小さな習慣ひとつは、毎日ちゃんと積み重なるんだよ。ビジョンドリームの習慣トラッカーが、まさにそれ。きみの目標に、今日の小さな習慣をぽんと結びつけてくれる。チェックするたびに連続記録が伸びて、成功の木に実がひとつずつなるんだ。意志で耐えるんじゃなくて、システムがきみを連れていってくれる。さあ、今日ひとつだけ、一緒に始めよう。",
     },
     {
-      kind: "local", src: "/videos/morning-ja.mp4", poster: "/videos/morning-ja.jpg",
+      kind: "youtube", id: "xzAaCtALkxQ",
       title: "また寝坊?", sub: "朝の習慣ひとつ",
       transcript: "またミラクルモーニング失敗した? 大丈夫、早起きって意志でどうにかなるもんじゃないんだ。大事なのは早く起きることじゃなくて、起きて何をするかが決まってること。ビジョンドリームに、朝の習慣をひとつだけ登録してみて。目を開けたら、今日やる小さなことがちゃんと待ってる。それをひとつチェックするだけで、一日が始まるんだ。何日か続けば、いつのまにかそれがきみの朝になる。じゃあ明日は、ひとつだけ。きっとできるよ。",
     },
