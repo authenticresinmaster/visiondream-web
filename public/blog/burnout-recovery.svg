@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="번아웃에서 회복하는 4단계: 멈춤 허락 → 비전 재연결 → 작은 한 걸음 → 회복 루프">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">번아웃에서 회복하는 4단계</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">더 다그치지 말고, 다시 연결하기</text>
+  <defs>
+    <marker id="boA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="148" y1="210" x2="742" y2="210" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#boA)"/>
+  <g>
+    <circle cx="140" cy="210" r="32" fill="#1a2332"/>
+    <text x="140" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🛑</text>
+    <text x="140" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">① 멈춤 허락</text>
+    <text x="140" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">쉬어도 괜찮아</text>
+  </g>
+  <g>
+    <circle cx="340" cy="210" r="32" fill="#105d9e"/>
+    <text x="340" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🧭</text>
+    <text x="340" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">② 비전 재연결</text>
+    <text x="340" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">왜 시작했는지</text>
+  </g>
+  <g>
+    <circle cx="540" cy="210" r="32" fill="#568a35"/>
+    <text x="540" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">👣</text>
+    <text x="540" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">③ 작은 한 걸음</text>
+    <text x="540" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">몇 분이면 되는</text>
+  </g>
+  <g>
+    <circle cx="740" cy="210" r="32" fill="#d99a00"/>
+    <text x="740" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🌱</text>
+    <text x="740" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">④ 회복 루프</text>
+    <text x="740" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">조금씩 다시</text>
+  </g>
+</svg>

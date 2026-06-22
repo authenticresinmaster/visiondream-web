@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="동기가 안 날 때의 4가지 시스템: 비전과 연결 → 작게 쪼개기 → 보이게 만들기 → 환경 설계">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">의욕에 기대지 않는 4가지 시스템</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">동기는 원인이 아니라 결과다</text>
+  <defs>
+    <marker id="moA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="148" y1="210" x2="742" y2="210" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#moA)"/>
+  <g>
+    <circle cx="140" cy="210" r="32" fill="#1a2332"/>
+    <text x="140" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🧭</text>
+    <text x="140" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">① 비전과 연결</text>
+    <text x="140" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">왜 하는지</text>
+  </g>
+  <g>
+    <circle cx="340" cy="210" r="32" fill="#105d9e"/>
+    <text x="340" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🧩</text>
+    <text x="340" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">② 작게 쪼개기</text>
+    <text x="340" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">2분이면 시작</text>
+  </g>
+  <g>
+    <circle cx="540" cy="210" r="32" fill="#568a35"/>
+    <text x="540" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🔥</text>
+    <text x="540" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">③ 보이게 만들기</text>
+    <text x="540" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">연속기록·성장</text>
+  </g>
+  <g>
+    <circle cx="740" cy="210" r="32" fill="#d99a00"/>
+    <text x="740" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🏗️</text>
+    <text x="740" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">④ 환경 설계</text>
+    <text x="740" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">의지 대신 구조</text>
+  </g>
+</svg>
