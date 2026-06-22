@@ -763,3 +763,20 @@ export function getAllPosts(lang: PostLang = "ko"): Post[] {
 export function getPostBySlug(slug: string, lang: PostLang = "ko"): Post | undefined {
   return (BY_LANG[lang] ?? POSTS).find((p) => p.slug === slug);
 }
+
+/**
+ * 현재 글 기준 인접 글. 목록은 최신순(날짜 내림차순)이므로
+ * prev=더 과거 글(이전 글), next=더 최신 글(다음 글). 끝이면 undefined.
+ */
+export function getAdjacentPosts(
+  slug: string,
+  lang: PostLang = "ko",
+): { prev?: Post; next?: Post } {
+  const all = getAllPosts(lang);
+  const i = all.findIndex((p) => p.slug === slug);
+  if (i === -1) return {};
+  return {
+    next: i > 0 ? all[i - 1] : undefined,
+    prev: i < all.length - 1 ? all[i + 1] : undefined,
+  };
+}

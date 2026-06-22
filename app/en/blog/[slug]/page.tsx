@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { PageShell } from "@/components/PageShell";
-import { getAllPosts, getPostBySlug } from "@/lib/posts";
+import { getAllPosts, getPostBySlug, getAdjacentPosts } from "@/lib/posts";
 import { pageMeta } from "@/lib/seo";
 
 export function generateStaticParams() {
@@ -36,7 +36,7 @@ export default async function BlogPostPage({
   const post = getPostBySlug(slug, "en");
   if (!post) notFound();
 
-  const others = getAllPosts("en").filter((p) => p.slug !== post.slug).slice(0, 2);
+  const { prev, next } = getAdjacentPosts(post.slug, "en");
   const SITE = "https://visiondream.kr";
 
   const articleLd = {
@@ -118,22 +118,33 @@ export default async function BlogPostPage({
             </a>
           </div>
 
-          {others.length > 0 && (
-            <div className="mt-14">
-              <h2 className="text-lg font-black text-navy">More articles</h2>
-              <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                {others.map((p) => (
-                  <Link
-                    key={p.slug}
-                    href={`/en/blog/${p.slug}`}
-                    className="rounded-2xl border border-black/5 bg-[#fafbfc] p-5 transition hover:border-brand/30"
-                  >
-                    <div className="text-2xl">{p.emoji}</div>
-                    <h3 className="mt-2 text-base font-extrabold leading-snug text-navy">{p.title}</h3>
-                  </Link>
-                ))}
-              </div>
-            </div>
+          {(prev || next) && (
+            <nav className="mt-14 grid gap-4 sm:grid-cols-2">
+              {prev ? (
+                <Link
+                  href={`/en/blog/${prev.slug}`}
+                  className="group rounded-2xl border border-black/5 bg-[#fafbfc] p-5 transition hover:border-brand/30"
+                >
+                  <span className="text-xs font-bold text-brand">← Previous</span>
+                  <div className="mt-2 text-2xl">{prev.emoji}</div>
+                  <h3 className="mt-1 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{prev.title}</h3>
+                </Link>
+              ) : (
+                <span className="hidden sm:block" />
+              )}
+              {next ? (
+                <Link
+                  href={`/en/blog/${next.slug}`}
+                  className="group rounded-2xl border border-black/5 bg-[#fafbfc] p-5 transition hover:border-brand/30 sm:text-right"
+                >
+                  <span className="text-xs font-bold text-brand">Next →</span>
+                  <div className="mt-2 text-2xl">{next.emoji}</div>
+                  <h3 className="mt-1 text-base font-extrabold leading-snug text-navy group-hover:text-brand">{next.title}</h3>
+                </Link>
+              ) : (
+                <span className="hidden sm:block" />
+              )}
+            </nav>
           )}
         </div>
       </article>
