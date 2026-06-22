@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/posts";
-import { videoSitemap, type Lang } from "@/lib/videos";
+import { videoSitemap, videosFor, langsForSlug, type Lang } from "@/lib/videos";
 
 const SITE = "https://visiondream.kr";
 const LANGS = ["ko", "en", "ja"] as const;
@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/for-coaches",
     "/for-teams",
     "/blog",
+    "/videos",
     "/faq",
     "/about",
   ];
@@ -58,5 +59,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   );
 
-  return [...marketing, ...posts];
+  // 영상 상세 페이지: 언어별 URL + 해당 슬러그를 가진 언어만 hreflang 대체
+  const videos: MetadataRoute.Sitemap = LANGS.flatMap((lang) =>
+    videosFor(lang as Lang).map((v) => {
+      const path = `/videos/${v.slug}`;
+      const langs = langsForSlug(v.slug);
+      const languages = Object.fromEntries(langs.map((l) => [l, langUrl(l, path)]));
+      return {
+        url: langUrl(lang, path),
+        lastModified: lastMod,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+        alternates: { languages },
+      };
+    }),
+  );
+
+  return [...marketing, ...posts, ...videos];
 }

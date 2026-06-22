@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { VideoGallery } from "@/components/VideoGallery";
-import { videosFor, videosJsonLd } from "@/lib/videos";
+import { videosFor, videosJsonLd, videosIndexHref } from "@/lib/videos";
 import { JsonLd } from "@/components/JsonLd";
 import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
@@ -171,10 +171,15 @@ export default function Home() {
           <div className="mx-auto max-w-5xl">
             <Reveal>
               <h2 className="text-center text-2xl font-black text-navy md:text-3xl">VisionDream in 30 seconds</h2>
-              <p className="mt-3 text-center text-navy/60">Tap a video to unmute.</p>
+              <p className="mt-3 text-center text-navy/60">Tap a card to watch the clip and read its transcript.</p>
             </Reveal>
             <div className="mt-10">
-              <VideoGallery videos={videosFor("en")} transcriptLabel="Transcript" />
+              <VideoGallery videos={videosFor("en").slice(0, 6)} lang="en" watchLabel="📝 Watch & read →" />
+            </div>
+            <div className="mt-8 text-center">
+              <Link href={videosIndexHref("en")} className="text-sm font-bold text-brand hover:underline">
+                See all videos →
+              </Link>
             </div>
           </div>
         </section>

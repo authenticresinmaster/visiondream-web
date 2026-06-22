@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { VideoGallery } from "@/components/VideoGallery";
-import { videosFor, videosJsonLd } from "@/lib/videos";
+import { videosFor, videosJsonLd, videosIndexHref } from "@/lib/videos";
 import { JsonLd } from "@/components/JsonLd";
 import { getAllPosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
@@ -171,10 +171,15 @@ export default function Home() {
           <div className="mx-auto max-w-5xl">
             <Reveal>
               <h2 className="text-center text-2xl font-black text-navy md:text-3xl">30秒でわかるビジョンドリーム</h2>
-              <p className="mt-3 text-center text-navy/60">タップで音声オン。</p>
+              <p className="mt-3 text-center text-navy/60">カードをタップすると動画と台本を一緒に見られます。</p>
             </Reveal>
             <div className="mt-10">
-              <VideoGallery videos={videosFor("ja")} transcriptLabel="台本・字幕" />
+              <VideoGallery videos={videosFor("ja").slice(0, 6)} lang="ja" watchLabel="📝 動画・台本を見る →" />
+            </div>
+            <div className="mt-8 text-center">
+              <Link href={videosIndexHref("ja")} className="text-sm font-bold text-brand hover:underline">
+                すべての動画を見る →
+              </Link>
             </div>
           </div>
         </section>

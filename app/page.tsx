@@ -2,7 +2,7 @@ import Link from "next/link";
 import { EbookForm } from "@/components/EbookForm";
 import { InquiryForm } from "@/components/InquiryForm";
 import { VideoGallery } from "@/components/VideoGallery";
-import { HOME_VIDEOS, videosJsonLd } from "@/lib/videos";
+import { HOME_VIDEOS, videosJsonLd, videosIndexHref } from "@/lib/videos";
 import { getAllPosts } from "@/lib/posts";
 import { JsonLd } from "@/components/JsonLd";
 import { softwareApplicationSchema, homeFaqSchema } from "@/lib/schema";
@@ -164,9 +164,14 @@ export default function Home() {
         <section id="videos" className="bg-white px-5 py-20">
           <div className="mx-auto max-w-5xl">
             <h2 className="text-center text-2xl font-black text-navy md:text-3xl">영상으로 보는 비전드림</h2>
-            <p className="mt-3 text-center text-navy/60">30초면 충분해요. 탭하면 소리가 켜집니다.</p>
+            <p className="mt-3 text-center text-navy/60">30초면 충분해요. 카드를 누르면 영상과 대본을 함께 볼 수 있습니다.</p>
             <div className="mt-10">
-              <VideoGallery videos={HOME_VIDEOS} />
+              <VideoGallery videos={HOME_VIDEOS.slice(0, 6)} lang="ko" />
+            </div>
+            <div className="mt-8 text-center">
+              <Link href={videosIndexHref("ko")} className="text-sm font-bold text-brand hover:underline">
+                전체 영상 보기 →
+              </Link>
             </div>
           </div>
         </section>
