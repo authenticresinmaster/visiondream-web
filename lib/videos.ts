@@ -56,6 +56,26 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "뭘 해야 할지 막막할 때", sub: "비전에서 오늘 할 일까지 — AI 코치",
       transcript: "목표는 있는데 뭘 해야 할지 막막할 때, 가장 어려운 건 빈 페이지예요. 그때 AI 코치를 써 보세요. 비전드림 AI 코치는 되고 싶은 미래를 한 문장만 적으면, 꿈과 목표, 오늘 할 일까지 초안을 쭉 짜 줍니다. 중요한 건, 그게 정답이 아니라 초안이라는 거예요. 초안은 AI가, 결정은 내가. 마음에 안 드는 건 고치고, 내 말로 바꾸면 됩니다. 그렇게 다듬은 계획이 진짜 내 계획이 돼요. 빈 페이지는 AI한테 맡기고, 오늘 한 걸음을 시작해 봐요.",
     },
+    {
+      kind: "youtube", slug: "smart-goals", id: "ymPH6ujE5go",
+      title: "'건강해지기'는 목표가 아니에요", sub: "막연한 소망을 SMART 목표로",
+      transcript: "건강해지기, 돈 모으기. 목표 같지만 사실은 소망이에요. 소망은 오늘 뭘 할지 알려주지 않거든요. 그럴 땐 SMART로 바꿔 보세요. 구체적으로, 측정 가능하게, 달성 가능하게, 내 비전과 관련되게, 그리고 기한을 정해서. 건강해지기 대신, 팔월 말까지 주 삼 회 오 킬로 달리기. 이렇게요. 비전드림은 이 목표를 위의 비전, 아래의 오늘 할 일과 연결해 줘요. 그러면 목표가 메모앱에 잠들지 않고, 매일의 행동이 됩니다. 오늘, 소망 하나를 SMART 목표로 바꿔 봐요.",
+    },
+    {
+      kind: "youtube", slug: "identity-habits", id: "4pituH0g3iQ",
+      title: "습관이 자꾸 무너져?", sub: "목표 말고 정체성에 — 습관 트래커",
+      transcript: "습관이 자꾸 무너지지? 목표에 걸어서 그래. '오 킬로 빼기' 같은 목표는 끝이 있어서, 찍거나 포기하면 끝나 버리거든. 그러지 말고 정체성에 걸어 봐. '살 빼고 싶다'가 아니라 '나는 건강한 사람이다'. 그러면 작은 행동 하나하나가, 그런 사람이라는 한 표가 돼. 비전드림은 습관을 네가 되고 싶은 모습에 묶어 줘서, 체크할 때마다 그게 한 표로 쌓여. 하루 놓쳐도 괜찮아. 두 번 연속만 안 빠지면 돼. 오늘, 되고 싶은 나한테 한 표 던지자.",
+    },
+    {
+      kind: "youtube", slug: "small-wins", id: "sV177jHU0Tg",
+      title: "동기가 자꾸 바닥나?", sub: "작은 성공의 힘 — 성공의 나무",
+      transcript: "동기가 자꾸 바닥나지? 큰 목표만 보고 큰 보상을 기다려서 그래. 근데 동기는 거창한 결과가 아니라, 오늘 느끼는 작은 성공에서 와. 그러니까 첫 걸음을 아주 작게 만들어. 이길 게 거의 확실할 만큼. 그리고 그걸 꼭 체크하고 기록해. 안 보이는 성공은 연료가 안 되거든. 비전드림은 체크할 때마다 연속 기록이 쌓이고 성공의 나무에 열매가 열려서, 작은 승리가 눈에 보여. 그 작은 승리가 다음 한 걸음을 끌어와. 오늘, 작게 하나만 이기자.",
+    },
+    {
+      kind: "youtube", slug: "self-compassion", id: "eDCHoqYlFdI",
+      title: "실패한 날, 몰아세우지 마요", sub: "다시 일으키는 자기 연민",
+      transcript: "오늘 또 빼먹고, 자신을 몰아세우고 있죠? 그 가혹함이 정신 차리게 해 줄 것 같지만, 사실은 더 멈춰 서게 만들어요. 연구도 그래요. 자기비판은 사람을 얼어붙게 하고, 자기 연민은 다시 움직이게 해요. 그러니까 친한 친구에게 하듯 자신에게 말해 줘요. '괜찮아, 힘들었지, 다시 해보자.' 너는 실패자가 아니라, 한 번 실패했을 뿐이에요. 비전드림은 놓친 하루가 판결이 되지 않아요. 체크 하나면 다시 시작돼요. 오늘은 그냥, 작은 한 걸음만.",
+    },
   ],
   en: [
     {
@@ -103,6 +123,26 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Dream gone blurry?", sub: "See it at a glance — Vision Board",
       transcript: "Lately, has your dream gotten a little blurry? You can't quite put what you want into words, it just feels vague. Honestly, a dream written only in text fades fast. It has to be seen for your heart to follow. VisionDream's vision board lets you pin up images of who you want to become and what you want to achieve, all in one view. Then it connects that dream to your goals and today's tasks. Look at that board every day, and before you know it, your heart leans that way. Let's make your dream something you can see today.",
     },
+    {
+      kind: "youtube", slug: "smart-goals", id: "T_7_QpZaUhc",
+      title: "\"Get healthy\" isn't a goal", sub: "Turn a wish into a SMART goal",
+      transcript: "Get healthy. Save money. They feel like goals, but they're wishes, and a wish never tells you what to do today. So make it SMART. Specific, measurable, achievable, relevant to your vision, and time-bound. Instead of get healthy, try: run 5k three times a week by the end of August. VisionDream connects that goal to the vision above it and today's task below it. So your goal doesn't sleep in a notes app, it becomes daily action. Today, turn one wish into a SMART goal.",
+    },
+    {
+      kind: "youtube", slug: "identity-habits", id: "nJyonsSBGNo",
+      title: "Habits keep collapsing?", sub: "Tie them to identity — habit tracker",
+      transcript: "Your habits keep collapsing? It's because they're tied to a goal. A goal like lose ten pounds has a finish line, so the day you hit it or quit, it's over. Instead, tie it to identity. Not I want to lose weight, but I'm a healthy person. Then every small action becomes a vote that you're that person. VisionDream ties your habits to who you want to become, so every check stacks up as a vote. Miss a day? It's fine. Just never miss twice. Today, cast one vote for who you want to be.",
+    },
+    {
+      kind: "youtube", slug: "small-wins", id: "7KCvVvgmfTk",
+      title: "Motivation running out?", sub: "The power of small wins — Tree of Success",
+      transcript: "Your motivation keeps running out? It's because you only look at the big goal and wait for the big payoff. But motivation doesn't come from huge results, it comes from a small win you feel today. So make the first step tiny, small enough that winning is almost guaranteed. Then check it off and record it, because a win you don't see gives you no fuel. In VisionDream, every check builds your streak and grows fruit on your Success Tree, so your small wins are visible. And that small win pulls the next step in. Today, just win something small.",
+    },
+    {
+      kind: "youtube", slug: "self-compassion", id: "fzREok6Kf68",
+      title: "Don't beat yourself up", sub: "Self-compassion restarts you",
+      transcript: "You slipped again today, and now you're beating yourself up, aren't you? That harshness feels like it'll whip you back into shape, but it actually keeps you frozen. The research agrees: self-criticism freezes you, self-compassion gets you moving again. So talk to yourself like you would a dear friend. It's okay, that was hard, let's try again. You're not a failure, you just failed once. In VisionDream, a missed day isn't a verdict. One check, and your streak restarts. Today, just take one small step.",
+    },
   ],
   ja: [
     {
@@ -149,6 +189,26 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "vision-board", id: "6HNeG_8QPQ4",
       title: "夢、ぼやけてきた?", sub: "画像で一目で — ビジョンボード",
       transcript: "最近、夢が少しぼやけてきてない? 何がほしいのか言葉にうまくならなくて、ただ漠然としてる。じつはね、夢って文字だけで書いておくと、すぐに忘れちゃうの。目に見えてこそ、心がついていくんだ。ビジョンドリームのビジョンボードは、なりたい姿やかなえたい夢を画像で貼って、一目で見えるようにしてくれる。そしてその夢を、目標や今日やることまでつなげてくれるの。毎日そのボードを見ていると、いつのまにか心がそっちに傾いていく。さあ、今日は夢を目に見える形にしてみよう。",
+    },
+    {
+      kind: "youtube", slug: "smart-goals", id: "A9riQhHISec",
+      title: "「健康になる」は目標?", sub: "願いをSMART目標に",
+      transcript: "健康になる、お金を貯める。目標っぽいけど、じつは願いです。願いは、今日何をするか教えてくれません。そんなときはSMARTに変えてみて。具体的に、測れるように、達成できるように、自分のビジョンに関連させて、そして期限を決める。健康になる、じゃなくて、八月末までに週三回五キロ走る。こんなふうに。ビジョンドリームは、その目標を上のビジョンと、下の今日やることにつなげます。だから目標がメモアプリで眠らず、毎日の行動になる。今日、願いをひとつSMART目標に変えてみよう。",
+    },
+    {
+      kind: "youtube", slug: "identity-habits", id: "fAHPKjYN2h0",
+      title: "また崩れた?", sub: "目標よりアイデンティティ — 習慣トラッカー",
+      transcript: "習慣がすぐ崩れるよね? それ、目標に結びつけてるからだよ。五キロ痩せる、みたいな目標はゴールがあって、達成しても諦めても終わっちゃう。そうじゃなくて、アイデンティティに結びつけてみて。痩せたい、じゃなくて、自分は健康な人だ。そうすると、小さな行動ひとつひとつが、そういう人だっていう一票になる。ビジョンドリームは、習慣をなりたい自分に結びつけてくれるから、チェックするたびに一票が積み上がる。一日逃しても大丈夫。二度続けて休まなければいい。今日、なりたい自分に一票入れよう。",
+    },
+    {
+      kind: "youtube", slug: "small-wins", id: "XtCoXLca8VI",
+      title: "やる気、すぐ尽きる?", sub: "小さな成功の力 — 成功の樹",
+      transcript: "やる気がすぐ尽きるよね? 大きな目標ばかり見て、大きな見返りを待ってるからなんだ。でもやる気は、すごい結果じゃなくて、今日感じる小さな成功から来る。だから最初の一歩をうんと小さくして。勝つのがほぼ確実なくらい。そしてそれを必ずチェックして記録する。見えない成功は燃料にならないからね。ビジョンドリームは、チェックするたびに連続記録が積み上がって、成功の樹に実がなる。だから小さな勝利が目に見える。その小さな勝利が、次の一歩を引っぱってくる。今日、小さくひとつ勝とう。",
+    },
+    {
+      kind: "youtube", slug: "self-compassion", id: "n6P81mES4Ck",
+      title: "自分を責めないで", sub: "立ち直らせる思いやり",
+      transcript: "今日もつまずいて、自分を責めてるでしょう? その厳しさが立て直してくれる気がするけど、じつはもっと動けなくさせるの。研究もそう。自己批判は人を固まらせて、思いやりはまた動き出させる。だから、大切な友だちに話すように、自分に言ってあげて。大丈夫、つらかったね、もう一回やってみよう。あなたは失敗作じゃなくて、一度失敗しただけ。ビジョンドリームは、逃した一日が判決にならないの。チェックひとつで、また始められる。今日はただ、小さな一歩だけ。",
     },
   ],
 };
