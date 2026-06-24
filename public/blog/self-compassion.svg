@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="실패 후 다시 시작하는 4단계: 멈추고 알아차리기 → 자신에게 친절하기 → 사실만 보기 → 작은 한 걸음">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">실패한 날, 다시 시작하는 4단계</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">자기비판보다 자기연민이 더 빨리 회복시킨다</text>
+  <defs>
+    <marker id="scA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="148" y1="210" x2="742" y2="210" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#scA)"/>
+  <g>
+    <circle cx="140" cy="210" r="32" fill="#1a2332"/>
+    <text x="140" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🫧</text>
+    <text x="140" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">① 알아차리기</text>
+    <text x="140" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">멈추고 인정</text>
+  </g>
+  <g>
+    <circle cx="340" cy="210" r="32" fill="#105d9e"/>
+    <text x="340" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🤝</text>
+    <text x="340" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">② 친절하기</text>
+    <text x="340" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">친구에게 하듯</text>
+  </g>
+  <g>
+    <circle cx="540" cy="210" r="32" fill="#568a35"/>
+    <text x="540" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">🔎</text>
+    <text x="540" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">③ 사실만</text>
+    <text x="540" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">'나 = 실패' X</text>
+  </g>
+  <g>
+    <circle cx="740" cy="210" r="32" fill="#d99a00"/>
+    <text x="740" y="220" text-anchor="middle" font-family="sans-serif" font-size="24">👣</text>
+    <text x="740" y="272" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">④ 한 걸음</text>
+    <text x="740" y="292" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">다시 작게</text>
+  </g>
+</svg>
