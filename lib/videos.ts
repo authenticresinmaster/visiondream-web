@@ -76,6 +76,56 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "실패한 날, 몰아세우지 마요", sub: "다시 일으키는 자기 연민",
       transcript: "오늘 또 빼먹고, 자신을 몰아세우고 있죠? 그 가혹함이 정신 차리게 해 줄 것 같지만, 사실은 더 멈춰 서게 만들어요. 연구도 그래요. 자기비판은 사람을 얼어붙게 하고, 자기 연민은 다시 움직이게 해요. 그러니까 친한 친구에게 하듯 자신에게 말해 줘요. '괜찮아, 힘들었지, 다시 해보자.' 너는 실패자가 아니라, 한 번 실패했을 뿐이에요. 비전드림은 놓친 하루가 판결이 되지 않아요. 체크 하나면 다시 시작돼요. 오늘은 그냥, 작은 한 걸음만.",
     },
+    {
+      kind: "youtube", slug: "bucket-list", id: "pce8TzYx8gk",
+      title: "버킷리스트, 왜 열두 개에서 멈출까?", sub: "버킷리스트가 열두 개에서 멈췄다면",
+      transcript: "버킷리스트 쓰다 보면 꼭 열두 개쯤에서 막히죠. 꿈이 없는 게 아니라, 쓰는 방법이 없어서 그래요. 이렇게 해 봐요. 먼저 인생을 영역으로 나눠요. 여행, 건강, 관계, 배움, 일, 이렇게요. 한 영역에 오 분씩만 마구 적으면 백 개도 금방이에요. 그다음엔 구체적으로. 세계여행 말고, 아이슬란드에서 오로라 보기. 이렇게 한 장면이 떠오르게요. 그리고 올해 가장 끌리는 다섯 개엔 날짜를 정해요. 언젠가가 아니라 내년 여름까지. 그러면 소망이 진짜 목표가 돼요. 비전드림은 이 꿈들을 비전이랑 오늘 할 일에 연결해 줘서, 버킷리스트가 메모앱에 잠들지 않고 매일의 습관이 되게 해 줘요. 오늘, 빈 리스트 하나 열고 열두 개 너머까지 적어 봐요.",
+    },
+    {
+      kind: "youtube", slug: "self-start", id: "zy8K8tbBaMY",
+      title: "뭐부터 해야 할지 모르겠다면", sub: "자기계발, 어디서부터 시작하지?",
+      transcript: "자기계발, 하고는 싶은데 뭐부터 해야 할지 막막하죠. 사실 막막한 게 정상이에요. 초보가 가장 많이 하는 실수는, 의지로 열 가지를 한 번에 바꾸려는 거예요. 그러다 사흘 만에 무너지고요. 반대로 가야 해요. 딱 하나, 부끄러울 만큼 작게. 아침에 일어나면 이 분 스트레칭. 이렇게요. 그리고 그 작은 습관을, 내가 되고 싶은 모습이랑 연결하세요. 이유가 있으면 일주일을 넘깁니다. 비전드림은 비전과 오늘의 작은 습관을 이어 주고, 매일 체크하면 성공의 나무가 자라요. 오늘, 딱 하나만 시작해 봐요.",
+    },
+    {
+      kind: "youtube", slug: "beat-slump", id: "xVsv8CsKYL4",
+      title: "의욕이 안 생기는 게 아니에요", sub: "의욕이 0일 때, 이렇게 시동 거세요",
+      transcript: "뭘 해야 하는지 아는데, 도무지 시작이 안 되는 날 있죠. 그건 게으른 게 아니라, 엔진이 잠깐 멈춘 거예요. 그리고 우리는 큰 착각을 해요. 의욕이 생기면 시작하자. 그런데 사실은 반대예요. 움직여야 의욕이 따라와요. 그러니까 딱 이 분만. 운동 말고 신발만 신기. 보고서 말고 파일 열고 한 줄만. 그럼 엔진이 돌아가기 시작해요. 그리고 의지 말고 환경을 바꿔 보세요. 내일 옷을 미리 꺼내 두는 것처럼요. 비전드림은 그 작은 한 걸음을 내 비전에 다시 이어 줘요. 오늘, 이 분만 시동 걸어 봐요.",
+    },
+    {
+      kind: "youtube", slug: "time-blocking", id: "y4hEdiquuho",
+      title: "리스트 다 적었는데 왜 안 끝나?", sub: "할 일 목록은 왜 자꾸 실패할까",
+      transcript: "할 일 다 적었는데, 저녁이 되면 제일 중요한 건 그대로 남아 있죠? 그거 의지 문제가 아니에요. 목록은 무엇을 할지는 알려줘도, 언제 할지는 안 알려주거든요. 그래서 급한 작은 일이 중요한 큰일을 자꾸 밀어내요. 해법은 타임블로킹. 오늘 꼭 할 세 가지를 고르고, 제일 어려운 걸 머리 맑은 시간에 캘린더에 딱 붙여요. 대신 하루를 꽉 채우지 말고, 육칠십 퍼센트만. 나머지는 버퍼로 비워 둬요. 그래야 전화 한 통에 하루가 안 무너져요. 비전드림은 이 블록을 위의 목표, 비전과 연결해 줘서, 한 시간을 써도 어떤 꿈을 키우는지 보여요. 오늘, 가장 중요한 일 하나에 시간을 먼저 떼어 줘 봐요.",
+    },
+    {
+      kind: "youtube", slug: "affirmations", id: "hjUV2vJeToo",
+      title: "'나는 부자다' 외쳐도 통장은 그대로죠", sub: "확언, 거울 보고 외우면 안 되는 이유",
+      transcript: "거울 보면서 '나는 부자다' 백 번 외쳐도, 통장은 그대로예요. 확언이 가짜라서가 아니라, 쓰는 법이 틀려서 그래요. 확언은 우주를 부르는 주문이 아니라, 내가 나를 어떻게 믿는지 바꾸는 도구거든요. 그런데 지금 현실이랑 너무 다른 말은 뇌가 거짓말로 분류해 버려요. 그래서 '나는 억만장자다' 말고, '나는 쓰기 전에 모으는 사람이다' 이렇게 믿을 수 있게 바꿔야 해요. 그리고 꼭 행동이랑 짝지으세요. '나는 쓰는 사람이다' 말했으면 한 문장이라도 쓰는 거예요. 말이랑 행동이 맞을 때마다 뇌가 증거를 얻어요. 아, 이거 진짜일지도. 그렇게 확언은 믿음이 되고, 믿음은 행동이 됩니다.",
+    },
+    {
+      kind: "youtube", slug: "evening-routine", id: "7zh-25vi4dw",
+      title: "내일 아침, 사실 오늘 밤에 정해져요", sub: "갓생은 아침이 아니라 전날 밤에 결정돼요",
+      transcript: "아침 루틴이 자꾸 무너진다면, 문제는 새벽 여섯 시의 의지가 아니라 밤 열한 시예요. 스마트폰을 손에서 못 놓고 잠든 밤은, 내일을 이미 뒤처진 채로 시작하게 만들거든요. 그래서 저는 자기 전에 딱 세 가지만 해요. 첫째, 오늘 하루를 이 분만 돌아봐요. 둘째, 내일 아침에 할 첫 행동 한 줄을 미리 적어 둬요. 문서 열고 첫 문장 쓰기, 이렇게 딱 하나만요. 셋째, 자기 한 시간 전엔 화면을 끄고 잠을 준비해요. 그러면 아침이 의지가 아니라 계획으로 굴러가요. 비전드림은 내일 첫 행동을 체크할 습관으로 만들어 주고, 마지막에 비전을 한 번 더 보여줘요. 오늘 밤, 내일의 첫걸음 하나만 정해 두세요.",
+    },
+    {
+      kind: "youtube", slug: "deep-work", id: "piKFcxsczrQ",
+      title: "앉자마자 폰에 손이 간다면", sub: "집중이 안 될 때, 이렇게 해보세요",
+      transcript: "일하려고 앉았는데, 몇 초 만에 폰에 손이 가죠. 의지가 약한 게 아니에요. 세상이 우리를 방해하도록 만들어져 있거든요. 그래서 딥워크는 참는 게 아니라, 방해를 미리 치우는 거예요. 폰은 다른 방에, 알림은 끄고, 필요 없는 탭은 닫으세요. 그리고 딱 하나만 골라서, 이십오 분만 거기에 머물러요. 여러 개를 왔다 갔다 하면, 뇌가 다시 집중하는 데 매번 몇 분씩 새거든요. 비전드림은 오늘의 집중을 위의 목표, 그리고 비전과 연결해 줘요. 지금 이 몰입이 어떤 꿈을 키우는지 보이면, 딴짓이 확 줄어요. 오늘, 방해 하나만 치우고 시작해 봐요.",
+    },
+    {
+      kind: "youtube", slug: "perfectionism", id: "a78KwB_6MsM",
+      title: "완벽하게 하려다, 시작을 못 하고 있진 않나요?", sub: "완벽하게 하려다 시작을 못 한다면",
+      transcript: "문서를 열었다가, 그냥 닫아 버린 적 있죠? 게을러서가 아니에요. 머릿속 완벽한 모습에 못 미칠 게 뻔히 보여서, 더 좋은 타이밍을 기다리는 거예요. 그게 완벽주의예요. 근데요, 그건 실력이 아니라 사실은 두려움이에요. 잘하고 싶은 마음이, 시작 자체를 막아 버리는 거죠. 그래서 이렇게 해 보세요. 첫 초안은 형편없어도 괜찮다고, 나한테 허락해 주세요. 시작하는 기준은 딱 이 분, 한 문단으로 낮추고요. 완벽은 나중에 고치면서 채우면 돼요. 머릿속 완벽한 백 점보다, 일단 끝낸 육십 점이 훨씬 나아요. 고칠 수가 있으니까요. 오늘은요, 완벽 말고 완료를 목표로 해 봐요.",
+    },
+    {
+      kind: "youtube", slug: "self-esteem", id: "z1oPVajXyL4",
+      title: "확언 백 번, 왜 안 와닿을까?", sub: "'나는 충분해' 백 번 외워도 안 되는 이유",
+      transcript: "자존감 높이고 싶어서 '나는 충분해' 백 번 외워 봤는데, 하나도 안 와닿았죠? 당연해요. 자존감은 기분이 아니라, 나에 대한 신뢰거든요. 그리고 신뢰는 말이 아니라, 지킨 약속으로 쌓여요. 그러니까 오늘 나랑 아주 작은 약속 하나만 해봐요. 책 딱 한 페이지만 읽기. 그리고 진짜로 지켜요. 그게 증거가 돼요. 나는 말한 걸 해내는 사람이구나, 하는 증거. 그 증거가 하나씩 쌓이면, 어떤 힘든 날에도 안 흔들리는 자존감이 됩니다. 비전드림에선 약속을 지킬 때마다 성공의 나무가 자라서, 그 증거가 눈에 보여요. 오늘, 지킬 수 있을 만큼 작은 약속 하나부터 시작해요.",
+    },
+    {
+      kind: "youtube", slug: "grit", id: "U97Eq8wnZP8",
+      title: "재능이 이긴다고?", sub: "재능보다, 오래 하는 사람이 이겨",
+      transcript: "아빠가 살아 보니까, 재능이 이기는 게 아니더라. 끝까지 남는 사람이 이겨. 여섯 시간 몰아서 하고 이 주 사라지는 것보다, 매일 이십 분이 훨씬 세. 왜냐면 그건 계속되거든. 끈기는 이 악무는 게 아니야. 지루한 목요일에도 굴러가게 미리 만들어 두는 거야. 그러니까 하루치를 아주 작게 만들어. 나쁜 날도 못 막을 만큼. 하다가 하루 걸러? 괜찮아. 두 번만 안 거르면 돼. 비전드림은 체크할 때마다 연속 기록이 쌓이고 성공의 나무에 열매가 열려서, 오래 버틴 게 눈에 보여. 오늘도, 작게 딱 하나만 하자.",
+    },
   ],
   en: [
     {
@@ -143,6 +193,56 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Don't beat yourself up", sub: "Self-compassion restarts you",
       transcript: "You slipped again today, and now you're beating yourself up, aren't you? That harshness feels like it'll whip you back into shape, but it actually keeps you frozen. The research agrees: self-criticism freezes you, self-compassion gets you moving again. So talk to yourself like you would a dear friend. It's okay, that was hard, let's try again. You're not a failure, you just failed once. In VisionDream, a missed day isn't a verdict. One check, and your streak restarts. Today, just take one small step.",
     },
+    {
+      kind: "youtube", slug: "bucket-list", id: "zUIQK2MKVvM",
+      title: "Your bucket list always stops at twelve?", sub: "Why your bucket list stops at twelve",
+      transcript: "Ever notice your bucket list dies around item twelve? It's not that you're out of dreams. You're out of a method. So try this. First, split your life into areas: travel, health, relationships, learning, work. Set a five minute timer per area and just dump. You'll hit a hundred way faster. Then make each one specific. Not see the world, but watch the northern lights in Iceland. Something you could photograph. Next, take the five that pull hardest this year and give each a date. Not someday, but by next summer. That's when a wish becomes a real goal. VisionDream connects those dreams to your vision and your today, so your list doesn't sleep in a notes app, it becomes a daily habit. Today, open a blank list and write past the obvious twelve.",
+    },
+    {
+      kind: "youtube", slug: "self-start", id: "g2fz5ILHMi0",
+      title: "Don't know where to start?", sub: "Self-improvement: where do I even start?",
+      transcript: "You want to improve yourself, but you have no idea where to start. Honestly, that's the normal place to be. The biggest beginner mistake is trying to fix ten things at once with willpower, and crashing in three days. Go the other way. Pick one thing, so small it feels almost silly. After you wake up, two minutes of stretching. Like that. Then connect that tiny habit to who you want to become. A reason is what carries you past week one. VisionDream links your vision to today's small habit, and a tree of success grows every time you check it off. Today, just start one.",
+    },
+    {
+      kind: "youtube", slug: "beat-slump", id: "lv2o0hCtbck",
+      title: "You're not lazy — you're stalled", sub: "When motivation hits zero, do this",
+      transcript: "You know what to do, but you just can't make yourself start. That's not laziness. It's an engine that stalled for a minute. And here's the trap we all fall into: I'll start once I feel motivated. But it's the other way around. You move first, and the motivation follows. So just two minutes. Not work out, just put on your shoes. Not write the report, just open the file and type one line. That turns the engine over. And instead of more willpower, change your environment. Lay tomorrow's clothes out tonight. VisionDream ties that tiny step back to your bigger vision. Today, give it just two minutes.",
+    },
+    {
+      kind: "youtube", slug: "time-blocking", id: "YeUd28gnU5E",
+      title: "Wrote the list. Still didn't finish?", sub: "Why your to-do list keeps failing",
+      transcript: "You wrote the whole list, but by evening the most important thing is still untouched? That's not a willpower problem. A list tells you what to do, but never when. So the quick little tasks keep crowding out the big important one. The fix is time blocking. Pick the three things that must move today, and put the hardest one right on your calendar, in your sharpest hours. But don't pack the day full. Block only sixty to seventy percent, and leave the rest as buffer. That way one long phone call doesn't topple your whole day. VisionDream links each block to the goal and vision above it, so even one hour shows you which dream it's feeding. Today, give your most important task its time first.",
+    },
+    {
+      kind: "youtube", slug: "affirmations", id: "EwYzapwwuxg",
+      title: "Chanting \"I am rich\" won't fill your account", sub: "Why chanting affirmations doesn't work",
+      transcript: "You can say I am rich a hundred times in the mirror, and your bank account stays exactly the same. It's not because affirmations are fake. It's because most people use them wrong. An affirmation isn't a spell to summon the universe. It's a tool to change how you see yourself. But if the words clash with your reality, your brain just files them as a lie. So instead of I am a millionaire, try, I'm someone who saves before spending. Something you can actually believe. And here's the real secret: pair it with an action. Say I'm a writer, then write one sentence. Every time your words and your actions line up, your brain gets proof. Maybe this is true. That's how words become belief, and belief becomes who you are.",
+    },
+    {
+      kind: "youtube", slug: "evening-routine", id: "gWOVPZh3kDo",
+      title: "Tomorrow morning is decided tonight", sub: "A good day is decided the night before",
+      transcript: "If your mornings keep falling apart, the problem isn't your willpower at six a.m., it's what happened at eleven p.m. A night of endless scrolling leaves you starting tomorrow already behind. So before bed, I do just three things. First, I look back at today for two minutes. What went well, what drained me. Second, I write one first action for tomorrow. Not a whole list, just one starting move, like: open the doc and write the first line. Third, about an hour before sleep, I put the screens down and let my body wind down. Then my morning runs on a plan instead of willpower. VisionDream turns tomorrow's first action into a habit you check off, and shows your vision one last time before you sleep. Tonight, just choose tomorrow's first step.",
+    },
+    {
+      kind: "youtube", slug: "deep-work", id: "KVgCjlL7VhY",
+      title: "Reaching for your phone already?", sub: "Can't focus? Try this",
+      transcript: "You sit down to work, and within seconds your hand reaches for your phone. It's not weak willpower. The world is built to interrupt you. So deep work isn't about resisting, it's about clearing the distraction before you start. Put your phone in another room, turn off notifications, close the extra tabs. Then pick just one task and stay with it for twenty-five minutes. Every time you switch, your brain leaks a few minutes climbing back in. VisionDream connects today's focus to the goal above it, and to your vision. When you can see which dream this block is building, drifting drops away. Today, clear just one distraction and begin.",
+    },
+    {
+      kind: "youtube", slug: "perfectionism", id: "YbyrQli7tbA",
+      title: "Is \"perfect\" keeping you from starting?", sub: "When \"perfect\" stops you from starting",
+      transcript: "Ever open the document, then just close it again? It's not because you're lazy. You can already see how far it'll fall short of the perfect version in your head, so you wait for a better moment. That's perfectionism. And here's the thing, it isn't really high standards, it's fear in disguise. Wanting it to be great is the very thing stopping you from starting. So try this. Give yourself permission to make a bad first draft. Lower the bar just to start, two minutes, one paragraph. You can add the polish later. A finished sixty percent beats a perfect hundred percent that never leaves your head, because a finished thing can be improved. Today, aim for done, not perfect.",
+    },
+    {
+      kind: "youtube", slug: "self-esteem", id: "7_6UxFD3i1k",
+      title: "Repeating 'I am enough' isn't working?", sub: "Why 'I am enough' x100 doesn't work",
+      transcript: "You've stood in the mirror repeating 'I am enough,' and it just bounced right off, right? Of course it did. Self-esteem isn't a mood, it's trust in yourself. And trust gets built by kept promises, not by words. So make one tiny promise today. Read just one page. Then actually keep it. That becomes evidence, proof that you're someone who does what they say. Stack enough of that evidence, and you get self-esteem that no bad day can shake. In VisionDream, every promise you keep grows your Tree of Success, so the evidence is something you can actually see. Start today, with one promise small enough to keep.",
+    },
+    {
+      kind: "youtube", slug: "grit", id: "QIiG015pIpY",
+      title: "Talent doesn't win", sub: "The one who lasts beats the talented one",
+      transcript: "Here's something your dad learned the hard way. Talent doesn't win. The one who's still here at the end wins. Six heroic hours, then two weeks gone, loses to twenty quiet minutes every day, because the twenty minutes keep happening. Grit isn't gritted teeth. It's building your day so the reps happen even on a flat, tired Thursday. So make the daily thing small. Small enough that a bad day can't stop it. Miss a day? That's fine. Just never miss twice. VisionDream stacks a streak every time you check in, and grows your Success Tree, so all that quiet effort finally shows. Today, just do one small thing.",
+    },
   ],
   ja: [
     {
@@ -209,6 +309,56 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "self-compassion", id: "n6P81mES4Ck",
       title: "自分を責めないで", sub: "立ち直らせる思いやり",
       transcript: "今日もつまずいて、自分を責めてるでしょう? その厳しさが立て直してくれる気がするけど、じつはもっと動けなくさせるの。研究もそう。自己批判は人を固まらせて、思いやりはまた動き出させる。だから、大切な友だちに話すように、自分に言ってあげて。大丈夫、つらかったね、もう一回やってみよう。あなたは失敗作じゃなくて、一度失敗しただけ。ビジョンドリームは、逃した一日が判決にならないの。チェックひとつで、また始められる。今日はただ、小さな一歩だけ。",
+    },
+    {
+      kind: "youtube", slug: "bucket-list", id: "mLbsB9Bkx68",
+      title: "バケットリスト、12個で止まってない?", sub: "バケットリストが12個で止まる理由",
+      transcript: "バケットリストって、だいたい12個目くらいで止まりますよね。夢が尽きたんじゃなくて、書き方が尽きただけなんです。だからこうしてみて。まず人生を領域に分けます。旅行、健康、人間関係、学び、仕事、こんなふうに。一つの領域に五分だけタイマーをかけて、ただ書き出す。それだけで百個もあっという間です。次に、具体的に。世界を見る、じゃなくて、アイスランドでオーロラを見る。写真に撮れる一場面が浮かぶように。そして今年いちばん引っ張る五つに日付をつけます。いつか、じゃなくて、来年の夏までに。そうすると願いが本物の目標になります。ビジョンドリームは、その夢をあなたのビジョンと今日やることにつないでくれるから、リストがメモアプリで眠らず、毎日の習慣になるんです。今日、白紙のリストを開いて、12個の先まで書いてみて。",
+    },
+    {
+      kind: "youtube", slug: "self-start", id: "6qOh4BA1ZCw",
+      title: "何から始めればいいか分からないなら", sub: "自己啓発、どこから始める?",
+      transcript: "自分を変えたいけど、何から始めればいいか分からない。じつは、それが当たり前のスタート地点です。初心者がいちばんやりがちな間違いは、意志の力で十個を一度に変えようとして、三日で崩れること。逆に行きましょう。たった一つ、ばかばかしいくらい小さく。起きたら二分のストレッチ。こんなふうに。そして、その小さな習慣を、なりたい自分につなげてください。理由があれば、一週間を越えられます。ビジョンドリームは、ビジョンと今日の小さな習慣をつなぎ、チェックするたびに成功の樹が育ちます。今日、まず一つだけ始めてみよう。",
+    },
+    {
+      kind: "youtube", slug: "beat-slump", id: "OYKZ4J4UdEQ",
+      title: "怠けてるんじゃありません", sub: "やる気がゼロのとき、こうしてエンジンをかける",
+      transcript: "やることは分かっているのに、どうしても始められない日、ありますよね。それは怠けじゃなくて、エンジンがちょっと止まっただけ。そしてみんな同じ落とし穴にはまります。やる気が出たら始めよう。でも、じつは逆なんです。動いた後に、やる気がついてくる。だからまず二分だけ。運動じゃなくて、靴を履くだけ。レポートじゃなくて、ファイルを開いて一行打つだけ。それでエンジンが回り始めます。そして根性じゃなくて、環境を変えてみて。明日の服を今夜出しておくみたいに。ビジョンドリームは、その小さな一歩をあなたのビジョンに結び直してくれます。今日、二分だけエンジンをかけてみましょう。",
+    },
+    {
+      kind: "youtube", slug: "time-blocking", id: "lHIA7zSjivM",
+      title: "リスト書いたのに終わらない?", sub: "やることリストはなぜ失敗する?",
+      transcript: "やること全部書いたのに、夕方になると一番大事なことが手つかず。それ、意志の問題じゃないんです。リストは何をやるかは教えても、いつやるかは教えてくれない。だから急ぎの小さな用事が、大事な大きい仕事をどんどん押しのけるんです。解決はタイムブロッキング。今日必ず動かす三つを選んで、一番難しいものを頭が冴える時間にカレンダーへ直接置く。でも一日を詰め込みすぎないこと。六割から七割だけブロックして、残りはバッファに空けておく。そうすれば電話一本で一日が崩れません。ビジョンドリームはこのブロックを上の目標とビジョンにつなぐから、一時間使うだけでどの夢を育てているか見えます。今日、一番大事なことに、まず時間をあげてみて。",
+    },
+    {
+      kind: "youtube", slug: "affirmations", id: "iVtNCUt0jWw",
+      title: "「私は豊かだ」と唱えても口座はそのまま", sub: "アファメーションを唱えても効かない理由",
+      transcript: "鏡の前で「私は豊かだ」と百回唱えても、口座の残高はそのままですよね。アファメーションが嘘だからじゃありません。使い方が間違っているからなんです。アファメーションは宇宙を呼ぶ呪文じゃなくて、自分が自分をどう見るかを変える道具なんです。でも今の現実とかけ離れた言葉は、脳が嘘として処理してしまいます。だから「私は億万長者だ」じゃなくて、「私は使う前に貯める人だ」みたいに、信じられる形に変えましょう。そして必ず行動とセットにします。「私は書く人だ」と言ったら、一文でも書く。言葉と行動がそろうたびに、脳が証拠を受け取ります。あ、これ本当かも、って。そうして言葉は信念になり、信念があなた自身になっていきます。",
+    },
+    {
+      kind: "youtube", slug: "evening-routine", id: "p-1KbrHLbW8",
+      title: "明日の朝は、今夜決まります", sub: "良い一日は、前の晩に決まる",
+      transcript: "朝が毎回崩れるなら、問題は朝六時の意志力ではなく、夜十一時に起きたことです。スマホをだらだら見て眠った夜は、明日をもう出遅れた状態で始めさせます。だから私は寝る前に、たった三つだけします。まず、今日を二分だけ振り返ります。何がうまくいって、何に消耗したか。次に、明日の最初の一手を一つ書いておきます。リストではなく、動き出しの一手だけ。たとえば、文書を開いて最初の一文を書く、みたいに。三つめは、寝る一時間ほど前に画面を切って、体を休ませる準備をします。そうすると、朝が意志力ではなく計画で回ります。ビジョンドリームは、明日の最初の一手をチェックする習慣に変えて、眠る前にビジョンをもう一度見せてくれます。今夜、明日の最初の一歩だけ、決めておきましょう。",
+    },
+    {
+      kind: "youtube", slug: "deep-work", id: "LmXhrq-B7S4",
+      title: "座った瞬間スマホに手が?", sub: "集中できないとき、これを試して",
+      transcript: "仕事しようと座ったのに、数秒でスマホに手が伸びる。意志が弱いんじゃありません。世界が、あなたを中断させるように作られているんです。だからディープワークは、我慢することじゃなくて、始める前に邪魔を片づけること。スマホは別の部屋に、通知はオフ、いらないタブは閉じて。そして作業を一つだけ選んで、二十五分そこに留まる。あれこれ切り替えるたびに、脳が戻るのに毎回数分も漏れるんです。ビジョンドリームは、今日の集中を上の目標、そしてビジョンにつなげてくれます。この没頭がどの夢を育てているか見えると、気が散るのがぐっと減る。今日、邪魔をひとつだけ片づけて始めてみよう。",
+    },
+    {
+      kind: "youtube", slug: "perfectionism", id: "lFsLoRMi2ZQ",
+      title: "「完璧に」やろうとして、始められていませんか?", sub: "「完璧に」が始めるのを止めているなら",
+      transcript: "文書を開いて、そのまま閉じたこと、ありませんか。怠けているからじゃないんです。頭の中の完璧な姿に、どれだけ届かないかがもう見えてしまう。だからもっといいタイミングを待つ。それが完璧主義です。でもね、それは高い基準じゃなくて、じつは変装した恐れなんです。うまくやりたい気持ちが、始めること自体を止めている。だから、こうしてみて。最初の初稿はひどくていいと、自分に許可を出す。始めるハードルは、二分、一段落まで下げる。完璧は、あとで直しながら足せばいい。頭の中の完璧な百点より、とりあえず仕上げた六十点のほうがずっといい。だって、直せるから。今日は、完璧じゃなくて完了を目指してみよう。",
+    },
+    {
+      kind: "youtube", slug: "self-esteem", id: "NRXFbnbzmGk",
+      title: "アファメーション百回、なぜ響かない?", sub: "「私は十分」百回唱えても効かない理由",
+      transcript: "自己肯定感を上げたくて、「私は十分だ」って百回唱えても、全然しっくりこなかったでしょ? 当然です。自己肯定感は気分じゃなくて、自分への信頼だから。そして信頼は、言葉じゃなくて、守った約束で積み上がります。だから今日、すごく小さな約束を一つだけしてみて。本を一ページだけ読む。そして本当に守る。それが証拠になります。自分は言ったことをやる人間だ、っていう証拠。その証拠が一つずつ積み上がると、どんな悪い日にも揺るがない自己肯定感になる。ビジョンドリームでは、約束を守るたびに成功の木が育って、その証拠が目に見えます。今日、守れるくらい小さな約束を一つから始めてみよう。",
+    },
+    {
+      kind: "youtube", slug: "grit", id: "qu7CI7egqbk",
+      title: "才能が勝つ?", sub: "才能より、長く続ける人が勝つ",
+      transcript: "父さんが生きてきて分かったよ。才能が勝つんじゃない。最後まで残った人が勝つんだ。一度に六時間やって二週間消えるより、毎日たった二十分のほうがずっと強い。だって、それは続くからね。やり抜く力は、歯を食いしばることじゃない。気分の乗らない木曜にも反復が起きるように、先に一日を組み立てておくことだ。だから毎日の分をうんと小さくしよう。悪い日でも止められないくらいにね。一日抜かした?大丈夫。二度だけ抜かさなければいい。ビジョンドリームはチェックのたびに連続記録が伸びて、成功の木に実がなるから、長く続けたことが目に見えるよ。今日も、小さくひとつだけやろう。",
     },
   ],
 };
