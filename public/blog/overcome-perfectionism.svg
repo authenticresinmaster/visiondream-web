@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="완벽주의(멈춤)에서 완료주의로: 작게 시작 → 형편없는 초안 → 완료 → 개선">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">완벽주의를 넘어 완료주의로</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">'완벽하게'가 멈추게 할 때, '완료'가 앞으로 나아가게 합니다</text>
+
+  <!-- 완벽주의: 멈춤 -->
+  <g>
+    <rect x="60" y="120" width="150" height="120" rx="16" fill="#fbeaea" stroke="#c0392b" stroke-width="2"/>
+    <text x="135" y="158" text-anchor="middle" fill="#c0392b" font-family="sans-serif" font-size="30" font-weight="800">⛔</text>
+    <text x="135" y="192" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">완벽주의</text>
+    <text x="135" y="214" text-anchor="middle" fill="#7a4a45" font-family="sans-serif" font-size="12">기준이 너무 높아</text>
+    <text x="135" y="231" text-anchor="middle" fill="#7a4a45" font-family="sans-serif" font-size="12">시작조차 못 함</text>
+  </g>
+
+  <text x="238" y="186" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="26" font-weight="800">→</text>
+
+  <defs>
+    <marker id="opA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+
+  <!-- 완료주의 4단계 -->
+  <line x1="300" y1="300" x2="828" y2="300" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#opA)"/>
+
+  <g>
+    <circle cx="330" cy="180" r="34" fill="#1a2332"/>
+    <text x="330" y="190" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">1</text>
+    <text x="330" y="248" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13" font-weight="800">작게 시작</text>
+    <text x="330" y="267" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">2분·한 문단</text>
+  </g>
+  <g>
+    <circle cx="490" cy="180" r="34" fill="#105d9e"/>
+    <text x="490" y="190" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">2</text>
+    <text x="490" y="248" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13" font-weight="800">형편없는 초안</text>
+    <text x="490" y="267" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">일단 꺼내기</text>
+  </g>
+  <g>
+    <circle cx="650" cy="180" r="34" fill="#568a35"/>
+    <text x="650" y="190" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">3</text>
+    <text x="650" y="248" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13" font-weight="800">완료</text>
+    <text x="650" y="267" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">끝냈다는 승리</text>
+  </g>
+  <g>
+    <circle cx="800" cy="180" r="34" fill="#d99a00"/>
+    <text x="800" y="190" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">4</text>
+    <text x="800" y="248" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13" font-weight="800">개선</text>
+    <text x="800" y="267" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">고쳐서 더 좋게</text>
+  </g>
+
+  <text x="564" y="345" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="15" font-weight="800">완료가 완벽을 이깁니다 🌱</text>
+</svg>

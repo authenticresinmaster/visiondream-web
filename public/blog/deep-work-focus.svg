@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="딥워크 4단계: 방해 치우기 · 한 가지 선택 · 몰입 블록 · 회복 휴식">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="48" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">산만함을 딥워크로</text>
+  <text x="440" y="76" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">방해를 치우고 하나에 깊이 몰입하는 4단계</text>
+  <defs>
+    <marker id="dwA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="182" y1="215" x2="700" y2="215" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#dwA)"/>
+  <g>
+    <circle cx="150" cy="215" r="46" fill="#1a2332"/>
+    <text x="150" y="210" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">1</text>
+    <text x="150" y="232" text-anchor="middle" fill="#cdd7e5" font-family="sans-serif" font-size="11">STEP</text>
+    <text x="150" y="292" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">방해 치우기</text>
+    <text x="150" y="312" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">알림·폰을 시야 밖으로</text>
+  </g>
+  <g>
+    <circle cx="340" cy="215" r="46" fill="#105d9e"/>
+    <text x="340" y="210" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">2</text>
+    <text x="340" y="232" text-anchor="middle" fill="#cfe0f0" font-family="sans-serif" font-size="11">STEP</text>
+    <text x="340" y="292" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">한 가지 선택</text>
+    <text x="340" y="312" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">지금 딱 하나에만</text>
+  </g>
+  <g>
+    <circle cx="540" cy="215" r="46" fill="#568a35"/>
+    <text x="540" y="210" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">3</text>
+    <text x="540" y="232" text-anchor="middle" fill="#d6e6c8" font-family="sans-serif" font-size="11">STEP</text>
+    <text x="540" y="292" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">몰입 블록</text>
+    <text x="540" y="312" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">방해 없이 깊게 25~90분</text>
+  </g>
+  <g>
+    <circle cx="730" cy="215" r="46" fill="#d99a00"/>
+    <text x="730" y="210" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">4</text>
+    <text x="730" y="232" text-anchor="middle" fill="#f6e6bf" font-family="sans-serif" font-size="11">STEP</text>
+    <text x="730" y="292" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">회복 휴식</text>
+    <text x="730" y="312" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">짧게 쉬고 다시 몰입</text>
+  </g>
+  <text x="440" y="366" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="13" font-weight="700">얕은 일은 미루고, 깊은 일에 최고의 시간을 준다 🌱</text>
+</svg>

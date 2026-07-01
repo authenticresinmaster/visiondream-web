@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="자존감이 쌓이는 흐름: 작은 약속 · 지킴 · 증거 · 자기신뢰">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="48" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">자존감은 말이 아니라 증거로 쌓인다</text>
+  <text x="440" y="76" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">작은 약속을 지킨 증거가 쌓여 '자기신뢰'가 된다</text>
+  <defs>
+    <marker id="seA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+
+  <!-- flow boxes -->
+  <g>
+    <rect x="44" y="150" width="150" height="70" rx="14" fill="#1a2332"/>
+    <text x="119" y="184" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">작은 약속</text>
+    <text x="119" y="205" text-anchor="middle" fill="#aeb9c9" font-family="sans-serif" font-size="11">"한 페이지만"</text>
+  </g>
+  <line x1="200" y1="185" x2="250" y2="185" stroke="#105d9e" stroke-width="3" stroke-linecap="round" marker-end="url(#seA)"/>
+  <g>
+    <rect x="258" y="150" width="150" height="70" rx="14" fill="#105d9e"/>
+    <text x="333" y="184" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">지킴</text>
+    <text x="333" y="205" text-anchor="middle" fill="#cfe0ef" font-family="sans-serif" font-size="11">실제로 해냄</text>
+  </g>
+  <line x1="414" y1="185" x2="464" y2="185" stroke="#105d9e" stroke-width="3" stroke-linecap="round" marker-end="url(#seA)"/>
+  <g>
+    <rect x="472" y="150" width="150" height="70" rx="14" fill="#3f7cb3"/>
+    <text x="547" y="184" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">증거</text>
+    <text x="547" y="205" text-anchor="middle" fill="#e2ecf5" font-family="sans-serif" font-size="11">"나는 해내는 사람"</text>
+  </g>
+  <line x1="628" y1="185" x2="678" y2="185" stroke="#105d9e" stroke-width="3" stroke-linecap="round" marker-end="url(#seA)"/>
+  <g>
+    <rect x="686" y="150" width="150" height="70" rx="14" fill="#568a35"/>
+    <text x="761" y="184" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">자기신뢰</text>
+    <text x="761" y="205" text-anchor="middle" fill="#dcebd0" font-family="sans-serif" font-size="11">= 자존감</text>
+  </g>
+
+  <!-- stacking evidence bars growing into esteem -->
+  <text x="440" y="272" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12" font-weight="700">지킨 약속이 하나씩 쌓일수록 —</text>
+  <g>
+    <rect x="255" y="330" width="46" height="22" rx="5" fill="#ccd7e4"/>
+    <rect x="311" y="318" width="46" height="34" rx="5" fill="#9fbcd6"/>
+    <rect x="367" y="304" width="46" height="48" rx="5" fill="#6fa0c8"/>
+    <rect x="423" y="288" width="46" height="64" rx="5" fill="#3f7cb3"/>
+    <rect x="479" y="270" width="46" height="82" rx="5" fill="#2f6ea0"/>
+    <rect x="535" y="248" width="46" height="104" rx="5" fill="#568a35"/>
+    <text x="558" y="240" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="18">🌱</text>
+  </g>
+  <line x1="240" y1="353" x2="600" y2="353" stroke="#c3ccd8" stroke-width="2" stroke-linecap="round"/>
+  <text x="278" y="374" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="11">하루</text>
+  <text x="558" y="374" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="11">시간이 쌓인 뒤</text>
+</svg>

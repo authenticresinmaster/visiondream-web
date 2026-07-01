@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="저녁 루틴 4단계: 하루 돌아보기 · 내일 첫 행동 한 줄 · 화면 끄고 수면 준비 · 비전 재확인">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">갓생은 아침이 아니라 전날 밤에 결정된다</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">내일의 아침을 미리 정해 두는 저녁 루틴 4단계</text>
+  <text x="812" y="60" text-anchor="middle" font-family="sans-serif" font-size="30">🌙</text>
+  <defs>
+    <marker id="evA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="188" y1="215" x2="252" y2="215" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#evA)"/>
+  <line x1="378" y1="215" x2="442" y2="215" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#evA)"/>
+  <line x1="568" y1="215" x2="632" y2="215" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#evA)"/>
+  <g>
+    <rect x="40" y="150" width="130" height="130" rx="16" fill="#1a2332"/>
+    <text x="105" y="200" text-anchor="middle" font-family="sans-serif" font-size="34">🔎</text>
+    <text x="105" y="240" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">하루 돌아보기</text>
+    <text x="105" y="262" text-anchor="middle" fill="#9db3cc" font-family="sans-serif" font-size="11">잘한 것 · 지친 것</text>
+  </g>
+  <g>
+    <rect x="270" y="150" width="130" height="130" rx="16" fill="#105d9e"/>
+    <text x="335" y="200" text-anchor="middle" font-family="sans-serif" font-size="34">✍️</text>
+    <text x="335" y="234" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">내일 첫 행동</text>
+    <text x="335" y="254" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">한 줄</text>
+    <text x="335" y="274" text-anchor="middle" fill="#cfe0f0" font-family="sans-serif" font-size="11">시작 한 가지만</text>
+  </g>
+  <g>
+    <rect x="460" y="150" width="130" height="130" rx="16" fill="#3f7cb3"/>
+    <text x="525" y="200" text-anchor="middle" font-family="sans-serif" font-size="34">📵</text>
+    <text x="525" y="234" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">화면 끄고</text>
+    <text x="525" y="254" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">수면 준비</text>
+    <text x="525" y="274" text-anchor="middle" fill="#e0ecf6" font-family="sans-serif" font-size="11">자기 한 시간 전</text>
+  </g>
+  <g>
+    <rect x="650" y="150" width="130" height="130" rx="16" fill="#568a35"/>
+    <text x="715" y="200" text-anchor="middle" font-family="sans-serif" font-size="34">🌱</text>
+    <text x="715" y="240" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">비전 재확인</text>
+    <text x="715" y="262" text-anchor="middle" fill="#d6e6c9" font-family="sans-serif" font-size="11">십 초면 충분</text>
+  </g>
+  <text x="440" y="332" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="13" font-weight="600">오늘을 닫고, 내일의 첫걸음을 골라 두면 — 아침은 의지가 아니라 계획으로 굴러갑니다</text>
+</svg>
