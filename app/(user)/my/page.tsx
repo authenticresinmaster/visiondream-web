@@ -5,6 +5,7 @@ import { APP_BASE_URL } from "@/lib/auth/constants";
 import { getFunnelByEmail } from "@/lib/funnel";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { StatCard, StatGrid } from "@/components/dashboard/StatCard";
+import { TodayPanel, type TodayItem } from "@/components/dashboard/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -33,8 +34,16 @@ export default async function MyPage() {
   const planLabel = sub?.planName ?? "무료";
   const endLabel = sub?.endDate ? new Date(sub.endDate).toLocaleDateString("ko-KR") : "—";
 
+  const today: TodayItem[] = [
+    { emoji: "🌳", text: "앱에서 오늘의 성공 나무와 습관을 체크하세요.", href: APP_BASE_URL },
+  ];
+  if (funnel.ebookReadUrl)
+    today.push({ emoji: "📚", text: "신청한 전자책을 이어서 읽어보세요.", href: funnel.ebookReadUrl });
+  if (!sub) today.push({ emoji: "✨", text: "프리미엄으로 무제한 목표·AI 코칭을 열어보세요.", href: "/pricing", tone: "warn" });
+
   return (
     <DashboardShell user={user} title="내 비전 대시보드">
+      <TodayPanel title="오늘의 실천" items={today} />
       <StatGrid>
         <StatCard label="현재 요금제" value={planLabel} emoji="💳" />
         <StatCard label="구독 상태" value={sub ? "이용중" : "무료"} emoji="✅" />

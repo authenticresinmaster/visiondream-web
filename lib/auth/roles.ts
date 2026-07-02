@@ -31,11 +31,16 @@ export async function requireAuth(returnTo?: string): Promise<User> {
   return user;
 }
 
-/** 특정 역할 필수. 미로그인 → /login, 권한부족 → 본인 역할 홈으로. */
+/**
+ * 특정 역할 필수. 미로그인 → /login.
+ * 권한부족 → 단순 리다이렉트 대신 이유를 설명하는 /no-access 안내 화면으로.
+ */
 export async function requireRole(allowed: UserRole[], returnTo?: string): Promise<User> {
   const user = await requireAuth(returnTo);
   if (!allowed.includes(user.role)) {
-    redirect(roleHome(user.role));
+    const params = new URLSearchParams({ need: allowed.join(",") });
+    if (returnTo) params.set("from", returnTo);
+    redirect(`/no-access?${params.toString()}`);
   }
   return user;
 }

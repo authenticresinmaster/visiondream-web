@@ -4,6 +4,7 @@ import { requireRole } from "@/lib/auth/roles";
 import { getDb, schema } from "@/lib/db";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { StatCard, StatGrid } from "@/components/dashboard/StatCard";
+import { Badge, EmptyState, TableWrap, TodayPanel, type TodayItem } from "@/components/dashboard/ui";
 import type { UserSyncedData } from "@/lib/db/schema";
 
 export const dynamic = "force-dynamic";
@@ -59,9 +60,29 @@ export default async function CoachPage() {
   }
 
   const sharedCount = mentees.filter((m) => m.data).length;
+  const notShared = mentees.length - sharedCount;
+  // 오늘 확인할 멘티: 데이터 공유 중이면서 스트릭이 끊긴(0일) 멘티 = 격려 우선순위
+  const needCheer = mentees.filter((m) => m.data && (m.data.streak ?? 0) === 0).length;
+
+  const today: TodayItem[] = [];
+  if (mentees.length === 0) {
+    today.push({ emoji: "🎟️", text: "추천코드를 공유해 첫 멘티를 초대하세요." });
+  } else {
+    if (needCheer > 0)
+      today.push({
+        emoji: "💛",
+        text: `스트릭이 끊긴 멘티 ${needCheer}명 — 오늘 따뜻한 응원을 남겨보세요.`,
+        tone: "warn",
+      });
+    if (sharedCount > 0)
+      today.push({ emoji: "📊", text: `성장 데이터를 공유 중인 멘티 ${sharedCount}명의 현황을 확인하세요.` });
+    if (notShared > 0)
+      today.push({ emoji: "🔔", text: `아직 데이터를 공유하지 않은 멘티 ${notShared}명이 있습니다.`, tone: "muted" });
+  }
 
   return (
     <DashboardShell user={user} title="코치 대시보드">
+      <TodayPanel title="오늘 확인할 멘티" items={today} />
       <StatGrid>
         <StatCard label="내 멘티" value={mentees.length} emoji="🤝" />
         <StatCard label="데이터 공유" value={sharedCount} emoji="📊" hint="동의한 멘티" />
@@ -76,9 +97,13 @@ export default async function CoachPage() {
           <span className="text-xs text-[#6B7A8D]">{activeCodes}개 코드 활성</span>
         </div>
         {mentees.length === 0 ? (
-          <p className="mt-2 text-sm text-[#6B7A8D]">
-            아직 내 추천코드로 가입한 멘티가 없습니다. 추천코드를 공유해 멘티를 초대하세요.
-          </p>
+          <div className="mt-4">
+            <EmptyState
+              emoji="🤝"
+              title="아직 멘티가 없습니다"
+              desc="내 추천코드로 가입한 멘티가 여기에 표시됩니다. 추천코드를 공유해 멘티를 초대하세요."
+            />
+          </div>
         ) : (
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             {mentees.map((m) => {
@@ -126,35 +151,43 @@ export default async function CoachPage() {
       <section className="mt-6 rounded-2xl border border-[#105D9E]/10 bg-white p-6 shadow-sm">
         <h2 className="font-bold text-[#1A2332]">내 추천코드</h2>
         {referrals.length === 0 ? (
-          <p className="mt-2 text-sm text-[#6B7A8D]">
-            아직 발급된 추천코드가 없습니다. 관리자에게 추천코드 발급을 요청하세요.
-          </p>
+          <div className="mt-4">
+            <EmptyState
+              emoji="🎟️"
+              title="발급된 추천코드가 없습니다"
+              desc="관리자에게 추천코드 발급을 요청하면 여기에서 실적을 확인할 수 있습니다."
+            />
+          </div>
         ) : (
-          <table className="mt-3 w-full text-left text-sm">
-            <thead className="text-[#6B7A8D]">
-              <tr>
-                <th className="py-2">코드</th>
-                <th className="py-2">사용</th>
-                <th className="py-2">보상(개월)</th>
-                <th className="py-2">상태</th>
-              </tr>
-            </thead>
-            <tbody>
-              {referrals.map((c) => (
-                <tr key={c.id} className="border-t border-[#105D9E]/5">
-                  <td className="py-2 font-mono">{c.code}</td>
-                  <td className="py-2">
-                    {c.usedCount}
-                    {c.maxUses > 0 ? ` / ${c.maxUses}` : ""}
-                  </td>
-                  <td className="py-2">
-                    가입 {c.rewardMonths} · 추천인 {c.referrerRewardMonths}
-                  </td>
-                  <td className="py-2">{c.isActive ? "활성" : "비활성"}</td>
+          <TableWrap>
+            <table className="mt-3 w-full min-w-[36rem] text-left text-sm">
+              <thead className="text-[#6B7A8D]">
+                <tr>
+                  <th className="py-2">코드</th>
+                  <th className="py-2">사용</th>
+                  <th className="py-2">보상(개월)</th>
+                  <th className="py-2">상태</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {referrals.map((c) => (
+                  <tr key={c.id} className="border-t border-[#105D9E]/5">
+                    <td className="py-2 font-mono">{c.code}</td>
+                    <td className="py-2">
+                      {c.usedCount}
+                      {c.maxUses > 0 ? ` / ${c.maxUses}` : ""}
+                    </td>
+                    <td className="py-2">
+                      가입 {c.rewardMonths} · 추천인 {c.referrerRewardMonths}
+                    </td>
+                    <td className="py-2">
+                      {c.isActive ? <Badge tone="good">활성</Badge> : <Badge tone="muted">비활성</Badge>}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </TableWrap>
         )}
       </section>
     </DashboardShell>

@@ -4,6 +4,7 @@ import { getDb } from "@/lib/db";
 import { mktCampaigns } from "@/lib/db/marketingSchema";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { CampaignForm } from "@/components/admin/CampaignForm";
+import { Badge, EmptyState, TableWrap } from "@/components/dashboard/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -39,26 +40,32 @@ export default async function CampaignsPage({
         <section className="rounded-2xl border border-[#105D9E]/10 bg-white p-6 shadow-sm">
           <h2 className="mb-4 font-bold text-[#1A2332]">최근 캠페인</h2>
           {list.length === 0 ? (
-            <p className="text-sm text-[#6B7A8D]">아직 캠페인이 없습니다.</p>
+            <EmptyState emoji="📣" title="아직 캠페인이 없습니다" desc="왼쪽에서 세그먼트를 골라 첫 캠페인을 예약해 보세요." />
           ) : (
-            <table className="w-full text-left text-sm">
-              <thead className="text-[#6B7A8D]">
-                <tr>
-                  <th className="py-2">제목</th>
-                  <th className="py-2">세그먼트</th>
-                  <th className="py-2">상태</th>
-                </tr>
-              </thead>
-              <tbody>
-                {list.map((c) => (
-                  <tr key={c.id} className="border-t border-[#105D9E]/5">
-                    <td className="py-2 font-medium">{c.title}</td>
-                    <td className="py-2 text-[#6B7A8D]">{(c.segment as { type?: string })?.type ?? "all"}</td>
-                    <td className="py-2">{STATUS_LABEL[c.status] ?? c.status}</td>
+            <TableWrap>
+              <table className="w-full min-w-[28rem] text-left text-sm">
+                <thead className="text-[#6B7A8D]">
+                  <tr>
+                    <th className="py-2">제목</th>
+                    <th className="py-2">세그먼트</th>
+                    <th className="py-2">상태</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {list.map((c) => (
+                    <tr key={c.id} className="border-t border-[#105D9E]/5">
+                      <td className="py-2 font-medium">{c.title}</td>
+                      <td className="py-2 text-[#6B7A8D]">{(c.segment as { type?: string })?.type ?? "all"}</td>
+                      <td className="py-2">
+                        <Badge tone={c.status === "sent" ? "good" : c.status === "sending" ? "brand" : c.status === "scheduled" ? "warn" : "muted"}>
+                          {STATUS_LABEL[c.status] ?? c.status}
+                        </Badge>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </TableWrap>
           )}
         </section>
       </div>

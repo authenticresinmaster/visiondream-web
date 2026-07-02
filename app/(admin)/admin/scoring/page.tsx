@@ -3,6 +3,7 @@ import { requireRole } from "@/lib/auth/roles";
 import { getScoredAudience, summarize, SEGMENT_LABEL, type ScoredPerson } from "@/lib/scoring";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { StatCard, StatGrid } from "@/components/dashboard/StatCard";
+import { EmptyState, TableWrap } from "@/components/dashboard/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -75,12 +76,14 @@ export default async function ScoringPage() {
       <section className="mt-8 rounded-2xl border border-[#105D9E]/10 bg-white p-6 shadow-sm">
         <h2 className="mb-4 font-bold text-[#1A2332]">🔥 참여 상위 (앰배서더 후보)</h2>
         {top.length === 0 ? (
-          <p className="text-sm text-[#6B7A8D]">데이터가 아직 없습니다.</p>
+          <EmptyState emoji="📊" title="스코어 데이터가 아직 없습니다" desc="리드·회원 활동이 쌓이면 참여도 상위 고객이 표시됩니다." />
         ) : (
-          <table className="w-full text-left text-sm">
-            <Head />
-            <tbody>{top.map((p) => <Row key={p.email} p={p} />)}</tbody>
-          </table>
+          <TableWrap>
+            <table className="w-full min-w-[40rem] text-left text-sm">
+              <Head />
+              <tbody>{top.map((p) => <Row key={p.email} p={p} />)}</tbody>
+            </table>
+          </TableWrap>
         )}
       </section>
 
@@ -94,10 +97,12 @@ export default async function ScoringPage() {
         {needCare.length === 0 ? (
           <p className="text-sm text-[#6B7A8D]">케어가 필요한 고객이 없습니다. 👍</p>
         ) : (
-          <table className="w-full text-left text-sm">
-            <Head />
-            <tbody>{needCare.map((p) => <Row key={p.email} p={p} />)}</tbody>
-          </table>
+          <TableWrap>
+            <table className="w-full min-w-[40rem] text-left text-sm">
+              <Head />
+              <tbody>{needCare.map((p) => <Row key={p.email} p={p} />)}</tbody>
+            </table>
+          </TableWrap>
         )}
         <p className="mt-4 text-xs text-[#6B7A8D]">
           ※ 이탈위험·휴면 고객에겐 동행(Care) 엔진이 자동으로 따뜻한 재참여 메일을 보냅니다.

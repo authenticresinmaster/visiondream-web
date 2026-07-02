@@ -2,9 +2,13 @@ import { count, eq } from "drizzle-orm";
 import { requireRole } from "@/lib/auth/roles";
 import { getDb, schema } from "@/lib/db";
 import { getFunnelTotals } from "@/lib/funnel";
+import { getFunnelOverview, rate } from "@/lib/journey";
+import { computeKpis, kpiEvaluable, kpiMet } from "@/lib/kpi";
+import { listInquiries } from "@/lib/inquiries";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { StatCard, StatGrid } from "@/components/dashboard/StatCard";
 import { TrendChart } from "@/components/dashboard/TrendChart";
+import { Badge, EmptyState, TableWrap, TodayPanel, type TodayItem } from "@/components/dashboard/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -56,8 +60,35 @@ export default async function AdminPage() {
     .orderBy(schema.users.lastSignedIn)
     .limit(10);
 
+  // 오늘 할 일: 이상 지표 · 문의 · 전환 요약
+  const [newInquiries, overview] = await Promise.all([listInquiries("new"), getFunnelOverview()]);
+  const unmetKpis = computeKpis(overview).filter((k) => kpiEvaluable(k) && !kpiMet(k));
+  const subConv = rate(overview.subscribers, overview.signups);
+
+  const today: TodayItem[] = [];
+  if (newInquiries.length > 0)
+    today.push({
+      emoji: "📨",
+      text: `새 도입 문의 ${newInquiries.length}건 — 응대가 필요합니다.`,
+      href: "/admin/inquiries",
+      tone: "warn",
+    });
+  if (unmetKpis.length > 0)
+    today.push({
+      emoji: "⚠️",
+      text: `목표 미달 KPI ${unmetKpis.length}건 (${unmetKpis.map((k) => k.label).join(", ")})`,
+      href: "/admin/kpi",
+      tone: "danger",
+    });
+  today.push({
+    emoji: "🔗",
+    text: `가입→구독 전환 ${subConv}% · 이탈위험/휴면 케어는 스코어에서 확인`,
+    href: "/admin/scoring",
+  });
+
   return (
     <DashboardShell user={user} title="관리자 대시보드">
+      <TodayPanel title="오늘의 요약" items={today} />
       <StatGrid>
         <StatCard label="전체 회원" value={userCount} emoji="👤" />
         <StatCard label="활성 구독" value={activeSubs} emoji="💳" />
@@ -84,26 +115,36 @@ export default async function AdminPage() {
 
       <section className="mt-8 rounded-2xl border border-[#105D9E]/10 bg-white p-6 shadow-sm">
         <h2 className="font-bold text-[#1A2332]">최근 활동 회원</h2>
-        <table className="mt-3 w-full text-left text-sm">
-          <thead className="text-[#6B7A8D]">
-            <tr>
-              <th className="py-2">이름</th>
-              <th className="py-2">이메일</th>
-              <th className="py-2">역할</th>
-              <th className="py-2">로그인</th>
-            </tr>
-          </thead>
-          <tbody>
-            {recentUsers.map((u, i) => (
-              <tr key={i} className="border-t border-[#105D9E]/5">
-                <td className="py-2 font-medium">{u.name ?? "—"}</td>
-                <td className="py-2">{u.email ?? "—"}</td>
-                <td className="py-2">{u.role}</td>
-                <td className="py-2">{u.loginMethod ?? "—"}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        {recentUsers.length === 0 ? (
+          <div className="mt-4">
+            <EmptyState emoji="👤" title="표시할 회원이 없습니다" desc="가입이 발생하면 최근 활동 순으로 나열됩니다." />
+          </div>
+        ) : (
+          <TableWrap>
+            <table className="mt-3 w-full min-w-[40rem] text-left text-sm">
+              <thead className="text-[#6B7A8D]">
+                <tr>
+                  <th className="py-2">이름</th>
+                  <th className="py-2">이메일</th>
+                  <th className="py-2">역할</th>
+                  <th className="py-2">로그인</th>
+                </tr>
+              </thead>
+              <tbody>
+                {recentUsers.map((u, i) => (
+                  <tr key={i} className="border-t border-[#105D9E]/5">
+                    <td className="py-2 font-medium">{u.name ?? "—"}</td>
+                    <td className="py-2">{u.email ?? "—"}</td>
+                    <td className="py-2">
+                      <Badge tone={u.role === "admin" ? "brand" : "muted"}>{u.role}</Badge>
+                    </td>
+                    <td className="py-2">{u.loginMethod ?? "—"}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </TableWrap>
+        )}
       </section>
     </DashboardShell>
   );

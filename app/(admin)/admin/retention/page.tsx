@@ -2,6 +2,7 @@ import { requireRole } from "@/lib/auth/roles";
 import { getSignupCohorts, getWeeklyActive } from "@/lib/cohorts";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { TrendChart } from "@/components/dashboard/TrendChart";
+import { TableWrap } from "@/components/dashboard/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -43,30 +44,32 @@ export default async function RetentionPage() {
         {cohorts.length === 0 ? (
           <p className="text-sm text-[#6B7A8D]">가입 데이터가 없습니다.</p>
         ) : (
-          <table className="w-full text-left text-sm">
-            <thead className="text-[#6B7A8D]">
-              <tr>
-                <th className="py-2">가입 코호트</th>
-                <th className="py-2">가입 수</th>
-                <th className="py-2">W1+ 잔존</th>
-                <th className="py-2">W4+ 잔존</th>
-                <th className="py-2">현재 활성</th>
-                <th className="py-2">구독 전환</th>
-              </tr>
-            </thead>
-            <tbody>
-              {cohorts.map((c) => (
-                <tr key={c.cohort} className="border-t border-[#105D9E]/5">
-                  <td className="py-2 font-medium text-[#1A2332]">{c.cohort}</td>
-                  <td className="py-2">{c.size}</td>
-                  <td className="py-2"><Cell p={c.retainedW1Pct} /></td>
-                  <td className="py-2"><Cell p={c.retainedW4Pct} /></td>
-                  <td className="py-2"><Cell p={c.activeNowPct} /></td>
-                  <td className="py-2"><Cell p={c.subscribedPct} /></td>
+          <TableWrap>
+            <table className="w-full min-w-[42rem] text-left text-sm">
+              <thead className="text-[#6B7A8D]">
+                <tr>
+                  <th className="py-2">가입 코호트</th>
+                  <th className="py-2">가입 수</th>
+                  <th className="py-2">W1+ 잔존</th>
+                  <th className="py-2">W4+ 잔존</th>
+                  <th className="py-2">현재 활성</th>
+                  <th className="py-2">구독 전환</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {cohorts.map((c) => (
+                  <tr key={c.cohort} className="border-t border-[#105D9E]/5">
+                    <td className="py-2 font-medium text-[#1A2332]">{c.cohort}</td>
+                    <td className="py-2">{c.size}</td>
+                    <td className="py-2"><Cell p={c.retainedW1Pct} /></td>
+                    <td className="py-2"><Cell p={c.retainedW4Pct} /></td>
+                    <td className="py-2"><Cell p={c.activeNowPct} /></td>
+                    <td className="py-2"><Cell p={c.subscribedPct} /></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </TableWrap>
         )}
         <p className="mt-4 text-xs text-[#6B7A8D]">
           ※ 누적 가입 {totalSize}명. 잔존은 마지막 접속(lastSignedIn) 기준 프록시 — W1+는 가입 7일 이후에도 접속,

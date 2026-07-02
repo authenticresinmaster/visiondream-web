@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { APP_BASE_URL } from "@/lib/auth/constants";
 import type { User, UserRole } from "@/lib/db/schema";
 
 const ROLE_LABEL: Record<UserRole, string> = {
@@ -48,7 +49,7 @@ export function DashboardShell({
   return (
     <div className="min-h-screen bg-[#F0F7FF]">
       <header className="border-b border-[#105D9E]/10 bg-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3">
           <div className="flex items-center gap-2">
             <Link href="/" className="text-lg font-bold text-[#1A2332]">
               🌱 비전드림
@@ -57,16 +58,25 @@ export function DashboardShell({
               {ROLE_LABEL[user.role]}
             </span>
           </div>
-          <nav className="flex items-center gap-4 text-sm">
-            {nav.map((n) => (
-              <Link key={n.href} href={n.href} className="text-[#6B7A8D] hover:text-[#105D9E]">
-                {n.label}
-              </Link>
-            ))}
-            <a href="/logout" className="text-[#6B7A8D] hover:text-[#105D9E]">
-              로그아웃
-            </a>
-          </nav>
+          {/* 로그인 후 상단 CTA: 앱-웹 연결감 (item 5) */}
+          <div className="order-3 -mx-4 w-full overflow-x-auto border-t border-[#105D9E]/5 px-4 pt-2 sm:order-2 sm:mx-0 sm:w-auto sm:border-t-0 sm:px-0 sm:pt-0">
+            <nav className="flex items-center gap-4 whitespace-nowrap text-sm">
+              {nav.map((n) => (
+                <Link key={n.href} href={n.href} className="text-[#6B7A8D] hover:text-[#105D9E]">
+                  {n.label}
+                </Link>
+              ))}
+              <a href="/logout" className="text-[#6B7A8D] hover:text-[#105D9E]">
+                로그아웃
+              </a>
+            </nav>
+          </div>
+          <a
+            href={APP_BASE_URL}
+            className="order-2 rounded-full bg-[#105D9E] px-4 py-1.5 text-sm font-bold text-white transition hover:brightness-110 sm:order-3"
+          >
+            📱 내 앱으로 이동
+          </a>
         </div>
       </header>
 
