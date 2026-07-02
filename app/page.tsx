@@ -89,7 +89,7 @@ export default function Home() {
             </a>
           </div>
           <p className="mx-auto mt-4 text-xs text-white/50">
-            30초면 충분해요 · 신용카드 불필요 · 한국어 / English / 日本語
+            30초면 충분해요 · 무료로 시작 · 한국어 / English / 日本語
           </p>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function Home() {
             <div className="mt-6 grid gap-4 sm:grid-cols-3">
               {[
                 { e: "🧭", t: "실전 검증", d: "이론이 아닌 재기의 경험에서" },
-                { e: "🆓", t: "무료로 확인", d: "신용카드 없이 지금 바로" },
+                { e: "🆓", t: "무료로 확인", d: "부담 없이 지금 바로" },
                 { e: "🌏", t: "3개 국어", d: "한국어 · English · 日本語" },
               ].map((x) => (
                 <div key={x.t} className="rounded-2xl border border-black/5 bg-white p-5 text-center">
