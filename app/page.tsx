@@ -12,6 +12,7 @@ import { MobileNav } from "@/components/MobileNav";
 import { Reveal } from "@/components/Reveal";
 
 const APP_URL = "https://app.visiondream.kr";
+const APK_URL = "https://expo.dev/artifacts/eas/d79Upge-z81nwLBm7RMcnkmluR0fou0w77Nt_Z6eRao.apk";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 const KAKAO_URL = "https://pf.kakao.com/_xkmeqX";
 
@@ -57,7 +58,7 @@ export default function Home() {
             <div className="hidden items-center gap-3 lg:flex">
               <LangSwitch />
               <AuthNav />
-              <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+              <a href={APK_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
                 앱 시작하기
               </a>
             </div>
@@ -70,23 +71,26 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-[#0e2746] to-[#105d9e] px-5 py-20 text-center text-white md:py-28">
         <div className="mx-auto max-w-3xl animate-fade-up">
           <div className="mb-5 inline-block rounded-full bg-amber px-4 py-1.5 text-sm font-extrabold text-navy">
-            성공(S) = 믿음(B) × 생각(T) × 행동(A)
+            서우 비전드림 · 성공 방정식 S = B × T × A
           </div>
           <h1 className="text-3xl font-black leading-tight md:text-5xl">
             비전을 심으면,<br />반드시 열매가 열립니다 🌱
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-base text-white/80 md:text-lg">
-            성공(S) = 믿음(B) × 생각(T) × 행동(A).<br />
-            비전·꿈·목표·습관을 하나로 연결하고, AI가 미래에서 오늘 할 일까지 설계합니다.
+            결심은 왜 늘 작심삼일로 끝날까요? 문제는 의지가 아니라<br />
+            <strong className="text-amber">비전에서 오늘 행동까지</strong> 이어주는 시스템의 부재입니다.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <a href={APP_URL} className="rounded-xl bg-amber px-7 py-3.5 text-base font-extrabold text-navy transition hover:brightness-105">
-              지금 무료로 시작 →
+            <a href="#ebook" className="rounded-xl bg-amber px-7 py-3.5 text-base font-extrabold text-navy transition hover:brightness-105">
+              📚 무료 전자책 받기 →
             </a>
-            <a href="#ebook" className="rounded-xl border border-white/30 bg-white/10 px-7 py-3.5 text-base font-bold text-white transition hover:bg-white/20">
-              📚 무료 전자책 받기
+            <a href={APK_URL} className="rounded-xl border border-white/30 bg-white/10 px-7 py-3.5 text-base font-bold text-white transition hover:bg-white/20">
+              앱 바로 시작하기
             </a>
           </div>
+          <p className="mx-auto mt-4 text-xs text-white/50">
+            30초면 충분해요 · 신용카드 불필요 · 한국어 / English / 日本語
+          </p>
         </div>
       </section>
 
@@ -147,6 +151,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 차별화 — 왜 비전드림인가 */}
+      <section className="bg-[#f5f8fb] px-5 py-20">
+        <div className="mx-auto max-w-5xl">
+          <Reveal>
+            <p className="text-center text-sm font-bold text-brand">왜 비전드림인가</p>
+            <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">습관앱도, 플래너도, 챗봇도 아닙니다</h2>
+            <p className="mt-3 text-center text-navy/60">흩어진 도구가 아니라, 비전에서 오늘까지 하나로 연결된 시스템</p>
+          </Reveal>
+          <div className="mt-12 grid gap-5 md:grid-cols-3">
+            {[
+              { tag: "습관앱과 다른 점", t: "습관만 따로 X", d: "체크만 쌓다 '왜'를 잃습니다. 비전드림은 습관을 비전·목표와 연결해, 실천이 곧 꿈을 향한 한 걸음이 됩니다." },
+              { tag: "플래너와 다른 점", t: "계획만 따로 X", d: "일정만 채우면 지치죠. 미래에서 오늘로 역설계해, 오늘 할 일에 '이유'가 붙어 지속됩니다." },
+              { tag: "AI챗봇과 다른 점", t: "매번 새로 묻기 X", d: "당신의 비전·목표·기록을 기억하는 AI 코치가, 매일의 실천 구조 안에서 함께합니다." },
+            ].map((c, i) => (
+              <Reveal
+                key={c.t}
+                delay={i * 90}
+                className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+              >
+                <span className="inline-block rounded-full bg-brand/10 px-2.5 py-1 text-xs font-bold text-brand">{c.tag}</span>
+                <h3 className="mt-3 text-lg font-extrabold text-navy">{c.t}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-navy/60">{c.d}</p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 증거 — 검증된 방법론 */}
+      <section className="bg-white px-5 py-20">
+        <div className="mx-auto max-w-4xl">
+          <Reveal className="rounded-3xl bg-[#f5f8fb] p-8 md:p-10">
+            <p className="text-sm font-bold text-brand">검증된 방법론</p>
+            <h2 className="mt-2 text-2xl font-black text-navy md:text-3xl">벼랑 끝에서 다시 일어선 실전 공식</h2>
+            <p className="mt-4 text-base leading-relaxed text-navy/70">
+              S=BTA는 책상 위 이론이 아닙니다. 배신과 빚, 은퇴 위기의 벼랑 끝에서 5년간 읽고 실천하며
+              재기해낸 <strong className="text-navy">서우 대표의 실전 성공 공식</strong>을, 누구나 매일
+              따라 할 수 있게 앱으로 만들었습니다.
+            </p>
+            <div className="mt-6 grid gap-4 sm:grid-cols-3">
+              {[
+                { e: "🧭", t: "실전 검증", d: "이론이 아닌 재기의 경험에서" },
+                { e: "🆓", t: "무료로 확인", d: "신용카드 없이 지금 바로" },
+                { e: "🌏", t: "3개 국어", d: "한국어 · English · 日本語" },
+              ].map((x) => (
+                <div key={x.t} className="rounded-2xl border border-black/5 bg-white p-5 text-center">
+                  <div className="text-3xl">{x.e}</div>
+                  <div className="mt-2 font-extrabold text-navy">{x.t}</div>
+                  <div className="mt-1 text-xs text-navy/60">{x.d}</div>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* 성공의 나무 */}
       <section className="bg-gradient-to-b from-[#f5f8fb] to-white px-5 py-20 text-center">
         <Reveal className="mx-auto max-w-2xl">
@@ -203,8 +263,8 @@ export default function Home() {
             <a href={APP_URL} className="rounded-xl bg-brand px-7 py-3.5 font-extrabold text-white transition hover:brightness-110">
               🌐 웹에서 시작하기
             </a>
-            <a href={APP_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
-              📱 앱 다운로드
+            <a href={APK_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
+              📱 앱 다운로드 (Android APK)
             </a>
           </div>
           <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>

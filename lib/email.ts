@@ -8,6 +8,7 @@ const EBOOK_LINK = process.env.EBOOK_LINK || "https://book.visiondream.kr";
 const LOGO_URL =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663298618787/4D8ARnv7D6bvYhfqoadjtG/seowoo-logo-white2_43ba7649.png";
 const KAKAO_URL = "https://pf.kakao.com/_xkmeqX";
+const APP_BASE = process.env.NEXT_PUBLIC_APP_BASE || "https://app.visiondream.kr";
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const RESEND_FROM = process.env.RESEND_FROM || "서우 비전드림 <noreply@visiondream.kr>";
@@ -18,6 +19,7 @@ export async function sendEmail(opts: {
   subject: string;
   html: string;
   text?: string;
+  headers?: Record<string, string>;
 }): Promise<boolean> {
   if (!RESEND_API_KEY) {
     console.log(`[Email] RESEND_API_KEY 미설정 — 발송 생략. to=${opts.to}`);
@@ -34,6 +36,7 @@ export async function sendEmail(opts: {
         html: opts.html,
         ...(opts.text ? { text: opts.text } : {}),
         ...(RESEND_REPLY_TO ? { reply_to: RESEND_REPLY_TO } : {}),
+        ...(opts.headers ? { headers: opts.headers } : {}),
       }),
     });
     if (!res.ok) {
@@ -50,8 +53,19 @@ export async function sendEmail(opts: {
 }
 
 /** 전자책 신청 환영 메일 (랜딩과 동일 디자인) */
-export async function sendEbookEmail({ to, name }: { to: string; name?: string | null }): Promise<boolean> {
+export async function sendEbookEmail({
+  to,
+  name,
+  unsubscribeToken,
+}: {
+  to: string;
+  name?: string | null;
+  unsubscribeToken?: string | null;
+}): Promise<boolean> {
   const who = name && name.trim() ? name.trim() : "회원";
+  const unsubUrl = unsubscribeToken
+    ? `${APP_BASE}/api/marketing/unsubscribe?token=${unsubscribeToken}`
+    : `${APP_BASE}/api/marketing/unsubscribe`;
   const html = `
 <!DOCTYPE html>
 <html lang="ko">
@@ -95,7 +109,7 @@ export async function sendEbookEmail({ to, name }: { to: string; name?: string |
           <a href="${KAKAO_URL}" style="display:inline-block;background:#FEE500;color:#1A2332;font-size:13px;font-weight:700;text-decoration:none;padding:10px 24px;border-radius:8px;">💬 카카오채널로 문의하기</a>
         </td></tr>
         <tr><td style="background:#F9FAFB;padding:24px 40px;text-align:center;border-top:1px solid #E5E7EB;margin-top:32px;">
-          <div style="font-size:11px;color:#9CA3AF;line-height:1.8;">본 메일은 서우 비전드림 전자책 신청에 의해 자동 발송되었습니다.<br>© 2026 서우. All rights reserved.</div>
+          <div style="font-size:11px;color:#9CA3AF;line-height:1.8;">본 메일은 서우 비전드림 전자책 신청에 의해 자동 발송되었습니다.<br>서우(주) · 문의 ceo@seowoo.net<br>더 이상 메일 수신을 원치 않으시면 <a href="${unsubUrl}" style="color:#9CA3AF;text-decoration:underline;">수신거부</a> 하실 수 있습니다.<br>© 2026 서우. All rights reserved.</div>
         </td></tr>
       </table>
     </td></tr>
@@ -107,5 +121,9 @@ export async function sendEbookEmail({ to, name }: { to: string; name?: string |
     to,
     subject: `📚 [서우] ${who}님, 무료 전자책이 도착했습니다! — 왜 나는 안 되고, 저 사람은 되는가?`,
     html,
+    headers: {
+      "List-Unsubscribe": `<${unsubUrl}>, <mailto:ceo@seowoo.net?subject=unsubscribe>`,
+      "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+    },
   });
 }

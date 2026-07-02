@@ -23,13 +23,14 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "invalid email" }, { status: 400 });
     }
 
-    // ① 신청 즉시 전자책 환영메일 발송 (랜딩과 동일 템플릿·발신: noreply@visiondream.kr)
-    await sendEbookEmail({ to: email, name }).catch((e) =>
+    // ① 마케팅 리스트 등록 + 환영 스토리 시퀀스 시작 (수신거부 토큰 확보).
+    //    즉시 보낼 전자책 메일이 "0일차" 역할 → 스토리 널처링은 1일차(step 1)부터 시작해 중복 방지(marketing.ts).
+    const sub = await subscribeContact({ email, name, source, consent: true, enroll: true });
+
+    // ② 신청 즉시 전자책 환영메일 발송 (수신거부 토큰 포함 — 컴플라이언스. 발신: noreply@visiondream.kr)
+    await sendEbookEmail({ to: email, name, unsubscribeToken: sub.unsubscribeToken }).catch((e) =>
       console.warn("[subscribe] ebook email error:", e),
     );
-
-    // ② 마케팅 리스트 등록(향후 캠페인용). 즉시 전자책을 직접 보냈으므로 자동 드립은 끈다(enroll:false)
-    await subscribeContact({ email, name, source, consent: true, enroll: false });
 
     // ② ConvertKit (선택 — 키 설정 시에만)
     const apiKey = process.env.CONVERTKIT_API_KEY;
