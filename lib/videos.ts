@@ -126,6 +126,31 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "재능이 이긴다고?", sub: "재능보다, 오래 하는 사람이 이겨",
       transcript: "아빠가 살아 보니까, 재능이 이기는 게 아니더라. 끝까지 남는 사람이 이겨. 여섯 시간 몰아서 하고 이 주 사라지는 것보다, 매일 이십 분이 훨씬 세. 왜냐면 그건 계속되거든. 끈기는 이 악무는 게 아니야. 지루한 목요일에도 굴러가게 미리 만들어 두는 거야. 그러니까 하루치를 아주 작게 만들어. 나쁜 날도 못 막을 만큼. 하다가 하루 걸러? 괜찮아. 두 번만 안 거르면 돼. 비전드림은 체크할 때마다 연속 기록이 쌓이고 성공의 나무에 열매가 열려서, 오래 버틴 게 눈에 보여. 오늘도, 작게 딱 하나만 하자.",
     },
+    {
+      kind: "youtube", slug: "laziness", id: "US1DHL70ks4",
+      title: "나 원래 게으른 사람이야?", sub: "게으름은 성격이 아니라 신호예요",
+      transcript: "나는 원래 게으른 사람이야. 이 말, 우리 자신한테 참 자주 하죠. 근데 게으름은 타고난 성격이 아니라 신호예요. 지쳤거나, 할 일이 막막하거나, 이게 나랑 무슨 상관인지 모를 때 몸이 보내는 신호. 자책 대신 이 신호를 읽어 주세요. 시작이 어렵다면 이 분 규칙. 방 청소가 아니라 그릇 하나 치우기, 보고서가 아니라 한 문장 쓰기. 그리고 주변 마찰을 줄여요. 운동복은 전날 밤에 꺼내 두고, 폰은 다른 방에. 마지막으로 이 작은 행동을 내 비전에 연결하면, 게으름은 스르르 풀립니다. 오늘 딱 한 걸음, 프로필 링크에서 같이 시작해요.",
+    },
+    {
+      kind: "youtube", slug: "godsaeng", id: "cUxw7wLtfDg",
+      title: "새벽 다섯 시 기상, 며칠 가던가요?", sub: "갓생 루틴이 자꾸 무너진다면",
+      transcript: "새벽 다섯 시 기상, 운동, 독서, 일기까지. 갓생 피드는 멋지지만, 이런 루틴은 일이 주면 와르르 무너져요. 매일 엄청난 의지가 필요한 건 시스템이 아니라 번아웃 카운트다운이거든요. 그러니까 습관을 확 줄이고, 이미 하는 행동에 붙여 보세요. 아침 커피 내린 다음 숨 세 번, 이렇게요. 그리고 하루를 아침, 낮, 저녁 세 구간으로 나눠서 각 구간에 작은 앵커 하나씩. 강도는 백 퍼센트 말고 육십에서 칠십 퍼센트로. 힘든 날에도 살아남게요. 마지막으로 이 습관을 내 비전에 연결하면, 건너뛰는 게 나한테서 멀어지는 느낌이 들어요. 완벽한 하루 말고, 매일 반복할 수 있는 평범한 하루. 오늘 앵커 하나만 정해 볼까요?",
+    },
+    {
+      kind: "youtube", slug: "focus", id: "u7tgwfS2Eng",
+      title: "집중 못 하는 건 재능 문제가 아니에요", sub: "집중은 타고나는 게 아니에요",
+      transcript: "집중 못 하는 건 타고난 성격이 아니에요. 집중력은 훈련하는 근육이거든요. 먼저 방해요소부터 치우세요. 참으려고 애쓰지 말고, 폰은 아예 다른 방에. 알림 끄고, 탭 닫고, 창은 하나만. 그다음엔 한 번에 하나. 멀티태스킹은 생산적인 것 같지만, 뇌는 계속 전환하면서 힘을 뺏겨요. 그리고 근육처럼 반복으로 키우세요. 십 분부터, 익숙해지면 오 분씩 늘리고요. 마지막으로 집중을 내 비전에 연결하세요. 의미가 보이면 집중은 훨씬 쉽게 따라와요. 비전드림이 그 연결을 도와줄게요. 오늘, 딱 십 분만 방해 없이 집중해 봐요.",
+    },
+    {
+      kind: "youtube", slug: "mindfulness", id: "6_LBsZ4HtH0",
+      title: "마음챙김, 향 피울 필요 없어요", sub: "마음이 산만할 땐 딱 삼 분",
+      transcript: "마음챙김? 향 피우고 한 시간 앉아 있는 거 아니에요. 그냥 지금 이 순간에 머무르는 거예요. 딱 삼 분이면 돼요. 하던 거 멈추고, 천천히 숨을 쉬어요. 넷 세며 들이쉬고, 여섯 세며 내쉬고. 그러다 딴생각 나면요? 실패 아니에요. 알아차린 그 순간이 바로 연습이 되는 거예요. 그냥, 아 내가 걱정하고 있네, 하고 다시 숨으로 돌아오면 돼요. 마음이 잠잠해지면, 잊고 있던 내 비전이 다시 보여요. 오늘 딱 삼 분, 같이 숨 한번 쉬어 볼까요?",
+    },
+    {
+      kind: "youtube", slug: "mental-strength", id: "354WocmwJ-I",
+      title: "강한 멘탈 = 절대 안 흔들림?", sub: "멘탈이 강한 사람은 안 흔들리는 게 아니에요",
+      transcript: "멘탈이 강하다는 건, 절대 안 흔들린다는 뜻이 아니에요. 그런 사람은 없어요. 진짜 강함은, 흔들린 다음에 더 빨리 제자리로 돌아오는 힘, 회복탄력성이에요. 이건 타고난 성격이 아니라 근력처럼 키우는 거예요. 방법은요, 먼저 감정과 사실을 분리하세요. '난 다 망했어'가 아니라, '오늘 이거 하나가 잘 안 됐어.' 그다음 아주 작은 한 걸음. 메일 하나 보내기, 십 분 걷기. 마지막으로 내 비전으로 돌아오세요. 비전이 닻이 되면, 나쁜 하루는 그냥 하루로 끝나요. 비전드림이 그 회복을 도와줍니다. 오늘 흔들렸다면, 딱 한 걸음만 내디뎌 봐요.",
+    },
   ],
   en: [
     {
@@ -243,6 +268,31 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Talent doesn't win", sub: "The one who lasts beats the talented one",
       transcript: "Here's something your dad learned the hard way. Talent doesn't win. The one who's still here at the end wins. Six heroic hours, then two weeks gone, loses to twenty quiet minutes every day, because the twenty minutes keep happening. Grit isn't gritted teeth. It's building your day so the reps happen even on a flat, tired Thursday. So make the daily thing small. Small enough that a bad day can't stop it. Miss a day? That's fine. Just never miss twice. VisionDream stacks a streak every time you check in, and grows your Success Tree, so all that quiet effort finally shows. Today, just do one small thing.",
     },
+    {
+      kind: "youtube", slug: "laziness", id: "axfyLE7NPzQ",
+      title: "\"I'm just a lazy person\"?", sub: "Laziness isn't a flaw, it's a signal",
+      transcript: "I'm just a lazy person. We say it so easily, but laziness isn't a personality you were born with. Most of the time it's a signal. You're tired, or the task feels too big, or it just doesn't connect to anything you care about. So read the signal instead of judging yourself. If starting is hard, use the two-minute rule. Not clean the whole house, just put one dish away. Not write the report, just write one sentence. Then lower the friction around you. Lay out your clothes the night before, put your phone in another room. And connect that tiny action to your vision, the reason you actually care. That's when laziness melts. Take one small step today, together, from the link in my bio.",
+    },
+    {
+      kind: "youtube", slug: "godsaeng", id: "362JfceA5vg",
+      title: "Five a.m. wake-ups... how long do they last?", sub: "When your godsaeng routine keeps collapsing",
+      transcript: "Five a.m. wake-ups, workouts, reading, journaling. The godsaeng feed looks amazing, but a routine like that collapses in a week or two. When it needs heroic willpower every single day, it isn't a system, it's a countdown to burnout. So shrink your habits and attach each one to something you already do. Three slow breaths after you pour your morning coffee, like that. Then split your day into three blocks, morning, midday, and evening, with one small anchor each. Run it at sixty to seventy percent, not a hundred, so it survives a bad day. And tie each habit to your vision, so skipping it feels like stepping away from yourself. You don't need a perfect day, just an ordinary one you can repeat. Pick one anchor today.",
+    },
+    {
+      kind: "youtube", slug: "focus", id: "1-UCXg23Ggw",
+      title: "You're not bad at focusing", sub: "Focus isn't something you're born with",
+      transcript: "You're not bad at focusing. You've just never trained it. Attention is a muscle. First, remove the distractions. Don't rely on willpower. Put your phone in another room, kill the notifications, close the tabs, keep one window open. Then do one thing at a time. Multitasking feels productive, but your brain just switches back and forth, and every switch drains you. Grow it in reps, like a muscle. Start with ten minutes, and add five when it gets easy. Finally, tie your focus to your vision. When you can see why it matters, attention comes willingly. VisionDream connects every focus session to the vision above it. Today, focus for just ten clean minutes.",
+    },
+    {
+      kind: "youtube", slug: "mindfulness", id: "pdMx7mkLkbs",
+      title: "Mindfulness, no incense required", sub: "When your mind is scattered, take three minutes",
+      transcript: "Mindfulness isn't incense and an hour on a cushion. It's just staying with this moment, and three minutes is enough. Stop what you're doing and breathe slowly. Breathe in for four, out for six. Your mind wanders? That's not failure. The second you notice, that's the practice working. Just say, oh, I'm worrying, and come back to your breath. When your mind settles, the vision you'd forgotten comes back into view. So today, take three minutes and breathe with me.",
+    },
+    {
+      kind: "youtube", slug: "mental-strength", id: "7q_u0n8SWzo",
+      title: "Strong mind = never shaken?", sub: "A strong mind isn't one that never shakes",
+      transcript: "Being mentally strong doesn't mean you never get shaken. Nobody is like that. Real strength is bouncing back faster after you are, and that's resilience. It's not a personality you're born with, it's a muscle you build. Here's how. First, separate the feeling from the fact. Not I ruined everything, but this one thing went badly. Then take the smallest step, send the one email, take a ten minute walk. Last, turn back toward your vision. When your vision is the anchor, a bad day stays just a day. VisionDream helps you make that comeback. So if today knocked you down, just take one small step.",
+    },
   ],
   ja: [
     {
@@ -359,6 +409,31 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "grit", id: "qu7CI7egqbk",
       title: "才能が勝つ?", sub: "才能より、長く続ける人が勝つ",
       transcript: "父さんが生きてきて分かったよ。才能が勝つんじゃない。最後まで残った人が勝つんだ。一度に六時間やって二週間消えるより、毎日たった二十分のほうがずっと強い。だって、それは続くからね。やり抜く力は、歯を食いしばることじゃない。気分の乗らない木曜にも反復が起きるように、先に一日を組み立てておくことだ。だから毎日の分をうんと小さくしよう。悪い日でも止められないくらいにね。一日抜かした?大丈夫。二度だけ抜かさなければいい。ビジョンドリームはチェックのたびに連続記録が伸びて、成功の木に実がなるから、長く続けたことが目に見えるよ。今日も、小さくひとつだけやろう。",
+    },
+    {
+      kind: "youtube", slug: "laziness", id: "zvRKGZfpBM0",
+      title: "「自分はただの怠け者」?", sub: "怠けは性格じゃなく、サインです",
+      transcript: "自分はただの怠け者だ。つい言っちゃいますよね。でも怠けは、生まれつきの性格じゃなくてサインなんです。疲れているか、やることが大きすぎるか、自分にとって大切なことにつながっていないか。だから責める前に、そのサインを読んであげて。始めるのがつらいときは、二分ルール。家じゅうの掃除じゃなくて、お皿を一枚しまうだけ。レポートを書くじゃなくて、一文だけ書く。それから、まわりの摩擦を減らします。運動着は前の夜に出しておく、スマホは別の部屋に。そして、その小さな行動を自分のビジョンにつなげると、怠けはすっとほどけます。今日ひとつだけ、プロフィールのリンクから一緒に始めましょう。",
+    },
+    {
+      kind: "youtube", slug: "godsaeng", id: "purs-xRBDqo",
+      title: "朝五時起き、何日続きました?", sub: "ガッセンルーティンが毎回崩れるなら",
+      transcript: "朝五時起き、運動、読書、日記まで。ガッセンのフィードは輝いて見えるけど、こういうルーティンは一、二週間でまるごと崩れます。毎日ヒーロー級の意志力が必要なものは、システムじゃなくて燃え尽きへのカウントダウンなんです。だから習慣をぐっと小さくして、すでにやっている行動にくっつけてみて。朝のコーヒーを注いだあとに、ゆっくり三呼吸。こんなふうに。それから一日を朝、昼、夜の三ブロックに分けて、それぞれに小さなアンカーを一つずつ。強度は百パーセントじゃなくて六十から七十パーセントで。悪い日でも生き残れるように。最後に、その習慣を自分のビジョンにつなげると、飛ばすことが自分から離れるように感じられます。完璧な一日じゃなくて、毎日くり返せる普通の一日。今日、アンカーを一つだけ決めてみませんか?",
+    },
+    {
+      kind: "youtube", slug: "focus", id: "ycoe6Ad12to",
+      title: "集中できないのは才能のせいじゃない", sub: "集中力は生まれつきじゃない",
+      transcript: "集中できないのは、生まれつきの性格じゃありません。集中力は、鍛える筋肉なんです。まずは気を散らすものを取り除きましょう。我慢しようとしないで、スマホは別の部屋へ。通知を切って、タブを閉じて、開く窓は一つだけ。次に、一度に一つだけ。マルチタスクは生産的に感じるけど、脳はただ切り替えているだけで、切り替えるたびに消耗します。そして筋肉みたいに反復で育てましょう。十分から始めて、慣れたら五分ずつ足す。最後に、集中を自分のビジョンにつなぐこと。意味が見えると、注意はずっと素直に集まります。ビジョンドリームが、その連結を助けます。今日、たった十分だけ、気を散らさず集中してみよう。",
+    },
+    {
+      kind: "youtube", slug: "mindfulness", id: "5dw4a8ZjBFY",
+      title: "マインドフルネス、お香はいりません", sub: "心が散らかったら、たった三分",
+      transcript: "マインドフルネスって、お香をたいて一時間座ることじゃないんです。ただ、今この瞬間にとどまるだけ。三分あれば十分です。やっていることを止めて、ゆっくり呼吸して。四つで吸って、六つで吐く。途中で別のことを考えちゃう? 失敗じゃありません。気づいたその瞬間が、ちゃんと練習になってるんです。あ、わたし心配してるな、って気づいて、また呼吸に戻ればいい。心が静かになると、忘れてたビジョンがまた見えてきます。今日、三分だけ、一緒に呼吸してみませんか?",
+    },
+    {
+      kind: "youtube", slug: "mental-strength", id: "sQdRM9On6R8",
+      title: "強いメンタル=揺れない?", sub: "強いメンタルは、揺れない心じゃない",
+      transcript: "メンタルが強いって、絶対に揺れないことじゃないんです。そんな人はいません。本当の強さは、揺れたあとに早く戻ってくる力、レジリエンスです。これは生まれ持った性格じゃなくて、筋肉みたいに鍛えるもの。やり方はこう。まず、感情と事実を分けます。「全部だめだ」じゃなくて、「今回のこれが、うまくいかなかった」。次に、いちばん小さな一歩。メールを一通送る、十分だけ歩く。最後に、自分のビジョンへ戻る。ビジョンが錨になれば、悪い日はただの一日で終わります。ビジョンドリームが、その立て直しを助けます。今日もし揺れたなら、小さな一歩をひとつだけ踏んでみて。",
     },
   ],
 };
