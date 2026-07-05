@@ -151,6 +151,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "강한 멘탈 = 절대 안 흔들림?", sub: "멘탈이 강한 사람은 안 흔들리는 게 아니에요",
       transcript: "멘탈이 강하다는 건, 절대 안 흔들린다는 뜻이 아니에요. 그런 사람은 없어요. 진짜 강함은, 흔들린 다음에 더 빨리 제자리로 돌아오는 힘, 회복탄력성이에요. 이건 타고난 성격이 아니라 근력처럼 키우는 거예요. 방법은요, 먼저 감정과 사실을 분리하세요. '난 다 망했어'가 아니라, '오늘 이거 하나가 잘 안 됐어.' 그다음 아주 작은 한 걸음. 메일 하나 보내기, 십 분 걷기. 마지막으로 내 비전으로 돌아오세요. 비전이 닻이 되면, 나쁜 하루는 그냥 하루로 끝나요. 비전드림이 그 회복을 도와줍니다. 오늘 흔들렸다면, 딱 한 걸음만 내디뎌 봐요.",
     },
+    {
+      kind: "youtube", slug: "goal-management", id: "lg_LrLp3KfQ",
+      title: "목표를 못 이루는 건 계획을 안 세워서가 아니에요", sub: "목표는 세울 때가 아니라, 관리할 때 죽어요",
+      transcript: "목표를 못 이루는 건, 계획을 안 세워서가 아니에요. 세운 다음에 관리하지 않아서예요. 목표설정과 목표관리는 다른 일이거든요. 첫째, 목표를 눈에 보이게 두세요. 안 보이는 목표는 잊혀요. 둘째, 이번 주에 할 행동으로 쪼개세요. '올해 무엇'이 아니라 '이번 주에 뭐'로요. 셋째, 정해진 요일에 딱 십 분, 주간 리뷰. 뭐가 됐고 뭐가 막혔는지 보고, 넷째, 막힌 건 조정하세요. 목표는 고정된 게 아니라 계속 손보는 거예요. 마지막으로, 그 목표를 내 비전에 연결하세요. 비전드림이 도와줄게요. 목표를 습관과 성공의 나무로 추적하고, 정체되면 AI코치가 조정을 제안해요. 오늘, 이번 주에 할 딱 한 가지부터 정해 봐요.",
+    },
+    {
+      kind: "youtube", slug: "okr-goals", id: "Fg1v3TjmXwo",
+      title: "목표를 세워도 흐지부지되는 이유", sub: "OKR, 회사 말고 나한테 써 봤어요?",
+      transcript: "목표를 세워도 흐지부지되는 건, 방향과 결과를 안 나눠서예요. OKR은 그걸 나눠 줍니다. Objective는 나를 설레게 하는 질적인 방향 하나. Key Results는 그게 됐는지 알려 주는 측정 가능한 결과 두세 개예요. 여기서 제일 흔한 실수 — Key Results를 '할 일 목록'으로 쓰는 거예요. '운동 가기'가 아니라 '3킬로 10분 안에 뛰기'처럼, 숫자로 끝나야 합니다. 분기로 세우고 매주 딱 한 번 체크하세요. 0에서 1로 채점하는데, 0.7이면 잘한 거예요. 다 채우면 목표를 너무 안전하게 잡은 겁니다. 비전드림에선 Objective가 비전, Key Results가 목표와 습관 추적, 매주 체크는 성공의 나무로 자랍니다. 이번 분기, Objective 하나만 정해 봐요.",
+    },
+    {
+      kind: "youtube", slug: "self-efficacy", id: "NUhPnP2k0xk",
+      title: "자신감이 없는 게 아니라 증거가 없는 거예요", sub: "'나는 할 수 있다'는 성격이 아니에요",
+      transcript: "자기효능감은 '나는 할 수 있다'는 믿음이에요. 근데 이건 타고난 성격이 아니라, 증거로 쌓이는 거예요. 심리학자 반두라가 말한 가장 강력한 원천은 성취경험. 거창한 성공이 아니라 아주 작은 성공이요. 오늘 딱 한 칸 체크한 것. 그게 '어, 나 되네?'라는 증거가 됩니다. 실패했다고요? 실패는 판결이 아니라 데이터예요. '난 역시 안 돼'가 아니라 '이 방법이 안 됐네'로 읽으세요. 그리고 잘 해낸 사람을 곁에 두고, 나에게 건네는 말을 조금만 다정하게 바꿔 보세요. 비전드림이 이 증거를 대신 쌓아 줄게요. 작은 습관 체크가 성공의 나무로 자라거든요. 오늘, 딱 하나만 체크해 봐요.",
+    },
   ],
   en: [
     {
@@ -293,6 +308,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Strong mind = never shaken?", sub: "A strong mind isn't one that never shakes",
       transcript: "Being mentally strong doesn't mean you never get shaken. Nobody is like that. Real strength is bouncing back faster after you are, and that's resilience. It's not a personality you're born with, it's a muscle you build. Here's how. First, separate the feeling from the fact. Not I ruined everything, but this one thing went badly. Then take the smallest step, send the one email, take a ten minute walk. Last, turn back toward your vision. When your vision is the anchor, a bad day stays just a day. VisionDream helps you make that comeback. So if today knocked you down, just take one small step.",
     },
+    {
+      kind: "youtube", slug: "goal-management", id: "BlliDL4mQnY",
+      title: "You're not failing your goals because you didn't plan", sub: "Goals don't die when you set them — they die when you manage them",
+      transcript: "You're not failing your goals because you didn't plan them. You're failing because nobody manages a goal after it's set. Setting a goal and managing a goal are two different jobs. First, make it visible. A goal you can't see is a goal you forget. Second, break it into this week's actions — not what you'll do this year, but what you'll do this week. Third, review it on a fixed day, just ten minutes: what moved, what's stuck. Fourth, adjust what's stuck — a goal isn't carved in stone, it's something you keep tuning. Finally, connect it to your vision. VisionDream helps you do exactly this: track goals as habits and a growing Success Tree, and let the AI coach suggest an adjustment when you stall. Today, pick just one thing to do this week.",
+    },
+    {
+      kind: "youtube", slug: "okr-goals", id: "rWO_KZBZFE4",
+      title: "Why your goals keep fizzling out", sub: "OKRs aren't just for companies",
+      transcript: "Your goals keep fizzling because you never separate the direction from the result. OKRs do that for you. The Objective is one qualitative direction that actually inspires you. The Key Results are two or three measurable outcomes that prove you got there. Here's the most common mistake — writing Key Results as a to-do list. Not 'go for a run,' but 'run 3K under ten minutes.' It has to end in a number. Set them by the quarter, and check in just once a week. Score each from zero to one, where 0.7 means you did well. If you hit every one, your goals were too safe. In VisionDream, your Objective is the vision, your Key Results become tracked goals and habits, and every weekly check grows your Success Tree. This quarter, just pick one Objective.",
+    },
+    {
+      kind: "youtube", slug: "self-efficacy", id: "9LTkLqKRY8U",
+      title: "You're not low on confidence — you're low on evidence", sub: "\"I can do this\" isn't a personality trait",
+      transcript: "Self-efficacy is the belief that you can do it. But it isn't a trait you're born with — it's built from evidence. The psychologist Bandura found the most powerful source is mastery experience. Not some grand success — a tiny one. One box checked today. That becomes proof: 'wait, I can actually do this.' Did you fail? Failure isn't a verdict, it's data. Read it as 'that approach didn't work,' not 'I'm just not capable.' Then keep people who've done it near you, and make the way you talk to yourself a little kinder. VisionDream stacks that evidence for you — small habit checks that grow into a Success Tree you can see. Today, just check one box.",
+    },
   ],
   ja: [
     {
@@ -434,6 +464,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "mental-strength", id: "sQdRM9On6R8",
       title: "強いメンタル=揺れない?", sub: "強いメンタルは、揺れない心じゃない",
       transcript: "メンタルが強いって、絶対に揺れないことじゃないんです。そんな人はいません。本当の強さは、揺れたあとに早く戻ってくる力、レジリエンスです。これは生まれ持った性格じゃなくて、筋肉みたいに鍛えるもの。やり方はこう。まず、感情と事実を分けます。「全部だめだ」じゃなくて、「今回のこれが、うまくいかなかった」。次に、いちばん小さな一歩。メールを一通送る、十分だけ歩く。最後に、自分のビジョンへ戻る。ビジョンが錨になれば、悪い日はただの一日で終わります。ビジョンドリームが、その立て直しを助けます。今日もし揺れたなら、小さな一歩をひとつだけ踏んでみて。",
+    },
+    {
+      kind: "youtube", slug: "goal-management", id: "uruH33Vy90Q",
+      title: "目標を達成できないのは、計画を立てなかったからじゃない", sub: "目標は立てた時ではなく、管理する時に死ぬ",
+      transcript: "目標を達成できないのは、計画を立てなかったからじゃありません。立てたあとに管理していないからです。目標設定と目標管理は、別の仕事なんです。まず、目標を目に見えるところに置く。見えない目標は忘れられます。次に、今週やる行動に分ける。「今年何を」ではなく「今週何を」に。三つ目、決まった曜日にたった十分、週次レビュー。何が進んで、何が詰まったかを見る。四つ目、詰まったものは調整する。目標は固定ではなく、ずっと手直しするものです。最後に、その目標を自分のビジョンにつなぐこと。ビジョンドリームが手伝います。目標を習慣と成功の木で追跡し、止まったらAIコーチが調整を提案します。今日、今週やるたった一つを決めてみよう。",
+    },
+    {
+      kind: "youtube", slug: "okr-goals", id: "JuKmU8xo0j0",
+      title: "目標が毎回うやむやになる理由", sub: "OKR、会社じゃなく自分に使ってる?",
+      transcript: "目標がうやむやになるのは、方向と結果を分けていないからです。OKRはそれを分けてくれます。Objectiveは、自分をわくわくさせる質的な方向を一つ。Key Resultsは、それが達成できたか分かる測定可能な結果を二つか三つ。ここで一番多い間違い — Key Resultsを「やることリスト」で書くことです。「運動に行く」ではなく「3キロを10分以内で走る」のように、数字で終わらせます。四半期で立てて、毎週一回だけ振り返る。0から1で採点して、0.7なら上出来です。全部達成できたら、目標が安全すぎたということ。ビジョンドリームでは、Objectiveがビジョン、Key Resultsが目標と習慣の記録、毎週のチェックが成功の木として育ちます。この四半期、Objectiveを一つだけ決めてみよう。",
+    },
+    {
+      kind: "youtube", slug: "self-efficacy", id: "XzBJf_11v0w",
+      title: "自信がないんじゃなくて、証拠がないんです", sub: "「私はできる」は性格じゃない",
+      transcript: "自己効力感は「私はできる」という信念です。でもこれは生まれつきの性格ではなく、証拠から作られるもの。心理学者バンデューラが挙げた一番強い源は、達成経験。大きな成功じゃなくて、ごく小さな成功です。今日ひとマスだけチェックしたこと。それが「あれ、私できるじゃん」という証拠になります。失敗した?失敗は判決じゃなくてデータです。「やっぱり私はダメ」ではなく「このやり方が合わなかった」と読みましょう。そして、うまくやった人をそばに置き、自分にかける言葉を少しだけ優しく変えてみて。ビジョンドリームが、その証拠を代わりに積み上げます。小さな習慣チェックが、成功の木に育つから。今日、ひとつだけチェックしてみよう。",
     },
   ],
 };
