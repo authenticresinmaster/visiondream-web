@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="목표관리 루프: 눈에 보이게 · 이번 주 행동으로 · 주간 리뷰 · 조정 · 비전 연결">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="22" font-weight="800">목표는 세울 때가 아니라 관리할 때 죽는다</text>
+  <text x="440" y="74" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="14" font-weight="700">계속 돌리는 목표관리 루프 5단계</text>
+  <defs>
+    <marker id="gmA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#f7931e"/></marker>
+  </defs>
+  <ellipse cx="440" cy="225" rx="300" ry="118" fill="none" stroke="#f7931e" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" marker-end="url(#gmA)"/>
+  <g>
+    <circle cx="140" cy="225" r="36" fill="#0f2a4d"/>
+    <text x="140" y="234" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">1</text>
+    <text x="140" y="290" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">눈에 보이게</text>
+    <text x="140" y="308" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">대시보드·추적</text>
+  </g>
+  <g>
+    <circle cx="290" cy="140" r="36" fill="#1c4a7a"/>
+    <text x="290" y="149" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">2</text>
+    <text x="290" y="98" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">이번 주 행동으로</text>
+    <text x="290" y="80" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">쪼개기</text>
+  </g>
+  <g>
+    <circle cx="440" cy="118" r="36" fill="#2f6aa5"/>
+    <text x="440" y="127" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">3</text>
+    <text x="440" y="76" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">주간 리뷰</text>
+    <text x="440" y="58" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">10분·정해진 요일</text>
+  </g>
+  <g>
+    <circle cx="590" cy="140" r="36" fill="#d97e12"/>
+    <text x="590" y="149" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">4</text>
+    <text x="590" y="98" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">조정</text>
+    <text x="590" y="80" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">막힌 건 손보기</text>
+  </g>
+  <g>
+    <circle cx="740" cy="225" r="36" fill="#f7931e"/>
+    <text x="740" y="234" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">5</text>
+    <text x="740" y="290" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">비전에 연결</text>
+    <text x="740" y="308" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">왜 이 목표인가</text>
+  </g>
+  <text x="440" y="235" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="15" font-weight="800">🎯 설정 ≠ 관리</text>
+  <text x="440" y="258" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">선행지표를 관리하면 후행지표는 따라온다</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="OKR 구조: 하나의 Objective(질적 방향)에서 측정 가능한 Key Results 2~3개로">
+  <rect width="880" height="400" rx="20" fill="#0f2a4d"/>
+  <text x="440" y="46" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800">OKR — 방향 하나, 결과 두셋</text>
+  <text x="440" y="74" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="14" font-weight="700">Objective(비전) → Key Results(측정)</text>
+  <defs>
+    <marker id="okA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#f7931e"/></marker>
+  </defs>
+  <!-- Objective node -->
+  <rect x="70" y="150" width="230" height="130" rx="16" fill="#f7931e"/>
+  <text x="185" y="182" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">OBJECTIVE</text>
+  <text x="185" y="210" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="16" font-weight="800">설레는 방향 하나</text>
+  <text x="185" y="236" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="12">질적 · 영감을 주는</text>
+  <text x="185" y="258" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="12">"어디로 가는가"</text>
+  <!-- arrows -->
+  <line x1="305" y1="180" x2="415" y2="132" stroke="#f7931e" stroke-width="3" marker-end="url(#okA)"/>
+  <line x1="305" y1="215" x2="415" y2="215" stroke="#f7931e" stroke-width="3" marker-end="url(#okA)"/>
+  <line x1="305" y1="250" x2="415" y2="298" stroke="#f7931e" stroke-width="3" marker-end="url(#okA)"/>
+  <!-- Key Results -->
+  <g>
+    <rect x="425" y="108" width="385" height="48" rx="12" fill="#173d6b" stroke="#3f6ea5" stroke-width="1.5"/>
+    <text x="446" y="130" fill="#8fb4dd" font-family="sans-serif" font-size="11" font-weight="800">KR 1</text>
+    <text x="446" y="147" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">측정 가능한 결과 · 숫자로 끝남</text>
+  </g>
+  <g>
+    <rect x="425" y="191" width="385" height="48" rx="12" fill="#173d6b" stroke="#3f6ea5" stroke-width="1.5"/>
+    <text x="446" y="213" fill="#8fb4dd" font-family="sans-serif" font-size="11" font-weight="800">KR 2</text>
+    <text x="446" y="230" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">0~1 채점 · 0.7이면 잘한 것</text>
+  </g>
+  <g>
+    <rect x="425" y="274" width="385" height="48" rx="12" fill="#173d6b" stroke="#3f6ea5" stroke-width="1.5"/>
+    <text x="446" y="296" fill="#8fb4dd" font-family="sans-serif" font-size="11" font-weight="800">KR 3</text>
+    <text x="446" y="313" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="600">할 일 목록 아님 · 결과여야 함</text>
+  </g>
+  <text x="440" y="366" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="14" font-weight="700">📊 분기로 세우고, 매주 체크</text>
+</svg>
