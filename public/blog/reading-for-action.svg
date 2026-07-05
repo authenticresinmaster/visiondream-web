@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="실행 독서법 루프: 질문 정하기 · 한 가지만 뽑기 · 이번 주 행동 · 습관에 붙이기 · 리뷰로 남기기">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="22" font-weight="800">책은 다 읽을 때가 아니라 실행할 때 남는다</text>
+  <text x="440" y="74" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="14" font-weight="700">읽고 끝나지 않는 실행 독서법 5단계</text>
+  <defs>
+    <marker id="rdA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#f7931e"/></marker>
+  </defs>
+  <ellipse cx="440" cy="225" rx="300" ry="118" fill="none" stroke="#f7931e" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" marker-end="url(#rdA)"/>
+  <g>
+    <circle cx="140" cy="225" r="36" fill="#0f2a4d"/>
+    <text x="140" y="234" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">1</text>
+    <text x="140" y="290" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">질문 정하기</text>
+    <text x="140" y="308" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">완독 말고 해결</text>
+  </g>
+  <g>
+    <circle cx="290" cy="140" r="36" fill="#1c4a7a"/>
+    <text x="290" y="149" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">2</text>
+    <text x="290" y="98" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">한 가지만 뽑기</text>
+    <text x="290" y="80" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">밑줄 &gt; 문장 1개</text>
+  </g>
+  <g>
+    <circle cx="440" cy="118" r="36" fill="#2f6aa5"/>
+    <text x="440" y="127" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">3</text>
+    <text x="440" y="76" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">이번 주 행동</text>
+    <text x="440" y="58" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">문장 → 할 일 1개</text>
+  </g>
+  <g>
+    <circle cx="590" cy="140" r="36" fill="#d97e12"/>
+    <text x="590" y="149" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">4</text>
+    <text x="590" y="98" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">습관에 붙이기</text>
+    <text x="590" y="80" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">기존 루틴에 얹기</text>
+  </g>
+  <g>
+    <circle cx="740" cy="225" r="36" fill="#f7931e"/>
+    <text x="740" y="234" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="24" font-weight="800">5</text>
+    <text x="740" y="290" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="13" font-weight="800">리뷰로 남기기</text>
+    <text x="740" y="308" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11">해봤나 · 남길까</text>
+  </g>
+  <text x="440" y="235" text-anchor="middle" fill="#0f2a4d" font-family="sans-serif" font-size="15" font-weight="800">📖 완독 ≠ 실행</text>
+  <text x="440" y="258" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">한 권에서 행동 하나면, 그 책은 남는다</text>
+</svg>
