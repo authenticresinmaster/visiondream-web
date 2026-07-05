@@ -166,6 +166,11 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "자신감이 없는 게 아니라 증거가 없는 거예요", sub: "'나는 할 수 있다'는 성격이 아니에요",
       transcript: "자기효능감은 '나는 할 수 있다'는 믿음이에요. 근데 이건 타고난 성격이 아니라, 증거로 쌓이는 거예요. 심리학자 반두라가 말한 가장 강력한 원천은 성취경험. 거창한 성공이 아니라 아주 작은 성공이요. 오늘 딱 한 칸 체크한 것. 그게 '어, 나 되네?'라는 증거가 됩니다. 실패했다고요? 실패는 판결이 아니라 데이터예요. '난 역시 안 돼'가 아니라 '이 방법이 안 됐네'로 읽으세요. 그리고 잘 해낸 사람을 곁에 두고, 나에게 건네는 말을 조금만 다정하게 바꿔 보세요. 비전드림이 이 증거를 대신 쌓아 줄게요. 작은 습관 체크가 성공의 나무로 자라거든요. 오늘, 딱 하나만 체크해 봐요.",
     },
+    {
+      kind: "youtube", slug: "reading-for-action", id: "6hdsOVxxhpU",
+      title: "완독은 실행이 아니에요", sub: "책을 스무 권 읽어도 안 바뀌는 이유",
+      transcript: "자기계발서 스무 권을 읽었는데 삶은 그대로다? 문제는 의지가 아니라, 완독을 실행으로 착각한 거예요. 마지막 장을 덮으면 뇌는 '해냈다' 보상을 주는데, 정작 바뀐 건 없죠. 책은 다 읽을 때가 아니라 한 가지를 행동으로 옮길 때 남아요. 이렇게 해보세요. 첫째, 책 펴기 전에 질문 하나 정하기. 둘째, 한 권에서 딱 한 가지만 뽑기. 셋째, 그 문장을 이번 주에 할 수 있는 작은 행동 하나로 번역하기. 넷째, 그 행동을 이미 매일 하는 습관에 붙이기. 다섯째, 일주일에 10분 리뷰로 '해봤나' 남기기. 밑줄 서른 개보다 실행 하나예요. 비전드림이 그 한 가지를 습관으로 굴려서 성공의 나무에 남겨 줄게요. 오늘, 딱 한 문장만 행동으로.",
+    },
   ],
   en: [
     {
@@ -323,6 +328,11 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "You're not low on confidence — you're low on evidence", sub: "\"I can do this\" isn't a personality trait",
       transcript: "Self-efficacy is the belief that you can do it. But it isn't a trait you're born with — it's built from evidence. The psychologist Bandura found the most powerful source is mastery experience. Not some grand success — a tiny one. One box checked today. That becomes proof: 'wait, I can actually do this.' Did you fail? Failure isn't a verdict, it's data. Read it as 'that approach didn't work,' not 'I'm just not capable.' Then keep people who've done it near you, and make the way you talk to yourself a little kinder. VisionDream stacks that evidence for you — small habit checks that grow into a Success Tree you can see. Today, just check one box.",
     },
+    {
+      kind: "youtube", slug: "reading-for-action", id: "VZz0nGeAvPU",
+      title: "Finishing a book isn't doing it", sub: "Twenty books read, nothing changed",
+      transcript: "Read twenty self-help books and your life looks the same? The problem isn't willpower — you mistook finishing for doing. Closing the last page gives your brain a 'done' reward, but nothing actually changed. A book sticks not when you finish it, but when you turn one idea into action. So try this. First, pick one question before you open the book. Second, pull exactly one thing from it. Third, translate that sentence into one small action you can do this week. Fourth, attach that action to a habit you already do daily. Fifth, spend ten minutes a week in review asking 'did I do it?' One executed idea beats thirty underlines. VisionDream keeps that one thing running as a habit and stacks it on your Success Tree. Today, move just one sentence into action.",
+    },
   ],
   ja: [
     {
@@ -479,6 +489,11 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "self-efficacy", id: "XzBJf_11v0w",
       title: "自信がないんじゃなくて、証拠がないんです", sub: "「私はできる」は性格じゃない",
       transcript: "自己効力感は「私はできる」という信念です。でもこれは生まれつきの性格ではなく、証拠から作られるもの。心理学者バンデューラが挙げた一番強い源は、達成経験。大きな成功じゃなくて、ごく小さな成功です。今日ひとマスだけチェックしたこと。それが「あれ、私できるじゃん」という証拠になります。失敗した?失敗は判決じゃなくてデータです。「やっぱり私はダメ」ではなく「このやり方が合わなかった」と読みましょう。そして、うまくやった人をそばに置き、自分にかける言葉を少しだけ優しく変えてみて。ビジョンドリームが、その証拠を代わりに積み上げます。小さな習慣チェックが、成功の木に育つから。今日、ひとつだけチェックしてみよう。",
+    },
+    {
+      kind: "youtube", slug: "reading-for-action", id: "TcXREMzStEQ",
+      title: "読了は実行じゃない", sub: "二十冊読んでも変わらない理由",
+      transcript: "自己啓発書を二十冊読んだのに人生はそのまま? 問題は意志ではなく、読了を実行と勘違いしたことです。最後のページを閉じると脳は『やり遂げた』報酬をくれますが、実際には何も変わっていない。本は読み終えるときではなく、そこから一つを行動に移すときに残ります。こうしてみてください。一つ目、本を開く前に問いを一つ立てる。二つ目、一冊からたった一つだけ取り出す。三つ目、その文を今週できる小さな行動一つに翻訳する。四つ目、その行動をすでに毎日している習慣にくっつける。五つ目、週に十分のレビューで『やったか』を残す。線を三十本引くより、実行一つです。ビジョンドリームがその一つを習慣として回し、成功の木に残してくれます。今日、たった一文を行動に。",
     },
   ],
 };
