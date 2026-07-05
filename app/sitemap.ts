@@ -21,12 +21,13 @@ function altLanguages(path: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastMod = new Date("2026-06-21");
+  const lastMod = new Date("2026-07-06");
   const marketingPaths = [
     "",
     "/features",
     "/method",
     "/pricing",
+    "/download",
     "/for-coaches",
     "/for-teams",
     "/blog",
@@ -75,5 +76,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }),
   );
 
-  return [...marketing, ...posts, ...videos];
+  // 성공 사례(한국어 전용 페이지)
+  const stories: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE}/stories`,
+      lastModified: lastMod,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+  ];
+
+  return [...marketing, ...stories, ...posts, ...videos];
 }

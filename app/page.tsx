@@ -10,11 +10,14 @@ import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
 import { MobileNav } from "@/components/MobileNav";
 import { Reveal } from "@/components/Reveal";
+import { getApprovedTestimonials } from "@/lib/testimonials";
+import { APP_WEB_URL as APP_URL, ANDROID_INSTALL_URL, IS_STORE_LIVE } from "@/lib/app-links";
 
-const APP_URL = "https://app.visiondream.kr";
-const APK_URL = "https://expo.dev/artifacts/eas/d79Upge-z81nwLBm7RMcnkmluR0fou0w77Nt_Z6eRao.apk";
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 const KAKAO_URL = "https://pf.kakao.com/_xkmeqX";
+
+// 후기(사용자 이야기)가 승인되면 1시간 내 홈에 반영 (정적 서빙 유지)
+export const revalidate = 3600;
 
 const STEPS = [
   { n: "1", t: "비전", d: "되고 싶은 궁극의 나를 선언" },
@@ -25,14 +28,17 @@ const STEPS = [
 
 const FEATURES = [
   { e: "🗂️", t: "비전보드", d: "비전·꿈을 시각화하고 한눈에 관리" },
+  { e: "🗺️", t: "꿈지도(만다라)", d: "9×9 만다라트로 비전을 81칸 실천으로 펼치기" },
   { e: "📅", t: "플래너", d: "연·월·주·일 계획을 우선순위로" },
   { e: "✅", t: "습관 트래커", d: "꿈·목표와 연계된 매일의 실천" },
   { e: "🤖", t: "AI 코치", d: "비전·목표를 함께 다듬는 코칭" },
   { e: "🦁", t: "두려움 해체기", d: "무서워서 못 하던 일을 작은 한 걸음으로" },
   { e: "🛰️", t: "꿈 역설계", d: "원하는 미래에서 오늘 할 일까지 역산" },
+  { e: "🌳", t: "성공의 나무", d: "실천할수록 자라는 게이미피케이션" },
 ];
 
-export default function Home() {
+export default async function Home() {
+  const stories = await getApprovedTestimonials(4);
   return (
     <main className="overflow-x-hidden">
       <JsonLd data={[softwareApplicationSchema, homeFaqSchema, ...videosJsonLd("ko")]} />
@@ -50,6 +56,7 @@ export default function Home() {
             <Link href="/for-coaches" className="hover:text-brand">강사</Link>
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
             <Link href="/blog" className="hover:text-brand">블로그</Link>
+            <Link href="/stories" className="hover:text-brand">사례</Link>
             <Link href="/faq" className="hover:text-brand">FAQ</Link>
             <Link href="/about" className="hover:text-brand">이야기</Link>
             <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 랜딩페이지</a>
@@ -58,7 +65,7 @@ export default function Home() {
             <div className="hidden items-center gap-3 lg:flex">
               <LangSwitch />
               <AuthNav />
-              <a href={APK_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+              <a href={ANDROID_INSTALL_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
                 앱 시작하기
               </a>
             </div>
@@ -84,7 +91,7 @@ export default function Home() {
             <a href="#ebook" className="rounded-xl bg-amber px-7 py-3.5 text-base font-extrabold text-navy transition hover:brightness-105">
               📚 무료 전자책 받기 →
             </a>
-            <a href={APK_URL} className="rounded-xl border border-white/30 bg-white/10 px-7 py-3.5 text-base font-bold text-white transition hover:bg-white/20">
+            <a href={ANDROID_INSTALL_URL} className="rounded-xl border border-white/30 bg-white/10 px-7 py-3.5 text-base font-bold text-white transition hover:bg-white/20">
               앱 바로 시작하기
             </a>
           </div>
@@ -207,6 +214,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 사용자 이야기 (승인된 실제 사례만 — 없으면 미노출) */}
+      {stories.length > 0 && (
+        <section className="bg-white px-5 pb-4 pt-0">
+          <div className="mx-auto max-w-5xl">
+            <Reveal>
+              <p className="text-center text-sm font-bold text-brand">사용자 이야기</p>
+              <h2 className="mt-2 text-center text-2xl font-black text-navy md:text-3xl">비전을 심은 분들의 진짜 이야기</h2>
+            </Reveal>
+            <div className="mt-10 grid gap-5 sm:grid-cols-2">
+              {stories.map((t, i) => (
+                <Reveal key={t.id} delay={(i % 2) * 90}>
+                  <figure className="h-full rounded-2xl border border-black/5 bg-[#fafbfc] p-6">
+                    {t.goalTitle && (
+                      <figcaption className="mb-2 text-xs font-semibold text-brand">🎯 {t.goalTitle}</figcaption>
+                    )}
+                    <blockquote className="whitespace-pre-wrap text-[15px] leading-relaxed text-navy">
+                      “{t.content}”
+                    </blockquote>
+                    <p className="mt-4 text-sm font-medium text-navy/50">— {t.name ?? "비전드림 회원"}</p>
+                  </figure>
+                </Reveal>
+              ))}
+            </div>
+            <div className="mt-8 text-center">
+              <Link href="/stories" className="text-sm font-bold text-brand hover:underline">
+                전체 사례 보기 →
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* 성공의 나무 */}
       <section className="bg-gradient-to-b from-[#f5f8fb] to-white px-5 py-20 text-center">
         <Reveal className="mx-auto max-w-2xl">
@@ -263,11 +302,14 @@ export default function Home() {
             <a href={APP_URL} className="rounded-xl bg-brand px-7 py-3.5 font-extrabold text-white transition hover:brightness-110">
               🌐 웹에서 시작하기
             </a>
-            <a href={APK_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
-              📱 앱 다운로드 (Android APK)
+            <a href={ANDROID_INSTALL_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
+              {IS_STORE_LIVE ? "▶ Google Play에서 다운로드" : "📱 앱 다운로드 (Android)"}
             </a>
           </div>
-          <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>
+          <p className="mt-4 text-xs text-navy/40">
+            {IS_STORE_LIVE ? "Google Play" : "Google Play 출시 준비 중"} · Web · 한국어 / English / 日本語 ·{" "}
+            <Link href="/download" className="underline hover:text-brand">설치 안내</Link>
+          </p>
         </Reveal>
       </section>
 
@@ -360,6 +402,8 @@ export default function Home() {
           <nav className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/features" className="hover:text-brand">기능</Link>
             <Link href="/blog" className="hover:text-brand">블로그</Link>
+            <Link href="/stories" className="hover:text-brand">사례</Link>
+            <Link href="/download" className="hover:text-brand">다운로드</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
             <Link href="/for-teams" className="hover:text-brand">기관·팀</Link>
             <Link href="/faq" className="hover:text-brand">FAQ</Link>

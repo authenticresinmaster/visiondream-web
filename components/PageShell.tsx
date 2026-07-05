@@ -29,6 +29,7 @@ const T: Record<
     features: string; method: string; blog: string; pricing: string;
     coaches: string; teams: string; faq: string; about: string;
     start: string; privacy: string; terms: string; community: string;
+    download: string; stories: string;
     tagline: string; rights: string;
   }
 > = {
@@ -36,6 +37,7 @@ const T: Record<
     features: "기능", method: "성공법칙", blog: "블로그", pricing: "요금제",
     coaches: "강사", teams: "기관·팀", faq: "FAQ", about: "이야기",
     start: "앱 시작하기", privacy: "개인정보처리방침", terms: "이용약관", community: "커뮤니티",
+    download: "다운로드", stories: "사례",
     tagline: "성공(S) = 믿음(B) × 생각(T) × 행동(A)",
     rights: "© 2026 서우 비전드림. All rights reserved.",
   },
@@ -43,6 +45,7 @@ const T: Record<
     features: "Features", method: "Method", blog: "Blog", pricing: "Pricing",
     coaches: "Coaches", teams: "Teams", faq: "FAQ", about: "Story",
     start: "Open App", privacy: "Privacy", terms: "Terms", community: "Community",
+    download: "Download", stories: "Stories",
     tagline: "Success(S) = Belief(B) × Thinking(T) × Action(A)",
     rights: "© 2026 Seowoo Vision Dream. All rights reserved.",
   },
@@ -50,6 +53,7 @@ const T: Record<
     features: "機能", method: "成功法則", blog: "ブログ", pricing: "料金",
     coaches: "講師", teams: "団体・チーム", faq: "FAQ", about: "ストーリー",
     start: "アプリを開く", privacy: "プライバシー", terms: "利用規約", community: "コミュニティ",
+    download: "ダウンロード", stories: "事例",
     tagline: "成功(S) = 信念(B) × 思考(T) × 行動(A)",
     rights: "© 2026 ソウ・ビジョンドリーム. All rights reserved.",
   },
@@ -89,6 +93,7 @@ export function PageShell({
             <Link href={p("/for-coaches")} className="hover:text-brand">{t.coaches}</Link>
             <Link href={p("/for-teams")} className="hover:text-brand">{t.teams}</Link>
             <Link href={p("/blog")} className="hover:text-brand">{t.blog}</Link>
+            {lang === "ko" && <Link href="/stories" className="hover:text-brand">{t.stories}</Link>}
             <Link href={p("/faq")} className="hover:text-brand">{t.faq}</Link>
             <Link href={p("/about")} className="hover:text-brand">{t.about}</Link>
             <a href={LANDING_URL} className="hover:text-brand">{LANDING_LABEL[lang]}</a>
@@ -117,6 +122,8 @@ export function PageShell({
           <nav className="flex flex-wrap items-center justify-center gap-4">
             <Link href={p("/features")} className="hover:text-brand">{t.features}</Link>
             <Link href={p("/blog")} className="hover:text-brand">{t.blog}</Link>
+            {lang === "ko" && <Link href="/stories" className="hover:text-brand">{t.stories}</Link>}
+            <Link href={p("/download")} className="hover:text-brand">{t.download}</Link>
             <Link href={p("/pricing")} className="hover:text-brand">{t.pricing}</Link>
             <Link href={p("/for-teams")} className="hover:text-brand">{t.teams}</Link>
             <Link href={p("/faq")} className="hover:text-brand">{t.faq}</Link>

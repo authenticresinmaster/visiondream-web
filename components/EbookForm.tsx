@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ANDROID_INSTALL_URL } from "@/lib/app-links";
 
 export function EbookForm() {
   const [email, setEmail] = useState("");
@@ -35,7 +36,7 @@ export function EbookForm() {
     return (
       <div className="rounded-2xl bg-white/10 p-6 text-center">
         <p className="text-lg font-bold text-white">🎉 {msg}</p>
-        <a href="https://expo.dev/artifacts/eas/d79Upge-z81nwLBm7RMcnkmluR0fou0w77Nt_Z6eRao.apk" className="mt-4 inline-block rounded-full bg-amber px-6 py-3 font-extrabold text-navy">
+        <a href={ANDROID_INSTALL_URL} className="mt-4 inline-block rounded-full bg-amber px-6 py-3 font-extrabold text-navy">
           앱 바로 시작하기 →
         </a>
       </div>

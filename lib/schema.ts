@@ -57,6 +57,7 @@ export const softwareApplicationSchema = {
   publisher: { "@id": ORG_ID },
   featureList: [
     "비전보드 — 비전·꿈 시각화",
+    "꿈지도(비전 만다라) — 9×9 만다라트로 비전을 81칸 실천으로 전개",
     "연·월·주·일 플래너",
     "꿈·목표 연계 습관 트래커",
     "AI 코치",
@@ -64,6 +65,8 @@ export const softwareApplicationSchema = {
     "꿈 역설계(백캐스팅)",
     "성공의 나무 — 게이미피케이션",
   ],
+  downloadUrl: `${SITE_URL}/download`,
+  // 스토어 출시 후: installUrl에 Google Play URL 추가 + aggregateRating(실제 평점 확보 시)
   offers: [
     {
       "@type": "Offer",

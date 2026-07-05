@@ -12,6 +12,7 @@
 ## 주요 기능
 
 - 비전보드 — 비전·꿈을 시각화하고 한눈에 관리
+- 꿈지도(비전 만다라) — 9×9 만다라트로 비전을 81칸 실천으로 전개, 항목을 꿈·목표·습관으로 변환
 - 플래너 — 연·월·주·일 계획을 우선순위로 관리
 - 습관 트래커 — 꿈·목표와 연계된 매일의 실천
 - AI 코치 — 비전·목표를 함께 다듬는 코칭
@@ -27,7 +28,9 @@
 ## 핵심 페이지
 
 - [웹앱 바로가기](https://app.visiondream.kr): 가입·로그인 후 비전관리 시작 (Android·iOS·웹)
-- [기능](https://visiondream.kr/features): 비전보드·플래너·습관 트래커·AI 코치·두려움 해체기·꿈 역설계 전체 기능
+- [다운로드·설치 안내](https://visiondream.kr/download): 웹앱·Android 앱 설치 방법 (Google Play 출시 준비 중)
+- [성공 사례](https://visiondream.kr/stories): 비전드림과 함께 성장한 사용자들의 실제 이야기
+- [기능](https://visiondream.kr/features): 비전보드·꿈지도 만다라·플래너·습관 트래커·AI 코치·두려움 해체기·꿈 역설계 전체 기능
 - [성공법칙](https://visiondream.kr/method): 성공(S) = 믿음(B) × 생각(T) × 행동(A) 상세 설명
 - [요금제](https://visiondream.kr/pricing): 무료 · 프리미엄(월 ₩9,900) · 팀/기관 플랜
 - [강사·컨설턴트](https://visiondream.kr/for-coaches): 멘티 성장 관리·추천 보상

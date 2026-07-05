@@ -18,7 +18,8 @@ export const metadata = pageMeta({
     "Seowoo Vision Dream connects vision, dreams, goals, and habits into one. With Success(S) = Belief(B) × Thinking(T) × Action(A), AI designs everything from your future back to what to do today.",
 });
 
-const APP_URL = "https://app.visiondream.kr";
+import { APP_WEB_URL as APP_URL, ANDROID_INSTALL_URL, IS_STORE_LIVE } from "@/lib/app-links";
+
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 
 const STEPS = [
@@ -30,11 +31,13 @@ const STEPS = [
 
 const FEATURES = [
   { e: "🗂️", t: "Vision Board", d: "Visualize your vision and dreams, manage them at a glance" },
+  { e: "🗺️", t: "Dream Map (Mandala)", d: "Unfold your vision into 81 actionable cells with a 9×9 mandala chart" },
   { e: "📅", t: "Planner", d: "Yearly, monthly, weekly, and daily plans by priority" },
   { e: "✅", t: "Habit Tracker", d: "Daily practice linked to your dreams and goals" },
   { e: "🤖", t: "AI Coach", d: "Coaching that refines your vision and goals together with you" },
   { e: "🦁", t: "Fear Buster", d: "Turn the things you were too scared to do into one small step" },
   { e: "🛰️", t: "Dream Backcasting", d: "Work backward from the future you want to today's to-dos" },
+  { e: "🌳", t: "Success Tree", d: "Gamification that grows the more you practice" },
 ];
 
 export default function Home() {
@@ -211,11 +214,14 @@ export default function Home() {
             <a href={APP_URL} className="rounded-xl bg-brand px-7 py-3.5 font-extrabold text-white transition hover:brightness-110">
               🌐 Start on the web
             </a>
-            <a href={APP_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
-              📱 Download the app
+            <a href={ANDROID_INSTALL_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
+              {IS_STORE_LIVE ? "▶ Get it on Google Play" : "📱 Download the app (Android)"}
             </a>
           </div>
-          <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>
+          <p className="mt-4 text-xs text-navy/40">
+            {IS_STORE_LIVE ? "Google Play" : "Coming soon to Google Play"} · Web · 한국어 / English / 日本語 ·{" "}
+            <Link href="/en/download" className="underline hover:text-brand">Install guide</Link>
+          </p>
         </Reveal>
       </section>
 

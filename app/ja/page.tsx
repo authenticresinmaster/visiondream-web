@@ -18,7 +18,8 @@ export const metadata = pageMeta({
     "ソウ・ビジョンドリームはビジョン・夢・目標・習慣を一つにつなげます。成功(S) = 信念(B) × 思考(T) × 行動(A)。AIが未来から今日やることまで設計します。",
 });
 
-const APP_URL = "https://app.visiondream.kr";
+import { APP_WEB_URL as APP_URL, ANDROID_INSTALL_URL, IS_STORE_LIVE } from "@/lib/app-links";
+
 const DISCORD_URL = "https://discord.gg/gPbRp24Khn";
 
 const STEPS = [
@@ -30,11 +31,13 @@ const STEPS = [
 
 const FEATURES = [
   { e: "🗂️", t: "ビジョンボード", d: "ビジョン・夢を可視化して一目で管理" },
+  { e: "🗺️", t: "夢の地図（曼荼羅）", d: "9×9マンダラチャートでビジョンを81マスの実践へ展開" },
   { e: "📅", t: "プランナー", d: "年・月・週・日の計画を優先順位で" },
   { e: "✅", t: "習慣トラッカー", d: "夢・目標と連動した毎日の実践" },
   { e: "🤖", t: "AIコーチ", d: "ビジョン・目標を一緒に磨き上げるコーチング" },
   { e: "🦁", t: "恐れ解体ツール", d: "怖くてできなかったことを小さな一歩に" },
   { e: "🛰️", t: "夢の逆算設計", d: "望む未来から今日やることまで逆算" },
+  { e: "🌳", t: "成功の木", d: "実践するほど育つゲーミフィケーション" },
 ];
 
 export default function Home() {
@@ -211,11 +214,14 @@ export default function Home() {
             <a href={APP_URL} className="rounded-xl bg-brand px-7 py-3.5 font-extrabold text-white transition hover:brightness-110">
               🌐 ウェブで始める
             </a>
-            <a href={APP_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
-              📱 アプリをダウンロード
+            <a href={ANDROID_INSTALL_URL} className="rounded-xl border border-navy/15 px-7 py-3.5 font-bold text-navy transition hover:bg-navy/5">
+              {IS_STORE_LIVE ? "▶ Google Playで手に入れる" : "📱 アプリをダウンロード (Android)"}
             </a>
           </div>
-          <p className="mt-4 text-xs text-navy/40">Android · iOS · Web · 한국어 / English / 日本語</p>
+          <p className="mt-4 text-xs text-navy/40">
+            {IS_STORE_LIVE ? "Google Play" : "Google Play 近日公開"} · Web · 한국어 / English / 日本語 ·{" "}
+            <Link href="/ja/download" className="underline hover:text-brand">インストールガイド</Link>
+          </p>
         </Reveal>
       </section>
 
