@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="감사일기: 매일 감사한 일 3가지를 적으면 행복·수면·목표 진전이 오른다는 에먼스의 연구">
+  <rect width="880" height="400" rx="20" fill="#0f2a4d"/>
+  <text x="440" y="50" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="23" font-weight="800">감사일기 = 매일 감사한 일 3가지</text>
+  <text x="440" y="78" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="14" font-weight="700">에먼스 &amp; 매컬러프 10주 실험 (2003)</text>
+  <defs>
+    <marker id="gjA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#f7931e"/></marker>
+  </defs>
+  <g>
+    <rect x="60" y="150" width="230" height="180" rx="16" fill="#173a63" stroke="#f7931e" stroke-width="2"/>
+    <text x="175" y="196" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="34">🙏</text>
+    <text x="175" y="232" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="800">오늘의 감사 3줄</text>
+    <text x="175" y="262" text-anchor="middle" fill="#a9c2e0" font-family="sans-serif" font-size="12.5">막연하게 말고</text>
+    <text x="175" y="282" text-anchor="middle" fill="#a9c2e0" font-family="sans-serif" font-size="12.5">구체적으로 · 매일</text>
+    <text x="175" y="308" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="12" font-weight="700">Three Good Things</text>
+  </g>
+  <line x1="298" y1="240" x2="352" y2="240" stroke="#f7931e" stroke-width="3" marker-end="url(#gjA)"/>
+  <g>
+    <rect x="360" y="150" width="215" height="180" rx="14" fill="#12325a"/>
+    <text x="467" y="188" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="800">10주 뒤</text>
+    <text x="467" y="222" text-anchor="middle" fill="#f7931e" font-family="sans-serif" font-size="15" font-weight="800">행복 +25%</text>
+    <text x="467" y="252" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="13.5">수면 개선 · 운동 ↑</text>
+    <text x="467" y="278" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="13.5">신체 증상 ↓</text>
+    <text x="467" y="306" text-anchor="middle" fill="#a9c2e0" font-family="sans-serif" font-size="12">우울 개선 (메타분석)</text>
+  </g>
+  <line x1="583" y1="240" x2="637" y2="240" stroke="#f7931e" stroke-width="3" marker-end="url(#gjA)"/>
+  <g>
+    <rect x="645" y="150" width="175" height="180" rx="14" fill="#173a63" stroke="#7fa8d4" stroke-width="1.5"/>
+    <text x="732" y="196" text-anchor="middle" fill="#7fa8d4" font-family="sans-serif" font-size="30">🌱</text>
+    <text x="732" y="232" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="800">목표 진전 ↑</text>
+    <text x="732" y="260" text-anchor="middle" fill="#a9c2e0" font-family="sans-serif" font-size="12">2개월간 중요한</text>
+    <text x="732" y="280" text-anchor="middle" fill="#a9c2e0" font-family="sans-serif" font-size="12">개인 목표에</text>
+    <text x="732" y="300" text-anchor="middle" fill="#a9c2e0" font-family="sans-serif" font-size="12">더 다가섬</text>
+  </g>
+</svg>
