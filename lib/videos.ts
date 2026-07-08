@@ -171,6 +171,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "완독은 실행이 아니에요", sub: "책을 스무 권 읽어도 안 바뀌는 이유",
       transcript: "자기계발서 스무 권을 읽었는데 삶은 그대로다? 문제는 의지가 아니라, 완독을 실행으로 착각한 거예요. 마지막 장을 덮으면 뇌는 '해냈다' 보상을 주는데, 정작 바뀐 건 없죠. 책은 다 읽을 때가 아니라 한 가지를 행동으로 옮길 때 남아요. 이렇게 해보세요. 첫째, 책 펴기 전에 질문 하나 정하기. 둘째, 한 권에서 딱 한 가지만 뽑기. 셋째, 그 문장을 이번 주에 할 수 있는 작은 행동 하나로 번역하기. 넷째, 그 행동을 이미 매일 하는 습관에 붙이기. 다섯째, 일주일에 10분 리뷰로 '해봤나' 남기기. 밑줄 서른 개보다 실행 하나예요. 비전드림이 그 한 가지를 습관으로 굴려서 성공의 나무에 남겨 줄게요. 오늘, 딱 한 문장만 행동으로.",
     },
+    {
+      kind: "youtube", slug: "kim-mikyung-miracle", id: "YsxcNfkXwu4",
+      title: "5시 기상을 따라 하니까 무너지는 거예요", sub: "미라클모닝 3일 만에 포기했다면",
+      transcript: "김미경식 미라클모닝, 해보려다 3일 만에 포기한 분 많죠. 문제는 시각이에요. 다들 새벽 5시라는 시간만 따라 하거든요. 근데 4시간 자고 5시에 일어나는 건 의지가 아니라 번아웃 카운트다운이에요. 오래가는 사람은 세 가지가 달라요. 첫째, 지킬 수 있는 시간. 둘째, 눈에 보이는 책임, 연속기록이요. 셋째, 이 아침이 어떤 미래를 위한 건지 비전과 연결하는 거예요. 비전드림은 아침 루틴을 매일 습관으로 체크하고, 그걸 내 비전에 연결해 줘요. 시각 말고 루틴을 따라 하세요.",
+    },
+    {
+      kind: "youtube", slug: "lee-dongjin-reading", id: "A7nmJOwBRSQ",
+      title: "이동진은 실천하려고 읽지 않아요", sub: "1년에 50권 읽어도 그대로인 이유",
+      transcript: "1년에 50권을 읽어도 삶이 그대로라면, 문제는 권수가 아니에요. 이동진 평론가는 사실 실용을 위해 읽지 않아요. 천천히 읽고, 밑줄 긋고 메모하고, 좋은 책은 다시 읽죠. 깊이 읽는 거예요. 그런데 깊이 읽어도 딱 하나가 빠지면 삶은 그대로예요. 바로 실천이죠. 그래서 책을 덮을 때, 잊고 싶지 않은 한 문장을 골라 이번 주에 할 행동 하나로 바꿔보세요. 그리고 이미 하는 습관에 붙이세요. 오늘 읽은 책에서 실천할 행동 하나, 지금 적어봐요.",
+    },
+    {
+      kind: "youtube", slug: "miracle-mindset", id: "IxZLoNPtxJg",
+      title: "문제는 의지력이 아니었어요", sub: "미라클모닝이 3일 만에 끝나는 진짜 이유",
+      transcript: "알람을 삼십 분 일찍 맞추고, 이틀은 성공해요. 근데 삼일째 스누즈 버튼이 이기죠. 문제는 의지력이 아니라, 눈뜬 순간의 마인드셋이에요. 첫째, 깨자마자 오늘 할 한 가지를 떠올려요. 둘째, 완벽한 루틴 말고 딱 이 분만. 셋째, 기분 말고 정체성. 나는 아침을 챙기는 사람이다. 넷째, 그 아침을 내 비전과 연결해요. 다섯째, 하루 걸러도 다음 아침 다시 리셋. 비전드림은 이걸 매일 습관으로 붙잡아, 체크할 때마다 성공의 나무에 잎이 돋아요. 내일 아침, 알람을 오 분 일찍 맞추고 할 한 가지를 지금 정해두세요.",
+    },
   ],
   en: [
     {
@@ -333,6 +348,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Finishing a book isn't doing it", sub: "Twenty books read, nothing changed",
       transcript: "Read twenty self-help books and your life looks the same? The problem isn't willpower — you mistook finishing for doing. Closing the last page gives your brain a 'done' reward, but nothing actually changed. A book sticks not when you finish it, but when you turn one idea into action. So try this. First, pick one question before you open the book. Second, pull exactly one thing from it. Third, translate that sentence into one small action you can do this week. Fourth, attach that action to a habit you already do daily. Fifth, spend ten minutes a week in review asking 'did I do it?' One executed idea beats thirty underlines. VisionDream keeps that one thing running as a habit and stacks it on your Success Tree. Today, move just one sentence into action.",
     },
+    {
+      kind: "youtube", slug: "kim-mikyung-miracle", id: "YxEFtshu55I",
+      title: "You copied 5 a.m., not the routine", sub: "Quit the miracle morning in 3 days?",
+      transcript: "Tried the Kim Mikyung miracle morning and quit by day three? The problem is the hour. Everyone copies the 5 a.m. wake-up. But waking at 5 on four hours of sleep isn't discipline, it's a countdown to burnout. The people who last do three things differently. One, they pick a time they can actually keep. Two, they make it visible, a streak they can see. Three, they tie the morning to a vision, what future is this for. VisionDream logs your morning as a daily habit and connects it to your vision. Don't chase the hour, chase the routine.",
+    },
+    {
+      kind: "youtube", slug: "lee-dongjin-reading", id: "464xzaO4ZcI",
+      title: "He doesn't read to get things done", sub: "Why 50 books a year changed nothing",
+      transcript: "If you read fifty books a year and nothing changed, the problem isn't the number. Lee Dong-jin, the critic famous for his huge library, doesn't read for productivity at all. He reads slowly, underlines and annotates, and re-reads the books he loves. That's deep reading. But deep reading leaves one gap, and if you skip it, life stays the same. That gap is action. So when you close a book, choose one sentence you refuse to forget, and turn it into one thing you can do this week. Then attach it to a habit you already have. Right now, write down one action from the last book you read.",
+    },
+    {
+      kind: "youtube", slug: "miracle-mindset", id: "kjuiv7zBEHc",
+      title: "It was never your willpower", sub: "Why the Miracle Morning dies in 3 days",
+      transcript: "You set the alarm early, and two mornings it works. By day three the snooze button wins. The problem was never willpower, it was your mindset the second your eyes opened. One: on waking, name one thing you'll do today. Two: forget the perfect routine, just start with two minutes. Three: act from identity, not mood. I'm someone who shows up in the morning. Four: connect that morning to your vision. Five: miss a day, reset the next morning, never quit. VisionDream holds each one as a daily habit, and every check grows a leaf on your success tree. Tomorrow, set the alarm five minutes early and decide your one thing right now.",
+    },
   ],
   ja: [
     {
@@ -494,6 +524,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "reading-for-action", id: "TcXREMzStEQ",
       title: "読了は実行じゃない", sub: "二十冊読んでも変わらない理由",
       transcript: "自己啓発書を二十冊読んだのに人生はそのまま? 問題は意志ではなく、読了を実行と勘違いしたことです。最後のページを閉じると脳は『やり遂げた』報酬をくれますが、実際には何も変わっていない。本は読み終えるときではなく、そこから一つを行動に移すときに残ります。こうしてみてください。一つ目、本を開く前に問いを一つ立てる。二つ目、一冊からたった一つだけ取り出す。三つ目、その文を今週できる小さな行動一つに翻訳する。四つ目、その行動をすでに毎日している習慣にくっつける。五つ目、週に十分のレビューで『やったか』を残す。線を三十本引くより、実行一つです。ビジョンドリームがその一つを習慣として回し、成功の木に残してくれます。今日、たった一文を行動に。",
+    },
+    {
+      kind: "youtube", slug: "kim-mikyung-miracle", id: "oMajyySB8L0",
+      title: "真似たのは時刻、ルーティンじゃない", sub: "ミラクルモーニング3日で挫折した?",
+      transcript: "キム・ミギョン式ミラクルモーニング、3日でやめた人、多いですよね。問題は時刻です。みんな朝5時という時間だけを真似する。でも4時間睡眠で5時に起きるのは規律じゃなくて、燃え尽きへのカウントダウンです。続く人は三つが違います。一つ、実際に守れる時刻を選ぶ。二つ、目に見える連続記録で証明する。三つ、この朝はどんな未来のためか、ビジョンにつなぐ。ビジョンドリームは朝を毎日の習慣として記録し、あなたのビジョンにつなげます。時刻じゃなく、ルーティンを真似て。",
+    },
+    {
+      kind: "youtube", slug: "lee-dongjin-reading", id: "k_b6-xz4kr8",
+      title: "彼は役立てるために読まない", sub: "年50冊読んでも変わらない理由",
+      transcript: "年に50冊読んでも人生がそのままなら、問題は冊数ではありません。膨大な蔵書で知られる評論家イ・ドンジンは、実用のためには読みません。ゆっくり読み、線を引いて書き込み、好きな本は再読する。それが深い読書です。でも深い読書には一つ隙間が残り、そこを飛ばすと人生は変わりません。その隙間が行動です。だから本を閉じるとき、忘れたくない一文を選び、今週できる行動一つに変えてみてください。そしてすでにある習慣にくっつける。今、最後に読んだ本から実践する行動を一つ書いてみましょう。",
+    },
+    {
+      kind: "youtube", slug: "miracle-mindset", id: "1KKcBnZYxKI",
+      title: "問題は意志力じゃなかった", sub: "ミラクルモーニングが3日で終わる本当の理由",
+      transcript: "アラームを早くして、二日はうまくいく。でも三日目、スヌーズボタンが勝つ。問題は意志力じゃなくて、目を開けた瞬間のマインドセットです。一つ、起きたら今日やる一つを思い浮かべる。二つ、完璧なルーティンじゃなく、まず二分だけ。三つ、気分じゃなくアイデンティティ。私は朝の自分を大切にする人だ。四つ、その朝を自分のビジョンにつなぐ。五つ、一日休んでも翌朝リセット、やめない。ビジョンドリームはこれを毎日の習慣として預かり、チェックのたびに成功の木に葉が茂ります。明日の朝、アラームを五分早くして、やる一つを今、決めておきましょう。",
     },
   ],
 };
