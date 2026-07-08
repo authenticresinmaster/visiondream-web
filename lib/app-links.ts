@@ -6,9 +6,9 @@
 export const PLAY_STORE_URL: string | null = null;
 // 출시 후: "https://play.google.com/store/apps/details?id=kr.visiondream.app"
 
-/** 스토어 출시 전 임시 배포용 EAS APK (출시 후엔 사용 안 함) */
+/** 스토어 출시 전 임시 배포용 EAS APK (출시 후엔 사용 안 함) — 2026-07-09 v1.0.0(vc2, dd15319) */
 export const APK_URL =
-  "https://expo.dev/artifacts/eas/d79Upge-z81nwLBm7RMcnkmluR0fou0w77Nt_Z6eRao.apk";
+  "https://expo.dev/artifacts/eas/pFnLYdcVSWeC9gEYBkJkl28DEE-p-K-2r1jzlpDFgoM.apk";
 
 /** 웹앱 (설치 없이 브라우저에서 바로 사용) */
 export const APP_WEB_URL = "https://app.visiondream.kr";
