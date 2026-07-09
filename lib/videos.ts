@@ -186,6 +186,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "문제는 의지력이 아니었어요", sub: "미라클모닝이 3일 만에 끝나는 진짜 이유",
       transcript: "알람을 삼십 분 일찍 맞추고, 이틀은 성공해요. 근데 삼일째 스누즈 버튼이 이기죠. 문제는 의지력이 아니라, 눈뜬 순간의 마인드셋이에요. 첫째, 깨자마자 오늘 할 한 가지를 떠올려요. 둘째, 완벽한 루틴 말고 딱 이 분만. 셋째, 기분 말고 정체성. 나는 아침을 챙기는 사람이다. 넷째, 그 아침을 내 비전과 연결해요. 다섯째, 하루 걸러도 다음 아침 다시 리셋. 비전드림은 이걸 매일 습관으로 붙잡아, 체크할 때마다 성공의 나무에 잎이 돋아요. 내일 아침, 알람을 오 분 일찍 맞추고 할 한 가지를 지금 정해두세요.",
     },
+    {
+      kind: "youtube", slug: "digital-board", id: "KefV8DgyT5I",
+      title: "비전보드, 붙여놓고 며칠이면 안 보게 되죠?", sub: "종이 비전보드는 왜 자꾸 잊혀질까",
+      transcript: "종이 비전보드, 예쁘게 만들어 벽에 붙였는데 일주일이면 배경처럼 안 보이더라고요. 붙일 벽도 부족하고요. 그래서 폰으로 옮겼어요. 방법은 세 단계예요. 먼저 커리어, 건강, 재정 같은 영역별로 사진을 다섯에서 아홉 장 모아요. 그다음 무료 콜라주 앱으로 한 장으로 합치고요. 마지막이 핵심이에요. 그 이미지를 폰 잠금화면으로 설정하세요. 이제 하루에 아흔 번 넘게 폰을 볼 때마다 비전이 눈에 들어와요. 애써 기억할 필요가 없어요. 여기에 이미지마다 오늘 할 일 하나만 묶으면, 보는 게 곧 하는 게 돼요. 오늘 밤 배경화면부터 딱 바꿔보세요.",
+    },
+    {
+      kind: "youtube", slug: "goal-tracking", id: "AcoQ-JLytCQ",
+      title: "목표 앱, 2월이면 안 열죠?", sub: "목표 앱만 깔고 안 쓰는 사람",
+      transcript: "목표 앱, 아마 세 개쯤 깔아 봤을 거예요. 1월 1일엔 정돈된 기분, 2월엔 다시는 안 열어보죠. 그거 의지 문제 아니에요. 대부분 앱은 목표를 세우게만 도와주고, 올해랑 오늘을 연결해 주진 않거든요. 그러니 앱 고를 땐 기능 개수 말고 세 가지만 보세요. 첫째, 이건 어떤 유형의 목표인가. 매일 반복하는 습관형인지, 숫자로 결과 내는 수치형인지. 둘째, 바쁜 한 주를 살아남는가. 하루 놓쳐도 연속기록이 안 날아가고, 못 끝낸 일이 다음 날로 넘어가는가. 셋째, 왜 하는지가 매일 보이는가. 그리고 진짜 핵심은 사다리예요. 연간 목표를 이번 달, 이번 주, 오늘 할 일 하나까지 내려놓는 것. 오늘 움직일 수 없는 연간 목표는 이미 흐려지는 중이거든요. 작년에 접은 목표 하나 떠올려서, 왜 멈췄는지 딱 한 줄 적어볼까요?",
+    },
+    {
+      kind: "youtube", slug: "procrastination", id: "Qd8YS_zFiFM",
+      title: "혹시 아직도 '독하게 마음먹기'로 미루기 고치려 하세요?", sub: "할 일을 자꾸 미룬다면",
+      transcript: "할 일을 미루는 건 게을러서가 아니에요. 뇌가 불편한 일을 피하는 것뿐이거든요. 그래서 더 독하게 마음먹어도 안 고쳐지는 거예요. 의지 말고 시스템으로 바꿔야 해요. 첫째, 피할 수 없을 만큼 잘게 쪼개요. 보고서를 쓰는 게 아니라, 문서 열고 한 문장만. 첫 걸음이 5분 이하면 뇌가 저항을 안 해요. 둘째, 무너지기 전에 복구 규칙을 정해둬요. 하루 놓쳐도 자책 말고 다음 날 그냥 다시. 한 번은 사고, 두 번이 패턴이니까요. 셋째, 환경을 바꿔요. 운동화는 현관에, 시간 잡아먹는 앱은 홈 화면에서 치우고요. 유혹보다 강해지는 게 아니라, 유혹을 멀리 두는 거예요. 오늘 딱 하나, 5분짜리 습관 하나만 정해서 적어보세요.",
+    },
   ],
   en: [
     {
@@ -363,6 +378,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "It was never your willpower", sub: "Why the Miracle Morning dies in 3 days",
       transcript: "You set the alarm early, and two mornings it works. By day three the snooze button wins. The problem was never willpower, it was your mindset the second your eyes opened. One: on waking, name one thing you'll do today. Two: forget the perfect routine, just start with two minutes. Three: act from identity, not mood. I'm someone who shows up in the morning. Four: connect that morning to your vision. Five: miss a day, reset the next morning, never quit. VisionDream holds each one as a daily habit, and every check grows a leaf on your success tree. Tomorrow, set the alarm five minutes early and decide your one thing right now.",
     },
+    {
+      kind: "youtube", slug: "digital-board", id: "50tXygxGoa0",
+      title: "That vision board on your wall — still notice it?", sub: "Why your paper vision board gets forgotten",
+      transcript: "You made a beautiful vision board, stuck it on the wall, and within a week it faded into the background. You also run out of wall. So I moved mine to my phone. Three steps. First, collect five to nine images, one for each life area — career, health, finances. Next, combine them into a single picture with any free collage app. And here's the key step most people skip: set that image as your phone lock screen. Now every time you pick up your phone, ninety-plus times a day, your vision meets your eyes. No remembering required. Then tie each image to one small action for today, and looking turns into doing. Change your wallpaper tonight and start.",
+    },
+    {
+      kind: "youtube", slug: "goal-tracking", id: "jmy9G5sIom8",
+      title: "That goal app... still open in February?", sub: "The people who install goal apps and never use them",
+      transcript: "You've probably installed three goal apps by now. On January first you feel so organized, and by February you never open them again. That's not a willpower problem. Most apps help you set goals, but they never connect this year to today. So when you pick one, forget the feature count and check three things. One, what kind of goal is this, a daily habit you repeat, or a number you're tracking toward. Two, will it survive a busy week, does a missed day wipe your streak, or does an unfinished task roll forward. Three, can you see why you're doing it, every single day. And here's the real key, a ladder. Take your yearly goal and bring it down to this month, this week, and one task today. A yearly goal you can't act on today is already fading. So think of one goal you quit last year, and write a single line, why did it stall?",
+    },
+    {
+      kind: "youtube", slug: "procrastination", id: "ZyNUbqCKRu4",
+      title: "Still trying to fix procrastination by just trying harder?", sub: "If you keep putting things off",
+      transcript: "You don't procrastinate because you're lazy. Your brain is just avoiding something uncomfortable. That's why trying harder never fixes it. You need a system, not willpower. First, shrink the task until it's too small to avoid. Not write the report, just open the doc and write one sentence. When the first step takes five minutes or less, your brain stops resisting. Second, plan the recovery before you slip. Miss a day? Drop the self-blame and just resume tomorrow. Missing once is an accident, missing twice is a pattern. Third, design your environment. Running shoes by the door, the app that eats your evenings off your home screen. You're not beating temptation, you're moving it out of reach. So today, pick one thing, one five-minute habit, and write it down.",
+    },
   ],
   ja: [
     {
@@ -539,6 +569,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "miracle-mindset", id: "1KKcBnZYxKI",
       title: "問題は意志力じゃなかった", sub: "ミラクルモーニングが3日で終わる本当の理由",
       transcript: "アラームを早くして、二日はうまくいく。でも三日目、スヌーズボタンが勝つ。問題は意志力じゃなくて、目を開けた瞬間のマインドセットです。一つ、起きたら今日やる一つを思い浮かべる。二つ、完璧なルーティンじゃなく、まず二分だけ。三つ、気分じゃなくアイデンティティ。私は朝の自分を大切にする人だ。四つ、その朝を自分のビジョンにつなぐ。五つ、一日休んでも翌朝リセット、やめない。ビジョンドリームはこれを毎日の習慣として預かり、チェックのたびに成功の木に葉が茂ります。明日の朝、アラームを五分早くして、やる一つを今、決めておきましょう。",
+    },
+    {
+      kind: "youtube", slug: "digital-board", id: "pZyUomNosDw",
+      title: "壁のビジョンボード、まだ目に入ってますか?", sub: "紙のビジョンボードが忘れられる理由",
+      transcript: "きれいに作って壁に貼ったビジョンボード、一週間で背景に溶けて見えなくなりますよね。貼る壁も足りなくなる。だからスマホに移しました。三ステップです。まずキャリア、健康、お金など領域ごとに写真を五枚から九枚集めます。次に無料のコラージュアプリで一枚にまとめます。そして多くの人が飛ばす肝心のステップ、その画像をスマホのロック画面に設定してください。これでスマホを手に取るたび、一日九十回以上、ビジョンが目に入ります。覚えておく必要はありません。さらに各画像に今日やること一つをひも付ければ、見ることが動くことになります。今夜、壁紙を変えることから始めましょう。",
+    },
+    {
+      kind: "youtube", slug: "goal-tracking", id: "ma1VruDNong",
+      title: "その目標アプリ、2月にはもう開いてない?", sub: "目標アプリを入れるだけで使わない人",
+      transcript: "目標アプリ、たぶん三つくらい入れましたよね。1月1日はすごく整った気分で、2月にはもう二度と開かない。それ、意志の問題じゃないんです。ほとんどのアプリは目標を立てるのは手伝ってくれても、今年と今日をつないではくれないから。だから選ぶときは、機能の数じゃなくて三つを見て。ひとつ、これはどんな種類の目標か。毎日くり返す習慣型か、数字を追う数値型か。ふたつ、忙しい一週間を生き延びるか。一日抜けて連続記録が消えないか、終わらなかったタスクが翌日へ繰り越されるか。みっつ、なぜやるのかが毎日見えるか。そして本当のカギははしごです。年間目標を、今月、今週、そして今日のタスク一つまで下ろす。今日動けない年間目標は、もう薄れかけているんです。去年やめた目標を一つ思い出して、一行だけ書いてみませんか。なぜ止まったのか?",
+    },
+    {
+      kind: "youtube", slug: "procrastination", id: "8D_gIAcSpr8",
+      title: "まだ「気合い」で先延ばしを直そうとしてませんか?", sub: "つい先延ばししてしまうなら",
+      transcript: "先延ばしするのは怠けているからじゃありません。脳が不快なことを避けているだけなんです。だから気合いを入れても直らない。必要なのは意志じゃなくて仕組みです。まず、避けようがないほど小さく刻む。レポートを書くんじゃなくて、ファイルを開いて一文だけ。最初の一歩が五分以下なら、脳は抵抗しません。次に、つまずく前に復帰ルールを決めておく。一日休んでも自分を責めず、翌日にただ再開。一度は事故、二度がパターンですから。最後に、環境を変える。ランニングシューズは玄関に、時間を食うアプリはホーム画面から追い出す。誘惑より強くなるんじゃなくて、誘惑を手の届かない場所へ動かすんです。今日、一つだけ、五分の習慣を決めて書き留めてみて。",
     },
   ],
 };
