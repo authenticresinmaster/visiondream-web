@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="목표 추적 앱: 연간 → 월간 → 주간 → 오늘으로 잇는 추적 사다리">
+  <rect width="1200" height="630" rx="28" fill="#f2f8f4"/>
+  <text x="600" y="86" text-anchor="middle" fill="#12351f" font-family="sans-serif" font-size="34" font-weight="800">1년 목표를 끝까지 추적하는 법</text>
+  <text x="600" y="126" text-anchor="middle" fill="#2e8b57" font-family="sans-serif" font-size="20" font-weight="700">앱은 '어떻게 추적하나'로 고르고, 연간을 오늘까지 잇는다</text>
+  <defs>
+    <marker id="gtA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#2e8b57"/></marker>
+  </defs>
+  <line x1="260" y1="248" x2="940" y2="248" stroke="#2e8b57" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" marker-end="url(#gtA)"/>
+  <g>
+    <circle cx="240" cy="248" r="52" fill="#12351f"/>
+    <text x="240" y="242" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">연간</text>
+    <text x="240" y="266" text-anchor="middle" fill="#a7d8bb" font-family="sans-serif" font-size="12">한 해의 목표</text>
+    <text x="240" y="330" text-anchor="middle" fill="#12351f" font-family="sans-serif" font-size="15" font-weight="800">비전에 묶기</text>
+  </g>
+  <g>
+    <circle cx="470" cy="248" r="52" fill="#1f7a44"/>
+    <text x="470" y="242" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">월간</text>
+    <text x="470" y="266" text-anchor="middle" fill="#bfe6cd" font-family="sans-serif" font-size="12">이번 달 조각</text>
+    <text x="470" y="330" text-anchor="middle" fill="#12351f" font-family="sans-serif" font-size="15" font-weight="800">31일까지로</text>
+  </g>
+  <g>
+    <circle cx="700" cy="248" r="52" fill="#2e8b57"/>
+    <text x="700" y="242" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">주간</text>
+    <text x="700" y="266" text-anchor="middle" fill="#cdeed8" font-family="sans-serif" font-size="12">구체적 행동</text>
+    <text x="700" y="330" text-anchor="middle" fill="#12351f" font-family="sans-serif" font-size="15" font-weight="800">이번 주 2~3개</text>
+  </g>
+  <g>
+    <circle cx="930" cy="248" r="52" fill="#f2a71b"/>
+    <text x="930" y="242" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">오늘</text>
+    <text x="930" y="266" text-anchor="middle" fill="#5d4a12" font-family="sans-serif" font-size="12">할 일 하나</text>
+    <text x="930" y="330" text-anchor="middle" fill="#12351f" font-family="sans-serif" font-size="15" font-weight="800">지금 한 걸음</text>
+  </g>
+  <rect x="180" y="410" width="840" height="128" rx="18" fill="#ffffff" stroke="#d3e8da" stroke-width="2"/>
+  <text x="600" y="458" text-anchor="middle" fill="#12351f" font-family="sans-serif" font-size="20" font-weight="800">📲 고르는 기준 3가지</text>
+  <text x="600" y="494" text-anchor="middle" fill="#3a5a46" font-family="sans-serif" font-size="16" font-weight="600">① 어떤 유형의 목표인가  ·  ② 바쁜 한 주를 살아남나  ·  ③ '왜'에 연결되나</text>
+  <text x="600" y="522" text-anchor="middle" fill="#2e8b57" font-family="sans-serif" font-size="14" font-weight="700">🌱 매일 여는 앱이, 2월이면 버리는 완벽한 앱을 이긴다</text>
+</svg>

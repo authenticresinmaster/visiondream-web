@@ -37,6 +37,9 @@ import { en as gratitudeEn, ja as gratitudeJa } from "./blog-i18n/gratitude-jour
 import { en as kmmiracleEn, ja as kmmiracleJa } from "./blog-i18n/kim-mikyung-miracle";
 import { en as ldreadingEn, ja as ldreadingJa } from "./blog-i18n/lee-dongjin-reading";
 import { en as mmindsetEn, ja as mmindsetJa } from "./blog-i18n/miracle-mindset";
+import { en as digitalBoardEn, ja as digitalBoardJa, ko as digitalBoardKo } from "./blog-i18n/digital-vision-board";
+import { en as procrastEn, ja as procrastJa, ko as procrastKo } from "./blog-i18n/stop-procrastinating";
+import { en as goalTrackEn, ja as goalTrackJa, ko as goalTrackKo } from "./blog-i18n/goal-tracking-apps";
 
 export type FaqItem = { q: string; a: string };
 
@@ -55,6 +58,9 @@ export type Post = {
 };
 
 export const POSTS: Post[] = [
+  digitalBoardKo,
+  procrastKo,
+  goalTrackKo,
   {
     slug: "kim-mikyung-miracle",
     title: "김미경 미라클모닝 따라 하기 — 3일 만에 무너지는 사람과 30일 가는 사람의 3가지 차이 (실천법·나만의 루틴)",
@@ -2836,8 +2842,8 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_EN: Post[] = [digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_JA: Post[] = [digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
