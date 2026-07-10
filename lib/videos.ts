@@ -201,6 +201,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "혹시 아직도 '독하게 마음먹기'로 미루기 고치려 하세요?", sub: "할 일을 자꾸 미룬다면",
       transcript: "할 일을 미루는 건 게을러서가 아니에요. 뇌가 불편한 일을 피하는 것뿐이거든요. 그래서 더 독하게 마음먹어도 안 고쳐지는 거예요. 의지 말고 시스템으로 바꿔야 해요. 첫째, 피할 수 없을 만큼 잘게 쪼개요. 보고서를 쓰는 게 아니라, 문서 열고 한 문장만. 첫 걸음이 5분 이하면 뇌가 저항을 안 해요. 둘째, 무너지기 전에 복구 규칙을 정해둬요. 하루 놓쳐도 자책 말고 다음 날 그냥 다시. 한 번은 사고, 두 번이 패턴이니까요. 셋째, 환경을 바꿔요. 운동화는 현관에, 시간 잡아먹는 앱은 홈 화면에서 치우고요. 유혹보다 강해지는 게 아니라, 유혹을 멀리 두는 거예요. 오늘 딱 하나, 5분짜리 습관 하나만 정해서 적어보세요.",
     },
+    {
+      kind: "youtube", slug: "career-board", id: "wdRrPrlFUOs",
+      title: "감성 사진만 붙인 비전보드는 진로에 안 먹혀요", sub: "진로 비전보드, 예쁜 사진만 붙였다면",
+      transcript: "취준할 때 예쁜 사진만 잔뜩 붙였다가 흐지부지된 적 있나요? 진로 비전보드는 감성 콜라주가 아니에요. 세 칸을 채우는 거예요. 첫째, 직업 칸. 성공 말고, 소비재 기업 주니어 브랜드 마케터처럼 구체적으로. 둘째, 역량 칸. 그 직무가 요구하는 것. 캠페인 하나, 지에이, 포트폴리오 세 개. 셋째, 시기 칸. 이번 달 지에이, 십이월 포트폴리오처럼 역산으로. 비전드림 드림맵은 커리어와 학습 영역에 이 칸을 담고 오늘 할 일에 연결해줘요. 오늘, 한 칸만 채워봐요. 일 년 뒤 갖고 싶은 역량을요.",
+    },
+    {
+      kind: "youtube", slug: "habit-tracker-guide", id: "pcN0dlON93A",
+      title: "빈칸 하나에 다 포기하지 마세요", sub: "습관 트래커, 하루 빠졌다고 포기했다면",
+      transcript: "습관 트래커를 3주 써 보고 알았어요. 트래커의 진짜 힘은 완벽하게 채우는 게 아니라, 하루 빠진 다음 날 다시 돌아오게 하는 거예요. 사람들이 포기하는 건 한 번 빠져서가 아니라, 그 빈칸 하나가 다 망한 것처럼 느껴져서예요. 그러니 규칙을 딱 하나 정하세요. 빠진 칸은 엑스 치지 말고 그냥 비워두고, 다음 날 다시 채운다. 채워진 두 칸 사이의 빈칸은 한 달 뒤엔 보이지도 않아요. 습관은 대략 66일이면 자동처럼 느껴지는데, 가끔 하루 빠져도 안 틀어져요. 오늘부터 딱 3주, 습관 하나만 기록해봐요.",
+    },
+    {
+      kind: "youtube", slug: "notion-goals", id: "3DStL5LAO7U",
+      title: "예쁜 계획표, 왜 사흘 만에 덮을까요?", sub: "계획표 며칠 쓰다 안 보게 된다면",
+      transcript: "계획표 예쁘게 만들어놓고 며칠 쓰다 안 본 적, 있죠. 문제는 대개 템플릿이 아니에요. 연간, 월간, 주간이 따로 놀아서예요. 건강해지기가 막막한 건 목표가 너무 커서거든요. 그래서 하나로 이어야 해요. 노션에 목표 데이터베이스 하나 만들고, 레벨을 연·월·주로, 상위 목표로 서로 연결해요. 10km 달리기는 이번 달 3km, 이번 주 롱런 늘리기, 오늘 한 바퀴 조깅으로 내려와요. 큰 목표 하나를 골라, 이번 달, 이번 주, 오늘 할 일로 나눠 적어보세요.",
+    },
   ],
   en: [
     {
@@ -393,6 +408,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Still trying to fix procrastination by just trying harder?", sub: "If you keep putting things off",
       transcript: "You don't procrastinate because you're lazy. Your brain is just avoiding something uncomfortable. That's why trying harder never fixes it. You need a system, not willpower. First, shrink the task until it's too small to avoid. Not write the report, just open the doc and write one sentence. When the first step takes five minutes or less, your brain stops resisting. Second, plan the recovery before you slip. Miss a day? Drop the self-blame and just resume tomorrow. Missing once is an accident, missing twice is a pattern. Third, design your environment. Running shoes by the door, the app that eats your evenings off your home screen. You're not beating temptation, you're moving it out of reach. So today, pick one thing, one five-minute habit, and write it down.",
     },
+    {
+      kind: "youtube", slug: "career-board", id: "yPtzR4w59QA",
+      title: "Pretty photos won't decide your career", sub: "A career board isn't pretty photos",
+      transcript: "Ever pin a wall of aesthetic photos for your career, feel inspired for a day, then watch it fizzle out? A career vision board isn't a mood collage. It's three boxes you fill in. One, the Job box. Not success, but something specific, like junior brand marketer at a consumer-goods company. Two, the Skills box. What that role demands. One real campaign, basic data analysis, a portfolio of three. Three, the Timeline box. By when, working backward. GA this month, portfolio by December. VisionDream's Dream Map holds these boxes in career and learning, and ties them to today's task. So today, fill just one box. The skill you want a year from now.",
+    },
+    {
+      kind: "youtube", slug: "habit-tracker-guide", id: "yMUS_UZUErI",
+      title: "One missed day isn't failure", sub: "Don't quit over one blank box",
+      transcript: "Three weeks with a habit tracker taught me this: its real power isn't a perfect streak, it's bringing you back the day after you slip. People quit not because they missed once, but because that single blank box made it feel ruined. So set one rule. When you miss, don't cross it out, just leave the box blank and fill the next day. A blank square between two filled ones is invisible in a month. Habits take about 66 days to feel automatic, and missing the odd day doesn't derail it. Start today. Track one habit for just three weeks.",
+    },
+    {
+      kind: "youtube", slug: "notion-goals", id: "UYk0DHH125Y",
+      title: "Pretty planner, ignored by day three?", sub: "Why your planner dies after 3 days",
+      transcript: "You made a beautiful planner and stopped opening it after a few days. The problem usually isn't the template. It's that your yearly, monthly, and weekly plans never talk to each other. Get healthy feels impossible because it's just too big. So connect them. In Notion, build one goal database, add a level for year, month, and week, and link each one to its parent goal. Run a 10k becomes three kilometers this month, a longer run this week, one loop around the park today. Pick one big goal, and split it into this month, this week, and today.",
+    },
   ],
   ja: [
     {
@@ -584,6 +614,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "procrastination", id: "8D_gIAcSpr8",
       title: "まだ「気合い」で先延ばしを直そうとしてませんか?", sub: "つい先延ばししてしまうなら",
       transcript: "先延ばしするのは怠けているからじゃありません。脳が不快なことを避けているだけなんです。だから気合いを入れても直らない。必要なのは意志じゃなくて仕組みです。まず、避けようがないほど小さく刻む。レポートを書くんじゃなくて、ファイルを開いて一文だけ。最初の一歩が五分以下なら、脳は抵抗しません。次に、つまずく前に復帰ルールを決めておく。一日休んでも自分を責めず、翌日にただ再開。一度は事故、二度がパターンですから。最後に、環境を変える。ランニングシューズは玄関に、時間を食うアプリはホーム画面から追い出す。誘惑より強くなるんじゃなくて、誘惑を手の届かない場所へ動かすんです。今日、一つだけ、五分の習慣を決めて書き留めてみて。",
+    },
+    {
+      kind: "youtube", slug: "career-board", id: "2ApWUNugV6c",
+      title: "きれいな写真では進路は決まらない", sub: "進路ボードは感性写真じゃない",
+      transcript: "就活のとき、おしゃれな写真を貼っただけで、一日やる気が出て、結局うやむや。そんな経験ありませんか。進路ビジョンボードは感性コラージュではありません。三つのマスを埋めるものです。一つ、職業マス。成功ではなく、消費財メーカーのジュニアブランドマーケターのように具体的に。二つ、スキルマス。その職種が求めるもの。実際のキャンペーン一つ、データ分析、作品三点のポートフォリオ。三つ、時期マス。いつまでに、逆算で。今月GA、十二月までにポートフォリオ。ビジョンドリームのドリームマップは、キャリアと学習にこのマスを持ち、今日やることにつなげます。今日、マスを一つだけ埋めてみて。一年後に欲しいスキルを。",
+    },
+    {
+      kind: "youtube", slug: "habit-tracker-guide", id: "HsBzSGyYp4c",
+      title: "1日抜けても失敗じゃない", sub: "空白ひとマスで、あきらめないで",
+      transcript: "習慣トラッカーを3週間使ってわかりました。本当の力は、完璧な連続記録じゃなくて、抜けた翌日にまた戻ってこられること。人がやめるのは一度抜けたからじゃなくて、その空白ひとマスが全部台無しに感じられるから。だからルールをひとつ決めて。抜けた日はバツを付けず、ただ空白のままにして、翌日を埋める。埋まった二つの間の空白は、一ヶ月後には見えなくなります。習慣が自動に感じるまでは、およそ66日。たまに一日抜けても、脱線しません。今日から、たった3週間、習慣をひとつ記録してみて。",
+    },
+    {
+      kind: "youtube", slug: "notion-goals", id: "OtetxGEgAs4",
+      title: "きれいな計画表、なぜ3日で放置?", sub: "計画表が3日で終わる理由",
+      transcript: "きれいな計画表を作ったのに、数日で開かなくなった。原因はたいていテンプレートじゃありません。年間、月間、週間がバラバラで、互いに話さないからです。健康になるが無理に感じるのは、大きすぎるから。だからつなぎましょう。Notionに目標データベースをひとつ作り、レベルを年・月・週にして、親目標で互いに連結します。10km走るは、今月3km、今週ロング走を伸ばす、今日は公園を一周ジョグに降りてきます。大きな目標をひとつ選んで、今月、今週、今日やることに分けて書いてみて。",
     },
   ],
 };
