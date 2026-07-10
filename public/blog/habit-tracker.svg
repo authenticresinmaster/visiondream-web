@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="습관 트래커: 빠진 칸은 비워두고 다음 날 다시 채우기">
+  <rect width="1200" height="630" rx="24" fill="#f2f8f4"/>
+  <text x="600" y="86" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="40" font-weight="800">습관 트래커 만드는 법</text>
+  <text x="600" y="128" text-anchor="middle" fill="#2f9e5f" font-family="sans-serif" font-size="22" font-weight="700">'완벽'이 아니라 '다시 돌아오게' 하는 도구</text>
+
+  <!-- calendar heatmap grid -->
+  <g>
+    <!-- row 1 -->
+    <g transform="translate(300,190)">
+      <rect x="0"   y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="90"  y="0" width="74" height="74" rx="12" fill="#3fae6d"/>
+      <rect x="180" y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="270" y="0" width="74" height="74" rx="12" fill="#57bd82"/>
+      <rect x="360" y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="450" y="0" width="74" height="74" rx="12" fill="#3fae6d"/>
+    </g>
+    <!-- row 2 (with a blank/missed box) -->
+    <g transform="translate(300,280)">
+      <rect x="0"   y="0" width="74" height="74" rx="12" fill="#3fae6d"/>
+      <rect x="90"  y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <!-- missed day: blank, dashed outline -->
+      <rect x="180" y="0" width="74" height="74" rx="12" fill="#ffffff" stroke="#c2d8ca" stroke-width="3" stroke-dasharray="7 6"/>
+      <rect x="270" y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="360" y="0" width="74" height="74" rx="12" fill="#57bd82"/>
+      <rect x="450" y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+    </g>
+    <!-- row 3 -->
+    <g transform="translate(300,370)">
+      <rect x="0"   y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="90"  y="0" width="74" height="74" rx="12" fill="#3fae6d"/>
+      <rect x="180" y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="270" y="0" width="74" height="74" rx="12" fill="#3fae6d"/>
+      <rect x="360" y="0" width="74" height="74" rx="12" fill="#2f9e5f"/>
+      <rect x="450" y="0" width="74" height="74" rx="12" fill="#57bd82"/>
+    </g>
+    <!-- checkmarks on a few filled boxes -->
+    <path d="M322,220 l14,14 l24,-28" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M592,310 l14,14 l24,-28" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M772,490 l14,14 l24,-28" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- callout arrow to the missed box -->
+  <defs>
+    <marker id="htA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#d99a00"/></marker>
+  </defs>
+  <path d="M517,317 C580,335 610,340 640,320" fill="none" stroke="#d99a00" stroke-width="3.5" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#htA)"/>
+  <text x="660" y="300" fill="#d99a00" font-family="sans-serif" font-size="20" font-weight="800">빠진 날은 비워두고</text>
+  <text x="660" y="328" fill="#d99a00" font-family="sans-serif" font-size="20" font-weight="800">다음 날 다시 채우기</text>
+
+  <!-- footer rule -->
+  <text x="600" y="560" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="24" font-weight="800">했다 / 안 했다 · 습관 하나 · 66일</text>
+  <text x="600" y="596" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="17">완벽한 사슬이 아니라, 다시 돌아오는 힘</text>
+</svg>
