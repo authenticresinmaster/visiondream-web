@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="동네 독서모임 4단계: 찾기 → 거르기 → 붙이기 → 직접 만들기">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="48" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">동네 독서모임, 찾고 · 거르고 · 만들기</text>
+  <text x="440" y="76" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">검색만 하다 지친 사람을 위한 4단계</text>
+  <defs>
+    <marker id="bcA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#568a35"/></marker>
+  </defs>
+  <line x1="150" y1="205" x2="722" y2="205" stroke="#568a35" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#bcA)"/>
+  <g>
+    <circle cx="130" cy="205" r="38" fill="#1a2332"/>
+    <text x="130" y="213" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">1</text>
+    <text x="130" y="268" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">찾기</text>
+    <text x="130" y="289" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">5개 채널을 각각</text>
+  </g>
+  <g>
+    <circle cx="337" cy="205" r="38" fill="#3f7cb3"/>
+    <text x="337" y="213" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">2</text>
+    <text x="337" y="268" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">거르기</text>
+    <text x="337" y="289" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">참여 전 4가지 질문</text>
+  </g>
+  <g>
+    <circle cx="544" cy="205" r="38" fill="#4f95a8"/>
+    <text x="544" y="213" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">3</text>
+    <text x="544" y="268" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">붙이기</text>
+    <text x="544" y="289" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">3회 참여 규칙</text>
+  </g>
+  <g>
+    <circle cx="751" cy="205" r="38" fill="#568a35"/>
+    <text x="751" y="213" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="26" font-weight="800">4</text>
+    <text x="751" y="268" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">직접 만들기</text>
+    <text x="751" y="289" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">3명 · 2시간 · 1권</text>
+  </g>
+  <text x="440" y="352" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">검색만 하다 지친 사람 → 모임을 여는 사람</text>
+</svg>
