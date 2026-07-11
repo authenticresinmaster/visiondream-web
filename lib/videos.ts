@@ -216,6 +216,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "예쁜 계획표, 왜 사흘 만에 덮을까요?", sub: "계획표 며칠 쓰다 안 보게 된다면",
       transcript: "계획표 예쁘게 만들어놓고 며칠 쓰다 안 본 적, 있죠. 문제는 대개 템플릿이 아니에요. 연간, 월간, 주간이 따로 놀아서예요. 건강해지기가 막막한 건 목표가 너무 커서거든요. 그래서 하나로 이어야 해요. 노션에 목표 데이터베이스 하나 만들고, 레벨을 연·월·주로, 상위 목표로 서로 연결해요. 10km 달리기는 이번 달 3km, 이번 주 롱런 늘리기, 오늘 한 바퀴 조깅으로 내려와요. 큰 목표 하나를 골라, 이번 달, 이번 주, 오늘 할 일로 나눠 적어보세요.",
     },
+    {
+      kind: "youtube", slug: "ilsanbookclub", id: "cDM36e8a2L8",
+      title: "모임이 없는 게 아니라, 찾는 법이 없었어요", sub: "독서모임 검색만 하다 지쳤다면",
+      transcript: "동네 독서모임을 검색해도 뭘 골라야 할지 모르겠고, 한 번 나가봤다가 두 번 만에 그만둔 적 있나요. 독서모임은 한 곳에 모여 있지 않아요. 지역 커뮤니티, 동네 앱 모임, 도서관 프로그램, 독서모임 플랫폼. 다섯 군데를 따로 뒤져야 보입니다. 찾았다면 나가기 전에 네 가지만 물어보세요. 지정도서가 있나요. 안 읽고 가도 되나요. 몇 분 오시나요. 다음 모임은 언제인가요. 이 네 답이면 안 맞는 모임은 걸러집니다. 그래도 마땅한 게 없다면, 직접 만드세요. 세 명, 두 시간, 한 권이면 충분해요. 사람을 기다리지 말고 첫 모임 날짜부터 정하세요. 주최자는 결석하지 않으니까요.",
+    },
+    {
+      kind: "youtube", slug: "paidbookclub", id: "qT1VEkaKMMA",
+      title: "돈 내면 읽을 줄 알았죠", sub: "돈 냈는데 왜 안 읽힐까",
+      transcript: "돈을 냈으니 이번엔 읽겠지. 그런데 삼 주 뒤에도 책갈피는 첫 장에 그대로예요. 의지가 약해서가 아니에요. 돈은 동기를 사지만, 습관은 못 사거든요. 결제 효과는 길어야 열흘입니다. 그래서 유료독서모임은 값이 아니라 구조를 보고 골라야 해요. 네 가지만 확인하세요. 목적, 강제력, 밀도, 아웃풋. 안 읽고 가도 아무 일 없는 모임은, 유료여도 흐지부지됩니다. 그리고 완독은 성과가 아니라 재료예요. 책에서 한 문장만 고르고, 이번 주에 할 오 분짜리 행동으로 바꾸고, 이미 하는 습관에 붙이세요. 오늘, 딱 한 문장만 골라 보세요.",
+    },
+    {
+      kind: "youtube", slug: "stopdelaying", id: "NqTgOZhSpvE",
+      title: "미루는 건 게을러서가 아니에요", sub: "오늘 또 미뤘다면, 게으른 게 아닙니다",
+      transcript: "오늘 또 미루고 자책하며 누워 있나요. 미루기는 게으름이 아니라 감정 회피예요. 그래서 그냥 시작해, 라는 말이 안 먹히는 거고요. 딱 하나만 물어보세요. 그 일을 떠올릴 때 내 몸은 뭘 느끼지. 가슴이 조이면 불안형, 일부러 망한 초안부터 쓰세요. 축 처지고 별로면 지루형, 왜 하는지에 다시 연결하세요. 텅 비고 무감각하면 소진형, 밀지 말고 목록을 덜어내세요. 머리가 복잡하면 혼란형, 다음에 손으로 할 행동 하나만 적으세요. 오늘 밤 오분만 내서, 미루던 일 하나를 꺼내 적어 봐요.",
+    },
   ],
   en: [
     {
@@ -423,6 +438,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Pretty planner, ignored by day three?", sub: "Why your planner dies after 3 days",
       transcript: "You made a beautiful planner and stopped opening it after a few days. The problem usually isn't the template. It's that your yearly, monthly, and weekly plans never talk to each other. Get healthy feels impossible because it's just too big. So connect them. In Notion, build one goal database, add a level for year, month, and week, and link each one to its parent goal. Run a 10k becomes three kilometers this month, a longer run this week, one loop around the park today. Pick one big goal, and split it into this month, this week, and today.",
     },
+    {
+      kind: "youtube", slug: "ilsanbookclub", id: "uS6s3g5uMhE",
+      title: "Book clubs exist. You just had no way to find them.", sub: "Tired of searching for a book club?",
+      transcript: "You searched for a book club near you, found nothing that fit, went once, and quietly never went back. Here's the thing. Book clubs aren't listed in one place. Neighborhood forums, local apps, library programs, dedicated platforms. You have to check five channels separately. Once you find one, ask four questions before you show up. Is there an assigned book? Can I come if I haven't finished it? How many people usually come? When's the next meeting? Those four answers screen out most bad fits. And if nothing fits, start your own. Three people, two hours, one book. Don't wait for people to gather. Lock the first date, then invite. Because hosts never skip.",
+    },
+    {
+      kind: "youtube", slug: "paidbookclub", id: "wi43KNAViNQ",
+      title: "You paid. Still not reading.", sub: "You paid. So why aren't you reading?",
+      transcript: "I paid for it, so this time I'll read. And three weeks later, the bookmark is still on page one. That's not weak willpower. Money buys motivation, but it can't buy a habit, and the payment effect lasts about ten days. So don't shop for a price, shop for a structure. Check four things. Purpose, pressure, density, output. If nothing happens when you show up unprepared, that club will fizzle out, paid or not. And remember: finishing a book isn't the result, it's the raw material. Take one sentence, turn it into a five minute action this week, and attach it to a habit you already have. Today, just pick one sentence.",
+    },
+    {
+      kind: "youtube", slug: "stopdelaying", id: "2kByzX5_XV4",
+      title: "You're not lazy. You're avoiding a feeling.", sub: "You put it off again — you're not lazy",
+      transcript: "Put it off again today, and now you're lying there blaming yourself. But procrastination isn't laziness, it's emotional avoidance. That's why just start never works. Ask one question. What do I feel in my body when I picture the task. Chest tight? That's anxiety. Write the deliberately bad first draft. Heavy and dull? That's boredom. Reconnect it to a why. Empty and numb? That's burnout. Don't push, cut the list. Head spinning? That's overwhelm. Name the next physical action. Tonight, take five minutes and write down the one thing you've been avoiding.",
+    },
   ],
   ja: [
     {
@@ -629,6 +659,21 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "notion-goals", id: "OtetxGEgAs4",
       title: "きれいな計画表、なぜ3日で放置?", sub: "計画表が3日で終わる理由",
       transcript: "きれいな計画表を作ったのに、数日で開かなくなった。原因はたいていテンプレートじゃありません。年間、月間、週間がバラバラで、互いに話さないからです。健康になるが無理に感じるのは、大きすぎるから。だからつなぎましょう。Notionに目標データベースをひとつ作り、レベルを年・月・週にして、親目標で互いに連結します。10km走るは、今月3km、今週ロング走を伸ばす、今日は公園を一周ジョグに降りてきます。大きな目標をひとつ選んで、今月、今週、今日やることに分けて書いてみて。",
+    },
+    {
+      kind: "youtube", slug: "ilsanbookclub", id: "pIdVcZ79cMc",
+      title: "読書会がないのではなく、探す道がなかっただけ", sub: "読書会、探し疲れていませんか",
+      transcript: "近所の読書会を検索しても合うものが見つからない。一度行ってみたけれど、二回目でやめてしまった。実は読書会は一か所にまとまっていません。地域コミュニティ、地域アプリの集まり、図書館の講座、読書会専用プラットフォーム。五つのチャネルを別々に当たる必要があります。見つけたら、行く前に四つだけ聞いてください。課題図書はありますか。読み終わっていなくても参加できますか。普段は何人来ますか。次回はいつですか。この四つで、合わない会はふるい落とせます。それでも合うものがなければ、自分で作りましょう。三人、二時間、一冊で十分です。人を待たずに、初回の日付から決めてください。主催者は、欠席しませんから。",
+    },
+    {
+      kind: "youtube", slug: "paidbookclub", id: "zVUxkIsWSg0",
+      title: "払ったのに読めない理由", sub: "お金を払ったのに、なぜ読めない?",
+      transcript: "お金を払ったんだから、今度こそ読むはず。なのに三週間たっても、栞は一ページ目のままです。意志が弱いからではありません。お金はやる気を買えても、習慣は買えないから。決済の効果は、もって十日ほどです。だから有料読書会は、値段ではなく構造を見て選びましょう。確認するのは四つ。目的、強制力、密度、アウトプット。読まずに行っても何も起きない会は、有料でも自然消滅します。そして読了は成果ではなく、素材です。本から一文だけ選んで、今週やる五分の行動に変えて、すでにある習慣にくっつける。今日、一文だけ選んでみてください。",
+    },
+    {
+      kind: "youtube", slug: "stopdelaying", id: "0Hnh3a1Zdso",
+      title: "先延ばしは怠けじゃない", sub: "今日もまた先延ばし。でも怠けじゃない",
+      transcript: "今日もまた先延ばしして、自分を責めながら横になっていませんか。先延ばしは怠けではなく、感情の回避です。だから、とにかく始めろ、が効かない。問いは一つ。そのタスクを思い浮かべたとき、体は何を感じている。胸が締めつけられるなら不安型。わざとひどい初稿から書いて。だるくて別に、なら退屈型。なぜやるのかに接続し直して。空っぽで無感覚なら燃え尽き型。押さずに、リストを削って。頭がぐるぐるなら混乱型。次に手を動かす行動を一つだけ書いて。今夜、五分だけ。先延ばししていたことを一つ書き出してみよう。",
     },
   ],
 };
