@@ -2878,6 +2878,19 @@ export function getPostBySlug(slug: string, lang: PostLang = "ko"): Post | undef
 }
 
 /**
+ * 관련 글(내부링크 강화용) — 같은 카테고리 우선, 부족하면 최신글로 채움. 자기 자신·미공개 제외.
+ * 목적: 발견-미크롤 페이지에 내부링크 신호를 늘려 크롤·색인을 촉진(고아 페이지 방지).
+ */
+export function getRelatedPosts(slug: string, lang: PostLang = "ko", n = 4): Post[] {
+  const all = getAllPosts(lang).filter((p) => p.slug !== slug);
+  const self = (BY_LANG[lang] ?? POSTS).find((p) => p.slug === slug);
+  const cat = self?.category;
+  const same = cat ? all.filter((p) => p.category === cat) : [];
+  const rest = all.filter((p) => !same.includes(p));
+  return [...same, ...rest].slice(0, n);
+}
+
+/**
  * 현재 글 기준 인접 글. 목록은 최신순(날짜 내림차순)이므로
  * prev=더 과거 글(이전 글), next=더 최신 글(다음 글). 끝이면 undefined.
  */

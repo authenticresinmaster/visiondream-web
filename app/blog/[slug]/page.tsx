@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { PageShell } from "@/components/PageShell";
-import { getAllPosts, getPostBySlug, getAdjacentPosts } from "@/lib/posts";
+import { getAllPosts, getPostBySlug, getAdjacentPosts, getRelatedPosts } from "@/lib/posts";
 import { getVideoForPost, videoObjectLd } from "@/lib/post-video";
 
 export function generateStaticParams() {
@@ -53,6 +53,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const { prev, next } = getAdjacentPosts(post.slug);
+  const related = getRelatedPosts(post.slug, "ko", 4);
   const SITE = "https://visiondream.kr";
 
   const articleLd = {
@@ -199,6 +200,25 @@ export default async function BlogPostPage({
                 <span className="hidden sm:block" />
               )}
             </nav>
+          )}
+
+          {related.length > 0 && (
+            <section className="mt-14">
+              <h2 className="text-lg font-extrabold text-navy">관련 글</h2>
+              <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+                {related.map((r) => (
+                  <li key={r.slug}>
+                    <Link
+                      href={`/blog/${r.slug}`}
+                      className="group flex items-start gap-3 rounded-2xl border border-black/5 bg-[#fafbfc] p-4 transition hover:border-brand/30"
+                    >
+                      <span className="text-2xl">{r.emoji}</span>
+                      <span className="text-sm font-bold leading-snug text-navy group-hover:text-brand">{r.title}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
           )}
         </div>
       </article>
