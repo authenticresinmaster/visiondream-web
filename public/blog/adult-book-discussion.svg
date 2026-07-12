@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="성인독서토론 4단계 시스템: ① 모임 고르기 → ② 읽기 전 질문 3개 → ③ 토론 중 30초 발언 구조 → ④ 토론 후 행동 1개">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">성인독서토론 4단계 시스템</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">혼자 읽으면 3일, 같이 읽으면 3년 — 의지가 아니라 시스템</text>
+  <defs>
+    <marker id="bdA" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#105d9e"/></marker>
+  </defs>
+  <line x1="148" y1="200" x2="742" y2="200" stroke="#105d9e" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round" marker-end="url(#bdA)"/>
+  <g>
+    <circle cx="140" cy="200" r="32" fill="#1a2332"/>
+    <text x="140" y="210" text-anchor="middle" font-family="sans-serif" font-size="24">👥</text>
+    <text x="140" y="262" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">① 모임 고르기</text>
+    <text x="140" y="282" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">5~8명 · 12주 가능</text>
+  </g>
+  <g>
+    <circle cx="340" cy="200" r="32" fill="#105d9e"/>
+    <text x="340" y="210" text-anchor="middle" font-family="sans-serif" font-size="24">📝</text>
+    <text x="340" y="262" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">② 읽기 전 질문 3개</text>
+    <text x="340" y="282" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">목적 · 내 상황 · 반박</text>
+  </g>
+  <g>
+    <circle cx="540" cy="200" r="32" fill="#568a35"/>
+    <text x="540" y="210" text-anchor="middle" font-family="sans-serif" font-size="24">🗣️</text>
+    <text x="540" y="262" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">③ 30초 발언 구조</text>
+    <text x="540" y="282" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">인용 · 반응 · 되묻기</text>
+  </g>
+  <g>
+    <circle cx="740" cy="200" r="32" fill="#d99a00"/>
+    <text x="740" y="210" text-anchor="middle" font-family="sans-serif" font-size="24">🌱</text>
+    <text x="740" y="262" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="800">④ 행동 1개</text>
+    <text x="740" y="282" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">이번 주 · 아주 작게</text>
+  </g>
+  <text x="440" y="344" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13.5" font-weight="700">마감 + 관객 + 출력 = 의지 없이도 굴러가는 독서</text>
+  <text x="440" y="368" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">1년 12권 = 바뀐 행동 12개</text>
+</svg>
