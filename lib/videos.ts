@@ -233,6 +233,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "미루는 건 게을러서가 아니에요", sub: "오늘 또 미뤘다면, 게으른 게 아닙니다",
       transcript: "오늘 또 미루고 자책하며 누워 있나요. 미루기는 게으름이 아니라 감정 회피예요. 그래서 그냥 시작해, 라는 말이 안 먹히는 거고요. 딱 하나만 물어보세요. 그 일을 떠올릴 때 내 몸은 뭘 느끼지. 가슴이 조이면 불안형, 일부러 망한 초안부터 쓰세요. 축 처지고 별로면 지루형, 왜 하는지에 다시 연결하세요. 텅 비고 무감각하면 소진형, 밀지 말고 목록을 덜어내세요. 머리가 복잡하면 혼란형, 다음에 손으로 할 행동 하나만 적으세요. 오늘 밤 오분만 내서, 미루던 일 하나를 꺼내 적어 봐요.",
     },
+    {
+      publishedAt: "2026-07-13T09:27:00+09:00",
+      kind: "youtube", slug: "adult-book-discussion", id: "NdiCHhrfdZk",
+      title: "책을 못 읽는 건 의지 문제가 아닙니다", sub: "책을 못 읽는 진짜 이유",
+      transcript: "책을 못 읽는 건 의지 문제가 아니에요. 마감이 없고, 안 읽어도 아무도 모르기 때문이죠. 독서토론은 그 둘을 대신 만들어 줍니다. 다음 모임 날짜가 마감이 되고, 말해야 하니까 생각하며 읽게 돼요. 토론이 끝나면 이번 주에 할 행동 한 개를 적으세요. 오늘, 읽던 책에 질문 세 개만 적어 보세요.",
+    },
   ],
   en: [
     {
@@ -455,6 +461,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "You're not lazy. You're avoiding a feeling.", sub: "You put it off again — you're not lazy",
       transcript: "Put it off again today, and now you're lying there blaming yourself. But procrastination isn't laziness, it's emotional avoidance. That's why just start never works. Ask one question. What do I feel in my body when I picture the task. Chest tight? That's anxiety. Write the deliberately bad first draft. Heavy and dull? That's boredom. Reconnect it to a why. Empty and numb? That's burnout. Don't push, cut the list. Head spinning? That's overwhelm. Name the next physical action. Tonight, take five minutes and write down the one thing you've been avoiding.",
     },
+    {
+      publishedAt: "2026-07-13T10:41:00+09:00",
+      kind: "youtube", slug: "adult-book-discussion", id: "LIEWhXcVPYo",
+      title: "You can't finish books — it's not willpower", sub: "Why you can't finish books",
+      transcript: "You can't finish books, and it's not a willpower problem. Reading alone has no deadline, and nobody notices if you skip it. A book discussion group supplies both. The next meeting becomes your deadline, and because you have to speak, you read while thinking. Then add one thing: when the discussion ends, write one action you'll take this week. Today, open that book and write down three questions.",
+    },
   ],
   ja: [
     {
@@ -676,6 +688,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "stopdelaying", id: "0Hnh3a1Zdso",
       title: "先延ばしは怠けじゃない", sub: "今日もまた先延ばし。でも怠けじゃない",
       transcript: "今日もまた先延ばしして、自分を責めながら横になっていませんか。先延ばしは怠けではなく、感情の回避です。だから、とにかく始めろ、が効かない。問いは一つ。そのタスクを思い浮かべたとき、体は何を感じている。胸が締めつけられるなら不安型。わざとひどい初稿から書いて。だるくて別に、なら退屈型。なぜやるのかに接続し直して。空っぽで無感覚なら燃え尽き型。押さずに、リストを削って。頭がぐるぐるなら混乱型。次に手を動かす行動を一つだけ書いて。今夜、五分だけ。先延ばししていたことを一つ書き出してみよう。",
+    },
+    {
+      publishedAt: "2026-07-13T11:18:00+09:00",
+      kind: "youtube", slug: "adult-book-discussion", id: "CZd0qF4Rx00",
+      title: "本が読めないのは、意志の問題ではありません", sub: "本が読めない本当の理由",
+      transcript: "本が読めないのは意志の問題ではありません。締め切りがなく、読まなくても誰も気づかないからです。読書討論は、その二つを作ってくれます。次の集まりの日が締め切りになり、話さないといけないから、考えながら読むようになる。討論が終わったら、今週やる行動を一つ書きましょう。今日、読みかけの本に質問を三つ書いてみてください。",
     },
   ],
 };
