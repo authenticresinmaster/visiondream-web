@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { PageShell } from "@/components/PageShell";
 import { getAllPosts, getPostBySlug, getAdjacentPosts } from "@/lib/posts";
+import { getVideoForPost, videoObjectLd } from "@/lib/post-video";
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -66,6 +67,10 @@ export default async function BlogPostPage({
     mainEntityOfPage: `${SITE}/blog/${post.slug}`,
     ...(post.cover ? { image: `${SITE}${post.cover}` } : {}),
   };
+  // 이 글과 같은 주제의 Shorts — 임베드해 글을 두껍게 하고(색인↑), 영상엔 검색 유입을 준다(피드 의존 탈피)
+  const video = getVideoForPost(post.slug, "ko");
+  const videoLd = video ? videoObjectLd(video, `${SITE}/blog/${post.slug}`, post.date) : null;
+
   const faqLd = post.faq?.length
     ? {
         "@context": "https://schema.org",
@@ -83,6 +88,9 @@ export default async function BlogPostPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       {faqLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      )}
+      {videoLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       )}
       <article className="bg-white px-5 py-14">
         <div className="mx-auto max-w-2xl">
@@ -108,6 +116,37 @@ export default async function BlogPostPage({
           <div className="prose-vd mt-8">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
           </div>
+
+          {video && video.kind === "youtube" && (
+            <div className="mt-12">
+              <h2 className="text-xl font-black text-navy">1분 영상으로 보기</h2>
+              <div className="mt-5 overflow-hidden rounded-2xl bg-black">
+                <iframe
+                  src={`https://www.youtube.com/embed/${video.id}`}
+                  title={video.title}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="aspect-[9/16] w-full max-h-[560px]"
+                />
+              </div>
+              {/* 대본을 텍스트로 함께 노출 — 크롤러·AI가 읽을 수 있는 본문이 되어 색인·인용에 기여 */}
+              {video.transcript && (
+                <details className="mt-4 rounded-2xl border border-black/5 bg-[#fafbfc] p-5">
+                  <summary className="cursor-pointer text-sm font-extrabold text-navy">
+                    영상 대본 전문
+                  </summary>
+                  <p className="mt-3 text-sm leading-relaxed text-navy/70">{video.transcript}</p>
+                </details>
+              )}
+              <Link
+                href={`/videos/${video.slug}`}
+                className="mt-4 inline-block text-sm font-bold text-brand hover:underline"
+              >
+                영상 상세 페이지 보기 →
+              </Link>
+            </div>
+          )}
 
           {post.faq && post.faq.length > 0 && (
             <div className="mt-12">
@@ -166,3 +205,6 @@ export default async function BlogPostPage({
     </PageShell>
   );
 }
+
+// 예약발행(publishedAt) 게이트 재평가를 위한 ISR — 5분마다 재생성
+export const revalidate = 300;

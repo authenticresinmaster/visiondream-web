@@ -3,9 +3,11 @@
  * transcript(대본): 영상별 전용 페이지(/videos/[slug])에 본문으로 노출 → 검색 색인.
  * 홈에는 카드만 가볍게 보여주고, 대본은 상세 페이지로 분리(확장성·SEO).
  */
-export type VideoItem =
+// publishedAt: ISO(오프셋 포함). 없으면 항상 공개(기존 영상). 있으면 그 시각 이후에만 노출(예약 발행).
+export type VideoItem = { publishedAt?: string } & (
   | { kind: "local"; slug: string; src: string; poster?: string; title: string; sub?: string; transcript?: string }
-  | { kind: "youtube"; slug: string; id: string; title: string; sub?: string; transcript?: string };
+  | { kind: "youtube"; slug: string; id: string; title: string; sub?: string; transcript?: string }
+);
 
 export type Lang = "ko" | "en" | "ja";
 
@@ -678,8 +680,13 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
   ],
 };
 
+/** 예약발행 게이트: publishedAt 없거나 현재 시각을 지났으면 공개. */
+export function isVideoLive(v: VideoItem, now: number = Date.now()): boolean {
+  return !v.publishedAt || Date.parse(v.publishedAt) <= now;
+}
+
 export function videosFor(lang: Lang): VideoItem[] {
-  return VIDEOS_BY_LANG[lang] ?? VIDEOS_BY_LANG.ko;
+  return (VIDEOS_BY_LANG[lang] ?? VIDEOS_BY_LANG.ko).filter((v) => isVideoLive(v));
 }
 
 export function videoBySlug(lang: Lang, slug: string): VideoItem | undefined {

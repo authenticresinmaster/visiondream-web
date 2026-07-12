@@ -37,3 +37,6 @@ export default async function VideoDetailPageJa({
   const related = videosFor(LANG).filter((v) => v.slug !== slug).slice(0, 4);
   return <VideoDetail video={video} lang={LANG} related={related} />;
 }
+
+// 예약발행(publishedAt) 게이트 재평가를 위한 ISR — 5분마다 재생성
+export const revalidate = 300;

@@ -88,3 +88,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...marketing, ...stories, ...posts, ...videos];
 }
+
+// 예약발행(publishedAt) 게이트 재평가를 위한 ISR — 5분마다 재생성
+export const revalidate = 300;

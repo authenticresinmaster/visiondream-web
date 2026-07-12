@@ -61,6 +61,7 @@ export type Post = {
   cover?: string; // /public 기준 경로 (예: /blog/sbta-diagram.svg)
   faq?: FaqItem[]; // 글 하단 FAQ + 구조화데이터
   body: string; // markdown
+  publishedAt?: string; // ISO(오프셋 포함, 예 "2026-07-12T09:23:00+09:00"). 없으면 항상 공개(기존 글). 있으면 그 시각 이후에만 노출(예약 발행).
 };
 
 export const POSTS: Post[] = [
@@ -2860,12 +2861,20 @@ export const POSTS_JA: Post[] = [paidBookClubJa, ilsanBookClubJa, stopDelayingJa
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
 
+/** 예약발행 게이트: publishedAt 없거나 현재 시각을 지났으면 공개. (서버 UTC와 무관하게 오프셋 포함 ISO를 비교) */
+export function isPostLive(p: Post, now: number = Date.now()): boolean {
+  return !p.publishedAt || Date.parse(p.publishedAt) <= now;
+}
+
 export function getAllPosts(lang: PostLang = "ko"): Post[] {
-  return [...(BY_LANG[lang] ?? POSTS)].sort((a, b) => (a.date < b.date ? 1 : -1));
+  return [...(BY_LANG[lang] ?? POSTS)]
+    .filter((p) => isPostLive(p))
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
 export function getPostBySlug(slug: string, lang: PostLang = "ko"): Post | undefined {
-  return (BY_LANG[lang] ?? POSTS).find((p) => p.slug === slug);
+  const p = (BY_LANG[lang] ?? POSTS).find((p) => p.slug === slug);
+  return p && isPostLive(p) ? p : undefined; // 예약시각 전이면 비공개(상세 404 → ISR 재검증 후 공개)
 }
 
 /**

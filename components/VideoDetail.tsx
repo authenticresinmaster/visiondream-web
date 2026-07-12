@@ -2,6 +2,8 @@ import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { JsonLd } from "@/components/JsonLd";
 import { VideoPlayer } from "@/components/VideoPlayer";
+import { getPostSlugForVideo } from "@/lib/post-video";
+import { getPostBySlug } from "@/lib/posts";
 import {
   videoObjectLd,
   videoHref,
@@ -58,6 +60,9 @@ export function VideoDetail({
   related: VideoItem[];
 }) {
   const t = T[lang];
+  // 같은 주제의 글이 실제로 있을 때만 역방향 링크를 건다(깨진 링크 방지)
+  const candidate = getPostSlugForVideo(video.slug);
+  const articleSlug = candidate && getPostBySlug(candidate, lang) ? candidate : null;
 
   return (
     <PageShell lang={lang} crumb={{ name: video.title, path: videoHref(lang, video.slug) }}>
@@ -83,6 +88,19 @@ export function VideoDetail({
                 {video.transcript}
               </p>
             </section>
+          )}
+
+          {/* 같은 주제의 글로 보내는 역방향 링크 — 영상↔글 상호강화(내부링크는 색인의 전제) */}
+          {articleSlug && (
+            <Link
+              href={`/blog/${articleSlug}`}
+              className="mt-8 block rounded-2xl border border-black/5 bg-[#fafbfc] p-5 hover:border-brand/30"
+            >
+              <span className="text-xs font-bold text-brand">깊이 읽기</span>
+              <p className="mt-1 text-base font-extrabold text-navy">
+                이 주제를 글로 자세히 보기 →
+              </p>
+            </Link>
           )}
 
           <div className="mt-12 rounded-2xl bg-gradient-to-br from-[#1a2332] to-[#105d9e] p-8 text-center text-white">
