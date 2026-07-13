@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { JsonLd } from "@/components/JsonLd";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { organizationSchema, websiteSchema } from "@/lib/schema";
 
 const SITE_URL = "https://visiondream.kr";
@@ -52,7 +53,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <JsonLd data={[organizationSchema, websiteSchema]} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <GoogleAnalytics />
+      </body>
     </html>
   );
 }
