@@ -239,6 +239,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "책을 못 읽는 건 의지 문제가 아닙니다", sub: "책을 못 읽는 진짜 이유",
       transcript: "책을 못 읽는 건 의지 문제가 아니에요. 마감이 없고, 안 읽어도 아무도 모르기 때문이죠. 독서토론은 그 둘을 대신 만들어 줍니다. 다음 모임 날짜가 마감이 되고, 말해야 하니까 생각하며 읽게 돼요. 토론이 끝나면 이번 주에 할 행동 한 개를 적으세요. 오늘, 읽던 책에 질문 세 개만 적어 보세요.",
     },
+    {
+      publishedAt: "2026-07-14T09:21:00+09:00",
+      kind: "youtube", slug: "vocab-plan", id: "RbbLYk-lArw",
+      title: "첫 30페이지만 새까만 단어장, 몇 권 있나요?", sub: "단어장이 30페이지에서 멈추는 이유",
+      transcript: "첫 30페이지만 새까맣고 나머지는 새 책 같은 단어장, 몇 권 있나요? 의지가 약해서가 아니에요. 책은 천이백 단어를 보여주지, 오늘의 삼십 단어를 정해주지 않거든요. 총 단어를 하루 삼십으로 나누고, 예비일을 넉넉히 더해 완주일을 적으세요. 밀려도 따라잡지 말고 오늘 것부터. 이틀 연속만 피하면 됩니다. 완성이 아니라 한 칸이면 충분해요.",
+    },
   ],
   en: [
     {
@@ -467,6 +473,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "You can't finish books — it's not willpower", sub: "Why you can't finish books",
       transcript: "You can't finish books, and it's not a willpower problem. Reading alone has no deadline, and nobody notices if you skip it. A book discussion group supplies both. The next meeting becomes your deadline, and because you have to speak, you read while thinking. Then add one thing: when the discussion ends, write one action you'll take this week. Today, open that book and write down three questions.",
     },
+    {
+      publishedAt: "2026-07-14T10:18:00+09:00",
+      kind: "youtube", slug: "vocab-plan", id: "25at7JLlJFs",
+      title: "First 30 pages inked, the rest brand new?", sub: "Why your workbook dies at page 30",
+      transcript: "How many workbooks do you own where the first thirty pages are inked and the rest look brand new? It isn't weak willpower. The book shows you twelve hundred words. It never tells you which thirty are yours today. So divide the total by thirty a day, add a buffer, and write the finish date in the margin. If you fall behind, don't catch up. Start from today, and never miss two days in a row. You don't need completion. One square is enough.",
+    },
   ],
   ja: [
     {
@@ -694,6 +706,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "adult-book-discussion", id: "CZd0qF4Rx00",
       title: "本が読めないのは、意志の問題ではありません", sub: "本が読めない本当の理由",
       transcript: "本が読めないのは意志の問題ではありません。締め切りがなく、読まなくても誰も気づかないからです。読書討論は、その二つを作ってくれます。次の集まりの日が締め切りになり、話さないといけないから、考えながら読むようになる。討論が終わったら、今週やる行動を一つ書きましょう。今日、読みかけの本に質問を三つ書いてみてください。",
+    },
+    {
+      publishedAt: "2026-07-14T11:27:00+09:00",
+      kind: "youtube", slug: "vocab-plan", id: "CpTip-0EXNU",
+      title: "最初の30ページだけ真っ黒な単語帳、何冊ありますか?", sub: "単語帳が30ページで止まる理由",
+      transcript: "最初の30ページだけ書き込みで真っ黒、残りは新品同様の単語帳。何冊ありますか。意志が弱いからではありません。本は千二百語を見せるだけで、今日の三十語を決めてはくれないのです。総語数を一日三十で割り、予備日を足して、完走日を余白に書きましょう。遅れても取り戻さず、今日の分から。二日連続だけ避ければいい。完成ではなく、一マスで十分です。",
     },
   ],
 };
