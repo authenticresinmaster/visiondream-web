@@ -47,6 +47,7 @@ import { en as paidBookClubEn, ja as paidBookClubJa, ko as paidBookClubKo } from
 import { en as ilsanBookClubEn, ja as ilsanBookClubJa, ko as ilsanBookClubKo } from "./blog-i18n/ilsan-book-club";
 import { en as stopDelayingEn, ja as stopDelayingJa, ko as stopDelayingKo } from "./blog-i18n/stop-delaying-today";
 import { en as bookDiscussionEn, ja as bookDiscussionJa, ko as bookDiscussionKo } from "./blog-i18n/adult-book-discussion";
+import { en as vocabPlanEn, ja as vocabPlanJa, ko as vocabPlanKo } from "./blog-i18n/vocabulary-workbook-plan";
 
 export type FaqItem = { q: string; a: string };
 
@@ -66,6 +67,7 @@ export type Post = {
 };
 
 export const POSTS: Post[] = [
+  vocabPlanKo,
   bookDiscussionKo,
   paidBookClubKo,
   ilsanBookClubKo,
@@ -2857,8 +2859,8 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_EN: Post[] = [vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_JA: Post[] = [vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };

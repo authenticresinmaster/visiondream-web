@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="영단어 워크북 40일 완주 설계: 하루 30단어, 1-3-7-30 복습, 밀리면 오늘 것부터">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">워크북은 총량을, 습관은 하루치를 다룬다</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">1,200단어 → 하루 30단어 → 40일 (+예비일 10일)</text>
+
+  <g>
+    <rect x="40" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="168" cy="142" r="22" fill="#3f7cb3"/>
+    <text x="168" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">1</text>
+    <text x="168" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">오늘의 분량</text>
+    <text x="168" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">신규 30 + 복습 60</text>
+    <line x1="88" y1="230" x2="248" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="168" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">하루 약 12분</text>
+    <text x="168" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">인쇄된 우선순위 그대로</text>
+  </g>
+
+  <g>
+    <rect x="312" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="440" cy="142" r="22" fill="#7a6ca8"/>
+    <text x="440" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">2</text>
+    <text x="440" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">복습 주기</text>
+    <text x="440" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">1 · 3 · 7 · 30일</text>
+    <line x1="360" y1="230" x2="520" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="440" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">여백에 날짜 4개</text>
+    <text x="440" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">앱도 엑셀도 필요 없음</text>
+  </g>
+
+  <g>
+    <rect x="584" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="712" cy="142" r="22" fill="#568a35"/>
+    <text x="712" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">3</text>
+    <text x="712" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">밀렸을 때</text>
+    <text x="712" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">따라잡지 않는다</text>
+    <line x1="632" y1="230" x2="792" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="712" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">오늘 것부터</text>
+    <text x="712" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">이틀 연속만 피하기</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">단어장이 멈춘 건 의지가 아니라 '오늘 분량'이 없어서</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">완성이 아니라 한 칸이면 충분합니다 — 5단어라도 펴는 날이 이긴다</text>
+</svg>
