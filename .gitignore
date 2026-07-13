@@ -9,3 +9,6 @@ next-env.d.ts
 .DS_Store
 
 .vercel
+
+# Codex 세션 코드리뷰 산출물 (로컬 advisory)
+_codex_review/
