@@ -1,12 +1,12 @@
 import Script from "next/script";
 
 /**
- * Google Analytics 4 — 측정 ID는 Vercel 환경변수 NEXT_PUBLIC_GA_ID (예: G-XXXXXXXXXX).
- * 미설정이면 아무것도 렌더하지 않아 개발/프리뷰에 무해.
+ * Google Analytics 4 — 기본 측정 ID는 코드 폴백(공개값이라 안전),
+ * 필요 시 Vercel 환경변수 NEXT_PUBLIC_GA_ID로 재정의 가능.
  * SPA 라우트 전환 페이지뷰는 GA4 '향상된 측정'(기본 켜짐)이 자동 수집한다.
  */
 export function GoogleAnalytics() {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const gaId = process.env.NEXT_PUBLIC_GA_ID ?? "G-KQC4C0424B";
   if (!gaId) return null;
 
   return (
