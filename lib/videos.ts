@@ -245,6 +245,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "첫 30페이지만 새까만 단어장, 몇 권 있나요?", sub: "단어장이 30페이지에서 멈추는 이유",
       transcript: "첫 30페이지만 새까맣고 나머지는 새 책 같은 단어장, 몇 권 있나요? 의지가 약해서가 아니에요. 책은 천이백 단어를 보여주지, 오늘의 삼십 단어를 정해주지 않거든요. 총 단어를 하루 삼십으로 나누고, 예비일을 넉넉히 더해 완주일을 적으세요. 밀려도 따라잡지 말고 오늘 것부터. 이틀 연속만 피하면 됩니다. 완성이 아니라 한 칸이면 충분해요.",
     },
+    {
+      publishedAt: "2026-07-15T09:21:00+09:00",
+      kind: "youtube", slug: "bod-diary", id: "v4HGmsB3rNY",
+      title: "그거 의지가 약해서 아니에요", sub: "다이어리 3일 만에 덮었다면",
+      transcript: "김미경BOD다이어리, 앞에서 열 장쯤 쓰다 덮으셨죠. 그거 의지가 약해서 그런 거 아닙니다. 3일쯤이면 야근이든 감기든 못 쓰는 날이 반드시 한 번 와요. 그때 하루 빠진 걸 붙잡아줄 장치가 종이엔 없었을 뿐이에요. 새 다이어리 사지 마세요. 첫 장에 한 줄만 적으면 됩니다. 빠진 날은 사선 하나, 채우지 않기. 규칙은 딱 하나, 이틀 연속만 피하기. 완성 말고 한 칸이면 충분해요.",
+    },
   ],
   en: [
     {
@@ -479,6 +485,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "First 30 pages inked, the rest brand new?", sub: "Why your workbook dies at page 30",
       transcript: "How many workbooks do you own where the first thirty pages are inked and the rest look brand new? It isn't weak willpower. The book shows you twelve hundred words. It never tells you which thirty are yours today. So divide the total by thirty a day, add a buffer, and write the finish date in the margin. If you fall behind, don't catch up. Start from today, and never miss two days in a row. You don't need completion. One square is enough.",
     },
+    {
+      publishedAt: "2026-07-15T10:34:00+09:00",
+      kind: "youtube", slug: "bod-diary", id: "wFZ4CXKvTGQ",
+      title: "First few pages inked, the rest blank?", sub: "You closed the planner on day 3",
+      transcript: "You filled the first few pages of that planner, then put it in a drawer. That wasn't weak willpower. Within three days a day you can't write always shows up, and paper has nothing that catches you when you miss one. So don't buy a new planner. Write one rule on the first page: a missed day gets one slash, never backfill. Then the only rule that matters, never miss two days in a row. You don't need completion. One box is enough.",
+    },
   ],
   ja: [
     {
@@ -712,6 +724,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "vocab-plan", id: "CpTip-0EXNU",
       title: "最初の30ページだけ真っ黒な単語帳、何冊ありますか?", sub: "単語帳が30ページで止まる理由",
       transcript: "最初の30ページだけ書き込みで真っ黒、残りは新品同様の単語帳。何冊ありますか。意志が弱いからではありません。本は千二百語を見せるだけで、今日の三十語を決めてはくれないのです。総語数を一日三十で割り、予備日を足して、完走日を余白に書きましょう。遅れても取り戻さず、今日の分から。二日連続だけ避ければいい。完成ではなく、一マスで十分です。",
+    },
+    {
+      publishedAt: "2026-07-15T11:51:00+09:00",
+      kind: "youtube", slug: "bod-diary", id: "3_RXLT1HGnY",
+      title: "それ、意志が弱いからじゃありません", sub: "手帳を3日で閉じたなら",
+      transcript: "買った手帳、最初の数ページだけ書いて閉じましたよね。それ、意志が弱いからじゃありません。3日もあれば残業や風邪で書けない日が必ず一度は来ます。そのとき一日抜けたのを支える仕組みが、紙にはなかっただけ。新しい手帳を買わないで。1ページ目に一行だけ書きます。抜けた日は斜線ひとつ、埋めない。ルールはひとつ、二日連続だけ避ける。完成じゃなく、一マスで十分です。",
     },
   ],
 };
