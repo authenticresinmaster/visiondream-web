@@ -251,6 +251,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "그거 의지가 약해서 아니에요", sub: "다이어리 3일 만에 덮었다면",
       transcript: "김미경BOD다이어리, 앞에서 열 장쯤 쓰다 덮으셨죠. 그거 의지가 약해서 그런 거 아닙니다. 3일쯤이면 야근이든 감기든 못 쓰는 날이 반드시 한 번 와요. 그때 하루 빠진 걸 붙잡아줄 장치가 종이엔 없었을 뿐이에요. 새 다이어리 사지 마세요. 첫 장에 한 줄만 적으면 됩니다. 빠진 날은 사선 하나, 채우지 않기. 규칙은 딱 하나, 이틀 연속만 피하기. 완성 말고 한 칸이면 충분해요.",
     },
+    {
+      publishedAt: "2026-07-16T09:52:00+09:00",
+      kind: "youtube", slug: "prodsys", id: "gmXRZPdR_d4",
+      title: "또 작심삼일이죠? 의지가 약한 게 아니에요", sub: "생산성, 의지로 하면 반드시 무너져요",
+      transcript: "새해 목표, 몇 주 만에 흐지부지되죠. 의지가 약해서 아니에요. 의지력은 하루면 방전되는 배터리라, 의지로 버티면 무너져요. 그러니 구조를 만드세요. 목표는 시시할 만큼 줄이고, 규칙은 딱 하나, 이틀 연속만 피하기. 비전드림은 하루 놓쳐도 보호권이 연속을 지켜줘요. 완성 말고 연결이면 충분합니다.",
+    },
   ],
   en: [
     {
@@ -491,6 +497,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "First few pages inked, the rest blank?", sub: "You closed the planner on day 3",
       transcript: "You filled the first few pages of that planner, then put it in a drawer. That wasn't weak willpower. Within three days a day you can't write always shows up, and paper has nothing that catches you when you miss one. So don't buy a new planner. Write one rule on the first page: a missed day gets one slash, never backfill. Then the only rule that matters, never miss two days in a row. You don't need completion. One box is enough.",
     },
+    {
+      publishedAt: "2026-07-16T10:22:00+09:00",
+      kind: "youtube", slug: "prodsys", id: "cgafnCprk_s",
+      title: "Your goal fizzled again? It's not weak willpower", sub: "Willpower-based productivity always breaks",
+      transcript: "Your New Year's goal fizzled again? It's not weak willpower. Willpower is a battery that drains within a day, so leaning on it always collapses. Build a structure instead. Shrink the goal until it feels tiny, and follow one rule, never miss two days in a row. VisionDream spends a protection pass automatically when you slip, so one missed day never resets everything. Aim for connection, not completion.",
+    },
   ],
   ja: [
     {
@@ -730,6 +742,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "bod-diary", id: "3_RXLT1HGnY",
       title: "それ、意志が弱いからじゃありません", sub: "手帳を3日で閉じたなら",
       transcript: "買った手帳、最初の数ページだけ書いて閉じましたよね。それ、意志が弱いからじゃありません。3日もあれば残業や風邪で書けない日が必ず一度は来ます。そのとき一日抜けたのを支える仕組みが、紙にはなかっただけ。新しい手帳を買わないで。1ページ目に一行だけ書きます。抜けた日は斜線ひとつ、埋めない。ルールはひとつ、二日連続だけ避ける。完成じゃなく、一マスで十分です。",
+    },
+    {
+      publishedAt: "2026-07-16T11:38:00+09:00",
+      kind: "youtube", slug: "prodsys", id: "mlBQ8nBsn5g",
+      title: "また三日坊主ですよね? 意志が弱いんじゃない", sub: "意志でやる生産性は必ず崩れる",
+      transcript: "新年の目標、数週間で消えましたよね。意志が弱いからじゃありません。意志力は一日で放電するバッテリーなので、意志で頑張ると崩れます。だから構造を作りましょう。目標はしょぼいほど小さく削り、ルールはひとつ、二日連続だけ避ける。ビジョンドリームは一日逃しても保護券が連続を守ります。完成ではなく、つながりで十分です。",
     },
   ],
 };
