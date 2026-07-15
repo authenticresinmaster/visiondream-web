@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="생산성은 의지가 아니라 설계: 목표 축소, 환경 설계, 리셋 규칙 — 무너져도 이어지는 구조">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">생산성은 의지가 아니라 설계의 문제다</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">하루 빼먹어도 무너지지 않는 구조를 만들어라</text>
+
+  <g>
+    <rect x="40" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="168" cy="142" r="22" fill="#3f7cb3"/>
+    <text x="168" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">1</text>
+    <text x="168" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">목표 축소</text>
+    <text x="168" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">크게 잡으면 3일에 꺼진다</text>
+    <line x1="88" y1="230" x2="248" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="168" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">지킬 수 있는 최소 단위</text>
+    <text x="168" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">하루 한 칸이면 성공</text>
+  </g>
+
+  <g>
+    <rect x="312" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="440" cy="142" r="22" fill="#7a6ca8"/>
+    <text x="440" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">2</text>
+    <text x="440" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">환경 설계</text>
+    <text x="440" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">의지력을 시험하지 않는다</text>
+    <line x1="360" y1="230" x2="520" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="440" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">방해를 미리 치운다</text>
+    <text x="440" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">시작을 10초 안으로</text>
+  </g>
+
+  <g>
+    <rect x="584" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="712" cy="142" r="22" fill="#568a35"/>
+    <text x="712" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">3</text>
+    <text x="712" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">리셋 규칙</text>
+    <text x="712" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">무너진 뒤가 진짜 승부</text>
+    <line x1="632" y1="230" x2="792" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="712" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">이틀 연속만 피한다</text>
+    <text x="712" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">한 번 어겨도 복귀</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">작심삼일은 극복하는 게 아니라, 무너져도 되는 구조를 만드는 것</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">생산성 = 의지 아니라 설계 — 하루 빼먹어도 이어지는 4단계</text>
+</svg>
