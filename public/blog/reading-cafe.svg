@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="혼자 안 읽히던 책을 환경으로 붙잡는 독서카페 3단계: 공간이 스위치, 함께가 마감, 온라인도 같은 효과">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">독서는 의지가 아니라 환경이다</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">혼자·아무 데서나 말고, '자리와 함께'로</text>
+
+  <g>
+    <rect x="40" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="168" cy="142" r="22" fill="#3f7cb3"/>
+    <text x="168" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">1</text>
+    <text x="168" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">공간이 스위치</text>
+    <text x="168" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">집은 "읽지 마" 신호뿐</text>
+    <line x1="88" y1="230" x2="248" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="168" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">읽기 전용 자리 하나</text>
+    <text x="168" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">앉으면 읽기 모드</text>
+  </g>
+
+  <g>
+    <rect x="312" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="440" cy="142" r="22" fill="#7a6ca8"/>
+    <text x="440" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">2</text>
+    <text x="440" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">함께가 마감</text>
+    <text x="440" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">혼자면 무한 연기</text>
+    <line x1="360" y1="230" x2="520" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="440" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">같이 읽는 눈·시간</text>
+    <text x="440" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">약속이 데려다 놓는다</text>
+  </g>
+
+  <g>
+    <rect x="584" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="712" cy="142" r="22" fill="#568a35"/>
+    <text x="712" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">3</text>
+    <text x="712" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">온라인도 같은 효과</text>
+    <text x="712" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">물리 카페 없어도 OK</text>
+    <line x1="632" y1="230" x2="792" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="712" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">인증·같이읽기 모임</text>
+    <text x="712" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">읽는 자리+지켜보는 눈</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">완독 개수가 아니라, '읽는 자리에 나를 데려다 놓는 구조'가 목표</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">독서카페 = 의지 대신 환경 — 공간이 스위치, 함께가 마감</text>
+</svg>
