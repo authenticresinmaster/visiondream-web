@@ -257,6 +257,18 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "또 작심삼일이죠? 의지가 약한 게 아니에요", sub: "생산성, 의지로 하면 반드시 무너져요",
       transcript: "새해 목표, 몇 주 만에 흐지부지되죠. 의지가 약해서 아니에요. 의지력은 하루면 방전되는 배터리라, 의지로 버티면 무너져요. 그러니 구조를 만드세요. 목표는 시시할 만큼 줄이고, 규칙은 딱 하나, 이틀 연속만 피하기. 비전드림은 하루 놓쳐도 보호권이 연속을 지켜줘요. 완성 말고 연결이면 충분합니다.",
     },
+    {
+      publishedAt: "2026-07-23T09:52:00+09:00",
+      kind: "youtube", slug: "reading-cafe", id: "0gMc3Q6o1qg",
+      title: "의지가 아니라 '자리'가 문제였어요", sub: "집에선 안 읽히던 책, 카페선 왜 읽힐까",
+      transcript: "집에선 세 쪽도 버거운데, 카페만 가면 한 시간이 훅 가죠. 의지가 약해서가 아니에요. 집은 폰이랑 TV가 '읽지 마' 신호를 보내니까요. 방법은 하나, 읽는 자리를 딱 하나 정하세요. 앉는 순간이 곧 시작이에요. 같이 읽을 사람 하나면 마감까지 생기죠. 오늘, 읽을 자리부터 정해봐요.",
+    },
+    {
+      publishedAt: "2026-07-23T09:11:00+09:00",
+      kind: "youtube", slug: "reading-habit", id: "vWTgQWjxBZA",
+      title: "무슨 책을 사든 3일이면 덮죠 — 의지 문제가 아니에요", sub: "무슨 책을 사든 3일이면 덮는다면",
+      transcript: "무슨 책을 사든 3일이면 덮게 되죠. 근데 의지 문제가 아니에요. 완벽하게 다 읽어야 한다는 강박 때문이죠. 목표를 오늘 '한 쪽'으로 줄여 보세요. 하루 빠져도 이틀 연속만 피하면 돼요. 밀린 건 넘기고 오늘 한 쪽부터. 완독이 아니라 책과 끊기지 않는 게 목표예요. 👆 프로필 링크에서 시작해요.",
+    },
   ],
   en: [
     {
@@ -503,6 +515,18 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Your goal fizzled again? It's not weak willpower", sub: "Willpower-based productivity always breaks",
       transcript: "Your New Year's goal fizzled again? It's not weak willpower. Willpower is a battery that drains within a day, so leaning on it always collapses. Build a structure instead. Shrink the goal until it feels tiny, and follow one rule, never miss two days in a row. VisionDream spends a protection pass automatically when you slip, so one missed day never resets everything. Aim for connection, not completion.",
     },
+    {
+      publishedAt: "2026-07-23T10:08:00+09:00",
+      kind: "youtube", slug: "reading-cafe", id: "c6PKQ3iyZcg",
+      title: "It's your seat, not your willpower", sub: "Why books flow at a cafe but never at home",
+      transcript: "Can't get through three pages at home, but an hour flies by at a cafe? That's not weak willpower. At home, your phone and TV signal 'don't read.' The fix is one thing: pick one reading seat — a cafe, or one spot at home. Sitting there is the start. Add one person to read with, and now you've got a deadline. Today, just pick your seat.",
+    },
+    {
+      publishedAt: "2026-07-23T10:26:00+09:00",
+      kind: "youtube", slug: "reading-habit", id: "I-IkdXiVYuc",
+      title: "Every book you buy gets shelved in three days — it's not willpower", sub: "If every book gets shelved in three days",
+      transcript: "Whatever book you buy gets shelved within three days. But that's not weak willpower. The real culprit is finish-the-book guilt. So shrink the goal to one page today. Miss a day? Just never miss two in a row. Skip the backlog and start from one page. The goal isn't finishing, it's staying connected to the book. Open one page today from the link in bio.",
+    },
   ],
   ja: [
     {
@@ -748,6 +772,18 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "prodsys", id: "mlBQ8nBsn5g",
       title: "また三日坊主ですよね? 意志が弱いんじゃない", sub: "意志でやる生産性は必ず崩れる",
       transcript: "新年の目標、数週間で消えましたよね。意志が弱いからじゃありません。意志力は一日で放電するバッテリーなので、意志で頑張ると崩れます。だから構造を作りましょう。目標はしょぼいほど小さく削り、ルールはひとつ、二日連続だけ避ける。ビジョンドリームは一日逃しても保護券が連続を守ります。完成ではなく、つながりで十分です。",
+    },
+    {
+      publishedAt: "2026-07-23T11:17:00+09:00",
+      kind: "youtube", slug: "reading-cafe", id: "EMyUqPw84RM",
+      title: "意志ではなく「席」の問題でした", sub: "家では読めない本が、カフェだと読める理由",
+      transcript: "家では3ページも進まないのに、カフェだと1時間があっという間。意志が弱いんじゃありません。家はスマホやテレビが「読むな」と信号を送るから。方法はひとつ。読む席をひとつ決めましょう。カフェでも、家の一席でも。座った瞬間が始まりです。一緒に読む人が一人いれば締め切りも生まれます。今日、読む席から決めてみて。",
+    },
+    {
+      publishedAt: "2026-07-23T11:41:00+09:00",
+      kind: "youtube", slug: "reading-habit", id: "fYke9-jrusk",
+      title: "どんな本も3日で閉じますよね — 意志の問題じゃない", sub: "どんな本を買っても3日で閉じるなら",
+      transcript: "どんな本を買っても3日で閉じてしまいますよね。でもそれ、意志が弱いからじゃない。本当の犯人は読破の強迫です。だから目標を今日「1ページ」に削って。一日抜けても、二日連続だけ避ければいい。溜まった分は越えて、今日1ページから。読破ではなく、本とつながり続けるのが目標です。プロフィールのリンクから今日1ページ、始めよう。",
     },
   ],
 };
