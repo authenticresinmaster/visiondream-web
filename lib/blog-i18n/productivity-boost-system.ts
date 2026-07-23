@@ -6,7 +6,7 @@ export const ko: Post = {
   description:
     "생산성은 의지의 문제가 아니라 설계의 문제입니다. 작심삼일을 극복하려 애쓰지 마세요. 한 번 어겨도 통째로 무너지지 않는 구조를 만들면 됩니다. 목표 축소·환경 설계·리셋 규칙·복귀 장치까지, 오늘 30분이면 세팅하는 4단계 생산성 설계법.",
   date: "2026-07-16",
-  updated: "2026-07-16",
+  updated: "2026-07-24",
   category: "습관·루틴",
   readMinutes: 9,
   emoji: "⚙️",
@@ -58,7 +58,7 @@ export const ko: Post = {
 
 생산성 고수들의 공통점은 '유혹을 참는 것'이 아니라 '유혹을 애초에 없애는 것'입니다. 의지력으로 폰을 참는 게 아니라, 폰을 다른 방에 두는 거죠. 일할 때 딴짓 탭을 참는 게 아니라, 시작 전에 다 닫는 겁니다.
 
-두 방향으로 설계하세요. **하고 싶은 일은 마찰을 없애고(운동복을 침대 옆에), 하기 싫은 일은 마찰을 늘린다(SNS 앱 삭제·로그아웃).** 시작까지 걸리는 시간이 10초를 넘으면 사람은 안 합니다. 반대로 방해까지 걸리는 시간이 20초를 넘으면 사람은 방해받지 않습니다. 이 '10초·20초 규칙'이 의지력보다 훨씬 강력합니다. ([집중력을 만드는 딥워크](/blog/deep-work-focus)의 핵심도 '참기'가 아니라 '치우기'입니다.)
+두 방향으로 설계하세요. **하고 싶은 일은 마찰을 없애고(운동복을 침대 옆에), 하기 싫은 일은 마찰을 늘린다(SNS 앱 삭제·로그아웃).** 시작까지 걸리는 시간이 10초를 넘으면 사람은 안 합니다. 반대로 방해까지 걸리는 시간이 20초를 넘으면 사람은 방해받지 않습니다. 이 '10초·20초 규칙'이 의지력보다 훨씬 강력합니다. ([집중력을 만드는 딥워크](/blog/deep-work-focus)의 핵심도 '참기'가 아니라 '치우기'입니다.) 이 설계는 낮보다 밤에 하는 게 훨씬 쉽습니다 — 폰 충전기를 침실 밖으로 옮기고 내일 첫 행동을 한 줄 적어 두는 [저녁 루틴 10분](/blog/evening-routine)이, 다음 날 아침의 환경을 미리 설계해 두는 가장 싼 방법이거든요.
 
 ## 3단계 — 리셋 규칙: 무너진 다음이 진짜 승부
 
@@ -118,7 +118,7 @@ export const en: Post = {
   description:
     "Productivity isn't a willpower problem; it's a design problem. Stop trying to beat three-day quitting. Build a structure that doesn't collapse the moment you slip once. Shrink the goal, design the environment, set a reset rule, add a safety net — a 4-step productivity system you can set up in 30 minutes today.",
   date: "2026-07-16",
-  updated: "2026-07-16",
+  updated: "2026-07-24",
   category: "Habits",
   readMinutes: 9,
   emoji: "⚙️",
@@ -170,7 +170,7 @@ The fix is to shrink the goal to **the size you can keep on your hardest day**. 
 
 What productive people share isn't resisting temptation; it's removing it up front. They don't resist the phone with willpower — they put it in another room. They don't resist distracting tabs — they close them before starting.
 
-Design in two directions. **Remove friction from what you want to do (workout clothes by the bed) and add friction to what you don't (delete and log out of social apps).** If it takes more than 10 seconds to start, people don't start. Conversely, if a distraction takes more than 20 seconds to reach, people don't get distracted. This "10-second, 20-second rule" is far stronger than willpower. (The core of [deep work and focus](/en/blog/deep-work-focus) is also clearing, not resisting.)
+Design in two directions. **Remove friction from what you want to do (workout clothes by the bed) and add friction to what you don't (delete and log out of social apps).** If it takes more than 10 seconds to start, people don't start. Conversely, if a distraction takes more than 20 seconds to reach, people don't get distracted. This "10-second, 20-second rule" is far stronger than willpower. (The core of [deep work and focus](/en/blog/deep-work-focus) is also clearing, not resisting.) This design is far easier to do at night than during the day — moving the phone charger out of the bedroom and writing one line for tomorrow is exactly what the [10-minute evening routine](/en/blog/evening-routine) does, and it's the cheapest way to have tomorrow morning's environment already built.
 
 ## Step 3 — The reset rule: the real game is after you collapse
 
@@ -230,7 +230,7 @@ export const ja: Post = {
   description:
     "生産性は意志の問題ではなく、設計の問題です。三日坊主を克服しようと頑張らないでください。一度抜けても全体が崩れない構造を作ればいい。目標の縮小・環境の設計・リセットのルール・復帰の仕組みまで、今日30分でセットできる4ステップの生産性設計法。",
   date: "2026-07-16",
-  updated: "2026-07-16",
+  updated: "2026-07-24",
   category: "習慣・ルーティン",
   readMinutes: 9,
   emoji: "⚙️",
@@ -282,7 +282,7 @@ export const ja: Post = {
 
 生産性の達人の共通点は「誘惑を我慢すること」ではなく「誘惑を最初からなくすこと」です。意志力でスマホを我慢するのではなく、スマホを別の部屋に置く。仕事中に脱線タブを我慢するのではなく、始める前に全部閉じる。
 
-二方向で設計してください。**やりたいことは摩擦を減らし(運動着をベッドの横に)、やりたくないことは摩擦を増やす(SNSアプリを削除・ログアウト)。** 始めるまでに10秒を超えると、人はやりません。逆に妨害までに20秒を超えると、人は妨害されません。この「10秒・20秒ルール」は意志力よりはるかに強力です。([集中を作るディープワーク](/ja/blog/deep-work-focus)の核心も「我慢」ではなく「片づけ」です。)
+二方向で設計してください。**やりたいことは摩擦を減らし(運動着をベッドの横に)、やりたくないことは摩擦を増やす(SNSアプリを削除・ログアウト)。** 始めるまでに10秒を超えると、人はやりません。逆に妨害までに20秒を超えると、人は妨害されません。この「10秒・20秒ルール」は意志力よりはるかに強力です。([集中を作るディープワーク](/ja/blog/deep-work-focus)の核心も「我慢」ではなく「片づけ」です。)この設計は昼よりも夜のほうがずっとやりやすい — スマホの充電器を寝室の外へ移し、明日の最初の一手を一行書いておく[10分の夜ルーティン](/ja/blog/evening-routine)が、翌朝の環境を先に作っておくいちばん安い方法です。
 
 ## ステップ3 — リセットのルール:崩れた後が本当の勝負
 

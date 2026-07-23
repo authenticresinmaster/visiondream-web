@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "After three weeks with a habit tracker, I learned one thing: its real power isn't keeping a perfect streak — it's getting you to come back the day after you miss. Here's how to build a tracker that survives a missed day, with a simple recovery rule and the 66-day view.",
   date: "2026-07-11",
-  updated: "2026-07-11",
+  updated: "2026-07-24",
   category: "Habits",
   readMinutes: 7,
   emoji: "✅",
@@ -37,7 +37,7 @@ A tracker should do the opposite of shame you. It should make the next entry the
 ## How to build a habit tracker that survives a miss
 
 ### 1. Pick exactly one habit
-Not five. One. A tracker with ten rows becomes a daily report card you'll grow to dread. Choose the single habit that matters most right now — "10 push-ups," "read one page," "lights out by 11." (Anchoring it to who you want to become makes it stick: see [identity-based habits](/en/blog/identity-based-habits).)
+Not five. One. A tracker with ten rows becomes a daily report card you'll grow to dread. Choose the single habit that matters most right now — "10 push-ups," "read one page," "lights out by 11." (Anchoring it to who you want to become makes it stick: see [identity-based habits](/en/blog/identity-based-habits).) If you can't decide, start with "write tomorrow's first action" — it's step one of the [10-minute evening routine](/en/blog/evening-routine), takes thirty seconds a day, and changes the whole next day.
 
 ### 2. Make it binary — done or not done
 No scores, no percentages, no "how well did I do." Just a box you fill or leave empty. Binary tracking removes the judgment that makes people quit. Did you do the thing, yes or no? Fill the box. That's the entire mechanic.
@@ -88,7 +88,7 @@ export const ja: Post = {
   description:
     "習慣トラッカーを3週間使ってわかったこと。トラッカーの本当の力は、完璧な連続記録を保つことではなく、抜けた翌日に「また戻ってこられる」ことにあります。1日抜けても続くトラッカーの作り方、シンプルな復帰ルール、そして66日の視点を紹介します。",
   date: "2026-07-11",
-  updated: "2026-07-11",
+  updated: "2026-07-24",
   category: "習慣",
   readMinutes: 7,
   emoji: "✅",
@@ -119,7 +119,7 @@ export const ja: Post = {
 ## 1日抜けても続く習慣トラッカーの作り方
 
 ### 1. 習慣をちょうど一つに絞る
-5つではなく、一つ。10行のトラッカーは、やがて恐怖になる毎日の通知表になります。今いちばん大事な習慣を一つだけ選ぶ — 「腕立て10回」「1ページ読む」「23時に消灯」。(なりたい自分に結びつけると定着します。[アイデンティティ習慣](/ja/blog/identity-based-habits)を参照。)
+5つではなく、一つ。10行のトラッカーは、やがて恐怖になる毎日の通知表になります。今いちばん大事な習慣を一つだけ選ぶ — 「腕立て10回」「1ページ読む」「23時に消灯」。(なりたい自分に結びつけると定着します。[アイデンティティ習慣](/ja/blog/identity-based-habits)を参照。)何を選ぶか迷うなら「明日の最初の一手を書く」から始めてみてください — [10分の夜ルーティン](/ja/blog/evening-routine)のステップ1で、1日30秒なのに翌日まるごとを変えるマスです。
 
 ### 2. 二択にする — やった/やらない
 点数も、パーセントも、「どれだけうまくできたか」もなし。埋めるか、空けるかのマスだけ。二択の記録は、人をやめさせる「評価」を取り除きます。やったか、やらなかったか。埋める。仕組みはこれだけです。
@@ -170,7 +170,7 @@ export const ko: Post = {
   description:
     "습관 트래커를 3주 써 보고 알게 됐어요. 트래커의 진짜 힘은 완벽한 연속 기록이 아니라, 하루 빠진 다음 날 '다시 돌아오게' 하는 데 있어요. 하루 빠져도 살아남는 트래커 만드는 법과 간단한 복구 규칙, 그리고 66일 관점을 알려드려요.",
   date: "2026-07-11",
-  updated: "2026-07-11",
+  updated: "2026-07-24",
   category: "습관",
   readMinutes: 7,
   emoji: "✅",
@@ -201,7 +201,7 @@ export const ko: Post = {
 ## 하루 빠져도 살아남는 습관 트래커 만드는 법
 
 ### 1. 습관을 딱 하나만 고른다
-다섯 개가 아니라 하나예요. 열 줄짜리 트래커는 곧 두려워질 매일의 성적표가 돼요. 지금 가장 중요한 습관 하나만 고르세요 — "팔굽혀펴기 10개", "한 페이지 읽기", "11시에 소등". (되고 싶은 나에 연결하면 오래가요. [정체성 기반 습관](/blog/identity-based-habits)을 보세요.)
+다섯 개가 아니라 하나예요. 열 줄짜리 트래커는 곧 두려워질 매일의 성적표가 돼요. 지금 가장 중요한 습관 하나만 고르세요 — "팔굽혀펴기 10개", "한 페이지 읽기", "11시에 소등". (되고 싶은 나에 연결하면 오래가요. [정체성 기반 습관](/blog/identity-based-habits)을 보세요.) 무엇을 고를지 모르겠다면 "내일 첫 행동 한 줄 적기"로 시작해 보세요 — [저녁 루틴 10분](/blog/evening-routine)의 1단계이고, 하루 30초면 되면서 다음 날 전체를 바꾸는 칸이에요.
 
 ### 2. 이진법으로 기록한다 — 했다 / 안 했다
 점수도, 퍼센트도, "얼마나 잘했나"도 없어요. 채우거나 비우는 칸 하나뿐이에요. 이진법 기록은 사람을 포기하게 만드는 '평가'를 없애줘요. 했나, 안 했나? 칸을 채워요. 작동 원리는 이게 전부예요.

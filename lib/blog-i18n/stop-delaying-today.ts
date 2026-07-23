@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Procrastination isn't one problem, so one fix never works. It's four: anxiety, boredom, burnout, and overwhelm. Diagnose which type you are with one honest question, then apply the matching prescription — and a 5-minute routine that gets you moving tonight.",
   date: "2026-07-12",
-  updated: "2026-07-12",
+  updated: "2026-07-24",
   category: "Habits",
   readMinutes: 8,
   emoji: "🌙",
@@ -75,7 +75,7 @@ Read the middle column again. Every one of them is a *feeling*, not a workload. 
 
 ## The 5-minute routine that works for all four
 
-Once you know your type, the entry ramp is identical. Tonight, do this — it takes five minutes:
+Once you know your type, the entry ramp is identical. Tonight, do this — it takes five minutes. (To make those five minutes a nightly fixture, see the [10-minute evening routine](/en/blog/evening-routine) — writing tomorrow's first action the night before is the load-bearing line.)
 
 1. **Write the task down as a sentence** (60 sec). Vague things live in your head rent-free; written things get handled.
 2. **Ask the diagnostic question** (30 sec): what do I feel in my body when I picture it? Anxiety, boredom, emptiness, or confusion?
@@ -116,7 +116,7 @@ export const ja: Post = {
   description:
     "先延ばしは一つの問題ではないから、一つの対処法では効きません。不安型・退屈型・燃え尽き型・混乱型の4タイプ。たった一つの問いで自分のタイプを診断し、そのタイプに合った処方を当てる方法と、今夜すぐ動ける5分ルーティンを紹介します。",
   date: "2026-07-12",
-  updated: "2026-07-12",
+  updated: "2026-07-24",
   category: "習慣",
   readMinutes: 8,
   emoji: "🌙",
@@ -185,7 +185,7 @@ export const ja: Post = {
 
 ## 4タイプ全部に効く「5分ルーティン」
 
-タイプが分かれば、入口は同じです。今夜、これをやってみてください。5分で終わります。
+タイプが分かれば、入口は同じです。今夜、これをやってみてください。5分で終わります。(この5分を毎晩の定位置にする方法は[10分の夜ルーティン](/ja/blog/evening-routine)にまとめてあります — 明日の最初の一手を前の晩に書いておく、その一行が要です。)
 
 1. **タスクを一文で書き出す**(60秒)。頭の中の曖昧なものは居座り続け、書かれたものは片づきます。
 2. **診断の問いを立てる**(30秒):思い浮かべたとき、体は何を感じている? 不安・退屈・空っぽ・混乱?
@@ -226,7 +226,7 @@ export const ko: Post = {
   description:
     "미루기는 하나의 문제가 아니라서, 하나의 해법으론 안 고쳐집니다. 불안형·지루형·소진형·혼란형 4가지. 질문 하나로 내 유형을 진단하고 유형별 처방을 붙이는 법, 그리고 오늘 밤 바로 움직이게 하는 5분 루틴까지 정리했습니다.",
   date: "2026-07-12",
-  updated: "2026-07-12",
+  updated: "2026-07-24",
   category: "습관·루틴",
   readMinutes: 8,
   emoji: "🌙",
@@ -295,7 +295,7 @@ export const ko: Post = {
 
 ## 4가지 유형 모두에 통하는 5분 루틴
 
-유형을 알았다면, 진입로는 똑같습니다. 오늘 밤 이거 해보세요. 5분이면 끝나요.
+유형을 알았다면, 진입로는 똑같습니다. 오늘 밤 이거 해보세요. 5분이면 끝나요. (이 5분을 매일 밤 자리 잡게 하는 방법은 [저녁 루틴 10분](/blog/evening-routine)에 정리해 뒀습니다 — 내일 첫 행동을 전날 밤에 적어 두는 그 한 줄이 핵심입니다.)
 
 1. **할 일을 한 문장으로 적는다** (60초). 머릿속의 막연한 것들은 눌러앉고, 적힌 것들은 처리됩니다.
 2. **진단 질문을 던진다** (30초): 떠올릴 때 몸이 뭘 느끼지? 불안 · 지루 · 텅 빔 · 혼란?
