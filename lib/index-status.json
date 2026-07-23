@@ -1,7 +1,20 @@
 {
- "brand": "visiondream",
- "updated": "2026-07-23",
- "rate": 0.35,
- "note": "vision-index-monitor.ps1(주간)이 GSC 실측으로 갱신한다. 손으로 고치지 말 것.",
- "needsLinks": []
+    "brand":  "visiondream",
+    "updated":  "2026-07-23",
+    "rate":  0.353,
+    "note":  "vision-index-monitor.ps1(주간)이 GSC 실측으로 갱신한다. 손으로 고치지 말 것.",
+    "needsLinks":  [
+                       "backcasting-goal-setting",
+                       "smart-goal-setting",
+                       "time-blocking",
+                       "evening-routine",
+                       "deep-work-focus",
+                       "grit-consistency",
+                       "overcome-laziness",
+                       "improve-focus",
+                       "mental-strength",
+                       "self-efficacy",
+                       "mandalart-planner",
+                       "kim-mikyung-miracle"
+                   ]
 }
