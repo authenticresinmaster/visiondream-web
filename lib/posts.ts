@@ -1,3 +1,4 @@
+import { boostFirst } from "./index-boost";
 import { en as backcastingEn, ja as backcastingJa } from "./blog-i18n/backcasting-goal-setting";
 import { en as fearEn, ja as fearJa } from "./blog-i18n/fear-deconstruction-overcome";
 import { en as successEn, ja as successJa } from "./blog-i18n/success-formula-bta";
@@ -2890,6 +2891,18 @@ export function getPostBySlug(slug: string, lang: PostLang = "ko"): Post | undef
 }
 
 /**
+ * 이 slug가 실제로 존재·공개된 언어들.
+ * 왜: sitemap의 hreflang alternates가 언어 3종을 무조건 나열하면, 그 언어 판이 없는 글은
+ *     404 URL을 대체링크로 광고하게 된다(신뢰 신호 손상). 언어별 발행이 달라질 수 있으므로
+ *     실제 보유 언어만 내보낸다.
+ */
+export function langsForPost(slug: string): PostLang[] {
+  return (["ko", "en", "ja"] as PostLang[]).filter((l) =>
+    (BY_LANG[l] ?? []).some((p) => p.slug === slug && isPostLive(p)),
+  );
+}
+
+/**
  * 관련 글(내부링크 강화용) — 같은 카테고리 우선, 부족하면 최신글로 채움. 자기 자신·미공개 제외.
  * 목적: 발견-미크롤 페이지에 내부링크 신호를 늘려 크롤·색인을 촉진(고아 페이지 방지).
  */
@@ -2899,7 +2912,21 @@ export function getRelatedPosts(slug: string, lang: PostLang = "ko", n = 4): Pos
   const cat = self?.category;
   const same = cat ? all.filter((p) => p.category === cat) : [];
   const rest = all.filter((p) => !same.includes(p));
-  return [...same, ...rest].slice(0, n);
+  // 같은 카테고리(관련도) 우선순위는 유지하되, 각 묶음 안에서 아직 색인 안 된 글을 앞으로.
+  // → 관련성을 해치지 않으면서 크롤이 필요한 글에 링크가 먼저 간다. [[index-boost]]
+  return [...boostFirst(same), ...boostFirst(rest)].slice(0, n);
+}
+
+/**
+ * 홈에 노출할 글 — 최신 1편 + 색인이 필요한 글로 나머지를 채운다.
+ * 왜: 홈은 이 사이트에서 가장 자주 크롤되는 페이지다. 여기 링크된 글이 먼저 크롤된다.
+ *     needsLinks가 비면 그냥 최신순이 되므로 색인 회복 후엔 자동으로 원래 동작으로 돌아간다.
+ */
+export function getHomePosts(lang: PostLang = "ko", n = 3): Post[] {
+  const all = getAllPosts(lang);
+  if (all.length <= n) return all;
+  const [newest, ...others] = all;
+  return [newest, ...boostFirst(others)].slice(0, n);
 }
 
 /**

@@ -3,7 +3,7 @@ import { EbookForm } from "@/components/EbookForm";
 import { VideoGallery } from "@/components/VideoGallery";
 import { videosFor, videosJsonLd, videosIndexHref } from "@/lib/videos";
 import { JsonLd } from "@/components/JsonLd";
-import { getAllPosts } from "@/lib/posts";
+import { getHomePosts } from "@/lib/posts";
 import { AuthNav } from "@/components/AuthNav";
 import { LangSwitch } from "@/components/LangSwitch";
 import { MobileNav } from "@/components/MobileNav";
@@ -238,7 +238,7 @@ export default function Home() {
             </Link>
           </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-3">
-            {getAllPosts("ja").slice(0, 3).map((p, i) => (
+            {getHomePosts("ja").map((p, i) => (
               <Reveal key={p.slug} delay={i * 90} className="h-full">
                 <Link
                   href={`/ja/blog/${p.slug}`}
