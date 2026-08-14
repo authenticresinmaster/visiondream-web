@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Procrastination isn't one problem, so one fix never works. It's four: anxiety, boredom, burnout, and overwhelm. Diagnose which type you are with one honest question, then apply the matching prescription — and a 5-minute routine that gets you moving tonight.",
   date: "2026-07-12",
-  updated: "2026-07-24",
+  updated: "2026-08-15",
   category: "Habits",
   readMinutes: 8,
   emoji: "🌙",
@@ -71,7 +71,7 @@ Read the middle column again. Every one of them is a *feeling*, not a workload. 
 
 **Why it happens:** it isn't one task, it's twelve tasks in a trench coat — and your brain can't run a project, only an action.
 
-**Prescription:** stop planning and name the **next physical action** — the one you could do with your hands in the next five minutes. Not "do taxes," but "open the folder and find last year's return." Not "job search," but "open a doc and title it Résumé." Then do only that. Momentum is manufactured, not summoned — which is the quiet power of [small wins](/en/blog/small-wins).
+**Prescription:** stop planning and name the **next physical action** — the one you could do with your hands in the next five minutes. Not "do taxes," but "open the folder and find last year's return." Not "job search," but "open a doc and title it Résumé." Then do only that. Momentum is manufactured, not summoned — which is the quiet power of [small wins](/en/blog/small-wins). And once that first action is under way, protect it: a 25-minute block with your phone out of reach is how the started thing actually finishes, as laid out in [deep work](/en/blog/deep-work-focus).
 
 ## The 5-minute routine that works for all four
 
@@ -116,7 +116,7 @@ export const ja: Post = {
   description:
     "先延ばしは一つの問題ではないから、一つの対処法では効きません。不安型・退屈型・燃え尽き型・混乱型の4タイプ。たった一つの問いで自分のタイプを診断し、そのタイプに合った処方を当てる方法と、今夜すぐ動ける5分ルーティンを紹介します。",
   date: "2026-07-12",
-  updated: "2026-07-24",
+  updated: "2026-08-15",
   category: "習慣",
   readMinutes: 8,
   emoji: "🌙",
@@ -181,7 +181,7 @@ export const ja: Post = {
 
 **なぜ起きるか:**それは一つのタスクではなく、コートを着た12個のタスクだからです。脳はプロジェクトを実行できません。動かせるのは「行動」だけ。
 
-**処方:**計画をやめて、**次の物理的な一手**を言葉にする — 5分以内に手を動かせるレベルまで。「確定申告をやる」ではなく「フォルダを開いて去年の書類を見つける」。「転職活動」ではなく「ファイルを開いて『職務経歴書』とタイトルをつける」。そして、それだけをやる。勢いは湧いてくるものではなく、作るもの — それが[小さな成功](/ja/blog/small-wins)の静かな力です。
+**処方:**計画をやめて、**次の物理的な一手**を言葉にする — 5分以内に手を動かせるレベルまで。「確定申告をやる」ではなく「フォルダを開いて去年の書類を見つける」。「転職活動」ではなく「ファイルを開いて『職務経歴書』とタイトルをつける」。そして、それだけをやる。勢いは湧いてくるものではなく、作るもの — それが[小さな成功](/ja/blog/small-wins)の静かな力です。そして最初の一手が動き出したら、それを守ること。スマホを手の届かない場所に置いた25分のブロックが、始めたことを実際に終わらせます — やり方は[ディープワーク](/ja/blog/deep-work-focus)にまとめてあります。
 
 ## 4タイプ全部に効く「5分ルーティン」
 
@@ -226,7 +226,7 @@ export const ko: Post = {
   description:
     "미루기는 하나의 문제가 아니라서, 하나의 해법으론 안 고쳐집니다. 불안형·지루형·소진형·혼란형 4가지. 질문 하나로 내 유형을 진단하고 유형별 처방을 붙이는 법, 그리고 오늘 밤 바로 움직이게 하는 5분 루틴까지 정리했습니다.",
   date: "2026-07-12",
-  updated: "2026-07-24",
+  updated: "2026-08-15",
   category: "습관·루틴",
   readMinutes: 8,
   emoji: "🌙",
@@ -291,7 +291,7 @@ export const ko: Post = {
 
 **왜 생기나:** 그건 하나의 일이 아니라 **코트 속에 숨은 12개의 일**이라서요. 뇌는 '프로젝트'를 실행하지 못합니다. 실행할 수 있는 건 '행동'뿐이에요.
 
-**처방:** 계획을 멈추고 **다음 물리적 행동**을 적으세요 — 앞으로 5분 안에 손으로 할 수 있는 수준까지. "세금 정리하기"가 아니라 "폴더 열어서 작년 서류 찾기." "이직 준비"가 아니라 "문서 열고 제목에 '경력기술서' 치기." 그리고 그것만 합니다. 관성은 저절로 오는 게 아니라 **만들어내는** 거예요. 그게 [작은 성공](/blog/small-wins)의 조용한 힘입니다.
+**처방:** 계획을 멈추고 **다음 물리적 행동**을 적으세요 — 앞으로 5분 안에 손으로 할 수 있는 수준까지. "세금 정리하기"가 아니라 "폴더 열어서 작년 서류 찾기." "이직 준비"가 아니라 "문서 열고 제목에 '경력기술서' 치기." 그리고 그것만 합니다. 관성은 저절로 오는 게 아니라 **만들어내는** 거예요. 그게 [작은 성공](/blog/small-wins)의 조용한 힘입니다. 그리고 그 첫 행동이 시작됐다면 이제 지켜야 합니다 — 폰을 손 닿지 않는 곳에 둔 25분 블록이 시작한 일을 실제로 끝내 줍니다. 방법은 [딥워크 — 깊이 몰입하는 법](/blog/deep-work-focus)에 있습니다.
 
 ## 4가지 유형 모두에 통하는 5분 루틴
 

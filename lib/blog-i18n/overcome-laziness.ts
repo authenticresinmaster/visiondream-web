@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Laziness isn't who you are. Most of the time it's a signal — low energy, low motivation, or a task that feels too big. Here's how to read that signal and start moving again, with the 2-minute rule, less friction, and a reason that pulls you forward.",
   date: "2026-07-03",
-  updated: "2026-07-03",
+  updated: "2026-08-15",
   category: "Mindset",
   readMinutes: 6,
   emoji: "🦥",
@@ -40,7 +40,7 @@ Most "laziness" is really resistance to *starting*, not to the work itself. Once
 
 ## Lower the friction around you
 
-Willpower is unreliable; your environment is not. If starting takes five steps, laziness wins. If it takes one, you move. So design your surroundings to make the good action the easy one. Lay out your workout clothes the night before. Close the tabs that pull you away. Put the book on your pillow and the phone in another room. Every step you remove *before* the moment of action is a step you don't have to fight *during* it. You're not becoming more disciplined — you're making discipline unnecessary.
+Willpower is unreliable; your environment is not. If starting takes five steps, laziness wins. If it takes one, you move. So design your surroundings to make the good action the easy one. Lay out your workout clothes the night before. Close the tabs that pull you away. Put the book on your pillow and the phone in another room. Every step you remove *before* the moment of action is a step you don't have to fight *during* it. You're not becoming more disciplined — you're making discipline unnecessary. (If you do start but keep getting pulled away mid-task, the distraction-by-distraction table in [deep work — how to focus deeply](/en/blog/deep-work-focus) applies the same principle to attention.)
 
 ## Connect the action to your vision
 
@@ -77,7 +77,7 @@ export const ja: Post = {
   description:
     "怠けは、あなたの正体ではありません。多くの場合それはサイン — エネルギー切れ、意欲の低下、あるいは大きすぎるタスク。そのサインの読み方と、2分ルール・摩擦を減らす・前へ引く理由で、もう一度動き出す方法を紹介します。",
   date: "2026-07-03",
-  updated: "2026-07-03",
+  updated: "2026-08-15",
   category: "メンタル・実行力",
   readMinutes: 6,
   emoji: "🦥",
@@ -111,7 +111,7 @@ export const ja: Post = {
 
 ## 周りの摩擦を下げる
 
-意志力はあてになりませんが、環境はそうではありません。始めるのに5歩かかれば怠けが勝ち、1歩なら人は動きます。だから、良い行動が楽なほうになるよう環境を設計しましょう。運動着は前夜に出しておく。気を散らすタブは閉じる。本は枕の上に、スマホは別の部屋に。行動の瞬間の*前*に取り除いた一歩は、瞬間の*最中*に戦わなくていい一歩です。あなたは規律を強めているのではなく、規律を不要にしているのです。
+意志力はあてになりませんが、環境はそうではありません。始めるのに5歩かかれば怠けが勝ち、1歩なら人は動きます。だから、良い行動が楽なほうになるよう環境を設計しましょう。運動着は前夜に出しておく。気を散らすタブは閉じる。本は枕の上に、スマホは別の部屋に。行動の瞬間の*前*に取り除いた一歩は、瞬間の*最中*に戦わなくていい一歩です。あなたは規律を強めているのではなく、規律を不要にしているのです。(始められるのに途中で何度も途切れるなら、同じ原理を集中に当てはめた[ディープワーク — 深く没頭する方法](/ja/blog/deep-work-focus)の邪魔の種類別ブロック表が役に立ちます。)
 
 ## 行動をビジョンにつなぐ
 

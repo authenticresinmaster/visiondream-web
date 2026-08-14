@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "A to-do list tells you what to do, but never when — so the urgent always eats the important. Time blocking gives every task a home on your calendar. Here's how to build blocks that survive contact with a real day, and connect them to what you actually want.",
   date: "2026-06-29",
-  updated: "2026-06-29",
+  updated: "2026-08-15",
   category: "Productivity",
   readMinutes: 6,
   emoji: "⏱️",
@@ -43,6 +43,8 @@ A to-do list has no walls. You can add to it forever, and nothing on it competes
 
 The number one reason time blocking fails is that people schedule themselves like robots, back to back, with no slack. Then one call runs long, and the whole day topples like dominoes. Real days have friction. **Block only 60–70% of your hours** and leave the rest as buffer — for overruns, breaks, and the unexpected. A plan that bends survives; a plan that's rigid shatters. And when a block does get blown, don't scrap the day — just slide the next one. (Same gentleness that beats [three-day quitting](/en/blog/beat-three-day-quitting): one missed block isn't failure.)
 
+If you protect the block but spend it getting pinged, you kept the calendar and lost the time. How to actually use the *inside* of a block is laid out minute by minute in [deep work — how to focus deeply](/en/blog/deep-work-focus).
+
 ## Connect blocks to the bigger picture
 
 Time blocking can become just a prettier to-do list if the blocks aren't tied to anything you actually care about. The point isn't to fill the calendar — it's to make sure your hours flow toward your **vision**, not just your inbox. Ask of each block: does this serve the future I'm building, or only today's noise?
@@ -78,7 +80,7 @@ export const ja: Post = {
   description:
     "やることリストは「何を」やるかは教えてくれますが、「いつ」やるかは教えてくれません。だから緊急なことが大事なことを食い尽くす。タイムブロッキングは、すべてのタスクにカレンダー上の居場所を与えます。現実の一日に耐えるブロックの作り方と、それを本当に望むものへつなぐ方法を紹介します。",
   date: "2026-06-29",
-  updated: "2026-06-29",
+  updated: "2026-08-15",
   category: "時間管理",
   readMinutes: 6,
   emoji: "⏱️",
@@ -114,6 +116,8 @@ export const ja: Post = {
 ## バッファを残す — でないと午前十時に崩れる
 
 タイムブロッキングが失敗する一番の理由は、ロボットのように隙間なく予定を詰めることです。すると一本の電話が長引いただけで、一日がドミノのように倒れます。現実の一日には摩擦があります。**時間の六〜七割だけをブロックし**、残りはバッファにします — 超過、休憩、想定外のために。曲がる計画は生き残り、硬い計画は砕けます。ブロックが吹き飛んでも、一日を捨てないこと。次を後ろにずらすだけ。([三日坊主](/ja/blog/beat-three-day-quitting)を乗り越えるのと同じ優しさ — 一つのブロックを逃しても失敗ではありません。)
+
+ブロックを押さえても、その中で通知に切られ続けるなら、カレンダーは守れても時間は失っています。ブロックの*中身*を実際に深く使う方法は、[ディープワーク — 深く没頭する方法](/ja/blog/deep-work-focus)に分単位の設計図としてまとめてあります。
 
 ## ブロックを大きな絵につなぐ
 
