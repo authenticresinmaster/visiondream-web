@@ -6,6 +6,7 @@ export const en: Post = {
   description:
     "A three-day resolution (작심삼일) isn't a willpower problem — it's a design problem. Four principles that make habits stick, plus how to use the Seowoo Vision Dream habit tracker.",
   date: "2026-06-18",
+  updated: "2026-08-16",
   category: "Habit",
   readMinutes: 5,
   emoji: "🔥",
@@ -30,7 +31,7 @@ When you know which dream this habit leads to, you can hold on when you waver. C
 
 ## What Happens When You Slip Is What Really Matters
 
-Missing one day doesn't mean you've ruined everything. Keeping just one rule — **"never miss twice in a row"** — is enough to keep a habit alive.
+Missing one day doesn't mean you've ruined everything. Keeping just one rule — **"never miss twice in a row"** — is enough to keep a habit alive. If you've already lost several days and it feels hard to pick back up, revive it tonight with the minimum version, following the 48-hour recovery procedure in [grit and consistency](/en/blog/grit-consistency).
 
 ## The Vision Dream Habit Tracker
 
@@ -45,6 +46,7 @@ export const ja: Post = {
   description:
     "三日坊主は意志の問題ではなく、設計の問題です。習慣を続けさせる4つの原理と、ソウ・ビジョンドリームの習慣トラッカー活用法。",
   date: "2026-06-18",
+  updated: "2026-08-16",
   category: "習慣",
   readMinutes: 5,
   emoji: "🔥",
@@ -69,7 +71,7 @@ export const ja: Post = {
 
 ## 崩れたときこそが本当に重要
 
-1日抜かしたからといって、すべてが台無しになったわけではありません。**「2回連続では抜かさない」**という1つのルールを守るだけで、習慣は生き残ります。
+1日抜かしたからといって、すべてが台無しになったわけではありません。**「2回連続では抜かさない」**という1つのルールを守るだけで、習慣は生き残ります。すでに何日か落として再開しづらいなら、[やり抜く力と継続](/ja/blog/grit-consistency)の48時間リカバリー手順どおり、今夜の最小バージョンから戻してください。
 
 ## ビジョンドリームの習慣トラッカー
 

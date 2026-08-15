@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Laziness isn't who you are. Most of the time it's a signal — low energy, low motivation, or a task that feels too big. Here's how to read that signal and start moving again, with the 2-minute rule, less friction, and a reason that pulls you forward.",
   date: "2026-07-03",
-  updated: "2026-08-15",
+  updated: "2026-08-16",
   category: "Mindset",
   readMinutes: 6,
   emoji: "🦥",
@@ -36,7 +36,7 @@ Notice that if the reluctance is really fear of doing it badly, that's a differe
 
 ## The 2-minute rule — make starting tiny
 
-Most "laziness" is really resistance to *starting*, not to the work itself. Once you're in motion, continuing is easy; it's the standing-still-at-the-edge that hurts. The 2-minute rule dissolves that edge: shrink the task until it takes two minutes or less. Not "clean the house" but "put one dish away." Not "write the report" but "open the document and write one sentence." The point isn't to finish in two minutes — it's to make **starting** so small that avoiding it takes more effort than doing it. Almost always, the two minutes turn into ten. (This is the engine behind [small wins](/en/blog/small-wins): tiny actions that build real momentum.)
+Most "laziness" is really resistance to *starting*, not to the work itself. Once you're in motion, continuing is easy; it's the standing-still-at-the-edge that hurts. The 2-minute rule dissolves that edge: shrink the task until it takes two minutes or less. Not "clean the house" but "put one dish away." Not "write the report" but "open the document and write one sentence." The point isn't to finish in two minutes — it's to make **starting** so small that avoiding it takes more effort than doing it. Almost always, the two minutes turn into ten. (This is the engine behind [small wins](/en/blog/small-wins): tiny actions that build real momentum.) Decide that two-minute version in advance as your bad-day "minimum version" and your record survives the days you collapse — see the minimum-version table in [grit and consistency](/en/blog/grit-consistency).
 
 ## Lower the friction around you
 
@@ -77,7 +77,7 @@ export const ja: Post = {
   description:
     "怠けは、あなたの正体ではありません。多くの場合それはサイン — エネルギー切れ、意欲の低下、あるいは大きすぎるタスク。そのサインの読み方と、2分ルール・摩擦を減らす・前へ引く理由で、もう一度動き出す方法を紹介します。",
   date: "2026-07-03",
-  updated: "2026-08-15",
+  updated: "2026-08-16",
   category: "メンタル・実行力",
   readMinutes: 6,
   emoji: "🦥",
@@ -107,7 +107,7 @@ export const ja: Post = {
 
 ## 2分ルール — 始まりを小さくする
 
-たいていの「怠け」は、仕事そのものではなく*始めること*への抵抗です。いったん動き出せば、続けるのは簡単。つらいのは、縁に立って止まっている時間です。2分ルールはその縁を溶かします — 2分以内でできるまでタスクを小さくするのです。「家を掃除する」ではなく「皿を一枚しまう」。「レポートを書く」ではなく「文書を開いて一文書く」。2分で終わらせるのが目的ではありません。**始める**ことを、避けるより楽なほど小さくするのが目的です。たいてい、その2分が10分に変わります。(これが[小さな成功](/ja/blog/small-wins)の原動力 — 本物の勢いを生む、ごく小さな行動です。)
+たいていの「怠け」は、仕事そのものではなく*始めること*への抵抗です。いったん動き出せば、続けるのは簡単。つらいのは、縁に立って止まっている時間です。2分ルールはその縁を溶かします — 2分以内でできるまでタスクを小さくするのです。「家を掃除する」ではなく「皿を一枚しまう」。「レポートを書く」ではなく「文書を開いて一文書く」。2分で終わらせるのが目的ではありません。**始める**ことを、避けるより楽なほど小さくするのが目的です。たいてい、その2分が10分に変わります。(これが[小さな成功](/ja/blog/small-wins)の原動力 — 本物の勢いを生む、ごく小さな行動です。)この2分版を「悪い日専用の最小バージョン」として先に決めておけば、崩れた日でも記録は生き残ります — [やり抜く力と継続](/ja/blog/grit-consistency)の最小バージョン設計表を参考にしてください。
 
 ## 周りの摩擦を下げる
 

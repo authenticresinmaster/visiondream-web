@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Waiting to feel motivated is why you never start. Motivation is a result of action, not a prerequisite for it. Here are 4 systems that get you moving when the feeling isn't there — and keep you going after.",
   date: "2026-06-22",
-  updated: "2026-06-22",
+  updated: "2026-08-16",
   category: "Psychology & Execution",
   readMinutes: 6,
   emoji: "⚡",
@@ -48,7 +48,7 @@ Stop relying on in-the-moment willpower. Put the running shoes by the door; leav
 
 ## On the flat days
 
-Some days the feeling just won't come — and that's fine. Systems are built precisely for those days. You don't need to feel inspired to check one small box. Do the tiny thing, let the streak hold, and let motivation catch up later. Consistency on flat days is what separates a system from a mood.
+Some days the feeling just won't come — and that's fine. Systems are built precisely for those days. You don't need to feel inspired to check one small box. Do the tiny thing, let the streak hold, and let motivation catch up later. Consistency on flat days is what separates a system from a mood. The concrete machinery for surviving those flat days — a bad-day minimum version and a 48-hour recovery procedure — is laid out in tables in [grit and consistency](/en/blog/grit-consistency).
 
 ## How VisionDream builds your motivation system
 
@@ -81,7 +81,7 @@ export const ja: Post = {
   description:
     "「やる気が出てから」と待つことこそ、始められない理由です。やる気は行動の前提ではなく、行動の結果です。気分が乗らないときでも動き出せる4つのシステムと、その後も続ける仕組みを紹介します。",
   date: "2026-06-22",
-  updated: "2026-06-22",
+  updated: "2026-08-16",
   category: "心理・実行力",
   readMinutes: 6,
   emoji: "⚡",
@@ -123,7 +123,7 @@ export const ja: Post = {
 
 ## 平らな日に
 
-どうしても気持ちが乗らない日もあります — それでいいのです。システムは、まさにそういう日のためにあります。小さなチェックを一つ付けるのに、奮い立つ必要はありません。小さなことをやり、連続記録を保ち、やる気は後から追いつかせる。平らな日の一貫性こそが、システムを気分から分けるものです。
+どうしても気持ちが乗らない日もあります — それでいいのです。システムは、まさにそういう日のためにあります。小さなチェックを一つ付けるのに、奮い立つ必要はありません。小さなことをやり、連続記録を保ち、やる気は後から追いつかせる。平らな日の一貫性こそが、システムを気分から分けるものです。その平らな日を乗り切る具体的な装置 — 悪い日専用の最小バージョンと48時間リカバリー手順 — は[やり抜く力と継続](/ja/blog/grit-consistency)に表で整理してあります。
 
 ## ビジョンドリームがやる気のシステムをつくる方法
 
