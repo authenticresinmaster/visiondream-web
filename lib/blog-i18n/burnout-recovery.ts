@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Burnout isn't laziness or weakness — it's what happens when you carry too much, alone, for too long. Here are the 4 stages of recovery and how to rebuild momentum with the smallest possible step instead of a bigger goal.",
   date: "2026-06-22",
-  updated: "2026-06-22",
+  updated: "2026-08-17",
   category: "Psychology & Execution",
   readMinutes: 7,
   emoji: "🔋",
@@ -23,7 +23,7 @@ export const en: Post = {
 
 ## Why burnout happens — and why "try harder" makes it worse
 
-Burnout isn't a bad mood you can push through. It's chronic depletion — emotional, mental, and physical — that builds up when demands outrun recovery for too long. The cruel part is that the usual advice ("just push through," "you're being lazy") is exactly what dug the hole deeper.
+Burnout isn't a bad mood you can push through. It's chronic depletion — emotional, mental, and physical — that builds up when demands outrun recovery for too long. The cruel part is that the usual advice ("just push through," "you're being lazy") is exactly what dug the hole deeper. If it really is closer to laziness, the fix is a completely different one — the table that separates the two is in [how to overcome laziness](/en/blog/overcome-laziness).
 
 When you're depleted, willpower is the *last* thing you have left. Leaning on it harder is like flooring the gas with an empty tank. (Why willpower fails and systems win is covered in [Success Is Multiplication, Not Addition](/en/blog/success-formula-bta).)
 
@@ -79,7 +79,7 @@ export const ja: Post = {
   description:
     "燃え尽きは怠けでも弱さでもなく、長いあいだ一人で抱えすぎた結果です。回復の4ステップと、「もっと大きな目標」ではなく「もっと小さな一歩」でやる気を取り戻す方法を整理しました。",
   date: "2026-06-22",
-  updated: "2026-06-22",
+  updated: "2026-08-17",
   category: "心理・実行力",
   readMinutes: 7,
   emoji: "🔋",
@@ -96,7 +96,7 @@ export const ja: Post = {
 
 ## なぜ燃え尽きるのか — そして「頑張れ」が逆効果な理由
 
-燃え尽きは、気合いで押し切れる気分の落ち込みではありません。要求が回復を上回る状態が長く続いたときに積み上がる、心・頭・体の慢性的な消耗です。やっかいなのは、よくある助言(「気合いだ」「甘えてる」)こそが、その穴をさらに深くしてきたことです。
+燃え尽きは、気合いで押し切れる気分の落ち込みではありません。要求が回復を上回る状態が長く続いたときに積み上がる、心・頭・体の慢性的な消耗です。やっかいなのは、よくある助言(「気合いだ」「甘えてる」)こそが、その穴をさらに深くしてきたことです。逆に本当に怠けのほうなら処方はまったく別物になるので、二つを分ける基準表は[怠け癖の克服 — 怠けは性格ではなく、サインです](/ja/blog/overcome-laziness)にまとめています。
 
 消耗しているとき、意志力は*最後に*残っているものではなく、*最初に*尽きるものです。そこにさらに頼るのは、空のタンクでアクセルを踏むようなもの。(なぜ意志ではなくシステムなのかは[成功は足し算ではなく掛け算です](/ja/blog/success-formula-bta)で詳しく扱っています。)
 

@@ -6,12 +6,12 @@ export const en: Post = {
   description:
     "Focus isn't a talent you're born with — it's a muscle you train. Here's how to strip out distractions, do one thing at a time, and slowly grow your attention span, so 'I just can't concentrate' turns into deep, steady work.",
   date: "2026-07-03",
-  updated: "2026-07-03",
+  updated: "2026-08-17",
   category: "Productivity",
   readMinutes: 6,
   emoji: "🧠",
   cover: "/blog/improve-focus.svg",
-  body: `"I can't concentrate." Most people say it like a fixed trait — as if some are simply born able to focus and the rest aren't. But attention isn't a gift; it's a **skill you build**. A scattered mind is usually a mind that's never been trained, surrounded by things designed to pull it apart. The good news: the same brain that scatters can be taught to gather. Not with more willpower, but with a few deliberate reps.
+  body: `"I can't concentrate." Most people say it like a fixed trait — as if some are simply born able to focus and the rest aren't. But attention isn't a gift; it's a **skill you build**. A scattered mind is usually a mind that's never been trained, surrounded by things designed to pull it apart. The good news: the same brain that scatters can be taught to gather. Not with more willpower, but with a few deliberate reps. One caveat: if the problem isn't scattering *after* you sit down but **not getting to the desk at all**, that's a starting-threshold problem rather than an attention one — start with the 2-minute rule in [how to overcome laziness](/en/blog/overcome-laziness) instead.
 
 > **Key takeaways**
 > - Focus is **not a talent** — it's an attention muscle you can train
@@ -79,12 +79,12 @@ export const ja: Post = {
   description:
     "集中力は生まれ持った才能ではなく、鍛える筋肉です。気を散らすものを取り除き、一度に一つだけやり、集中できる時間を少しずつ伸ばす — 「どうしても集中できない」を、深く安定した作業に変える方法を紹介します。",
   date: "2026-07-03",
-  updated: "2026-07-03",
+  updated: "2026-08-17",
   category: "時間管理",
   readMinutes: 6,
   emoji: "🧠",
   cover: "/blog/improve-focus.svg",
-  body: `「集中できない」。多くの人は、それを変えられない性質のように口にします — 生まれつき集中できる人とできない人がいる、というふうに。でも注意力は才能ではなく、**育てられる技術**です。散漫な頭は、たいてい一度も訓練されておらず、注意を引き裂くように作られたものに囲まれているだけ。良い知らせは、散らばる同じ脳が、集める訓練もできるということ。必要なのは、もっと強い意志ではなく、いくつかの意図的な反復です。
+  body: `「集中できない」。多くの人は、それを変えられない性質のように口にします — 生まれつき集中できる人とできない人がいる、というふうに。でも注意力は才能ではなく、**育てられる技術**です。散漫な頭は、たいてい一度も訓練されておらず、注意を引き裂くように作られたものに囲まれているだけ。良い知らせは、散らばる同じ脳が、集める訓練もできるということ。必要なのは、もっと強い意志ではなく、いくつかの意図的な反復です。ただし、座ったあとに散るのではなく**机に向かうこと自体ができない**なら、それは集中力ではなく始めるハードルの問題です — その場合は[怠け癖の克服 — 怠けは性格ではなく、サインです](/ja/blog/overcome-laziness)の2分ルールから手をつけるほうが早く進みます。
 
 > **この記事の要点**
 > - 集中力は**才能ではない** — 鍛えられる注意の筋肉

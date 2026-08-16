@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Beating yourself up after a setback feels productive, but it keeps you stuck. Self-compassion isn't soft — it's the faster way back. Here are 4 steps to recover from a failed day and take the next small step.",
   date: "2026-06-24",
-  updated: "2026-06-24",
+  updated: "2026-08-17",
   category: "Psychology & Execution",
   readMinutes: 6,
   emoji: "🤍",
@@ -23,7 +23,7 @@ export const en: Post = {
 
 ## Why beating yourself up backfires
 
-Harsh self-talk triggers a threat response — shame, defensiveness, avoidance. And avoidance is exactly what makes you skip the next attempt too. You end up protecting yourself from the thing you actually want to do. Self-compassion lowers that threat, so you can look at the slip honestly and move. It's the same reason [burnout recovery](/en/blog/burnout-recovery) starts with permission to pause, not more pressure.
+Harsh self-talk triggers a threat response — shame, defensiveness, avoidance. And avoidance is exactly what makes you skip the next attempt too. You end up protecting yourself from the thing you actually want to do. Self-compassion lowers that threat, so you can look at the slip honestly and move. It's the same reason [burnout recovery](/en/blog/burnout-recovery) starts with permission to pause, not more pressure. And when the self-blame is hardening into an identity verdict — "I'm just a lazy person" — read [how to overcome laziness](/en/blog/overcome-laziness) alongside this, which turns that sentence back into a readable state signal.
 
 | Self-criticism | Self-compassion |
 | --- | --- |
@@ -81,7 +81,7 @@ export const ja: Post = {
   description:
     "つまずいた後に自分を責めると、生産的に感じますが、かえって動けなくなります。自己への思いやりは甘えではなく、戻る近道です。失敗した一日から立ち直り、次の小さな一歩を踏む4ステップを紹介します。",
   date: "2026-06-24",
-  updated: "2026-06-24",
+  updated: "2026-08-17",
   category: "心理・実行力",
   readMinutes: 6,
   emoji: "🤍",
@@ -98,7 +98,7 @@ export const ja: Post = {
 
 ## なぜ自分を責めると逆効果なのか
 
-厳しい自己対話は脅威反応を引き起こします — 恥、防衛、回避。そして回避こそ、次の挑戦も飛ばさせるものです。結局、本当はやりたいことから、自分を守ってしまう。自己への思いやりはその脅威を下げ、つまずきを正直に見て、動けるようにします。[燃え尽きからの回復](/ja/blog/burnout-recovery)が、もっと圧力ではなく立ち止まる許可から始まるのと同じ理由です。
+厳しい自己対話は脅威反応を引き起こします — 恥、防衛、回避。そして回避こそ、次の挑戦も飛ばさせるものです。結局、本当はやりたいことから、自分を守ってしまう。自己への思いやりはその脅威を下げ、つまずきを正直に見て、動けるようにします。[燃え尽きからの回復](/ja/blog/burnout-recovery)が、もっと圧力ではなく立ち止まる許可から始まるのと同じ理由です。そして自責が「自分はただの怠け者だ」というアイデンティティの宣告に固まりかけているときは、その一文を読める状態のサインに戻す[怠け癖の克服 — 怠けは性格ではなく、サインです](/ja/blog/overcome-laziness)を併せて読んでみてください。
 
 | 自己批判 | 自己への思いやり |
 | --- | --- |
