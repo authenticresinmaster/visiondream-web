@@ -1,8 +1,8 @@
 {
     "brand":  "visiondream",
-    "updated":  "2026-08-14",
+    "updated":  "2026-08-16",
     "rate":  0.537,
-    "note":  "vision-index-monitor.ps1(주간)이 GSC 실측으로 갱신한다. 손으로 고치지 말 것.",
+    "note":  "index-monitor.ps1(주간)이 GSC 실측으로 갱신한다. 손으로 고치지 말 것.",
     "needsLinks":  [
                        "backcasting-goal-setting",
                        "evening-routine",
