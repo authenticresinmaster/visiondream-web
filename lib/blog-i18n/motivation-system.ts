@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Waiting to feel motivated is why you never start. Motivation is a result of action, not a prerequisite for it. Here are 4 systems that get you moving when the feeling isn't there — and keep you going after.",
   date: "2026-06-22",
-  updated: "2026-08-16",
+  updated: "2026-08-18",
   category: "Psychology & Execution",
   readMinutes: 6,
   emoji: "⚡",
@@ -44,7 +44,7 @@ You're not unmotivated — the step is just too big. "Write the report" is paral
 What you can see, you keep. A streak you don't want to break, a tree that grows as you act — visible progress is a motivation engine that runs on its own. Invisible effort feels like it doesn't count; visible effort compounds. ([Beating three-day quitting](/en/blog/beat-three-day-quitting) leans on exactly this.)
 
 ### 4. Design the environment
-Stop relying on in-the-moment willpower. Put the running shoes by the door; leave the book on the pillow; remove the one obstacle between you and starting. A good environment makes the right action the easy one, so you spend zero willpower choosing it.
+Stop relying on in-the-moment willpower. Put the running shoes by the door; leave the book on the pillow; remove the one obstacle between you and starting. A good environment makes the right action the easy one, so you spend zero willpower choosing it. Environment means time as well as space — re-deciding *when* every morning burns willpower too, so move that decision onto the calendar in advance with [time blocking](/en/blog/time-blocking). Only plans with a time on them actually happen.
 
 ## On the flat days
 
@@ -81,7 +81,7 @@ export const ja: Post = {
   description:
     "「やる気が出てから」と待つことこそ、始められない理由です。やる気は行動の前提ではなく、行動の結果です。気分が乗らないときでも動き出せる4つのシステムと、その後も続ける仕組みを紹介します。",
   date: "2026-06-22",
-  updated: "2026-08-16",
+  updated: "2026-08-18",
   category: "心理・実行力",
   readMinutes: 6,
   emoji: "⚡",
@@ -119,7 +119,7 @@ export const ja: Post = {
 見えるものは、続きます。途切れさせたくない連続記録、動くほど育つ樹 — 目に見える前進は、ひとりでに回るやる気のエンジンです。見えない努力は「数えられていない」と感じ、見える努力は積み上がります。([三日坊主を乗り越える](/ja/blog/beat-three-day-quitting)も、まさにこれに頼ります。)
 
 ### 4. 環境を設計する
-その場の意志力に頼るのをやめましょう。ランニングシューズをドアの前に置く。本を枕の上に残す。自分と「始める」の間にある障害を、一つ取り除く。良い環境は、正しい行動をいちばん楽な選択にし、選ぶための意志力をゼロにします。
+その場の意志力に頼るのをやめましょう。ランニングシューズをドアの前に置く。本を枕の上に残す。自分と「始める」の間にある障害を、一つ取り除く。良い環境は、正しい行動をいちばん楽な選択にし、選ぶための意志力をゼロにします。環境には空間だけでなく**時間**も含まれます — 「いつやるか」を毎朝決め直すこと自体が意志を使う作業なので、[タイムブロッキング](/ja/blog/time-blocking)でその判断を先にカレンダーへ移しておきましょう。時間を決めた計画だけが、実際に実行されます。
 
 ## 平らな日に
 

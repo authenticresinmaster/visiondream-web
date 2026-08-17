@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Focus isn't a talent you're born with — it's a muscle you train. Here's how to strip out distractions, do one thing at a time, and slowly grow your attention span, so 'I just can't concentrate' turns into deep, steady work.",
   date: "2026-07-03",
-  updated: "2026-08-17",
+  updated: "2026-08-18",
   category: "Productivity",
   readMinutes: 6,
   emoji: "🧠",
@@ -42,7 +42,7 @@ Multitasking feels productive, but the brain doesn't run two focused tasks at on
 
 ## Grow the focus muscle in reps
 
-You wouldn't expect to lift heavy on day one, and attention is no different. Start with a session short enough that you can't fail — even ten focused minutes. When it stops feeling hard, add five. The point isn't heroic marathons; it's stacking small, winnable reps so your attention span stretches over weeks. This is exactly how you [beat the three-day quitting](/en/blog/beat-three-day-quitting) trap — small enough to keep, repeated enough to grow.
+You wouldn't expect to lift heavy on day one, and attention is no different. Start with a session short enough that you can't fail — even ten focused minutes. When it stops feeling hard, add five. The point isn't heroic marathons; it's stacking small, winnable reps so your attention span stretches over weeks. This is exactly how you [beat the three-day quitting](/en/blog/beat-three-day-quitting) trap — small enough to keep, repeated enough to grow. And once those sessions grow into 25 or 50 minutes, give them a fixed home on the calendar: [time blocking](/en/blog/time-blocking) decides *when* you focus in advance, so you stop spending willpower every morning re-deciding it.
 
 ## Connect focus to something you actually want
 
@@ -79,7 +79,7 @@ export const ja: Post = {
   description:
     "集中力は生まれ持った才能ではなく、鍛える筋肉です。気を散らすものを取り除き、一度に一つだけやり、集中できる時間を少しずつ伸ばす — 「どうしても集中できない」を、深く安定した作業に変える方法を紹介します。",
   date: "2026-07-03",
-  updated: "2026-08-17",
+  updated: "2026-08-18",
   category: "時間管理",
   readMinutes: 6,
   emoji: "🧠",
@@ -115,7 +115,7 @@ export const ja: Post = {
 
 ## 反復で集中の筋肉を育てる
 
-初日から重いものを持ち上げようとはしないでしょう。注意も同じです。失敗しようがないほど短いセッションから始めます — たった10分の集中でも。それが苦でなくなったら、5分足す。狙いは英雄的なマラソンではなく、勝てる小さな反復を積んで、注意の持続時間を数週間かけて伸ばすこと。これはまさに[三日坊主を乗り越える](/ja/blog/beat-three-day-quitting)やり方です — 続けられるほど小さく、育つほど繰り返す。
+初日から重いものを持ち上げようとはしないでしょう。注意も同じです。失敗しようがないほど短いセッションから始めます — たった10分の集中でも。それが苦でなくなったら、5分足す。狙いは英雄的なマラソンではなく、勝てる小さな反復を積んで、注意の持続時間を数週間かけて伸ばすこと。これはまさに[三日坊主を乗り越える](/ja/blog/beat-three-day-quitting)やり方です — 続けられるほど小さく、育つほど繰り返す。そしてそのセッションが25分・50分に育ってきたら、カレンダーに定位置を与えましょう。[タイムブロッキング](/ja/blog/time-blocking)で「いつ集中するか」を先に決めておけば、毎朝それを決め直すのに意志を使わずに済みます。
 
 ## 集中を、本当に望むものにつなぐ
 

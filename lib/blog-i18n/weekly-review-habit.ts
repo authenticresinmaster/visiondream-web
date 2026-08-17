@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "A plan you set once and never revisit quietly dies. The weekly review is the loop that keeps it alive. Here's a simple 4-step weekly review (with the KPT frame) and how to realign it with your vision in 10 minutes.",
   date: "2026-06-22",
-  updated: "2026-06-22",
+  updated: "2026-08-18",
   category: "Habit",
   readMinutes: 7,
   emoji: "🔁",
@@ -35,7 +35,7 @@ A goal with no feedback loop is a guess you never check. Days blur together, sma
 ## The 4-step weekly review
 
 ### 1. Look back at the facts
-Before judging, just observe. What actually happened this week? What did you finish, what slipped, where did your time really go? Facts first, story later.
+Before judging, just observe. What actually happened this week? What did you finish, what slipped, where did your time really go? Facts first, story later. If "where did my time go" has no answer, start giving next week's hours a home with [time blocking](/en/blog/time-blocking) — once you can put planned blocks next to blocks you actually kept, the review turns from guesswork into data.
 
 ### 2. Learn — why did it go that way?
 Now ask *why*. What worked and is worth keeping? What got in the way? This is the **KPT** frame popular with high-performing teams:
@@ -84,7 +84,7 @@ export const ja: Post = {
   description:
     "一度立てて二度と見ない計画は、静かに死にます。週次レビューは、それを生かし続けるループです。シンプルな4ステップの振り返り(KPTフレーム付き)と、10分でビジョンに再整列する方法を紹介します。",
   date: "2026-06-22",
-  updated: "2026-06-22",
+  updated: "2026-08-18",
   category: "習慣",
   readMinutes: 7,
   emoji: "🔁",
@@ -113,7 +113,7 @@ export const ja: Post = {
 ## 週次レビューの4ステップ
 
 ### 1. 事実を振り返る
-評価する前に、まず観察します。今週、実際に何が起きたか。何を終え、何がずれ込み、時間はどこに消えたか。物語より先に、事実を。
+評価する前に、まず観察します。今週、実際に何が起きたか。何を終え、何がずれ込み、時間はどこに消えたか。物語より先に、事実を。「時間はどこへ消えたか」に答えられないなら、来週から[タイムブロッキング](/ja/blog/time-blocking)でカレンダーに居場所を作りましょう。計画したブロックと実際に守れたブロックを並べて見た瞬間、振り返りは当て推量からデータに変わります。
 
 ### 2. 学ぶ — なぜそうなったのか
 ここで*なぜ*を問います。何がうまくいき、続ける価値があるか。何が邪魔をしたか。これは高成果チームに人気の**KPT**フレームです:

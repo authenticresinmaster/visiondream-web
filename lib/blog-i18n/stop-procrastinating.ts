@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "You don't procrastinate because you're lazy — your brain is avoiding discomfort. That's why 'try harder' never works. Here's how to break the habit with a system instead of willpower: shrink the task, plan the recovery, and design the environment so starting is the easy choice.",
   date: "2026-07-10",
-  updated: "2026-08-15",
+  updated: "2026-08-18",
   category: "Habits",
   readMinutes: 7,
   emoji: "⏰",
@@ -32,7 +32,7 @@ So the problem was never your character. It's that you kept attacking a **brain-
 ## The system that beats procrastination — 3 parts
 
 ### 1. Shrink it until it's too small to avoid
-Your brain resists "write the report." It doesn't resist "open the document and write one sentence." Shrink the task until the first step takes five minutes or less. The goal isn't to finish — it's to remove the wall between you and starting. Once you're moving, momentum does the rest. (These are the same [small wins](/en/blog/small-wins) that quietly compound.)
+Your brain resists "write the report." It doesn't resist "open the document and write one sentence." Shrink the task until the first step takes five minutes or less. The goal isn't to finish — it's to remove the wall between you and starting. Once you're moving, momentum does the rest. (These are the same [small wins](/en/blog/small-wins) that quietly compound.) Give those five minutes a *time* and they get stronger still — that's why the 25-minute sprint block in [time blocking](/en/blog/time-blocking) works so well on tasks you've been avoiding. A task with no hour attached doesn't happen today, no matter how small you cut it.
 
 ### 2. Plan the recovery before you slip
 Here's what actually ends most habits: not the missed day, but the **spiral of self-blame** afterward. You miss once, feel like a failure, and quit the whole thing. So decide the recovery rule *in advance*: one missed day is allowed, and you simply resume the next day — no guilt tax, no starting from zero. Missing once is an accident; missing twice is a pattern. Protect against the first so it never becomes the second. (This is the real antidote to [three-day quitting](/en/blog/beat-three-day-quitting).)
@@ -82,7 +82,7 @@ export const ja: Post = {
   description:
     "先延ばしはあなたが怠けているからではありません。脳が不快さを避けているのです。だから「もっと頑張る」では直りません。意志ではなく仕組みで断ち切る方法 — タスクを小さく刻む、失敗の復帰ルールを決めておく、環境を設計して「始める」を楽にする — を紹介します。",
   date: "2026-07-10",
-  updated: "2026-08-15",
+  updated: "2026-08-18",
   category: "習慣",
   readMinutes: 7,
   emoji: "⏰",
@@ -108,7 +108,7 @@ export const ja: Post = {
 ## 先延ばしを倒す仕組み — 3つの部品
 
 ### 1. 避けようがないほど小さく刻む
-脳は「レポートを書く」に抵抗します。でも「ファイルを開いて一文だけ書く」には抵抗しません。最初の一歩が五分以下で終わるまで、タスクを小さくしましょう。目標は終わらせることではなく、あなたと「始める」の間にある壁を取り除くこと。動き出せば、あとは勢いがやってくれます。(これは静かに積み上がる[小さな成功](/ja/blog/small-wins)と同じ原理です。)
+脳は「レポートを書く」に抵抗します。でも「ファイルを開いて一文だけ書く」には抵抗しません。最初の一歩が五分以下で終わるまで、タスクを小さくしましょう。目標は終わらせることではなく、あなたと「始める」の間にある壁を取り除くこと。動き出せば、あとは勢いがやってくれます。(これは静かに積み上がる[小さな成功](/ja/blog/small-wins)と同じ原理です。)その五分に**時刻**まで付けると、さらに強くなります — [タイムブロッキング](/ja/blog/time-blocking)の25分スプリントが、先延ばししていた仕事に特によく効く理由がここにあります。「いつやるか」が決まっていない仕事は、どれだけ小さく刻んでも今日やらないままです。
 
 ### 2. つまずく前に、復帰の仕方を決めておく
 ほとんどの習慣を本当に終わらせるのは、休んだ日そのものではなく、その後の**自責のスパイラル**です。一度休み、自分をダメだと感じ、全部やめてしまう。だから復帰ルールを*前もって*決めておきます — 一日の中断は許す、翌日にただ再開する、罪悪感の税金も、ゼロからのやり直しもなし。一度休むのは事故、二度休むのはパターン。最初の一度を守れば、それが二度目にならずに済みます。(これが[三日坊主](/ja/blog/beat-three-day-quitting)への本当の解毒剤です。)
@@ -158,7 +158,7 @@ export const ko: Post = {
   description:
     "미루는 건 당신이 게을러서가 아닙니다 — 뇌가 불편함을 피하는 것뿐이에요. 그래서 '더 독하게 마음먹기'로는 안 고쳐집니다. 의지 대신 시스템으로 미루기를 끊는 법 — 잘게 쪼개기, 실패 복구 규칙 정해두기, 시작이 쉬워지게 환경 설계하기 — 을 정리했습니다.",
   date: "2026-07-10",
-  updated: "2026-08-15",
+  updated: "2026-08-18",
   category: "습관·루틴",
   readMinutes: 7,
   emoji: "⏰",
@@ -184,7 +184,7 @@ export const ko: Post = {
 ## 미루기를 이기는 시스템 — 3가지
 
 ### 1. 피할 수 없을 만큼 잘게 쪼개기
-뇌는 "보고서를 써"에는 저항합니다. 하지만 "문서를 열고 한 문장만 써"에는 저항하지 않아요. 첫 걸음이 5분 이하로 끝날 때까지 할 일을 작게 쪼개세요. 목표는 끝내는 게 아니라, 당신과 '시작' 사이의 벽을 없애는 것. 일단 움직이기 시작하면, 나머지는 관성이 해줍니다. (조용히 복리로 쌓이는 [작은 성공](/blog/small-wins)과 같은 원리예요.)
+뇌는 "보고서를 써"에는 저항합니다. 하지만 "문서를 열고 한 문장만 써"에는 저항하지 않아요. 첫 걸음이 5분 이하로 끝날 때까지 할 일을 작게 쪼개세요. 목표는 끝내는 게 아니라, 당신과 '시작' 사이의 벽을 없애는 것. 일단 움직이기 시작하면, 나머지는 관성이 해줍니다. (조용히 복리로 쌓이는 [작은 성공](/blog/small-wins)과 같은 원리예요.) 쪼갠 그 5분에 **시각까지** 붙이면 더 강해집니다 — [타임블로킹](/blog/time-blocking)의 25분 스프린트 블록이 미루던 일에 특히 잘 듣는 이유가 여기 있습니다. '언제 할지'가 정해지지 않은 일은, 아무리 작게 쪼개도 오늘 안 하게 되니까요.
 
 ### 2. 무너지기 전에, 복구하는 법을 정해두기
 대부분의 습관을 진짜로 끝내는 건, 놓친 그 하루가 아니라 그 뒤에 오는 **자책의 소용돌이**입니다. 한 번 놓치고, 실패자 같은 기분이 들고, 아예 전부 던져버리죠. 그러니 복구 규칙을 *미리* 정해두세요 — 하루 걸러도 괜찮다, 다음 날 그냥 다시 시작한다, 죄책감 세금도 없고 처음부터 다시도 없다. 한 번 놓치는 건 사고, 두 번 놓치는 건 패턴. 첫 번째를 막아서 그게 두 번째가 되지 않게 하는 거예요. (이게 [작심삼일](/blog/beat-three-day-quitting)의 진짜 해독제입니다.)
