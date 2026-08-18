@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Setting a goal is the easy part. Goals don't die on the day you write them — they die in the weeks nobody manages them. Here's the goal management loop: make it visible, break it into this week's actions, review weekly, adjust, and connect it to your vision.",
   date: "2026-07-05",
-  updated: "2026-07-05",
+  updated: "2026-08-19",
   category: "Goals",
   readMinutes: 6,
   emoji: "🎯",
@@ -39,7 +39,7 @@ Most advice obsesses over the left column. But a perfectly set goal with no mana
 
 A goal you can't see is a goal you forget. The first act of management is simply keeping the goal **in view** — a dashboard, a tracker, a board you glance at daily — so it stays in your decisions instead of drifting out of memory. Out of sight really is out of mind.
 
-Then comes the move that separates managers from wishers: **break the goal into this week's actions.** Not "what will I do this year," but "what, specifically, this week." A yearly goal is too far away to act on today; a weekly action is close enough to actually do. This is where big ambitions become [small wins](/en/blog/small-wins) you can string together.
+Then comes the move that separates managers from wishers: **break the goal into this week's actions.** Not "what will I do this year," but "what, specifically, this week." A yearly goal is too far away to act on today; a weekly action is close enough to actually do. This is where big ambitions become [small wins](/en/blog/small-wins) you can string together. And if you can’t even see the staircase from a yearly goal down to this week’s action, the middle steps are missing — [dream backcasting](/en/blog/backcasting-goal-setting) builds that bridge by coming down from the future to three months, then to this week.
 
 ## Step 3 & 4: Review weekly, then adjust
 
@@ -88,7 +88,7 @@ export const ja: Post = {
   description:
     "目標を立てるのは簡単な方です。目標は書いた日に死ぬのではなく、誰も管理しない数週間の中で死にます。目標管理のループ — 見える形にする、今週の行動に分ける、週次でレビューする、調整する、ビジョンにつなぐ — を紹介します。",
   date: "2026-07-05",
-  updated: "2026-07-05",
+  updated: "2026-08-19",
   category: "目標管理",
   readMinutes: 6,
   emoji: "🎯",
@@ -121,7 +121,7 @@ export const ja: Post = {
 
 見えない目標は、忘れられる目標です。管理の最初の一手は、目標を**視界に置き続ける**こと — ダッシュボード、トラッカー、毎日目に入るボード — そうして記憶から漂い出ず、判断の中に残るようにします。目に入らないものは、心からも消えるのです。
 
-次が、管理する人と願うだけの人を分ける一手 — **目標を今週の行動に分ける。**「今年何をするか」ではなく「今週、具体的に何をするか」。一年の目標は今日動くには遠すぎ、一週間の行動は実際にやれるほど近い。ここで大きな野心が、つなげられる[小さな勝利](/ja/blog/small-wins)に変わります。
+次が、管理する人と願うだけの人を分ける一手 — **目標を今週の行動に分ける。**「今年何をするか」ではなく「今週、具体的に何をするか」。一年の目標は今日動くには遠すぎ、一週間の行動は実際にやれるほど近い。ここで大きな野心が、つなげられる[小さな勝利](/ja/blog/small-wins)に変わります。ただ、一年の目標から今週の行動へ降りる階段そのものが見えないなら、途中の枠が空なのです — 未来から3ヶ月・今週へ逆向きに下りる[夢の逆算設計](/ja/blog/backcasting-goal-setting)が、その橋を掛けてくれます。
 
 ## ステップ3・4:週次でレビューし、調整する
 

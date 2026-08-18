@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "OKRs aren't just for companies. An Objective is one inspiring direction; Key Results are 2–3 measurable outcomes that prove you got there — not a to-do list. Here's how to run OKRs for yourself, quarter by quarter, and the three mistakes that quietly ruin them.",
   date: "2026-07-05",
-  updated: "2026-07-05",
+  updated: "2026-08-19",
   category: "Goals",
   readMinutes: 6,
   emoji: "📊",
@@ -38,7 +38,7 @@ This is the trap almost everyone falls into. "Go for a run," "read the book," "s
 
 ## Set by the quarter, check once a week, score 0 to 1
 
-A quarter — about twelve weeks — is long enough to move something real and short enough that you won't drift. Set your OKR at the start, then do one thing religiously: a **weekly check-in**. Once a week, score each Key Result from **0 to 1** — 0.3 if you've barely moved, 0.7 if you're on track, 1.0 if it's done. Here's the counterintuitive part borrowed straight from the original framework: **0.7 is a win, not a failure.** If you're hitting 1.0 on everything, your targets were too safe. That weekly rhythm is the engine of the whole thing — it's the same muscle behind a solid [weekly review habit](/en/blog/weekly-review-habit), just pointed at your OKRs.
+A quarter — about twelve weeks — is long enough to move something real and short enough that you won't drift. Set your OKR at the start, then do one thing religiously: a **weekly check-in**. Once a week, score each Key Result from **0 to 1** — 0.3 if you've barely moved, 0.7 if you're on track, 1.0 if it's done. Here's the counterintuitive part borrowed straight from the original framework: **0.7 is a win, not a failure.** If you're hitting 1.0 on everything, your targets were too safe. That weekly rhythm is the engine of the whole thing — it's the same muscle behind a solid [weekly review habit](/en/blog/weekly-review-habit), just pointed at your OKRs. And if you're stuck on what this quarter's Objective should even be, set the direction first with [dream backcasting](/en/blog/backcasting-goal-setting) — come down from the person you want to be in three years, then lift its three-month column straight into this quarter's Objective.
 
 ## The other two killers: too many, and too safe
 
@@ -79,7 +79,7 @@ export const ja: Post = {
   description:
     "OKRは会社だけのものではありません。Objectiveはわくわくする方向を一つ、Key Resultsはそれを証明する測定可能な結果を2〜3個 — やることリストではありません。四半期ごとに自分でOKRを回す方法と、静かに台無しにする3つの間違いを紹介します。",
   date: "2026-07-05",
-  updated: "2026-07-05",
+  updated: "2026-08-19",
   category: "目標管理",
   readMinutes: 6,
   emoji: "📊",
@@ -111,7 +111,7 @@ export const ja: Post = {
 
 ## 四半期で立て、週一回振り返り、0〜1で採点
 
-四半期 — およそ12週 — は、本物の何かを動かせるほど長く、脱線しないほど短い長さです。最初にOKRを立てたら、一つだけ愚直に続けます — **週一回の振り返り**です。週に一度、各Key Resultを**0〜1**で採点 — ほとんど動いていなければ0.3、順調なら0.7、完了なら1.0。ここが元の枠組みから借りた直感に反する部分 — **0.7は失敗ではなく勝ち**です。全部で1.0を出しているなら、狙いが安全すぎたということ。この週のリズムが全体のエンジンで、しっかりした[週次レビューの習慣](/ja/blog/weekly-review-habit)を支える筋肉を、そのままOKRに向けたものです。
+四半期 — およそ12週 — は、本物の何かを動かせるほど長く、脱線しないほど短い長さです。最初にOKRを立てたら、一つだけ愚直に続けます — **週一回の振り返り**です。週に一度、各Key Resultを**0〜1**で採点 — ほとんど動いていなければ0.3、順調なら0.7、完了なら1.0。ここが元の枠組みから借りた直感に反する部分 — **0.7は失敗ではなく勝ち**です。全部で1.0を出しているなら、狙いが安全すぎたということ。この週のリズムが全体のエンジンで、しっかりした[週次レビューの習慣](/ja/blog/weekly-review-habit)を支える筋肉を、そのままOKRに向けたものです。そもそも今四半期のObjectiveを何にするかで詰まるなら、3年後なりたい姿から逆向きに下りる[夢の逆算設計](/ja/blog/backcasting-goal-setting)で方向を先に決め、そこで出た3ヶ月の枠をそのまま今四半期のObjectiveに移してください。
 
 ## あとの二つの殺し屋:多すぎる・安全すぎる
 

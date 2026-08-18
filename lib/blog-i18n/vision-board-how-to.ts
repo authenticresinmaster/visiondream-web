@@ -6,6 +6,7 @@ export const en: Post = {
   description:
     "The conditions for an effective vision board and the 5 steps to build one. Why vision boards that only pin pictures fail, and how to connect them to dreams, goals, and habits.",
   date: "2026-06-18",
+  updated: "2026-08-19",
   category: "Practical Guide",
   readMinutes: 6,
   emoji: "🗂️",
@@ -26,7 +27,7 @@ export const en: Post = {
 Split it into sections for each area of life — business, finance, health, relationships, learning, spirituality. Keep it balanced so it doesn't lean to one side.
 
 ### 2. Write it as a concrete scene
-Instead of "get healthy," write it as a scene you have **already achieved**, like "me, running 10km three times a week with 15% body fat."
+Instead of "get healthy," write it as a scene you have **already achieved**, like "me, running 10km three times a week with 15% body fat." Once the scene exists, draw the route backward from it to today — [dream backcasting](/en/blog/backcasting-goal-setting) fills those five columns in about thirty minutes.
 
 ### 3. Break dreams down into goals
 Attach a measurable goal to each Dream that you can reach within three months. Even a big Dream isn't scary once you can see it as the sum of small Goals.
@@ -48,6 +49,7 @@ export const ja: Post = {
   description:
     "効果のあるビジョンボードの条件と作成5ステップ。写真を貼るだけのビジョンボードが失敗する理由、そして夢・目標・習慣へとつなげる方法をお伝えします。",
   date: "2026-06-18",
+  updated: "2026-08-19",
   category: "実践ガイド",
   readMinutes: 6,
   emoji: "🗂️",
@@ -68,7 +70,7 @@ export const ja: Post = {
 事業・財政・健康・人間関係・学習・霊性など、人生の領域ごとに枠を分けます。一方に偏らないようバランスを見ます。
 
 ### 2. 具体的な場面として書く
-「健康になる」ではなく、「週3回10km走り、体脂肪15％の私」のように、**すでに叶えた場面**として書きます。
+「健康になる」ではなく、「週3回10km走り、体脂肪15％の私」のように、**すでに叶えた場面**として書きます。場面を書けたら、その未来から今日まで逆向きに経路を描いてみてください — [夢の逆算設計](/ja/blog/backcasting-goal-setting)がその5つの枠を30分で埋める方法です。
 
 ### 3. 夢を目標に分解する
 それぞれの夢ごとに、3か月以内に測定可能な目標を付けます。大きな夢も、小さな目標の合計として見えれば怖くありません。
