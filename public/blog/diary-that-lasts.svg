@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="다이어리 사기 전 점검 3가지: 빠진 날 규칙 자리, 이월 칸, 주간 한 면">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">다이어리 사기 전 점검 3가지</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">어떤 걸 고르냐보다, 처음 빼먹은 다음 날이 결과를 정한다</text>
+
+  <g>
+    <rect x="40" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="168" cy="142" r="22" fill="#3f7cb3"/>
+    <text x="168" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">1</text>
+    <text x="168" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">빠진 날 규칙 자리</text>
+    <text x="168" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">여백·표시칸이 있는가</text>
+    <line x1="88" y1="230" x2="248" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="168" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">거른 날은 사선 하나</text>
+    <text x="168" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">소급해 채우지 않는다</text>
+  </g>
+
+  <g>
+    <rect x="312" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="440" cy="142" r="22" fill="#7a6ca8"/>
+    <text x="440" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">2</text>
+    <text x="440" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">이월 칸</text>
+    <text x="440" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">내일로 옮길 공간이 있는가</text>
+    <line x1="360" y1="230" x2="520" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="440" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">못 한 것 딱 1개만</text>
+    <text x="440" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">목록 전체를 옮기지 않는다</text>
+  </g>
+
+  <g>
+    <rect x="584" y="100" width="256" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="712" cy="142" r="22" fill="#568a35"/>
+    <text x="712" y="150" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="18" font-weight="800">3</text>
+    <text x="712" y="188" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">주간 한 면</text>
+    <text x="712" y="212" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">7일을 한눈에 보는가</text>
+    <line x1="632" y1="230" x2="792" y2="230" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="712" y="256" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">무너졌다가 아니라</text>
+    <text x="712" y="277" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12.5">어디서 무너지는지가 보인다</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">첫 30일은 한 주에 한 겹씩 — 1주 한 줄 · 2주 이월 · 3주 O/X · 4주 회고 3줄</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">1년 내내 유효한 규칙 하나 — 이틀 연속으로는 거르지 않는다</text>
+</svg>

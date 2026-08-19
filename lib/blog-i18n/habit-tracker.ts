@@ -43,7 +43,7 @@ Not five. One. A tracker with ten rows becomes a daily report card you'll grow t
 No scores, no percentages, no "how well did I do." Just a box you fill or leave empty. Binary tracking removes the judgment that makes people quit. Did you do the thing, yes or no? Fill the box. That's the entire mechanic.
 
 ### 3. Leave the missed box blank — and fill the next day
-This is the whole point. When you miss a day, **do not** cross it out, don't add a sad face, don't "make up" for it. Leave it blank and simply fill tomorrow's box. A blank square between two filled ones is invisible in a month. A guilt spiral is not. The rule is one sentence: *miss a day, come back the next.* (Every one of those small returns is a [small win](/en/blog/small-wins) that rebuilds momentum.)
+This is the whole point. When you miss a day, **do not** cross it out, don't add a sad face, don't "make up" for it. Leave it blank and simply fill tomorrow's box. A blank square between two filled ones is invisible in a month. A guilt spiral is not. The rule is one sentence: *miss a day, come back the next.* (Every one of those small returns is a [small win](/en/blog/small-wins) that rebuilds momentum.) If you are keeping the tracker on paper, this rule only works when the book has somewhere to mark a skipped day — one of the [3 checks to run before you buy a planner](/en/blog/diary-that-lasts).
 
 ### 4. Design in 66 days, not a perfect chain
 Research on habit formation points to roughly **66 days** for a behavior to feel automatic — and crucially, that study found missing an occasional day did **not** derail the process. So build your tracker as a 66-day board, not a fragile unbroken chain. The goal isn't "never miss." The goal is to keep showing up across those two-plus months. (That patient, keep-going stance is exactly [consistency over intensity](/en/blog/grit-consistency).)
@@ -125,7 +125,7 @@ export const ja: Post = {
 点数も、パーセントも、「どれだけうまくできたか」もなし。埋めるか、空けるかのマスだけ。二択の記録は、人をやめさせる「評価」を取り除きます。やったか、やらなかったか。埋める。仕組みはこれだけです。
 
 ### 3. 抜けたマスは空白に — 翌日を埋める
-これがすべての核心です。抜けた日は、**バツを付けない**、悲しい顔も描かない、「取り返そう」ともしない。空白のまま、明日のマスをただ埋める。埋まった二つの間の空白マスは、一ヶ月後には見えなくなります。罪悪感のスパイラルは消えません。ルールは一文 — *抜けたら、翌日に戻る*。(その小さな復帰の一つ一つが、勢いを取り戻す[小さな成功](/ja/blog/small-wins)です。)
+これがすべての核心です。抜けた日は、**バツを付けない**、悲しい顔も描かない、「取り返そう」ともしない。空白のまま、明日のマスをただ埋める。埋まった二つの間の空白マスは、一ヶ月後には見えなくなります。罪悪感のスパイラルは消えません。ルールは一文 — *抜けたら、翌日に戻る*。(その小さな復帰の一つ一つが、勢いを取り戻す[小さな成功](/ja/blog/small-wins)です。)紙の手帳でトラッカーを付けるなら、このルールは「抜けた日を印せる場所」がある手帳でしか働きません — [手帳を買う前の点検3つ](/ja/blog/diary-that-lasts)の一つ目です。
 
 ### 4. 途切れない鎖ではなく、66日で設計する
 習慣形成の研究は、行動が自動的に感じられるまでおよそ**66日**を指し示しています — そして重要なのは、その研究が、たまに一日抜けても過程は**脱線しなかった**と見出したことです。だからトラッカーは、壊れやすい途切れない鎖ではなく、66日のボードとして作りましょう。目標は「絶対に抜かない」ことではなく、その2ヶ月余りにわたり現れ続けることです。(その辛抱強く続ける姿勢こそ[強度より継続](/ja/blog/grit-consistency)です。)
@@ -207,7 +207,7 @@ export const ko: Post = {
 점수도, 퍼센트도, "얼마나 잘했나"도 없어요. 채우거나 비우는 칸 하나뿐이에요. 이진법 기록은 사람을 포기하게 만드는 '평가'를 없애줘요. 했나, 안 했나? 칸을 채워요. 작동 원리는 이게 전부예요.
 
 ### 3. 빠진 칸은 비워두고 — 다음 날을 채운다
-이게 전부의 핵심이에요. 하루 빠지면 **엑스 치지 마세요**, 우는 얼굴도 그리지 말고, "만회"하려고도 하지 마세요. 그냥 비워두고 내일 칸을 채우세요. 채워진 두 칸 사이의 빈칸 하나는 한 달 뒤엔 안 보여요. 하지만 죄책감의 소용돌이는 안 사라져요. 규칙은 한 문장이에요. *하루 빠지면, 다음 날 돌아온다.* (그 작은 복귀 하나하나가 다시 탄력을 만드는 [작은 성공](/blog/small-wins)이에요.)
+이게 전부의 핵심이에요. 하루 빠지면 **엑스 치지 마세요**, 우는 얼굴도 그리지 말고, "만회"하려고도 하지 마세요. 그냥 비워두고 내일 칸을 채우세요. 채워진 두 칸 사이의 빈칸 하나는 한 달 뒤엔 안 보여요. 하지만 죄책감의 소용돌이는 안 사라져요. 규칙은 한 문장이에요. *하루 빠지면, 다음 날 돌아온다.* (그 작은 복귀 하나하나가 다시 탄력을 만드는 [작은 성공](/blog/small-wins)이에요.) 종이 다이어리에 트래커를 붙일 생각이라면, 이 규칙은 **빠진 날을 표시할 자리가 있는 제품**에서만 작동해요 — [다이어리 사기 전 점검 3가지](/blog/diary-that-lasts)의 첫 번째 항목이에요.
 
 ### 4. 끊기지 않는 사슬이 아니라 66일로 설계한다
 습관 형성 연구는 행동이 자동처럼 느껴지기까지 대략 **66일**을 가리켜요. 그리고 결정적으로, 그 연구는 가끔 하루 빠져도 과정이 **틀어지지 않았다**는 걸 발견했어요. 그러니 트래커를 부서지기 쉬운 끊기지 않는 사슬이 아니라, 66일짜리 판으로 만드세요. 목표는 "절대 안 빠지기"가 아니에요. 목표는 그 두 달 남짓 동안 계속 나타나는 거예요. (그 끈기 있게 계속하는 태도가 바로 [강도보다 꾸준함](/blog/grit-consistency)이에요.)

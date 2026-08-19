@@ -48,7 +48,7 @@ That's it. Three minutes, no app, no cushion required. Do it once a day and it b
 
 ## Noticing thoughts without being run by them
 
-The biggest misunderstanding is thinking mindfulness means having *no* thoughts. Thoughts will keep coming — that's healthy. The skill is watching them arrive without climbing aboard every one. A useful move: when a thought shows up, quietly name it — *"planning," "worrying," "remembering"* — and let it float by like a cloud. Naming it creates just enough distance that the thought stops being an order you must obey and becomes something you can simply observe. Over time, that same distance is what keeps a hard day from turning into a [full-blown slump](/en/blog/beat-slump).
+The biggest misunderstanding is thinking mindfulness means having *no* thoughts. Thoughts will keep coming — that's healthy. The skill is watching them arrive without climbing aboard every one. A useful move: when a thought shows up, quietly name it — *"planning," "worrying," "remembering"* — and let it float by like a cloud. Naming it creates just enough distance that the thought stops being an order you must obey and becomes something you can simply observe. Over time, that same distance is what keeps a hard day from turning into a [full-blown slump](/en/blog/beat-slump). And this naming-and-releasing move works at your desk too — the "parking-lot note" in [how to improve focus](/en/blog/improve-focus) is simply the paper version of this same skill.
 
 ## Coming back to your vision
 
@@ -127,7 +127,7 @@ export const ja: Post = {
 
 ## 思考に振り回されず、気づく
 
-いちばん多い誤解は、マインドフルネスを「思考を*なくす*こと」だと思うことです。思考はやってき続けます — それが健全です。スキルは、思考が来るのを、いちいち乗り込まずに眺めること。役立つ一手 — 思考が現れたら、静かに名前をつけます — *「計画」「心配」「思い出」* — そして雲のように流します。名づけるだけで、ちょうどいい距離が生まれ、思考は従うべき命令ではなく、ただ観察できる何かになります。その同じ距離が、やがて、つらい一日が[本格的なスランプ](/ja/blog/beat-slump)に変わるのを防ぎます。
+いちばん多い誤解は、マインドフルネスを「思考を*なくす*こと」だと思うことです。思考はやってき続けます — それが健全です。スキルは、思考が来るのを、いちいち乗り込まずに眺めること。役立つ一手 — 思考が現れたら、静かに名前をつけます — *「計画」「心配」「思い出」* — そして雲のように流します。名づけるだけで、ちょうどいい距離が生まれ、思考は従うべき命令ではなく、ただ観察できる何かになります。その同じ距離が、やがて、つらい一日が[本格的なスランプ](/ja/blog/beat-slump)に変わるのを防ぎます。そしてこの「名づけて流す」は机の前でもそのまま使えます — [集中力を高める方法](/ja/blog/improve-focus)で言う「待機メモ」は、この技術の紙版にほかなりません。
 
 ## もう一度、ビジョンへ
 

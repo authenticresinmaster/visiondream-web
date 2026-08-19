@@ -36,8 +36,10 @@ export function MobileNav({ lang = "ko" }: { lang?: Lang }) {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
+  // 데스크톱 nav를 xl부터 펼치도록 올렸으므로(PageShell) 여기도 xl 기준으로 맞춘다.
+  // lg로 두면 1024~1279px 구간에서 양쪽 다 숨어 메뉴가 통째로 사라진다.
   return (
-    <div className="lg:hidden">
+    <div className="xl:hidden">
       <button
         type="button"
         aria-label="메뉴 열기"

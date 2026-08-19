@@ -25,6 +25,8 @@ export const en: Post = {
 
 Burnout isn't a bad mood you can push through. It's chronic depletion — emotional, mental, and physical — that builds up when demands outrun recovery for too long. The cruel part is that the usual advice ("just push through," "you're being lazy") is exactly what dug the hole deeper. If it really is closer to laziness, the fix is a completely different one — the table that separates the two is in [how to overcome laziness](/en/blog/overcome-laziness).
 
+The first symptom is usually your attention. If words stop registering every afternoon and sleep doesn't refresh you, that isn't distraction — it's recovery debt. (That's the "energy type" in [how to improve focus](/en/blog/improve-focus), and clearing distractions won't touch it.)
+
 When you're depleted, willpower is the *last* thing you have left. Leaning on it harder is like flooring the gas with an empty tank. (Why willpower fails and systems win is covered in [Success Is Multiplication, Not Addition](/en/blog/success-formula-bta).)
 
 | Pushing through burnout | Recovering from burnout |
@@ -97,6 +99,8 @@ export const ja: Post = {
 ## なぜ燃え尽きるのか — そして「頑張れ」が逆効果な理由
 
 燃え尽きは、気合いで押し切れる気分の落ち込みではありません。要求が回復を上回る状態が長く続いたときに積み上がる、心・頭・体の慢性的な消耗です。やっかいなのは、よくある助言(「気合いだ」「甘えてる」)こそが、その穴をさらに深くしてきたことです。逆に本当に怠けのほうなら処方はまったく別物になるので、二つを分ける基準表は[怠け癖の克服 — 怠けは性格ではなく、サインです](/ja/blog/overcome-laziness)にまとめています。
+
+最初に出るサインは、たいてい集中力です。午後になると文字が頭に入らず、寝てもすっきりしないなら、それは気の散りではなく回復の負債です。([集中力を高める方法](/ja/blog/improve-focus)でいう「エネルギー型」がこの状態で、気を散らすものをいくら片づけても変わりません。)
 
 消耗しているとき、意志力は*最後に*残っているものではなく、*最初に*尽きるものです。そこにさらに頼るのは、空のタンクでアクセルを踏むようなもの。(なぜ意志ではなくシステムなのかは[成功は足し算ではなく掛け算です](/ja/blog/success-formula-bta)で詳しく扱っています。)
 

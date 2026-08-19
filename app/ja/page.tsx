@@ -46,12 +46,12 @@ export default function Home() {
       <JsonLd data={videosJsonLd("ja")} />
       {/* ヘッダー */}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
-          <div className="flex items-center gap-2">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3.5">
+          <div className="flex shrink-0 items-center gap-2 whitespace-nowrap">
             <span className="text-xl">🌳</span>
             <span className="text-lg font-extrabold text-navy">ソウ・ビジョンドリーム</span>
           </div>
-          <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
+          <nav className="hidden items-center gap-4 whitespace-nowrap text-sm font-semibold text-navy/70 xl:flex">
             <Link href="/ja/features" className="hover:text-brand">機能</Link>
             <Link href="/ja/method" className="hover:text-brand">成功法則</Link>
             <Link href="/ja/pricing" className="hover:text-brand">料金プラン</Link>
@@ -62,8 +62,8 @@ export default function Home() {
             <Link href="/ja/about" className="hover:text-brand">ストーリー</Link>
             <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA ランディング</a>
           </nav>
-          <div className="flex items-center gap-3">
-            <div className="hidden items-center gap-3 lg:flex">
+          <div className="flex shrink-0 items-center gap-3">
+            <div className="hidden items-center gap-3 whitespace-nowrap xl:flex">
               <LangSwitch />
               <AuthNav />
               <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">

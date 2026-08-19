@@ -38,7 +38,7 @@ Your brain resists "write the report." It doesn't resist "open the document and 
 Here's what actually ends most habits: not the missed day, but the **spiral of self-blame** afterward. You miss once, feel like a failure, and quit the whole thing. So decide the recovery rule *in advance*: one missed day is allowed, and you simply resume the next day — no guilt tax, no starting from zero. Missing once is an accident; missing twice is a pattern. Protect against the first so it never becomes the second. (This is the real antidote to [three-day quitting](/en/blog/beat-three-day-quitting).)
 
 ### 3. Design the environment so the right choice is the easy one
-Willpower is unreliable; environment is not. Put your running shoes by the door. Leave the book on your pillow. Log out of the app that eats your evenings and move it off your home screen. You're not trying to be stronger than temptation — you're moving temptation out of arm's reach. Every bit of friction you delete from the good habit, and add to the bad one, is willpower you never have to spend. And once you've started, the next problem is staying — [deep work](/en/blog/deep-work-focus) shows how to protect a block so the task you finally began doesn't get interrupted into nothing.
+Willpower is unreliable; environment is not. Put your running shoes by the door. Leave the book on your pillow. Log out of the app that eats your evenings and move it off your home screen. You're not trying to be stronger than temptation — you're moving temptation out of arm's reach. Every bit of friction you delete from the good habit, and add to the bad one, is willpower you never have to spend. And once you've started, the next problem is staying — [deep work](/en/blog/deep-work-focus) shows how to protect a block so the task you finally began doesn't get interrupted into nothing. If you keep drifting *inside* that block, the three-layer sweep in [how to improve focus](/en/blog/improve-focus) is the environment design for your attention — most people clear the desk and forget the third layer, their own head.
 
 ## Start today
 
@@ -114,7 +114,7 @@ export const ja: Post = {
 ほとんどの習慣を本当に終わらせるのは、休んだ日そのものではなく、その後の**自責のスパイラル**です。一度休み、自分をダメだと感じ、全部やめてしまう。だから復帰ルールを*前もって*決めておきます — 一日の中断は許す、翌日にただ再開する、罪悪感の税金も、ゼロからのやり直しもなし。一度休むのは事故、二度休むのはパターン。最初の一度を守れば、それが二度目にならずに済みます。(これが[三日坊主](/ja/blog/beat-three-day-quitting)への本当の解毒剤です。)
 
 ### 3. 正しい選択が楽になるよう、環境を設計する
-意志力はあてになりませんが、環境はあてになります。ランニングシューズを玄関に置く。本を枕の上に置く。夜を食い尽くすアプリはログアウトして、ホーム画面から追い出す。誘惑より強くなろうとするのではなく、誘惑を手の届く範囲から動かすのです。良い習慣から取り除き、悪い習慣に足した摩擦のぶんだけ、使わずに済む意志力が増えます。そして始めたあとの次の課題は「留まること」です — せっかく始めた作業が中断で消えないようブロックを守る方法は[ディープワーク](/ja/blog/deep-work-focus)にまとめてあります。
+意志力はあてになりませんが、環境はあてになります。ランニングシューズを玄関に置く。本を枕の上に置く。夜を食い尽くすアプリはログアウトして、ホーム画面から追い出す。誘惑より強くなろうとするのではなく、誘惑を手の届く範囲から動かすのです。良い習慣から取り除き、悪い習慣に足した摩擦のぶんだけ、使わずに済む意志力が増えます。そして始めたあとの次の課題は「留まること」です — せっかく始めた作業が中断で消えないようブロックを守る方法は[ディープワーク](/ja/blog/deep-work-focus)にまとめてあります。そのブロックの*中*で逸れ続けるなら、[集中力を高める方法](/ja/blog/improve-focus)の3層除去が注意の環境設計です — 多くの人は机だけ片づけて、三層目である自分の頭の中を忘れます。
 
 ## 今日から始める
 
@@ -190,7 +190,7 @@ export const ko: Post = {
 대부분의 습관을 진짜로 끝내는 건, 놓친 그 하루가 아니라 그 뒤에 오는 **자책의 소용돌이**입니다. 한 번 놓치고, 실패자 같은 기분이 들고, 아예 전부 던져버리죠. 그러니 복구 규칙을 *미리* 정해두세요 — 하루 걸러도 괜찮다, 다음 날 그냥 다시 시작한다, 죄책감 세금도 없고 처음부터 다시도 없다. 한 번 놓치는 건 사고, 두 번 놓치는 건 패턴. 첫 번째를 막아서 그게 두 번째가 되지 않게 하는 거예요. (이게 [작심삼일](/blog/beat-three-day-quitting)의 진짜 해독제입니다.)
 
 ### 3. 옳은 선택이 쉬운 선택이 되게, 환경을 설계하기
-의지력은 못 믿을 것이지만, 환경은 믿을 수 있습니다. 운동화를 현관 앞에 둬요. 책을 베개 위에 올려두고요. 저녁을 잡아먹는 앱은 로그아웃하고 홈 화면에서 치워버리세요. 유혹보다 강해지려는 게 아니라, 유혹을 팔 닿는 거리 밖으로 옮기는 겁니다. 좋은 습관에서 덜어내고 나쁜 습관에 더한 마찰만큼, 안 써도 되는 의지력이 늘어나요. 그리고 시작한 다음의 과제는 '머무르는 것'입니다 — 어렵게 시작한 일이 중간에 끊겨 사라지지 않게 블록을 지키는 방법은 [딥워크 — 깊이 몰입하는 법](/blog/deep-work-focus)에 정리해 두었습니다.
+의지력은 못 믿을 것이지만, 환경은 믿을 수 있습니다. 운동화를 현관 앞에 둬요. 책을 베개 위에 올려두고요. 저녁을 잡아먹는 앱은 로그아웃하고 홈 화면에서 치워버리세요. 유혹보다 강해지려는 게 아니라, 유혹을 팔 닿는 거리 밖으로 옮기는 겁니다. 좋은 습관에서 덜어내고 나쁜 습관에 더한 마찰만큼, 안 써도 되는 의지력이 늘어나요. 그리고 시작한 다음의 과제는 '머무르는 것'입니다 — 어렵게 시작한 일이 중간에 끊겨 사라지지 않게 블록을 지키는 방법은 [딥워크 — 깊이 몰입하는 법](/blog/deep-work-focus)에 정리해 두었습니다. 그 블록 *안에서* 자꾸 새는 게 문제라면, [집중력 높이는 법](/blog/improve-focus)의 방해요소 3층 제거가 곧 주의력을 위한 환경 설계입니다 — 대부분은 책상만 치우고 세 번째 층, 자기 머릿속을 빼먹습니다.
 
 ## 오늘 시작하기
 

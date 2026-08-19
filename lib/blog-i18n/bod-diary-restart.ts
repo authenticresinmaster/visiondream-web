@@ -18,7 +18,7 @@ export const ko: Post = {
 
 그런데 그날 무너진 건 당신의 의지가 아닙니다. **하루를 빼먹었을 때 붙잡아줄 장치가 아무 데도 없었다는 사실**입니다. 종이는 아무 말도 하지 않아요. 빈칸을 남겨도 봐주지 않고, 이월해주지도 않고, "괜찮아, 오늘부터 다시"라고 말해주지도 않습니다. 그냥 하얗게 비어 있는 채로, 매일 당신을 노려봅니다.
 
-이 글은 다이어리 리뷰가 아닙니다. **다이어리가 3일째에 덮이는 정확한 지점 세 곳**과, 이미 산 그 다이어리를 다시 펴게 만드는 설계법입니다. 새 다이어리를 사기 전에 5분만 읽어보세요.
+이 글은 다이어리 리뷰가 아닙니다. **다이어리가 3일째에 덮이는 정확한 지점 세 곳**과, 이미 산 그 다이어리를 다시 펴게 만드는 설계법입니다. 새 다이어리를 사기 전에 5분만 읽어보세요. (아직 고르는 중이시라면 [다이어리 사기 전 점검 3가지](/blog/diary-that-lasts)를 먼저 보셔도 좋습니다.)
 
 > **핵심 요약**
 > - 다이어리가 멈춘 건 의지가 아니라 **빠진 하루를 처리하는 규칙이 없어서** — 종이는 이월도, 예외도 모른다
@@ -150,7 +150,7 @@ Day one, you wrote everything. Day two, you managed. Then day three came — the
 
 But what broke that day wasn't your willpower. It was the fact that **nothing in that planner catches you when you miss a day**. Paper says nothing. It doesn't roll anything over, doesn't grant exceptions, doesn't say "that's fine, start again today." It just sits there, blank, staring at you.
 
-This isn't a planner review. It's about **the three exact points where a planner dies on day three** — and how to reopen the one already in your drawer. Read this for five minutes before you buy another one.
+This isn't a planner review. It's about **the three exact points where a planner dies on day three** — and how to reopen the one already in your drawer. Read this for five minutes before you buy another one. (If you are still choosing, the [3 checks to run before you buy](/en/blog/diary-that-lasts) come first.)
 
 > **Key takeaways**
 > - Your planner didn't stall from weak will — it stalled because **there was no rule for a missed day**
@@ -282,7 +282,7 @@ export const ja: Post = {
 
 でも、その日に折れたのはあなたの意志ではありません。**一日抜けたときに支えてくれる仕組みが、どこにもなかった**という事実です。紙は何も言いません。空欄を見逃してくれないし、繰り越してもくれないし、「大丈夫、今日からまた」とも言ってくれない。ただ白いまま、毎日あなたを見つめているだけです。
 
-これは手帳のレビューではありません。**手帳が3日目に閉じられる、正確な3つの地点**と、引き出しの中のその手帳をもう一度開かせる設計の話です。新しい手帳を買う前に、5分だけ読んでみてください。
+これは手帳のレビューではありません。**手帳が3日目に閉じられる、正確な3つの地点**と、引き出しの中のその手帳をもう一度開かせる設計の話です。新しい手帳を買う前に、5分だけ読んでみてください。(まだ選んでいる途中なら、[手帳を買う前の点検3つ](/ja/blog/diary-that-lasts)を先にどうぞ。)
 
 > **この記事の要点**
 > - 手帳が止まったのは意志ではなく、**抜けた一日を処理するルールがなかった**から — 紙は繰り越しも例外も知らない

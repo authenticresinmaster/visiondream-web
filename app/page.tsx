@@ -44,12 +44,12 @@ export default async function Home() {
       <JsonLd data={[softwareApplicationSchema, homeFaqSchema, ...videosJsonLd("ko")]} />
       {/* 헤더 */}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
-          <div className="flex items-center gap-2">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3.5">
+          <div className="flex shrink-0 items-center gap-2 whitespace-nowrap">
             <span className="text-xl">🌳</span>
             <span className="text-lg font-extrabold text-navy">서우 비전드림</span>
           </div>
-          <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
+          <nav className="hidden items-center gap-4 whitespace-nowrap text-sm font-semibold text-navy/70 xl:flex">
             <Link href="/features" className="hover:text-brand">기능</Link>
             <Link href="/method" className="hover:text-brand">성공법칙</Link>
             <Link href="/pricing" className="hover:text-brand">요금제</Link>
@@ -61,11 +61,11 @@ export default async function Home() {
             <Link href="/about" className="hover:text-brand">이야기</Link>
             <a href="https://landing.visiondream.kr" className="hover:text-brand">S=BTA 랜딩페이지</a>
           </nav>
-          <div className="flex items-center gap-3">
-            <div className="hidden items-center gap-3 lg:flex">
+          <div className="flex shrink-0 items-center gap-3">
+            <div className="hidden items-center gap-3 whitespace-nowrap xl:flex">
               <LangSwitch />
               <AuthNav />
-              <a href={ANDROID_INSTALL_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+              <a href={ANDROID_INSTALL_URL} className="whitespace-nowrap rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
                 앱 시작하기
               </a>
             </div>

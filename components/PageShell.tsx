@@ -81,12 +81,13 @@ export function PageShell({
     <main className="overflow-x-hidden">
       {crumb && <JsonLd data={breadcrumbLd(crumb)} />}
       <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
-          <Link href={p("/")} className="flex items-center gap-2">
+        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3.5">
+          <Link href={p("/")} className="flex shrink-0 items-center gap-2 whitespace-nowrap">
             <span className="text-xl">🌳</span>
             <span className="text-lg font-extrabold text-navy">{BRAND[lang]}</span>
           </Link>
-          <nav className="hidden items-center gap-5 text-sm font-semibold text-navy/70 lg:flex">
+          {/* 항목이 10개라 lg(1024px)에서는 반드시 눌린다 → xl(1280px)부터만 펼치고 그 아래는 햄버거 */}
+          <nav className="hidden items-center gap-4 whitespace-nowrap text-sm font-semibold text-navy/70 xl:flex">
             <Link href={p("/features")} className="hover:text-brand">{t.features}</Link>
             <Link href={p("/method")} className="hover:text-brand">{t.method}</Link>
             <Link href={p("/pricing")} className="hover:text-brand">{t.pricing}</Link>
@@ -98,11 +99,11 @@ export function PageShell({
             <Link href={p("/about")} className="hover:text-brand">{t.about}</Link>
             <a href={LANDING_URL} className="hover:text-brand">{LANDING_LABEL[lang]}</a>
           </nav>
-          <div className="flex items-center gap-3">
-            <div className="hidden items-center gap-3 lg:flex">
+          <div className="flex shrink-0 items-center gap-3">
+            <div className="hidden items-center gap-3 whitespace-nowrap xl:flex">
               <LangSwitch />
               <AuthNav />
-              <a href={APP_URL} className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
+              <a href={APP_URL} className="whitespace-nowrap rounded-full bg-brand px-4 py-2 text-sm font-bold text-white transition hover:brightness-110">
                 {t.start}
               </a>
             </div>

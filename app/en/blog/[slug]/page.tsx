@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 import { PageShell } from "@/components/PageShell";
 import { getAllPosts, getPostBySlug, getAdjacentPosts, getRelatedPosts } from "@/lib/posts";
 import { pageMeta } from "@/lib/seo";
+import { formatPostDate, isPostUpdated, postDateISO } from "@/lib/post-date";
 
 export function generateStaticParams() {
   return getAllPosts("en").map((p) => ({ slug: p.slug }));
@@ -79,7 +80,7 @@ export default async function BlogPostPage({
           <div className="mt-4 flex items-center gap-2 text-xs font-bold text-brand">
             <span className="rounded-full bg-brand/10 px-2.5 py-1">{post.category}</span>
             <span className="text-navy/40">
-              {post.date} · {post.readMinutes} min read
+              <time dateTime={postDateISO(post)}>{formatPostDate(post, "en")}</time>{isPostUpdated(post) && <span className="ml-1">(updated)</span>} · {post.readMinutes} min read
             </span>
           </div>
           <h1 className="mt-3 text-2xl font-black leading-tight text-navy md:text-3xl">
