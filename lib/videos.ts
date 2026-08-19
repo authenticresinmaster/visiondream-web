@@ -269,6 +269,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "무슨 책을 사든 3일이면 덮죠 — 의지 문제가 아니에요", sub: "무슨 책을 사든 3일이면 덮는다면",
       transcript: "무슨 책을 사든 3일이면 덮게 되죠. 근데 의지 문제가 아니에요. 완벽하게 다 읽어야 한다는 강박 때문이죠. 목표를 오늘 '한 쪽'으로 줄여 보세요. 하루 빠져도 이틀 연속만 피하면 돼요. 밀린 건 넘기고 오늘 한 쪽부터. 완독이 아니라 책과 끊기지 않는 게 목표예요. 👆 프로필 링크에서 시작해요.",
     },
+    {
+      publishedAt: "2026-08-20T09:52:00+09:00",
+      kind: "youtube", slug: "diary-lasts", id: "Hd2yclVzGIw",
+      title: "예쁜 거 말고, 이 세 칸이 있는지", sub: "다이어리 사기 전에 이것만 보세요",
+      transcript: "다이어리 고르는 중이시면 딱 세 개만 보세요. 하나, 거른 날을 표시할 자리가 있는지. 둘, 못 한 걸 내일로 옮길 칸이 있는지. 셋, 한 주가 한 면에 보이는지. 의지가 아니라 이 세 칸이 1년을 채웁니다. 첫 장엔 이렇게 적으세요. 이틀 연속만 피하기.",
+    },
   ],
   en: [
     {
@@ -526,6 +532,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "reading-habit", id: "I-IkdXiVYuc",
       title: "Every book you buy gets shelved in three days — it's not willpower", sub: "If every book gets shelved in three days",
       transcript: "Whatever book you buy gets shelved within three days. But that's not weak willpower. The real culprit is finish-the-book guilt. So shrink the goal to one page today. Miss a day? Just never miss two in a row. Skip the backlog and start from one page. The goal isn't finishing, it's staying connected to the book. Open one page today from the link in bio.",
+    },
+    {
+      publishedAt: "2026-08-20T10:27:00+09:00",
+      kind: "youtube", slug: "diary-lasts", id: "3ZQScb0H7rI",
+      title: "Skip the pretty cover. Check three boxes.", sub: "Before you buy that planner",
+      transcript: "Choosing a planner? Check exactly three things. One, is there room to mark a day you skipped. Two, is there a slot to move one unfinished thing to tomorrow. Three, can you see a whole week on one spread. Those three boxes fill your year, not willpower. Write one rule on the first page. Never miss two days in a row.",
     },
   ],
   ja: [
