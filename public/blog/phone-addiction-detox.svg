@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="핸드폰중독 14일 구조 설계: 3일 로그로 재기, 3초 마찰 만들기, 무폰 구간 늘리기, 대체 행동 붙이기">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">핸드폰중독 14일 구조 설계</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">참는 문제가 아니라, 손이 폰에 닿기까지 3초가 없다는 문제</text>
+
+  <g>
+    <rect x="34" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="130" cy="140" r="21" fill="#3f7cb3"/>
+    <text x="130" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">1</text>
+    <text x="130" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">3일 로그</text>
+    <text x="130" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">줄이기 전에 먼저 잰다</text>
+    <line x1="66" y1="224" x2="194" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="130" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">시간 아니라 잠금해제 횟수</text>
+    <text x="130" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">하루 80회 넘으면 위험</text>
+  </g>
+
+  <g>
+    <rect x="240" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="336" cy="140" r="21" fill="#7a6ca8"/>
+    <text x="336" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">2</text>
+    <text x="336" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">3초 마찰</text>
+    <text x="336" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">차단이 아니라 거리 두기</text>
+    <line x1="272" y1="224" x2="400" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="336" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">충전기를 다른 방으로</text>
+    <text x="336" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">해제 버튼이 손에 없다</text>
+  </g>
+
+  <g>
+    <rect x="446" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="542" cy="140" r="21" fill="#568a35"/>
+    <text x="542" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">3</text>
+    <text x="542" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">무폰 구간</text>
+    <text x="542" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">총량 목표를 세우지 않는다</text>
+    <line x1="478" y1="224" x2="606" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="542" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">15분 → 30분 → 45분 → 90분</text>
+    <text x="542" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">매일 성공으로 끝난다</text>
+  </g>
+
+  <g>
+    <rect x="652" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="748" cy="140" r="21" fill="#c07a3e"/>
+    <text x="748" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">4</text>
+    <text x="748" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">대체 행동</text>
+    <text x="748" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">빈자리를 미리 채워 둔다</text>
+    <line x1="684" y1="224" x2="812" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="748" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">펼쳐 둔 책 · 3분 걷기</text>
+    <text x="748" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">심심함이 폰을 다시 부른다</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">1~3일 재기 · 4~5일 15분 · 6~7일 30분 · 8~10일 45분 · 11~14일 90분</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">14일 내내 유효한 규칙 하나 — 이틀 연속으로는 무너지지 않는다</text>
+</svg>
