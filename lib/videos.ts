@@ -275,6 +275,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "예쁜 거 말고, 이 세 칸이 있는지", sub: "다이어리 사기 전에 이것만 보세요",
       transcript: "다이어리 고르는 중이시면 딱 세 개만 보세요. 하나, 거른 날을 표시할 자리가 있는지. 둘, 못 한 걸 내일로 옮길 칸이 있는지. 셋, 한 주가 한 면에 보이는지. 의지가 아니라 이 세 칸이 1년을 채웁니다. 첫 장엔 이렇게 적으세요. 이틀 연속만 피하기.",
     },
+    {
+      publishedAt: "2026-08-22T09:33:00+09:00",
+      kind: "youtube", slug: "phonedetox", id: "WEpbvQ3iLcE",
+      title: "의지가 아니라 구조 문제예요", sub: "핸드폰중독, 참아서 끊은 사람 못 봤어요",
+      transcript: "차단 앱 깔았다가 사흘 만에 해제하셨죠. 의지가 약한 게 아니라 구조가 문제예요. 참는 게 계획이면 참는 데 하루를 다 씁니다. 대신 폰을 여는 순간 보이는 걸 바꾸세요. 첫 화면 앱은 전부 치우고, 오늘 할 일 하나만 위젯으로. 참을 게 없으면 안 참아도 됩니다. 오늘 밤, 첫 화면부터 비워요.",
+    },
   ],
   en: [
     {
@@ -539,6 +545,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "Skip the pretty cover. Check three boxes.", sub: "Before you buy that planner",
       transcript: "Choosing a planner? Check exactly three things. One, is there room to mark a day you skipped. Two, is there a slot to move one unfinished thing to tomorrow. Three, can you see a whole week on one spread. Those three boxes fill your year, not willpower. Write one rule on the first page. Never miss two days in a row.",
     },
+    {
+      publishedAt: "2026-08-22T10:39:00+09:00",
+      kind: "youtube", slug: "phonedetox", id: "_ZUZuJ46xw0",
+      title: "It's structure, not willpower", sub: "Phone addiction isn't a willpower problem",
+      transcript: "You installed the blocker app, and three days later you turned it off. That's not weak willpower, that's structure. If your plan is to resist, resisting eats the whole day. Change what you see the second you unlock instead. Clear every app off your home screen, and leave one widget: today's one task. When there's nothing to resist, you don't have to. Tonight, start with your home screen.",
+    },
   ],
   ja: [
     {
@@ -796,6 +808,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "reading-habit", id: "fYke9-jrusk",
       title: "どんな本も3日で閉じますよね — 意志の問題じゃない", sub: "どんな本を買っても3日で閉じるなら",
       transcript: "どんな本を買っても3日で閉じてしまいますよね。でもそれ、意志が弱いからじゃない。本当の犯人は読破の強迫です。だから目標を今日「1ページ」に削って。一日抜けても、二日連続だけ避ければいい。溜まった分は越えて、今日1ページから。読破ではなく、本とつながり続けるのが目標です。プロフィールのリンクから今日1ページ、始めよう。",
+    },
+    {
+      publishedAt: "2026-08-22T11:31:00+09:00",
+      kind: "youtube", slug: "phonedetox", id: "_egFTfIvC8Q",
+      title: "意志ではなく仕組みの問題です", sub: "スマホ依存は、我慢では終わりません",
+      transcript: "ブロックアプリ、みっかで解除しましたよね。意志が弱いんじゃなく、仕組みの問題です。「我慢する」が計画だと、我慢だけで終わってしまう。開いた瞬間に見えるものを変えましょう。ホーム画面のアプリは全部片づけて、今日やることをひとつだけウィジェットに。我慢するものがなければ、我慢しなくていい。今夜、ホーム画面から。",
     },
   ],
 };
