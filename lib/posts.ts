@@ -54,6 +54,7 @@ import { en as prodsysEn, ja as prodsysJa, ko as prodsysKo } from "./blog-i18n/p
 import { en as readingHabitEn, ja as readingHabitJa, ko as readingHabitKo } from "./blog-i18n/reading-habit-system";
 import { en as readingCafeEn, ja as readingCafeJa, ko as readingCafeKo } from "./blog-i18n/reading-cafe";
 import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-lasts";
+import { en as phoneDetoxEn } from "./blog-i18n/phone-addiction-detox";
 
 export type FaqItem = { q: string; a: string };
 
@@ -1864,7 +1865,7 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
     description:
       "집중은 타고난 성격이 아니라 준비입니다. 알림 한 번에 잃는 23분, 90분 블록 분 단위 설계도, 방해 유형별 차단표, 3주 집중근육 계획, 상황별 15분·50분·90분 버전까지 — 소음을 걷어내고 몰입 블록을 지키는 법을 실행 순서로 정리했습니다.",
     date: "2026-07-02",
-    updated: "2026-08-15",
+    updated: "2026-08-23",
     category: "시간관리",
     readMinutes: 12,
     emoji: "🎯",
@@ -1988,6 +1989,54 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 
 블록 밖 시간은 죄책감 없이 얕게 쓰세요. 딥워크의 목표는 하루를 전부 깊게 만드는 게 아니라, **하루에 깊은 구간을 하나 확보하는 것**입니다.
 
+## 딥워크는 '언제'가 절반이다 — 시간대 배치표
+
+같은 90분이라도 하루 중 어디에 놓느냐에 따라 결과물의 질이 갈립니다. 그런데 대부분은 인지 자원이 가장 좋은 구간을 회신·회의·잡무에 먼저 내주고, 남은 찌꺼기 시간에 가장 어려운 일을 밀어 넣습니다.
+
+| 시간대 | 대체로 이런 상태 | 여기에 넣을 일 | 여기에 넣으면 안 되는 일 |
+| --- | --- | --- | --- |
+| 기상 후 1~3시간 | 판단력과 집중이 하루 중 가장 높은 구간 | 그날 유일하게 남길 어려운 일(초안·설계·문제풀이) | 메일 확인·메신저 답장 |
+| 오전 늦게(11시 전후) | 아직 좋지만 외부 방해가 들어오기 시작 | 두 번째 블록, 또는 1블록의 마무리 | 완전히 새로운 주제 착수 |
+| 점심 직후(13~15시) | 각성도가 하루 중 가장 낮은 구간(식후 저점) | 손이 아는 반복 작업·자료 수집·정리 | 창의적 판단, 되돌리기 어려운 결정 |
+| 늦은 오후(15~17시) | 각성도 회복. 마감 압력이 오히려 도움 | 끝이 정해진 실행형 작업 | 끝이 열려 있는 탐색형 작업 |
+| 저녁 20시 이후 | 자제력 자원이 얕게 남은 상태 | 15~30분 최소 버전, 복습 | 90분 시도(대개 폰으로 끝납니다) |
+
+여기서 실제로 바꿔야 할 건 하나입니다. **가장 좋은 시간대를 남에게 먼저 팔지 않는 것.** 출근 직후 메일함을 여는 순간, 그날 최고 구간은 남의 우선순위로 채워집니다. 반대로 저녁 블록이 유독 매번 무너진다면 그건 집중력 문제가 아닐 수 있습니다 — [핸드폰중독을 구조로 끊는 법](/blog/phone-addiction-detox)을 먼저 보세요. 밤 40분이 다음 날 오전 블록까지 깎아 먹기 때문입니다.
+
+## 회복 15분 — 진짜 휴식과 가짜 휴식
+
+블록 사이 휴식은 '쉬었다'로 판정하는 게 아니라 **'다음 블록이 깊어졌는가'**로 판정합니다. 같은 15분인데 결과가 정반대로 갈립니다.
+
+| 휴식으로 한 일 | 다음 블록에 실제로 생기는 일 |
+| --- | --- |
+| 일어서서 걷기·창밖 보기·물 마시기 | 각성도가 회복돼 대개 1~2분 안에 다시 잠깁니다 |
+| 눈 감고 3분·가벼운 스트레칭 | 눈 피로가 풀립니다. 오후 블록에서 차이가 특히 큽니다 |
+| 낮잠 10~20분(20분을 넘기지 않기) | 식후 저점 구간을 되살립니다. 30분을 넘기면 오히려 더 무겁습니다 |
+| SNS·숏폼 스크롤 | 새 자극이 잔류물로 남아 재진입에 10분 이상 더 걸립니다 |
+| 뉴스·메일 확인 | 처리할 항목이 머릿속에 열린 채로 남아 다음 블록을 갉아먹습니다 |
+| 그냥 화면 앞에 계속 앉아 있기 | 쉰 적이 없으므로 두 번째 블록이 통째로 얕아집니다 |
+
+규칙은 한 줄입니다. **휴식에 화면을 들이지 않는다.** 딥워크가 실패하는 흔한 이유 중 하나는 블록이 아니라 **블록 사이**가 망가져서입니다.
+
+## 측정 — 블록 로그 4줄이면 충분하다
+
+집중을 느낌으로 관리하면 반드시 과대평가하거나 과소평가합니다. 블록이 끝날 때 30초만 쓰세요.
+
+| 적는 것 | 예시 | 이걸로 알 수 있는 것 |
+| --- | --- | --- |
+| 시작 시각 | 09:10 | 내 블록이 실제로 몇 시에 열리는지 |
+| 결과물 한 문장 | 초안 3문단 | "앉아 있었다"와 "진전됐다"를 구분해 준다 |
+| 중단 횟수 | 2 | 방해 차단이 먹히고 있는지 |
+| 다음 첫 문장 | "3번 항목 근거부터" | 다음 블록의 진입 시간 |
+
+4주쯤 모이면 이렇게 판정합니다.
+
+- **중단 0회 블록의 비율이 절반을 넘으면** 방해 차단은 성공한 겁니다 — 이제 길이를 늘려도 됩니다
+- 중단이 계속 2회 이상이면 길이를 늘리지 말고 위의 **방해 유형 표로 돌아가세요**
+- 시작 시각이 매일 30분 이상 흔들린다면 길이보다 [타임블로킹](/blog/time-blocking)으로 시각부터 고정하는 게 먼저입니다
+
+이 4줄은 일요일 [주간 회고](/blog/weekly-review-habit)에서 그대로 재료가 됩니다. 따로 정리할 게 없습니다.
+
 ## 딥워크가 무너지는 3가지 이유
 
 1. **너무 길게 잡는다.** 90분은 목표지 시작점이 아닙니다. 25분으로 시작해 무중단을 먼저 확보하세요.
@@ -2037,6 +2086,14 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "블록이 끝났는데 일이 안 끝났으면 계속해야 하나요?",
         a: "타이머가 끝나면 멈추고, 마지막 10분에 '다음에 이어서 할 첫 문장'을 한 줄 남기세요. 흐름을 타서 계속하고 싶은 유혹이 크지만, 회복 없이 이어 붙인 두 번째 블록은 대체로 얕아집니다. 그리고 이 한 줄이 다음 블록의 진입 시간을 20분대에서 1분으로 줄여 줍니다.",
+      },
+      {
+        q: "저는 아침형이 아닌데 꼭 오전에 딥워크를 해야 하나요?",
+        a: "아니요. 중요한 건 시계상의 오전이 아니라 '기상 후 1~3시간'입니다. 늦게 자고 늦게 일어나는 사람이라면 그 사람의 오전은 11시일 수 있고, 그 구간을 어려운 일에 쓰면 됩니다. 다만 시간대에 상관없이 공통인 규칙이 두 개 있습니다 — 점심 직후 1~2시간의 저점 구간에는 창의적 판단을 넣지 말 것, 그리고 저녁 8시 이후에는 90분을 시도하지 말고 15~30분 최소 버전으로 흐름만 유지할 것. 자제력 자원이 얕은 시간대에 긴 블록을 걸면 대개 폰으로 끝납니다.",
+      },
+      {
+        q: "쉬는 시간에 유튜브나 SNS를 잠깐 보는 것도 안 되나요?",
+        a: "휴식의 목적이 '쉬었다'가 아니라 '다음 블록이 깊어지는 것'이라면 화면은 빼는 게 맞습니다. 숏폼과 SNS는 새로운 자극을 주기 때문에 그 자극이 잔류물로 남아 다음 블록 재진입에 10분 이상이 더 듭니다. 걷기·창밖 보기·물 마시기처럼 화면이 없는 회복은 1~2분이면 다시 잠깁니다. 오후 저점 구간이라면 20분을 넘기지 않는 짧은 낮잠도 좋은 선택입니다.",
       },
     ],
   },
@@ -4027,7 +4084,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";

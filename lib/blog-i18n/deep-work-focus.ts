@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Focus isn't a personality trait — it's a setup. The 20+ minutes you lose to one notification, a minute-by-minute 90-minute block blueprint, a distraction-by-distraction blocking table, a 3-week focus-training plan, and 15/50/90-minute versions for days you don't have an hour.",
   date: "2026-07-02",
-  updated: "2026-08-15",
+  updated: "2026-08-23",
   category: "Productivity",
   readMinutes: 12,
   emoji: "🎯",
@@ -130,6 +130,54 @@ Most days you can't find 90 minutes. The rules stay the same; only the length ch
 
 Spend the time outside your block shallow and guilt-free. The point of deep work isn't to make the whole day deep — it's to secure **one deep stretch per day**.
 
+## Half of deep work is *when* — a time-of-day placement table
+
+The same ninety minutes produce different work depending on where you put them in the day. Most people sell their best cognitive hours to replies, meetings, and admin, then push the hardest task into whatever is left over.
+
+| Time of day | What your brain is usually doing | Put this here | Never put this here |
+| --- | --- | --- | --- |
+| 1–3 hours after waking | Judgment and focus at their daily peak | The one hard thing that has to survive today (draft, design, problem-solving) | Email triage, chat replies |
+| Late morning (around 11) | Still good, but interruptions have started arriving | A second block, or the close-out of block one | Starting an entirely new topic |
+| Right after lunch (1–3pm) | The daily low point in alertness | Repetitive work your hands already know — collecting, filing, formatting | Creative judgment, decisions that are hard to undo |
+| Late afternoon (3–5pm) | Alertness recovers; deadline pressure helps | Execution work with a defined finish | Open-ended exploratory work |
+| After 8pm | Self-control resources are running thin | A 15–30 minute minimum version, review | Attempting 90 minutes — it usually ends on your phone |
+
+Only one habit really has to change here: **stop selling your best hours first.** The moment you open your inbox on arrival, your sharpest stretch gets filled with other people's priorities. And if it's specifically your evening block that collapses every time, the problem may not be focus at all — see [how to break phone addiction with structure](/en/blog/phone-addiction-detox), because forty minutes after 11pm quietly shaves the next morning's block too.
+
+## The recovery 15 minutes — real rest vs. fake rest
+
+A break between blocks isn't graded on whether you rested. It's graded on **whether the next block went deeper**. Same fifteen minutes, opposite outcomes.
+
+| What you did on the break | What actually happens in the next block |
+| --- | --- |
+| Stand up, walk, look out a window, drink water | Alertness recovers; you're usually back under within a minute or two |
+| Three minutes with your eyes closed, light stretching | Eye strain clears — the difference is largest in afternoon blocks |
+| A 10–20 minute nap (never past 20) | Rescues the post-lunch trough. Past 30 minutes you come back heavier |
+| Scrolling social or short video | Fresh stimulus becomes residue; re-entry costs ten extra minutes or more |
+| Checking news or email | Leaves open loops running in your head that eat into the next block |
+| Just sitting at the screen | You never rested, so the second block is shallow end to end |
+
+The rule is one line: **no screens in the break.** One of the most common reasons deep work fails isn't the block — it's what happens **between** blocks.
+
+## Measurement — a four-line block log is enough
+
+Managed by feel, focus is always either over- or under-estimated. Spend thirty seconds when the timer ends.
+
+| What you log | Example | What it tells you |
+| --- | --- | --- |
+| Start time | 09:10 | What time your block actually opens |
+| Output in one sentence | Draft, 3 paragraphs | Separates "I sat there" from "I moved" |
+| Number of interruptions | 2 | Whether your distraction blocking is working |
+| Next first sentence | "Start with the evidence for item 3" | Your next block's entry cost |
+
+After about four weeks, read it like this.
+
+- If **more than half your blocks have zero interruptions**, distraction blocking is working — now you may extend the length
+- If interruptions stay at two or more, don't extend anything; go back to the **distraction-type table** above
+- If your start time swings by more than thirty minutes a day, fix the hour first with [time blocking](/en/blog/time-blocking), not the length
+
+Those four lines become the raw material for your Sunday [weekly review](/en/blog/weekly-review-habit). Nothing else needs writing up.
+
 ## The three ways deep work collapses
 
 1. **You book it too long.** Ninety minutes is the destination, not the starting line. Begin at 25 and buy "unbroken" first.
@@ -180,6 +228,14 @@ So clear the noise, pick one thing, and give it your best hour. Half of how deep
       q: "The timer ended but the work isn't done — should I keep going?",
       a: "Stop when the timer stops, and use the last ten minutes to write the first sentence you'll pick up next time. The pull to ride the momentum is strong, but a second block bolted on without recovery is usually shallow. And that one line cuts your next block's entry cost from twenty minutes to about one.",
     },
+    {
+      q: "I'm not a morning person — do I have to do deep work in the morning?",
+      a: "No. What matters isn't the clock, it's the window 1–3 hours after you wake. If you sleep late, your morning may be 11am, and that's the stretch to spend on hard work. Two rules hold regardless of schedule: don't put creative judgment in the one-to-two-hour trough right after lunch, and don't attempt 90 minutes after 8pm — keep the streak alive with a 15–30 minute minimum instead. Long blocks scheduled when self-control is thin tend to end on your phone.",
+    },
+    {
+      q: "Is a quick scroll through social or YouTube during a break really that bad?",
+      a: "If the point of the break is that the next block goes deeper, then yes, leave the screen out. Short video and social feeds deliver fresh stimulus, and that stimulus lingers as attention residue that costs you ten extra minutes to re-enter. Screen-free recovery — walking, looking out a window, a glass of water — has you back under in a minute or two. In the post-lunch trough, a nap of no more than twenty minutes is another good option.",
+    },
   ],
 };
 
@@ -189,7 +245,7 @@ export const ja: Post = {
   description:
     "集中は性格ではなく、準備です。通知1回で失う20分超、90分ブロックの分単位の設計図、邪魔の種類別ブロック表、3週間の集中筋トレ計画、1時間が取れない日の15分・50分・90分版まで、実行の順番で整理しました。",
   date: "2026-07-02",
-  updated: "2026-08-15",
+  updated: "2026-08-23",
   category: "時間管理",
   readMinutes: 12,
   emoji: "🎯",
@@ -313,6 +369,54 @@ export const ja: Post = {
 
 ブロックの外の時間は、罪悪感なく浅く使ってください。ディープワークの目的は一日をすべて深くすることではなく、**一日に深い区間を一つ確保すること**です。
 
+## ディープワークは「いつやるか」で半分決まる — 時間帯の配置表
+
+同じ90分でも、一日のどこに置くかで成果物の質が変わります。ところが多くの人は、認知資源がいちばん良い区間を返信・会議・雑務に先に渡してしまい、残りかすの時間にいちばん難しい仕事を押し込みます。
+
+| 時間帯 | だいたいこういう状態 | ここに入れるもの | ここに入れてはいけないもの |
+| --- | --- | --- | --- |
+| 起床後1〜3時間 | 判断力と集中が一日で最も高い区間 | その日に必ず残す難しい仕事(草稿・設計・問題演習) | メールチェック・チャットの返信 |
+| 午前の遅い時間(11時前後) | まだ良いが、外からの邪魔が入り始める | 2つ目のブロック、または1ブロック目の仕上げ | まったく新しいテーマへの着手 |
+| 昼食直後(13〜15時) | 覚醒度が一日で最も低い区間(食後の落ち込み) | 手が覚えている反復作業・資料集め・整理 | 創造的な判断、取り返しのつかない決定 |
+| 午後遅く(15〜17時) | 覚醒度が回復。締切の圧力がむしろ助けになる | 終わりが決まっている実行型の作業 | 終わりが open な探索型の作業 |
+| 夜20時以降 | 自制の資源が薄く残っている状態 | 15〜30分の最小版、復習 | 90分への挑戦(たいていスマホで終わります) |
+
+ここで実際に変えるべきことは一つだけです。**いちばん良い時間帯を他人に先に売らないこと。** 出社直後にメールボックスを開いた瞬間、その日の最良区間は他人の優先順位で埋まります。逆に、夜のブロックだけが毎回崩れるなら、それは集中力の問題ではないかもしれません — [スマホ依存を構造で断つ方法](/ja/blog/phone-addiction-detox)を先に読んでください。夜の40分が翌日の午前ブロックまで削るからです。
+
+## 回復の15分 — 本当の休憩と偽の休憩
+
+ブロックの間の休憩は「休んだか」ではなく、**「次のブロックが深くなったか」**で判定します。同じ15分でも結果は正反対になります。
+
+| 休憩で何をしたか | 次のブロックに実際に起こること |
+| --- | --- |
+| 立ち上がって歩く・窓の外を見る・水を飲む | 覚醒度が戻り、たいてい1〜2分でまた潜れます |
+| 目を閉じて3分・軽いストレッチ | 眼の疲れが取れます。午後のブロックで特に差が出ます |
+| 10〜20分の昼寝(20分を超えない) | 食後の落ち込みを立て直します。30分を超えるとかえって重くなります |
+| SNS・ショート動画のスクロール | 新しい刺激が残留物になり、再進入に10分以上余計にかかります |
+| ニュース・メールの確認 | 処理すべき項目が頭の中で開いたまま残り、次のブロックを削ります |
+| そのまま画面の前に座り続ける | 休んでいないので、2つ目のブロックが丸ごと浅くなります |
+
+ルールは一行です。**休憩に画面を持ち込まない。** ディープワークが失敗する理由でよくあるのは、ブロックそのものではなく**ブロックとブロックの間**が壊れていることです。
+
+## 測定 — ブロックログは4行で足りる
+
+集中を感覚で管理すると、必ず過大評価か過小評価になります。ブロックが終わったときに30秒だけ使ってください。
+
+| 記録すること | 例 | これで分かること |
+| --- | --- | --- |
+| 開始時刻 | 09:10 | 自分のブロックが実際に何時に開くのか |
+| 成果物を一文で | 草稿3段落 | 「座っていた」と「進んだ」を区別してくれる |
+| 中断の回数 | 2 | 邪魔の遮断が効いているか |
+| 次の最初の一文 | 「3番目の項目の根拠から」 | 次のブロックの進入コスト |
+
+4週間ほど溜まったら、こう判定します。
+
+- **中断0回のブロックが半分を超えたら**、邪魔の遮断は成功です — ここで長さを伸ばしてかまいません
+- 中断が2回以上のままなら、長さは伸ばさず上の**邪魔のタイプ別の表に戻ります**
+- 開始時刻が毎日30分以上ぶれるなら、長さより先に[タイムブロッキング](/ja/blog/time-blocking)で時刻を固定するのが先です
+
+この4行は、日曜の[週次レビュー](/ja/blog/weekly-review-habit)でそのまま材料になります。別途まとめる必要はありません。
+
 ## ディープワークが崩れる3つの理由
 
 1. **長く取りすぎる。** 90分は目標であって出発点ではありません。25分から始め、まず「途切れない」を手に入れます。
@@ -362,6 +466,14 @@ export const ja: Post = {
     {
       q: "ブロックが終わったのに仕事が終わっていません。続けるべき?",
       a: "タイマーが鳴ったら止め、最後の10分で「次に取りかかる最初の一文」を一行残してください。流れに乗って続けたい誘惑は強いですが、回復なしで足した2ブロック目はたいてい浅くなります。そしてこの一行が、次のブロックの入り口コストを20分台から1分程度に縮めてくれます。",
+    },
+    {
+      q: "朝型ではないのですが、ディープワークは午前にやるべきですか?",
+      a: "いいえ。大事なのは時計の上の午前ではなく「起床後1〜3時間」です。遅く寝て遅く起きる人なら、その人の午前は11時かもしれず、その区間を難しい仕事に使えば十分です。ただし時間帯に関係なく共通のルールが二つあります — 昼食直後1〜2時間の落ち込み区間に創造的な判断を入れないこと、そして夜8時以降は90分を狙わず15〜30分の最小版で流れだけを保つこと。自制の資源が薄い時間帯に長いブロックを置くと、たいていスマホで終わります。",
+    },
+    {
+      q: "休憩中にYouTubeやSNSを少し見るのもだめですか?",
+      a: "休憩の目的が「休んだこと」ではなく「次のブロックが深くなること」なら、画面は外すのが正解です。ショート動画やSNSは新しい刺激を与えるため、その刺激が残留物として残り、次のブロックへの再進入に10分以上余計にかかります。歩く・窓の外を見る・水を飲むといった画面のない回復なら、1〜2分でまた潜れます。午後の落ち込み区間なら、20分を超えない短い昼寝も良い選択です。",
     },
   ],
 };
