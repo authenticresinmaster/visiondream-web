@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "If you're at your desk and can't concentrate — and you don't even know why — start by splitting the cause. A 30-second self-check for the three types (environment, energy, meaning), a 6-minute three-layer distraction sweep, a 4-week training table from 10 to 50 minutes, and five fixes for when it falls apart.",
   date: "2026-07-03",
-  updated: "2026-08-20",
+  updated: "2026-08-24",
   category: "Productivity",
   readMinutes: 12,
   emoji: "🧠",
@@ -104,6 +104,50 @@ Alertness doesn't stay flat all day; it rises and falls in cycles of roughly **9
 - **3–4 hours a day is the real ceiling.** Nobody does eight hours of deep focus. One or two deep blocks plus a few 25-minute sprints is plenty; past that it's mostly performing work.
 - **Go shorter in the afternoon.** If you're the energy type, stop insisting on 50 minutes after lunch and drop to 25-minute sprints.
 
+## Choosing session length — 25 vs. 50 vs. 90 minutes
+
+Once you finish the four weeks, the next question arrives: *which length should I actually use?* The answer isn't preference — it's the task's **re-entry cost**, meaning how long it takes you to get back to where you were after an interruption.
+
+| Session length | Re-entry cost | Fits | Per day | Common failure |
+| --- | --- | --- | --- | --- |
+| **25 + 5 min** | Low (1–2 min) | Email, gathering sources, memorization, repetitive problem sets | 6–8 | Used on deep work, you repeat the warm-up every time |
+| **50 + 10 min** | Medium (~5 min) | A report draft, one feature, one lecture chapter | 3–4 | Boredom hits around minute 45 and the phone wins |
+| **90 + 15 min** | High (10–15 min) | Design, writing, research, complex debugging | 1–2 | Stamina runs out and it collapses at 60 |
+
+One sentence decides it: **if the re-entry cost is over five minutes and you use a 25-minute timer, you spend a third of your day getting back up to speed.** Attach 90 minutes to a low-cost task and the last 30 minutes sag instead. Write one number next to today's task — *how many minutes to get back in if I'm interrupted?* — and the length picks itself.
+
+## The two-week focus log — three columns, nothing more
+
+Training tables quietly disappear in week three for one reason: **nothing is being measured.** You don't need another app for this. One sheet of paper with three columns is enough.
+
+| Date · start time | Interruptions (phone, new tab, someone talking) | One line: what you left behind |
+| --- | --- | --- |
+| 8/12 09:10 | 4 | Outline of the proposal locked |
+| 8/12 14:30 | 11 | (nothing) |
+| 8/13 09:05 | 2 | 800 words of chapter 1 |
+
+After a week you stop seeing moods and start seeing **patterns**. Three of them show up again and again:
+
+- **Afternoon sessions (2–4pm) collect two to three times the interruptions of morning ones** → that's the energy type, not weak will, so drop that slot to 25 minutes
+- **Sessions with an empty artifact column almost always had a vague name** — "work on the report" and "800 words of chapter 3" spend the same hour very differently
+- **Past six interruptions, the artifact column is nearly always empty** — six tends to be the personal threshold
+
+If the three columns come up empty two days in a row, step the training table down one row. Falling behind on a log makes you not want to open it again, which is exactly why fewer columns survive longer. For making the logging itself stick, see [how to use a habit tracker](/en/blog/habit-tracker); for turning a week of logs into next week's layout, see [the weekly review](/en/blog/weekly-review-habit).
+
+And if the interruptions explode only at night, focus training isn't the fix — start with the three-day log in [how to break phone addiction](/en/blog/phone-addiction-detox) and find out which hour actually breaks you.
+
+## Same table, different layout — three real situations
+
+The table is one; the shape of a day isn't. What changes is not the table but **placement and length.**
+
+| Situation | What the log exposed | Layout | Four weeks later |
+| --- | --- | --- | --- |
+| **Meeting-heavy office worker** (3 a day) | Long blocks never form — sessions average 18 minutes before breaking | Book **one 50-minute block at 9:10 on the calendar first**, 25-minute sprints between meetings, afternoons fixed at 25 | Interruptions per session 11 → 3; the morning artifact column fills every day |
+| **Remote worker / freelancer** | No start and no end, so the work smears across the whole day | **One 90 + one 50** in the morning, after noon published as messaging hours | Less desk time, more output (the sagging final 30 minutes disappear) |
+| **Student in exam prep** | Insisted on 50 minutes, quit on day three | Start with **three 25s**, add 50 only in a week that met the criteria; memorization at 25, comprehension at 50 | Finished four weeks without dropping out; the collapsing afternoon survives as sprints |
+
+What the three share is that nobody rewrote the training table. **They pinned the longest block to their sharpest hours first and chopped the rest small.** And in week one, make success almost laughably small — the 50 minutes of week four are built on stacked [small wins](/en/blog/small-wins).
+
 ## When it falls apart: five fixes
 
 | Symptom | Common cause | Fix |
@@ -147,6 +191,14 @@ You're not "bad at focusing." You've just never split the cause or trained it �
       a: "They're supports, not the main move — and the order matters. Changing the music without clearing distractions is like turning up the heat with the window open. If you use them, instrumental or steady ambient sound is the safe choice, and one coffee in the early afternoon dip is usually fine. Caffeine late in the day cuts into sleep and turns tomorrow into an energy-type failure.",
     },
     {
+      q: "How do I choose between 25, 50, and 90 minutes?",
+      a: "It isn't preference — the task's re-entry cost decides. If getting back to where you were after an interruption takes more than five minutes (design, writing, complex debugging), a 25-minute timer means you spend a third of the day warming up again. Attach 90 minutes to something with a one-to-two-minute re-entry cost, like email or gathering sources, and the last 30 minutes sag. For the middle ground — a report draft, one feature — 50 minutes with a 10-minute break is the safe default, and in the afternoon it's usually better to drop one step shorter for the same task.",
+    },
+    {
+      q: "How should I actually log whether a session worked?",
+      a: "You don't need another app; one sheet of paper with three columns is enough — date and start time, number of interruptions, and one line naming what you left behind. A week of that exposes your pattern: afternoon sessions between 2 and 4pm usually collect two to three times the interruptions of morning ones, sessions with an empty artifact column almost always had a vague name, and past six interruptions a session nearly always ends empty-handed. If all three columns come up blank two days in a row, step the training table down one row.",
+    },
+    {
       q: "How does VisionDream help me focus?",
       a: "Add 'one 25-minute focus block' as an Action habit in the Today tab (B·T·A) and one check records the rep, while the calendar heatmap shows whether you met this week's pass criteria. Miss a day and two monthly streak shields keep the chain alive automatically, and the reps you bank grow into your Success Tree. Each session stays linked in the planner to the goal and vision above it, so you're never concentrating in a vacuum.",
     },
@@ -159,7 +211,7 @@ export const ja: Post = {
   description:
     "机に向かっても集中できない、しかも理由が分からない。まずは原因を分けることから。環境型・エネルギー型・意味型の30秒セルフチェック、6分で終わる気の散り3層除去、10分から50分までの4週間トレーニング表、崩れたときの5つの処方をまとめました。",
   date: "2026-07-03",
-  updated: "2026-08-20",
+  updated: "2026-08-24",
   category: "時間管理",
   readMinutes: 12,
   emoji: "🧠",
@@ -257,6 +309,50 @@ export const ja: Post = {
 - **1日の総量は3〜4時間が現実。** 深い集中を8時間続けられる人はいません。ディープブロック1〜2回に25分スプリントを数本で十分で、それ以上はたいてい「働いているふり」です。
 - **午後は短く。** エネルギー型なら、午後に50分を粘らず25分スプリントに下げましょう。
 
+## セッションの長さを選ぶ — 25分・50分・90分の比較表
+
+4週間の表を回し終えると、次の質問が来ます。「で、自分は何分のものを使えばいいのか?」 答えは好みではなく、その作業の**再進入コスト**が決めます。再進入コストとは、一度中断されたあと元の状態まで戻るのにかかる時間のことです。
+
+| セッションの長さ | 再進入コスト | 向いている作業 | 1日の目安 | よくある失敗 |
+| --- | --- | --- | --- | --- |
+| **25分 + 5分** | 低い(1〜2分) | メール処理、資料集め、暗記、反復問題 | 6〜8回 | 深い作業に使うと毎回「助走」だけで終わる |
+| **50分 + 10分** | 中(5分前後) | 報告書の下書き、機能ひとつの実装、講義1章 | 3〜4回 | 45分あたりで飽きてスマホに逃げる区間ができる |
+| **90分 + 15分** | 高い(10〜15分) | 設計、執筆、論文、複雑なデバッグ | 1〜2回 | 体力がもたず60分で崩れる |
+
+基準は一文です。**再進入コストが5分を超える作業に25分タイマーを使うと、一日の3分の1を勘の取り戻しに使う。** 逆に再進入コストの低い作業に90分をつけると、後半の30分がだれます。今日のタスクの横に「中断されたら、戻るまで何分?」と一度だけ書いてみてください。長さはその数字が決めてくれます。
+
+## 2週間の集中ログ — 書く欄は三つだけ
+
+トレーニング表が3週目に静かに消える理由は一つ、**測っていないから**です。新しいアプリは要りません。紙一枚に三列で十分です。
+
+| 日付・開始時刻 | 中断回数(スマホ・新しいタブ・話しかけ) | 残したもの一行 |
+| --- | --- | --- |
+| 8/12 09:10 | 4 | 企画書の目次が確定 |
+| 8/12 14:30 | 11 | (なし) |
+| 8/13 09:05 | 2 | 第1章の下書き800字 |
+
+一週間で、気分ではなく**パターン**が見えてきます。繰り返し現れるものが三つあります。
+
+- **午後2〜4時のセッションは、午前の2〜3倍の中断回数**になる → 意志ではなくエネルギー型の問題なので、その時間帯は25分に下げる
+- **「残したもの」の欄が空のセッションは、たいてい名前が曖昧だった** — 「報告書の作業」と「第3章の下書き800字」は同じ1時間をまるで違うふうに使います
+- **中断が6回を超えると、そのセッションの成果欄はほぼ必ず空になる** — 6回が個人の閾値として働く
+
+三つの欄が二日続けて空なら、トレーニング表を一段下げてください。記録が溜まると開くのが嫌になるのは自然な反応なので、欄は少ないほど長持ちします。記録そのものを習慣にする方法は[習慣トラッカーの使い方](/ja/blog/habit-tracker)に、一週間分を来週の配置に反映する方法は[週次レビュー](/ja/blog/weekly-review-habit)にまとめてあります。
+
+中断が夜だけ突出しているなら、それは集中トレーニングで解く問題ではありません — [スマホ依存をやめる方法](/ja/blog/phone-addiction-detox)の3日ログで、何時に崩れているかを先に切り分けてください。
+
+## 同じ表、違う配置 — 状況別の3ケース
+
+表は一つでも、一日の形は人によって違います。変えるのは表ではなく**配置と長さ**です。
+
+| 状況 | ログで見えた問題 | 配置 | 4週間後 |
+| --- | --- | --- | --- |
+| **会議の多い会社員**(1日3件) | 長いブロックがそもそも作れない — セッション平均18分で切れる | 9:10〜10:00の**50分を先にカレンダーへ予約**、会議の合間は25分スプリント、午後は25分固定 | 1セッションの中断が11回 → 3回、午前の成果欄が毎日埋まる |
+| **在宅ワーカー・フリーランス** | 始まりと終わりの境目がなく、一日中少しずつ働く | 午前に**90分1回+50分1回**、12時以降はメッセージ対応の時間として公開 | 机に向かう総時間は減り、成果は増える(だれていた後半30分が消える) |
+| **受験生・試験勉強** | 50分にこだわって三日目に脱落 | **25分3回から開始**、合格基準を満たした週にだけ50分を追加。暗記は25分・理解は50分に分ける | 脱落せず4週間完走、崩れていた午後がスプリントとして生き残る |
+
+三つに共通するのは、誰もトレーニング表を書き換えていないことです。**いちばん冴えた時間にいちばん長いブロックを先に固定し、残りを短く刻んだだけ。** そして1週目は、成功をばかばかしいほど小さく設定してください — 4週目の50分は、積み上がった[小さな成功](/ja/blog/small-wins)の上に立ちます。
+
 ## 崩れたときの5つの処方
 
 | 症状 | よくある原因 | 処方 |
@@ -298,6 +394,14 @@ export const ja: Post = {
     {
       q: "コーヒーやホワイトノイズ、音楽は集中に効きますか?",
       a: "補助であって主役ではなく、順番を間違えてはいけません。気を散らすものを片づけないまま音楽だけ変えるのは、窓を開けたまま暖房を強めるようなものです。使うなら歌詞のない音や一定の環境音が無難で、カフェインは覚醒が落ちる午後の早い時間に1杯程度が安全です。遅い時間のカフェインは睡眠を削り、翌日をエネルギー型の失敗にします。",
+    },
+    {
+      q: "25分・50分・90分のどれを選べばいいですか?",
+      a: "好みではなく、その作業の再進入コストが決めます。中断されたあと元の状態に戻るまで5分以上かかる作業(設計・執筆・複雑なデバッグ)に25分タイマーを使うと、一日の3分の1を勘の取り戻しに使うことになります。逆にメール処理や資料集めのように再進入が1〜2分の作業に90分をつけると、後半の30分がだれます。報告書の下書きや機能ひとつのような中間なら50分+10分休憩が無難で、午後は同じ作業でも一段短くするほうがうまくいきます。",
+    },
+    {
+      q: "集中できたかどうかは、どう記録すればいいですか?",
+      a: "新しいアプリは要らず、紙一枚に三列で足ります。日付と開始時刻、中断回数、そして残したもの一行です。一週間つけると自分のパターンが出てきます。午後2〜4時のセッションは午前の2〜3倍の中断回数になりやすく、成果欄が空のセッションはたいてい名前が曖昧で、中断が6回を超えたセッションはほぼ必ず手ぶらで終わります。三つの欄が二日続けて空なら、トレーニング表を一段下げてください。",
     },
     {
       q: "ビジョンドリームは集中にどう役立ちますか?",

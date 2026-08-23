@@ -54,7 +54,7 @@ import { en as prodsysEn, ja as prodsysJa, ko as prodsysKo } from "./blog-i18n/p
 import { en as readingHabitEn, ja as readingHabitJa, ko as readingHabitKo } from "./blog-i18n/reading-habit-system";
 import { en as readingCafeEn, ja as readingCafeJa, ko as readingCafeKo } from "./blog-i18n/reading-cafe";
 import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-lasts";
-import { en as phoneDetoxEn } from "./blog-i18n/phone-addiction-detox";
+import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addiction-detox";
 
 export type FaqItem = { q: string; a: string };
 
@@ -1316,7 +1316,7 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
     description:
       "책상에 앉았는데 집중이 안 되고, 왜 안 되는지도 모르겠다면 원인부터 갈라야 합니다. 환경형·에너지형·의미형 3유형 자가진단, 6분이면 끝나는 방해요소 3층 제거, 10분에서 50분까지 4주 집중 훈련표, 흐트러질 때 쓰는 5가지 처방까지 정리했습니다.",
     date: "2026-07-03",
-    updated: "2026-08-20",
+    updated: "2026-08-24",
     category: "시간관리",
     readMinutes: 12,
     emoji: "🧠",
@@ -1414,6 +1414,50 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 - **하루 총량은 3~4시간이 현실.** 깊은 집중을 여덟 시간 하는 사람은 없습니다. 딥 블록 1~2회에 25분 스프린트 몇 개면 충분하고, 그 이상은 대개 '일하는 척'입니다.
 - **오후엔 짧게.** 에너지형이라면 오후에 50분을 고집하지 말고 25분 스프린트로 내려오세요.
 
+## 세션 길이 고르기 — 25분·50분·90분 비교표
+
+4주 훈련표를 다 돌리고 나면 다음 질문이 옵니다. "그래서 나는 몇 분짜리를 써야 하나?" 답은 취향이 아니라 그 작업의 **재진입 비용**이 정합니다. 재진입 비용이란 한 번 끊긴 뒤 원래 상태로 돌아오는 데 드는 시간입니다.
+
+| 세션 길이 | 재진입 비용 | 잘 맞는 작업 | 하루 권장 횟수 | 흔한 실패 |
+| --- | --- | --- | --- | --- |
+| **25분 + 5분** | 낮음(1~2분) | 메일 처리, 자료 수집, 암기, 반복 문제풀이 | 6~8회 | 깊은 작업에 쓰면 매번 도입부만 반복한다 |
+| **50분 + 10분** | 중간(5분 안팎) | 보고서 초안, 기능 하나 구현, 강의 한 챕터 | 3~4회 | 45분쯤 지루해져 폰으로 새는 구간이 생긴다 |
+| **90분 + 15분** | 높음(10~15분) | 설계, 집필, 논문, 복잡한 디버깅 | 1~2회 | 체력이 못 버텨 60분에 무너진다 |
+
+기준은 한 문장입니다. **재진입 비용이 5분을 넘는 작업에 25분 타이머를 쓰면, 하루의 3분의 1을 감 다시 잡는 데 쓴다.** 반대로 재진입 비용이 낮은 일에 90분을 붙이면 뒤쪽 30분이 늘어집니다. 오늘 할 일 옆에 "끊기면 다시 몰입까지 몇 분?"을 한 번만 적어 보세요. 길이는 그 숫자가 정해 줍니다.
+
+## 2주 집중 로그 — 딱 세 칸만 적는다
+
+훈련표가 3주차에 조용히 사라지는 이유는 하나입니다. **측정이 없어서.** 그렇다고 앱을 새로 깔 필요는 없습니다. 종이 한 장에 세 칸이면 충분합니다.
+
+| 날짜·시작시각 | 방해 횟수(폰·새 탭·말 걸림) | 남긴 결과물 한 줄 |
+| --- | --- | --- |
+| 8/12 09:10 | 4 | 기획서 목차 확정 |
+| 8/12 14:30 | 11 | (없음) |
+| 8/13 09:05 | 2 | 1장 초안 800자 |
+
+일주일이면 기분이 아니라 **패턴**이 보입니다. 로그를 붙여 보면 반복해서 드러나는 것이 세 가지입니다.
+
+- **오후 2~4시 세션의 방해 횟수가 오전의 2~3배**로 나온다 → 의지가 아니라 에너지형 문제이므로 그 시간대는 길이를 25분으로 낮춘다
+- **남긴 결과물 칸이 빈 세션은 대부분 이름이 모호했다** — "보고서 작업"과 "3장 초안 800자"는 같은 한 시간을 전혀 다르게 씁니다
+- **방해 횟수가 6회를 넘으면 그 세션의 결과물 칸은 거의 항상 비어 있다** — 6회가 개인 임계선 역할을 한다
+
+세 칸이 이틀 연속 비면 훈련표를 한 칸 낮추세요. 기록이 밀리면 다시 펼치기 싫어지는 건 자연스러운 반응이라, 칸은 적을수록 오래갑니다. 기록 자체를 습관으로 붙이는 방법은 [습관 트래커 활용법](/blog/habit-tracker)에, 일주일치를 정리해 다음 주 배치에 반영하는 방법은 [주간 회고](/blog/weekly-review-habit)에 정리해 두었습니다.
+
+방해 횟수가 유독 밤 시간대에만 폭발한다면 그건 집중력 훈련으로 풀 문제가 아닙니다 — [핸드폰중독 끊는 법](/blog/phone-addiction-detox)의 3일 로그로 어느 시간대에 무너지는지부터 가르세요.
+
+## 같은 훈련표, 다른 배치 — 상황별 3가지
+
+훈련표는 하나인데 하루의 모양은 사람마다 다릅니다. 바꿔야 하는 건 표가 아니라 **배치와 길이**입니다.
+
+| 상황 | 로그에서 드러난 문제 | 배치 | 4주 뒤 |
+| --- | --- | --- | --- |
+| **회의 많은 직장인**(하루 3건) | 긴 블록이 아예 안 생김 — 세션 평균 18분에서 끊김 | 09:10~10:00 **50분 1회를 캘린더에 먼저 예약**, 회의 사이엔 25분 스프린트, 오후는 25분 고정 | 세션당 방해 11회 → 3회, 오전 결과물 칸이 매일 채워짐 |
+| **재택 근무자·프리랜서** | 시작과 끝의 경계가 없어 하루 종일 조금씩 일함 | 오전 **90분 1회 + 50분 1회**, 12시 이후는 메신저 응답 구간으로 공개 | 총 책상 시간은 줄고 산출물은 늘어남(늘어지던 뒤쪽 30분 제거) |
+| **수험생·시험 준비** | 50분을 고집하다 셋째 날 포기 | **25분 3회로 시작**, 통과 기준을 채운 주에만 50분 도입. 암기는 25분·이해는 50분으로 분리 | 이탈 없이 4주 완주, 무너지던 오후가 25분 스프린트로 살아남음 |
+
+세 사례의 공통점은 훈련표를 갈아엎지 않았다는 것입니다. **가장 맑은 구간에 가장 긴 블록을 먼저 못 박고, 나머지를 짧게 쪼갰을 뿐**입니다. 그리고 첫 주에는 성공 자체를 우스울 만큼 작게 잡아야 합니다 — [작은 성공](/blog/small-wins)이 쌓여야 4주차의 50분이 가능해집니다.
+
 ## 집중이 흐트러질 때 — 5가지 처방
 
 | 증상 | 흔한 원인 | 처방 |
@@ -1455,6 +1499,14 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
       {
         q: "커피나 백색소음, 음악은 집중에 도움이 되나요?",
         a: "보조 수단일 뿐, 순서가 뒤바뀌면 안 됩니다. 방해요소를 치우지 않은 채 음악만 바꾸는 것은 창문을 열어 둔 채 난방을 올리는 것과 같습니다. 굳이 쓴다면 가사 없는 소리나 일정한 소음이 무난하고, 카페인은 각성이 떨어지는 오후 초반에 한 잔 정도가 안전합니다. 늦은 시간의 카페인은 수면을 깎아 다음 날을 에너지형 실패로 만듭니다.",
+      },
+      {
+        q: "25분·50분·90분 중 어느 길이를 골라야 하나요?",
+        a: "취향이 아니라 그 작업의 재진입 비용이 정합니다. 끊겼다가 원래 상태로 돌아오는 데 5분 넘게 걸리는 일(설계·집필·복잡한 디버깅)에 25분 타이머를 쓰면 하루의 3분의 1을 감 다시 잡는 데 씁니다. 반대로 메일 처리나 자료 수집처럼 재진입이 1~2분인 일에 90분을 붙이면 뒤쪽 30분이 늘어집니다. 보고서 초안이나 기능 하나처럼 중간 정도라면 50분에 10분 휴식이 무난하고, 오후에는 같은 작업이라도 한 단계 짧게 내려오는 편이 낫습니다.",
+      },
+      {
+        q: "집중이 되는지 안 되는지 어떻게 기록하면 되나요?",
+        a: "앱을 새로 깔 필요 없이 종이 한 장에 세 칸이면 충분합니다. 날짜와 시작시각, 방해 횟수, 그리고 남긴 결과물 한 줄입니다. 일주일이면 개인 패턴이 드러나는데, 대개 오후 2~4시 세션의 방해 횟수가 오전의 두세 배로 나오고, 결과물 칸이 빈 세션은 이름이 모호했던 경우이며, 방해가 6회를 넘으면 그 세션은 거의 항상 빈손으로 끝납니다. 세 칸이 이틀 연속 비면 훈련표를 한 칸 낮추세요.",
       },
       {
         q: "비전드림은 집중에 어떻게 도움이 되나요?",
@@ -4085,7 +4137,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
