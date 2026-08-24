@@ -4,11 +4,11 @@ export const en: Post = {
   slug: "grit-consistency",
   title: "Grit and Consistency — Why the Person Who Lasts Beats the Talented One",
   description:
-    "Talent gets the applause, but consistency gets the results. The compounding math of 1% a day, the 66-day average before a habit feels automatic, a minimum-version table for bad days, a 48-hour recovery procedure for a broken chain, and 30/60/90-day checkpoints — how to last on structure instead of willpower.",
+    "Talent gets the applause, but consistency gets the results. The compounding math of 1% a day, the 66-day average before a habit feels automatic, a minimum-version table for bad days, a 48-hour recovery procedure for a broken chain, and 30/60/90-day checkpoints — how to last on structure instead of willpower. Plus a frequency comparison (daily vs. 5 or 3 days a week: 365 reps a year against 156), four streak-protecting devices side by side, and three 12-week logs showing where each chain broke and what restarted it.",
   date: "2026-07-02",
-  updated: "2026-08-16",
+  updated: "2026-08-25",
   category: "Mindset",
-  readMinutes: 11,
+  readMinutes: 14,
   emoji: "🪨",
   cover: "/blog/grit-consistency.svg",
   body: `Before this week runs out, pull one goal back out. Of everything you wrote down at the start of the year, how much is still alive? Most likely there's one item you missed for a single day about three weeks in, and never touched again. Strangely, picking a dropped goal back up feels embarrassing — so most people quietly close the file with "I guess my willpower is weak."
@@ -77,6 +77,31 @@ The real problem is that most plans have no bad-day version at all, so on a hard
 
 One rule makes it work: **the minimum version counts as done.** If it doesn't count, your log breaks on every bad day, and soon you stop looking at the log at all. If the logging itself is what keeps falling apart, fix that first with [how to build a habit tracker](/en/blog/habit-tracker).
 
+## Frequency design: daily vs. five days a week — which one lasts?
+
+Cutting the frequency looks like the merciful option. In practice it does the opposite: on every day that isn't a fixed rep day, you have to decide whether today counts. Daily isn't easier because the workload is lighter — it's easier because there's nothing left to decide.
+
+| Design | One year of reps (20 min each) | What you decide each day | Where it stops lasting |
+| --- | --- | --- | --- |
+| Every day | 365 reps · about 122 hours | One thing: "did I, or didn't I" | A trip or a late night breaks the rule itself |
+| 5 days a week (fixed weekdays) | 261 reps · about 87 hours | "Is today one of those days?" | You renegotiate every week when to make up the day you missed |
+| 3 days a week (any day you like) | 156 reps · about 52 hours | "Today, or tomorrow?" | The cost of deciding grows bigger than the work itself |
+
+Look at the middle column. The daily design is the only one whose daily question has a single answer, which is exactly why it survives tired weeks. If you want to delete the decision entirely, give the rep a slot on the calendar instead of a line on a to-do list — that's the whole idea behind [time blocking](/en/blog/time-blocking). A short rep is also easier to begin because the first few minutes are when attention is cheapest; if starting is where you stall, [diagnose the cause of your focus problem first](/en/blog/improve-focus).
+
+**Don't lower the frequency — lower the size of one rep. Five minutes every day lasts longer than thirty minutes three times a week, because there is nothing to decide.**
+
+## Four devices that protect a streak, compared
+
+| Device | Setup time | How it works when you're about to collapse | Who it fits |
+| --- | --- | --- | --- |
+| An X on a paper calendar | 1 minute | The empty square is visible, and the gap becomes pressure | People who swipe app notifications away |
+| App check-off + streak shield | 3 minutes | It defends the day you missed, automatically | Perfectionists who write off the whole run after one miss |
+| A weekly report partner | 10 minutes (recruiting them) | Someone asks from the outside before day two arrives | People who quietly quit when they work alone |
+| A commitment device (money, or a public declaration) | 5 minutes | It raises the price of quitting | People who only move when there's a deadline |
+
+**Pick one device, and only one.** With two or more, managing the devices becomes another habit you have to keep — the usual failure mode of an over-designed routine; see [designing a day system that doesn't burn you out](/en/blog/godsaeng-routine).
+
 ## When the chain breaks — the 48-hour recovery procedure
 
 Here's the part nobody tells you: everyone breaks the chain. You'll miss a day. The gritty aren't the ones who never fall — they're the ones who treat a missed day as a comma, not a period. The whole skill is the *restart*, and the restart has an order to it.
@@ -101,6 +126,18 @@ Translate that 66-day average into a plan and it looks like this. The order of i
 | Days 61–90 | Lock the time and place | Zero minutes spent deciding whether to start | "Graduating" at day 90 |
 
 After 90 days, don't raise the intensity — **fix the time slot**. A set hour means you don't re-decide "should I?" from scratch every day. The same principle applied to attention is a [deep work block](/en/blog/deep-work-focus).
+
+## Three 12-week logs: where it broke, and what saved it
+
+Averages hide the interesting part. Here are three people who logged the same habit for 12 weeks — where each chain snapped, and what actually restarted it.
+
+| Person | Habit | Longest streak | When it broke, and why | What brought it back | 12-week completion rate |
+| --- | --- | --- | --- | --- | --- |
+| Office worker A (38) | 20-minute run after work | 23 days | Week 4, three straight nights of overtime | Switched to the minimum version (10 squats at home) | 71% |
+| Working mom B (41) | 15 pages of reading at 10:30pm | 11 days | The week her child was sick | Kept the frequency, cut the amount to one page | 64% |
+| Job seeker C (26) | 2 workbook pages at 9am | 6 days | Her wake-up time collapsed | Moved the slot from 9am to 11am | 83% |
+
+**Not one of the three was saved by "trying harder." Every one of them lowered the intensity or moved the time.** Notice too that the highest completion rate belongs to the person with the shortest streak: C broke early, adjusted early, and spent the remaining ten weeks on a schedule that actually fit. Each of those adjustments is one small piece of evidence that you can do this — the raw material of [self-efficacy](/en/blog/self-efficacy), and what carries the reps once the novelty is gone.
 
 ## Decide the collapse sentences in advance
 
@@ -173,6 +210,14 @@ You don't have to be the most talented. You just have to be the one who's still 
       q: "How does VisionDream help you build grit?",
       a: "It turns grit from a feeling into a system. Your daily action becomes a habit you check off, each check builds a visible streak, and those checks grow your Success Tree so long-term effort becomes visible. On a day you miss, one of your two monthly streak shields is applied automatically so the run doesn't break. Because every habit is connected to the vision above it, the boring reps stay meaningful — and the weekly review helps you restart fast after a missed day.",
     },
+    {
+      q: "Can't I just cut back to three days a week?",
+      a: "You can, but it usually costs more than it saves. Lowering the frequency doesn't only cut the reps — at 20 minutes a rep, daily is 365 reps a year while three days a week is 156 — it also raises the number of decisions. On a free-choice schedule you have to settle \"today or tomorrow\" every single morning, and that deciding is what wears people down. If daily feels too heavy, keep the frequency and shrink the rep instead: five minutes a day, with the minimum version counting as done.",
+    },
+    {
+      q: "What if the streak itself becomes the pressure?",
+      a: "Then the log is being used as a judge instead of a gauge. The point of a record isn't a verdict on you — it's a view of whether the flow is still running. Count the minimum version as done, let a streak shield (two a month) cover the days you miss, and keep exactly one rule: never miss two days in a row. If the number itself is what stresses you, hide the total count and look only at the last seven days.",
+    },
   ],
 };
 
@@ -180,11 +225,11 @@ export const ja: Post = {
   slug: "grit-consistency",
   title: "やり抜く力と継続 — 才能より、長く続ける人が勝つ",
   description:
-    "才能は拍手を集め、継続は結果を集めます。1日1%の複利計算、習慣が自動になるまでの平均66日、悪い日専用の「最小バージョン」設計表、記録が切れたときの48時間リカバリー手順、30・60・90日のチェックポイントまで — 意志ではなく構造で続ける方法を順番に整理しました。",
+    "才能は拍手を集め、継続は結果を集めます。1日1%の複利計算、習慣が自動になるまでの平均66日、悪い日専用の「最小バージョン」設計表、記録が切れたときの48時間リカバリー手順、30・60・90日のチェックポイントまで — 意志ではなく構造で続ける方法を順番に整理しました。さらに、毎日と週5回・週3回の頻度比較(年365回と156回)、連続記録を守る4つの装置の比較、12週間続けた3人の記録がどこで切れ何で立て直ったのかも加えました。",
   date: "2026-07-02",
-  updated: "2026-08-16",
+  updated: "2026-08-25",
   category: "メンタル・実行力",
-  readMinutes: 11,
+  readMinutes: 14,
   emoji: "🪨",
   cover: "/blog/grit-consistency.svg",
   body: `今週が終わる前に、目標をひとつだけ引っぱり出してみませんか。年の初めに書いた中で、今も生きているのはいくつでしょう。おそらく三週間ほど経った頃に一日抜かして、その日以来ずっと触れないままの項目がひとつはあるはずです。不思議なことに、一度落とした目標を出し直すのは恥ずかしい。だから多くの人は「自分は意志が弱いんだ」で静かに閉じてしまいます。
@@ -253,6 +298,31 @@ export const ja: Post = {
 
 ルールはひとつ。**最小バージョンも「完了」に数える。** 数えなければ悪い日ごとに記録が切れ、やがて記録そのものを見なくなります。記録の付け方自体が崩れているなら、[習慣トラッカーの作り方](/ja/blog/habit-tracker)から整えるほうが早いです。
 
+## 頻度の設計 — 毎日か、週5回か。長く続くのはどちらか
+
+頻度を下げれば楽になりそうに見えます。ところが実際には逆のことが起きます。決まった反復のない日は、「今日はやる日か」をそのつど判断しなければならないからです。毎日が続きやすいのは体力の問題ではなく、決めることが残っていないからです。
+
+| 設計 | 1年の累計(1回20分) | 毎日判断すること | 続かなくなる地点 |
+| --- | --- | --- | --- |
+| 毎日 | 365回 · 約122時間 | 「やったか、やっていないか」の一つだけ | 旅行や残業の日に、ルールそのものが壊れる |
+| 週5回(曜日固定) | 261回 · 約87時間 | 「今日はその曜日か」 | 抜けた曜日をいつ埋めるか、毎週交渉することになる |
+| 週3回(曜日は自由) | 156回 · 約52時間 | 「今日やるか、明日にするか」 | 決めるコストが、実行そのものより大きくなる |
+
+見るべきは真ん中の列です。毎日の設計だけが、その日の問いに答えを一つしか持ちません。だから疲れている週を生き延びます。判断を完全に消したいなら、やることリストの一行ではなくカレンダーの枠として置いてください — それが[タイムブロッキング](/ja/blog/time-blocking)の考え方です。短い反復が始めやすいのは、最初の数分が集中をいちばん安く使える区間だからでもあります。始めるところで止まるなら、先に[集中力の原因を診断する](/ja/blog/improve-focus)ほうが早道です。
+
+**頻度を下げるのではなく、1回の分量を下げてください。毎日5分は、週3回30分より長く続きます — 決めることが何もないからです。**
+
+## 連続記録を守る4つの装置 — 比較
+
+| 装置 | 準備時間 | 崩れそうなときの効き方 | 向いている人 |
+| --- | --- | --- | --- |
+| 紙のカレンダーに×印 | 1分 | 空白が目に入り、それが圧力になる | アプリの通知を無視してしまう人 |
+| アプリのチェック + ストリーク保護券 | 3分 | 落とした一日を自動で守ってくれる | 一度落とすと全部を投げ出す完璧主義 |
+| 週1回の報告相手 | 10分(相手を頼む時間) | 二日目になる前に、外から尋ねられる | 一人だと静かにやめてしまう人 |
+| 事前コミットメント(金額・公開宣言) | 5分 | やめるコストを上げる | 締め切りがないと動かない人 |
+
+**装置はひとつだけ選んでください。** 二つ以上あると、装置を管理すること自体がもうひとつの習慣になります。ルーティンを作り込みすぎて崩れるのは、たいていこの形です — [燃え尽きない一日のシステム設計](/ja/blog/godsaeng-routine)も合わせて読んでみてください。
+
 ## 鎖が切れたとき — 48時間リカバリー手順
 
 誰も教えてくれない部分はこれです。鎖は、誰でも切れます。あなたも一日抜かします。グリットのある人は転ばない人ではなく、抜かした一日を「ピリオド」ではなく「コンマ」として扱う人です。核心は完璧な記録ではなく*再スタート*で、その再スタートにも順番があります。
@@ -277,6 +347,18 @@ export const ja: Post = {
 | 61〜90日 | 時間と場所を固定 | 始めるか迷う時間が0分 | 90日で「卒業」してしまう |
 
 90日を過ぎたら強度を上げるより、**時間帯を固定**しましょう。時刻が決まれば、毎日「やるかどうか」を一から決め直さずに済みます。同じ原理を集中に当てはめたものが[ディープワークのブロック](/ja/blog/deep-work-focus)です。
+
+## 12週間の記録・3人 — どこで切れ、何が救ったか
+
+平均値は、いちばん面白い部分を隠します。同じ習慣を12週間記録した3人の例で、鎖がどこで切れ、何が実際に再スタートさせたのかを見てみます。
+
+| 人 | 習慣 | 最長連続 | 切れた時期・理由 | 立て直した対応 | 12週の実行率 |
+| --- | --- | --- | --- | --- | --- |
+| 会社員A(38) | 退勤後20分のランニング | 23日 | 4週目、残業が3日続いた | 最小バージョン(家でスクワット10回)へ切り替え | 71% |
+| ワーキングマザーB(41) | 夜10時30分に読書15ページ | 11日 | 子どもが体調を崩した週 | 頻度はそのまま、分量だけ1ページに | 64% |
+| 就活生C(26) | 朝9時に問題集2ページ | 6日 | 起床時刻が崩れた | 時刻を9時から11時へ移動 | 83% |
+
+**3人のうち「もっと頑張って」立て直した人はひとりもいません。全員が強度を下げるか、時刻を動かしました。** もうひとつ注目したいのは、いちばん実行率が高いCが、いちばん早く切れている点です。早く崩れ、早く調整し、残りの10週間を自分に合う時刻で走りました。その小さな調整のひとつひとつが「自分にもできる」という証拠になります — それが[自己効力感](/ja/blog/self-efficacy)の材料であり、新鮮さが消えた後の反復を支えるものです。
 
 ## 崩れる場面の文を、先に決めておく
 
@@ -348,6 +430,14 @@ export const ja: Post = {
     {
       q: "ビジョンドリームはやり抜く力をどう育てますか?",
       a: "グリットを感情から仕組みへ変えます。毎日の行動はチェックする習慣になり、チェックのたびに目に見える連続記録が伸び、それが成功の木を育てて長期の努力が目に見えるようになります。落としてしまった日は、毎月2枚のストリーク保護券が自動で使われ、連続記録が切れません。各習慣は上のビジョンにつながっているので退屈な反復も意味を保ち、週次の振り返りが一日抜かした後の速い再スタートを助けます。",
+    },
+    {
+      q: "週3回に減らしてはだめですか?",
+      a: "減らしても構いませんが、たいてい得より損が大きくなります。頻度を下げると回数が減るだけでなく(1回20分なら毎日で年365回、週3回で年156回)、判断の回数が増えます。曜日が自由だと「今日やるか、明日にするか」を毎朝決め直すことになり、その決定コストが先に人を消耗させます。毎日が重いと感じるなら、頻度は毎日のままで1回の分量を下げてください — 1日5分、最小バージョンも「完了」に数える形がいちばん続きます。",
+    },
+    {
+      q: "連続記録そのものが負担になったらどうしますか?",
+      a: "それは記録を「計器」ではなく「審判」として使っている状態です。記録の目的は評価ではなく、流れがまだ続いているかの確認です。最小バージョンも完了に数え、落とした日はストリーク保護券(毎月2枚)に守らせ、ルールは「二日連続では抜かさない」の一つだけ残してください。数字そのものが重いなら、通算日数は隠して直近7日だけを見るようにすると圧力が下がります。",
     },
   ],
 };
