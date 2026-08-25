@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "Laziness isn't who you are. Most of the time it's a signal — low energy, low motivation, or a task that feels too big. A 60-second self-check for the five signal types, a 2-minute conversion table, a way to count friction in steps, and a 7-day plan to get moving again.",
   date: "2026-07-03",
-  updated: "2026-08-17",
+  updated: "2026-08-26",
   category: "Mindset",
-  readMinutes: 11,
+  readMinutes: 14,
   emoji: "🦥",
   cover: "/blog/overcome-laziness.svg",
   body: `You rested all weekend and Monday morning feels heavier than ever. You know what needs doing, you don't even hate it, and still your body won't carry you to the desk. In that moment we all reach for the fastest conclusion — "I'm just a lazy person."
@@ -70,6 +70,21 @@ One distinction matters more than the rest. Sometimes what looks like laziness i
 
 If the right column is winning, change the order. Recovery only comes back in this sequence: **sleep → activity → stimulation**. Pushing exercise while sleep is broken, or self-improvement content while exercise is impossible, fails because the order is reversed. The full sequence is in [how to recover from burnout](/en/blog/burnout-recovery), and the way you talk to yourself in the meantime is where [self-compassion](/en/blog/self-compassion) does real work. If it's lasted more than two weeks and sleep, appetite, or daily function are shaky, that's not a willpower issue — it's a signal to consider talking to a professional.
 
+## Your resistance runs on a schedule — a 3-day log
+
+The same person isn't equally lazy all day. Write down the moments you put off starting for three days and they almost always cluster into **two or three windows**. The method is simple: every time you think "I should be doing that and I'm not," record two things — **the time, and what you were doing right before**. Five to seven lines a day; fifteen to twenty over three days is plenty.
+
+Collect three days and it usually resolves into one of these four windows.
+
+| Resistance window | What you were doing right before | What actually happened | The fix for that window |
+| --- | --- | --- | --- |
+| **First 30 minutes after waking** | Killed the alarm, checked the phone | You handed the day's first decision to your notifications | Phone six feet from the bed · make the first action a no-decision one, like a glass of water |
+| **Right after lunch, 1-3 p.m.** | Sat back down at your desk | You scheduled the hardest task into your lowest-alertness window | Low-difficulty work here — filing, replies · move hard work to the morning |
+| **Right after work, 7-9 p.m.** | Sat on the couch, started a video | You sat down before you changed clothes | Take the first step of the next action **within 3 minutes** of walking in, before you sit |
+| **After 11 p.m.** | Scrolling in bed | You spent tomorrow morning's energy in advance | Move the charger to another room — fix this one and the morning recovers first |
+
+What matters here isn't the prescriptions but the **order**. Try to fix all four and all four collapse within three days. Pick the **single window that showed up most** in your log. If it was the after-work slot, touch only that one this week and leave the other three alone. If evenings keep catching you, [designing an evening routine](/en/blog/evening-routine) picks up from here; if the night is being eaten whole by your phone, the three-second friction devices in [how to break phone addiction](/en/blog/phone-addiction-detox) apply directly.
+
 ## The 2-minute rule — make starting tiny
 
 Most "laziness" is really resistance to *starting*, not to the work itself. Once you're in motion, continuing is easy; it's the standing-still-at-the-edge that hurts. The 2-minute rule dissolves that edge: shrink the task until it takes two minutes or less. Not "clean the house" but "put one dish away." Not "write the report" but "open the document and write one sentence." The point isn't to finish in two minutes — it's to make **starting** so small that avoiding it takes more effort than doing it. Almost always, the two minutes turn into ten. (This is the engine behind [small wins](/en/blog/small-wins): tiny actions that build real momentum.) Decide that two-minute version in advance as your bad-day "minimum version" and your record survives the days you collapse — see the minimum-version table in [grit and consistency](/en/blog/grit-consistency).
@@ -103,6 +118,20 @@ Willpower is unreliable; your environment is not. If starting takes five steps, 
 | Writing | ① open laptop ② log in ③ browser ④ close tabs ⑤ find folder ⑥ open file ⑦ start — **7 steps** | Leave the file open and the laptop asleep, keep a separate work profile → ① lift the lid ② write — **2 steps** |
 
 Every step you delete is a spoonful of willpower you don't have to spend. Today, delete just **two**. If you also want the *when* decided in advance, [time blocking](/en/blog/time-blocking) is the next move; to see whether the lower friction actually holds, use a [habit tracker](/en/blog/habit-tracker).
+
+## What cutting steps actually changes — three cases
+
+Put numbers on it and it becomes obvious why this has nothing to do with willpower. Below is what typically happens when the step count above is applied as written.
+
+| Situation | The one thing changed | Steps | What changed in week one |
+| --- | --- | --- | --- |
+| Three years of "I'll start working out tomorrow" | Clothes at the foot of the bed the night before · video bookmarked in the first slot | 6 → 2 | 4 days out of 7 (previously 0-1) · 18 minutes per session |
+| The book never gets opened after work | Charger moved to the living room · book on the pillow | 5 → 1 | 5 days out of 7 · 12 pages a day (0 the week before) |
+| Reports always written the night before the deadline | File left open on sleep before leaving · only 3 tabs kept | 7 → 2 | Start time moved from 10 p.m. to mid-morning |
+
+What these three share is that **not one of them added willpower**. What changed was where objects sit, plus ten minutes the night before. And in all three, the number of days executed only rose **after the step count dropped to three or fewer** — going from seven steps to five usually changes very little. So "I tidied up a bit and nothing changed" is usually accurate, and the answer is **cut further**.
+
+The lever runs in reverse too: **add** steps to the behavior you don't want. Remote in a drawer, app off the home screen, snacks on the shelf you can't reach. Subtract two steps from the good action and add two to the bad one, and the same day runs differently. If you want other people in the system as well, a structure where **your seat stays even when you miss** — like the six-week plan in [why book clubs quietly die](/en/blog/reading-club-guide) — outlasts any rule you set for yourself alone.
 
 ## Connect the action to your vision
 
@@ -165,6 +194,10 @@ You were never lazy. You were tired, or unsure, or disconnected — and all thre
       a: "Don't go back to the beginning — restart at the minimum version. Habits don't break from missing one day; they break from missing two in a row, so the rule is simply never to skip twice back to back. If today is that second day, doing the two-minute minimum right now keeps the streak alive. Then check the cause against the self-check table instead of blaming yourself: most of the time it wasn't willpower, it was that the number of steps to start had quietly grown.",
     },
     {
+      q: "What time of day should I start?",
+      a: "The right hour differs by person, but the way to find it is the same. For three days, write down the time and the action immediately preceding every moment you felt 'I should be doing that.' It usually clusters into two or three windows: the first 30 minutes after waking, right after lunch (1-3 p.m.), right after work (7-9 p.m.), and after 11 p.m. Then don't try to fix all four at once — touch only the window that showed up most this week and leave the rest alone. Once one window steadies, the next one is far easier.",
+    },
+    {
       q: "What if I can't change my environment — an office or shared space?",
       a: "Designing your environment means reducing steps, not redesigning a room, so it works from a single desk. Leave tomorrow's first file open and the laptop asleep before you go home, keep only the three tabs you start with, move your phone to an inner pocket of your bag, park your earbuds beside the keyboard — each of those removes one step. Once starting takes three steps or fewer, your body usually goes.",
     },
@@ -185,9 +218,9 @@ export const ja: Post = {
   description:
     "怠けは、あなたの正体ではありません。多くの場合それはサイン — エネルギー切れ、意欲の低下、あるいは大きすぎるタスク。5種類のサインを60秒で見分ける自己診断表、2分ルール変換表、摩擦を歩数で数える方法、7日間の立て直し計画までまとめました。",
   date: "2026-07-03",
-  updated: "2026-08-17",
+  updated: "2026-08-26",
   category: "メンタル・実行力",
-  readMinutes: 11,
+  readMinutes: 14,
   emoji: "🦥",
   cover: "/blog/overcome-laziness.svg",
   body: `週末ずっと休んだのに、月曜の朝がいっそう重い。やることは分かっているし、死ぬほど嫌なわけでもないのに、体が机まで運ばれない。そんなとき私たちは、いちばん手早い結論に手を伸ばします — 「自分はただの怠け者だ」。
@@ -249,6 +282,21 @@ export const ja: Post = {
 
 右の列が多いなら、順番を変えるべきです。回復は**睡眠 → 活動 → 刺激**の順でしか戻りません。眠りが崩れたまま運動から、運動ができない状態で自己啓発コンテンツから押し込むのは、順番が逆なので失敗します。詳しい段階は[燃え尽きから回復する順番](/ja/blog/burnout-recovery)に、その間の自分への言葉づかいは[セルフ・コンパッション](/ja/blog/self-compassion)にまとめました。2週間以上続き、睡眠・食欲・日常の機能まで揺らいでいるなら、それは意志の領域ではなく**専門家への相談を考えるサイン**です。
 
+## 動けない時間帯は決まっている — 3日間の抵抗ログ
+
+同じ人が一日中同じように怠けるわけではありません。着手を先延ばしにした瞬間を3日だけ記録すると、ほぼ例外なく**一日のうち2〜3の時間帯に集中**しています。やり方は簡単です。「やらなきゃいけないのにやらなかった」と感じた瞬間ごとに、**時刻と直前の行動**の2つだけ書きます。1日5〜7行、3日で15〜20行あれば十分です。
+
+3日分が集まると、たいてい次の4つの時間帯のどれかに整理されます。
+
+| 抵抗の時間帯 | よくある直前の行動 | 実際に起きていたこと | その時間帯に合う処方 |
+| --- | --- | --- | --- |
+| **起床後0〜30分** | アラームを止めてスマホを確認 | 一日の最初の決定権を通知に渡した | スマホをベッドから2m離す・最初の行動は水一杯のような判断のいらないものに |
+| **昼食直後 13〜15時** | 食後に席へ戻る | 覚醒度が下がる時間帯に一番難しい仕事を置いた | この時間帯は整理・返信など低難度の作業に・難しい仕事は午前へ |
+| **退勤直後 19〜21時** | ソファに座る・動画を再生 | 着替える前に座ってしまった | 帰宅後、座る前に**3分以内**に次の行動の最初の一歩だけ実行 |
+| **就寝前 23時以降** | ベッドでスマホをスクロール | 翌朝のエネルギーを前借りした | 充電器を別の部屋へ — ここを直すだけで翌日の午前が先に戻る |
+
+ここで大事なのは処方ではなく**順序**です。4つを一度に直そうとすると3日で全部崩れます。3日間のログで**最も多く出た時間帯を1つだけ**選んでください。退勤直後が一番多かったなら、今週はそこだけ手をつけ、残りの3つはそのままにします。夜の時間帯が繰り返し引っかかるなら[夜のルーティン設計](/ja/blog/evening-routine)が、夜がまるごとスマホに食われているなら[スマホ依存を断つ方法](/ja/blog/phone-addiction-detox)の3秒の摩擦装置がそのまま続きます。
+
 ## 2分ルール — 始まりを小さくする
 
 たいていの「怠け」は、仕事そのものではなく*始めること*への抵抗です。いったん動き出せば、続けるのは簡単。つらいのは、縁に立って止まっている時間です。2分ルールはその縁を溶かします — 2分以内でできるまでタスクを小さくするのです。「家を掃除する」ではなく「皿を一枚しまう」。「レポートを書く」ではなく「文書を開いて一文書く」。2分で終わらせるのが目的ではありません。**始める**ことを、避けるより楽なほど小さくするのが目的です。たいてい、その2分が10分に変わります。(これが[小さな成功](/ja/blog/small-wins)の原動力 — 本物の勢いを生む、ごく小さな行動です。)この2分版を「悪い日専用の最小バージョン」として先に決めておけば、崩れた日でも記録は生き残ります — [やり抜く力と継続](/ja/blog/grit-consistency)の最小バージョン設計表を参考にしてください。
@@ -282,6 +330,20 @@ export const ja: Post = {
 | 書きもの | ①PCを開く ②ログイン ③ブラウザ ④タブ整理 ⑤フォルダを探す ⑥ファイルを開く ⑦開始 — **7歩** | ファイルを開いたままスリープ、作業用プロファイルを分ける → ①ふたを開ける ②書く — **2歩** |
 
 消した一歩が、使わずに済んだ意志ひとさじです。今日は**2歩だけ**消してみてください。「いつやるか」まで先に席に着かせたいなら[タイムブロッキング](/ja/blog/time-blocking)が、下げた摩擦がちゃんと保たれているか見たいなら[習慣トラッカーの使い方](/ja/blog/habit-tracker)が次の一手です。
+
+## 歩数を減らすと実際に何が変わるか — 3つの事例
+
+数字にすると、この方法が意志と無関係である理由がはっきりします。以下は上の計算法をそのまま適用したときによく起きる変化です。
+
+| 状況 | 変えたこと(たった1つ) | 歩数 | 最初の1週間で変わったこと |
+| --- | --- | --- | --- |
+| 3年間「明日から運動」 | 寝る前にウェアをベッドの足元へ・動画はブックマークの先頭に | 6 → 2 | 7日中4日実行(以前は0〜1日)・1回平均18分 |
+| 退勤後に本が開かない | 充電器をリビングへ・本を枕の上へ | 5 → 1 | 7日中5日・1日平均12ページ(前週は0ページ) |
+| 報告書はいつも締切前夜 | 退勤前にファイルを開いたままスリープ・タブは3つだけ | 7 → 2 | 着手時刻が夜22時から午前10時台へ移動 |
+
+3つの共通点は、**意志を増やした項目が1つもない**ことです。変えたのは物の位置と前夜の10分だけ。そして3つとも、**歩数が3以下に下がってから**実行日数が上がりました — 7歩を5歩に減らした段階では大きな変化は出ません。だから「少し片づけてみたけど変わらなかった」はたいてい事実で、答えは**もっと減らすこと**です。
+
+逆向きのてこもあります。悪い行動には歩数を**足す**のです。リモコンは引き出しへ、アプリはホーム画面の外へ、お菓子は手の届かない棚へ。良い行動から2歩引き、悪い行動に2歩足せば、同じ一日がまったく違う回り方をします。場所の力まで借りたいなら[読書カフェではなぜ読めるのか](/ja/blog/reading-cafe)が環境設計を扱っています。
 
 ## 行動をビジョンにつなぐ
 
@@ -342,6 +404,10 @@ export const ja: Post = {
     {
       q: "数日続けてまた崩れました。どこから再開しますか?",
       a: "最初に戻らず、最小バージョンから点け直してください。習慣は一日抜けて崩れるのではなく二日連続で抜けて崩れるので、ルールはひとつ — 絶対に二日続けて飛ばさない。今日がその二日目なら、2分の最小バージョンをいま済ませれば流れは生き返ります。そのうえで崩れた原因を自責ではなく自己診断表で確かめてください。多くの場合それは意志ではなく、その日の歩数が増えていたのです。",
+    },
+    {
+      q: "一日のうち、いつ始めるのが一番うまくいきますか?",
+      a: "正解の時刻は人によって違いますが、見つけ方は同じです。3日間、「やらなきゃいけないのにやらなかった」と感じた瞬間の時刻と直前の行動だけを書いてみてください。たいてい起床後30分・昼食直後の13〜15時・退勤直後の19〜21時・就寝前23時以降のうち、2〜3の時間帯に集中します。そして4つを同時に直さないこと — 最も多く出た1つだけを今週手をつけ、残りはそのままにします。1つが安定すれば、次の時間帯はずっと楽に越えられます。",
     },
     {
       q: "オフィスや共有スペースで環境を変えられない場合は?",

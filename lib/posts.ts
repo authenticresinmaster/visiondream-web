@@ -55,6 +55,7 @@ import { en as readingHabitEn, ja as readingHabitJa, ko as readingHabitKo } from
 import { en as readingCafeEn, ja as readingCafeJa, ko as readingCafeKo } from "./blog-i18n/reading-cafe";
 import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-lasts";
 import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addiction-detox";
+import { en as readingClubGuideEn } from "./blog-i18n/reading-club-guide";
 
 export type FaqItem = { q: string; a: string };
 
@@ -1226,9 +1227,9 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
     description:
       "게으름은 당신의 정체가 아닙니다. 대개는 신호입니다 — 떨어진 에너지, 바닥난 의욕, 혹은 너무 커 보이는 일. 5가지 신호를 60초에 가르는 자가진단표, 2분 규칙 변환표, 마찰을 걸음 수로 세는 계산법, 7일 복귀 계획까지 오늘 바로 쓸 순서로 정리했습니다.",
     date: "2026-07-03",
-    updated: "2026-08-17",
+    updated: "2026-08-26",
     category: "심리·실행력",
-    readMinutes: 11,
+    readMinutes: 14,
     emoji: "🦥",
     cover: "/blog/overcome-laziness.svg",
     body: `주말 내내 쉬었는데 월요일 아침이 더 무겁습니다. 해야 할 일은 알고 있고, 죽도록 싫은 것도 아닌데, 몸이 책상까지 가지 않습니다. 그럴 때 우리는 가장 빠른 결론에 손을 뻗습니다 — "난 원래 게으른 사람이야."
@@ -1290,6 +1291,21 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 
 오른쪽에 표시가 더 많다면 순서를 바꿔야 합니다. 회복은 **수면 → 활동 → 자극** 순서로만 돌아옵니다. 잠이 무너진 상태에서 운동부터, 운동이 안 되는 상태에서 자기계발 콘텐츠부터 밀어 넣으면 순서가 거꾸로라 실패합니다. 자세한 단계는 [번아웃에서 회복하는 순서](/blog/burnout-recovery)에 정리했고, 그동안 자기를 대하는 말투는 [자기연민 연습](/blog/self-compassion)이 도움이 됩니다. 2주 넘게 지속되고 수면·식욕·일상 기능까지 흔들린다면 그건 의지의 영역이 아니라 **전문가 상담을 고려할 신호**입니다.
 
+## 안 움직이는 시간대는 정해져 있다 — 3일 저항 로그
+
+같은 사람이 하루 종일 똑같이 게으르지는 않습니다. 시작을 미룬 순간을 사흘만 적어 보면, 거의 예외 없이 **하루 중 두세 구간에 몰려 있습니다.** 방법은 간단합니다. "해야 하는데 안 했다"는 생각이 든 순간마다 **시각과 직전 행동** 두 가지만 적으세요. 하루 5~7줄, 사흘이면 15~20줄로 충분합니다.
+
+사흘치를 모으면 대개 아래 네 구간 중 하나로 정리됩니다.
+
+| 저항 구간 | 흔한 직전 행동 | 실제로 벌어진 일 | 그 구간에 맞는 처방 |
+| --- | --- | --- | --- |
+| **기상 후 0~30분** | 알람 끄고 폰 확인 | 하루의 첫 결정권을 알림에 넘겼다 | 폰을 침대에서 2m 밖으로 · 첫 행동은 물 한 컵처럼 판단이 필요 없는 것으로 |
+| **점심 직후 13~15시** | 식사 후 자리로 복귀 | 각성도가 내려가는 구간에 가장 어려운 일을 배치했다 | 이 구간엔 정리·회신 같은 저난도 작업 · 어려운 일은 오전으로 |
+| **퇴근 직후 19~21시** | 소파에 앉음 · 영상 재생 | 옷을 갈아입기 전에 앉아 버렸다 | 집에 들어와 앉기 전, **3분 안에** 다음 행동의 첫 걸음만 실행 |
+| **취침 전 23시 이후** | 침대에서 폰 스크롤 | 내일 오전의 에너지를 미리 당겨 썼다 | 충전기를 다른 방으로 — 여기 하나만 고쳐도 다음 날 오전이 먼저 돌아온다 |
+
+여기서 중요한 건 처방이 아니라 **순서**입니다. 네 구간을 한꺼번에 고치려 하면 사흘이면 전부 무너집니다. 사흘 로그에서 **가장 자주 나온 구간 하나만** 고르세요. 퇴근 직후가 가장 잦았다면 이번 주는 그 구간만 손대고 나머지 셋은 그대로 둡니다. 저녁 구간이 반복해서 걸린다면 [저녁 루틴 설계](/blog/evening-routine)가, 밤 시간대가 통째로 폰에 먹히고 있다면 [핸드폰중독 끊는 법](/blog/phone-addiction-detox)의 3초 마찰 장치가 그대로 이어집니다.
+
 ## 2분 규칙 — 시작을 아주 작게
 
 대부분의 "게으름"은 일 자체가 아니라 *시작하기*에 대한 저항입니다. 일단 움직이기 시작하면 이어 가기는 쉽습니다. 아픈 건 문턱 앞에 멈춰 서 있는 시간이죠. 2분 규칙은 그 문턱을 녹입니다 — 2분 안에 할 수 있을 만큼 일을 잘게 줄이는 겁니다. "집 청소하기"가 아니라 "그릇 하나 치우기." "보고서 쓰기"가 아니라 "문서 열고 한 문장 쓰기." 2분 안에 끝내는 게 목적이 아닙니다. **시작하는 것**을, 피하는 것보다 더 쉬울 만큼 작게 만드는 게 목적입니다. 거의 언제나, 그 2분은 10분으로 늘어납니다. (이것이 [작은 성공](/blog/small-wins)의 엔진입니다 — 진짜 관성을 쌓는 아주 작은 행동들이죠.) 이 2분짜리를 나쁜 날 전용 '최소 버전'으로 미리 정해 두면 무너진 날에도 기록이 살아남습니다 — [끈기와 꾸준함](/blog/grit-consistency)의 최소 버전 설계표를 참고하세요.
@@ -1323,6 +1339,20 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 | 글쓰기 | ① 노트북 켜기 ② 로그인 ③ 브라우저 ④ 탭 정리 ⑤ 폴더 찾기 ⑥ 파일 열기 ⑦ 시작 — **7걸음** | 전날 밤 파일을 열어 둔 채 절전, 작업 계정 분리 → ① 덮개 열기 ② 쓰기 — **2걸음** |
 
 제거한 걸음 하나가 아낀 의지 한 스푼입니다. 오늘은 딱 **두 걸음만** 없애 보세요. 무엇을 언제 할지까지 미리 자리에 앉혀 두고 싶다면 [시간 블로킹](/blog/time-blocking)이, 걸음을 줄인 뒤 그게 유지되는지 보고 싶다면 [습관 트래커 활용법](/blog/habit-tracker)이 다음 단계입니다.
+
+## 걸음 수를 줄이면 실제로 무엇이 바뀌나 — 사례 3개
+
+숫자로 보면 이 방법이 왜 의지와 무관한지가 분명해집니다. 아래는 위의 계산법을 그대로 적용했을 때 흔히 나오는 변화입니다.
+
+| 상황 | 바꾼 것(단 하나) | 걸음 수 | 첫 주에 달라진 것 |
+| --- | --- | --- | --- |
+| 3년째 "내일부터 운동" | 잠들기 전 운동복을 침대 발치에 · 영상은 즐겨찾기 첫 칸 | 6 → 2 | 7일 중 4일 실행(이전 0~1일) · 1회 평균 18분 |
+| 퇴근 후 책이 안 펴짐 | 폰 충전기를 거실로 · 책을 베개 위로 | 5 → 1 | 7일 중 5일 · 하루 평균 12쪽(이전 주 0쪽) |
+| 보고서를 늘 마감 전날 밤에 | 퇴근 전 파일을 열어 둔 채 절전 · 탭 3개만 남김 | 7 → 2 | 착수 시각이 밤 10시 → 오전 10시대로 이동 |
+
+세 사례의 공통점은 **의지를 늘린 항목이 하나도 없다**는 것입니다. 바꾼 건 물건의 위치와 전날 밤의 10분뿐입니다. 그리고 셋 다 **걸음 수가 3 이하로 떨어진 뒤에야** 실행 일수가 올라갔습니다 — 7걸음을 5걸음으로 줄인 단계에서는 대개 큰 변화가 없습니다. 그래서 "조금 정리해 봤는데 그대로던데요"는 대개 사실이고, 답은 **더 줄이는 것**입니다.
+
+반대 방향의 지렛대도 있습니다. 나쁜 행동에는 걸음을 **더하는 것**이죠. 리모컨은 서랍에, 앱은 홈 화면 밖으로, 과자는 손 닿지 않는 칸으로. 좋은 행동에서 두 걸음을 빼고 나쁜 행동에 두 걸음을 더하면, 같은 하루가 전혀 다르게 굴러갑니다. 사람의 힘까지 빌리고 싶다면 [독서동호회 6주 운영 설계표](/blog/reading-club-guide)처럼 '빠져도 다음 자리가 남는' 구조가, 혼자만의 규칙보다 훨씬 오래 갑니다.
 
 ## 행동을 비전에 연결한다
 
@@ -1383,6 +1413,10 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
       {
         q: "며칠 하다 또 무너졌습니다. 어디서부터 다시 시작하나요?",
         a: "처음으로 돌아가지 말고 '최소 버전'에서 다시 켜세요. 습관은 하루 빠져서 무너지지 않고 이틀 연속 빠지면서 무너지므로, 규칙은 하나입니다 — 절대 이틀 연속 거르지 않기. 오늘이 그 이틀째라면 2분짜리 최소 버전을 지금 해내면 흐름은 살아납니다. 그리고 무너진 원인을 자책 대신 자가진단표로 확인하세요. 대개는 의지가 아니라 그날의 걸음 수가 늘어나 있었습니다.",
+      },
+      {
+        q: "하루 중 언제 시작하는 게 가장 잘 되나요?",
+        a: "정답 시각은 사람마다 다르지만 찾는 방법은 같습니다. 사흘 동안 '해야 하는데 안 했다'고 느낀 순간의 시각과 직전 행동만 적어 보세요. 대개 기상 후 30분, 점심 직후 13~15시, 퇴근 직후 19~21시, 취침 전 23시 이후 중 두세 구간에 몰립니다. 그리고 네 구간을 동시에 고치지 마세요 — 가장 자주 나온 한 구간만 이번 주에 손대고 나머지는 그대로 둡니다. 한 구간이 안정되면 다음 구간은 훨씬 쉽게 넘어갑니다.",
       },
       {
         q: "사무실이나 공유 공간이라 환경을 못 바꾸는데요?",
@@ -4350,7 +4384,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [readingClubGuideEn, phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
