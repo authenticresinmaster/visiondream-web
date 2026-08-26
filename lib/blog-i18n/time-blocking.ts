@@ -4,11 +4,11 @@ export const en: Post = {
   slug: "time-blocking",
   title: "Time Blocking — Why Your To-Do List Keeps Failing You (The 60/40 Rule and a 5-Step Day)",
   description:
-    "A to-do list tells you what to do, but never when — so the urgent always eats the important. Three block sizes (25/50/90 min), the 60/40 rule that leaves your day room to bend, a real 9-to-6 example schedule, five fixes for when it falls apart, and a 7-day starter plan.",
+    "A to-do list tells you what to do, but never when — so the urgent always eats the important. Three block sizes (25/50/90 min), the 60/40 rule that leaves your day room to bend, a real 9-to-6 example schedule, five fixes for when it falls apart, a 7-day starter plan, a two-week block audit with adherence benchmarks, three schedules for shift work, freelancing, and childcare, plus four tools compared.",
   date: "2026-06-29",
-  updated: "2026-08-18",
+  updated: "2026-08-27",
   category: "Productivity",
-  readMinutes: 12,
+  readMinutes: 16,
   emoji: "⏱️",
   cover: "/blog/time-blocking.svg",
   body: `"This week I'll really focus." You wrote the list. You even starred the important ones. And yet at 6pm the big task is still untouched, buried under a dozen small ones you "just knocked out."
@@ -132,6 +132,59 @@ Convert your whole day at once and you'll quit by Wednesday. Add one layer a day
 - **Day 6** — One deep block even on your day off — a personal project, study, exercise. Drop to zero on the weekend and Monday feels heavy again.
 - **Day 7** — A 30-minute review. Blocks kept, the hour that broke most often, and **one** thing to change next week. (Counting [small wins](/en/blog/small-wins) is next week's fuel.)
 
+## A two-week block audit — find the leak in numbers
+
+Almost everyone gets as far as booking the blocks. The trouble starts after that: **you don't know why a block failed**, so next week collapses at exactly the same spot. What fixes this isn't more resolve — it's one sheet of two-week data. Ten minutes each evening, four columns.
+
+| Column | What you write | Example |
+| --- | --- | --- |
+| Planned | The time you booked and the block name | 09:10 Proposal draft, 3 pages |
+| Actual | When you really started | 09:38 |
+| Interruption | One word for what delayed you | Slack |
+| Result | ✓ done / ~ partial / ✗ never started | ~ |
+
+Two weeks of that produces a table like this — an example from running three blocks a day (one deep, one standard, one admin) for 14 days.
+
+| Week | Blocks planned | Blocks kept | Adherence | Median start delay | Top interruption |
+| --- | --- | --- | --- | --- | --- |
+| Week 1 | 21 | 11 | 52% | 22 min | Messaging (7×) |
+| Week 2 | 21 | 15 | 71% | 9 min | Surprise meetings (4×) |
+
+There are only three numbers worth reading here.
+
+1. **Adherence = blocks kept ÷ blocks planned.** In week one, 50–60% is normal. A low number isn't failure — it means you booked **one block too many** per day. Above 90%, you've booked too few or made them too easy. What matters more than the percentage is whether **the deep block survived**.
+2. **Median start delay.** Over 15 minutes and the cause isn't willpower, it's **the end of the previous block**. Setting an alarm for when the earlier block finishes usually pulls this under 5 minutes.
+3. **The hour of the first collapse.** Most people first slip at nearly the same time every day. Plant a single 10-minute buffer **just before** that hour and the two or three blocks behind it survive with it.
+
+Give it ten minutes tonight and write two lines: the time you planned and the time you actually started. A week of those and your pattern shows itself. Stack those ten minutes onto the closing step of your [evening routine](/en/blog/evening-routine) and you won't need to find the time separately.
+
+## When your day doesn't look like 9-to-6 — three schedules
+
+Far more people fall outside the 9-to-6 table than inside it. Keep the three principles — one deep block in your clearest hours, admin twice a day, 30–40% left empty — and the clock times can move anywhere.
+
+| | Shift work (day shift 7am–3pm) | Freelance (from home) | Working around childcare |
+| --- | --- | --- | --- |
+| Deep block, 90 min | 4:30–6:00pm (right after the shift) | 9:30–11:00am | 9:00–10:30pm (after bedtime) |
+| Standard block, 50 min | 7:30–8:20pm | 2:00–2:50pm / 4:00–4:50pm | 1:00–1:50pm (nap window) |
+| Admin blocks | 3:30pm / 9:00pm | 12:00pm / 5:30pm | Right after drop-off / after dinner cleanup |
+| Open buffer | 8:30–9:00pm | 3:00–3:40pm | Continuous — the child *is* the buffer |
+| The non-negotiable | Plan zero deep blocks on a shift-change day | No email before the morning deep block | Split the deep block into three 25-minute sprints if needed |
+
+All three share one thing: **the clearest hours weren't given away to somebody else.** For a shift worker those hours may be right after clocking out rather than in the morning; with small children they may be 9pm. What matters isn't the clock time but whether you booked your best 90 minutes first. If your rota rotates between two or three shift patterns, keep **two schedules by shift type** (a day sheet and a night sheet) rather than one by weekday. Not redesigning the day from scratch each week is most of the battle.
+
+## Four tools compared — where should the blocks live
+
+Plenty of people build an elaborate planner and end up with a collection of templates instead of a kept block. Judge a tool on two things only: **does it notify you**, and **is it easy to tidy when you fall behind**.
+
+| Tool | Strength | Weakness | Best for |
+| --- | --- | --- | --- |
+| Paper planner | Writing it down makes it stick; zero setup | No alerts, and it gets messy the moment you fall behind | People with three or fewer blocks a day |
+| Google / Apple Calendar | Easiest alerts, repeats, and dragging a block (30 seconds) | The link to the goal above is invisible | Meeting-heavy office workers — the best first tool |
+| Notion and doc-style tools | Goals, notes, and material in one place | Weak alerts, and **decorating leaks your time** | People who can hold to a minimal three-table structure ([Notion goal planner](/en/blog/notion-goal-planner)) |
+| Habit / goal apps | Streaks and links to higher goals are automatic | Weak at minute-level layout | People whose core work is recurring blocks ([habit trackers](/en/blog/habit-tracker) · [choosing a goal-tracking app](/en/blog/goal-tracking-apps)) |
+
+The realistic combination is **calendar plus app**: the calendar handles minute-level layout, the app handles streaks and the link to the goal. And when you feel the urge to switch tools, the problem is usually not the tool but the number of blocks you booked — drop one block before you migrate anything. If notifications keep cutting into the block itself, [reducing phone use](/en/blog/phone-addiction-detox) comes before any tool change.
+
 ## Connect blocks to the bigger picture
 
 Time blocking can become just a prettier to-do list if the blocks aren't tied to anything you actually care about. The point isn't to fill the calendar — it's to make sure your hours flow toward your **vision**, not just your inbox. Ask of each block: does this serve the future I'm building, or only today's noise?
@@ -177,6 +230,18 @@ Open your calendar right now and add **one square for tomorrow**. Name it with a
       a: "Yes — and it matters more, not less. Nail down one deep block that nobody else can touch (mornings if possible) and accept meetings around it. Even if the only hours you control are 90 minutes a day, 90 minutes pointed at your goal is 30 hours a month.",
     },
     {
+      q: "What adherence rate means it's working?",
+      a: "In the first week, 50–60% is normal. Keeping 11 of 21 planned blocks isn't failure — it's a signal you booked one block too many per day. Above 90% you've booked too few or made them too easy, so add a deep block. More important than the percentage is whether the deep block survived that day. Log four columns for two weeks — planned time, actual start, interruption, result — and the hour you reliably collapse will show itself.",
+    },
+    {
+      q: "I work from home and there's no boundary between work and life.",
+      a: "Make the boundary a signal rather than a time. ①No email before the morning deep block ②Admin fixed at 12:00 and 5:30pm ③An alarm at your end-of-work time, with the last 10 minutes spent booking tomorrow's blocks. Those three cover most of it. Physical signals — moving from the kitchen table to a desk, a 2-minute start ritual — work better than the clock when you're at home.",
+    },
+    {
+      q: "Blocking my day makes me feel boxed in.",
+      a: "That's what a 100%-full day feels like. Use the 60/40 rule to leave 30–40% empty and cut back to one deep block. It also helps to treat a block as a promise you made rather than a duty imposed — block your breaks, your walk, your dinner too. Once the calendar reads as \"this is all I have to do today\" instead of a supervisor, the pressure usually drops rather than rises.",
+    },
+    {
       q: "How does VisionDream help with time blocking?",
       a: "VisionDream's four-level planner (yearly, monthly, weekly, daily) gives daily tasks an A/B/C priority, links them automatically to the goal above, and rolls anything unfinished over to the next day. Habit checks on the Today tab become recurring blocks with a calendar heatmap of the days you kept, and two monthly streak protectors are spent automatically when you miss a day. The weekly review shows where your hours actually went, and the AI coach helps you rebalance when the urgent keeps stealing time from the important.",
     },
@@ -187,11 +252,11 @@ export const ja: Post = {
   slug: "time-blocking",
   title: "タイムブロッキング — なぜ「やることリスト」では時間に追われ続けるのか(60/40ルールと一日設計5ステップ)",
   description:
-    "やることリストは「何を」やるかは教えてくれますが、「いつ」やるかは教えてくれません。だから緊急なことが大事なことを食い尽くす。25・50・90分の3つのブロック、一日の6〜7割だけを埋める60/40ルール、9〜18時の実例タイムテーブル、崩れたときの処方箋5つ、最初の7日間の始め方までまとめました。",
+    "やることリストは「何を」やるかは教えてくれますが、「いつ」やるかは教えてくれません。だから緊急なことが大事なことを食い尽くす。25・50・90分の3つのブロック、一日の6〜7割だけを埋める60/40ルール、9〜18時の実例タイムテーブル、崩れたときの処方箋5つ、最初の7日間の始め方、2週間のブロック監査と遵守率の目安、交代勤務・フリーランス・育児並行の配置表3種、ツール4種の比較までまとめました。",
   date: "2026-06-29",
-  updated: "2026-08-18",
+  updated: "2026-08-27",
   category: "時間管理",
-  readMinutes: 12,
+  readMinutes: 16,
   emoji: "⏱️",
   cover: "/blog/time-blocking.svg",
   body: `「今週こそ本気でやる」。リストは書いた。大事なものに星もつけた。それなのに夕方六時、いちばん大きなタスクは手つかずのまま、「ついでに片付けた」小さな用事の山に埋もれている。
@@ -315,6 +380,59 @@ export const ja: Post = {
 - **6日目** — 休みの日もディープを一つだけ(個人プロジェクト・勉強・運動)。週末にゼロへ落ちると、月曜がまた重くなります。
 - **7日目** — 三十分の振り返り。守れたブロック数、いちばんよく崩れた時間帯、来週変えること**一つ**だけ書く。([小さな成功](/ja/blog/small-wins)を数えることが来週の燃料です。)
 
+## ブロック監査2週間 — どこで漏れているかを数字でつかむ
+
+ブロックを押さえるところまでは、たいていの人ができます。問題はその先です。**なぜ守れなかったのかがわからない**から、翌週もまったく同じ場所で同じように崩れる。ここで必要なのは強い決意ではなく、2週間ぶんの記録1枚です。夜に10分、四つの欄を埋めるだけで足ります。
+
+| 欄 | 書くこと | 例 |
+| --- | --- | --- |
+| 予定 | 押さえた時刻とブロック名 | 09:10 提案書ドラフト3ページ |
+| 実際 | 本当に始めた時刻 | 09:38 |
+| 妨害 | 開始を遅らせたものを一語で | チャット |
+| 結果 | ○(完了)/ △(部分)/ ×(未着手) | △ |
+
+2週間ためると、こんな表になります。以下は1日3ブロック(ディープ1・標準1・雑務1)で14日回した場合の例です。
+
+| 週 | 予定ブロック | 守れたブロック(○) | 遵守率 | 開始遅れの中央値 | 最も多い妨害 |
+| --- | --- | --- | --- | --- | --- |
+| 1週目 | 21 | 11 | 52% | 22分 | チャット(7回) |
+| 2週目 | 21 | 15 | 71% | 9分 | 突発の会議(4回) |
+
+読むべき数字は三つだけです。
+
+1. **遵守率 = 守れたブロック ÷ 予定ブロック。** 最初の週は50〜60%で正常です。低いのは失敗ではなく、そもそも1日に**ブロックを一つ多く**入れていたという意味です。逆に90%を超えるなら、少なすぎるか簡単すぎます。パーセントそのものより、**その日ディープブロックが生き残ったか**が重要です。
+2. **開始遅れの中央値。** 15分を超えるなら、原因は意志ではなく**直前のブロックの終わり方**です。前のブロックに終了時刻のアラームをかけるだけで、たいてい5分以内に縮みます。
+3. **その日最初に崩れる時刻。** 人はほぼ毎日、同じ時刻に最初のずれを起こします。その**直前に10分のバッファを一つ**置くだけで、後ろのブロック2〜3個がまとめて生き残ります。
+
+今夜10分だけ使って、二行書いてみてください — 予定した時刻と、実際に始めた時刻。1週間ぶんたまると自分のパターンが見えます。この10分は[夜のルーティン](/ja/blog/evening-routine)の締めの10分にそのまま乗せれば、別に時間を作る必要はありません。
+
+## 一日の形が違う人へ — 職種別の配置表3種
+
+9〜18時の表が合わない人のほうが、実は多いのです。原則は三つだけ(最も冴えた時間にディープブロック一つ・雑務は二回・3〜4割は空ける)。それさえ守れば時刻はいくらでも動かせます。
+
+| | 交代勤務(日勤7〜15時) | フリーランス(在宅) | 育児と並行 |
+| --- | --- | --- | --- |
+| ディープ90分 | 16:30〜18:00(退勤直後) | 09:30〜11:00 | 21:00〜22:30(寝かしつけ後) |
+| 標準50分 | 19:30〜20:20 | 14:00〜14:50 / 16:00〜16:50 | 13:00〜13:50(昼寝の時間) |
+| 雑務ブロック | 15:30 / 21:00 | 12:00 / 17:30 | 送り出し直後 / 夕食の片づけ後 |
+| 開いたバッファ | 20:30〜21:00 | 15:00〜15:40 | 常時(子どもの変数がバッファそのもの) |
+| 絶対に守ること | 勤務が切り替わる日はディープ0個で計画 | 午前のディープ前にメールを開かない | ディープは25分スプリント3本に割ってよい |
+
+三つの表に共通するのは一つ — **最も冴えた時間を他人に渡していない**ことです。交代勤務の人にとってそれは午前ではなく退勤直後かもしれませんし、育児中なら夜9時かもしれません。大事なのは時刻ではなく、「最も冴えた90分を自分が先に予約したか」です。シフトが2交代・3交代で変わるなら、曜日別ではなく**勤務タイプ別に表を2枚**(日勤用・夜勤用)作っておいてください。毎回ゼロから設計しないだけで、継続率は大きく上がります。
+
+## ツール4種の比較 — ブロックをどこに描くか
+
+計画表を作り込んでいるうちにテンプレートだけが増えていた、という経験はよくあります。飾っている間、ブロックは一つも守られていません。ツールは二点だけ見れば十分です — **通知が来るか**、そして**遅れたときに片づけやすいか**。
+
+| ツール | 強み | 弱み | 向いている人 |
+| --- | --- | --- | --- |
+| 紙の手帳 | 書いた瞬間に記憶に残る、設定ゼロ分 | 通知がなく、遅れると汚くなって手を離す | 1日のブロックが3個以下の人 |
+| Google・Appleカレンダー | 通知・繰り返し・移動が最も簡単(ドラッグ30秒) | 上位の目標とのつながりが見えない | 会議の多い会社員 — 最初の一つに推奨 |
+| Notionなど文書型 | 目標・記録・資料を一か所に集められる | 通知が弱く、**飾ることに時間が漏れる** | 表3つ以下の最小構成を守れる人([Notionの目標プランナー](/ja/blog/notion-goal-planner)) |
+| 習慣・目標アプリ | 連続記録と上位目標への接続が自動 | 分単位の配置には弱い | 繰り返しブロックが中心の人([習慣トラッカー](/ja/blog/habit-tracker)・[目標管理アプリの選び方](/ja/blog/goal-tracking-apps)) |
+
+現実的な組み合わせは**カレンダー+アプリ**の二つです。分単位の配置はカレンダーが、連続記録と目標への接続はアプリが引き受けます。そしてツールを変えたくなるときは、たいていツールではなく1日に入れたブロックが多すぎるときです — 乗り換える前に、ブロックを一つ減らしてみてください。ブロックの中で通知に切られ続けるなら、ツールより先に[スマホの使用を減らすこと](/ja/blog/phone-addiction-detox)です。
+
 ## ブロックを大きな絵につなぐ
 
 タイムブロッキングも、ブロックが本当に大切なものにつながっていなければ、ただ見栄えのいいやることリストになります。狙いはカレンダーを埋めることではなく、あなたの時間が受信トレイではなく**ビジョン**へ流れるようにすること。各ブロックに問いましょう — これは自分が築く未来に役立つのか、それとも今日の雑音にすぎないのか?
@@ -358,6 +476,18 @@ export const ja: Post = {
     {
       q: "会議で予定が埋まってしまいます。それでも使えますか?",
       a: "使えます。むしろそういう人ほど必要です。誰にも動かせないディープブロックを一日一つだけ先にカレンダーへ打ち込み(できれば午前)、会議はその周りで受けます。自分で決められるのが一日九十分だけでも、それが目標につながっていれば一か月で三十時間です。",
+    },
+    {
+      q: "遵守率は何%なら順調ですか?",
+      a: "最初の週は50〜60%で正常です。予定した21ブロックのうち11を守れたなら失敗ではなく、1日にブロックを一つ多く入れていた合図です。逆に90%を超えるなら少なすぎるか簡単すぎるので、ディープブロックを一つ足してください。数字そのものより「その日ディープブロックが生き残ったか」が重要です。予定時刻・実際の開始・妨害・結果の四欄を2週間記録すれば、自分が崩れる時刻が見えてきます。",
+    },
+    {
+      q: "在宅勤務で仕事と生活の境目がありません",
+      a: "境目を時刻ではなく合図で作ってください。①午前のディープブロックの前にメールを開かない ②雑務を12:00と17:30の二回に固定する ③終業時刻にアラームをかけ、最後の10分を明日のブロック予約に使う — この三つでほとんど解決します。席を移す(食卓→机)、開始の儀式2分といった体を使う合図は、在宅では時計よりよく効きます。",
+    },
+    {
+      q: "ブロックを入れると、かえって息苦しく感じます",
+      a: "一日を100%埋めたときの感覚です。60/40ルールで3〜4割を空け、ディープブロックは1日1個に減らしてください。そしてブロックは「やらされること」ではなく「自分と交わした約束」だという点が効きます — 休憩も、散歩も、夕食もブロックにしてみてください。カレンダーが監視者ではなく「今日はここまでで終わっていい」という境界線になると、圧迫感はむしろ減ります。",
     },
     {
       q: "ビジョンドリームはタイムブロッキングにどう役立ちますか?",

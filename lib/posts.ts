@@ -55,7 +55,7 @@ import { en as readingHabitEn, ja as readingHabitJa, ko as readingHabitKo } from
 import { en as readingCafeEn, ja as readingCafeJa, ko as readingCafeKo } from "./blog-i18n/reading-cafe";
 import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-lasts";
 import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addiction-detox";
-import { en as readingClubGuideEn } from "./blog-i18n/reading-club-guide";
+import { en as readingClubGuideEn, ja as readingClubGuideJa } from "./blog-i18n/reading-club-guide";
 
 export type FaqItem = { q: string; a: string };
 
@@ -2927,11 +2927,11 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
     slug: "time-blocking",
     title: "타임블로킹 — 할 일 목록이 자꾸 실패하는 이유 (60/40 규칙과 하루 설계 5단계)",
     description:
-      "할 일 목록은 '무엇을' 할지는 알려줘도 '언제' 할지는 알려주지 않습니다. 그래서 급한 일이 늘 중요한 일을 잡아먹죠. 25·50·90분 세 가지 블록, 하루의 60~70%만 채우는 60/40 규칙, 9~18시 직장인 예시 시간표, 무너질 때 쓰는 처방전 5가지, 첫 주 7일 실행 계획까지 — 현실의 하루에도 버티는 타임블로킹 설계법을 정리했습니다.",
+      "할 일 목록은 '무엇을' 할지는 알려줘도 '언제' 할지는 알려주지 않습니다. 그래서 급한 일이 늘 중요한 일을 잡아먹죠. 25·50·90분 세 가지 블록, 하루의 60~70%만 채우는 60/40 규칙, 9~18시 직장인 예시 시간표, 무너질 때 쓰는 처방전 5가지, 첫 주 7일 실행 계획, 2주 블록 감사 기록표와 준수율 기준선, 교대근무·프리랜서·육아 병행 배치표 3종, 도구 4종 비교까지 — 현실의 하루에도 버티는 타임블로킹 설계법을 정리했습니다.",
     date: "2026-06-29",
-    updated: "2026-08-18",
+    updated: "2026-08-27",
     category: "시간관리",
-    readMinutes: 12,
+    readMinutes: 16,
     emoji: "⏱️",
     cover: "/blog/time-blocking.svg",
     body: `'이번 주엔 진짜 열심히 하겠다.' 목록은 다 적었습니다. 중요한 것엔 별표도 쳤죠. 그런데 저녁 6시, 제일 큰 일은 손도 못 댄 채 "그냥 빨리 처리한" 자잘한 일 열두 개에 파묻혀 있습니다.
@@ -3055,6 +3055,59 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 - **6일차** — 쉬는 날에도 딥 블록 하나만(개인 프로젝트·공부·운동). 주말에 0으로 떨어지면 월요일이 다시 무겁습니다.
 - **7일차** — 30분 회고. 지킨 블록 수, 가장 자주 깨진 시간대, 다음 주에 바꿀 것 **한 가지**만 적습니다. ([작은 성공](/blog/small-wins)을 세는 게 다음 주 연료입니다.)
 
+## 블록 감사 2주 — 어디에서 새는지 숫자로 잡는 법
+
+블록을 잡는 것까지는 다들 합니다. 문제는 그다음이죠. **왜 안 지켜졌는지를 모르니까**, 다음 주에도 똑같은 자리에서 똑같이 무너집니다. 이때 필요한 건 더 강한 결심이 아니라 2주치 기록 한 장입니다. 저녁에 10분, 네 칸만 적으면 됩니다.
+
+| 칸 | 적는 것 | 예시 |
+| --- | --- | --- |
+| 계획 | 잡아 둔 시각과 블록 이름 | 09:10 제안서 초안 3장 |
+| 실제 | 진짜로 시작한 시각 | 09:38 |
+| 방해 | 시작을 늦춘 것 한 단어 | 메신저 |
+| 결과 | O(완료) / △(부분) / X(미착수) | △ |
+
+2주를 모으면 이런 표가 만들어집니다. 아래는 하루 3블록(딥 1 · 표준 1 · 잡무 1)으로 14일을 돌렸을 때의 예시입니다.
+
+| 주차 | 계획 블록 | 지킨 블록(O) | 준수율 | 시작 지연 중앙값 | 가장 많은 방해 |
+| --- | --- | --- | --- | --- | --- |
+| 1주차 | 21 | 11 | 52% | 22분 | 메신저(7회) |
+| 2주차 | 21 | 15 | 71% | 9분 | 갑작스러운 회의(4회) |
+
+여기서 읽어야 할 숫자는 세 개뿐입니다.
+
+1. **블록 준수율 = 지킨 블록 ÷ 계획 블록.** 첫 주 50~60%면 정상입니다. 낮다고 실패가 아니라, 애초에 하루에 잡은 블록이 **하나 더 많았다**는 뜻입니다. 반대로 90%를 넘으면 블록을 너무 적게·너무 쉽게 잡은 것입니다. 준수율 자체보다 **딥 블록 하나가 살아남았는지**가 중요합니다.
+2. **시작 지연 중앙값.** 15분을 넘으면 원인은 의지가 아니라 **직전 블록의 끝**입니다. 앞 블록에 끝나는 시각 알람을 걸어 두는 것만으로 대개 5분 안쪽으로 줄어듭니다.
+3. **하루의 첫 붕괴 시각.** 사람마다 거의 같은 시각에 처음 밀립니다. 그 시각 **바로 앞에 10분 버퍼 하나**를 심으면, 뒤쪽 블록 두세 개가 함께 살아납니다.
+
+오늘 밤 10분만 내어 두 줄을 적어 보세요 — 계획 시각과 실제 시작 시각. 일주일 치가 모이면 자기 패턴이 보입니다. 이 10분은 [저녁 루틴](/blog/evening-routine)의 마감 10분에 그대로 얹으면 따로 시간을 낼 필요가 없습니다.
+
+## 하루 모양이 다른 사람들 — 직군별 배치표 3종
+
+9~18시 표가 안 맞는 사람이 사실 더 많습니다. 원칙 셋(가장 맑은 시간에 딥 블록 하나 · 잡무는 두 번 · 3~4할은 여백)만 지키면 시각은 얼마든지 바꿔도 됩니다.
+
+| 구분 | 교대근무(주간 07~15시) | 프리랜서(재택) | 육아 병행 |
+| --- | --- | --- | --- |
+| 딥 블록 90분 | 16:30~18:00 (퇴근 직후) | 09:30~11:00 | 21:00~22:30 (아이 취침 후) |
+| 표준 블록 50분 | 19:30~20:20 | 14:00~14:50 / 16:00~16:50 | 13:00~13:50 (낮잠 시간) |
+| 잡무 블록 | 15:30 / 21:00 | 12:00 / 17:30 | 등원 직후 / 저녁 정리 후 |
+| 열린 버퍼 | 20:30~21:00 | 15:00~15:40 | 상시(아이 변수가 곧 버퍼) |
+| 절대 지키는 것 | 교대가 바뀌는 날은 딥 블록 0개로 계획 | 오전 딥 블록 전엔 메일 열지 않기 | 딥 블록은 25분 스프린트 3개로 쪼개도 됨 |
+
+세 표의 공통점은 하나입니다 — **가장 맑은 시간을 남에게 주지 않았다.** 교대근무자에게 그 시간은 오전이 아니라 퇴근 직후일 수 있고, 육아 중이라면 밤 9시일 수 있습니다. 중요한 건 시각이 아니라 '가장 맑은 90분을 내가 먼저 예약했는가'입니다. 근무표가 2교대·3교대로 계속 바뀐다면 요일별이 아니라 **근무 유형별로 표를 두 장**(주간용·야간용) 만들어 두세요. 매번 새로 설계하지 않는 것만으로 유지율이 크게 올라갑니다.
+
+## 도구 4종 비교 — 어디에 블록을 그릴 것인가
+
+노션으로 계획표를 만들다가 템플릿만 늘어난 경험, 흔합니다. 도구를 꾸미는 동안 정작 블록은 하나도 안 지켜졌죠. 도구는 두 가지만 보면 됩니다 — **알림이 오는가**, 그리고 **밀렸을 때 정리가 쉬운가**.
+
+| 도구 | 강점 | 약점 | 이런 사람에게 |
+| --- | --- | --- | --- |
+| 종이 다이어리 | 적는 순간 기억에 남는다, 설정 0분 | 알림이 없고, 밀리면 지저분해져 손을 놓게 된다 | 하루 블록이 3개 이하인 사람 |
+| 구글·애플 캘린더 | 알림·반복·이동이 가장 쉽다(블록 드래그 30초) | 상위 목표와의 연결이 보이지 않는다 | 회의가 많은 직장인 — 첫 도구로 추천 |
+| 노션 등 문서형 | 목표·기록·자료를 한곳에 모을 수 있다 | 알림이 약하고, **꾸미는 데 시간이 샌다** | 표 3개 이하의 최소 구조를 지킬 수 있는 사람([노션 목표 계획표](/blog/notion-goal-planner)) |
+| 습관·목표 앱 | 연속 기록과 상위 목표 연결이 자동 | 분 단위 배치엔 약하다 | 반복 블록이 핵심인 사람([습관 트래커](/blog/habit-tracker) · [목표관리 앱 고르기](/blog/goal-tracking-apps)) |
+
+현실적인 조합은 **캘린더 + 앱** 두 개입니다. 분 단위 배치는 캘린더가, 연속 기록과 목표 연결은 앱이 맡습니다. 도구를 바꾸고 싶어질 때는 대개 도구가 문제가 아니라 하루에 블록을 너무 많이 잡은 때입니다 — 바꾸기 전에 블록 수를 하나 줄여 보세요. 블록 안에서 알림에 계속 끊긴다면 도구보다 [스마트폰 사용 줄이기](/blog/phone-addiction-detox)가 먼저입니다.
+
 ## 블록을 더 큰 그림에 연결하라
 
 타임블로킹도 블록이 진짜 중요한 것과 이어져 있지 않으면, 그냥 더 예쁜 할 일 목록이 됩니다. 핵심은 캘린더를 채우는 게 아니라, 당신의 시간이 받은편지함이 아니라 **비전**으로 흐르게 하는 것입니다. 각 블록에 물으세요 — 이건 내가 짓는 미래에 도움이 되나, 아니면 오늘의 소음일 뿐인가?
@@ -3098,6 +3151,18 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "회사 일정이 남이 잡는 회의로 꽉 찹니다. 그래도 되나요?",
         a: "됩니다. 오히려 그럴수록 필요합니다. 남이 못 건드리는 딥 블록을 하루 한 개만 먼저 캘린더에 못 박고(가능하면 오전), 나머지 회의는 그 주위에 받습니다. 통제할 수 있는 게 하루 90분뿐이라도, 그 90분이 목표와 연결돼 있으면 한 달이면 30시간입니다.",
+      },
+      {
+        q: "블록 준수율은 몇 %면 잘하고 있는 건가요?",
+        a: "첫 주는 50~60%면 정상입니다. 계획한 블록 21개 중 11개를 지켰다면 실패가 아니라, 하루에 잡은 블록이 하나 더 많았다는 신호입니다. 반대로 90%를 넘는다면 블록을 너무 적게·너무 쉽게 잡은 것이니 딥 블록을 하나 더 넣어 보세요. 숫자 자체보다 중요한 건 '그날 딥 블록 하나가 살아남았는가'입니다. 2주만 계획 시각·실제 시작 시각·방해 요인·결과 네 칸을 기록하면 자기 붕괴 시각이 보입니다.",
+      },
+      {
+        q: "재택근무라 일과 생활의 경계가 없습니다",
+        a: "경계를 시간이 아니라 신호로 만드세요. ①오전 딥 블록을 시작하기 전에는 메일을 열지 않는다 ②잡무 블록을 12:00과 17:30 두 번으로 고정한다 ③업무 종료 시각에 알람을 걸고, 마지막 10분을 내일 블록 예약에 쓴다 — 이 세 가지면 대부분 해결됩니다. 자리를 옮기는 것(식탁→책상)이나 시작 의식 2분처럼 몸을 쓰는 신호가, 재택에서는 시계보다 잘 듣습니다.",
+      },
+      {
+        q: "블록을 잡으면 오히려 숨이 막힙니다",
+        a: "하루를 100% 채웠을 때 생기는 느낌입니다. 60/40 규칙으로 3~4할을 비우고, 딥 블록은 하루 1개로 줄이세요. 그리고 블록은 '해야 하는 일'이 아니라 '지키기로 한 약속'이라는 점이 중요합니다 — 쉬는 시간, 산책, 저녁 식사도 블록으로 잡아 보세요. 캘린더가 감시자가 아니라 '오늘은 여기까지만 하면 된다'는 경계선이 되면 압박감이 오히려 줄어듭니다.",
       },
       {
         q: "비전드림은 타임블로킹에 어떻게 도움이 되나요?",
@@ -4385,7 +4450,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [readingClubGuideEn, phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
