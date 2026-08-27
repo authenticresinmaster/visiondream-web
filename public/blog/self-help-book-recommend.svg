@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="자기계발서 4유형: 동기부여형, 시스템·방법론형, 사고전환형, 사례·전기형과 지금 내 단계에 맞는 책 고르는 순서">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">자기계발서 4유형 — 지금 내 단계에 맞는 책이 따로 있다</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">책이 나빠서 안 바뀐 게 아니라, 순서가 틀렸다</text>
+
+  <g>
+    <rect x="34" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="130" cy="140" r="21" fill="#c07a3e"/>
+    <text x="130" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">1</text>
+    <text x="130" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">동기부여형</text>
+    <text x="130" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">불씨가 완전히 꺼졌을 때만</text>
+    <line x1="66" y1="224" x2="194" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="130" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">읽는 동안만 뜨겁다 · 3일</text>
+    <text x="130" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">연달아 읽으면 중독된다</text>
+  </g>
+
+  <g>
+    <rect x="240" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="336" cy="140" r="21" fill="#3f7cb3"/>
+    <text x="336" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">2</text>
+    <text x="336" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">시스템·방법론형</text>
+    <text x="336" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">할 마음은 있는데 방법이 없을 때</text>
+    <line x1="272" y1="224" x2="400" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="336" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">대부분의 사람은 여기서 출발</text>
+    <text x="336" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">읽는 즉시 오늘 할 일이 생긴다</text>
+  </g>
+
+  <g>
+    <rect x="446" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="542" cy="140" r="21" fill="#7a6ca8"/>
+    <text x="542" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">3</text>
+    <text x="542" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">사고전환형</text>
+    <text x="542" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">방법은 아는데 자꾸 나를 의심할 때</text>
+    <line x1="478" y1="224" x2="606" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="542" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">효과는 느리지만 오래 간다</text>
+    <text x="542" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">첫 책으로 고르면 겉돈다</text>
+  </g>
+
+  <g>
+    <rect x="652" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="748" cy="140" r="21" fill="#568a35"/>
+    <text x="748" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="17" font-weight="800">4</text>
+    <text x="748" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">사례·전기형</text>
+    <text x="748" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">이미 하고 있는데 지칠 때</text>
+    <line x1="684" y1="224" x2="812" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="748" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">방법이 아니라 지구력을 준다</text>
+    <text x="748" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">따라 하려 들면 비교만 남는다</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">진단 → 유형 매칭 → 한 권 고르기 → 4주 완독 (30분 시독으로 사기 전에 거른다)</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">스무 권 목록보다, 이번 달에 끝낼 한 권이 낫다</text>
+</svg>

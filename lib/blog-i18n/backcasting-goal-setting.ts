@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "Backcasting (dream backcasting) is a goal-setting method that first decides the future you want, then designs backward to today's to-dos. Here's how it differs from forecasting, a one-page 30-minute worksheet (5+5+5+10+5), the 5-step method, three worked examples, and the five places backcasting usually breaks — with a fix for each.",
   date: "2026-06-19",
-  updated: "2026-08-19",
+  updated: "2026-08-28",
   category: "Goal Setting",
-  readMinutes: 13,
+  readMinutes: 15,
   emoji: "🛰️",
   cover: "/blog/backcasting-flow.svg",
   body: `"Three years from now, things will be different." How many Januarys have started with that sentence? The problem isn't willpower — it's **order**. Most of us start from "what can I do right now" and draw the future forward from there. Which means today's bank balance, energy, and calendar quietly become the ceiling of your next three years.
@@ -103,6 +103,37 @@ Connect the 3-month goal to habits you'll repeat weekly and daily and to this we
 
 Look at the bottom row. Everything in the "today" column takes **under thirty minutes**. "Put your shoes by the door" connects in a straight line to 15% body fat three years out — that's the whole job of backcasting. The vague "I want to be a writer" became *"write 500 words this morning."*
 
+## The Division Table — Turning a Future Number Into Today's Portion
+
+The five columns break most often between column ③ and column ①, and the reason is arithmetic, not motivation. A quarterly goal with no division in it has no way of becoming a line you can do today. So do the division out loud, three times: **the goal number ÷ months → weeks → one working day.**
+
+| Goal (3-yr / 1-yr) | Total amount | Working days it gets | One day's portion | Realistic? |
+| --- | --- | --- | --- | --- |
+| Publish a book | A 120,000-word manuscript in 12 months | 5 days a week × 48 weeks = 240 | **500 words** (about 40 min) | Yes — finishes in one sitting |
+| Six months of expenses banked | $24,000 in 24 months | 24 months | **$1,000 a month** (about $33 a day) | Only if income minus fixed costs clears $1,000 |
+| Run a 10km race | 0 to 10km in 12 weeks | 3 runs a week × 12 = 36 | **Add 300m per run** | Yes — the jump is smaller than it feels |
+
+The column that matters is the last one. When today's portion doesn't fit in a single sitting — say the division hands you "2,000 words a day" — you have exactly two honest moves: **stretch the deadline, or cut the goal.** "Try harder" isn't a third option; it's the sentence that ends the plan in week three. Most people who abandon a backcast never ran this division at all, which means they spent months measuring their effort against a number nobody had checked.
+
+One more rule worth writing on the sheet: **divide by working days, not calendar days.** Planning across 365 days a year is how one sick week turns into "I'm already behind, so forget it." Build on 5 days out of 7 and the other two become buffer instead of debt — the same forgiveness that carries people past [three-day quitting](/en/blog/beat-three-day-quitting).
+
+## Does Your Quarter Actually Have Room? — The 78-Hour Ceiling
+
+The other silent killer is capacity. The three-month column tends to collect everything you'd like to be true, and nobody asks whether the hours exist. Count them once and you'll never over-fill it again.
+
+| Line | Hours in a week |
+| --- | --- |
+| Total | 168 |
+| − Sleep (7 hrs × 7) | −49 |
+| − Work and commute | −50 |
+| − Meals, chores, family, errands | −35 |
+| − Unplanned life (illness, events, fatigue) | −20 |
+| **Left for your goal** | **14** |
+
+Fourteen hours looks generous until you watch where it goes. In practice most people convert **about half** of that remainder into real focused work — **6 to 7 hours a week, roughly 78 hours in a quarter.** That number is the actual size of column ③.
+
+So price your quarterly goals in hours before you commit to them. A 40-hour course, a 30-hour portfolio project and a 25-hour reading plan add up to 95 — over the ceiling. All three will run late, and you'll draw the wrong conclusion about your discipline. Cut it to two and both land. That arithmetic is what sits underneath the "never more than three quarterly goals" rule, and it's why [time blocking](/en/blog/time-blocking) belongs on the same sheet: hours you haven't placed on a calendar aren't hours you have.
+
 ## The Five Places Backcasting Breaks — and the Fix
 
 When a backcast fizzles out, it's usually one of five things. Find the symptom and change only the prescription.
@@ -148,6 +179,10 @@ To this is added Seowoo's success law, [Success (S) = Belief (B) × Thinking (T)
 Take out one sheet of paper right now and write **three present-tense sentences about a day three years from now**. Then put **one line you can finish in 30 minutes** in the far-left column — and do it today. A plan that starts in the future begins with one line today. Plant a vision, and fruit is sure to follow. 🌱`,
   faq: [
     {
+      q: "The division says my daily portion is bigger than I can do. What now?",
+      a: "Then the plan is wrong, not you. There are exactly two honest moves: stretch the deadline, or cut the goal. Redo the division until one day's portion fits in a single sitting — for most people that is 30 to 50 minutes — and divide by working days (5 out of 7), not calendar days, so that a sick week becomes buffer instead of debt.",
+    },
+    {
       q: "What is the difference between backcasting and forecasting?",
       a: "Forecasting starts from the resources you currently have and predicts and plans the future, while backcasting (dream backcasting) first decides the future you want and then designs the steps backward to the present. With backcasting, your goal isn't trapped by current limits, so you can set bolder goals — and when plans slip you change the route instead of shrinking the goal.",
     },
@@ -180,9 +215,9 @@ export const ja: Post = {
   description:
     "バックキャスティング（夢の逆算設計）は、望む未来をまず決め、そこから逆向きに今日やることを設計する目標設定法です。フォアキャスティングとの違い、紙1枚30分のワークシート（5分+5分+5分+10分+5分）、5ステップ実践法、出版・転職・健康の事例3つ、そして逆算が崩れる5つのポイントの処方までまとめました。",
   date: "2026-06-19",
-  updated: "2026-08-19",
+  updated: "2026-08-28",
   category: "目標設定",
-  readMinutes: 13,
+  readMinutes: 15,
   emoji: "🛰️",
   cover: "/blog/backcasting-flow.svg",
   body: `「3年後には少しは変わっているだろう。」その一文で新年を始めたのは、もう何度目でしょうか。問題は意志ではなく**順序**です。私たちはたいてい「今の自分にできること」から出発して未来を描きます。すると今日の残高・体力・時間が、そのまま3年後の天井になってしまいます。
@@ -277,6 +312,37 @@ export const ja: Post = {
 
 一番下の行を見てください。「今日」の枠に入っているのはすべて**30分で終わること**です。「靴を玄関に出す」が3年後の体脂肪15%と一本の線でつながっている — これがバックキャスティングの仕事のすべてです。漠然としていた「作家になりたい」が*「今朝500字を書く」*に変わります。
 
+## 逆算の割り算表 — 未来の数字を「今日の分量」まで落とす
+
+5つの枠が途切れるのは、たいてい③と①の間です。原因は意欲ではなく**算数**です。四半期の目標に割り算が入っていなければ、それが今日の一行になる道はありません。だから声に出して3回割ります。**目標の数字 ÷ 月 → 週 → 稼働日1日。**
+
+| 目標（3年／1年） | 総量 | 使える稼働日 | 1日の分量 | 現実的か |
+| --- | --- | --- | --- | --- |
+| 本を出す | 12か月で原稿12万字 | 週5日 × 48週 = 240日 | **1日500字**（約40分） | ○ 一度座れば終わる |
+| 生活費6か月分を貯める | 24か月で240万円 | 24か月 | **月10万円**（1日約3,300円） | 収入−固定費が10万円を超える場合のみ |
+| 10kmを完走する | 12週で0→10km | 週3回 × 12週 = 36回 | **1回につき+300m** | ○ 体感より小さい |
+
+大事なのは右端の列です。割り算の答えが一度座って終わらない量（例：1日2,000字）になったら、取れる手は2つだけです。**期限を延ばすか、目標を削るか。**「もっと頑張る」は3つ目の選択肢ではなく、3週目に計画を終わらせる一文です。逆算をやめてしまう人の多くは、そもそもこの割り算をしていません。誰も検算していない数字と、自分の努力を比べ続けていたわけです。
+
+もう一つ、紙に書いておく規則があります。**暦の日数ではなく稼働日で割る。**年365日で計画すると、体調を崩した1週間がそのまま「もう手遅れだからやめよう」に変わります。7日のうち5日で組めば、残りの2日は借金ではなく緩衝材になります。[三日坊主](/ja/blog/beat-three-day-quitting)を越える人が使っているのは、その余白です。
+
+## その四半期に容量はあるか — 78時間の天井
+
+もう一つの静かな失敗要因は容量です。3か月の枠には「そうなっていたらいいこと」が全部集まりがちで、その時間が実在するかは誰も確認しません。一度だけ数えれば、二度と詰め込まなくなります。
+
+| 項目 | 1週間の時間 |
+| --- | --- |
+| 合計 | 168 |
+| − 睡眠（7時間 × 7） | −49 |
+| − 仕事と通勤 | −50 |
+| − 食事・家事・家族・雑務 | −35 |
+| − 予定外（体調・行事・疲労） | −20 |
+| **目標に残る時間** | **14** |
+
+14時間は多く見えますが、実際に集中して使えるのはその**およそ半分** — **週6〜7時間、四半期でおよそ78時間**です。これが③の枠の実寸です。
+
+だから四半期の目標を決める前に、時間で値段をつけてください。40時間の講座、30時間のポートフォリオ、25時間の読書計画を並べると95時間 — 天井超えです。3つとも遅れ、「自分は怠けている」という誤った結論だけが残ります。2つに削れば、2つとも終わります。「四半期の目標は3つまで」という規則の裏にあるのはこの算数で、[タイムブロッキング](/ja/blog/time-blocking)を同じ紙に置く理由でもあります。カレンダーに置いていない時間は、持っている時間ではありません。
+
 ## 逆算が崩れる5つのポイントと処方
 
 逆算設計をしたのに立ち消えになる理由は、たいてい5つのうちのどれかです。症状を見つけて処方だけ変えてみてください。
@@ -321,6 +387,10 @@ export const ja: Post = {
 
 今すぐ紙を1枚出して、**3年後の一日を現在形で3文**書いてみてください。そして左端の枠に**今日30分で終わる一行**だけ書いて、今日じゅうに実行してみてください。未来から出発した計画は、今日の一行から始まります。ビジョンを植えれば、必ず実が結ばれます。🌱`,
   faq: [
+    {
+      q: "割り算をすると1日の分量が多すぎます。どうすればいいですか？",
+      a: "その場合、間違っているのはあなたではなく計画です。取れる手は2つ — 期限を延ばすか、目標を削るかです。1日の分量が一度座って終わる量（多くの人で30〜50分）になるまで割り直してください。そして暦の日数ではなく稼働日（7日のうち5日）で割ると、体調を崩した1週間が借金ではなく緩衝材になります。",
+    },
     {
       q: "バックキャスティングとフォアキャスティングの違いは何ですか？",
       a: "フォアキャスティングは現在持っている資源から出発して未来を予測・計画する方式で、バックキャスティング（夢の逆算設計）は望む未来をまず決めたうえで、そこから逆向きに現在までステップを設計する方式です。バックキャスティングは現在の限界に目標が縛られないため、より大胆な目標を立てられ、計画がずれたときも目標を削るのではなく経路だけを描き直せます。",
