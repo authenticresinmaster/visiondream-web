@@ -56,6 +56,7 @@ import { en as readingCafeEn, ja as readingCafeJa, ko as readingCafeKo } from ".
 import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-lasts";
 import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addiction-detox";
 import { en as readingClubGuideEn, ja as readingClubGuideJa } from "./blog-i18n/reading-club-guide";
+import { en as selfHelpBookEn } from "./blog-i18n/self-help-book-recommend";
 
 export type FaqItem = { q: string; a: string };
 
@@ -2035,11 +2036,11 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
     slug: "evening-routine",
     title: "저녁 루틴 — 오늘 밤 10분이 내일 아침을 결정한다 (4단계 10분 체크리스트)",
     description:
-      "좋은 아침은 새벽의 의지가 아니라 전날 밤 10분에서 만들어집니다. 내일 첫 행동 3분 · 화면 끄기 4분 · 오늘 닫기 2분 · 비전 10초 — 취침 90분 전부터의 분 단위 배치표, 무너지는 5가지 유형별 처방, 20분·10분·3분 버전 비교, 실제 사례 3가지까지 정리했습니다.",
+      "좋은 아침은 새벽의 의지가 아니라 전날 밤 10분에서 만들어집니다. 내일 첫 행동 3분 · 화면 끄기 4분 · 오늘 닫기 2분 · 비전 10초 — 어젯밤을 채점하는 4가지 숫자, 취침 90분 전부터의 분 단위 배치표, 무너지는 5가지 유형별 처방, 20분·10분·3분 버전 비교, 14박 한 장 기록표, 주말·출장·회식·아픈 날 복귀 규칙까지 정리했습니다.",
     date: "2026-07-02",
-    updated: "2026-08-22",
+    updated: "2026-08-29",
     category: "습관",
-    readMinutes: 16,
+    readMinutes: 19,
     emoji: "🌙",
     cover: "/blog/evening-routine.svg",
     body: `**오늘 밤 10분이 내일 아침을 정합니다.**
@@ -2081,6 +2082,21 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 | 주말 이후 | 쉬었는데 월요일에 다시 방전 | 쉰 만큼 다음 주가 가벼움 |
 
 핵심은 쉬는 **시간을 늘리는 것**이 아니라 **닫는 절차를 만드는 것**입니다. 이미 소진이 깊다면 루틴보다 회복이 먼저입니다 — [번아웃에서 회복하는 법](/blog/burnout-recovery)을 먼저 읽고 오셔도 좋습니다.
+
+## 어젯밤이 어느 쪽이었는지 알려 주는 4가지 숫자
+
+"회복형", "소모형"은 기분처럼 들리지만 아닙니다 — **셀 수 있습니다.** 내일 아침, 다른 걸 열기 전에 어젯밤에 대해 이 네 숫자만 적어 보세요. 30초, 숫자 네 개면 끝납니다. 수면 앱 그래프보다 정확한데, 이유는 단순합니다 — **각 숫자가 오늘 밤 고칠 단계 하나씩을 정확히 가리키기 때문**입니다.
+
+| # | 세는 숫자 | 어디서 얻나 | 소모형 밤 | 회복형 밤 | 이 숫자를 고치는 단계 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 소등 후 잠들기까지 걸린 분 | 아침에 솔직한 체감으로 | 30~40 | 10~15 | 2단계(화면 끄기) |
+| 2 | "잘자" 이후 폰을 집어 든 횟수 | 세어 본다. 3회 이상이면 폰이 침실에 있는 것 | 3~6 | 0~1 | 2단계(충전기 이동) |
+| 3 | 아침에 "뭐부터 하지"에 쓴 분 | 알람부터 첫 실제 행동까지 | 20~30 | 2분 미만 | 1단계(첫 행동 한 줄) |
+| 4 | 누운 채로 떠오르는 미해결 건수 | 머릿속에 남은 일을 센다 | 4건 이상 | 0~1 | 3단계(오늘 닫기) |
+
+이 네 숫자를 2주만 적어 보면 어떤 글보다 — 이 글보다 — 정확한 진단이 나옵니다. 그리고 대부분 같은 결론에 도착합니다. **②가 나머지 셋을 전부 끌어내리고 있다**는 것.
+
+숫자가 셋 이상 소모형 칸에 들어간다면 오늘 밤 하나만 고르세요. 두 개 이상 동시에 고치려는 순간 아무것도 안 고쳐집니다 — 미루는 사람이 실제로 막히는 지점도 의지가 아니라 이 "동시 착수"입니다([오늘 할 일을 미루지 않는 법](/blog/stop-delaying-today)).
 
 ## 내 저녁이 무너지는 유형 — 5가지 원인·처방표
 
@@ -2228,6 +2244,35 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 
 **3) 루틴이 너무 길다.** 10분 상한을 지키고, 정말 피곤한 날엔 1단계 한 줄만 적고 자세요. 게으름은 성격이 아니라 시작 문턱의 문제입니다 — [게으름을 이기는 법](/blog/overcome-laziness)의 결론도 결국 의지가 아니라 시스템입니다. 0분보다 1분이 낫습니다.
 
+## 한 장짜리 기록표 — 숫자 5개, 14박
+
+이 글에서 하나만 가져간다면 이 표를 가져가세요. 다섯 줄을 포스트잇에 옮겨 적어 **폰 충전기가 있던 자리**에 붙여 두고 14일만 채우면 됩니다. 하루 30초도 안 걸리는데, "내가 어느 단계를 빼먹고 있는지"에 대한 추측이 사라집니다.
+
+| # | 매일 밤 적는 것 | 적는 시간 | 어디서 나오나 | 14일차 목표 |
+| --- | --- | --- | --- | --- |
+| 1 | 내일 첫 행동 한 줄을 썼나? (O/X) | 3초 | 1단계 | 14일 중 12일 |
+| 2 | 폰은 어디서 잤나? (침실/밖) | 3초 | 2단계 | 12일은 침실 밖 |
+| 3 | 소등 후 잠들기까지 걸린 분(체감) | 5초 | 아침에 추정 | 20분 미만 |
+| 4 | 누운 채 떠오른 미해결 건수 | 10초 | 3단계 | 0~1건 |
+| 5 | 아침에 "뭐부터 하지"에 쓴 분 | 5초 | 알람~첫 행동 | 5분 미만 |
+
+다섯 칸, 합쳐서 26초입니다. 1·2번은 내가 100% 통제하는 **입력값**이고, 3·4·5번은 그 입력이 통했는지를 증명하는 **출력값**입니다. 1·2번이 일주일 내내 초록인데 3~5번이 전혀 안 움직인다면, 문제는 저녁이 아니라 그 위쪽 — 실제로 과부하인 일정이거나 아직 손대지 않은 소진 — 에 있습니다. 그리고 칸은 다섯 개에서 멈추세요. 열두 칸짜리 표가 [습관 트래커](/blog/habit-tracker)를 죄책감 생성기로 바꾸는 그 지점입니다.
+
+## 리듬이 깨지는 밤 — 주말·출장·회식·아픈 날
+
+평일 14일을 잘 지키다가도 대개 **주말 이틀**에서 무너집니다. 무너지는 원인은 게으름이 아니라 기준점(T, 취침 시각)이 사라지는 것입니다. 상황별로 T만 옮기고, 남길 것 하나만 정해 두세요.
+
+| 상황 | T(취침)가 이렇게 변한다 | 그날 남길 최소 단위 | 버려도 되는 것 | 복귀 규칙 |
+| --- | --- | --- | --- | --- |
+| 주말·연휴 | 평일보다 1~2시간 뒤로 | 내일 첫 행동 한 줄 | 오늘 닫기, 비전 10초 | 일요일 밤은 평일 T로 복귀(월요일이 아니라 **일요일**부터) |
+| 출장·여행 | 시각·장소 모두 바뀜 | 폰 충전기를 침대에서 먼 콘센트로 | 배치표 전체 | 돌아온 첫날 밤은 1단계만, 이틀째부터 원복 |
+| 회식·늦은 약속 | 1~3시간 밀림 | 귀가 직후 30초, 한 줄만 | 조명·물·옷 세팅 | 다음 날 밤 정상 T로. 밀린 시간을 만회하려 하지 않기 |
+| 아픈 날 | 잠이 최우선 | 아무것도 안 함 | 전부 | 회복 첫날 밤은 1단계만. 3일 이상 이어지면 루틴이 아니라 [번아웃 회복](/blog/burnout-recovery) 쪽 문제 |
+
+규칙은 두 줄로 요약됩니다. **①깨진 날엔 1단계 한 줄만 남긴다. ②깨진 다음 날 밤에 반드시 돌아온다.** 사흘을 못 지키는 건 시작이 약해서가 아니라 복귀 규칙을 미리 안 정해 뒀기 때문입니다 — [작심삼일을 이기는 법](/blog/beat-three-day-quitting)의 결론도 같습니다. 만회 욕심은 특히 조심하세요. 이틀 밀렸다고 다음 밤에 20분짜리 루틴을 하려 들면 그 밤도 실패로 기록됩니다.
+
+혹시 "루틴 책을 여러 권 샀는데 다 25쪽에서 멈췄다"면, 문제는 실행이 아니라 고른 책의 순서일 수 있습니다 — [자기계발서 고르는 4분면 진단](/blog/self-help-book-recommend)에서 지금 내 단계에 맞는 유형부터 확인해 보세요.
+
 ## 🌱 비전드림 앱으로 실행하기
 
 저녁 루틴은 머릿속에만 있으면 죽습니다. 비전드림 앱은 이 네 단계에 그대로 집을 줍니다 — **저녁 리마인더 알림**이 하루를 닫을 시간을 알려 주고, **오늘 탭**의 믿음·생각·행동(B·T·A) 체크가 내일의 첫 행동을 눌러서 끝낼 한 칸으로 바꿔 주며, 달력 히트맵이 지켜 낸 밤을 눈으로 보여 줍니다. 하루를 놓쳐도 **스트릭 보호권**(매월 2개, 자동 사용)이 연속을 지켜 주니 한 번의 거름이 포기로 번지지 않고, 일요일 **주간 리뷰**가 매일 밤의 세 문장을 한 주의 정리와 다음 주 원씽으로 묶어 줍니다. 도구는 앱이고, 주인공은 당신입니다.
@@ -2271,6 +2316,10 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "저녁 루틴 효과는 언제부터 느껴지나요?",
         a: "첫 효과는 바로 다음 날 아침에 옵니다. 내일 첫 행동 한 줄을 적어 두면 아침에 '뭐부터 하지'를 고민하던 30분이 사라지기 때문에, 하루 만에 체감할 수 있는 유일한 단계가 1단계입니다. 잠의 질은 조금 느려서, 폰을 침실 밖으로 내보낸 뒤 보통 3일 정도는 오히려 뒤척이다가 8일 전후로 눕고 잠들기까지의 시간이 짧아집니다. 취침 시각 편차와 아침 첫 30분, 이 두 가지를 2주만 기록해 보면 숫자로 확인됩니다."
+      },
+      {
+        q: "평일은 지키는데 주말만 되면 무너집니다.",
+        a: "주말에 무너지는 건 의지가 아니라 기준점이 사라지기 때문입니다. 저녁 루틴은 시계가 아니라 취침 시각(T)을 기준으로 도는데, 주말엔 그 T가 1~2시간씩 밀리면서 배치표 전체가 붕 뜹니다. 주말엔 T를 늦춘 채로 인정하고 1단계(내일 첫 행동 한 줄) 하나만 남기세요. 그리고 복귀는 월요일이 아니라 일요일 밤에 평일 T로 되돌리는 것이 핵심입니다 — 월요일 아침을 만드는 건 일요일 밤이기 때문입니다. 출장·회식으로 깨진 날도 규칙은 같습니다. 깨진 날엔 한 줄만, 다음 날 밤엔 반드시 복귀, 밀린 것을 만회하려 하지 않기."
       },
     ],
   },
@@ -4648,7 +4697,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [readingClubGuideEn, phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";

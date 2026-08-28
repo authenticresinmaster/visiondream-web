@@ -4,11 +4,11 @@ export const en: Post = {
   slug: "evening-routine",
   title: "The Evening Routine — Ten Minutes Tonight Decides Tomorrow Morning (4-Step, 10-Minute Checklist)",
   description:
-    "A great morning isn't willed into being at dawn — it's built in ten minutes the night before. Tomorrow's first action in 3 minutes, screens off in 4, closing today in 2, vision in 10 seconds — plus a bedtime-anchored placement table, 30/15/5-minute versions, four collapse types with prescriptions, a 14-night scoreboard, and versions for late shifts, parents and night owls.",
+    "A great morning isn't willed into being at dawn — it's built in ten minutes the night before. Tomorrow's first action in 3 minutes, screens off in 4, closing today in 2, vision in 10 seconds — plus a bedtime-anchored placement table, 30/15/5-minute versions, four collapse types with prescriptions, a 14-night scoreboard, return rules for weekends, travel and sick days, and versions for late shifts, parents and night owls.",
   date: "2026-07-02",
-  updated: "2026-08-22",
+  updated: "2026-08-29",
   category: "Habits",
-  readMinutes: 16,
+  readMinutes: 18,
   emoji: "🌙",
   cover: "/blog/evening-routine.svg",
   body: `**Ten minutes tonight decides tomorrow morning.**
@@ -246,6 +246,21 @@ If you take only one thing from this article, take this table. Copy the five row
 
 Five entries, about 26 seconds. Rows 1 and 2 are **inputs** you fully control; rows 3, 4 and 5 are **outputs** that prove the inputs worked. If rows 1 and 2 are green for a full week and rows 3–5 haven't moved at all, the problem isn't your evening — it's something upstream, like a genuinely overloaded schedule or unaddressed exhaustion. Keep the tracker at five boxes and no more; twelve boxes is how [habit trackers](/en/blog/habit-tracker) quietly turn into another source of guilt.
 
+## When the rhythm breaks — weekends, travel, late dinners, sick days
+
+Fourteen good weeknights still tend to come apart on **two weekend days**. The cause isn't laziness; it's that the anchor disappears. Everything here hangs off T, your bedtime, and on a weekend or a work trip T stops existing. So move T, and decide in advance the one thing you keep.
+
+| Situation | What happens to T | The minimum you keep | What you drop | Return rule |
+| --- | --- | --- | --- | --- |
+| Weekend, holidays | 1–2 hours later | Tomorrow's first-action line | The close, the vision check | Return to your weekday T on **Sunday** night, not Monday |
+| Travel, work trips | Both time and place change | Phone charging at the socket furthest from the bed | The whole placement table | First night home: step 1 only. Full sequence from night two |
+| Late dinners, evening plans | Pushed 1–3 hours | 30 seconds at the door — one line | Lights, water, clothes laid out | Normal T the next night. Don't try to make up the lost time |
+| Sick days | Sleep outranks everything | Nothing at all | All of it | First night of recovery: step 1 only. If it runs past three days, this is a recovery question, not a routine one — see [recovering from burnout](/en/blog/burnout-recovery) |
+
+Two lines cover all of it. **1) On a broken night, keep only the one-line step. 2) Come back the very next night.** Streaks don't end because the start was weak; they end because nobody wrote the return rule in advance — the same conclusion as [beating the three-day quit](/en/blog/beat-three-day-quitting). Be especially careful with make-up ambition: two nights behind, attempting a 30-minute version the next night just adds a third failed night.
+
+And if you've bought several routine books and stopped at page 25 in all of them, the problem may be the order you picked them in, not your execution — the [four-square diagnostic for choosing self-help books](/en/blog/self-help-book-recommend) sorts that out in ten minutes.
+
 ## 🌱 Putting it into practice with the VisionDream app
 
 An evening routine dies when it lives in your head. The VisionDream app gives all four steps a home: an **evening reminder** tells you when to close the day, the **Today tab** turns tomorrow's first action into a single Belief · Thought · Action (B·T·A) box you can tap, and the **calendar heatmap** shows every night you kept — scoreboard rows 1 and 2, without the sticky note. Miss one? Two **streak protectors** a month are applied automatically, so a single slip doesn't snowball into quitting; that's the all-or-nothing prescription built into the tool instead of into your willpower. And Sunday's **weekly review** gathers your nightly three sentences into one week's summary and next week's One Thing. The app is the tool; you're the one doing it.
@@ -290,6 +305,10 @@ You don't need a heroic morning. You need ten minutes that hand your morning-sel
       q: "Should I do the evening routine on weekends too?",
       a: "Keep the close, relax the clock. Weekends are exactly where the 'rested but still empty on Monday' pattern gets created, because the day never gets closed and the phone comes back to the bedside. The practical compromise: on Friday and Saturday allow a later bedtime but still write tomorrow's line and keep the charger out of the bedroom, then use Sunday night for the 30-minute version — three closing sentences plus the week's tally, and next week's One Thing.",
     },
+    {
+      q: "What about travel, and nights when I'm ill?",
+      a: "Both are handled by the same two rules: on a broken night keep only step 1, and come back the very next night. On a work trip, the only move worth protecting is charging the phone at the socket furthest from the bed — drop the placement table entirely, then run step 1 on your first night home and the full sequence from night two. When you're ill, sleep outranks the routine completely; do nothing, and restart with step 1 alone on your first night of recovery. And don't try to make up lost nights — attempting a long version to compensate is the most reliable way to produce a third failed night in a row.",
+    },
   ],
 };
 
@@ -297,11 +316,11 @@ export const ja: Post = {
   slug: "evening-routine",
   title: "夜のルーティン — 今夜の10分が、明日の朝を決める(4ステップ・10分チェックリスト)",
   description:
-    "良い朝は夜明けの気合いではなく、前の晩の10分で作られます。明日の最初の一手3分・画面を切る4分・今日を閉じる2分・ビジョン10秒 — 就寝時刻から逆算する配置表、30分/15分/5分の3サイズ、崩れ方4タイプ別の処方、14日間の記録表、残業型/子育て型/夜型の運用まで。",
+    "良い朝は夜明けの気合いではなく、前の晩の10分で作られます。明日の最初の一手3分・画面を切る4分・今日を閉じる2分・ビジョン10秒 — 就寝時刻から逆算する配置表、30分/15分/5分の3サイズ、崩れ方4タイプ別の処方、14日間の記録表、週末・出張・体調不良の復帰ルール、残業型/子育て型/夜型の運用まで。",
   date: "2026-07-02",
-  updated: "2026-08-22",
+  updated: "2026-08-29",
   category: "習慣",
-  readMinutes: 16,
+  readMinutes: 18,
   emoji: "🌙",
   cover: "/blog/evening-routine.svg",
   body: `**今夜の10分が、明日の朝を決めます。**
@@ -539,6 +558,21 @@ export const ja: Post = {
 
 5項目で合計およそ26秒。**1と2は自分で完全に決められる「入力」**、**3・4・5はその入力が効いたことを示す「出力」**です。1と2が一週間そろって緑なのに3〜5がまったく動かないなら、問題は夜ではなく、その手前 — たとえば本当に詰め込みすぎた予定や、放置された消耗のほうにあります。マスは5つまで。十二マスは、[習慣トラッカー](/ja/blog/habit-tracker)が静かに罪悪感の装置に変わっていく道です。
 
+## リズムが崩れる夜 — 週末・出張・遅い約束・体調不良
+
+平日14晩をきちんと守れても、たいてい**週末の二日**で崩れます。原因は怠けではなく、基準点が消えることです。ここまでの配置はすべてT(就寝時刻)にぶら下がっているのに、週末や出張ではそのTが存在しなくなります。だからTを動かし、その日に残す一つだけを先に決めておきます。
+
+| 状況 | Tはこう変わる | その日に残す最小単位 | 捨ててよいもの | 復帰ルール |
+| --- | --- | --- | --- | --- |
+| 週末・連休 | 平日より1〜2時間後ろ | 明日の一手の一行 | 今日を閉じる・ビジョン10秒 | 月曜ではなく**日曜の夜**に平日のTへ戻す |
+| 出張・旅行 | 時刻も場所も変わる | ベッドから最も遠いコンセントで充電 | 配置表そのもの | 帰宅初日はステップ1だけ。二日目から通常運転 |
+| 遅い約束・会食 | 1〜3時間後ろ倒し | 帰宅直後の30秒、一行だけ | 照明・水・服の準備 | 翌晩は通常のTへ。遅れを取り返そうとしない |
+| 体調不良 | 睡眠が最優先 | 何もしない | すべて | 回復初日の夜はステップ1だけ。3日以上続くならルーティンではなく回復の問題 — [燃え尽きからの回復](/ja/blog/burnout-recovery)へ |
+
+まとめると二行です。**①崩れた夜は一行だけ残す。②崩れた翌晩に必ず戻る。** 三日続かないのは出だしが弱いからではなく、復帰ルールを先に決めていないからです — [三日坊主を抜ける方法](/ja/blog/beat-three-day-quitting)の結論も同じです。とくに「取り返し」には注意してください。二晩ぶんを埋めようと翌晩に30分版をやろうとすると、その晩も失敗として記録されます。
+
+崩れた期間が二週間を超えたときだけ、やり方を作り直します。それ以外は、いつも同じ一行から戻れば十分です。日単位ではなく週単位で立て直したいなら、[週次レビューの習慣](/ja/blog/weekly-review-habit)を土台にしてください。
+
 ## 🌱 ビジョンドリームアプリで実行する
 
 夜のルーティンは、頭の中だけにあると死にます。ビジョンドリームアプリは、この四つのステップに居場所を与えます — **夜のリマインダー**が一日を閉じる時間を知らせ、**今日タブ**の信念・思考・行動(B・T・A)チェックが明日の最初の一手をタップ一つのマスに変え、**カレンダーのヒートマップ**が守った夜を見せてくれます。これは記録表の1行目と2行目を、付箋なしで自動化したものです。一日抜けても**ストリーク保護券**(毎月2枚・自動使用)が連続を守るので、一度の抜けが挫折に広がりません — 「全か無か型」への処方が、意志力ではなく道具の側に組み込まれている、ということです。日曜の**週次レビュー**は、毎晩の三文を一週間のまとめと来週のワンシングに束ねます。道具はアプリ、主役はあなたです。
@@ -582,6 +616,10 @@ export const ja: Post = {
     {
       q: "週末も夜のルーティンをやるべきですか?",
       a: "時計はゆるめて、結びは残してください。「休んだのに月曜に空っぽ」は、まさに週末に作られます。一日が閉じられないまま、スマホが枕元に戻ってくるからです。現実的な折衷案はこうです — 金曜と土曜は就寝を遅らせてよいが、明日の一行だけは書き、充電器は寝室の外に置く。そして日曜の夜に30分版を使い、三文の締めに今週の集計と来週のワンシングを足します。",
+    },
+    {
+      q: "出張や、体調を崩した夜はどうすればいいですか?",
+      a: "どちらも同じ二つのルールで足ります — 崩れた夜はステップ1だけ残す、そして翌晩に必ず戻る。出張で守る価値があるのは、ベッドから最も遠いコンセントで充電することだけです。配置表はまるごと捨てて構いません。帰宅した初日の夜はステップ1だけ、二日目から通常運転に戻します。体調を崩した日は睡眠がルーティンより完全に優先です。何もせず、回復初日の夜にステップ1だけで再開してください。そして抜けた夜を取り返そうとしないこと — 埋め合わせに長い版をやろうとするのが、三晩連続の失敗をいちばん確実に作る方法です。",
     },
   ],
 };
