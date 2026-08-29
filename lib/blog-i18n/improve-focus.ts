@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "If you're at your desk and can't concentrate — and you don't even know why — start by splitting the cause. A 30-second self-check for the three types (environment, energy, meaning), a 6-minute three-layer distraction sweep, a 4-week training table from 10 to 50 minutes, and five fixes for when it falls apart.",
   date: "2026-07-03",
-  updated: "2026-08-24",
+  updated: "2026-08-30",
   category: "Productivity",
   readMinutes: 12,
   emoji: "🧠",
@@ -148,6 +148,29 @@ The table is one; the shape of a day isn't. What changes is not the table but **
 
 What the three share is that nobody rewrote the training table. **They pinned the longest block to their sharpest hours first and chopped the rest small.** And in week one, make success almost laughably small — the 50 minutes of week four are built on stacked [small wins](/en/blog/small-wins).
 
+## The 15-minute recovery protocol for low-capacity days
+
+The days the training table collapses are fairly predictable: the day after bad sleep, the day meetings stack back to back, the day something drained you emotionally. Keep a two-week focus log and **most of the sessions that crossed six interruptions fall into one of those three conditions.** Insisting on 50 minutes on a day like that costs you the session and the streak together. What you need isn't training, it's a **minimum version that runs on any day.**
+
+| Block | What to do | Why in this order |
+| --- | --- | --- |
+| **0-2 min** | Dump everything circling in your head onto one sheet (no sorting) | Unresolved thoughts stop looping when they're **put down**, not when they're suppressed |
+| **2-4 min** | Circle **exactly one** thing that must be finished today | On a low day, every extra option is friction |
+| **4-5 min** | Rewrite that one thing at a size that **fits in 10 minutes** | Not "the report" but "list five subheads for chapter 3" |
+| **5-15 min** | Phone in another room, 10-minute timer, that one slice only | Ten minutes clears almost every time, even at the bottom |
+
+The point of this protocol isn't output, it's **not breaking the run**. Leave one 10-minute slice behind and the day stops being a failed day and becomes a day you held the minimum — and returning to the table tomorrow gets far easier. The reason it's the second consecutive miss that ends things, not the first, is laid out in [grit and the systems that keep you consistent](/en/blog/grit-consistency).
+
+It also helps to decide in advance where you restart after missing several days. Decide in the moment and it almost always becomes "next Monday," and that Monday rarely arrives.
+
+| Days missed | Restart point | What not to do |
+| --- | --- | --- |
+| **1-2** | Resume at the same length as the week you were in | Cramming the backlog into one day |
+| **3-6** | Drop **one week back** in length, clear three days, then return | Declaring a full restart |
+| **7+** | Reset to week 1 (two 10-minute sessions) — but **halve the pass mark** for that first week | Starting at 50 minutes "properly this time" |
+
+If your capacity collapses in the evening again and again, that isn't a focus-training problem, it's a problem at the end of the day — see [building an evening routine](/en/blog/evening-routine) for how to protect tomorrow's clear morning first. If, on the other hand, you hold the minimum version fine but never reach deep immersion, the next thing to change is structure rather than length: [how to practise deep work](/en/blog/deep-work-focus) covers the environment design that protects a 90-minute block.
+
 ## When it falls apart: five fixes
 
 | Symptom | Common cause | Fix |
@@ -170,6 +193,14 @@ A training table that isn't visible quietly disappears by week three. Put "one 2
 
 You're not "bad at focusing." You've just never split the cause or trained it — surrounded by things built to distract you. Today, do only two things: **put the phone in another room, and start a 10-minute timer.** Those ten minutes are the fifty minutes you'll hold four weeks from now. Plant your vision, and the fruit will come. 🌱`,
   faq: [
+    {
+      q: "Should I keep the training table on a day when I have nothing left?",
+      a: "Drop the length, keep the run. Insisting on 50 minutes the day after bad sleep or a stack of meetings costs you the session and the streak at once. Use the 15-minute recovery protocol instead: two minutes dumping everything in your head onto paper, two minutes circling the one thing that must be finished today, one minute rewriting it at a size that fits in ten, then phone in another room and a 10-minute timer on that slice only. The goal isn't output, it's leaving the day marked as one where you held the minimum.",
+    },
+    {
+      q: "I missed several days. Where do I restart?",
+      a: "Decide it in advance, by the number of days missed. One or two days: resume at the same length as the week you were in. Three to six: drop one week back in length, clear three days, then return. Seven or more: reset to week 1, two 10-minute sessions, with the pass mark halved for that first week. The most common failure is coming back after a long gap and starting at 50 minutes to do it 'properly this time'.",
+    },
     {
       q: "Is focus something you're born with, or can you train it?",
       a: "You can absolutely train it. Attention works like a muscle — it stretches with use. A scattered mind is usually one that's never been trained and is surrounded by distractions by design. Start at 10 minutes twice a day in week one and advance to 15, 25, and 50 minutes only in weeks where you meet the pass criteria, and the same brain that scatters can hold 50 minutes within four weeks.",
@@ -211,7 +242,7 @@ export const ja: Post = {
   description:
     "机に向かっても集中できない、しかも理由が分からない。まずは原因を分けることから。環境型・エネルギー型・意味型の30秒セルフチェック、6分で終わる気の散り3層除去、10分から50分までの4週間トレーニング表、崩れたときの5つの処方をまとめました。",
   date: "2026-07-03",
-  updated: "2026-08-24",
+  updated: "2026-08-30",
   category: "時間管理",
   readMinutes: 12,
   emoji: "🧠",
@@ -353,6 +384,29 @@ export const ja: Post = {
 
 三つに共通するのは、誰もトレーニング表を書き換えていないことです。**いちばん冴えた時間にいちばん長いブロックを先に固定し、残りを短く刻んだだけ。** そして1週目は、成功をばかばかしいほど小さく設定してください — 4週目の50分は、積み上がった[小さな成功](/ja/blog/small-wins)の上に立ちます。
 
+## 調子が底の日のための15分リカバリー・プロトコル
+
+トレーニング表が崩れる日は、だいたい決まっています。眠れなかった翌日、会議が連続で入った日、感情を消耗した日。2週間の集中ログをつけると、**妨害が6回を超えたセッションのほとんどが、この3条件のどれかに当たります。** そんな日に50分に固執すると、セッションも連続記録も一緒に失います。必要なのは訓練ではなく、**どんな日でも回る最小バージョン**です。
+
+| 区間 | やること | なぜこの順番か |
+| --- | --- | --- |
+| **0〜2分** | 頭の中で回っているものを紙1枚に全部出す(分類・整理はしない) | 未解決の考えは消すのではなく、**下ろす**と循環が止まる |
+| **2〜4分** | その中から今日必ず終える**1つだけ**に丸をつける | 調子が低い日は、選択肢そのものが摩擦になる |
+| **4〜5分** | その1つを**10分で終わるサイズ**に縮めて書き直す | 「報告書」ではなく「3章の小見出しを5つ出す」 |
+| **5〜15分** | スマホは別の部屋、タイマー10分、その一切れだけ | 10分は、底の日でもほぼ必ず通る |
+
+このプロトコルの目的は成果ではなく、**連続を切らないこと**です。10分の一切れを残せば、その日は失敗した日ではなく最小ラインを守った日になり、翌日にトレーニング表へ戻るのがずっと楽になります。折れるのは1日休んだ日ではなく2日連続で休んだ日だという原理は、[やり抜く力と続ける仕組み](/ja/blog/grit-consistency)で詳しく扱っています。
+
+何日か落としたあと、どこから再開するかも先に決めておくほうが安全です。その場で決めようとすると、たいてい「来週の月曜から」になり、その月曜はなかなか来ません。
+
+| 落とした日数 | 再開地点 | やってはいけないこと |
+| --- | --- | --- |
+| **1〜2日** | 元の週の長さのまま再開 | 溜まった分をまとめてやる |
+| **3〜6日** | **1週前の長さ**に下げ、3日通してから復帰 | 最初からやり直しを宣言する |
+| **7日以上** | 1週目(10分×2回)にリセット — ただし最初の週は**合格ラインを半分**に | 「今度こそちゃんと」と50分から始める |
+
+夜になると毎回調子が崩れるなら、それは集中訓練の問題ではなく一日の終わりの問題です — [続く夜のルーティン](/ja/blog/evening-routine)で、翌朝のクリアな時間をどう確保するかを先に見てください。逆に最小バージョンは守れるのに深い没入まで届かないなら、次に変えるのは長さではなく構造です — [ディープワークの実践](/ja/blog/deep-work-focus)が90分ブロックを守る環境設計を扱っています。
+
 ## 崩れたときの5つの処方
 
 | 症状 | よくある原因 | 処方 |
@@ -375,6 +429,14 @@ export const ja: Post = {
 
 あなたは「集中が下手」なのではありません。ただ原因を分けたことも、訓練したこともないだけ — 気を散らすために作られたものに囲まれて。今日は二つだけ。**スマホを別の部屋に置き、10分のタイマーを押す。** その10分が、4週間後の50分になります。ビジョンを植えれば、必ず実がなります。🌱`,
   faq: [
+    {
+      q: "調子が底の日でもトレーニング表を守るべきですか?",
+      a: "長さは下げて、連続だけ守ってください。眠れなかった翌日や会議が詰まった日に50分へ固執すると、セッションと連続記録を同時に失います。代わりに15分リカバリー・プロトコルを使います — 2分で頭の中を紙に全部出し、2分で今日終える1つに丸をつけ、1分でそれを10分サイズに書き直し、スマホを別の部屋に置いて10分タイマーでその一切れだけをやる。目的は成果ではなく、その日を「最小ラインを守った日」として残すことです。",
+    },
+    {
+      q: "何日か抜けてしまいました。どこから再開しますか?",
+      a: "抜けた日数ごとに先に決めておきます。1〜2日なら元の週の長さのまま再開、3〜6日なら1週前の長さに下げて3日通してから復帰、7日以上なら1週目(10分×2回)にリセットし、最初の週だけ合格ラインを半分にします。いちばん多い失敗は、長く休んだあと「今度こそちゃんと」と50分から始めることです。",
+    },
     {
       q: "集中力は生まれつきですか、それとも鍛えられますか?",
       a: "間違いなく鍛えられます。注意は筋肉のように働き、使うほど伸びます。散漫な頭は、たいてい一度も訓練されておらず、意図的に作られた気の散りに囲まれているだけです。1週目は10分を2回から始め、合格基準を満たした週にだけ15分・25分・50分へ上げていけば、散らばる同じ脳が4週間で50分をもたせられます。",

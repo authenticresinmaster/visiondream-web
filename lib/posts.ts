@@ -56,7 +56,7 @@ import { en as readingCafeEn, ja as readingCafeJa, ko as readingCafeKo } from ".
 import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-lasts";
 import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addiction-detox";
 import { en as readingClubGuideEn, ja as readingClubGuideJa } from "./blog-i18n/reading-club-guide";
-import { en as selfHelpBookEn } from "./blog-i18n/self-help-book-recommend";
+import { en as selfHelpBookEn, ja as selfHelpBookJa } from "./blog-i18n/self-help-book-recommend";
 
 export type FaqItem = { q: string; a: string };
 
@@ -1680,7 +1680,7 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
     description:
       "책상에 앉았는데 집중이 안 되고, 왜 안 되는지도 모르겠다면 원인부터 갈라야 합니다. 환경형·에너지형·의미형 3유형 자가진단, 6분이면 끝나는 방해요소 3층 제거, 10분에서 50분까지 4주 집중 훈련표, 흐트러질 때 쓰는 5가지 처방까지 정리했습니다.",
     date: "2026-07-03",
-    updated: "2026-08-24",
+    updated: "2026-08-30",
     category: "시간관리",
     readMinutes: 12,
     emoji: "🧠",
@@ -1822,6 +1822,29 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 
 세 사례의 공통점은 훈련표를 갈아엎지 않았다는 것입니다. **가장 맑은 구간에 가장 긴 블록을 먼저 못 박고, 나머지를 짧게 쪼갰을 뿐**입니다. 그리고 첫 주에는 성공 자체를 우스울 만큼 작게 잡아야 합니다 — [작은 성공](/blog/small-wins)이 쌓여야 4주차의 50분이 가능해집니다.
 
+## 컨디션이 바닥인 날의 15분 복구 프로토콜
+
+훈련표가 무너지는 날은 대체로 정해져 있습니다. 못 잔 다음 날, 회의가 연달아 붙은 날, 감정이 소모된 날. 2주 집중 로그를 붙여 보면 **방해 횟수가 6회를 넘은 세션의 대부분이 이 세 조건 중 하나에 걸려 있습니다.** 이런 날 50분을 고집하면 세션도 잃고 연속 기록도 함께 잃습니다. 필요한 건 훈련이 아니라 **어떤 날에도 굴러가는 최소 버전**입니다.
+
+| 구간 | 할 일 | 왜 이 순서인가 |
+| --- | --- | --- |
+| **0~2분** | 머릿속에 도는 것을 종이 한 장에 전부 쏟는다(분류·정리 금지) | 미해결 생각은 지우는 게 아니라 **내려놓아야** 순환이 멈춘다 |
+| **2~4분** | 그중 오늘 반드시 끝낼 것 **딱 1개**에 동그라미 | 컨디션이 낮은 날엔 선택지 자체가 마찰이다 |
+| **4~5분** | 그 1개를 **10분 안에 끝나는 크기**로 줄여 다시 쓴다 | "보고서"가 아니라 "3장 소제목 5개 뽑기" |
+| **5~15분** | 폰은 다른 방, 타이머 10분, 그 한 조각만 | 10분은 컨디션이 바닥이어도 거의 항상 통과된다 |
+
+이 프로토콜의 목적은 성과가 아니라 **연속을 끊지 않는 것**입니다. 10분짜리 한 조각을 남기면 그날은 실패한 날이 아니라 최소치를 지킨 날이 되고, 다음 날 훈련표로 돌아가기가 훨씬 쉬워집니다. 무너지는 건 하루 빠진 날이 아니라 이틀 연속 빠진 날이라는 원리는 [꾸준함을 만드는 법](/blog/grit-consistency)에서 더 자세히 다뤘습니다.
+
+며칠을 놓친 뒤 어디부터 다시 시작할지도 미리 정해 두는 편이 낫습니다. 그 자리에서 정하려고 하면 대개 "다음 주 월요일부터"가 되고, 그 월요일은 잘 오지 않습니다.
+
+| 놓친 기간 | 재시작 지점 | 하지 말 것 |
+| --- | --- | --- |
+| **1~2일** | 원래 주차의 길이 그대로 재개 | 밀린 분량을 몰아서 하기 |
+| **3~6일** | **한 주 전 길이**로 내려서 3일 통과 뒤 복귀 | 처음부터 다시 시작 선언 |
+| **7일 이상** | 1주차(10분 2회)로 리셋 — 대신 첫 주는 **성공 기준을 절반**으로 | "이번엔 제대로" 하며 50분부터 |
+
+밤마다 컨디션이 무너지는 게 반복된다면 그건 집중 훈련이 아니라 하루의 끝단 문제입니다 — [저녁 루틴 만들기](/blog/evening-routine)에서 다음 날 오전의 맑은 시간을 어떻게 확보하는지 먼저 보세요. 반대로 최소 버전은 잘 지키는데 깊은 몰입까지 가지 못한다면, 다음에 바꿀 것은 길이가 아니라 구조입니다 — [딥워크 실천법](/blog/deep-work-focus)이 90분 블록을 지키는 환경 설계를 다룹니다.
+
 ## 집중이 흐트러질 때 — 5가지 처방
 
 | 증상 | 흔한 원인 | 처방 |
@@ -1844,6 +1867,14 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 
 당신은 "집중을 못 하는" 사람이 아닙니다. 그저 원인을 갈라 본 적도, 훈련해 본 적도 없을 뿐이에요 — 당신을 산만하게 만들도록 지어진 것들에 둘러싸인 채로요. 오늘은 딱 두 가지만 하세요. **폰을 다른 방에 두고, 10분 타이머를 켜는 것.** 그 10분이 4주 뒤의 50분입니다. 비전을 심으면, 반드시 열매가 열립니다. 🌱`,
     faq: [
+      {
+        q: "컨디션이 바닥인 날에도 훈련표를 지켜야 하나요?",
+        a: "길이는 낮추고 연속만 지키세요. 못 잔 다음 날이나 회의가 몰린 날 50분을 고집하면 세션과 연속 기록을 함께 잃습니다. 15분 복구 프로토콜을 쓰면 됩니다 — 2분 동안 머릿속을 종이에 다 쏟고, 2분 안에 오늘 끝낼 것 1개에 동그라미를 치고, 1분 만에 그것을 10분 크기로 줄여 쓴 뒤, 폰을 다른 방에 두고 10분 타이머로 그 한 조각만 합니다. 목적은 성과가 아니라 그날을 '최소치를 지킨 날'로 남기는 것입니다.",
+      },
+      {
+        q: "며칠 빠졌는데 어디서부터 다시 시작하나요?",
+        a: "빠진 기간에 따라 미리 정해 두세요. 1~2일이면 원래 주차 길이 그대로 재개하고, 3~6일이면 한 주 전 길이로 내려 3일을 통과한 뒤 복귀하고, 7일 이상이면 1주차(10분 2회)로 리셋하되 첫 주는 성공 기준을 절반으로 낮춥니다. 가장 흔한 실패는 오래 쉰 뒤 '이번엔 제대로'라며 50분부터 시작하는 것입니다.",
+      },
       {
         q: "집중력은 타고나는 건가요, 훈련할 수 있는 건가요?",
         a: "분명히 훈련할 수 있습니다. 주의력은 근육처럼 작동해서, 쓸수록 늘어납니다. 산만한 머리는 대개 한 번도 훈련받은 적 없고, 설계된 방해요소에 둘러싸여 있을 뿐입니다. 1주차 10분 2회에서 시작해 통과 기준을 채운 주에만 15분·25분·50분으로 올리는 4주 훈련표를 쓰면, 흩어지던 같은 뇌가 4주 만에 50분을 버팁니다.",
@@ -4698,7 +4729,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
