@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="김승호 회장 목표 100번 쓰기 완주 설계: 목표 문장 4규칙, 1주차 20번, 2주차 50번, 3주차 100번 점증, 그리고 100일 완주">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">목표 100번 쓰기 — 사흘에 멈추지 않는 설계</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">문장 15자로 줄이면 하루 33분이 12~15분이 된다</text>
+
+  <g>
+    <rect x="34" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="130" cy="140" r="21" fill="#c07a3e"/>
+    <text x="130" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="15" font-weight="800">규칙</text>
+    <text x="130" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">목표 문장 4규칙</text>
+    <text x="130" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">현재형 · 15자 이내</text>
+    <line x1="66" y1="224" x2="194" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="130" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">숫자 1개 · 나를 주어로</text>
+    <text x="130" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">나는 매달 100만원 저축한다</text>
+  </g>
+
+  <g>
+    <rect x="240" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="336" cy="140" r="21" fill="#3f7cb3"/>
+    <text x="336" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">20</text>
+    <text x="336" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">1주차 · 하루 20번</text>
+    <text x="336" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">약 3분 — 자리에 앉는 습관</text>
+    <line x1="272" y1="224" x2="400" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="336" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">7일 중 6일이면 통과</text>
+    <text x="336" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">첫날부터 100번은 금물</text>
+  </g>
+
+  <g>
+    <rect x="446" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="542" cy="140" r="21" fill="#7a6ca8"/>
+    <text x="542" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">50</text>
+    <text x="542" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">2주차 · 하루 50번</text>
+    <text x="542" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">약 7~8분 — 손과 시간 적응</text>
+    <line x1="478" y1="224" x2="606" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="542" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">손 통증 없으면 다음 주차</text>
+    <text x="542" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">문장은 여기까지만 수정</text>
+  </g>
+
+  <g>
+    <rect x="652" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="748" cy="140" r="21" fill="#568a35"/>
+    <text x="748" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="15" font-weight="800">100</text>
+    <text x="748" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">3주차 · 하루 100번</text>
+    <text x="748" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">약 15분 — 본 궤도 진입</text>
+    <line x1="684" y1="224" x2="812" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="748" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">이대로 100일까지 유지</text>
+    <text x="748" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">못 하는 날은 반쪽 20번</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">문장 4규칙 → 20번 → 50번 → 100번 → 100일 완주 (하루 빠져도 이틀 연속만 피한다)</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">사흘에 멈춘 건 의지가 아니라, 하루 33분짜리 계획이었다</text>
+</svg>
