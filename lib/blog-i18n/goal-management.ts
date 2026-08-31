@@ -37,7 +37,7 @@ Most advice obsesses over the left column. But a perfectly set goal with no mana
 
 ## Step 1 & 2: Make it visible, then break it into this week
 
-A goal you can't see is a goal you forget. The first act of management is simply keeping the goal **in view** — a dashboard, a tracker, a board you glance at daily — so it stays in your decisions instead of drifting out of memory. Out of sight really is out of mind.
+A goal you can't see is a goal you forget. The first act of management is simply keeping the goal **in view** — a dashboard, a tracker, a board you glance at daily — so it stays in your decisions instead of drifting out of memory. Out of sight really is out of mind. The most physical version of "keep it in view" is [writing your goal 100 times a day](/en/blog/kim-seungho-100-goals) — the same sentence, by hand, every day; keep it to six words or fewer and the whole thing costs about 20 minutes instead of the 47 that makes people quit on day three.
 
 Then comes the move that separates managers from wishers: **break the goal into this week's actions.** Not "what will I do this year," but "what, specifically, this week." A yearly goal is too far away to act on today; a weekly action is close enough to actually do. This is where big ambitions become [small wins](/en/blog/small-wins) you can string together. And if you can’t even see the staircase from a yearly goal down to this week’s action, the middle steps are missing — [dream backcasting](/en/blog/backcasting-goal-setting) builds that bridge by coming down from the future to three months, then to this week.
 

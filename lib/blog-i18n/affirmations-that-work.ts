@@ -52,7 +52,7 @@ This is the part the mirror-chanting version skips. An affirmation only changes 
 
 ## From words to identity
 
-The real mechanism is a loop: the words you repeat shape what you believe, what you believe steers what you do, and what you repeatedly do becomes who you are. Affirmations are the entry point to that loop — not a shortcut around it. Used well, they're not about tricking the universe. They're about casting a vote, again and again, for the person you're choosing to become.
+The real mechanism is a loop: the words you repeat shape what you believe, what you believe steers what you do, and what you repeatedly do becomes who you are. Affirmations are the entry point to that loop — not a shortcut around it. Used well, they're not about tricking the universe. They're about casting a vote, again and again, for the person you're choosing to become. If you're curious what happens when repetition is pushed to its extreme, look at [writing one goal 100 times a day](/en/blog/kim-seungho-100-goals) — where an affirmation targets belief about yourself, that practice targets the engraving of a single goal.
 
 ## How VisionDream turns affirmations into belief that moves
 
