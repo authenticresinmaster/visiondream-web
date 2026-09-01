@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Talent gets the applause, but consistency gets the results. The compounding math of 1% a day, the 66-day average before a habit feels automatic, a minimum-version table for bad days, a 48-hour recovery procedure for a broken chain, and 30/60/90-day checkpoints — how to last on structure instead of willpower. Plus a frequency comparison (daily vs. 5 or 3 days a week: 365 reps a year against 156), four streak-protecting devices side by side, and three 12-week logs showing where each chain broke and what restarted it.",
   date: "2026-07-02",
-  updated: "2026-08-25",
+  updated: "2026-09-02",
   category: "Mindset",
   readMinutes: 14,
   emoji: "🪨",
@@ -115,6 +115,48 @@ Here's the part nobody tells you: everyone breaks the chain. You'll miss a day. 
 
 "Never miss two days in a row" is the one absolute rule in this system. Miss once and you're human; miss twice and a habit starts to die. More on surviving the fragile opening stretch: [beating the three-day quit](/en/blog/beat-three-day-quitting).
 
+## Why the day *after* a missed day is the dangerous one — the what-the-hell effect
+
+There's a reason the recovery table above splits "the evening you missed" from "the next morning." A habit doesn't die on the day you skip it. It dies in **the 24 hours that follow.**
+
+Psychologists Janet Polivy and C. Peter Herman ran a series of studies in which dieters were first given a drink that broke their diet, then allowed to eat freely. The result ran against intuition: after breaking the rule, the dieters ate **more than the people who weren't dieting at all.** The moment they judged the day already blown, the rest of the day's self-regulation switched off entirely. They named it the **what-the-hell effect.**
+
+The same circuit runs in habits. It fires in three stages, and each stage needs a different sentence to cut it.
+
+| Stage | What happens in your head | How long it takes | The sentence that cuts it |
+| --- | --- | --- | --- |
+| **1. All-or-nothing verdict** | "I missed today, so this week is shot" — one day expands into one week | A few seconds, the night you miss | "A day is missing, not the plan" |
+| **2. Translation into identity** | "I guess I'm just not a consistent person" — an event becomes a character judgment | The next morning | "I didn't do it yesterday. That isn't the same as being unable to" |
+| **3. Pre-emptive surrender** | You schedule the second miss ("I'll write off this week and restart Monday") | The next afternoon | "Not Monday. Five minutes tonight" |
+
+**Stage 2 is the fork.** The moment an event ("I skipped yesterday") gets translated into an identity ("I'm not someone who sticks with things"), every subsequent choice lines up to confirm that identity. What blocks the translation isn't self-criticism — it's [self-compassion](/en/blog/self-compassion). And if the all-or-nothing verdict fires often, the thing to fix first isn't the habit but [perfectionism](/en/blog/overcome-perfectionism).
+
+In practice, three sentences are enough. Run them in order on the night you miss.
+
+1. **"This is one instance."** Count it — second time this month, third time. Counting keeps an event an event instead of letting it become a verdict on your character.
+2. **"Minimum version, right now."** Knock out the five-minute version on the spot. The point isn't output, it's **making today a non-zero day.** The gap between 0 and 1 is bigger than the gap between 1 and 10 — that's the engine behind [small wins](/en/blog/small-wins).
+3. **"Tomorrow's time slot doesn't move."** Don't reschedule. "Tomorrow, when I have more room" is the most common route to a second consecutive miss.
+
+## Return speed decides your quarter — run the arithmetic
+
+You can't prevent the slips. There is exactly one variable you can manage: **how many days it takes you to come back.** Call it return speed.
+
+The numbers make it obvious why this is the whole game. Twelve weeks is 84 days. For anyone with a job, it's realistic to expect roughly **six slips over twelve weeks** — late nights, travel, a cold, a family obligation. Hold the number of slips fixed and vary only the days-to-return:
+
+| Return speed | Days lost per slip | Total gap over 84 days | Days executed | 12-week execution rate |
+| --- | --- | --- | --- | --- |
+| **Same day or next day** | 1 day | 6 days | 78 days | **about 93%** |
+| **Back within 3 days** | 3 days | 18 days | 66 days | **about 79%** |
+| **Back within a week** | 7 days | 42 days | 42 days | **about 50%** |
+| **Back within two weeks** | 14 days | 84 days | 0 days | **about 0%** |
+
+All four rows slip the same six times. The only thing that changes is the days-to-return, and the outcome splits between 93% and 0%. **For someone who takes two weeks to return, the entire quarter is a gap** — the twelve weeks run out before they come back from the second slip.
+
+Two working rules fall out of this:
+
+- **Manage return speed, not motivation.** "I won't miss again" is a promise you don't control. "If I miss, I'm back at the minimum version within 24 hours" is one you do.
+- **Record the return, not just the miss.** Don't only mark the skipped day on your tracker — **write next to it how many days it took to come back** (2, 1, 4…). If that number is shrinking, your system is winning even while your execution rate still looks low. If you don't have a format for it, one extra column on the sheet in [how to build a habit tracker](/en/blog/habit-tracker) covers it.
+
 ## A 90-day design — checkpoints at 30, 60 and 90
 
 Translate that 66-day average into a plan and it looks like this. The order of increases is what matters.
@@ -215,6 +257,14 @@ You don't have to be the most talented. You just have to be the one who's still 
       a: "You can, but it usually costs more than it saves. Lowering the frequency doesn't only cut the reps — at 20 minutes a rep, daily is 365 reps a year while three days a week is 156 — it also raises the number of decisions. On a free-choice schedule you have to settle \"today or tomorrow\" every single morning, and that deciding is what wears people down. If daily feels too heavy, keep the frequency and shrink the rep instead: five minutes a day, with the minimum version counting as done.",
     },
     {
+      q: "I miss one day and then abandon the whole thing. Why does that happen?",
+      a: "It's the what-the-hell effect. In Polivy and Herman's dieting studies, people whose diet had just been broken went on to eat more than people who weren't dieting at all: the moment you judge the day already ruined, the rest of the day's self-regulation switches off. The same circuit runs in habits, in three stages. One missed day expands into a written-off week, that verdict gets translated into an identity ('I'm not a consistent person'), and finally you book the second miss yourself by deciding to restart on Monday. The stage to cut is the second one. Don't let an event become a character judgment - count it instead ('second time this month').",
+    },
+    {
+      q: "How fast do I need to come back, and what does a slow return actually cost?",
+      a: "Within 24 hours. The arithmetic makes it clear. Twelve weeks is 84 days, and for anyone with a job it's realistic to slip about six times in that window - late nights, travel, a cold. Hold the slips at six and vary only the days-to-return: coming back the same or next day leaves you at roughly 93% execution, three days at about 79%, a week at about 50%, and two weeks at about 0%. The same six slips produce either 93% or nothing. So make the rule 'if I miss, I'm back at the minimum version within 24 hours' rather than 'I won't miss again,' and write the days-to-return next to each missed day on your tracker.",
+    },
+    {
       q: "What if the streak itself becomes the pressure?",
       a: "Then the log is being used as a judge instead of a gauge. The point of a record isn't a verdict on you — it's a view of whether the flow is still running. Count the minimum version as done, let a streak shield (two a month) cover the days you miss, and keep exactly one rule: never miss two days in a row. If the number itself is what stresses you, hide the total count and look only at the last seven days.",
     },
@@ -227,7 +277,7 @@ export const ja: Post = {
   description:
     "才能は拍手を集め、継続は結果を集めます。1日1%の複利計算、習慣が自動になるまでの平均66日、悪い日専用の「最小バージョン」設計表、記録が切れたときの48時間リカバリー手順、30・60・90日のチェックポイントまで — 意志ではなく構造で続ける方法を順番に整理しました。さらに、毎日と週5回・週3回の頻度比較(年365回と156回)、連続記録を守る4つの装置の比較、12週間続けた3人の記録がどこで切れ何で立て直ったのかも加えました。",
   date: "2026-07-02",
-  updated: "2026-08-25",
+  updated: "2026-09-02",
   category: "メンタル・実行力",
   readMinutes: 14,
   emoji: "🪨",
@@ -336,6 +386,48 @@ export const ja: Post = {
 
 「二日連続では抜かさない」が、この仕組みの唯一の絶対ルールです。一度抜かせば人間、二度抜かせば習慣が死に始めます。壊れやすい最初の時期を生き延びる話は[三日坊主を乗り越える](/ja/blog/beat-three-day-quitting)に続きます。
 
+## 本当に危ないのは休んだ「翌日」 — どうにでもなれ効果
+
+前のリカバリー表で「休んだ日の夜」と「翌日の朝」をわざわざ分けたのには理由があります。習慣が死ぬのは休んだ日ではなく、**その後の24時間**だからです。
+
+心理学者のジャネット・ポリヴィとピーター・ハーマンは、ダイエット中の人にまず規則を破る飲み物を与え、そのあと自由に食べさせる実験を繰り返しました。結果は直感と逆でした。規則を破った人たちは、そのあと**ダイエットをしていない人たちよりも多く食べた**のです。もう破ったのだから今日は終わりだと判断した瞬間、その日の残りの自己制御がまるごと切れてしまう。二人はこれを**「どうにでもなれ効果(what-the-hell effect)」**と名づけました。
+
+習慣でもまったく同じ回路が回ります。3段階で進み、段階ごとに切る文が違います。
+
+| 段階 | 頭の中で起きること | かかる時間 | 断ち切る文 |
+| --- | --- | --- | --- |
+| **1. オール・オア・ナッシングの判定** | 「今日できなかったから今週はもうダメだ」 — 1日が1週間に拡大する | 休んだ日の夜、数秒 | 「抜けたのは1日であって、計画ではない」 |
+| **2. アイデンティティへの翻訳** | 「やっぱり自分は続かない人間だ」 — 出来事が性格の判定に変わる | 翌日の朝 | 「昨日やらなかっただけで、できない人間ではない」 |
+| **3. 先回りの放棄** | 2日目を自分で予定する(「今週は捨てて来週の月曜から」) | 翌日の昼 | 「来週の月曜ではなく、今夜5分」 |
+
+**分岐点は2段階目です。** 出来事(「昨日やらなかった」)がアイデンティティ(「自分は続かない人間だ」)に翻訳された瞬間、そのあとの選択はすべてそのアイデンティティを裏づける方向に並びます。この翻訳を止めるのは自責ではなく[セルフ・コンパッション](/ja/blog/self-compassion)です。そしてオール・オア・ナッシングの判定が頻繁に出るなら、直すべきは習慣より先に[完璧主義](/ja/blog/overcome-perfectionism)です。
+
+実務的には次の3つの文で足ります。休んだ日の夜に、順番どおりやってください。
+
+1. **「これは1回だ」** 数えてください — 今月2回目、3回目。数えた瞬間、出来事は出来事のまま残り、性格の判定になりません。
+2. **「最小バージョンを今やる」** 5分の最小バージョンをその場で片づけます。目的は成果ではなく、**今日をゼロではない日にすること**です。0と1の差は、1と10の差より大きい([小さな成功](/ja/blog/small-wins)の原理です)。
+3. **「明日の時刻は動かさない」** 予定を動かさないでください。「明日、もう少し余裕があるときに」は、2日連続へ向かういちばんよくある道です。
+
+## 復帰の速さが12週間を決める — 算数で確かめる
+
+滑ること自体は防げません。管理できる変数はひとつだけです — **滑ったあと何日で戻ってくるか。** これを「復帰速度」と呼びます。
+
+数字にすると、なぜこれが勝負の全部なのかがはっきりします。12週間は84日。働いている人なら、残業・出張・風邪・冠婚葬祭で**12週間に6回ほど**滑ると見るのが現実的です。滑る回数はそのままに、復帰までの日数だけを変えて計算してみます。
+
+| 復帰速度 | 1回あたり失う日数 | 84日間の空白合計 | 実行日数 | 12週間の実行率 |
+| --- | --- | --- | --- | --- |
+| **当日〜翌日に復帰** | 1日 | 6日 | 78日 | **約93%** |
+| **3日で復帰** | 3日 | 18日 | 66日 | **約79%** |
+| **1週間で復帰** | 7日 | 42日 | 42日 | **約50%** |
+| **2週間で復帰** | 14日 | 84日 | 0日 | **約0%** |
+
+4行とも滑った回数は同じ6回です。変わったのは復帰までの日数だけなのに、結果は93%と0%に分かれます。**復帰に2週間かかる人にとっては、12週間まるごとが空白です** — 2回目の滑りから戻る前に、その四半期が終わってしまうからです。
+
+ここから出てくる実務ルールは2行です。
+
+- **やる気の管理より、復帰速度の管理が先。** 「次は休まない」は自分で制御できない約束ですが、「休んだら24時間以内に最小バージョンで戻る」は制御できる約束です。
+- **休んだ日ではなく、戻った速さを記録する。** トラッカーに「休んだ日」を印すだけでなく、**その横に何日で戻ったかを書いてください**(2日、1日、4日…)。この数字が縮んでいるなら、実行率がまだ低くても仕組みは勝っている最中です。書式がなければ、[習慣トラッカーの作り方](/ja/blog/habit-tracker)の表に列をひとつ足すだけで足ります。
+
 ## 90日の設計 — チェックポイントは30・60・90日
 
 平均66日という数字を計画に落とすとこうなります。増やす順番を守ることが肝心です。
@@ -434,6 +526,14 @@ export const ja: Post = {
     {
       q: "週3回に減らしてはだめですか?",
       a: "減らしても構いませんが、たいてい得より損が大きくなります。頻度を下げると回数が減るだけでなく(1回20分なら毎日で年365回、週3回で年156回)、判断の回数が増えます。曜日が自由だと「今日やるか、明日にするか」を毎朝決め直すことになり、その決定コストが先に人を消耗させます。毎日が重いと感じるなら、頻度は毎日のままで1回の分量を下げてください — 1日5分、最小バージョンも「完了」に数える形がいちばん続きます。",
+    },
+    {
+      q: "1日休むと、そのまま全部投げ出してしまいます。なぜですか?",
+      a: "「どうにでもなれ効果」です。ポリヴィとハーマンのダイエット研究では、規則を一度破った人はそのあと、ダイエットをしていない人よりも多く食べました。もう台無しだと判断した瞬間に、その日の残りの自己制御がまるごと切れるからです。習慣でも同じ回路が3段階で回ります。1日が1週間に拡大し、その判定が「自分は続かない人間だ」というアイデンティティの文に翻訳され、最後に「来週の月曜から」と2日目を自分で予約します。切るべきは2段階目です。出来事を性格の判定に翻訳せず、「今月2回目」のように数字で数えてください。",
+    },
+    {
+      q: "何日で戻ればいいですか? 復帰が遅いとどれくらい損をしますか?",
+      a: "24時間以内が基準です。算数にすると理由がはっきりします。12週間は84日で、働いている人なら残業・出張・風邪で12週間に6回ほど滑るのが現実的です。滑る回数を6回に固定し、復帰までの日数だけを変えると、当日〜翌日の復帰は実行率およそ93%、3日なら約79%、1週間なら約50%、2週間なら約0%になります。同じ6回滑っても、結果は93%とゼロに分かれます。ですから「次は休まない」ではなく「休んだら24時間以内に最小バージョンで戻る」をルールにし、トラッカーには休んだ日の横に何日で戻ったかを書き添えてください。",
     },
     {
       q: "連続記録そのものが負担になったらどうしますか?",

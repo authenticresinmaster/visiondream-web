@@ -57,7 +57,7 @@ import { en as diaryLastsEn, ja as diaryLastsJa } from "./blog-i18n/diary-that-l
 import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addiction-detox";
 import { en as readingClubGuideEn, ja as readingClubGuideJa } from "./blog-i18n/reading-club-guide";
 import { en as selfHelpBookEn, ja as selfHelpBookJa } from "./blog-i18n/self-help-book-recommend";
-import { en as kimSeunghoEn } from "./blog-i18n/kim-seungho-100-goals";
+import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-100-goals";
 
 export type FaqItem = { q: string; a: string };
 
@@ -3152,7 +3152,7 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
     description:
       "재능은 박수를 받지만, 결과를 가져가는 건 꾸준함입니다. 하루 1%의 복리 계산, 습관이 붙기까지 걸리는 평균 66일, 나쁜 날 전용 '최소 버전' 설계표, 사슬이 끊겼을 때의 48시간 복구 절차, 30·60·90일 체크포인트, 매일·주5회·주3회 빈도 비교표, 연속 기록을 지키는 장치 4가지, 12주를 기록한 3인의 실제 로그까지 — 의지가 아니라 구조로 오래 버티는 법을 순서대로 정리했습니다.",
     date: "2026-07-02",
-    updated: "2026-08-25",
+    updated: "2026-09-02",
     category: "심리·실행력",
     readMinutes: 14,
     emoji: "🪨",
@@ -3262,6 +3262,48 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 
 '이틀 연속은 거르지 않는다'가 이 시스템의 유일한 절대 규칙입니다. 한 번 거르면 사람이고, 두 번 거르면 습관이 죽기 시작합니다. 부서지기 쉬운 초반을 살아남는 이야기는 [삼일 만에 그만두는 걸 이기는 법](/blog/beat-three-day-quitting)에 더 있습니다.
 
+## 하루 거른 다음 날이 진짜 위험한 이유 — '될 대로 되라' 효과
+
+앞의 복구표에서 "거른 당일 저녁"과 "다음 날 아침"을 굳이 나눈 데는 이유가 있습니다. 습관이 죽는 시각은 거른 날이 아니라 **그다음 24시간**이기 때문입니다.
+
+심리학자 재닛 폴리비와 피터 허먼은 다이어트 중인 사람들에게 먼저 규칙을 깨는 음료를 마시게 한 뒤 자유롭게 먹게 하는 실험을 반복했습니다. 결과는 직관과 반대였습니다. 규칙을 깬 사람들은 그 뒤에 **다이어트를 하지 않던 사람들보다 더 많이 먹었습니다.** 이미 어겼으니 오늘은 끝났다고 판단한 순간, 남은 하루의 자기조절이 통째로 꺼진 겁니다. 두 사람은 이걸 '될 대로 되라 효과(what-the-hell effect)'라고 불렀습니다.
+
+습관에서도 똑같은 회로가 돕니다. 3단계로 진행되고, 각 단계마다 끊을 문장이 다릅니다.
+
+| 단계 | 머릿속에서 벌어지는 일 | 걸리는 시간 | 끊는 문장 |
+| --- | --- | --- | --- |
+| **1. 전부 아니면 전무 판정** | "오늘 못 했으니 이번 주는 망했다" — 하루가 한 주로 확대된다 | 거른 날 밤 몇 초 | "오늘 하루가 빠진 거지, 계획이 빠진 게 아니다" |
+| **2. 정체성 문장으로 번역** | "역시 나는 꾸준히 못 하는 사람" — 사건이 성격 판정으로 바뀐다 | 다음 날 아침 | "나는 어제 안 한 거지, 못 하는 사람이 아니다" |
+| **3. 선제적 포기** | 이틀째를 미리 계획한다("이번 주는 접고 다음 주 월요일부터") | 다음 날 낮 | "다음 주 월요일이 아니라 오늘 저녁 5분" |
+
+**2단계가 분기점입니다.** 사건("어제 안 했다")이 정체성("나는 안 되는 사람")으로 번역되는 순간, 그 뒤의 모든 행동은 그 정체성을 확인하는 방향으로 정렬됩니다. 이 번역을 막는 것이 자책이 아니라 [자기연민](/blog/self-compassion)이고, 전부 아니면 전무 판정 자체가 잦다면 습관보다 [완벽주의](/blog/overcome-perfectionism)를 먼저 손봐야 합니다.
+
+실무적으로는 다음 세 문장이면 충분합니다. 거른 날 밤에 순서대로 실행하세요.
+
+1. **"이건 1회다."** 숫자로 세어 두세요 — 이번 달 2번째, 3번째. 세는 순간 사건은 사건으로 남고 성격 판정이 되지 않습니다.
+2. **"최소 버전을 지금 한다."** 5분짜리 최소 버전을 그 자리에서 해치웁니다. 목적은 성과가 아니라 **오늘을 0이 아닌 날로 만드는 것**입니다. 0과 1의 차이는 1과 10의 차이보다 큽니다([작은 성공](/blog/small-wins)의 원리입니다).
+3. **"내일 시각은 그대로."** 시각을 옮기지 마세요. "내일은 좀 더 여유 있을 때"는 이틀째로 가는 가장 흔한 경로입니다.
+
+## 복귀 속도가 12주를 정한다 — 산수로 확인하기
+
+미끄러지는 것 자체는 막을 수 없습니다. 관리할 수 있는 변수는 하나뿐입니다 — **미끄러진 뒤 며칠 만에 돌아오는가.** 이걸 '복귀 속도'라고 부르겠습니다.
+
+숫자로 보면 왜 이게 전부인지 분명해집니다. 12주는 84일입니다. 평범한 직장인이라면 야근·출장·감기·경조사로 **12주에 6번쯤** 미끄러진다고 보는 게 현실적입니다. 미끄러짐 횟수는 그대로 두고 복귀까지 걸리는 날짜만 바꿔서 계산해 보면 이렇게 됩니다.
+
+| 복귀 속도 | 1회당 잃는 날 | 12주(84일) 총 공백 | 실행일수 | 12주 실행률 |
+| --- | --- | --- | --- | --- |
+| **당일~다음 날 복귀** | 1일 | 6일 | 78일 | **약 93%** |
+| **3일 만에 복귀** | 3일 | 18일 | 66일 | **약 79%** |
+| **1주 만에 복귀** | 7일 | 42일 | 42일 | **약 50%** |
+| **2주 만에 복귀** | 14일 | 84일 | 0일 | **약 0%** |
+
+미끄러진 횟수는 네 줄 모두 똑같이 6번입니다. 달라진 건 복귀까지의 날짜뿐인데, 결과는 93%와 0%로 갈립니다. **복귀에 2주가 걸리는 사람에게는 12주 전체가 공백입니다** — 두 번째 미끄러짐에서 돌아오기 전에 분기가 끝나기 때문입니다.
+
+여기서 나오는 실무 규칙은 두 줄입니다.
+
+- **의욕 관리보다 복귀 속도 관리가 먼저다.** "다음엔 안 빠지겠다"는 통제할 수 없는 약속이고, "빠지면 24시간 안에 최소 버전으로 돌아온다"는 통제할 수 있는 약속입니다.
+- **복귀 속도를 기록에 남긴다.** 트래커에 '거른 날'만 표시하지 말고 **'며칠 만에 돌아왔는지'를 옆에 적으세요**(2일, 1일, 4일…). 이 숫자가 줄어들고 있으면, 실행률이 아직 낮아도 시스템은 이기고 있는 중입니다. 기록 양식이 없다면 [습관 트래커 만드는 법](/blog/habit-tracker)에 칸 하나만 더하면 됩니다.
+
 ## 90일 설계 — 체크포인트는 30·60·90일
 
 평균 66일이라는 숫자를 계획으로 옮기면 이렇게 됩니다. 늘리는 순서를 지키는 것이 핵심입니다.
@@ -3361,6 +3403,14 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "주 3회로 줄이면 안 되나요?",
         a: "빈도를 낮추면 편해질 것 같지만, 실제로는 매일 '오늘 할까 내일 할까'를 새로 정하게 돼 결정 비용이 늘어납니다. 1회 20분 기준으로 매일이면 1년에 365회·약 122시간, 주 3회면 156회·약 52시간입니다. 줄여야 할 것은 빈도가 아니라 1회 분량입니다. 매일 5분 최소 버전이 주 3회 30분보다 오래 갑니다.",
+      },
+      {
+        q: "하루 걸렀더니 아예 다 놔버리게 됩니다. 왜 그럴까요?",
+        a: "'될 대로 되라 효과' 때문입니다. 폴리비와 허먼의 다이어트 연구에서, 규칙을 한 번 깬 사람들은 그 뒤에 다이어트를 하지 않던 사람들보다 오히려 더 많이 먹었습니다. 이미 망쳤다고 판단하는 순간 남은 하루의 자기조절이 통째로 꺼지기 때문입니다. 습관에서도 같은 회로가 3단계로 돕니다. 하루가 한 주로 확대되고, 그 판단이 '나는 못 하는 사람'이라는 정체성 문장으로 번역되고, 마지막에 '다음 주 월요일부터'라며 이틀째를 스스로 예약합니다. 끊어야 할 지점은 두 번째 단계입니다. 사건을 성격 판정으로 번역하지 말고 '이번 달 두 번째'처럼 숫자로 세어 두세요.",
+      },
+      {
+        q: "며칠 만에 돌아와야 하나요? 늦게 복귀하면 얼마나 손해인가요?",
+        a: "24시간 안이 기준입니다. 산수로 보면 이유가 분명합니다. 12주는 84일이고, 직장인이라면 야근·출장·감기로 12주에 6번쯤 미끄러지는 게 현실적입니다. 미끄러진 횟수를 6번으로 고정하고 복귀까지 걸리는 날짜만 바꾸면, 당일~다음 날 복귀는 실행률 약 93%, 3일이면 약 79%, 1주면 약 50%, 2주면 약 0%가 됩니다. 같은 6번을 미끄러졌는데 결과가 93%와 0%로 갈립니다. 그러니 '다음엔 안 빠지겠다'가 아니라 '빠지면 24시간 안에 최소 버전으로 돌아온다'를 규칙으로 삼고, 트래커에 거른 날 옆에 며칠 만에 돌아왔는지를 함께 적으세요.",
       },
       {
         q: "연속 기록 자체가 부담이 되면 어떻게 하나요?",
@@ -5144,7 +5194,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
