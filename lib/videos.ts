@@ -299,6 +299,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "사흘 만에 노트를 덮었다면, 의지가 아니라 설계 문제예요", sub: "목표 100번 쓰기, 왜 3일 만에 멈출까",
       transcript: "목표를 하루 백 번씩 썼는데 사흘 만에 노트를 덮으셨나요. 의지가 아니라 설계 문제입니다. 서른 자짜리 문장은 백 번 쓰면 삼십삼 분, 열다섯 자로 줄이면 십이 분이에요. 그리고 첫날부터 백 번 쓰지 마세요. 일주차는 스무 번, 이주차 오십 번, 삼주차에 백 번. 오늘은 딱 스무 번만 써보세요.",
     },
+    {
+      publishedAt: "2026-09-03T09:29:00+09:00",
+      kind: "youtube", slug: "inferiority", id: "QqV7cgLpFKM",
+      title: "남이랑 비교하지 말라고요? 그게 되면 고민도 안 했죠", sub: "비교를 끊는 건 의지가 아니라 장치예요",
+      transcript: "남이랑 비교하지 말라고요? 그게 되면 고민도 안 했죠. 열등감은 병이 아니라 연료예요. 문제는 비교 대상이 남이라는 것뿐이죠. 기준을 어제의 나로 바꾸세요. 자괴감이 올라오면 구십 초만 판단을 멈추고 몸을 움직이세요. 감정은 구십 초면 지나갑니다. 부러운 지점 하나를 목표 한 줄로 바꿔 적어보세요.",
+    },
   ],
   en: [
     {
@@ -569,6 +575,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       title: "It's structure, not willpower", sub: "Phone addiction isn't a willpower problem",
       transcript: "You installed the blocker app, and three days later you turned it off. That's not weak willpower, that's structure. If your plan is to resist, resisting eats the whole day. Change what you see the second you unlock instead. Clear every app off your home screen, and leave one widget: today's one task. When there's nothing to resist, you don't have to. Tonight, start with your home screen.",
     },
+    {
+      publishedAt: "2026-09-03T10:30:00+09:00",
+      kind: "youtube", slug: "inferiority", id: "MtnTbgHeDGE",
+      title: "\"Just stop comparing yourself\"? If that worked, you wouldn't be here.", sub: "Cutting comparison isn't willpower. It's a setup.",
+      transcript: "Just stop comparing yourself? If that worked, you wouldn't be here. Inferiority isn't a disease. Adler called it fuel. The problem is who you measure against. Switch the standard from other people to yesterday's you. When it hits, stop judging for ninety seconds and move your body. Feelings pass in ninety seconds. Then turn one thing you envy into a one line goal. Write that line tonight.",
+    },
   ],
   ja: [
     {
@@ -832,6 +844,12 @@ export const VIDEOS_BY_LANG: Record<Lang, VideoItem[]> = {
       kind: "youtube", slug: "phonedetox", id: "_egFTfIvC8Q",
       title: "意志ではなく仕組みの問題です", sub: "スマホ依存は、我慢では終わりません",
       transcript: "ブロックアプリ、みっかで解除しましたよね。意志が弱いんじゃなく、仕組みの問題です。「我慢する」が計画だと、我慢だけで終わってしまう。開いた瞬間に見えるものを変えましょう。ホーム画面のアプリは全部片づけて、今日やることをひとつだけウィジェットに。我慢するものがなければ、我慢しなくていい。今夜、ホーム画面から。",
+    },
+    {
+      publishedAt: "2026-09-03T11:30:00+09:00",
+      kind: "youtube", slug: "inferiority", id: "1ltOnvHRlp4",
+      title: "「人と比べないで」できたら悩んでませんよね", sub: "比較をやめるのは、意志じゃなく仕組みです",
+      transcript: "「人と比べないで」って、できたら悩んでませんよね。劣等感は病気じゃなく、燃料です。問題は比べる相手が他人だということ。基準を「昨日の自分」に変えましょう。落ち込んだ瞬間は、きゅうじゅう秒だけ判断を止めて体を動かす。感情はきゅうじゅう秒で通り過ぎます。そして、うらやましい一点を目標一行に書き換えて。今夜、一行だけ。",
     },
   ],
 };
