@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="열등감이 올라올 때 비교를 끊는 4단계: 기준 전환, 질투 번역, 증거 수집, 노출 설계">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">열등감이 올라올 때 — 비교를 끊는 4단계</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">먼저 90초를 버티고, 그다음 순서대로 4단계</text>
+
+  <g>
+    <rect x="34" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="130" cy="140" r="21" fill="#3f7cb3"/>
+    <text x="130" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">1</text>
+    <text x="130" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">기준 전환</text>
+    <text x="130" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">남 → 어제의 나 (5분)</text>
+    <line x1="66" y1="224" x2="194" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="130" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">측정 지표 딱 1개만</text>
+    <text x="130" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">주 3회 30분 걷기</text>
+  </g>
+
+  <g>
+    <rect x="240" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="336" cy="140" r="21" fill="#7a6ca8"/>
+    <text x="336" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">2</text>
+    <text x="336" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">질투 번역</text>
+    <text x="336" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">부러움 → 목표 (10분)</text>
+    <line x1="272" y1="224" x2="400" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="336" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">부러운 지점 1개로 좁힌다</text>
+    <text x="336" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">나도 원한다, 그래서 무엇을</text>
+  </g>
+
+  <g>
+    <rect x="446" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="542" cy="140" r="21" fill="#c07a3e"/>
+    <text x="542" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">3</text>
+    <text x="542" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">증거 수집</text>
+    <text x="542" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">하루 1줄 기록 (30초)</text>
+    <line x1="478" y1="224" x2="606" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="542" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">해낸 것만, 평가는 금지</text>
+    <text x="542" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">14줄이면 흔들림이 줄어든다</text>
+  </g>
+
+  <g>
+    <rect x="652" y="100" width="192" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="748" cy="140" r="21" fill="#568a35"/>
+    <text x="748" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="16" font-weight="800">4</text>
+    <text x="748" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">노출 설계</text>
+    <text x="748" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">트리거 계정 정리 (15분)</text>
+    <line x1="684" y1="224" x2="812" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="748" y="248" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">삭제 말고 30일 뮤트</text>
+    <text x="748" y="270" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">취약 시간대엔 아예 차단</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">90초 버티기 → 기준 전환 → 질투 번역 → 증거 수집 → 노출 설계</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">열등감은 없애는 감정이 아니라, 방향을 바꿔 쓰는 연료다</text>
+</svg>
