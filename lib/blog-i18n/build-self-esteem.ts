@@ -40,7 +40,7 @@ Standing in the mirror repeating "I am confident, I am enough" can feel good for
 
 Here's the move: make the promise so small you can't fail it, then keep it. Not "I'll get fit" — "I'll put on my shoes and walk to the corner." Not "I'll read more" — "one page tonight." The size doesn't matter; the **kept** does. Each tiny promise-kept is a deposit into your self-trust account. Miss a giant goal and you withdraw; keep a small one and you add. This is why shrinking the target is a self-esteem strategy, not just a productivity one. (It's the same engine behind [the power of small wins](/en/blog/small-wins) and [identity-based habits](/en/blog/identity-based-habits) — each rep quietly casts a vote for who you are.)
 
-And when you slip — because you will — don't tear up the whole ledger. Self-esteem grows faster from getting back on track than from a perfect streak. Treat a missed day as data, not a verdict. (That gentler restart is exactly what [self-compassion](/en/blog/self-compassion) protects.)
+And when you slip — because you will — don't tear up the whole ledger. Self-esteem grows faster from getting back on track than from a perfect streak. Treat a missed day as data, not a verdict. (That gentler restart is exactly what [self-compassion](/en/blog/self-compassion) protects.) And on the days when someone else's good news makes the whole ledger invisible, remember that self-esteem and inferiority are different problems with different fixes — [how to stop comparing yourself to everyone else](/en/blog/overcome-inferiority) walks through moving the comparison baseline from other people back to yesterday's you.
 
 ## Stack the evidence — and point it at your vision
 

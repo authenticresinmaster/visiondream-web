@@ -48,7 +48,7 @@ Recovery isn't a vow to be perfect from now on — it's one small action that re
 
 ## Self-compassion isn't lowering the bar
 
-This isn't "let yourself off the hook forever." It's the opposite — self-compassion keeps you in the game so you *can* keep showing up. Harshness makes you quit; kindness makes you continue. The most ambitious thing you can do after a failure is recover quickly and take the next step.
+This isn't "let yourself off the hook forever." It's the opposite — self-compassion keeps you in the game so you *can* keep showing up. Harshness makes you quit; kindness makes you continue. The most ambitious thing you can do after a failure is recover quickly and take the next step. One caveat: when the trigger for the self-blame isn't your own slip but someone else's good news, the prescription changes — start with [the 90-second protocol for envy](/en/blog/overcome-inferiority) instead.
 
 ## How VisionDream helps you restart
 
