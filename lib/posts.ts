@@ -58,7 +58,7 @@ import { en as phoneDetoxEn, ja as phoneDetoxJa } from "./blog-i18n/phone-addict
 import { en as readingClubGuideEn, ja as readingClubGuideJa } from "./blog-i18n/reading-club-guide";
 import { en as selfHelpBookEn, ja as selfHelpBookJa } from "./blog-i18n/self-help-book-recommend";
 import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-100-goals";
-import { en as inferiorityEn } from "./blog-i18n/overcome-inferiority";
+import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-inferiority";
 
 export type FaqItem = { q: string; a: string };
 
@@ -1580,9 +1580,9 @@ export const POSTS: Post[] = [
     description:
       "만다라트 계획표는 오타니 쇼헤이가 고등학생 때 쓴 9×9 표입니다 — 한가운데 진짜 목표 하나, 둘레 8칸에 세부 목표, 그 각각 아래 다시 8개의 구체적 행동. 큰 목표를 64개의 실행으로 쪼개기 때문에 통합니다. 빈칸을 전부 채우는 법과, 다 쓴 표를 서랍에서 죽이지 않는 법을 정리했습니다.",
     date: "2026-07-07",
-    updated: "2026-08-31",
+    updated: "2026-09-05",
     category: "목표·성장",
-    readMinutes: 13,
+    readMinutes: 17,
     emoji: "🧩",
     cover: "/blog/mandalart-planner.svg",
     body: `그 표, 본 적 있을 겁니다 — 커다란 9×9 정사각형, 한가운데 목표 하나, 그 둘레로 64개의 작은 칸이 반듯한 글씨로 빼곡히 채워진 그림이요. **오타니 쇼헤이가 열여섯에 쓴 시트**로 퍼지면서, 고등학생을 이도류 스타로 만들었다는 바로 그 한 장입니다. 그래서 양식을 찾아 인쇄하고, 64개의 빈칸을 앞에 두고… 멈춥니다. **만다라트 계획표**는 마법도, 색칠공부도 아닙니다. 하나의 일을 하는 사고 도구예요 — 행동에 옮기기엔 너무 큰 목표를, 이번 주에 해낼 만큼 작은 행동으로 부숴 주는 것. 여기서는 실제로 칸을 채우는 법과, 왜 대부분의 표가 서랍에서 죽는지를 정리했습니다.
@@ -1693,6 +1693,74 @@ export const POSTS: Post[] = [
 
 동시 진행은 **3칸이 상한**입니다. 64칸을 다 굴리려는 순간 아무것도 안 굴러갑니다. 그리고 표는 매달 새로 쓰는 게 아니라, 분기에 한 번 10분만 들여 ×표 친 칸만 교체하면 됩니다.
 
+## 칸을 "이번 주 행동"으로 바꾸는 문장 공식
+
+64칸이 죽는 가장 흔한 이유는 게으름이 아니라 **문장의 형태**입니다. 칸에 명사나 형용사가 들어가면(체력, 꾸준함, 자신감) 월요일 아침에 무엇을 해야 할지 알 수 없습니다. 칸은 이 네 조각을 갖춘 문장일 때만 실행됩니다.
+
+**[동사] + [수량] + [빈도] + [시점·장소]**
+
+여기에 판정 기준 두 개를 더 겁니다. ①칸을 읽고 **10분 안에 시작**할 수 있는가(10분 규칙) ②그날 밤에 **했다/안 했다로 딱 갈리는가**. 둘 중 하나라도 아니면 아직 행동이 아니라 바람입니다.
+
+| 기둥 유형 | 흔히 쓰는 칸 (바람) | 고쳐 쓴 칸 (행동) | 판정 |
+| --- | --- | --- | --- |
+| 체력 | 운동하기 | 퇴근 후 집 앞 30분 걷기, 주 3회(월·수·금) | 밤에 O/X |
+| 멘탈 | 멘탈 관리 | 자기 전 감사 3줄 쓰기, 매일 | 노트 3줄 |
+| 인성 | 좋은 사람 되기 | 아침 출근길 인사 먼저 하기, 매일 1명 | 세었다/못 셌다 |
+| 공부 | 실력 키우기 | 출근 전 전공서 20분 읽기, 주 5회 | 타이머 20분 |
+| 관계 | 가족에게 잘하기 | 일요일 저녁 부모님께 통화 10분, 주 1회 | 통화기록 |
+| 돈 | 재테크 시작 | 매달 1일 급여의 10% 자동이체 설정, 월 1회 | 이체내역 |
+| 실행 | 미루지 않기 | 오전 9시 첫 25분은 가장 싫은 일 한 개, 주 5회 | 타이머 25분 |
+| 회복 | 잘 쉬기 | 23시에 휴대폰 거실 충전, 매일 | 침실에 폰 없음 |
+
+오른쪽 열의 공통점은 **분량이 작다**는 것입니다. 30분·20분·3줄·10분. 칸 하나가 한 시간짜리가 되면 64칸은 물리적으로 불가능한 계획이 됩니다. 한 칸의 상한을 **30분**으로 두면, 매일 한 칸씩 굴려도 하루 30분 안에 끝납니다. 이 "작게 쪼개서 오늘 하나"의 효과는 [작은 성공의 힘](/blog/small-wins)에서 더 자세히 다뤘습니다.
+
+## 64칸을 굴리는 8·2·3·1 규칙 — 다 보지 않는 것이 핵심
+
+표를 다 쓴 다음 주에 사람들이 하는 실수는 **64칸을 전부 관리하려는 것**입니다. 그러면 이틀 만에 지칩니다. 실제로 굴러가는 표는 이 비율을 지킵니다.
+
+- **8** — 기둥은 8개 그대로 둔다(줄이지 않는다. 균형이 만다라트의 장점이다)
+- **2** — 이번 **분기에 집중할 기둥은 2개**만 고른다. 나머지 6개는 유지 모드
+- **3** — **이번 주에 꺼내는 칸은 3개**(집중 기둥에서 2칸 + 나머지 기둥에서 1칸)
+- **1** — **오늘 실행하는 칸은 1개**. 하루 한 행동이면 한 주에 5~7개가 쌓인다
+
+이 구조의 요점은 **나머지 61칸을 일부러 보지 않는 것**입니다. 표는 서랍이 아니라 대기열입니다. 분기마다 집중 기둥 2개를 교체하면, 1년이면 8기둥이 한 바퀴 돕니다.
+
+주간 점검은 **5분·5문항**이면 충분합니다. 일요일 저녁에 고정해 두세요.
+
+1. 지난주 3칸 중 몇 칸을 실제로 했나? (숫자만)
+2. 못 한 칸은 시간이 없어서인가, 문장이 커서인가?
+3. 이번 주 3칸은 무엇인가? (집중 기둥 2 + 기타 1)
+4. 그중 오늘 밤 10분 안에 시작할 수 있는 칸은?
+5. 중앙 목표는 지난주보다 한 칸이라도 가까워졌나?
+
+2번에서 "문장이 커서"가 두 주 연속 나오면 그 칸을 쪼개세요. 30분을 못 내는 게 아니라 칸이 두 시간짜리인 겁니다. 시간 자체가 안 나온다면 표가 아니라 하루의 모양이 문제입니다 — [타임블로킹](/blog/time-blocking)으로 3칸이 들어갈 자리를 먼저 만드세요.
+
+**죽은 표의 신호와 처방**
+
+| 신호 | 실제 원인 | 처방 |
+| --- | --- | --- |
+| 한 달 넘게 표를 펼치지 않았다 | 표가 보이지 않는 곳에 있다 | 잠금화면·냉장고·앱 홈 중 한 곳으로 옮기고, 주간 점검을 일요일 저녁에 고정 |
+| 칸이 전부 명사·형용사다 | 3차(행동) 단계를 건너뛰었다 | 위 문장 공식으로 3칸만 다시 쓴다(전부 고치려 하지 말 것) |
+| 8기둥 중 6개가 일 관련이다 | 기둥을 목표가 아니라 업무로 채웠다 | 관계·건강·회복 기둥을 최소 2개 확보한다 |
+| 체크는 쌓이는데 중앙이 안 움직인다 | 쉬운 칸만 골라 왔다 | 이번 주 3칸 중 1칸은 반드시 집중 기둥의 어려운 칸으로 |
+
+네 번째 신호가 가장 흔합니다. 사람은 체크가 잘 되는 칸을 무의식적으로 고릅니다. 이걸 막는 장치가 "주 1칸은 어려운 칸" 규칙이고, 그 어려운 칸을 하루 중 언제 놓느냐는 [집중력 높이는 법](/blog/improve-focus)의 원칙을 따르면 됩니다 — 가장 맑은 시간대의 첫 블록.
+
+## 인쇄본 · 스프레드시트 · 앱 — 어디에 두느냐가 생존율을 가른다
+
+같은 표라도 어디에 두느냐에 따라 수명이 달라집니다. 매체마다 강점이 다르니 **작성은 종이, 운영은 디지털**이 기본 조합입니다.
+
+| 매체 | 작성 속도 | 수정 비용 | 알림·리마인더 | 진척 가시화 | 잃어버릴 위험 | 추천 국면 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 인쇄본(A4·A3) | 가장 빠름(60분 한 장) | 높음(다시 씀) | 없음 | 없음(체크 표시뿐) | 중간(서랍행) | 최초 작성·연초 |
+| 스프레드시트 | 보통 | 낮음 | 없음(직접 캘린더 연동) | 낮음 | 낮음 | 팀 공유·분기 점검 |
+| 메모앱·노션 | 보통 | 낮음 | 약함 | 낮음 | 낮음 | 칸을 자주 고치는 사람 |
+| 습관·목표 앱 | 느림(옮겨야 함) | 낮음 | 강함 | 강함(연속기록·그래프) | 매우 낮음 | 주간·매일 운영 |
+
+권장 순서는 이렇습니다. **①종이에 60분 안에 초안을 끝낸다(빠른 발상이 목적) → ②사진으로 남긴다 → ③이번 분기 집중 기둥 2개의 16칸만 디지털로 옮긴다 → ④주간 3칸·매일 1칸을 디지털에서 굴린다.** 64칸을 전부 옮기려다 옮기기 자체가 일이 되어 표가 죽는 경우가 많습니다. 16칸이면 10분이면 끝납니다.
+
+체크가 쌓이는 걸 눈으로 보는 것이 왜 중요한지는 [꾸준함의 힘](/blog/grit-consistency)에서, 표를 이미지로 눈앞에 두는 방법은 [디지털 비전보드 만들기](/blog/digital-vision-board)에서 이어집니다. 칸을 매일 체크하는 도구가 필요하다면 [습관 트래커 활용법](/blog/habit-tracker)도 함께 보세요.
+
 ## 만다라트 vs 다른 목표 도구 — 무엇을 언제 쓰나
 
 | 도구 | 주는 것 | 강한 국면 | 약한 국면 |
@@ -1709,6 +1777,14 @@ export const POSTS: Post[] = [
 
 비전드림은, 어떤 의미에서 서랍에 앉아 있기를 거부하는 만다라트 계획표입니다. 그 **꿈지도(비전 만다라)**가 바로 9×9 격자예요 — 한가운데 당신의 핵심 비전, 둘레에 세부 목표 8개, 뻗어 나가는 행동 64개 — 다만 모든 칸이 *살아 있습니다*. 한 번 탭하면 당신이 적은 행동이 추적되는 **목표와 습관**이 되어, 계획이 예쁜 그림이 아니라 매일의 체크리스트로 바뀝니다. 체크할 때마다 **성공의 나무(S = B·T·A)**가 자라, 그 64개의 칸에 눈에 보이는 진척을 줍니다. 그리고 어떤 칸이 막히거나 막연할 땐, **AI코치**가 번역을 도와줘요 — "그 칸의 이번 주 행동 하나는 뭘까요?". 격자는 그걸로 무엇을 하느냐에 달려 있습니다. 비전을 심으면, 반드시 열매가 열립니다. 🌱`,
     faq: [
+      {
+        q: "만다라트 계획표는 매일 봐야 하나요?",
+        a: "매일 표 전체를 볼 필요는 없습니다. 오히려 그게 지치는 원인입니다. 8·2·3·1 규칙을 쓰세요 — 기둥 8개는 그대로 두고, 이번 분기에 집중할 기둥은 2개만 고르고, 이번 주에 꺼내는 칸은 3개, 오늘 실행하는 칸은 1개입니다. 나머지 61칸은 일부러 보지 않습니다. 표를 펼치는 건 일요일 저녁 5분 점검 때 한 번이면 충분하고, 평일에는 오늘의 한 칸만 봅니다.",
+      },
+      {
+        q: "칸이 자꾸 '열심히 하기' 같은 말이 됩니다. 어떻게 고치나요?",
+        a: "문장 공식에 넣으세요. [동사] + [수량] + [빈도] + [시점·장소] 네 조각을 갖춰야 행동이 됩니다. '운동하기'가 아니라 '퇴근 후 집 앞 30분 걷기, 주 3회(월·수·금)'입니다. 판정 기준은 두 개예요. 읽고 10분 안에 시작할 수 있는가, 그리고 그날 밤에 했다/안 했다로 딱 갈리는가. 한 칸의 상한은 30분으로 두세요. 한 시간짜리 칸이 여러 개면 64칸은 물리적으로 불가능한 계획이 됩니다. 그리고 전부 고치려 하지 말고 이번 주에 꺼낼 3칸만 다시 쓰면 됩니다.",
+      },
       {
         q: "64칸을 다 못 채우면 실패인가요?",
         a: "아닙니다. 한 자리에서 64칸을 다 채우는 사람은 거의 없습니다. 기준은 '전부'가 아니라 '기둥마다 최소 3칸'이에요. 24칸이면 이미 굴러가는 계획이고, 나머지는 몇 주에 걸쳐 채워집니다. 5분 안에 3칸도 안 나오는 기둥이 있다면 그건 당신의 실패가 아니라 기둥 이름이 너무 추상적이라는 신호입니다. 구체적인 이름으로 바꾸면 칸이 나옵니다.",
@@ -5652,7 +5728,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };

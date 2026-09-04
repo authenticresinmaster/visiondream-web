@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "The Mandal-Art chart is the 9×9 grid Shohei Ohtani used in high school: one real goal in the center, eight sub-goals around it, and eight concrete actions under each. It works because it breaks one huge goal into 64 doable actions. Here's how to fill every box — and how to keep the finished chart from dying in a drawer.",
   date: "2026-07-07",
-  updated: "2026-08-31",
+  updated: "2026-09-05",
   category: "Goals",
-  readMinutes: 13,
+  readMinutes: 17,
   emoji: "🧩",
   cover: "/blog/mandalart-planner.svg",
   body: `You've seen the grid — a big 9×9 square, a goal written dead center, sixty-four little boxes around it, all filled in tidy handwriting. It went viral as the sheet **Shohei Ohtani wrote at sixteen**, the one that supposedly turned a high-schooler into a two-way superstar. So you search for a template, print it out, stare at the sixty-four empty boxes... and freeze. The **Mandal-Art chart** isn't magic, and it isn't a coloring page. It's a thinking tool with one job: take a goal too big to act on and shatter it into actions small enough to do this week. Here's how to actually fill it — and why most people's charts die in a drawer.
@@ -115,6 +115,74 @@ The only thing the right column has in common is that **it contains a when and a
 
 **Three boxes at a time is the ceiling.** The moment you try to run all sixty-four, none of them run. And you don't rewrite the sheet every month — once a quarter you spend ten minutes replacing only the boxes you crossed out.
 
+## The sentence formula that turns a square into this week's action
+
+The most common reason 64 squares die isn't laziness — it's **the shape of the sentence**. Put a noun or an adjective in a square (fitness, consistency, confidence) and on Monday morning you have no idea what to do. A square only gets executed when it contains four pieces.
+
+**[verb] + [quantity] + [frequency] + [time and place]**
+
+Then apply two tests. First, can you **start within ten minutes** of reading it (the ten-minute rule)? Second, does it resolve cleanly into **done / not done** by bedtime? If either answer is no, it's still a wish, not an action.
+
+| Pillar type | The usual square (a wish) | Rewritten (an action) | How it's judged |
+| --- | --- | --- | --- |
+| Fitness | Exercise more | Walk 30 min around the block after work, 3x/week (Mon/Wed/Fri) | Yes/no at night |
+| Mindset | Manage my mental state | Write 3 lines of gratitude before bed, daily | 3 lines exist |
+| Character | Be a better person | Greet one person first on the morning commute, daily | Counted or not |
+| Study | Get better at my field | Read the technical book 20 min before work, 5x/week | 20-min timer |
+| Relationships | Be good to my family | Call my parents 10 min on Sunday evening, weekly | Call log |
+| Money | Start investing | Set a 10% auto-transfer on payday, monthly | Transfer record |
+| Execution | Stop procrastinating | First 25 minutes at 9 a.m. go to the task I hate most, 5x/week | 25-min timer |
+| Recovery | Rest properly | Charge the phone in the living room at 11 p.m., daily | No phone in bedroom |
+
+What the right-hand column has in common is that **each item is small**: 30 minutes, 20 minutes, three lines, 10 minutes. The moment one square becomes an hour-long project, 64 squares is a physically impossible plan. Cap a single square at **30 minutes** and you can run one square a day inside half an hour. Why shrinking the unit does the heavy lifting is covered in [the power of small wins](/en/blog/small-wins).
+
+## The 8-2-3-1 rule for running 64 squares — the trick is not looking at all of them
+
+The mistake people make the week after finishing the grid is **trying to manage all 64 squares**. That burns out in two days. Grids that actually keep moving hold these proportions.
+
+- **8** — keep all eight pillars (don't cut them; the balance is the whole point of Mandal-Art)
+- **2** — pick only **two focus pillars for this quarter**. The other six stay in maintenance mode
+- **3** — pull exactly **three squares for this week** (two from the focus pillars, one from anywhere else)
+- **1** — execute **one square today**. One action a day stacks 5–7 per week
+
+The point of the structure is **deliberately not looking at the other 61**. The grid is a queue, not a drawer. Swap the two focus pillars each quarter and all eight cycle through in a year.
+
+The weekly check takes **five minutes and five questions**. Anchor it to Sunday evening.
+
+1. How many of last week's three squares did I actually do? (Just the number.)
+2. For the ones I missed — was it a time problem or an oversized sentence?
+3. What are this week's three squares? (Two focus + one other.)
+4. Which of them can I start tonight within ten minutes?
+5. Did the center goal get any closer than last week?
+
+If question 2 answers "oversized sentence" two weeks running, split the square. You aren't failing to find 30 minutes — the square is a two-hour job. If the time genuinely isn't there, the problem is the shape of the day, not the grid: use [time blocking](/en/blog/time-blocking) to create the slot the three squares live in.
+
+**Signs of a dead grid, and what to do**
+
+| Sign | What's actually wrong | Prescription |
+| --- | --- | --- |
+| You haven't opened it in over a month | It lives somewhere you never look | Move it to your lock screen, fridge, or app home, and fix the weekly check to Sunday evening |
+| Every square is a noun or an adjective | You skipped the third pass (actions) | Rewrite three squares with the sentence formula above — not all 64 |
+| Six of the eight pillars are work-related | You filled pillars with your job instead of your life | Guarantee at least two pillars for relationships, health, and recovery |
+| Checks accumulate but the center never moves | You've been picking only the easy squares | Make one of this week's three a hard square from a focus pillar |
+
+The fourth sign is the most common. People unconsciously pick squares that check off easily. The "one hard square a week" rule is the guard against it — and where you place that hard square in the day should follow the principle in [how to improve focus](/en/blog/improve-focus): the first block of your clearest hours.
+
+## Paper, spreadsheet, or app — where you keep it decides whether it survives
+
+The same grid has a different lifespan depending on where it lives. Each medium is good at something different, so the default combination is **draft on paper, run it digitally**.
+
+| Medium | Speed to write | Cost to revise | Reminders | Progress visibility | Risk of losing it | Best for |
+| --- | --- | --- | --- | --- | --- | --- |
+| Printout (A4/A3) | Fastest (60 min a sheet) | High (rewrite by hand) | None | None (check marks only) | Medium (drawer) | First draft, start of the year |
+| Spreadsheet | Medium | Low | None (calendar by hand) | Low | Low | Team sharing, quarterly review |
+| Notes app / Notion | Medium | Low | Weak | Low | Low | People who revise squares often |
+| Habit / goal app | Slow (you must transfer it) | Low | Strong | Strong (streaks, charts) | Very low | Weekly and daily operation |
+
+The recommended sequence: **(1) finish the paper draft in 60 minutes — speed of thought is the goal, (2) photograph it, (3) transfer only the 16 squares of this quarter's two focus pillars into digital, (4) run the weekly three and daily one there.** Grids often die during a heroic attempt to transfer all 64 squares, because the transfer itself becomes the work. Sixteen squares takes ten minutes.
+
+Why seeing the checks accumulate matters is covered in [the power of consistency](/en/blog/grit-consistency), and keeping the grid in front of your eyes as an image continues in [how to make a digital vision board](/en/blog/digital-vision-board). If you need a tool for the daily check itself, see [how to use a habit tracker](/en/blog/habit-tracker).
+
 ## Mandal-Art vs other goal tools — what to use when
 
 | Tool | What it gives you | Strong when | Weak when |
@@ -131,6 +199,14 @@ They work best in sequence: **spread it with Mandal-Art, sharpen the center with
 
 VisionDream is, in a sense, a Mandal-Art chart that refuses to sit in a drawer. Its **DreamMap (Vision Mandala)** is literally the 9×9 grid — your core vision in the center, eight sub-goals around it, sixty-four actions fanning out — but every box is *live*. With one tap, the actions you wrote become tracked **goals and habits**, so the plan turns into a daily checklist instead of a pretty picture. Each check you complete grows your **Success Tree (S = B·T·A)**, giving those sixty-four boxes visible progress. And when a box feels stuck or too vague, the **AI coach** helps you translate it — "what's one action this week for that box?" A grid is only as good as what you do with it. Plant your vision, and the fruit will come. 🌱`,
   faq: [
+    {
+      q: "Do I need to look at my Mandal-Art chart every day?",
+      a: "Not the whole chart — that's what exhausts people. Use the 8-2-3-1 rule: keep all eight pillars, choose only two focus pillars for the quarter, pull three squares for the week (two from the focus pillars, one from anywhere else), and execute one square today. You deliberately ignore the other 61. Opening the full grid once, during a five-minute Sunday-evening check, is enough; on weekdays you only look at today's single square.",
+    },
+    {
+      q: "My squares keep turning into things like 'try harder.' How do I fix that?",
+      a: "Run them through the sentence formula: [verb] + [quantity] + [frequency] + [time and place]. Not 'exercise more' but 'walk 30 minutes around the block after work, three times a week (Mon/Wed/Fri).' Two tests decide it: can you start within ten minutes of reading it, and does it resolve into done/not-done by bedtime? Cap one square at 30 minutes — several hour-long squares make 64 of them a physically impossible plan. And don't rewrite everything; fixing the three squares you'll actually pull this week is enough.",
+    },
     {
       q: "Is it a failure if I can't fill all 64 boxes?",
       a: "No. Almost nobody fills all sixty-four in one sitting. The bar isn't 'all of them' but 'at least three per pillar' — twenty-four boxes is already a working plan, and the rest fill in over the following weeks. If a pillar won't give you even three boxes in five minutes, that isn't a personal failure; it means the pillar's name is too abstract. Rename it to something concrete and the boxes appear.",
@@ -164,9 +240,9 @@ export const ja: Post = {
   description:
     "マンダラート計画表は、大谷翔平が高校時代に書いた9×9のマス目。真ん中に本当の目標を一つ、周りに8つのサブ目標、その一つひとつの下に8つの具体的な行動。大きな目標を64の実行に分解するから効く。全マスの埋め方と、書き上げた表を引き出しで眠らせない方法を紹介します。",
   date: "2026-07-07",
-  updated: "2026-08-31",
+  updated: "2026-09-05",
   category: "目標",
-  readMinutes: 13,
+  readMinutes: 17,
   emoji: "🧩",
   cover: "/blog/mandalart-planner.svg",
   body: `あの表を見たことがあるはずです — 大きな9×9のマス目、真ん中に目標、周りに64の小さなマスがきれいな字で埋まっている。**大谷翔平が16歳で書いたシート**として広まり、高校生を二刀流のスターに変えたと言われるあの一枚です。だからテンプレートを探して印刷し、64個の空欄を前にして…固まる。**マンダラート計画表**は魔法でも塗り絵でもありません。一つの仕事を持つ思考ツールです — 行動に移すには大きすぎる目標を、今週できるほど小さな行動に砕くこと。ここでは実際の埋め方と、なぜ多くの人の表が引き出しで死ぬのかを紹介します。
@@ -273,6 +349,74 @@ export const ja: Post = {
 
 同時進行は**3マスが上限**です。64マス全部を回そうとした瞬間、何も回らなくなります。そして表は毎月書き直すものではありません — 四半期に一度、10分で×をつけたマスだけ入れ替えます。
 
+## マスを「今週の行動」に変える文章の型
+
+64マスが死ぬ最大の理由は、なまけではなく**文章の形**です。マスに名詞や形容詞（体力・継続・自信）が入ると、月曜の朝に何をすればいいのか分かりません。マスは、次の4つの部品がそろったときだけ実行されます。
+
+**[動詞] + [数量] + [頻度] + [時点・場所]**
+
+さらに判定基準を2つかけます。①読んで**10分以内に始められるか**（10分ルール）②その日の夜に**やった／やらなかったで割り切れるか**。どちらかが「いいえ」なら、それはまだ行動ではなく願いです。
+
+| 柱のタイプ | よくあるマス（願い） | 書き直したマス（行動） | 判定 |
+| --- | --- | --- | --- |
+| 体力 | 運動する | 退勤後に家の周りを30分歩く、週3回（月・水・金） | 夜に○× |
+| メンタル | メンタルを整える | 寝る前に感謝を3行書く、毎日 | 3行あるか |
+| 人格 | いい人になる | 朝の通勤で自分から1人にあいさつ、毎日 | 数えたか |
+| 勉強 | 実力をつける | 出勤前に専門書を20分読む、週5回 | 20分タイマー |
+| 関係 | 家族を大切にする | 日曜の夜に親へ10分電話、週1回 | 通話履歴 |
+| お金 | 資産形成を始める | 給料日に収入の10%を自動振替に設定、月1回 | 振替記録 |
+| 実行 | 先延ばしをやめる | 9時の最初の25分は一番いやな仕事に充てる、週5回 | 25分タイマー |
+| 回復 | ちゃんと休む | 23時にスマホをリビングで充電、毎日 | 寝室にスマホがない |
+
+右の列に共通するのは、**一つ一つが小さい**ことです。30分・20分・3行・10分。マス1つが1時間仕事になった瞬間、64マスは物理的に不可能な計画になります。1マスの上限を**30分**にすれば、毎日1マスずつ回しても1日30分で終わります。単位を小さくすることがなぜ効くのかは、[小さな成功の力](/ja/blog/small-wins)で詳しく扱っています。
+
+## 64マスを回す 8・2・3・1 ルール — 全部を見ないことがコツ
+
+表を書き上げた翌週にやりがちな失敗は、**64マス全部を管理しようとすること**です。それは2日で燃え尽きます。実際に回っている表は、この比率を守っています。
+
+- **8** — 柱は8本のまま残す（減らさない。バランスこそマンダラートの利点）
+- **2** — **今四半期の集中する柱は2本だけ**選ぶ。残り6本は維持モード
+- **3** — **今週引き出すマスは3つ**（集中する柱から2つ＋それ以外から1つ）
+- **1** — **今日実行するマスは1つ**。1日1行動なら、1週間で5〜7個たまる
+
+この構造の要点は、**残り61マスをあえて見ないこと**です。表は引き出しではなく待ち行列です。四半期ごとに集中する柱を入れ替えれば、1年で8本が一巡します。
+
+週次の点検は**5分・5問**で十分です。日曜の夜に固定してください。
+
+1. 先週の3マスのうち、実際にやったのは何マス?（数字だけ）
+2. できなかったマスは、時間がなかったのか、文が大きすぎたのか?
+3. 今週の3マスは何か?（集中の柱2＋その他1）
+4. そのうち今夜10分以内に始められるのはどれか?
+5. 中央の目標は、先週より少しでも近づいたか?
+
+2で「文が大きすぎた」が2週続いたら、そのマスを分割してください。30分が出せないのではなく、そのマスが2時間仕事なのです。時間そのものが取れないなら、問題は表ではなく1日の形です — [タイムブロッキング](/ja/blog/time-blocking)で、3マスが入る場所を先に作りましょう。
+
+**死んだ表のサインと処方**
+
+| サイン | 本当の原因 | 処方 |
+| --- | --- | --- |
+| 1か月以上、表を開いていない | 目に入らない場所にある | ロック画面・冷蔵庫・アプリのホームのどれかへ移し、週次点検を日曜の夜に固定する |
+| マスが全部、名詞か形容詞 | 3回目（行動）の工程を飛ばした | 上の文章の型で3マスだけ書き直す（全部直そうとしない） |
+| 8本の柱のうち6本が仕事関連 | 柱を人生ではなく業務で埋めた | 関係・健康・回復の柱を最低2本は確保する |
+| チェックは増えるのに中央が動かない | 簡単なマスばかり選んでいる | 今週の3マスのうち1つは、集中の柱の難しいマスにする |
+
+4つ目のサインが最も多いです。人は無意識にチェックしやすいマスを選びます。それを防ぐのが「週に1マスは難しいマス」というルールで、その難しいマスを1日のどこに置くかは[集中力を高める方法](/ja/blog/improve-focus)の原則に従えば十分です — いちばん冴えている時間帯の最初のブロックです。
+
+## 紙・表計算・アプリ — どこに置くかが生存率を決める
+
+同じ表でも、置き場所で寿命が変わります。媒体ごとに得意が違うので、基本の組み合わせは**作成は紙、運用はデジタル**です。
+
+| 媒体 | 書く速さ | 修正コスト | リマインダー | 進捗の見える化 | 失う危険 | 向いている場面 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 印刷（A4・A3） | 最速（1枚60分） | 高い（書き直し） | なし | なし（チェック印のみ） | 中（引き出し行き） | 最初の作成・年初 |
+| 表計算 | ふつう | 低い | なし（カレンダーは手動） | 低い | 低い | チーム共有・四半期点検 |
+| メモアプリ・Notion | ふつう | 低い | 弱い | 低い | 低い | マスをよく直す人 |
+| 習慣・目標アプリ | 遅い（移す手間） | 低い | 強い | 強い（連続記録・グラフ） | とても低い | 週次・毎日の運用 |
+
+おすすめの順番はこうです。**①紙で60分以内に下書きを終える（速く発想するのが目的）→②写真に残す→③今四半期の集中する柱2本、16マスだけをデジタルへ移す→④週3マス・毎日1マスをデジタルで回す。** 64マスを全部移そうとして、移すこと自体が仕事になり表が死ぬケースが多いのです。16マスなら10分で終わります。
+
+チェックが積み上がるのを目で見ることがなぜ大事かは[続ける力（グリット）](/ja/blog/grit-consistency)で、表を画像として目の前に置く方法は[デジタルビジョンボードの作り方](/ja/blog/digital-vision-board)へ続きます。毎日のチェックのための道具が必要なら、[習慣トラッカーの使い方](/ja/blog/habit-tracker)もどうぞ。
+
 ## マンダラート vs 他の目標ツール — いつ何を使うか
 
 | ツール | 与えてくれるもの | 強い場面 | 弱い場面 |
@@ -289,6 +433,14 @@ export const ja: Post = {
 
 ビジョンドリームは、ある意味、引き出しに眠るのを拒むマンダラート計画表です。その**夢の地図(ビジョン曼荼羅)**はまさに9×9のグリッド — 中央にあなたの核となるビジョン、周りに8つのサブ目標、64の行動 — ただしどのマスも*生きています*。ワンタップで、書いた行動が追跡される**目標と習慣**になり、計画がきれいな絵ではなく毎日のチェックリストに変わります。チェックするたびに**成功の木(S = B・T・A)**が育ち、64のマスに目に見える進捗を与えます。マスが行き詰まったり漠然としたら、**AIコーチ**が翻訳を手伝います — 「そのマスの今週の行動一つは?」。グリッドは、それで何をするか次第です。ビジョンを植えれば、必ず実がなります。🌱`,
   faq: [
+    {
+      q: "マンダラート計画表は毎日見るべきですか?",
+      a: "表全体を毎日見る必要はありません。むしろそれが疲れる原因です。8・2・3・1ルールを使ってください — 柱は8本のまま、今四半期に集中する柱は2本だけ、今週引き出すマスは3つ、今日実行するマスは1つ。残り61マスはあえて見ません。表を開くのは日曜の夜の5分点検で1回あれば十分で、平日は今日の1マスだけを見ます。",
+    },
+    {
+      q: "マスがいつも「がんばる」のような言葉になってしまいます。どう直しますか?",
+      a: "文章の型に入れてください。[動詞]＋[数量]＋[頻度]＋[時点・場所]の4つがそろって初めて行動になります。「運動する」ではなく「退勤後に家の周りを30分歩く、週3回（月・水・金）」です。判定基準は2つ。読んで10分以内に始められるか、そしてその日の夜にやった／やらなかったで割り切れるか。1マスの上限は30分にしてください。1時間仕事のマスがいくつもあると、64マスは物理的に不可能な計画になります。そして全部直そうとせず、今週引き出す3マスだけ書き直せば十分です。",
+    },
     {
       q: "64マスを全部埋められなければ失敗ですか?",
       a: "いいえ。一度で64マスすべてを埋める人はほとんどいません。基準は「全部」ではなく「柱ごとに最低3マス」です。24マスあれば計画としてもう動きますし、残りは数週間かけて埋まっていきます。5分で3マスも出てこない柱があるなら、それはあなたの失敗ではなく、柱の名前が抽象的すぎるという合図です。具体的な名前に変えるとマスは出てきます。",
