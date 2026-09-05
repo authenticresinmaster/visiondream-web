@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="일잘러 3층 구조: 1층 받는 법, 2층 쪼개는 법, 3층 돌려주는 법">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="44" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">일잘러의 3층 구조 — 예측 가능성을 만드는 법</text>
+  <text x="440" y="72" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="14" font-weight="700">많이·빨리가 아니라, 남이 내 일의 끝을 예측할 수 있게</text>
+
+  <g>
+    <rect x="44" y="100" width="240" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="164" cy="140" r="21" fill="#3f7cb3"/>
+    <text x="164" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">1층</text>
+    <text x="164" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">받는 법</text>
+    <text x="164" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">착수 전 확인 3문장 (3분)</text>
+    <line x1="80" y1="224" x2="248" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="164" y="246" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">① 목적 ② 완료의 정의 ③ 마감</text>
+    <text x="164" y="272" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">확인 3분 &#8594; 재작업 2시간 절약</text>
+  </g>
+
+  <text x="300" y="204" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="24" font-weight="800">&#8594;</text>
+
+  <g>
+    <rect x="320" y="100" width="240" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="440" cy="140" r="21" fill="#c07a3e"/>
+    <text x="440" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">2층</text>
+    <text x="440" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">쪼개는 법</text>
+    <text x="440" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">다음 물리행동 단위로 (5분)</text>
+    <line x1="356" y1="224" x2="524" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="440" y="246" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">명사 &#8594; 동사+대상으로 바꾸기</text>
+    <text x="440" y="272" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">할 일 10개 &#8594; 하루 3개 · 90분 블록</text>
+  </g>
+
+  <text x="576" y="204" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="24" font-weight="800">&#8594;</text>
+
+  <g>
+    <rect x="596" y="100" width="240" height="196" rx="14" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <circle cx="716" cy="140" r="21" fill="#568a35"/>
+    <text x="716" y="148" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="14" font-weight="800">3층</text>
+    <text x="716" y="184" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="15" font-weight="800">돌려주는 법</text>
+    <text x="716" y="206" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="11.5">절반 시점 초안 공유 (10분)</text>
+    <line x1="632" y1="224" x2="800" y2="224" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="716" y="246" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="12">늦어질 땐 새 날짜 + 선택지 2개</text>
+    <text x="716" y="272" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="11.5" font-weight="700">사과 대신 재협상 · 여유 절반에 말한다</text>
+  </g>
+
+  <text x="440" y="340" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="14" font-weight="700">받는 법 &#8594; 쪼개는 법 &#8594; 돌려주는 법 · 4주면 한 층씩 올라간다</text>
+  <text x="440" y="368" text-anchor="middle" fill="#8a97a8" font-family="sans-serif" font-size="13" font-weight="600">일잘러는 빠른 사람이 아니라, 재작업이 적은 사람이다</text>
+</svg>
