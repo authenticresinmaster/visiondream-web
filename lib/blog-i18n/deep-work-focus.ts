@@ -178,6 +178,8 @@ After about four weeks, read it like this.
 
 Those four lines become the raw material for your Sunday [weekly review](/en/blog/weekly-review-habit). Nothing else needs writing up.
 
+One caveat about the log: if your blocks are deep but your reviews still say "middling," the bottleneck isn't focus — it's that nobody can see the work in flight. That's a different fix, laid out in [a top performer isn't the fastest worker](/en/blog/top-performer-system).
+
 ## The three ways deep work collapses
 
 1. **You book it too long.** Ninety minutes is the destination, not the starting line. Begin at 25 and buy "unbroken" first.

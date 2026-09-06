@@ -350,6 +350,8 @@ The cleanest way is top-down. Use [backcasting](/en/blog/backcasting-goal-settin
 
 There's a practical version of this that takes ten minutes on a Sunday. Keep the picture of where you're going somewhere you'll actually see it — a [digital vision board](/en/blog/digital-vision-board) on your phone or desktop works better than a page in a notebook you never reopen — and then write the goal's name into the **block title itself**: not "Draft 3 pages," but "Draft 3 pages · book." It looks like a small formatting habit. What it does is make the tradeoff visible at the exact moment someone asks for that hour, which is the only moment the tradeoff matters. Run this for a month and the audit table above answers a much better question than "was I busy?" — it answers **which of your goals actually received hours**, and which one you've been meaning to start since January.
 
+One more thing the audit tends to expose: blocks that keep getting shredded by other people's requests. That's rarely a calendar problem — it starts at the moment you accept the work without confirming the deadline. The three-minute intake script for that is in [a top performer isn't the fastest worker](/en/blog/top-performer-system).
+
 ## 🌱 Put it into practice with VisionDream
 
 Blocks stay alive when two things are true: you can see **which goal each block belongs to**, and something **catches you when a block slips**.
