@@ -59,7 +59,7 @@ import { en as readingClubGuideEn, ja as readingClubGuideJa } from "./blog-i18n/
 import { en as selfHelpBookEn, ja as selfHelpBookJa } from "./blog-i18n/self-help-book-recommend";
 import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-100-goals";
 import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-inferiority";
-import { en as topPerformerEn } from "./blog-i18n/top-performer-system";
+import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
 
 export type FaqItem = { q: string; a: string };
 
@@ -3429,9 +3429,9 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
     description:
       "좋은 아침은 새벽의 의지가 아니라 전날 밤 10분에서 만들어집니다. 내일 첫 행동 3분 · 화면 끄기 4분 · 오늘 닫기 2분 · 비전 10초 — 어젯밤을 채점하는 4가지 숫자, 취침 90분 전부터의 분 단위 배치표, 무너지는 5가지 유형별 처방, 20분·10분·3분 버전 비교, 14박 한 장 기록표, 주말·출장·회식·아픈 날 복귀 규칙까지 정리했습니다.",
     date: "2026-07-02",
-    updated: "2026-08-29",
+    updated: "2026-09-08",
     category: "습관",
-    readMinutes: 19,
+    readMinutes: 22,
     emoji: "🌙",
     cover: "/blog/evening-routine.svg",
     body: `**오늘 밤 10분이 내일 아침을 정합니다.**
@@ -3577,6 +3577,44 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 
 T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억지로 잠들려 애쓰지 말고 3분만 호흡에 주의를 두세요 — 순서는 [마음챙김 기초](/blog/mindfulness-basics)에 정리해 두었습니다.
 
+## 지쳤는데 오히려 잠이 안 오는 밤 — 소진된 사람의 90분 정리법
+
+여기까지 읽고 "나는 그 반대인데요"라고 생각했다면, 이 절이 당신 것입니다. **하루 종일 방전돼 있었는데, 막상 불을 끄고 누우면 머리가 더 빨라지는 밤**이 있습니다. 낮에는 졸려서 커피를 한 잔 더 마시고, 그 커피 때문에 밤에 또 못 자고, 주말에 열두 시간을 자도 월요일이면 똑같이 무겁습니다. 이 상태에서 "10분 루틴을 지키세요"는 잘 안 듣습니다. 저녁이 없어서가 아니라, **낮에 처리되지 못한 각성이 밤으로 밀려온 것**이기 때문입니다.
+
+이럴 때는 순서가 달라집니다. 잠드는 기술을 늘리는 게 아니라, **각성을 낮추고 → 머릿속을 밖으로 꺼내고 → 리듬의 기준점을 하나 고정**하는 3단계입니다.
+
+| 단계 | 언제 | 무엇을 | 왜 이 순서인가 |
+| --- | --- | --- | --- |
+| **① 자극 줄이기** | 취침 90분 전 | 밝은 조명 하나 끄기 · 업무 대화창 닫기 · 뉴스/커뮤니티 금지 | 각성이 내려가는 데 시간이 걸린다. 누운 뒤에 시작하면 이미 늦다 |
+| **② 걱정 옮겨 적기** | 취침 60분 전, 5분 | 머릿속 걱정을 종이에 5개까지만 | 안 적으면 뇌가 "잊으면 안 된다"며 계속 재생한다 |
+| **③ 기상시간 고정** | 매일 아침 | 취침시각이 아니라 **일어나는 시각**을 고정 | 잠드는 시각은 통제 불가, 일어나는 시각은 통제 가능 |
+
+**②의 형식이 핵심입니다.** 일기처럼 쓰면 오히려 각성이 올라갑니다. 세 칸짜리 표로, 한 줄씩만 적으세요.
+
+| 걱정 한 줄 | 내가 통제 가능? | 가능하면 내일의 첫 동작 |
+| --- | --- | --- |
+| 내일 보고 자료 부족할 것 같다 | O | 9시에 작년 폴더 열고 표 1개 복사 |
+| 그 사람이 화났을까 | X | (통제 불가 — 여기서 끝) |
+| 카드값 결제일 언제였지 | O | 출근길에 앱에서 결제일 확인 |
+
+**통제 불가 칸에는 아무것도 적지 않고 그대로 둡니다.** 이게 걱정 적기의 절반입니다. 못 하는 일을 "내일 어떻게든 해보자"로 바꾸는 순간, 그 줄은 밤새 다시 재생됩니다. 항목은 **다섯 개에서 자르세요.** 열 개를 적으면 그건 정리가 아니라 걱정 목록 만들기입니다.
+
+③은 가장 지루하지만 가장 강력합니다. 주말에 몰아 자는 방식과 기상시간을 고정하는 방식은 2주 뒤 결과가 다릅니다.
+
+| | 주말 몰아자기 | 기상시간 고정(±1시간) |
+| --- | --- | --- |
+| 토·일 기상 | 오전 11시~12시 | 평일 +1시간까지만 |
+| 일요일 밤 | 잠이 안 옴(새벽 2시) | 평소 시각에 졸림이 옴 |
+| 월요일 아침 | 시차 적응 실패 상태 | 평소와 비슷 |
+| 총 수면시간 | 더 길다 | 더 짧다 |
+| 2주 뒤 컨디션 | 그대로 | 눈에 띄게 가벼움 |
+
+**총 수면시간이 더 긴 쪽이 더 피곤하다는 게 요점입니다.** 부족한 잠은 낮 20분 낮잠(오후 3시 이전)으로 갚고, 주말 보정은 **최대 1시간**까지만 허용하세요.
+
+여기에 두 가지만 더 얹으면 됩니다. **카페인은 취침 8시간 전에 끊습니다** — 카페인은 몸에서 절반이 빠지는 데만 대략 5~6시간이 걸리므로, 밤 11시에 자려면 늦어도 오후 2~3시가 마지막 잔입니다. 그리고 **누워서 20분이 지나도 안 자면 침대에서 나오세요.** 어두운 거실에서 5분간 앉아 있다가 다시 눕습니다. 침대에서 뒤척인 시간이 길수록 뇌는 "침대 = 깨어 있는 곳"으로 학습합니다.
+
+세 단계를 다 해도 2주 넘게 그대로라면, 그건 저녁의 문제가 아니라 소진의 문제입니다 — [번아웃에서 회복하는 법](/blog/burnout-recovery)의 회복 순서를 먼저 밟고, 흔들린 뒤 돌아오는 속도를 기르는 쪽은 [멘탈을 강하게 만드는 법](/blog/mental-strength)에 정리해 두었습니다. 잠들기 전 폰이 매번 이 90분을 잡아먹는다면 [스마트폰 중독에서 벗어나는 법](/blog/phone-addiction-detox)이 먼저입니다. 그리고 못 잔 날 자신을 몰아세우는 습관이 있다면, 그 자체가 각성을 올립니다 — [자기연민 연습](/blog/self-compassion) 쪽이 더 빠른 길입니다.
+
 ## 3단계 — 오늘을 2분 만에 닫는다
 
 이 분 만에 오늘에 제대로 된 마침표를 찍어 주세요. 조용히 세 가지를 묻습니다 — *뭐가 잘됐지? 뭐가 날 지치게 했지? 내일로 가져갈 한 가지는?* 이건 나를 심판하는 게 아니라, 고리를 닫는 일입니다. 오늘의 미해결이 내일의 잠으로 새어 나가지 않도록요.
@@ -3711,6 +3749,14 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "평일은 지키는데 주말만 되면 무너집니다.",
         a: "주말에 무너지는 건 의지가 아니라 기준점이 사라지기 때문입니다. 저녁 루틴은 시계가 아니라 취침 시각(T)을 기준으로 도는데, 주말엔 그 T가 1~2시간씩 밀리면서 배치표 전체가 붕 뜹니다. 주말엔 T를 늦춘 채로 인정하고 1단계(내일 첫 행동 한 줄) 하나만 남기세요. 그리고 복귀는 월요일이 아니라 일요일 밤에 평일 T로 되돌리는 것이 핵심입니다 — 월요일 아침을 만드는 건 일요일 밤이기 때문입니다. 출장·회식으로 깨진 날도 규칙은 같습니다. 깨진 날엔 한 줄만, 다음 날 밤엔 반드시 복귀, 밀린 것을 만회하려 하지 않기."
+      },
+      {
+        q: "하루 종일 지쳐 있는데 막상 누우면 잠이 안 옵니다. 저녁 루틴이 소용 있나요?",
+        a: "그 상태에서는 순서를 바꿔야 합니다. 잠드는 기술이 아니라 각성을 낮추는 쪽이 먼저입니다. 세 단계로 가세요. ①취침 90분 전부터 자극을 줄입니다 — 조명 하나 끄기, 업무 대화창 닫기, 뉴스·커뮤니티 금지. 누운 뒤에 시작하면 이미 늦습니다. ②취침 60분 전에 5분간 걱정을 종이로 옮겨 적습니다. 일기가 아니라 세 칸 표로 — 걱정 한 줄, 내가 통제 가능한지 O/X, 가능하면 내일의 첫 동작 한 줄. 통제 불가 칸은 비워 둔 채 끝냅니다. 항목은 다섯 개에서 자르세요. ③취침 시각이 아니라 기상 시각을 고정합니다. 잠드는 시각은 통제할 수 없지만 일어나는 시각은 통제할 수 있고, 리듬은 기상 쪽에서 잡힙니다. 여기에 카페인 컷오프(취침 8시간 전)와 20분 규칙(누워서 20분 넘게 안 자면 침대에서 나와 어두운 곳에서 5분)을 더하면 됩니다. 2주를 해도 그대로면 저녁이 아니라 소진의 문제일 수 있습니다."
+      },
+      {
+        q: "주말에 몰아서 자면 회복되지 않나요?",
+        a: "총 수면시간은 늘지만 회복은 잘 안 됩니다. 토·일에 오전 11~12시까지 자면 일요일 밤에 졸림이 오지 않아 새벽 2시에 눕게 되고, 월요일 아침은 시차 적응에 실패한 상태로 시작합니다. 잠을 더 많이 잔 쪽이 더 피곤한 이유가 이것입니다. 주말 보정은 평일 기상 시각 대비 최대 1시간까지만 허용하고, 부족한 잠은 오후 3시 이전 20분 낮잠으로 갚으세요. 기상 시각만 ±1시간 안에 묶어도 2주면 월요일 아침의 무게가 눈에 띄게 달라집니다."
       },
     ],
   },
@@ -6232,7 +6278,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };

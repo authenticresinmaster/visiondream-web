@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "A great morning isn't willed into being at dawn — it's built in ten minutes the night before. Tomorrow's first action in 3 minutes, screens off in 4, closing today in 2, vision in 10 seconds — plus a bedtime-anchored placement table, 30/15/5-minute versions, four collapse types with prescriptions, a 14-night scoreboard, return rules for weekends, travel and sick days, and versions for late shifts, parents and night owls.",
   date: "2026-07-02",
-  updated: "2026-08-29",
+  updated: "2026-09-08",
   category: "Habits",
-  readMinutes: 18,
+  readMinutes: 21,
   emoji: "🌙",
   cover: "/blog/evening-routine.svg",
   body: `**Ten minutes tonight decides tomorrow morning.**
@@ -132,6 +132,44 @@ Four objections come up every time, and all four have a fix that costs less than
 | "I fall asleep to a podcast." | Speaker in the bedroom, phone charging outside it | One cable |
 
 The same principle runs your daytime too — the first move in [deep work](/en/blog/deep-work-focus) isn't out-willing distraction, it's removing it. And if your leak isn't the phone but your own head — screens away, lights off, and you still lie there re-running the day — that's the third and innermost layer of distraction, and it's exactly what the two-minute close below is built for. [How to improve focus](/en/blog/improve-focus) walks through all three layers; almost everyone clears the desk and forgets the layer inside their own skull.
+
+## When you're exhausted and *still* can't sleep — the 90-minute wind-down
+
+If you read all of that and thought "my problem is the opposite," this section is yours. Some nights you're flat on empty all day, and the moment the light goes off **your head speeds up**. You're drowsy in the afternoon, so you add a coffee; that coffee costs you the night; you sleep twelve hours on Saturday and Monday still arrives heavy. In that state, "keep a 10-minute routine" doesn't land. The problem isn't a missing evening — it's that **the arousal your day never discharged has been pushed into the night.**
+
+So the order changes. You're not trying to get better at falling asleep. You **lower arousal → get your head out onto paper → fix one anchor in the rhythm.**
+
+| Step | When | What | Why in this order |
+| --- | --- | --- | --- |
+| **① Dim the inputs** | 90 min before bed | Kill one bright lamp · close work chat · no news or feeds | Arousal takes time to come down. Starting it after you lie down is already too late |
+| **② Dump the worries** | 60 min before bed, 5 min | Get what's looping onto paper — five items maximum | Unwritten, your brain keeps replaying it so it won't be forgotten |
+| **③ Fix the wake time** | Every morning | Anchor the time you **get up**, not the time you go to bed | Falling asleep isn't under your control. Getting up is |
+
+**The format of ② is the whole trick.** Write it like a journal and arousal goes *up*. Use three columns, one line each.
+
+| The worry, one line | Can I control it? | If yes, tomorrow's first action |
+| --- | --- | --- |
+| Tomorrow's deck feels thin | Yes | 9am: open last year's folder, copy one table |
+| Is she angry at me? | No | (Not controllable — the line ends here) |
+| When is the card payment due? | Yes | On the commute, check the due date in the app |
+
+**Leave the "no" rows completely empty.** That's half of what makes this work. The moment you turn something you can't control into "I'll figure it out tomorrow," that line replays all night. And **stop at five items.** Ten isn't a wind-down; it's building a worry list.
+
+③ is the dullest and the strongest. Catching up on weekends and anchoring your wake time produce different people two weeks later.
+
+| | Sleeping in on weekends | Anchored wake time (±1 hour) |
+| --- | --- | --- |
+| Sat/Sun wake | 11am–12pm | At most one hour past the weekday time |
+| Sunday night | Wide awake at 2am | Sleepy at the usual hour |
+| Monday morning | Jet-lagged | Roughly normal |
+| Total sleep hours | More | Fewer |
+| Condition after 2 weeks | Unchanged | Noticeably lighter |
+
+**The point is that the one with *more* total sleep feels worse.** Pay back a sleep debt with a 20-minute nap before 3pm, and cap weekend drift at **one hour**.
+
+Two more things finish it. **Cut caffeine 8 hours before bed** — it takes roughly 5–6 hours for half of it to clear your system, so an 11pm bedtime means the last cup is at 2–3pm. And **if you've been lying there more than 20 minutes, get out of bed.** Sit somewhere dark for five minutes, then go back. The longer you toss in bed, the more thoroughly your brain learns "bed = the place I'm awake."
+
+If you run all three steps for two weeks and nothing shifts, this isn't an evening problem — it's depletion. Start with the recovery sequence in [How to recover from burnout](/en/blog/burnout-recovery), and for the skill of returning faster after you're shaken, see [How to build mental strength](/en/blog/mental-strength). If the phone eats these 90 minutes every single night, [How to break phone addiction](/en/blog/phone-addiction-detox) comes first. And if you tend to beat yourself up on the nights you don't sleep — that itself raises arousal, so [self-compassion](/en/blog/self-compassion) is the faster road.
 
 ## Step 3 — Close today in two minutes
 
@@ -309,6 +347,14 @@ You don't need a heroic morning. You need ten minutes that hand your morning-sel
       q: "What about travel, and nights when I'm ill?",
       a: "Both are handled by the same two rules: on a broken night keep only step 1, and come back the very next night. On a work trip, the only move worth protecting is charging the phone at the socket furthest from the bed — drop the placement table entirely, then run step 1 on your first night home and the full sequence from night two. When you're ill, sleep outranks the routine completely; do nothing, and restart with step 1 alone on your first night of recovery. And don't try to make up lost nights — attempting a long version to compensate is the most reliable way to produce a third failed night in a row.",
     },
+    {
+      q: "I'm drained all day and then can't sleep once I lie down. Does an evening routine even help?",
+      a: "In that state the order has to change: you're not getting better at falling asleep, you're lowering arousal first. Three steps. ① From 90 minutes before bed, dim the inputs — kill one bright lamp, close work chat, no news or feeds. Starting after you lie down is already too late. ② Sixty minutes before bed, spend five minutes dumping the worries onto paper — not as a journal, as three columns: the worry in one line, can I control it yes/no, and if yes tomorrow's first action. Leave the 'no' rows empty and stop at five items. ③ Anchor your wake time rather than your bedtime; falling asleep isn't under your control, getting up is, and the rhythm sets from the morning end. Add a caffeine cutoff eight hours before bed and the 20-minute rule — if you've been lying there more than 20 minutes, get out of bed and sit somewhere dark for five. If two weeks of this changes nothing, the problem is depletion rather than your evening.",
+    },
+    {
+      q: "Doesn't catching up on sleep at the weekend fix it?",
+      a: "Your total hours go up, but recovery doesn't. Sleeping until 11 or 12 on Saturday and Sunday means no sleepiness arrives Sunday night, so you're up at 2am and Monday starts jet-lagged — which is why the person who slept *more* feels worse. Cap weekend drift at one hour past your weekday wake time and pay back the debt with a 20-minute nap before 3pm instead. Holding your wake time inside that one-hour band, on its own, visibly changes the weight of Monday morning within two weeks.",
+    },
   ],
 };
 
@@ -318,9 +364,9 @@ export const ja: Post = {
   description:
     "良い朝は夜明けの気合いではなく、前の晩の10分で作られます。明日の最初の一手3分・画面を切る4分・今日を閉じる2分・ビジョン10秒 — 就寝時刻から逆算する配置表、30分/15分/5分の3サイズ、崩れ方4タイプ別の処方、14日間の記録表、週末・出張・体調不良の復帰ルール、残業型/子育て型/夜型の運用まで。",
   date: "2026-07-02",
-  updated: "2026-08-29",
+  updated: "2026-09-08",
   category: "習慣",
-  readMinutes: 18,
+  readMinutes: 21,
   emoji: "🌙",
   cover: "/blog/evening-routine.svg",
   body: `**今夜の10分が、明日の朝を決めます。**
@@ -444,6 +490,44 @@ export const ja: Post = {
 | 「ポッドキャストで寝落ちしたい」 | スピーカーを寝室に、スマホは部屋の外で充電 | ケーブル1本 |
 
 日中も同じ原理です — [ディープワーク](/ja/blog/deep-work-focus)の第一歩も、誘惑に勝つことではなく、片づけることです。もし漏れているのがスマホではなく**自分の頭**なら — 画面を片づけ、明かりを消したのに、横になったまま今日を再生してしまうなら — それは妨害の三層目、いちばん内側の層です。そしてそれこそ次の「2分で閉じる」が用意されている理由です。[集中力を高める方法](/ja/blog/improve-focus)はこの三層を順に片づけますが、ほとんどの人は机だけ片づけて、自分の頭の中という三層目を忘れます。
+
+## 疲れているのに、かえって眠れない夜 — 消耗した人の90分の整え方
+
+ここまで読んで「自分は逆なんですが」と思ったなら、この節はあなたのためのものです。**一日じゅう電池切れだったのに、明かりを消して横になった瞬間に頭が速くなる夜**があります。昼間は眠くてコーヒーを一杯足し、そのコーヒーのせいで夜また眠れず、週末に十二時間寝ても月曜は同じ重さで来る。この状態に「10分のルーティンを守りましょう」はあまり効きません。夜の手順がないからではなく、**日中に処理されなかった覚醒が夜に押し出されている**からです。
+
+このときは順番が変わります。眠る技術を上げるのではなく、**覚醒を下げる → 頭の中を外に出す → リズムの基準点をひとつ固定する**の3段階です。
+
+| 段階 | いつ | 何を | なぜこの順番か |
+| --- | --- | --- | --- |
+| **① 刺激を減らす** | 就寝90分前 | 明るい照明をひとつ消す・仕事のチャットを閉じる・ニュースやSNSは禁止 | 覚醒が下がるには時間がかかる。横になってから始めるのでは遅い |
+| **② 心配を書き出す** | 就寝60分前、5分 | 頭の中で回っているものを紙に、5個まで | 書かないと脳は「忘れてはいけない」と再生し続ける |
+| **③ 起床時刻を固定する** | 毎朝 | 就寝時刻ではなく**起きる時刻**を固定 | 眠りにつく時刻は制御できないが、起きる時刻は制御できる |
+
+**②は形式が肝心です。** 日記のように書くと、かえって覚醒が上がります。三列の表で、一行ずつ。
+
+| 心配を一行 | 自分で制御できる? | できるなら明日の最初の一手 |
+| --- | --- | --- |
+| 明日の資料が薄い気がする | できる | 9時に去年のフォルダを開いて表を1つコピー |
+| あの人は怒っているだろうか | できない | (制御不可 — この行はここで終わり) |
+| カードの引き落としはいつだった? | できる | 通勤中にアプリで引き落とし日を確認 |
+
+**「できない」の行には何も書かずに、そのまま残してください。** これが書き出しの半分です。どうにもならないことを「明日なんとかしよう」に変えた瞬間、その行は一晩じゅう再生されます。そして**項目は5個で打ち切ります。** 10個書くのは整理ではなく、心配リスト作りです。
+
+③はいちばん地味で、いちばん効きます。週末に寝だめする方式と起床時刻を固定する方式は、2週間後の結果が別物です。
+
+| | 週末に寝だめ | 起床時刻を固定(±1時間) |
+| --- | --- | --- |
+| 土日の起床 | 11時〜12時 | 平日+1時間まで |
+| 日曜の夜 | 眠くならない(2時) | いつもの時刻に眠気が来る |
+| 月曜の朝 | 時差ぼけ状態 | ほぼ平常 |
+| 総睡眠時間 | 長い | 短い |
+| 2週間後の状態 | 変わらない | はっきり軽い |
+
+**総睡眠時間が長いほうが、かえって疲れているというのが要点です。** 足りない分は15時前の20分の昼寝で返し、週末のずれは**最大1時間**までに抑えます。
+
+あとは二つ足すだけです。**カフェインは就寝の8時間前で切ります** — 体内で半分が抜けるのにおよそ5〜6時間かかるので、23時に寝るなら最後の一杯は14〜15時です。そして**横になって20分たっても眠れないなら、ベッドから出てください。** 暗いところで5分座ってから戻ります。ベッドで寝返りを打つ時間が長いほど、脳は「ベッド=起きている場所」と学習します。
+
+3段階を2週間やっても変わらないなら、それは夜の問題ではなく消耗の問題です — [燃え尽きから回復する方法](/ja/blog/burnout-recovery)の回復手順を先に踏んでください。揺れたあとに戻る速さを鍛える側は[メンタルを強くする方法](/ja/blog/mental-strength)にまとめてあります。この90分を毎晩スマホに食われているなら[スマホ依存から抜け出す方法](/ja/blog/phone-addiction-detox)が先です。そして眠れなかった夜に自分を責める癖があるなら、それ自体が覚醒を上げます — [セルフ・コンパッション](/ja/blog/self-compassion)のほうが近道です。
 
 ## ステップ3 — 今日を二分で閉じる
 
@@ -620,6 +704,14 @@ export const ja: Post = {
     {
       q: "出張や、体調を崩した夜はどうすればいいですか?",
       a: "どちらも同じ二つのルールで足ります — 崩れた夜はステップ1だけ残す、そして翌晩に必ず戻る。出張で守る価値があるのは、ベッドから最も遠いコンセントで充電することだけです。配置表はまるごと捨てて構いません。帰宅した初日の夜はステップ1だけ、二日目から通常運転に戻します。体調を崩した日は睡眠がルーティンより完全に優先です。何もせず、回復初日の夜にステップ1だけで再開してください。そして抜けた夜を取り返そうとしないこと — 埋め合わせに長い版をやろうとするのが、三晩連続の失敗をいちばん確実に作る方法です。",
+    },
+    {
+      q: "一日じゅう疲れているのに、横になると眠れません。夜のルーティンは意味がありますか?",
+      a: "その状態では順番を変える必要があります。眠る技術を上げるのではなく、まず覚醒を下げます。3段階です。①就寝90分前から刺激を減らす — 明るい照明をひとつ消す、仕事のチャットを閉じる、ニュースやSNSは見ない。横になってから始めるのでは遅すぎます。②就寝60分前に5分、心配を紙に書き出す。日記ではなく三列の表で — 心配を一行、自分で制御できるか(できる/できない)、できるなら明日の最初の一手。「できない」の行は空欄のまま残し、項目は5個で打ち切ります。③就寝時刻ではなく起床時刻を固定する。眠りにつく時刻は制御できませんが、起きる時刻は制御でき、リズムは朝の側から整います。ここに就寝8時間前のカフェイン打ち切りと、20分ルール(横になって20分たっても眠れないならベッドを出て、暗いところで5分座る)を足してください。2週間やっても変わらないなら、それは夜ではなく消耗の問題かもしれません。",
+    },
+    {
+      q: "週末に寝だめすれば回復しませんか?",
+      a: "総睡眠時間は増えますが、回復はしません。土日に11時や12時まで寝ると日曜の夜に眠気が来ず、2時に横になることになって、月曜は時差ぼけ状態で始まります。たくさん寝たほうが疲れているのはそのためです。週末のずれは平日の起床時刻+1時間までに抑え、足りない分は15時前の20分の昼寝で返してください。起床時刻をこの1時間の幅に収めるだけでも、2週間で月曜の朝の重さがはっきり変わります。",
     },
   ],
 };
