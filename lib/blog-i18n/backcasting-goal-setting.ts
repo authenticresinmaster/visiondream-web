@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "Backcasting (dream backcasting) is a goal-setting method that first decides the future you want, then designs backward to today's to-dos. Here's how it differs from forecasting, a one-page 30-minute worksheet (5+5+5+10+5), the 5-step method, three worked examples, and the five places backcasting usually breaks — with a fix for each.",
   date: "2026-06-19",
-  updated: "2026-08-28",
+  updated: "2026-09-10",
   category: "Goal Setting",
-  readMinutes: 15,
+  readMinutes: 16,
   emoji: "🛰️",
   cover: "/blog/backcasting-flow.svg",
   body: `"Three years from now, things will be different." How many Januarys have started with that sentence? The problem isn't willpower — it's **order**. Most of us start from "what can I do right now" and draw the future forward from there. Which means today's bank balance, energy, and calendar quietly become the ceiling of your next three years.
@@ -148,6 +148,14 @@ When a backcast fizzles out, it's usually one of five things. Find the symptom a
 
 Throwing out the whole map because of one missed day is the other common failure. One rule is enough — **never skip twice in a row.** That same kindness is what gets you past [three-day quitting](/en/blog/beat-three-day-quitting).
 
+## How to Reopen the Today Column Every Night
+
+The column that dies most often in the five-box worksheet is ① Today. You write "one line I can finish in 30 minutes" in the morning, and then nobody checks that night what became of it. So the next day you write a fresh line and the old one quietly disappears.
+
+The fix is to attach a [five-minute review](/en/blog/five-minute-review) at night — three lines: one thing that went well, one thing that didn't, one thing for tomorrow's ① column. Write the "didn't" one as a **condition, not a verdict** ("no willpower" becomes "couldn't sit down right after work → put my bag on the desk tomorrow"). Don't erase an unfinished line — move it to tomorrow's ① column. It isn't disappearing; it's carrying forward.
+
+If you miss a day, one rule holds — as long as it isn't two in a row, the map is still alive. What keeps you from torching the whole map over one missed day isn't willpower but [a little self-compassion](/en/blog/self-compassion), and that kindness is the real engine of [consistency](/en/blog/grit-consistency).
+
 ## Redraw It Every 90 Days
 
 A backcast isn't a picture you frame; it's **a map you update**. Spend 30 minutes on the day the quarter turns.
@@ -178,6 +186,10 @@ To this is added Seowoo's success law, [Success (S) = Belief (B) × Thinking (T)
 
 Take out one sheet of paper right now and write **three present-tense sentences about a day three years from now**. Then put **one line you can finish in 30 minutes** in the far-left column — and do it today. A plan that starts in the future begins with one line today. Plant a vision, and fruit is sure to follow. 🌱`,
   faq: [
+    {
+      q: "I set the today column in the morning, but by night it fizzles out.",
+      a: "Writing the ① column in the morning isn't enough — you need five minutes at night to reopen that line. Before sleep, write three lines: one thing that went well, one that didn't (as a condition, not a verdict), one for tomorrow's ① column. Don't erase an unfinished line — move it to tomorrow. As long as you don't skip two nights in a row, the five-box map stays alive.",
+    },
     {
       q: "The division says my daily portion is bigger than I can do. What now?",
       a: "Then the plan is wrong, not you. There are exactly two honest moves: stretch the deadline, or cut the goal. Redo the division until one day's portion fits in a single sitting — for most people that is 30 to 50 minutes — and divide by working days (5 out of 7), not calendar days, so that a sick week becomes buffer instead of debt.",
@@ -215,9 +227,9 @@ export const ja: Post = {
   description:
     "バックキャスティング（夢の逆算設計）は、望む未来をまず決め、そこから逆向きに今日やることを設計する目標設定法です。フォアキャスティングとの違い、紙1枚30分のワークシート（5分+5分+5分+10分+5分）、5ステップ実践法、出版・転職・健康の事例3つ、そして逆算が崩れる5つのポイントの処方までまとめました。",
   date: "2026-06-19",
-  updated: "2026-08-28",
+  updated: "2026-09-10",
   category: "目標設定",
-  readMinutes: 15,
+  readMinutes: 16,
   emoji: "🛰️",
   cover: "/blog/backcasting-flow.svg",
   body: `「3年後には少しは変わっているだろう。」その一文で新年を始めたのは、もう何度目でしょうか。問題は意志ではなく**順序**です。私たちはたいてい「今の自分にできること」から出発して未来を描きます。すると今日の残高・体力・時間が、そのまま3年後の天井になってしまいます。
@@ -357,6 +369,14 @@ export const ja: Post = {
 
 一度ずれた日のせいで地図ごと捨ててしまうのも、よくある失敗です。ルールは一つで十分 — **2回続けては休まない。** この優しさが[三日坊主](/ja/blog/beat-three-day-quitting)を越えさせます。
 
+## 「今日」の枠を毎晩また開く方法
+
+5つの枠のワークシートで最もよく死ぬのは①今日の枠です。朝に「今日30分で終わる一行」を書いておいて、肝心の夜にその一行がどうなったかを誰も確認しないからです。だから翌日また新しい一行を書き、前の一行は静かに消えます。
+
+解決策は、夜に[1日5分の振り返り](/ja/blog/five-minute-review)の3行を足すことです — うまくいったこと一つ、うまくいかなかったこと一つ、明日の①の枠に載せること一つ。うまくいかなかったことは、自己批判ではなく**条件一つ**として書きます（「意志が弱い」ではなく「退勤後すぐ座れなかった → 明日はカバンを机に置く」）。終わらなかった一行は消さず、明日の①の枠へ移してください。消えるのではなく、繰り越すのです。
+
+1日休んだら、ルールは一つ — 2日続けてでなければ、地図はまだ生きています。1日の抜けで地図ごと捨てないためのものは意志ではなく[少しの自己への思いやり](/ja/blog/self-compassion)であり、その優しさが[継続](/ja/blog/grit-consistency)の本当のエンジンです。
+
 ## 90日ごとに描き直す
 
 逆算設計は額縁に飾る絵ではなく、**更新する地図**です。四半期が変わる日に30分だけ使ってください。
@@ -387,6 +407,10 @@ export const ja: Post = {
 
 今すぐ紙を1枚出して、**3年後の一日を現在形で3文**書いてみてください。そして左端の枠に**今日30分で終わる一行**だけ書いて、今日じゅうに実行してみてください。未来から出発した計画は、今日の一行から始まります。ビジョンを植えれば、必ず実が結ばれます。🌱`,
   faq: [
+    {
+      q: "朝に今日の枠を書いても、夜には立ち消えになります。",
+      a: "朝に①の枠を書くだけでは足りず、夜にその一行をまた開く5分が必要です。寝る前に3行 — うまくいったこと一つ、いかなかったこと一つ（自己批判ではなく条件一つとして）、明日の①の枠に載せること一つ — を書き、終わらなかった一行は消さずに明日へ移してください。2日続けて休まなければ、5つの枠の地図は生きています。",
+    },
     {
       q: "割り算をすると1日の分量が多すぎます。どうすればいいですか？",
       a: "その場合、間違っているのはあなたではなく計画です。取れる手は2つ — 期限を延ばすか、目標を削るかです。1日の分量が一度座って終わる量（多くの人で30〜50分）になるまで割り直してください。そして暦の日数ではなく稼働日（7日のうち5日）で割ると、体調を崩した1週間が借金ではなく緩衝材になります。",
