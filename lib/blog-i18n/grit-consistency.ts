@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Talent gets the applause, but consistency gets the results. The compounding math of 1% a day, the 66-day average before a habit feels automatic, a minimum-version table for bad days, a 48-hour recovery procedure for a broken chain, and 30/60/90-day checkpoints — how to last on structure instead of willpower. Plus a frequency comparison (daily vs. 5 or 3 days a week: 365 reps a year against 156), four streak-protecting devices side by side, and three 12-week logs showing where each chain broke and what restarted it.",
   date: "2026-07-02",
-  updated: "2026-09-02",
+  updated: "2026-09-11",
   category: "Mindset",
   readMinutes: 14,
   emoji: "🪨",
@@ -157,6 +157,21 @@ Two working rules fall out of this:
 - **Manage return speed, not motivation.** "I won't miss again" is a promise you don't control. "If I miss, I'm back at the minimum version within 24 hours" is one you do.
 - **Record the return, not just the miss.** Don't only mark the skipped day on your tracker — **write next to it how many days it took to come back** (2, 1, 4…). If that number is shrinking, your system is winning even while your execution rate still looks low. If you don't have a format for it, one extra column on the sheet in [how to build a habit tracker](/en/blog/habit-tracker) covers it.
 
+## Why cramming loses — the blitz vs. spaced repetition
+
+There's a second reason "I'll just do it all this weekend" doesn't work, beyond raw volume: **the same hours spent in one block leave less behind than the same hours spread out.** This is the *spacing effect*, one of the most reliably replicated findings in psychology for over a century — material you meet several times with gaps between is remembered longer and automates more deeply than material you meet all at once.
+
+Take six hours either way, and it splits like this:
+
+| Approach | Layout | What's left after 4 weeks (felt) | Chance of quitting midway |
+| --- | --- | --- | --- |
+| Cram | One 6-hour Saturday | Only one or two chunks stay sharp | High — one missed session = zero that week |
+| Spaced | 20 minutes × 18 days | Most of it crosses into automatic | Low — miss a day and 17 still stand |
+
+The blitz loses for three reasons. One, you never revisit the material before forgetting sets in, so you restart from scratch each time. Two, the last two hours of a six-hour block are mostly performance — the realistic ceiling for deep immersion is three to four hours a day, exactly as covered in [deep work](/en/blog/deep-work-focus). Three, a plan built on one big session goes to zero for the whole week if a single thing slips that day (a commitment, low energy, overtime). Spaced practice keeps every other day intact.
+
+So the working rule: **set the total time, then chop it as small as possible and attach it to the same hour every day.** Booking a weekday slot in advance is what [time blocking](/en/blog/time-blocking) does, and repeating at a fixed hour builds the "start cue" from [how to improve focus](/en/blog/improve-focus) on its own. "I'll make it up in one push" isn't a plan — it's a signal you're already behind.
+
 ## A 90-day design — checkpoints at 30, 60 and 90
 
 Translate that 66-day average into a plan and it looks like this. The order of increases is what matters.
@@ -277,7 +292,7 @@ export const ja: Post = {
   description:
     "才能は拍手を集め、継続は結果を集めます。1日1%の複利計算、習慣が自動になるまでの平均66日、悪い日専用の「最小バージョン」設計表、記録が切れたときの48時間リカバリー手順、30・60・90日のチェックポイントまで — 意志ではなく構造で続ける方法を順番に整理しました。さらに、毎日と週5回・週3回の頻度比較(年365回と156回)、連続記録を守る4つの装置の比較、12週間続けた3人の記録がどこで切れ何で立て直ったのかも加えました。",
   date: "2026-07-02",
-  updated: "2026-09-02",
+  updated: "2026-09-11",
   category: "メンタル・実行力",
   readMinutes: 14,
   emoji: "🪨",
@@ -427,6 +442,21 @@ export const ja: Post = {
 
 - **やる気の管理より、復帰速度の管理が先。** 「次は休まない」は自分で制御できない約束ですが、「休んだら24時間以内に最小バージョンで戻る」は制御できる約束です。
 - **休んだ日ではなく、戻った速さを記録する。** トラッカーに「休んだ日」を印すだけでなく、**その横に何日で戻ったかを書いてください**(2日、1日、4日…)。この数字が縮んでいるなら、実行率がまだ低くても仕組みは勝っている最中です。書式がなければ、[習慣トラッカーの作り方](/ja/blog/habit-tracker)の表に列をひとつ足すだけで足ります。
+
+## まとめてやると負ける理由 — 一夜漬け vs 分散反復
+
+「今週末にまとめてやろう」がうまくいかないのには、総量以外にもうひとつ理由があります。**同じ時間でも、続けて使った時間は、分けて使った時間より残るものが少ない**のです。心理学で100年以上くり返し検証されてきた「分散効果(spacing effect)」です — 学習でも技能でも、間隔をあけて何度も触れた内容は、一度にまとめて触れた内容より長く記憶に残り、より深く自動化します。
+
+同じ6時間を使うとして、こう分かれます。
+
+| やり方 | 配置 | 4週間後に残るもの(体感) | 途中でやめる確率 |
+| --- | --- | --- | --- |
+| 一夜漬け | 土曜に6時間1回 | 1〜2かたまりだけ鮮明 | 高い(1回失敗 = その週ゼロ) |
+| 分散反復 | 1日20分 × 18日 | ほとんどが自動化の段階へ | 低い(1日抜けても17日は残る) |
+
+一夜漬けが負ける理由は三つです。① 忘却が起きる前に再会できず、毎回ゼロからやり直しになる。② 6時間ブロックの後半2時間はほぼ「ふり」— 深い没入の現実的な上限が1日3〜4時間であることは[ディープワーク](/ja/blog/deep-work-focus)で扱ったとおりです。③ まとめてやる計画は、その日ひとつ狂うだけ(予定・体調・残業)でその週まるごとがゼロになります。分散反復は1日飛んでも残りの日はそのまま残ります。
+
+だから実務ルールはこうです — **総時間を決めたら、それを最も細かく刻んで毎日同じ時刻に貼りつける。** 曜日ごとの枠を先に取るのは[タイムブロッキング](/ja/blog/time-blocking)の役割で、毎日同じ時刻にくり返せば[集中力を高める方法](/ja/blog/improve-focus)でいう「開始の合図」が自然に付きます。「まとめて挽回」は計画ではなく、すでに遅れているというサインにすぎません。
 
 ## 90日の設計 — チェックポイントは30・60・90日
 

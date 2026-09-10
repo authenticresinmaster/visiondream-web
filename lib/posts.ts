@@ -60,6 +60,7 @@ import { en as selfHelpBookEn, ja as selfHelpBookJa } from "./blog-i18n/self-hel
 import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-100-goals";
 import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-inferiority";
 import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
+import { en as fiveMinReviewEn } from "./blog-i18n/five-minute-review";
 
 export type FaqItem = { q: string; a: string };
 
@@ -4296,9 +4297,9 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
     slug: "grit-consistency",
     title: "끈기와 꾸준함 — 재능보다 오래 하는 사람이 이긴다",
     description:
-      "재능은 박수를 받지만, 결과를 가져가는 건 꾸준함입니다. 하루 1%의 복리 계산, 습관이 붙기까지 걸리는 평균 66일, 나쁜 날 전용 '최소 버전' 설계표, 사슬이 끊겼을 때의 48시간 복구 절차, 30·60·90일 체크포인트, 매일·주5회·주3회 빈도 비교표, 연속 기록을 지키는 장치 4가지, 12주를 기록한 3인의 실제 로그까지 — 의지가 아니라 구조로 오래 버티는 법을 순서대로 정리했습니다.",
+      "재능은 박수를 받지만, 결과를 가져가는 건 꾸준함입니다. 하루 1%의 복리 계산, 습관이 붙기까지 걸리는 평균 66일, 나쁜 날 전용 '최소 버전' 설계표, 사슬이 끊겼을 때의 48시간 복구 절차, 벼락치기 vs 분산 반복의 4주 뒤 잔존율 비교, 30·60·90일 체크포인트, 매일·주5회·주3회 빈도 비교표, 연속 기록을 지키는 장치 4가지, 12주를 기록한 3인의 실제 로그까지 — 의지가 아니라 구조로 오래 버티는 법을 순서대로 정리했습니다.",
     date: "2026-07-02",
-    updated: "2026-09-02",
+    updated: "2026-09-11",
     category: "심리·실행력",
     readMinutes: 14,
     emoji: "🪨",
@@ -4449,6 +4450,21 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 
 - **의욕 관리보다 복귀 속도 관리가 먼저다.** "다음엔 안 빠지겠다"는 통제할 수 없는 약속이고, "빠지면 24시간 안에 최소 버전으로 돌아온다"는 통제할 수 있는 약속입니다.
 - **복귀 속도를 기록에 남긴다.** 트래커에 '거른 날'만 표시하지 말고 **'며칠 만에 돌아왔는지'를 옆에 적으세요**(2일, 1일, 4일…). 이 숫자가 줄어들고 있으면, 실행률이 아직 낮아도 시스템은 이기고 있는 중입니다. 기록 양식이 없다면 [습관 트래커 만드는 법](/blog/habit-tracker)에 칸 하나만 더하면 됩니다.
+
+## 몰아서 하기가 지는 이유 — 벼락치기 vs 분산 반복
+
+"이번 주말에 몰아서 하지 뭐"가 안 되는 데는 총량 말고 다른 이유가 하나 더 있습니다. **같은 시간을 써도, 붙여서 쓴 시간은 나눠서 쓴 시간보다 남는 게 적습니다.** 심리학에서 100년 넘게 반복 검증된 '분산 효과(spacing effect)'입니다 — 학습이든 기술이든, 간격을 두고 여러 번 접한 내용이 한 번에 몰아서 접한 내용보다 오래 기억되고 더 깊이 자동화됩니다.
+
+같은 6시간을 쓴다고 할 때 이렇게 갈립니다.
+
+| 방식 | 배치 | 4주 뒤 남는 것(체감) | 중간에 그만둘 확률 |
+| --- | --- | --- | --- |
+| 벼락치기 | 토요일 6시간 1회 | 1~2개 덩어리만 또렷 | 높음 (1회 실패 = 그 주 0) |
+| 분산 반복 | 하루 20분 × 18일 | 대부분 자동화 단계로 넘어감 | 낮음 (하루 빠져도 17일 유지) |
+
+벼락치기가 지는 이유는 세 가지입니다. ① 망각이 일어나기 전에 다시 만나지 못해 매번 처음부터 다시 시작합니다. ② 6시간짜리 블록은 뒤 2시간이 거의 '흉내'입니다 — 깊은 몰입의 현실적 상한이 하루 3~4시간이라는 건 [딥워크](/blog/deep-work-focus)에서 다룬 그대로입니다. ③ 한 번 몰아치는 계획은 그날 하나만 어긋나도(약속·컨디션·야근) 그 주 전체가 0이 됩니다. 분산 반복은 하루가 날아가도 나머지 날이 그대로 남습니다.
+
+그래서 실무 규칙은 이렇습니다 — **총 시간을 정한 뒤, 그걸 가장 잘게 쪼개 매일 같은 시각에 붙이세요.** 요일별 자리를 미리 잡는 건 [타임블로킹](/blog/time-blocking)이 하고, 매일 같은 시각에 반복하면 [집중력을 끌어올리는 법](/blog/improve-focus)에서 말한 '시작 신호'가 저절로 붙습니다. '몰아서 만회'는 계획이 아니라, 이미 밀렸다는 신호일 뿐입니다.
 
 ## 90일 설계 — 체크포인트는 30·60·90일
 
@@ -6442,7 +6458,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
