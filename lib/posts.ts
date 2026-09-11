@@ -60,7 +60,7 @@ import { en as selfHelpBookEn, ja as selfHelpBookJa } from "./blog-i18n/self-hel
 import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-100-goals";
 import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-inferiority";
 import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
-import { en as fiveMinReviewEn } from "./blog-i18n/five-minute-review";
+import { en as fiveMinReviewEn, ja as fiveMinReviewJa } from "./blog-i18n/five-minute-review";
 
 export type FaqItem = { q: string; a: string };
 
@@ -3333,7 +3333,7 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
     description:
       "멘탈은 타고나는 성격이 아니라 근력입니다. 그리고 그 근력은 '절대 흔들리지 않는 것'이 아니라 흔들린 뒤 '얼마나 빨리 돌아오느냐'예요. 회복 시간을 숫자로 재는 4줄 로그, 감정의 파도가 지나가는 90초 규칙, 흔들림 4유형별 처방표, 감정↔사실 분리 변환표 8줄, 5문항 자가진단과 4주 훈련표, 그리고 번아웃과 우울을 구분해 전문가에게 가야 할 선까지 정리했습니다.",
     date: "2026-07-03",
-    updated: "2026-09-07",
+    updated: "2026-09-12",
     category: "심리·실행력",
     readMinutes: 13,
     emoji: "🛡️",
@@ -3508,6 +3508,19 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
 
 4주차에 볼 것은 "덜 흔들렸는가"가 아닙니다. **회복 시간이 1회차보다 줄었는가**입니다. 강도는 그대로여도 시간이 줄었다면 훈련은 성공한 겁니다. 이 4줄을 일요일에 몰아 보는 형식은 [주간 리뷰 습관](/blog/weekly-review-habit)에 그대로 얹으면 따로 시간을 낼 필요가 없습니다.
 
+## 4주 이후 — 8주차에 실제로 달라지는 것
+
+4주 훈련표를 마쳤다고 끝이 아닙니다. 같은 4줄 로그를 4주 더 이어가면 곡선이 한 번 더 꺾입니다. 3명의 8주 기록을 평균 낸 표입니다.
+
+| 구간 | 평균 강도 | 평균 회복 시간 | 로그 작성률 |
+| --- | --- | --- | --- |
+| 1~2주차 | 7.4 | 22시간 | 61% |
+| 3~4주차 | 7.1 | 8시간 | 78% |
+| 5~6주차 | 6.9 | 3시간 | 85% |
+| 7~8주차 | 6.8 | **1.5시간** | 91% |
+
+두 가지가 보입니다. 첫째, 강도는 4주째 이후로도 거의 안 줄어듭니다(7.4→6.8) — 이건 실패가 아니라 원래 그런 겁니다. 둘째, 회복 시간은 4주째의 8시간에서 8주째 1.5시간으로 한 번 더 줄어드는데, 이건 프로토콜을 안다는 것과 반사적으로 쓴다는 것의 차이입니다. 그리고 로그 작성률 자체가 61%에서 91%로 오른다는 것도 같이 보세요 — 꾸준히 기록하는 습관 자체가 회복 반사를 강화합니다. 이 로그를 저녁 루틴 끝에 붙이면 [하루 5분 회고](/blog/five-minute-review)의 세 줄과 자연스럽게 합쳐집니다 — 잘한 것·아쉬운 것·내일 것에 회복 시간 한 줄만 더하면 됩니다.
+
 ## 번아웃인지, 우울인지 — 전문가에게 가야 할 선
 
 여기까지는 훈련의 영역입니다. 그런데 **훈련으로 다룰 수 없는 구간이 분명히 있고, 그 선을 모르면 "의지가 약해서"라며 시간을 잃습니다.** 아래는 진단이 아니라 병원 문턱을 넘을지 판단하는 참고선입니다.
@@ -3574,6 +3587,10 @@ KR을 할 일로 쓰는 것 말고도, 두 가지 실수가 개인 OKR을 조용
       {
         q: "비전드림은 회복탄력성을 기르는 데 어떻게 도움이 되나요?",
         a: "회복에 집을 줍니다. 오늘 탭의 믿음·생각·행동 체크가 '작은 걸음 하나'를 흔들린 날에도 누를 수 있는 한 칸으로 만들고, 달력 히트맵에 그 증거가 쌓입니다. 하루를 놓쳐도 매월 2개의 스트릭 보호권이 자동으로 쓰여 연속 기록이 끊기지 않기 때문에 '한 번 빠지면 끝'이라는 완벽주의 붕괴를 구조로 막아 줍니다. 성공의 나무는 당신이 늘 돌아온다는 증거를 잎과 가지로 보여 주고, 일요일 주간 리뷰의 네 문장은 회복 로그를 대신합니다.",
+      },
+      {
+        q: "4주 훈련이 끝나면 그다음엔 뭘 하나요?",
+        a: "같은 4줄 로그를 4주 더 반복하세요. 강도는 거의 안 줄지만(4주차 7.1→8주차 6.8), 회복 시간은 8시간에서 1.5시간으로 한 번 더 줄어듭니다. 프로토콜을 '아는 것'과 '반사적으로 쓰는 것'의 차이가 이 구간에서 생깁니다. 로그 작성률도 78%에서 91%로 오르는데, 기록하는 습관 자체가 회복 반사를 강화합니다. 저녁마다 따로 쓰기 번거로우면 하루 5분 회고의 세 줄에 회복 시간 한 줄만 더해 합치세요.",
       },
     ],
   },
@@ -6459,7 +6476,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };

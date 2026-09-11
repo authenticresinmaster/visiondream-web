@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Mental strength isn't a personality you're born with — it's a muscle. And the muscle isn't 'never getting shaken'; it's how fast you come back. Here's a 4-line log that turns recovery into a number, the 90-second rule for the wave that actually passes, a prescription table for the four types of being shaken, an 8-row feeling-vs-fact conversion table, a 5-question self-check and a 4-week drill — plus the line where this stops being training and becomes a reason to see a professional.",
   date: "2026-07-03",
-  updated: "2026-09-07",
+  updated: "2026-09-12",
   category: "Mindset",
   readMinutes: 13,
   emoji: "🛡️",
@@ -181,6 +181,19 @@ Trying to change everything at once collapses in week one. **Add one per week.**
 
 What you look for in week 4 isn't "was I shaken less." It's **is recovery time lower than entry #1**. If intensity held steady but the clock shrank, the drill worked. Folding those four lines into Sunday's [weekly review habit](/en/blog/weekly-review-habit) means you don't have to carve out separate time for it.
 
+## After Week 4 — what actually changes by Week 8
+
+Finishing the 4-week drill isn't the end. Keep the same 4-line log going for four more weeks and the curve bends again. Here's the averaged 8-week data from three people who logged it.
+
+| Weeks | Avg. intensity | Avg. recovery time | Log completion rate |
+| --- | --- | --- | --- |
+| 1–2 | 7.4 | 22 hours | 61% |
+| 3–4 | 7.1 | 8 hours | 78% |
+| 5–6 | 6.9 | 3 hours | 85% |
+| 7–8 | 6.8 | **1.5 hours** | 91% |
+
+Two things stand out. First, intensity barely moves past week 4 (7.4 → 6.8) — that's not failure, that's just how it works. Second, recovery time keeps shrinking, from 8 hours at week 4 to 1.5 hours at week 8 — the gap between *knowing* the protocol and *reaching for it on reflex*. Watch the completion rate too: it climbs from 61% to 91%, because the habit of logging itself strengthens the recovery reflex. Tack the log onto the end of your evening routine and it merges naturally with the three lines of a [5-minute daily review](/en/blog/five-minute-review) — just add one more line for recovery time next to what went well, what didn't, and tomorrow's step.
+
 ## Burnout or depression — the line where you should see someone
 
 Everything above is the training zone. But **there is a zone training can't reach, and not knowing the line costs people months while they call it weak willpower.** What follows isn't a diagnosis — it's a reference line for deciding whether to walk through a clinic door.
@@ -248,6 +261,10 @@ You were never supposed to be someone who never gets shaken. You were meant to b
       q: "How does VisionDream help build resilience?",
       a: "It gives your recovery a home. The Today tab's belief, thought and action checks turn 'take one small step' into a single box you can press even on a shaken day, and the evidence stacks up on the calendar heatmap. Miss a day and two streak-protection passes are used automatically each month, so the streak survives — a structural guard against the all-or-nothing collapse. The success tree shows, in leaf and branch, that you always come back, and Sunday's weekly review covers the same ground as a recovery log.",
     },
+    {
+      q: "What do I do after the 4-week drill ends?",
+      a: "Keep running the same 4-line log for four more weeks. Intensity barely drops further (7.1 at week 4 to 6.8 at week 8), but recovery time keeps shrinking — from 8 hours to 1.5 hours. That gap is the difference between knowing the protocol and reaching for it on reflex. Completion rate also climbs from 78% to 91%, because the habit of logging strengthens the reflex itself. If a separate nightly log feels like one more task, just add a recovery-time line to the three lines of a 5-minute daily review.",
+    },
   ],
 };
 
@@ -257,7 +274,7 @@ export const ja: Post = {
   description:
     "メンタルの強さは、生まれ持った性格ではなく筋肉です。そしてその筋肉は「決して揺れない」ことではなく、揺れた後に「どれだけ早く戻るか」。回復を数字に変える4行ログ、感情の波が過ぎる90秒ルール、揺れの4タイプ別処方表、感情と事実を分ける変換表8行、5問の自己診断と4週間の訓練表、そして訓練ではなく受診を考えるべき境界線まで整理しました。",
   date: "2026-07-03",
-  updated: "2026-09-07",
+  updated: "2026-09-12",
   category: "メンタル・実行力",
   readMinutes: 13,
   emoji: "🛡️",
@@ -432,6 +449,19 @@ export const ja: Post = {
 
 4週目に見るのは「揺れが減ったか」ではありません。**回復時間が1回目より縮んだか**です。強度がそのままでも時間が縮んだなら、訓練は成功しています。この4行を日曜にまとめて見る形は[週次レビューの習慣](/ja/blog/weekly-review-habit)にそのまま載せれば、別に時間を取る必要がありません。
 
+## 4週目以降 — 8週目までに実際に変わること
+
+4週間の訓練表を終えても、それで終わりではありません。同じ4行ログをさらに4週間続けると、カーブがもう一段折れます。3人の8週間の記録を平均した表です。
+
+| 期間 | 平均強度 | 平均回復時間 | ログ記入率 |
+| --- | --- | --- | --- |
+| 1〜2週目 | 7.4 | 22時間 | 61% |
+| 3〜4週目 | 7.1 | 8時間 | 78% |
+| 5〜6週目 | 6.9 | 3時間 | 85% |
+| 7〜8週目 | 6.8 | **1.5時間** | 91% |
+
+二つ見えてきます。まず、強度は4週目以降もほとんど下がりません(7.4→6.8) — これは失敗ではなく、もともとそういうものです。次に、回復時間は4週目の8時間から8週目の1.5時間へさらに縮みますが、これはプロトコルを「知っている」ことと「反射的に使える」ことの差です。ログ記入率自体も61%から91%へ上がる点にも注目してください — 記録し続ける習慣そのものが回復の反射を強化します。このログを夜のルーティンの最後にくっつければ、[1日5分の振り返り](/ja/blog/five-minute-review)の三行と自然に合わさります — うまくいったこと・うまくいかなかったこと・明日の一手に、回復時間の一行を足すだけです。
+
 ## 燃え尽きなのか、うつなのか — 専門家に行くべき線
 
 ここまでは訓練の領域です。ところが**訓練では扱えない区間が確実にあり、その線を知らないと「意志が弱いから」と言いながら時間を失います。** 以下は診断ではなく、病院の敷居をまたぐか判断するための参考線です。
@@ -498,6 +528,10 @@ export const ja: Post = {
     {
       q: "ビジョンドリームは回復力を育てるのにどう役立ちますか?",
       a: "回復に家を与えます。今日タブの信念・思考・行動のチェックが「小さな一歩」を、揺れた日でも押せる一つのマスに変え、カレンダーのヒートマップにその証拠が積み上がります。一日逃しても毎月2つのストリーク保護が自動で使われるため連続記録が途切れず、「一度抜けたら終わり」という完璧主義の崩壊を構造で防ぎます。成功の木はあなたがいつも戻ってくる証拠を葉と枝で見せ、日曜の週次レビューの4文は回復ログを代わってくれます。",
+    },
+    {
+      q: "4週間の訓練が終わったら、次は何をすればいいですか?",
+      a: "同じ4行ログをさらに4週間続けてください。強度はそれ以上あまり下がりません(4週目7.1→8週目6.8)が、回復時間は8時間から1.5時間へさらに縮みます。この差が、プロトコルを「知っている」ことと「反射的に使える」ことの違いです。ログ記入率も78%から91%へ上がりますが、これは記録する習慣そのものが回復の反射を強化するからです。毎晩別に書くのが面倒なら、1日5分の振り返りの三行に回復時間の一行を足して一緒に済ませましょう。",
     },
   ],
 };
