@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "You made a beautiful planner and stopped opening it after three days. The problem usually isn't the template — it's that your yearly, monthly, and weekly plans aren't linked. Here's how to build a connected goal planner in Notion, step by step, so a big goal turns into today's task.",
   date: "2026-07-11",
-  updated: "2026-07-11",
+  updated: "2026-09-13",
   category: "Goal Management",
-  readMinutes: 7,
+  readMinutes: 9,
   emoji: "🗂️",
   cover: "/blog/notion-goal-planner.svg",
   body: `"Get healthy." "Grow the business." These feel like plans, but they're too big to start — and a goal you can't start is a goal you'll forget. If you've ever built a gorgeous planner and quietly abandoned it after a few days, the culprit usually isn't your discipline or your template. It's that your **yearly, monthly, and weekly plans live in separate boxes** that never talk to each other.
@@ -61,9 +61,27 @@ Create a filtered view — **This week** — that shows only \`Level = Week\` it
 
 Notice the last line does all the work. The yearly goal set the direction; the parent-goal links carried it down; but it's "jog the loop, once" that you actually do. A planner that stops one level short — at the week — is a planner you'll admire and ignore. Push it all the way to today. (Working backward from the deadline like this is [backcasting](/en/blog/backcasting-goal-setting), and each level can be sharpened with a [SMART goal](/en/blog/smart-goal-setting).)
 
+## Which Notion template should you actually pick (3 types)
+
+Search "goal tracker" in the Notion template gallery and hundreds show up. The real problem isn't the count — it's that **mixing templates with different structures breaks the 4-level chain above.** In practice, templates fall into three types.
+
+| Type | Strength | Weakness | Fit with this structure |
+| --- | --- | --- | --- |
+| GTD-style to-do list | Fastest to log today's task | Goal-to-task link is manual, hard to trace back up | Low — no Parent goal relation, so the 4 levels disconnect |
+| Calendar / time-block | Time layout is visible at a glance | Shows "when" but not "why" | Medium — pairs well with [time blocking](/en/blog/time-blocking) |
+| Relational database | Parent goal auto-links year → month → week → today | Takes longer to set up the properties | High — same structure this article builds |
+
+Don't pick just one — use the **relational database as the backbone** and add a calendar view on top, filtered into "this week." If you've spent more than a day picking a template, that's the signal itself: stop searching for the perfect one and build the 4 steps above in 20 minutes instead.
+
+## Why your habit-tracking app data never makes it into Notion
+
+The second wall people hit: **habit or workout data logged in another app doesn't flow into Notion.** Most step counters and workout apps don't integrate with Notion directly, so you either bolt on an automation tool like Zapier or copy numbers in by hand — and hand-copying rarely survives three days. The result: your planner's "today" cell sits empty while the real record lives somewhere else.
+
+This isn't a problem you fix by designing Notion harder. The goal (where you're headed) and the execution record (what you actually did today) need to live in **the same place** from the start. For narrowing down to one tracking tool, see [how to use a habit tracker](/en/blog/habit-tracker); if you're weighing apps, [comparing goal-tracking apps](/en/blog/goal-tracking-apps) lays out the criteria.
+
 ## 🌱 Run it in VisionDream
 
-Building this in Notion teaches the structure; keeping it alive every day is the hard part. VisionDream is built around this exact ladder — its **4-level planner** (yearly, monthly, weekly, daily) links each item to its parent goal automatically, so a yearly goal always shows up as something on today's list. Daily tasks carry an **A/B/C priority**, unfinished ones **roll over on their own**, and each week asks for a single **weekly one-thing** — the same "one cut per level" idea, without wiring relations by hand. The structure is yours; the app just keeps the year reaching your today. Plant your vision, and the fruit will come. 🌱`,
+Building this in Notion teaches the structure; keeping it alive every day is the hard part. VisionDream is built around this exact ladder — its **4-level planner** (yearly, monthly, weekly, daily) links each item to its parent goal automatically, so a yearly goal always shows up as something on today's list. Daily tasks carry an **A/B/C priority**, unfinished ones **roll over on their own**, and each week asks for a single **weekly one-thing** — the same "one cut per level" idea, without wiring relations by hand. Best of all, the **Today tab's belief/thought/action checks and calendar heatmap live in the same place**, so the "records scattered across apps" problem above never happens. If you'd rather see the goal as an image, [building a visual vision board](/en/blog/digital-vision-board) uses the same 5-area structure. The structure is yours; the app just keeps the year reaching your today. Plant your vision, and the fruit will come. 🌱`,
   faq: [
     {
       q: "Why do I keep abandoning my planner after a few days?",
@@ -81,6 +99,14 @@ Building this in Notion teaches the structure; keeping it alive every day is the
       q: "How does VisionDream help with a connected planner?",
       a: "Its 4-level planner (yearly, monthly, weekly, daily) links each item to its parent goal automatically, so a yearly goal always appears as something on today's list. Daily tasks get an A/B/C priority, unfinished ones roll over on their own, and each week asks for a single weekly one-thing — the same structure you'd build in Notion, maintained for you.",
     },
+    {
+      q: "There are so many Notion goal templates — which one should I pick?",
+      a: "Don't settle for just one of the three types (GTD-style to-do list, calendar/time-block, or relational database) — use a relational database as the backbone. The other two either link goals to tasks manually or hide the 'why,' which breaks this article's 4-level chain. If you've spent more than a day picking a template, building the 4 steps yourself in 20 minutes is faster.",
+    },
+    {
+      q: "Can I connect my habit or workout tracking app data to Notion?",
+      a: "Most habit and workout apps don't integrate with Notion directly, so you need an automation tool like Zapier or manual entry — and manual entry rarely survives more than a few days. The real fix isn't a smarter Notion design; it's keeping the goal and the execution record in the same place, which is why VisionDream's Today tab handles belief/thought/action checks and the record on one screen.",
+    },
   ],
 };
 
@@ -90,9 +116,9 @@ export const ja: Post = {
   description:
     "きれいな計画表を作ったのに、数日で開かなくなった。原因はたいていテンプレートではなく、年間・月間・週間の計画が連動していないことです。Notionでつながった目標計画表を段階的に作り、大きな目標を「今日やること」に変える方法を紹介します。",
   date: "2026-07-11",
-  updated: "2026-07-11",
+  updated: "2026-09-13",
   category: "目標管理",
-  readMinutes: 7,
+  readMinutes: 9,
   emoji: "🗂️",
   cover: "/blog/notion-goal-planner.svg",
   body: `「健康になる」「事業を伸ばす」。計画っぽく聞こえますが、大きすぎて始められません。そして始められない目標は、忘れる目標です。美しい計画表を作ったのに数日で放置した経験があるなら、原因はたいてい意志の弱さでもテンプレートでもありません。**年間・月間・週間の計画が別々の箱に入っていて、互いに話しかけない**ことです。
@@ -145,9 +171,27 @@ export const ja: Post = {
 
 最後の行がすべての仕事をしていることに注目。年間目標が方向を決め、親目標のリンクがそれを降ろし、でも実際にやるのは「周回を一周ジョグ」です。ひとつ手前 — 週 — で止まる計画表は、眺めて無視する計画表です。今日まで押し切りましょう。(締め切りからこう逆算するのが[バックキャスティング](/ja/blog/backcasting-goal-setting)で、各階層は[SMART目標](/ja/blog/smart-goal-setting)で研ぎ澄ませます。)
 
+## Notionの目標テンプレート、どれを選ぶべきか(3タイプ)
+
+Notionのテンプレートギャラリーで「目標管理」を検索すると数百件出てきます。問題は数ではなく、**構造の違うテンプレートを混ぜて使うと上の4階層が途切れる**ことです。実際に使われるテンプレートは大きく3タイプに分かれます。
+
+| タイプ | 強み | 弱み | この構造との相性 |
+| --- | --- | --- | --- |
+| GTD型ToDoリスト | 今日やることの入力が最速 | 目標とタスクの連結が手動、遡りにくい | 低い — 親目標リレーションがなく4階層が切れる |
+| カレンダー/タイムブロック型 | 時間配置が一目でわかる | 「いつ」はあるが「なぜ」が見えない | 中 — [タイムブロッキング](/ja/blog/time-blocking)と併用で補える |
+| リレーショナルデータベース型 | 親目標で年→月→週→今日が自動連結 | 最初の設計(プロパティ定義)に時間がかかる | 高い — この記事で作る構造と同じ |
+
+3つから1つだけ選ぶのではなく、**リレーショナルデータベース型を骨格にして**、必要ならカレンダービューを重ね「今週」フィルターに載せるのが一番長続きします。テンプレート選びに1日以上かけているなら、それ自体がサインです — 完璧なテンプレートを探す代わりに、上の1〜4のステップで20分で自作しましょう。
+
+## 習慣記録アプリのデータがNotionと別々になる問題
+
+計画表を作った後によくぶつかる2つ目の壁は、**別のアプリに記録した習慣・運動データがNotionに入ってこない**ことです。歩数計や運動アプリの多くはNotionと直接連携しないため、Zapierのような自動化を別途つなぐか、毎日手で入力する必要があります。手入力は3日と続きません — その結果、計画表の「今日」欄は空のまま、実際の記録は別のアプリに散らばります。
+
+これはNotionの設計を凝ることでは解決しません。目標(どこへ)と実行記録(今日何をしたか)が最初から**同じ場所**にある必要があります。記録ツールを1つに絞る方法は[習慣トラッカーの使い方](/ja/blog/habit-tracker)に、アプリで迷っているなら[目標管理アプリ比較](/ja/blog/goal-tracking-apps)に基準をまとめてあります。
+
 ## 🌱 ビジョンドリームで動かす
 
-Notionで作れば構造は身につきますが、毎日それを生かし続けるのが難しいところ。ビジョンドリームはまさにこのはしごを軸に作られています — **4段階プランナー**(年間・月間・週間・日次)が各項目を親目標に自動でつなぐので、年間目標はいつも今日のリストに現れます。日次のタスクには**A/B/C優先度**がつき、未完了は**自動で翌日に繰り越し**、毎週ひとつの**週間ワンシング**を尋ねます — リレーションを手で配線せずに、同じ「階層ごとに一切り」の考え方を。構造はあなたのもの、アプリは年があなたの今日に届き続けるようにするだけ。ビジョンを植えれば、必ず実がなります。🌱`,
+Notionで作れば構造は身につきますが、毎日それを生かし続けるのが難しいところ。ビジョンドリームはまさにこのはしごを軸に作られています — **4段階プランナー**(年間・月間・週間・日次)が各項目を親目標に自動でつなぐので、年間目標はいつも今日のリストに現れます。日次のタスクには**A/B/C優先度**がつき、未完了は**自動で翌日に繰り越し**、毎週ひとつの**週間ワンシング**を尋ねます — リレーションを手で配線せずに、同じ「階層ごとに一切り」の考え方を。何より**今日タブの信念・思考・行動チェックとカレンダーヒートマップが同じ場所**にあるので、上で述べた「記録が散らばる」問題自体が起きません。目標を画像でも見たいなら、[ドリームマップでビジョンボードを作る](/ja/blog/digital-vision-board)も同じ5領域構造です。構造はあなたのもの、アプリは年があなたの今日に届き続けるようにするだけ。ビジョンを植えれば、必ず実がなります。🌱`,
   faq: [
     {
       q: "計画表を数日で放置してしまうのはなぜ?",
@@ -165,6 +209,14 @@ Notionで作れば構造は身につきますが、毎日それを生かし続�
       q: "ビジョンドリームはつながった計画表にどう役立つ?",
       a: "4段階プランナー(年間・月間・週間・日次)が各項目を親目標に自動でつなぐので、年間目標がいつも今日のリストに現れます。日次タスクにはA/B/C優先度がつき、未完了は自動で繰り越し、毎週ひとつの週間ワンシングを尋ねます — Notionで作る構造を、代わりに維持してくれます。",
     },
+    {
+      q: "Notionの目標テンプレートが多すぎて選べません。どれを選べばいい?",
+      a: "GTD型ToDoリスト・カレンダー/タイムブロック型・リレーショナルデータベース型の3タイプから1つだけ選ばず、リレーショナルデータベース型を骨格にしましょう。他の2つは目標とタスクの連結が手動だったり「なぜ」が見えなかったりして、この記事の4階層が途切れます。テンプレート選びに1日以上かけているなら、20分で自作する方が速いです。",
+    },
+    {
+      q: "運動・習慣記録アプリのデータをNotionと連携できますか?",
+      a: "多くの習慣・運動アプリはNotionと直接連携せず、Zapierのような自動化か手入力が必要で、手入力は数日と続きません。本当の解決策はNotionの設計を凝ることではなく、目標と実行記録を同じ場所に置くことです。ビジョンドリームの今日タブが信念・思考・行動チェックと記録を1画面で扱うのはそのためです。",
+    },
   ],
 };
 
@@ -174,9 +226,9 @@ export const ko: Post = {
   description:
     "예쁜 계획표를 만들어놓고 며칠 쓰다 안 본 적 있나요? 문제는 대개 템플릿이 아니라 연간·월간·주간 계획이 서로 연결되지 않은 데 있습니다. 노션으로 연·월·주가 연동되는 목표 계획표를 단계별로 만들어, 큰 목표를 '오늘 할 일'로 바꾸는 방법을 정리했습니다.",
   date: "2026-07-11",
-  updated: "2026-07-11",
+  updated: "2026-09-13",
   category: "목표관리",
-  readMinutes: 7,
+  readMinutes: 9,
   emoji: "🗂️",
   cover: "/blog/notion-goal-planner.svg",
   body: `"건강해지기." "사업 키우기." 계획처럼 보이지만 너무 커서 시작할 수가 없습니다. 그리고 시작할 수 없는 목표는 잊어버리는 목표입니다. 예쁜 계획표를 공들여 만들어놓고 며칠 쓰다 슬그머니 안 보게 된 적 있다면, 범인은 대개 의지력도 템플릿도 아닙니다. **연간·월간·주간 계획이 서로 다른 상자에 들어가 대화하지 않는 것**이 진짜 원인입니다.
@@ -229,9 +281,27 @@ export const ko: Post = {
 
 마지막 줄이 모든 일을 한다는 데 주목하세요. 연간 목표는 방향을 정했고, 상위 목표 링크가 그걸 아래로 날랐지만, 실제로 하는 건 "한 바퀴 조깅"입니다. 한 단계 앞 — 주간 — 에서 멈추는 계획표는 감상만 하고 무시하는 계획표예요. 오늘까지 끝까지 밀어붙이세요. (이렇게 마감일에서 거꾸로 내려오는 게 [백캐스팅](/blog/backcasting-goal-setting)이고, 각 단계는 [SMART 목표](/blog/smart-goal-setting)로 더 날카롭게 다듬을 수 있습니다.)
 
+## 노션 목표 템플릿, 어떤 걸 골라야 할까 (3가지 유형)
+
+노션 템플릿 갤러리에서 "목표관리"를 검색하면 수백 개가 쏟아집니다. 문제는 개수가 아니라 **구조가 다른 템플릿을 섞어 쓰면 위 4단계가 끊긴다**는 것입니다. 실제로 쓰이는 템플릿은 크게 세 유형으로 나뉩니다.
+
+| 유형 | 강점 | 약점 | 이 글의 구조와 궁합 |
+| --- | --- | --- | --- |
+| GTD형 할 일 리스트 | 오늘 할 일 입력이 가장 빠름 | 목표-할 일 연결이 수동, 위로 거슬러 올라가기 어려움 | 낮음 — Parent goal 관계형이 없어 4단계가 끊김 |
+| 캘린더/타임블록형 | 시간 배치가 한눈에 보임 | "언제 할지"만 있고 "왜 하는지"가 안 보임 | 중간 — [시간 블로킹](/blog/time-blocking)과 함께 쓰면 보완됨 |
+| 관계형 데이터베이스형 | Parent goal로 연·월·주·오늘이 자동으로 연결 | 초기 설계(속성 정의)에 시간이 듦 | 높음 — 이 글에서 만든 구조와 동일 |
+
+셋 중 하나만 고르지 말고, **관계형 데이터베이스형을 뼈대로 삼고** 필요하면 캘린더 뷰를 하나 더 만들어 "이번 주" 필터에 얹는 방식이 가장 오래갑니다. 템플릿을 고르는 데 하루 이상 쓰고 있다면, 그 자체가 신호입니다 — 완벽한 템플릿을 찾는 대신 위 1~4단계로 20분 안에 직접 만드는 편이 낫습니다.
+
+## 습관 기록 앱 데이터가 노션과 따로 노는 문제
+
+계획표를 만들고 나서 흔히 겪는 두 번째 벽은 **다른 곳에 기록한 습관·운동 데이터가 노션 안으로 안 들어온다**는 것입니다. 걸음 수나 운동 기록 앱은 대부분 노션과 직접 연동을 지원하지 않아서, Zapier 같은 자동화 도구를 따로 붙이거나 매일 손으로 옮겨 적어야 합니다. 손으로 옮기는 습관은 사흘을 못 갑니다 — 그러면 계획표의 '오늘' 칸은 비어 있고, 실제 기록은 다른 앱에 흩어져 있는 상태가 됩니다.
+
+이건 노션 설계를 더 정교하게 한다고 풀리는 문제가 아닙니다. 목표(어디로)와 실행 기록(오늘 뭘 했나)이 애초에 **같은 자리**에 있어야 풀립니다. 기록 도구를 하나로 좁히는 방법은 [습관 트래커 활용법](/blog/habit-tracker)에서, 앱 사이에서 저울질하고 있다면 [목표관리 앱 비교](/blog/goal-tracking-apps)에서 기준을 정리해 두었습니다.
+
 ## 🌱 비전드림 앱으로 실행하기
 
-노션으로 만들면 구조는 몸에 익지만, 매일 그걸 살아 있게 유지하는 게 어려운 부분입니다. 비전드림은 바로 이 사다리를 축으로 설계돼 있어요 — **플래너 4단계**(연간·월간·주간·일일)가 각 항목을 상위 목표에 자동으로 연결하니, 연간 목표가 늘 오늘 할 일 목록에 나타납니다. 일일 할 일에는 **A/B/C 우선순위**가 붙고, 못한 것은 **자동으로 다음 날 이월**되며, 매주 하나의 **주간 원씽**을 물어봅니다 — 관계형을 손으로 배선하지 않고도 같은 '단계마다 한 번 자르기' 원리를 그대로요. 구조는 당신의 것이고, 앱은 연간이 당신의 오늘에 계속 닿게 도울 뿐입니다. 비전을 심으면, 반드시 열매가 열립니다. 🌱`,
+노션으로 만들면 구조는 몸에 익지만, 매일 그걸 살아 있게 유지하는 게 어려운 부분입니다. 비전드림은 바로 이 사다리를 축으로 설계돼 있어요 — **플래너 4단계**(연간·월간·주간·일일)가 각 항목을 상위 목표에 자동으로 연결하니, 연간 목표가 늘 오늘 할 일 목록에 나타납니다. 일일 할 일에는 **A/B/C 우선순위**가 붙고, 못한 것은 **자동으로 다음 날 이월**되며, 매주 하나의 **주간 원씽**을 물어봅니다 — 관계형을 손으로 배선하지 않고도 같은 '단계마다 한 번 자르기' 원리를 그대로요. 무엇보다 **오늘 탭의 믿음·생각·행동 체크와 달력 히트맵이 같은 자리**에 있어서, 위에서 말한 "기록이 딴 데 흩어지는" 문제 자체가 생기지 않습니다. 목표를 이미지로도 보고 싶다면 [드림맵으로 비전보드 만들기](/blog/digital-vision-board)도 같은 5대 영역 구조를 씁니다. 구조는 당신의 것이고, 앱은 연간이 당신의 오늘에 계속 닿게 도울 뿐입니다. 비전을 심으면, 반드시 열매가 열립니다. 🌱`,
   faq: [
     {
       q: "계획표를 며칠 만에 안 보게 되는 이유는 뭔가요?",
@@ -248,6 +318,14 @@ export const ko: Post = {
     {
       q: "비전드림은 연동 계획표에 어떻게 도움이 되나요?",
       a: "플래너 4단계(연간·월간·주간·일일)가 각 항목을 상위 목표에 자동 연결해, 연간 목표가 늘 오늘 할 일 목록에 나타납니다. 일일 할 일에는 A/B/C 우선순위가 붙고, 못한 것은 자동으로 이월되며, 매주 하나의 주간 원씽을 물어봅니다 — 노션에서 짜는 구조를 대신 유지해 줍니다.",
+    },
+    {
+      q: "노션 목표 템플릿이 너무 많은데 뭘 골라야 하나요?",
+      a: "GTD형 할 일 리스트, 캘린더/타임블록형, 관계형 데이터베이스형 세 유형 중 하나만 고르지 말고 관계형 데이터베이스형을 뼈대로 삼으세요. 나머지 두 유형은 목표-할 일 연결이 수동이거나 '왜 하는지'가 안 보여서, 이 글의 4단계 구조가 끊깁니다. 완벽한 템플릿을 찾는 데 하루 이상 쓰고 있다면 직접 20분 안에 만드는 게 더 빠릅니다.",
+    },
+    {
+      q: "운동·습관 기록 앱 데이터를 노션과 연결할 수 없나요?",
+      a: "대부분의 습관·운동 기록 앱은 노션과 직접 연동을 지원하지 않아 Zapier 같은 자동화나 손 입력이 필요하고, 손 입력은 며칠을 못 갑니다. 근본 해법은 노션 설계를 더 정교하게 하는 게 아니라 목표와 실행 기록을 같은 자리에 두는 것입니다 — 비전드림의 오늘 탭이 믿음·생각·행동 체크와 기록을 한 화면에서 처리하는 이유입니다.",
     },
   ],
 };
