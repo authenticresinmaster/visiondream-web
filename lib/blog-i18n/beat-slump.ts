@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "When you feel nothing — no drive, no spark, just heavy — willpower won't fix it. A slump isn't laziness; it's a stalled engine. Here's how to jump-start it with a 2-minute action, a changed environment, and a reconnection to why you started.",
   date: "2026-06-29",
-  updated: "2026-06-29",
+  updated: "2026-09-14",
   category: "Mindset",
   readMinutes: 6,
   emoji: "🌊",
@@ -23,7 +23,7 @@ export const en: Post = {
 
 ## What a slump actually is
 
-A slump isn't the same as [burnout](/en/blog/burnout-recovery). Burnout is depletion — you've spent everything and have nothing left. A slump can hit even when you're rested: the tank isn't empty, the engine just won't turn over. The trap is the same belief that stalls both — *I'll start once I feel motivated.* But motivation is not the spark plug; it's the exhaust. It shows up **after** you move, not before.
+A slump isn't the same as [burnout](/en/blog/burnout-recovery). Burnout is depletion — you've spent everything and have nothing left. A slump can hit even when you're rested: the tank isn't empty, the engine just won't turn over. The trap is the same belief that stalls both — *I'll start once I feel motivated.* But motivation is not the spark plug; it's the exhaust. It shows up **after** you move, not before. If the stall repeats only on **specific tasks** rather than across your whole life, that's less likely a slump and more likely [laziness (a signal)](/en/blog/overcome-laziness) — the fix is different.
 
 | Waiting for motivation | Jump-starting |
 | --- | --- |
@@ -77,7 +77,7 @@ export const ja: Post = {
   description:
     "何もする気が起きない、ただ重い。そんなときは意志の力では直りません。スランプは怠けではなく、止まったエンジンです。2分の行動、環境の切り替え、ビジョンへの再接続でエンジンをかけ直す方法を紹介します。",
   date: "2026-06-29",
-  updated: "2026-06-29",
+  updated: "2026-09-14",
   category: "メンタル・実行力",
   readMinutes: 6,
   emoji: "🌊",
@@ -94,7 +94,7 @@ export const ja: Post = {
 
 ## スランプの正体
 
-スランプは[燃え尽き(バーンアウト)](/ja/blog/burnout-recovery)とは違います。燃え尽きは消耗 — すべてを使い果たし、何も残っていない状態です。スランプは、休んでいても襲ってきます。タンクが空なのではなく、エンジンがかからないだけ。両方を止める同じ思い込みが落とし穴です — *やる気が出たら始めよう。* でも、やる気は点火プラグではなく、排気ガスです。動いた**後**に出てくるのであって、前ではありません。
+スランプは[燃え尽き(バーンアウト)](/ja/blog/burnout-recovery)とは違います。燃え尽きは消耗 — すべてを使い果たし、何も残っていない状態です。スランプは、休んでいても襲ってきます。タンクが空なのではなく、エンジンがかからないだけ。両方を止める同じ思い込みが落とし穴です — *やる気が出たら始めよう。* でも、やる気は点火プラグではなく、排気ガスです。動いた**後**に出てくるのであって、前ではありません。もしこの止まりが生活全般ではなく**特定の仕事の前だけ**で繰り返されるなら、それはスランプよりも[怠け(サイン)](/ja/blog/overcome-laziness)である可能性が高く、処方が異なります。
 
 | やる気を待つ | エンジンをかける |
 | --- | --- |

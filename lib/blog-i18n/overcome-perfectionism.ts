@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Perfectionism doesn't make your work better — it keeps you from starting it. When the bar is set impossibly high, the first move feels dangerous, so you wait. Here's how 'done beats perfect' quietly frees you to act today.",
   date: "2026-07-02",
-  updated: "2026-07-02",
+  updated: "2026-09-14",
   category: "Mindset",
   readMinutes: 6,
   emoji: "🎨",
@@ -23,7 +23,7 @@ export const en: Post = {
 
 ## What perfectionism really is
 
-We tell ourselves perfectionism is about caring deeply, about excellence. But look at what it actually produces: unstarted projects, unsent messages, unshipped work. Real excellence ships and improves. Perfectionism protects you from ever being judged by keeping the work invisible. It's **fear in disguise** — fear of falling short, of criticism, of finding out you're not as good as you hoped. That's why it targets the *start* most fiercely: as long as you haven't begun, the perfect version is still possible in your mind.
+We tell ourselves perfectionism is about caring deeply, about excellence. But look at what it actually produces: unstarted projects, unsent messages, unshipped work. Real excellence ships and improves. Perfectionism protects you from ever being judged by keeping the work invisible. It's **fear in disguise** — fear of falling short, of criticism, of finding out you're not as good as you hoped. That's why it targets the *start* most fiercely: as long as you haven't begun, the perfect version is still possible in your mind. It can look identical to [laziness](/en/blog/overcome-laziness) from the outside, but the cause differs — you're not out of energy, it's fear wearing the costume of standards, so the fix isn't lowering friction, it's lowering the bar to start.
 
 | Perfectionism | Completion-first |
 | --- | --- |
@@ -76,7 +76,7 @@ export const ja: Post = {
   description:
     "完璧主義は仕事を良くするのではなく、始めることを止めてしまいます。ハードルを高く設定しすぎると、最初の一歩が危険に感じられ、つい待ってしまう。「完了は完璧に勝つ」という考えが、今日動き出す自由を与えてくれます。",
   date: "2026-07-02",
-  updated: "2026-07-02",
+  updated: "2026-09-14",
   category: "メンタル・実行力",
   readMinutes: 6,
   emoji: "🎨",
@@ -93,7 +93,7 @@ export const ja: Post = {
 
 ## 完璧主義の正体
 
-完璧主義は、深く気にかけること、卓越を目指すことだと自分に言い聞かせます。でも実際に生み出すものを見てください — 始まらない企画、送られないメッセージ、世に出ない仕事。本当の卓越は世に出して、そこから良くしていきます。完璧主義は、仕事を見えないままにすることで、あなたを評価から守っているのです。それは**変装した恐れ** — 及ばないこと、批判されること、思ったほど自分がすごくないと分かることへの恐れ。だから最も激しく*始まり*を狙います。始めていない限り、完璧な完成形は頭の中でまだ可能だからです。
+完璧主義は、深く気にかけること、卓越を目指すことだと自分に言い聞かせます。でも実際に生み出すものを見てください — 始まらない企画、送られないメッセージ、世に出ない仕事。本当の卓越は世に出して、そこから良くしていきます。完璧主義は、仕事を見えないままにすることで、あなたを評価から守っているのです。それは**変装した恐れ** — 及ばないこと、批判されること、思ったほど自分がすごくないと分かることへの恐れ。だから最も激しく*始まり*を狙います。始めていない限り、完璧な完成形は頭の中でまだ可能だからです。外から見ると[怠け](/ja/blog/overcome-laziness)とそっくりですが、原因が違います — エネルギー切れではなく、基準の衣をまとった恐れなので、直し方も摩擦を減らすことではなく、始めるハードルを下げることです。
 
 | 完璧主義 | 完了主義 |
 | --- | --- |

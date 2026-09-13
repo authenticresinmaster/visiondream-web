@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "Laziness isn't who you are. Most of the time it's a signal — low energy, low motivation, or a task that feels too big. A 60-second self-check for the five signal types, a 2-minute conversion table, a way to count friction in steps, and a 7-day plan to get moving again.",
   date: "2026-07-03",
-  updated: "2026-08-26",
+  updated: "2026-09-14",
   category: "Mindset",
-  readMinutes: 14,
+  readMinutes: 15,
   emoji: "🦥",
   cover: "/blog/overcome-laziness.svg",
   body: `You rested all weekend and Monday morning feels heavier than ever. You know what needs doing, you don't even hate it, and still your body won't carry you to the desk. In that moment we all reach for the fastest conclusion — "I'm just a lazy person."
@@ -161,6 +161,21 @@ Don't try to become a different person at once. A week is enough. Each day takes
 
 A week later the visible results may be small. What disappears instead is the sentence **"I'm someone who doesn't move."** That's what changes the following month.
 
+## Too many methods? Match the fix to your signal type
+
+Every tool in this article — and most of the ones you'll find elsewhere — isn't "more willpower," it's "changed starting conditions." They just target different points. Match the row to the type you picked in the self-check above.
+
+| Method | What it targets | When you'll feel it | Where it fails |
+| --- | --- | --- | --- |
+| **2-minute rule** | The starting threshold (vague, high-friction) | Same day | Depleted type — shrinking the task doesn't fix an empty tank |
+| **Friction counting (steps)** | A recurring environment (high-friction) | 3-7 days | One-off tasks where the setup changes every time |
+| **Anchor habits** | Missing memory trigger (vague) | 1-2 weeks | Irregular routines, e.g. shift work, where there's no fixed "already-do" moment |
+| **[Time blocking](/en/blog/time-blocking)** | "When" is never decided | 1 week | Jobs with unpredictable daily schedules |
+| **[Habit tracker](/en/blog/habit-tracker)** | Motivation fading from invisible progress | 2-3 weeks (once records build up) | People for whom filling the tracker itself feels like a burden |
+| **10-second vision link** | Disconnected (don't know why) | Same day to a few days | Goal itself is still unclear — fix direction first |
+
+**The order to pick in**: one type from the self-check → the matching row above → one method today, not two or three. Starting several at once means you won't know which one worked, and when you collapse again you won't know which to restart.
+
 ## Three ways this falls apart
 
 1. **Reading the 2-minute rule as "finish in two minutes."** Score the start only. Time spent after is a bonus.
@@ -209,6 +224,14 @@ You were never lazy. You were tired, or unsure, or disconnected — and all thre
       q: "How does VisionDream help with laziness?",
       a: "It closes the gap between a big goal and today's blank moment. The vision on your dream map flows down through four planner levels — yearly, monthly, weekly, daily — to a single belief · thought · action check on the Today tab, so whatever you start is already a two-minute item. For the bad days, two streak protections are used automatically each month so one missed day doesn't break the chain, and unfinished items roll over to tomorrow. Every action grows the success tree and marks the calendar heatmap, so instead of fighting your character you move by reading your own record.",
     },
+    {
+      q: "2-minute rule, friction counting, anchor habits — which should I use first?",
+      a: "Don't start several at once. First pick your signal type from the 60-second self-check, then find the matching row in the method-comparison table and use only that one today. Vague type (can't picture the first move) → the 2-minute rule. High-friction type (too many steps to start) → friction counting. Forget-to-do type → anchor habits first. Starting two or three together means that if things improve you won't know which one to credit, and you won't know which to restart when you collapse again.",
+    },
+    {
+      q: "Do these methods still work if my schedule changes every day?",
+      a: "Shift work and freelance schedules weaken anchor habits (which attach to an existing routine) and time blocking (which fixes a 'when'). Anchor to a place or sequence instead of a time — something that happens every day regardless of shift, like 'right after I clock in.' The 2-minute rule and friction counting (cutting steps) work regardless of schedule, so if your days are irregular, lead with those two.",
+    },
   ],
 };
 
@@ -218,9 +241,9 @@ export const ja: Post = {
   description:
     "怠けは、あなたの正体ではありません。多くの場合それはサイン — エネルギー切れ、意欲の低下、あるいは大きすぎるタスク。5種類のサインを60秒で見分ける自己診断表、2分ルール変換表、摩擦を歩数で数える方法、7日間の立て直し計画までまとめました。",
   date: "2026-07-03",
-  updated: "2026-08-26",
+  updated: "2026-09-14",
   category: "メンタル・実行力",
-  readMinutes: 14,
+  readMinutes: 15,
   emoji: "🦥",
   cover: "/blog/overcome-laziness.svg",
   body: `週末ずっと休んだのに、月曜の朝がいっそう重い。やることは分かっているし、死ぬほど嫌なわけでもないのに、体が机まで運ばれない。そんなとき私たちは、いちばん手早い結論に手を伸ばします — 「自分はただの怠け者だ」。
@@ -373,6 +396,21 @@ export const ja: Post = {
 
 一週間後、目に見える成果は小さいかもしれません。代わりに**「自分は動かない人間だ」という一文が消えます。** それが次のひと月を変えます。
 
+## 方法が多くて迷うなら — サイン別に選ぶ比較表
+
+この記事に出てきた道具も、他でよく見る道具も、どれも「意志力を増やす」ではなく「始まる条件を変える」ものです。ただ狙う地点が違います。上の自己診断表で選んだ型と同じ行だけ見てください。
+
+| 方法 | 狙う地点 | 効果を感じる時期 | 一番合わない状況 |
+| --- | --- | --- | --- |
+| **2分ルール** | 始まりの敷居(漠然型・摩擦型) | その日のうち | 消耗型 — 小さくしても体が動かない |
+| **摩擦の計算法(歩数)** | 繰り返す環境(摩擦型) | 3〜7日 | 毎回セッティングが違う単発の仕事 |
+| **アンカー習慣** | 記憶・きっかけの欠如(漠然型) | 1〜2週間 | 既存のルーティン自体が不規則な場合(交代勤務など) |
+| **[タイムブロッキング](/ja/blog/time-blocking)** | 「いつやるか」が決まっていない | 1週間 | 一日の予定が予測できない職種 |
+| **[習慣トラッカー](/ja/blog/habit-tracker)** | 進歩が見えず意欲が続かない | 2〜3週間(記録が積もってから) | トラッカーを埋めること自体が負担になる場合 |
+| **ビジョンへの10秒接続** | 無意味型(なぜやるか分からない) | その日〜数日 | 目標自体がまだ不明確な場合 — まず方向から |
+
+**選ぶ順序**: 自己診断表で出た型を1つ → 上の表で同じ行 → 今日はその方法1つだけ。2つ3つを同時に始めると、良くなったときにどれのおかげか分からず、また崩れたときにどれから点け直すべきかも分からなくなります。
+
 ## この処方が崩れる3つの理由
 
 1. **2分ルールを「2分で終わらせる」と誤解する。** 採点は始めたかどうかだけ。続いた時間はボーナスです。
@@ -420,6 +458,14 @@ export const ja: Post = {
     {
       q: "ビジョンドリームは怠けにどう役立ちますか?",
       a: "大きな目標と、今日の空白の瞬間とのすき間を埋めます。ドリームマップのビジョンがプランナー4段階(年間・月間・週間・日次)を通って今日タブの信念・思考・行動チェック1つまで下りてくるので、始める対象はいつでも2分サイズです。崩れる日のためにストリーク保護が毎月2つ自動で使われ、一日落としても連続は切れず、未完了の項目は翌日へ自動繰り越しされます。実践するたび成功の木が育ちカレンダーのヒートマップに跡が残るので、性格と戦う代わりに自分の記録を見て動けるようになります。",
+    },
+    {
+      q: "2分ルール・摩擦の計算法・アンカー習慣 — どれから使えばいいですか?",
+      a: "同時に複数始めないでください。まず60秒自己診断表で自分のサイン型を1つ選び、比較表で同じ行を見つけて、今日はその方法だけを使います。漠然型(最初の動作が浮かばない)なら2分ルール、摩擦型(始めるまでの手順が多い)なら歩数の計算法、忘れて抜けてしまう型ならアンカー習慣が先です。2つ3つを同時に始めると、良くなってもどれのおかげか分からず、また崩れたときにどれから点け直すべきかも分からなくなります。",
+    },
+    {
+      q: "毎日予定が変わる仕事でも、これらの方法は通用しますか?",
+      a: "交代勤務やフリーランスのように一日の型が不規則だと、既存の行動に貼るアンカー習慣と「いつ」を固定するタイムブロッキングは効きにくくなります。その場合は時刻ではなく場所や順序にアンカーを貼ってください — 「出勤カードを押した直後」のように、勤務形態に関係なく毎回起きる動作を基準点にします。2分ルールと摩擦の計算法(歩数を減らす)は予定と無関係にそのまま働くので、予定が不規則な人はこの2つを優先してください。",
     },
   ],
 };

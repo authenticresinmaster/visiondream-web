@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Waiting to feel motivated is why you never start. Motivation is a result of action, not a prerequisite for it. Here are 4 systems that get you moving when the feeling isn't there — and keep you going after.",
   date: "2026-06-22",
-  updated: "2026-08-18",
+  updated: "2026-09-14",
   category: "Psychology & Execution",
   readMinutes: 6,
   emoji: "⚡",
@@ -38,7 +38,7 @@ We treat motivation like weather — something that has to arrive before we can 
 The strongest fuel isn't hype — it's meaning. When today's small task is visibly tied to a future you actually want, the "why" refills on its own. Disconnected tasks feel like chores; connected ones feel like progress. (A [vision board](/en/blog/vision-board-how-to) makes that connection visible.)
 
 ### 2. Shrink the step
-You're not unmotivated — the step is just too big. "Write the report" is paralyzing; "open the doc and write the title" takes two minutes. Lower the bar until starting feels almost free. Once you start, momentum usually carries you further than you expected. (This is the [Fear Buster](/en/blog/fear-deconstruction-overcome) at work.)
+You're not unmotivated — the step is just too big. "Write the report" is paralyzing; "open the doc and write the title" takes two minutes. Lower the bar until starting feels almost free. Once you start, momentum usually carries you further than you expected. (This is the [Fear Buster](/en/blog/fear-deconstruction-overcome) at work — and if you stall on specific tasks rather than everything, [overcoming laziness](/en/blog/overcome-laziness) covers the 2-minute rule and step-counting in more depth.)
 
 ### 3. Make progress visible
 What you can see, you keep. A streak you don't want to break, a tree that grows as you act — visible progress is a motivation engine that runs on its own. Invisible effort feels like it doesn't count; visible effort compounds. ([Beating three-day quitting](/en/blog/beat-three-day-quitting) leans on exactly this.)
@@ -81,7 +81,7 @@ export const ja: Post = {
   description:
     "「やる気が出てから」と待つことこそ、始められない理由です。やる気は行動の前提ではなく、行動の結果です。気分が乗らないときでも動き出せる4つのシステムと、その後も続ける仕組みを紹介します。",
   date: "2026-06-22",
-  updated: "2026-08-18",
+  updated: "2026-09-14",
   category: "心理・実行力",
   readMinutes: 6,
   emoji: "⚡",
@@ -113,7 +113,7 @@ export const ja: Post = {
 いちばん強い燃料は、勢いではなく意味です。今日の小さなタスクが、本当に望む未来と目に見えてつながっているとき、「なぜ」はひとりでに満ちていきます。切れたタスクは雑用に感じ、つながったタスクは前進に感じます。([ビジョンボード](/ja/blog/vision-board-how-to)が、そのつながりを見えるようにします。)
 
 ### 2. 一歩を小さくする
-やる気がないのではなく、一歩が大きすぎるだけです。「報告書を書く」は人をすくませますが、「文書を開いてタイトルを書く」は2分で終わります。始めるのがほぼタダに感じるまで、ハードルを下げましょう。いったん始めれば、勢いは思ったより遠くまで運んでくれます。(これが[恐れ解体](/ja/blog/fear-deconstruction-overcome)の働きです。)
+やる気がないのではなく、一歩が大きすぎるだけです。「報告書を書く」は人をすくませますが、「文書を開いてタイトルを書く」は2分で終わります。始めるのがほぼタダに感じるまで、ハードルを下げましょう。いったん始めれば、勢いは思ったより遠くまで運んでくれます。(これが[恐れ解体](/ja/blog/fear-deconstruction-overcome)の働きで、特定の仕事の前だけで止まるなら[怠け癖の克服](/ja/blog/overcome-laziness)が2分ルールと歩数の計算法をさらに詳しく扱っています。)
 
 ### 3. 前進を見えるようにする
 見えるものは、続きます。途切れさせたくない連続記録、動くほど育つ樹 — 目に見える前進は、ひとりでに回るやる気のエンジンです。見えない努力は「数えられていない」と感じ、見える努力は積み上がります。([三日坊主を乗り越える](/ja/blog/beat-three-day-quitting)も、まさにこれに頼ります。)
