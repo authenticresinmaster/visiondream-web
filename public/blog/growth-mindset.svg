@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="고정 마인드셋과 성장 마인드셋의 차이: 피드백·실패·어려운 과제 앞에서 갈리는 반응">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">성장 마인드셋 vs 고정 마인드셋</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">같은 실패, 다른 반응 — 갈림은 재능이 아니라 해석이다</text>
+  <g>
+    <rect x="70" y="104" width="330" height="220" rx="14" fill="#ffffff" stroke="#9aa5b6" stroke-width="2"/>
+    <text x="235" y="140" text-anchor="middle" font-family="sans-serif" font-size="24">🔒</text>
+    <text x="235" y="170" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">고정 마인드셋</text>
+    <text x="235" y="198" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">피드백 → 방어부터 한다</text>
+    <text x="235" y="222" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">실패 → "나는 역시 안 돼"</text>
+    <text x="235" y="246" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">어려운 과제 → 쉬운 쪽으로 피한다</text>
+    <text x="235" y="288" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13" font-weight="700">"이거 못해"</text>
+  </g>
+  <g>
+    <rect x="480" y="104" width="330" height="220" rx="14" fill="#ffffff" stroke="#568a35" stroke-width="2"/>
+    <text x="645" y="140" text-anchor="middle" font-family="sans-serif" font-size="24">🌱</text>
+    <text x="645" y="170" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="16" font-weight="800">성장 마인드셋</text>
+    <text x="645" y="198" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">피드백 → "다음엔 뭘 바꾸지?"</text>
+    <text x="645" y="222" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">실패 → "이 방법이 안 통했다"</text>
+    <text x="645" y="246" text-anchor="middle" fill="#5b6b82" font-family="sans-serif" font-size="12">어려운 과제 → 오히려 고른다</text>
+    <text x="645" y="288" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="13" font-weight="700">"이거 아직 못해"</text>
+  </g>
+  <text x="440" y="352" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13.5" font-weight="700">캐럴 드웩 · 스탠퍼드, 40년 연구가 밝힌 마인드셋의 차이</text>
+  <text x="440" y="378" text-anchor="middle" fill="#568a35" font-family="sans-serif" font-size="12" font-weight="700">🌱 비전을 심으면, 반드시 열매가 열립니다</text>
+</svg>

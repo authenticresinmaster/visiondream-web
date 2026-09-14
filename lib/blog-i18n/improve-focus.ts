@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "If you're at your desk and can't concentrate — and you don't even know why — start by splitting the cause. A 30-second self-check for the three types (environment, energy, meaning), a 6-minute three-layer distraction sweep, a 4-week training table from 10 to 50 minutes, and five fixes for when it falls apart.",
   date: "2026-07-03",
-  updated: "2026-09-06",
+  updated: "2026-09-15",
   category: "Productivity",
-  readMinutes: 16,
+  readMinutes: 18,
   emoji: "🧠",
   cover: "/blog/improve-focus.svg",
   body: `You're at the desk. The files are open. And yet you've read the same paragraph three times, and your hand has already reached for the phone twice. The frustrating part isn't the distraction — it's that **you don't know why**. Yesterday you worked for two straight hours. Today you can't hold ten minutes.
@@ -136,6 +136,31 @@ Alertness doesn't stay flat all day; it rises and falls in cycles of roughly **9
 - **15 minutes of recovery after 90.** Off-screen, water, a short walk. Recovery isn't waste; it's *the quality of the next block*.
 - **3–4 hours a day is the real ceiling.** Nobody does eight hours of deep focus. One or two deep blocks plus a few 25-minute sprints is plenty; past that it's mostly performing work.
 - **Go shorter in the afternoon.** If you're the energy type, stop insisting on 50 minutes after lunch and drop to 25-minute sprints.
+
+## Three studies behind these numbers
+
+Before jumping to "I just have weak willpower," here's the evidence behind the methods above.
+
+| Study | What it measured | Key figure | Practical takeaway |
+| --- | --- | --- | --- |
+| Gloria Mark et al., UC Irvine, 2008 | Observed office workers during real work | Average **23 minutes 15 seconds** to return to the original task after an interruption | The 10–20 minute estimate in the recovery-cost table above is actually conservative — it's the evidence behind putting the phone in another room |
+| Ariga & Lleras, University of Illinois, 2011 | Compared a 50-minute continuous task with and without brief breaks | Inserting **two** short breaks (tens of seconds) kept accuracy near-stable through the back half; the no-break group dropped noticeably | One or two deliberate 20–30 second glance-aways in the middle of a 90-minute block don't break the flow |
+| Multiple meta-analyses on aerobic exercise and attention (e.g., Chang et al., 2012) | Compared inhibitory-control and attention-switching performance before and after a single ~20-minute aerobic session | Repeated reports of improved **attentional control for roughly 30 minutes** right after exercise | On a day you can't focus, a 20-minute walk before restarting may beat gluing yourself to the desk harder |
+
+All three point at one thing: **focus is something you manage, not something you endure.** Remove the distraction (1), design the short break in advance (2), and tend to your body (3), and the same amount of willpower produces a different result. The place those repeated wins accumulate is [self-efficacy](/en/blog/self-efficacy) — the belief "I can focus" isn't an empty affirmation, it's data built from small, repeated successes.
+
+## The desk environment table — light, temperature, noise
+
+Run the same three-layer sweep in the wrong environment and its effect is cut in half. General office-environment guidelines look like this.
+
+| Factor | Recommended range | What happens outside it |
+| --- | --- | --- |
+| Desk-surface light | 500–750 lux | Too dim and eye fatigue brings on drowsiness quickly; too bright and glare scatters attention after about 20 minutes |
+| Room temperature | 21–23°C (70–73°F) | Above 25°C alertness drops and you get sleepy; below 19°C hands stiffen and typing errors climb |
+| Background noise | Under 50dB (library level) | Conversation noise past 60dB eats into language-processing resources, raising re-entry cost on reading and writing tasks |
+| Monitor distance/height | 50–70cm, top of screen at eye level | Too close and eye fatigue builds within 20 minutes; too low and your neck juts forward, with pain starting around minute 30 |
+
+Fixing all four takes five minutes, and it's a completely different layer from willpower — you can [let go of perfectionism](/en/blog/overcome-perfectionism) all you like, but drowsiness is hard to beat in a 300-lux room. Fitting the environment to your body and building the [mental strength](/en/blog/mental-strength) to sit back down without self-blame after a collapse are different muscles, and you need both.
 
 ## Caffeine, naps, and sound — a timing table
 
@@ -322,6 +347,14 @@ You're not "bad at focusing." You've just never split the cause or trained it �
       q: "How does VisionDream help me focus?",
       a: "Add 'one 25-minute focus block' as an Action habit in the Today tab (B·T·A) and one check records the rep, while the calendar heatmap shows whether you met this week's pass criteria. Miss a day and two monthly streak shields keep the chain alive automatically, and the reps you bank grow into your Success Tree. Each session stays linked in the planner to the goal and vision above it, so you're never concentrating in a vacuum.",
     },
+    {
+      q: "Does exercise actually help focus?",
+      a: "Yes — multiple meta-analyses report improved attentional control for roughly 30 minutes after a single ~20-minute aerobic session. On a day you can't focus, a 20-minute walk followed by restarting a 10-minute timer may beat gluing yourself to the desk longer. Use it first as an emergency fix for a session that's already collapsed, not as a new habit to add on top.",
+    },
+    {
+      q: "Do desk lighting and temperature really affect focus?",
+      a: "Yes, and they operate on a different layer than willpower. General guidelines are 500–750 lux at desk level, 21–23°C room temperature, and background noise under 50dB (library level). Too little light brings on drowsiness faster; above 25°C alertness drops; noise past 60dB raises the re-entry cost of reading and writing. If focus still won't come after the three-layer sweep, check these four numbers before blaming willpower.",
+    },
   ],
 };
 
@@ -331,9 +364,9 @@ export const ja: Post = {
   description:
     "机に向かっても集中できない、しかも理由が分からない。まずは原因を分けることから。環境型・エネルギー型・意味型の30秒セルフチェック、6分で終わる気の散り3層除去、10分から50分までの4週間トレーニング表、崩れたときの5つの処方をまとめました。",
   date: "2026-07-03",
-  updated: "2026-09-06",
+  updated: "2026-09-15",
   category: "時間管理",
-  readMinutes: 16,
+  readMinutes: 18,
   emoji: "🧠",
   cover: "/blog/improve-focus.svg",
   body: `机には向かいました。資料も開いてあります。それなのに20分間、同じ段落を読み返していて、手はもう三度目のスマホに伸びています。もどかしいのは気が散ること自体ではなく、**なぜできないのか分からない**ことです — 昨日は二時間続けて没頭できたのに、今日は十分ももちません。
@@ -461,6 +494,31 @@ export const ja: Post = {
 - **90分のあとに15分の回復。** 画面から離れ、水を飲み、少し歩く。回復は無駄ではなく*次のブロックの品質*です。
 - **1日の総量は3〜4時間が現実。** 深い集中を8時間続けられる人はいません。ディープブロック1〜2回に25分スプリントを数本で十分で、それ以上はたいてい「働いているふり」です。
 - **午後は短く。** エネルギー型なら、午後に50分を粘らず25分スプリントに下げましょう。
+
+## この数字の根拠になった研究3つ
+
+「結局、意志が弱いだけ」と結論づける前に、ここまでの方法が勘ではなく実測に基づいている根拠を記しておきます。
+
+| 研究 | 何を見たか | 核心の数値 | 実践ポイント |
+| --- | --- | --- | --- |
+| カリフォルニア大学アーバイン校 グロリア・マーク教授ら、2008年 | 実際の勤務中のオフィスワーカーを観察 | 中断後、元の作業に戻るまで**平均23分15秒** | 上の「復帰コストの試算表」の10〜20分という仮定はむしろ控えめ — スマホを別の部屋に置く根拠になる |
+| イリノイ大学 アリガ・レラス、2011年 | 50分の連続課題を、短い休憩を挟む場合と挟まない場合で比較 | 短い離脱を**2回**挟んだグループは後半の正確度がほぼ維持、挟まなかったグループは明確に低下 | 90分ブロックの途中に20〜30秒の**意図的な視線離脱**を1〜2回入れても、流れは崩れない |
+| 有酸素運動と注意力に関する複数のメタ分析(張ら、2012年など) | 約20分の単発有酸素運動の前後で抑制制御・注意切り替え課題の成績を比較 | 運動直後30分前後、**注意制御の改善**が繰り返し報告されている | 集中できない日は机に粘るより、20分歩いてから再開するほうがいいこともある |
+
+3つの研究が指すのは一つです。**集中力は耐える力ではなく、管理する対象**だということ。気を散らすものを取り除き(①)、短い離脱をあらかじめ設計し(②)、体の状態を整えれば(③)、同じ意志力でも結果が変わります。この繰り返された成功体験が積み重なる場所が[自己効力感](/ja/blog/self-efficacy)です — 「自分は集中できる」という信念は根拠のない決意ではなく、小さな成功を重ねて得たデータです。
+
+## 机の環境セッティング表 — 照度・温度・騒音の基準
+
+同じ3層除去をしても、環境自体が合っていなければ効果は半減します。一般的に推奨されるオフィス環境の基準は次の通りです。
+
+| 項目 | 推奨範囲 | 外れると起きること |
+| --- | --- | --- |
+| 机面の照度 | 500〜750ルクス | 暗いと目が疲れて眠気が早く来る。明るすぎると画面のギラつきで20分後には視線が乱れる |
+| 室温 | 21〜23°C | 25°Cを超えると覚醒度が落ちて眠くなり、19°Cを下回ると手がこわばりタイプミスが増える |
+| 背景騒音 | 50dB以下(図書館レベル) | 60dBを超える会話音は言語処理のリソースを削り、読み書き作業の再進入コストを押し上げる |
+| モニターの距離・高さ | 50〜70cm、画面上端が目の高さ | 近すぎると20分以内に目の疲れが蓄積し、低すぎると首が前に出て30分後から痛みが始まる |
+
+この4項目を一度に整えるのに5分あれば十分です。そしてこれは意志力の問題とはまったく別の層です — どれだけ[完璧主義を手放して](/ja/blog/overcome-perfectionism)も、照度300ルクスの部屋では眠気に勝つのは難しい。環境を体に合わせることと、崩れたときに自分を責めずに座り直す[精神力](/ja/blog/mental-strength)を鍛えることは別の筋肉で、両方が必要です。
 
 ## カフェイン・仮眠・音 — 順番と時間帯の表
 
@@ -646,6 +704,14 @@ export const ja: Post = {
     {
       q: "ビジョンドリームは集中にどう役立ちますか?",
       a: "今日タブ(B・T・A)の「行動」に「25分集中を1回」を習慣として入れると、チェック一つで訓練が記録され、カレンダーのヒートマップで今週の合格基準を満たしたかが一目で分かります。一日抜けても毎月2枚のストリーク保護券が自動で連続を守り、積み上げた実践は成功の木に育ちます。各セッションはプランナーで上位の目標・ビジョンとつながっているので、真空の中で集中することがありません。",
+    },
+    {
+      q: "運動は本当に集中力に役立ちますか?",
+      a: "はい。複数のメタ分析で、約20分の単発有酸素運動のあと30分ほど注意制御が改善するという報告が繰り返されています。集中できない日は机に長く粘るより、20分歩いてから10分タイマーで再開するほうがいいこともあります。新しい習慣として積み増すより、すでに崩れたセッションを立て直す応急処置として先に使ってみてください。",
+    },
+    {
+      q: "机の照明や室温も集中力に影響しますか?",
+      a: "はい、意志力とは別の層で働きます。一般的な目安は机面の照度500〜750ルクス、室温21〜23°C、背景騒音50dB以下(図書館レベル)です。照度が低いと眠気が早く来て、25°Cを超えると覚醒度が落ち、騒音が60dBを超えると読み書き作業の再進入コストが上がります。3層除去をしても集中できないなら、意志ではなくこの4つの環境数値をまず確認してください。",
     },
   ],
 };
