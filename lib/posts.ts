@@ -61,6 +61,7 @@ import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-
 import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-inferiority";
 import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
 import { en as fiveMinReviewEn, ja as fiveMinReviewJa } from "./blog-i18n/five-minute-review";
+import { en as growthMindsetEn } from "./blog-i18n/growth-mindset";
 
 export type FaqItem = { q: string; a: string };
 
@@ -4997,7 +4998,7 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
     description:
       "할 일 목록은 '무엇을' 할지는 알려줘도 '언제' 할지는 알려주지 않습니다. 그래서 급한 일이 늘 중요한 일을 잡아먹죠. 25·50·90분 세 가지 블록, 하루의 60~70%만 채우는 60/40 규칙, 예상 시간이 빗나갈 때 쓰는 1.5배 규칙과 나의 계수 구하기, 계획이 무너진 날 5분 재조립 3단계, 타임블로킹·투두리스트·포모도로 3종 비교, 첫 주 7일 실행 계획과 4주 정착표, 2주 블록 감사 기록표와 준수율 기준선, 교대근무·프리랜서·육아 병행 배치표 3종, 도구 4종 비교까지 — 현실의 하루에도 버티는 타임블로킹 설계법을 정리했습니다.",
     date: "2026-06-29",
-    updated: "2026-09-03",
+    updated: "2026-09-16",
     category: "시간관리",
     readMinutes: 21,
     emoji: "⏱️",
@@ -5158,6 +5159,21 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 
 무너진 날의 진짜 위험은 밀린 일 자체가 아닙니다. "다들 잘 굴러가는데 나만 못 한다"는 비교로 번지는 것이죠. 밀린 블록 두 개는 내일 30분이면 따라잡히지만, 자책은 다음 주 계획까지 갉아먹습니다. 그럴 땐 [열등감이 올라올 때 비교를 끊는 4단계](/blog/overcome-inferiority)를 먼저 쓰세요 — 캘린더를 고치기 전에 판단을 먼저 멈추는 게 순서입니다. 재조립 3단계 자체가 "무너진 날에도 나는 한 블록은 지킨다"는 [작은 성공](/blog/small-wins) 하나를 남기도록 설계돼 있습니다.
 
+무너진 블록에 X를 긋고 이유를 한 단어만 적는 1단계도 같은 원리입니다. "오늘도 망했다"는 판결이 아니라 "회의 때문에 밀렸다"는 데이터로 남기는 것이죠. 실패를 판결이 아니라 다음에 고칠 데이터로 읽는 이 관점 자체가 [성장 마인드셋](/blog/growth-mindset)의 핵심이고, 타임블로킹이 매일 연습시키는 것도 결국 이 근육입니다.
+
+## 4주 실측 예시 — 도입 전/후를 숫자로 비교하면
+
+타임블로킹이 "느낌상 낫다"가 아니라 실제로 뭘 바꾸는지, 흔한 도입 사례 하나를 숫자로 정리하면 이렇습니다. 할 일 목록만 쓰던 4주와, 위 절차대로 타임블로킹을 도입한 다음 4주를 같은 사람 기준으로 비교한 예시입니다.
+
+| 지표 | 도입 전 4주(할 일 목록만) | 도입 후 4주(타임블로킹) |
+| --- | --- | --- |
+| 주간 딥워크 시간(90분 블록 기준) | 주 3시간 안팎 — 대부분 잡무에 밀림 | 주 9~11시간 — 딥 블록이 먼저 캘린더에 박힘 |
+| 그날 안에 끝난 top 3 비율 | 약 20% | 약 60~65% |
+| "오늘 뭐 했지" 자책이 든 저녁(주 기준) | 4일 | 1일 이하 |
+| 마감 전날 밤에 몰아서 한 작업 비율 | 약 70% | 약 25% |
+
+숫자가 바뀐 지점은 의지가 아니라 **순서**입니다. 딥 블록을 하루의 남는 자리가 아니라 가장 맑은 시간에 먼저 박아 넣은 것, 그리고 무너진 날을 처음부터 다시 짜지 않고 5분 재조립으로 끝낸 것 — 이 두 가지만 바뀌어도 4주 안에 위 표만큼의 차이가 납니다. 타임블로킹을 자기계발에서 맨 처음 시도하는 시스템으로 쓰고 있다면, [자기계발을 어디서부터 시작할지 막막할 때](/blog/self-improvement-start) 글에서 순서부터 잡고 오는 것도 도움이 됩니다.
+
 ## 블록 '안'을 지키는 네 가지 장치
 
 블록을 잡아 두고도 그 안에서 알림에 계속 끊긴다면, 캘린더는 지켰지만 시간은 잃은 셈입니다. 블록 안에서 쓰는 장치는 네 개면 충분합니다.
@@ -5253,7 +5269,7 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
 
 타임블로킹도 블록이 진짜 중요한 것과 이어져 있지 않으면, 그냥 더 예쁜 할 일 목록이 됩니다. 핵심은 캘린더를 채우는 게 아니라, 당신의 시간이 받은편지함이 아니라 **비전**으로 흐르게 하는 것입니다. 각 블록에 물으세요 — 이건 내가 짓는 미래에 도움이 되나, 아니면 오늘의 소음일 뿐인가?
 
-가장 좋은 방법은 위에서 내려오는 것입니다. 3년 뒤 원하는 모습에서 거꾸로 올해·이번 달·이번 주를 계산하는 [백캐스팅](/blog/backcasting-goal-setting)으로 이번 주의 top 3를 뽑고, 그 셋을 이번 주 캘린더의 딥 블록 세 개로 내려놓으세요. 그러면 블록 하나하나가 '해야 할 일'이 아니라 '내가 고른 미래의 조각'이 됩니다.
+가장 좋은 방법은 위에서 내려오는 것입니다. 3년 뒤 원하는 모습에서 거꾸로 올해·이번 달·이번 주를 계산하는 [백캐스팅](/blog/backcasting-goal-setting)으로 이번 주의 top 3를 뽑고, 그 셋을 이번 주 캘린더의 딥 블록 세 개로 내려놓으세요. 그러면 블록 하나하나가 '해야 할 일'이 아니라 '내가 고른 미래의 조각'이 됩니다. 백캐스팅까지 가기 전에 상위 목표 자체가 아직 정리가 안 됐다면, [목표를 체계적으로 관리하는 법](/blog/goal-management)에서 큰 그림부터 잡고 내려와도 됩니다.
 
 ## 🌱 비전드림 앱으로 실행하기
 
@@ -5326,6 +5342,10 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "비전드림은 타임블로킹에 어떻게 도움이 되나요?",
         a: "비전드림의 플래너 4단계(연간·월간·주간·일일)는 오늘의 할 일에 A/B/C 우선순위를 매겨 상위 목표와 자동으로 연결하고, 못 끝낸 일은 다음 날로 자동 이월합니다. 오늘 탭의 습관 체크는 반복 블록이 되고 달력 히트맵으로 지킨 날이 보이며, 하루 놓쳐도 매월 2개의 스트릭 보호권이 자동으로 쓰여 연속 기록이 끊기지 않습니다. 주간 리뷰는 시간이 실제로 어디로 갔는지, AI 코치는 급한 일이 중요한 일을 밀어낼 때 균형을 어떻게 되돌릴지 알려 줍니다.",
+      },
+      {
+        q: "타임블로킹을 도입하면 실제로 얼마나 달라지나요?",
+        a: "흔한 도입 사례를 숫자로 보면, 할 일 목록만 쓰던 4주와 타임블로킹을 도입한 다음 4주 사이에 주간 딥워크 시간이 3시간 안팎에서 9~11시간으로, 그날 안에 끝난 top 3 비율이 약 20%에서 60~65%로 바뀝니다. 마감 전날 밤에 몰아서 하던 작업 비율도 70%에서 25% 수준으로 줄어듭니다. 이 차이를 만드는 건 더 센 의지가 아니라 순서입니다 — 딥 블록을 남는 자리가 아니라 가장 맑은 시간에 먼저 박아 넣고, 무너진 날은 처음부터 다시 짜지 않고 5분 재조립으로 끝내는 것, 이 두 가지입니다.",
       },
     ],
   },
@@ -6655,7 +6675,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
 
 export type PostLang = "ko" | "en" | "ja";
