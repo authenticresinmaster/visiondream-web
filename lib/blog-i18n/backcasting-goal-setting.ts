@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Backcasting (dream backcasting) is a goal-setting method that first decides the future you want, then designs backward to today's to-dos. Here's how it differs from forecasting, a one-page 30-minute worksheet (5+5+5+10+5), the 5-step method, three worked examples, and the five places backcasting usually breaks — with a fix for each.",
   date: "2026-06-19",
-  updated: "2026-09-10",
+  updated: "2026-09-18",
   category: "Goal Setting",
   readMinutes: 16,
   emoji: "🛰️",
@@ -91,17 +91,19 @@ Decide the measurable goals you must finish this quarter to reach the one-year p
 ### Step 5 — Bring it down to today's habits and to-dos (5 min)
 Connect the 3-month goal to habits you'll repeat weekly and daily and to this week's to-dos. Only here does the future become **today's action**. And give that action **a time and a place**: not "write every day" but "weekdays 6:30–7:00 a.m., 500 words at the kitchen table." Giving it a slot is [time blocking](/en/blog/time-blocking); deciding tomorrow's one thing the night before is the [evening routine](/en/blog/evening-routine).
 
-## Three Worked Examples
+## Four Worked Examples
 
-| Column | A: Publish a book | B: Career switch & pay | C: Health |
-| --- | --- | --- | --- |
-| **Future (3 yrs)** | "I'm an author with a book under my own name" | "I moved into data work and raised my pay 30%" | "10km three times a week, 15% body fat" |
-| **One year out** | Draft 80% done, 3 publishers contacted | 3 portfolio projects, 5 interviews done | One 10km finish, 6kg down |
-| **Three months** | Table of contents locked + ch. 1–3 drafted | Finish SQL course + ship 1 public project | 12 weeks of 3 runs/week, 5km under 30 min |
-| **This week** | Ch. 1 outline + collect 3 examples | Through lecture 4 + pick a dataset | Book Tue/Thu/Sat 30-min runs |
-| **Today** | Write 500 words of the ch. 1 opening | Watch lecture 1, take 5 lines of notes | Put running shoes by the front door |
+| Column | A: Publish a book | B: Career switch & pay | C: Health | D: Language exam |
+| --- | --- | --- | --- | --- |
+| **Future (3 yrs)** | "I'm an author with a book under my own name" | "I moved into data work and raised my pay 30%" | "10km three times a week, 15% body fat" | "I hold an advanced-level score and lead calls in English" |
+| **One year out** | Draft 80% done, 3 publishers contacted | 3 portfolio projects, 5 interviews done | One 10km finish, 6kg down | Upper-intermediate score, finished a 1-year speaking group |
+| **Three months** | Table of contents locked + ch. 1–3 drafted | Finish SQL course + ship 1 public project | 12 weeks of 3 runs/week, 5km under 30 min | One score band up, 12 weeks of shadowing |
+| **This week** | Ch. 1 outline + collect 3 examples | Through lecture 4 + pick a dataset | Book Tue/Thu/Sat 30-min runs | Line up 5 shadowing scripts, book 20 min × 5 days |
+| **Today** | Write 500 words of the ch. 1 opening | Watch lecture 1, take 5 lines of notes | Put running shoes by the front door | Pick 1 shadowing script, read along for 3 minutes |
 
-Look at the bottom row. Everything in the "today" column takes **under thirty minutes**. "Put your shoes by the door" connects in a straight line to 15% body fat three years out — that's the whole job of backcasting. The vague "I want to be a writer" became *"write 500 words this morning."*
+Look at the bottom row. Everything in the "today" column takes **under thirty minutes**. "Put your shoes by the door" connects in a straight line to 15% body fat three years out, and "3 minutes of shadowing" connects the same way to that advanced score — that's the whole job of backcasting. The vague "I want to be a writer" became *"write 500 words this morning,"* and "I should improve my English" became *"shadow one script for 3 minutes today."*
+
+Look closer at Example D: the number that matters is "one score band up" in the three-month column. Most language learners report the same rough figure — moving up one proficiency band typically takes **8 to 12 weeks of consistent input**. So a future column that reads "advanced level in three years" is really three 12-week cycles, one band each year, and that's exactly why this quarter's target is only one band up. The real unit isn't the final score — it's **one band per quarter**.
 
 ## The Division Table — Turning a Future Number Into Today's Portion
 
@@ -147,6 +149,20 @@ When a backcast fizzles out, it's usually one of five things. Find the symptom a
 | Many goals, zero progress | Four or more quarterly goals | Cut to three and rank them. [OKR](/en/blog/okr-goals) · [Mandalart](/en/blog/mandalart-planner) |
 
 Throwing out the whole map because of one missed day is the other common failure. One rule is enough — **never skip twice in a row.** That same kindness is what gets you past [three-day quitting](/en/blog/beat-three-day-quitting).
+
+## Five Goal-Setting Methods Compared — When to Reach for Something Other Than Backcasting
+
+Backcasting isn't a universal tool. Drawing five columns for something short and already-mapped is wasted effort. Use this table to pick the right tool for the goal in front of you.
+
+| Method | Best fit | Time horizon | Core question | Relationship to backcasting |
+| --- | --- | --- | --- | --- |
+| **Backcasting (dream backcasting)** | A bold 3–5 year goal where the path itself isn't visible yet | 3–5 years → today | "What must exist just before that future arrives?" | This article's method — the top layer over the other four |
+| **[SMART goals](/en/blog/smart-goal-setting)** | Tightening a quarterly goal into an executable sentence | 1–3 months | "Is it measurable with a number?" | Tightens column ③ (3 months) of a backcast |
+| **[OKR](/en/blog/okr-goals)** | Ranking priority across several quarterly goals | Per quarter | "Are these 3 truly the key results?" | Trims column ③ down to three when it has four or more |
+| **[Mandalart chart](/en/blog/mandalart-planner)** | Force-breaking one goal into 8 execution areas | Immediate to quarterly | "What 8 habits does this goal require?" | An ideation aid for filling columns ① and ② |
+| **[Bucket list](/en/blog/bucket-list-how-to)** | Collecting things you'd like to do someday, no deadline | Open-ended | "What do I want to do someday?" | Raw material for backcasting — attach a deadline and it becomes a backcast target |
+
+The most common mistake is **trying to draw five columns for every goal**. Picking a restaurant for next week's dinner doesn't need backcasting, and a goal like "switch careers in 3 years," where the path isn't visible, needs more than SMART alone can give it. The bigger and more overwhelming the goal, reach for backcasting; if the direction is already set and only execution remains, go straight to SMART or the Mandalart chart.
 
 ## How to Reopen the Today Column Every Night
 
@@ -227,7 +243,7 @@ export const ja: Post = {
   description:
     "バックキャスティング（夢の逆算設計）は、望む未来をまず決め、そこから逆向きに今日やることを設計する目標設定法です。フォアキャスティングとの違い、紙1枚30分のワークシート（5分+5分+5分+10分+5分）、5ステップ実践法、出版・転職・健康の事例3つ、そして逆算が崩れる5つのポイントの処方までまとめました。",
   date: "2026-06-19",
-  updated: "2026-09-10",
+  updated: "2026-09-18",
   category: "目標設定",
   readMinutes: 16,
   emoji: "🛰️",
@@ -312,17 +328,19 @@ export const ja: Post = {
 ### ステップ5 — 今日の習慣・やることへ落とす（5分）
 3ヶ月目標を、毎週・毎日くり返す習慣と今週やることにつなげます。ここでようやく未来が**今日の行動**になります。そしてその行動には**時刻と場所**を与えてください。「毎日書く」ではなく「平日6:30〜7:00、食卓で500字」。場所を与える方法は[タイムブロッキング](/ja/blog/time-blocking)に、夜のうちに翌日の一つを決めておく方法は[夜のルーティン](/ja/blog/evening-routine)にあります。
 
-## 事例3つ — 5つの枠は実際こう埋まる
+## 事例4つ — 5つの枠は実際こう埋まる
 
-| 枠 | 事例A：出版 | 事例B：転職・年収 | 事例C：健康 |
-| --- | --- | --- | --- |
-| **未来（3年）** | 「自分の名前の本を出した作家だ」 | 「データ職に移り年収を30%上げた」 | 「毎週3回10km、体脂肪15%」 |
-| **1年後** | 原稿8割、出版社3社にコンタクト | 実務ポートフォリオ3件、面接5回 | 10km完走1回、体重-6kg |
-| **3ヶ月** | 目次確定 + 1〜3章の初稿 | SQL講座修了 + 個人プロジェクト1件公開 | 週3ランを12週継続、5km30分 |
-| **今週** | 1章の構成 + 事例3つ収集 | 講義4回まで + データセット決定 | 火・木・土の30分ランを予約 |
-| **今日** | 1章の導入500字を書く | 講義1回を見てノート5行 | ランニングシューズを玄関に出す |
+| 枠 | 事例A：出版 | 事例B：転職・年収 | 事例C：健康 | 事例D：語学試験 |
+| --- | --- | --- | --- | --- |
+| **未来（3年）** | 「自分の名前の本を出した作家だ」 | 「データ職に移り年収を30%上げた」 | 「毎週3回10km、体脂肪15%」 | 「上級レベルのスコアを持ち、英語で会議を仕切っている」 |
+| **1年後** | 原稿8割、出版社3社にコンタクト | 実務ポートフォリオ3件、面接5回 | 10km完走1回、体重-6kg | 中上級スコア取得、1年間の英会話サークル完走 |
+| **3ヶ月** | 目次確定 + 1〜3章の初稿 | SQL講座修了 + 個人プロジェクト1件公開 | 週3ランを12週継続、5km30分 | スコア1段階アップ、シャドーイング12週 |
+| **今週** | 1章の構成 + 事例3つ収集 | 講義4回まで + データセット決定 | 火・木・土の30分ランを予約 | シャドーイング教材5本を確保、週5日20分を予約 |
+| **今日** | 1章の導入500字を書く | 講義1回を見てノート5行 | ランニングシューズを玄関に出す | シャドーイング教材1本を選び、3分だけ音読 |
 
-一番下の行を見てください。「今日」の枠に入っているのはすべて**30分で終わること**です。「靴を玄関に出す」が3年後の体脂肪15%と一本の線でつながっている — これがバックキャスティングの仕事のすべてです。漠然としていた「作家になりたい」が*「今朝500字を書く」*に変わります。
+一番下の行を見てください。「今日」の枠に入っているのはすべて**30分で終わること**です。「靴を玄関に出す」が3年後の体脂肪15%と一本の線でつながっていて、「シャドーイング3分」が3年後の上級スコアと一本の線でつながっている — これがバックキャスティングの仕事のすべてです。漠然としていた「作家になりたい」が*「今朝500字を書く」*に、漠然としていた「英語をなんとかしなきゃ」が*「今日シャドーイング3分」*に変わります。
+
+事例Dをもう少し分解すると、鍵になるのは3ヶ月の枠の「スコア1段階アップ」という数字です。語学スコアは段階制のことが多く、**1段階上げるのに8〜12週の継続的なインプットが必要**というのが、多くの学習者の体験談で繰り返し出てくる数字です。つまり「3年で上級」という未来の枠は、実際には「1年に1段階ずつ、12週サイクルを3回」に分解でき、今四半期の目標が「1段階アップ」である理由もそこにあります。未来のスコアそのものではなく、**四半期あたり1段階**が本当の単位です。
 
 ## 逆算の割り算表 — 未来の数字を「今日の分量」まで落とす
 
@@ -368,6 +386,20 @@ export const ja: Post = {
 | 目標だけ複数、進捗はゼロ | 四半期の目標が4つ以上 | 3つに絞って順位をつける。[OKR](/ja/blog/okr-goals)・[マンダラチャート](/ja/blog/mandalart-planner) |
 
 一度ずれた日のせいで地図ごと捨ててしまうのも、よくある失敗です。ルールは一つで十分 — **2回続けては休まない。** この優しさが[三日坊主](/ja/blog/beat-three-day-quitting)を越えさせます。
+
+## 目標設定法5つの比較 — バックキャスティングではなく他の方法を使うべきとき
+
+バックキャスティングは万能ではありません。期間が短く経路がすでに決まっていることに5つの枠を描くのは時間の無駄です。以下の表で、今の目標に合う道具を先に選んでください。
+
+| 方法 | 最も合う状況 | 時間軸 | 中心の問い | バックキャスティングとの関係 |
+| --- | --- | --- | --- | --- |
+| **バックキャスティング（夢の逆算設計）** | 3〜5年の大胆な目標で、経路自体が見えないとき | 3〜5年 → 今日 | 「その未来が来るには、その直前に何があるべきか？」 | この記事の方法。残り4つの上位レイヤー |
+| **[SMART目標](/ja/blog/smart-goal-setting)** | 四半期目標を実行可能な文に締めるとき | 1〜3ヶ月 | 「数字で測定可能か？」 | バックキャスティング③（3ヶ月）の枠を締める道具 |
+| **[OKR](/ja/blog/okr-goals)** | 複数の四半期目標の優先順位を揃えるとき | 四半期単位 | 「この3つが本当に重要な成果か？」 | バックキャスティング③の枠が4つ以上のとき3つに絞る道具 |
+| **[マンダラチャート](/ja/blog/mandalart-planner)** | 1つの目標を8つの実行領域に強制分解するとき | 即時〜四半期 | 「この目標に必要な8つの習慣は何か？」 | バックキャスティング①・②の枠を作る発想補助 |
+| **[バケットリスト](/ja/blog/bucket-list-how-to)** | 期限なしにやりたいことを集めておくとき | 無期限 | 「いつかやりたいことは何か？」 | バックキャスティングの原材料。期限を付けた瞬間に逆算設計の対象になる |
+
+最もよくある間違いは、**すべての目標に5つの枠を描こうとすること**です。来週の飲み会の店を決めるのにバックキャスティングは要りませんし、「3年で転職」のように経路が見えないことにはSMARTだけでは足りません。規模が大きく漠然としているほどバックキャスティング、すでに方向が決まっていて実行だけが残っているならSMARTかマンダラチャートに直接進んでください。
 
 ## 「今日」の枠を毎晩また開く方法
 

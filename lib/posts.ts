@@ -61,7 +61,7 @@ import { en as kimSeunghoEn, ja as kimSeunghoJa } from "./blog-i18n/kim-seungho-
 import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-inferiority";
 import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
 import { en as fiveMinReviewEn, ja as fiveMinReviewJa } from "./blog-i18n/five-minute-review";
-import { en as growthMindsetEn } from "./blog-i18n/growth-mindset";
+import { en as growthMindsetEn, ja as growthMindsetJa } from "./blog-i18n/growth-mindset";
 
 export type FaqItem = { q: string; a: string };
 
@@ -6262,7 +6262,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
     description:
       "백캐스팅(꿈 역설계)은 원하는 미래를 먼저 정하고 거기서 거꾸로 오늘 할 일을 설계하는 목표 설정법입니다. 포캐스팅과의 차이, 종이 한 장 30분 워크시트(5분+5분+5분+10분+5분), 5단계 실전법, 출간·이직·건강 사례 3개, 그리고 역설계가 무너지는 5가지 지점의 처방까지 정리했습니다.",
     date: "2026-06-19",
-    updated: "2026-09-10",
+    updated: "2026-09-18",
     category: "목표 설정",
     readMinutes: 16,
     emoji: "🛰️",
@@ -6347,17 +6347,19 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ### 5단계 — 오늘의 습관·할 일로 내린다 (5분)
 3개월 목표를 매주·매일 반복할 습관과 이번 주 할 일로 연결합니다. 여기서 비로소 미래가 **오늘의 행동**이 됩니다. 그리고 그 행동에는 **시각과 자리**를 주세요. "매일 글쓰기"가 아니라 "평일 06:30~07:00, 식탁에서 500자". 자리를 주는 방법은 [타임블로킹](/blog/time-blocking)에, 밤에 다음 날 한 가지를 미리 정해 두는 방법은 [저녁 루틴](/blog/evening-routine)에 있습니다.
 
-## 사례 3개 — 다섯 칸이 실제로 어떻게 채워지나
+## 사례 4개 — 다섯 칸이 실제로 어떻게 채워지나
 
-| 칸 | 사례 A: 출간 | 사례 B: 이직·연봉 | 사례 C: 건강 |
-| --- | --- | --- | --- |
-| **미래(3년)** | "내 이름의 책을 출간한 작가다" | "데이터 직무로 옮겨 연봉 30% 올렸다" | "매주 3회 10km, 체지방 15%" |
-| **1년 후** | 원고 초안 80%, 출판사 3곳 컨택 | 실무 포트폴리오 3건, 면접 5회 경험 | 10km 완주 1회, 체중 -6kg |
-| **3개월** | 목차 확정 + 1~3장 초고 | SQL 강의 수료 + 개인 프로젝트 1건 공개 | 주 3회 달리기 12주 유지, 5km 30분 |
-| **이번 주** | 1장 개요 + 사례 3개 수집 | 강의 4강까지 + 데이터셋 정하기 | 화·목·토 30분 달리기 예약 |
-| **오늘** | 1장 도입부 500자 쓰기 | 강의 1강 듣고 노트 5줄 | 운동화 꺼내 현관에 두기 |
+| 칸 | 사례 A: 출간 | 사례 B: 이직·연봉 | 사례 C: 건강 | 사례 D: 어학시험 |
+| --- | --- | --- | --- | --- |
+| **미래(3년)** | "내 이름의 책을 출간한 작가다" | "데이터 직무로 옮겨 연봉 30% 올렸다" | "매주 3회 10km, 체지방 15%" | "오픽 AL을 받고 해외 화상회의를 주도한다" |
+| **1년 후** | 원고 초안 80%, 출판사 3곳 컨택 | 실무 포트폴리오 3건, 면접 5회 경험 | 10km 완주 1회, 체중 -6kg | 오픽 IH 취득, 회화 스터디 1년 완주 |
+| **3개월** | 목차 확정 + 1~3장 초고 | SQL 강의 수료 + 개인 프로젝트 1건 공개 | 주 3회 달리기 12주 유지, 5km 30분 | 오픽 IM3 이상, 섀도잉 12주 |
+| **이번 주** | 1장 개요 + 사례 3개 수집 | 강의 4강까지 + 데이터셋 정하기 | 화·목·토 30분 달리기 예약 | 섀도잉 스크립트 5개 확보, 주 5일 20분 예약 |
+| **오늘** | 1장 도입부 500자 쓰기 | 강의 1강 듣고 노트 5줄 | 운동화 꺼내 현관에 두기 | 섀도잉 스크립트 1개, 3분만 따라 읽기 |
 
-가장 아랫줄을 보세요. 오늘 칸에 들어간 건 전부 **30분 안에 끝나는 일**입니다. "운동화를 현관에 둔다"가 3년 뒤 체지방 15%와 한 줄로 연결돼 있다는 것 — 이게 백캐스팅이 하는 일의 전부입니다. 막연했던 "작가가 되고 싶다"가 *"오늘 아침 500자 쓰기"* 로 바뀝니다.
+가장 아랫줄을 보세요. 오늘 칸에 들어간 건 전부 **30분 안에 끝나는 일**입니다. "운동화를 현관에 둔다"가 3년 뒤 체지방 15%와 한 줄로 연결돼 있고, "섀도잉 3분"이 3년 뒤 오픽 AL과 한 줄로 연결돼 있다는 것 — 이게 백캐스팅이 하는 일의 전부입니다. 막연했던 "작가가 되고 싶다"가 *"오늘 아침 500자 쓰기"* 로, 막연했던 "영어 좀 늘려야지"가 *"오늘 3분 섀도잉"* 으로 바뀝니다.
+
+사례 D를 좀 더 뜯어보면, 3개월 칸의 "IM3 이상"이라는 숫자가 핵심입니다. 오픽은 등급제(NL~AL)라 **한 단계를 올리는 데 보통 8~12주의 꾸준한 인풋**이 필요하다는 게 다수 학습자 경험담에서 반복되는 숫자입니다. 그러니 "3년 안에 AL"이라는 미래 칸은 사실 "1년에 한 단계씩, 3번의 12주 사이클"로 쪼개지는 셈이고, 이번 분기 목표가 "IM3"인 이유도 거기서 나옵니다. 미래의 등급이 아니라 **분기당 한 단계**가 진짜 단위입니다.
 
 ## 역산 나눗셈표 — 미래의 숫자를 '오늘의 분량'까지 내리는 법
 
@@ -6403,6 +6405,20 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 | 목표만 여러 개, 진도는 0 | 분기 목표가 4개 이상 | 3개로 줄이고 우선순위를 세운다. [OKR](/blog/okr-goals) · [만다라트](/blog/mandalart-planner) |
 
 한 번 밀린 날 때문에 지도 전체를 버리는 것도 흔한 실패입니다. 규칙은 하나면 충분합니다 — **두 번 연속은 거르지 않기.** 이 다정함이 [작심삼일](/blog/beat-three-day-quitting)을 넘게 합니다.
+
+## 목표설정법 5가지 비교 — 언제 백캐스팅이 아니라 다른 도구를 써야 하나
+
+백캐스팅이 만능은 아닙니다. 기간이 짧고 경로가 이미 정해진 일에 다섯 칸을 그리는 건 시간 낭비입니다. 아래 표로 지금 내 목표에 맞는 도구를 먼저 고르세요.
+
+| 방법 | 가장 잘 맞는 상황 | 시간축 | 핵심 질문 | 백캐스팅과의 관계 |
+| --- | --- | --- | --- | --- |
+| **백캐스팅(꿈 역설계)** | 3~5년짜리 담대한 목표, 경로 자체가 안 보일 때 | 3~5년 → 오늘 | "그 미래가 오려면 그 직전엔 무엇이 있어야 하나?" | 이 글의 방법. 나머지 4개의 상위 레이어 |
+| **[SMART 목표](/blog/smart-goal-setting)** | 분기 목표를 실행 가능한 문장으로 조일 때 | 1~3개월 | "숫자로 측정 가능한가?" | 백캐스팅 ③번 칸(3개월)을 조이는 도구 |
+| **[OKR](/blog/okr-goals)** | 여러 분기 목표의 우선순위를 정렬할 때 | 분기 단위 | "이 3개가 진짜 핵심결과인가?" | 백캐스팅 ③번 칸이 4개 이상일 때 3개로 추리는 도구 |
+| **[만다라트 계획표](/blog/mandalart-planner)** | 하나의 목표를 8개 실행 영역으로 강제 분해할 때 | 즉시~분기 | "이 목표를 이루려면 어떤 습관 8개가 필요한가?" | 백캐스팅 ①·②번 칸을 만드는 발상 보조 도구 |
+| **[버킷리스트](/blog/bucket-list-how-to)** | 기한 없이 하고 싶은 것들을 모아둘 때 | 무기한 | "언젠가 하고 싶은 게 뭔가?" | 백캐스팅의 원재료. 기한을 붙이는 순간 백캐스팅 대상이 됨 |
+
+가장 흔한 실수는 **모든 목표에 다섯 칸을 다 그리려는 것**입니다. 다음 주 회식 장소를 정하는 데 백캐스팅은 필요 없고, "3년 안에 이직"처럼 경로가 안 보이는 일에는 SMART 하나만으론 부족합니다. 규모가 크고 막막할수록 백캐스팅, 이미 방향은 있고 실행만 남았다면 SMART나 만다라트로 바로 가세요.
 
 ## 오늘 칸을 매일 밤 다시 여는 법
 
@@ -6676,7 +6692,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa];
+export const POSTS_JA: Post[] = [fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa, growthMindsetJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
