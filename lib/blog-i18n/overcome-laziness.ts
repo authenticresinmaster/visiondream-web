@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "Laziness isn't who you are. Most of the time it's a signal — low energy, low motivation, or a task that feels too big. A 60-second self-check for the five signal types, a 2-minute conversion table, a way to count friction in steps, and a 7-day plan to get moving again.",
   date: "2026-07-03",
-  updated: "2026-09-14",
+  updated: "2026-09-19",
   category: "Mindset",
-  readMinutes: 15,
+  readMinutes: 16,
   emoji: "🦥",
   cover: "/blog/overcome-laziness.svg",
   body: `You rested all weekend and Monday morning feels heavier than ever. You know what needs doing, you don't even hate it, and still your body won't carry you to the desk. In that moment we all reach for the fastest conclusion — "I'm just a lazy person."
@@ -182,6 +182,22 @@ Every tool in this article — and most of the ones you'll find elsewhere — is
 2. **Never deciding the bad-day minimum.** Habits don't break from missing once — they break from missing **twice in a row**. That third-day collapse is mapped out in [beating the three-day quit](/en/blog/beat-three-day-quitting).
 3. **Restarting on shame.** Self-blame raises the cost of starting. If avoidance keeps repeating, it's closer to emotional avoidance than laziness, and [how to stop procrastinating](/en/blog/stop-procrastinating) plus [rebuilding focus](/en/blog/improve-focus) are the more accurate fixes.
 
+## Implementation intentions — one layer more specific than an anchor
+
+An anchor habit answers *when*. An **implementation intention** — the "if-then plan" from psychologist Peter Gollwitzer — goes one step further and answers *when and what*, in one sentence, written down in advance: "If it's 7 a.m., then I put on my running shoes before checking my phone." Not a vague resolution ("I'll exercise more") but a trigger-action pair specific enough that there's nothing left to decide in the moment.
+
+A 2006 meta-analysis by Gollwitzer and Sheeran, pooling 94 independent studies, found that writing an if-then plan produced a **medium-to-large effect (d = 0.65)** on whether people actually followed through — one of the more reliable effects in behavior-change research, and far larger than simply deciding to try harder.
+
+| Tool | What it fixes | Format | Best for |
+| --- | --- | --- | --- |
+| Anchor habit | No trigger to remember by | "After [existing habit], I [new habit]" | Vague type — building a new routine from scratch |
+| **Implementation intention** | Decision fatigue at the moment of truth | "If [situation], then I [specific action]" | High-friction or afraid type — moments where you're likely to negotiate with yourself |
+| 2-minute rule | The starting threshold itself | Shrink the task to under 2 minutes | Any type, especially depleted |
+
+The extra power of an if-then plan comes from removing the decision itself. "I'll go for a walk today" still asks your evening self, already tired, to decide when and whether. "If it's 6 p.m. and I've closed my laptop, then I put on my shoes and walk to the corner and back" leaves no decision — just a trigger you either notice or don't. Write one if-then sentence tonight for tomorrow's hardest task, and check in a week later at your [weekly review](/en/blog/weekly-review-habit) whether the sentence you wrote actually held.
+
+This often overlaps with the afraid type from the self-check above. If what you need is practice reinterpreting failure as data, [building self-efficacy](/en/blog/self-efficacy) is worth a look; if it's less about starting and more about your footing wobbling underneath you, [building mental strength](/en/blog/mental-strength) covers that ground.
+
 ## 🌱 Doing this in the VisionDream app
 
 Laziness thrives in the gap between a big goal and today's blank moment. The VisionDream app closes that gap: the vision on your **dream map** travels down through the **four planner levels** (yearly, monthly, weekly, daily) to a single **belief · thought · action (B·T·A) check** on the Today tab, so whatever you're starting is already a two-minute item. There's a safeguard for the bad days too — **two streak protections are used automatically each month**, so missing one day doesn't break the chain, and anything unfinished **rolls over** to tomorrow. Every action you log grows the **success tree** and leaves a mark on the **calendar heatmap**, so "I'm someone who doesn't move" gets contradicted by your own data.
@@ -232,6 +248,14 @@ You were never lazy. You were tired, or unsure, or disconnected — and all thre
       q: "Do these methods still work if my schedule changes every day?",
       a: "Shift work and freelance schedules weaken anchor habits (which attach to an existing routine) and time blocking (which fixes a 'when'). Anchor to a place or sequence instead of a time — something that happens every day regardless of shift, like 'right after I clock in.' The 2-minute rule and friction counting (cutting steps) work regardless of schedule, so if your days are irregular, lead with those two.",
     },
+    {
+      q: "What's the difference between an anchor habit and an implementation intention?",
+      a: "An anchor habit answers *when* by attaching a new habit to an existing one ('after coffee, I stretch'). An implementation intention answers *when and what* in a single specific if-then sentence written down in advance ('if it's 6 p.m. and I've closed my laptop, then I put on my shoes and walk to the corner'). Naming the exact trigger and exact action removes the moment of negotiation — Gollwitzer and Sheeran's 2006 meta-analysis of 94 studies found if-then planning produced a medium-to-large effect (d = 0.65) on actually following through, notably larger than a plain intention to try harder.",
+    },
+    {
+      q: "Do if-then plans actually work, or is it just another productivity trick?",
+      a: "It's one of the more replicated findings in behavior-change research: a meta-analysis pooling 94 independent studies (Gollwitzer & Sheeran, 2006) found a medium-to-large effect size (d = 0.65) for implementation intentions across goals ranging from exercise to studying to healthy eating. The mechanism is simple — writing 'if [situation], then I [action]' in advance means your tired, distracted, future self doesn't have to decide anything in the moment, only notice the trigger.",
+    },
   ],
 };
 
@@ -241,9 +265,9 @@ export const ja: Post = {
   description:
     "怠けは、あなたの正体ではありません。多くの場合それはサイン — エネルギー切れ、意欲の低下、あるいは大きすぎるタスク。5種類のサインを60秒で見分ける自己診断表、2分ルール変換表、摩擦を歩数で数える方法、7日間の立て直し計画までまとめました。",
   date: "2026-07-03",
-  updated: "2026-09-14",
+  updated: "2026-09-19",
   category: "メンタル・実行力",
-  readMinutes: 15,
+  readMinutes: 16,
   emoji: "🦥",
   cover: "/blog/overcome-laziness.svg",
   body: `週末ずっと休んだのに、月曜の朝がいっそう重い。やることは分かっているし、死ぬほど嫌なわけでもないのに、体が机まで運ばれない。そんなとき私たちは、いちばん手早い結論に手を伸ばします — 「自分はただの怠け者だ」。
@@ -417,6 +441,22 @@ export const ja: Post = {
 2. **悪い日の最小バージョンを決めていない。** 習慣は一日抜けて崩れるのではなく、**二日連続で抜けて**崩れます。三日目に手を離す流れは[三日坊主を越える方法](/ja/blog/beat-three-day-quitting)にそのまま出てきます。
 3. **恥で再始動をかける。** 自責は始めるコストをむしろ上げます。先延ばしが繰り返されるなら、それは怠けより感情の回避に近く、[先延ばし癖をやめる方法](/ja/blog/stop-procrastinating)と[集中力を取り戻す方法](/ja/blog/improve-focus)のほうが正確な処方です。
 
+## 実行意図(if-thenプラン)— アンカーよりさらに具体的な道具
+
+アンカー習慣は「いつ」を決めてくれます。心理学者ピーター・ゴルヴィツァーが提唱した**実行意図(if-thenプラン)**はもう一歩進み、「いつ」と「何を」を一文にあらかじめ釘付けします。「朝7時になったら、スマホを見る前にまず運動靴を履く」のように。「もっと運動しよう」のような漠然とした決意ではなく、その瞬間もう決めることが何も残らないほど具体的な「引き金-行動」のペアです。
+
+ゴルヴィツァーとシーランが2006年に発表したメタ分析は、94件の独立した研究をまとめ、if-thenプランを事前に書いた人ほど実際に実行に移した度合いで**中〜大の効果量(d=0.65)**を確認しました。行動変容研究の中でも特に安定して再現される効果であり、「もっと頑張ろう」という単純な決意よりずっと大きな差です。
+
+| 道具 | 直す対象 | 形式 | 最も合う型 |
+| --- | --- | --- | --- |
+| アンカー習慣 | 思い出す引き金がない | 「[既存の行動]の後に、[新しい行動]」 | 手探り型 — 新しいルーティンをゼロから作るとき |
+| **実行意図(if-then)** | 決断の瞬間に訪れる意思決定疲れ | 「[状況]なら、[具体的な行動]をする」 | 摩擦型・恐れ型 — その瞬間、自分と妥協しやすい場面 |
+| 2分ルール | 始めるための敷居そのもの | タスクを2分以内に縮める | すべての型、特にエネルギー枯渇型 |
+
+if-thenプランの力は「決断」そのものをなくす点にあります。「今日は散歩でもしよう」は、すでに疲れた夜の自分にまた、いつ・するかしないかを問い直します。一方「夜6時になってノートパソコンを閉じたら、靴を履いて角まで歩いて戻る」には決めることがありません — 引き金に気づくかどうかだけが残ります。今夜、明日いちばん気が重いタスクひとつにif-then文をひとつだけ書いて、1週間後の[週次レビュー](/ja/blog/weekly-review-habit)でその文が実際に機能したか確認してみてください。
+
+これは上の自己診断表の恐れ型と重なることが多いです。失敗をデータとして読み直す練習が必要なら[自己効力感を育てる](/ja/blog/self-efficacy)を、始めることより足場そのものが揺らいでいるなら[メンタルを強くする](/ja/blog/mental-strength)を合わせてご覧ください。
+
 ## 🌱 ビジョンドリームのアプリで実行する
 
 怠けは、大きな目標と、今日の空白の瞬間との「すき間」で育ちます。ビジョンドリームのアプリはそのすき間を埋めます — ドリームマップのビジョンが**プランナー4段階(年間・月間・週間・日次)**を通って、今日タブの**信念・思考・行動(B・T・A)のチェック1つ**まで下りてくるので、始める対象がいつでも2分サイズです。崩れる日への備えもあります。**ストリーク保護が毎月2つ自動で**使われるので一日落としても連続は切れず、未完了の項目は翌日へ**自動繰り越し**されます。そして実践するたび**成功の木**が育ち、**カレンダーのヒートマップ**に跡が残るので、「自分は動かない人間だ」という一文が、自分の記録によって反証されます。
@@ -466,6 +506,14 @@ export const ja: Post = {
     {
       q: "毎日予定が変わる仕事でも、これらの方法は通用しますか?",
       a: "交代勤務やフリーランスのように一日の型が不規則だと、既存の行動に貼るアンカー習慣と「いつ」を固定するタイムブロッキングは効きにくくなります。その場合は時刻ではなく場所や順序にアンカーを貼ってください — 「出勤カードを押した直後」のように、勤務形態に関係なく毎回起きる動作を基準点にします。2分ルールと摩擦の計算法(歩数を減らす)は予定と無関係にそのまま働くので、予定が不規則な人はこの2つを優先してください。",
+    },
+    {
+      q: "アンカー習慣と実行意図(if-thenプラン)は何が違いますか?",
+      a: "アンカー習慣は新しい行動を既存の行動の後につなげて「いつ」を決めます(「コーヒーを飲んだ後、ストレッチ」)。実行意図はもう一歩進んで「いつ」と「何を」をひとつの具体的なif-then文であらかじめ釘付けします(「夜6時になってノートパソコンを閉じたら、靴を履いて角まで歩いて戻る」)。引き金と行動を正確に指定しておくと、その瞬間の「妥協」が消えます — ゴルヴィツァーとシーランの2006年メタ分析(94件の研究)は、if-thenプランが実際の実行率で中〜大の効果量(d=0.65)を出すことを確認しており、これは単に「もっと頑張ろう」という決意よりずっと大きな差です。",
+    },
+    {
+      q: "if-thenプランは本当に効果がありますか、それとも別の生産性トリックに過ぎませんか?",
+      a: "行動変容研究の中でも特に安定して再現される効果です。94件の独立した研究をまとめたメタ分析(ゴルヴィツァー・シーラン、2006年)は、運動から勉強、食習慣まで多様な目標で実行意図が中〜大の効果量(d=0.65)を出すことを確認しました。原理は単純です — 「[状況]なら[行動]をする」をあらかじめ書いておけば、疲れて気が散った未来の自分はその瞬間、何も決める必要なく引き金に気づくだけで済みます。",
     },
   ],
 };
