@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "A great morning isn't willed into being at dawn — it's built in ten minutes the night before. Tomorrow's first action in 3 minutes, screens off in 4, closing today in 2, vision in 10 seconds — plus a bedtime-anchored placement table, 30/15/5-minute versions, four collapse types with prescriptions, a 14-night scoreboard, return rules for weekends, travel and sick days, and versions for late shifts, parents and night owls.",
   date: "2026-07-02",
-  updated: "2026-09-08",
+  updated: "2026-09-20",
   category: "Habits",
   readMinutes: 21,
   emoji: "🌙",
@@ -355,6 +355,10 @@ You don't need a heroic morning. You need ten minutes that hand your morning-sel
       q: "Doesn't catching up on sleep at the weekend fix it?",
       a: "Your total hours go up, but recovery doesn't. Sleeping until 11 or 12 on Saturday and Sunday means no sleepiness arrives Sunday night, so you're up at 2am and Monday starts jet-lagged — which is why the person who slept *more* feels worse. Cap weekend drift at one hour past your weekday wake time and pay back the debt with a 20-minute nap before 3pm instead. Holding your wake time inside that one-hour band, on its own, visibly changes the weight of Monday morning within two weeks.",
     },
+    {
+      q: "What about an evening routine on a night I've had a drink?",
+      a: "Change one thing only: put hydration before screens-off. Alcohol can shorten the time it takes to fall asleep, but it's well documented to fragment REM sleep in the second half of the night — which is why 'I fell asleep fast but woke up heavier' is such a common pattern the morning after drinking. On those nights, keep step 1 (tomorrow's first-action line) and step 2 (phone charging outside the bedroom), and skip steps 3 and 4 entirely. A glass of water and the phone out of reach is enough for that night. As covered in [the science of self-control](/en/blog/self-control-science), not scoring that night's choice as a 'failure' is what actually makes it easy to return the next night.",
+    },
   ],
 };
 
@@ -364,7 +368,7 @@ export const ja: Post = {
   description:
     "良い朝は夜明けの気合いではなく、前の晩の10分で作られます。明日の最初の一手3分・画面を切る4分・今日を閉じる2分・ビジョン10秒 — 就寝時刻から逆算する配置表、30分/15分/5分の3サイズ、崩れ方4タイプ別の処方、14日間の記録表、週末・出張・体調不良の復帰ルール、残業型/子育て型/夜型の運用まで。",
   date: "2026-07-02",
-  updated: "2026-09-08",
+  updated: "2026-09-20",
   category: "習慣",
   readMinutes: 21,
   emoji: "🌙",
@@ -712,6 +716,10 @@ export const ja: Post = {
     {
       q: "週末に寝だめすれば回復しませんか?",
       a: "総睡眠時間は増えますが、回復はしません。土日に11時や12時まで寝ると日曜の夜に眠気が来ず、2時に横になることになって、月曜は時差ぼけ状態で始まります。たくさん寝たほうが疲れているのはそのためです。週末のずれは平日の起床時刻+1時間までに抑え、足りない分は15時前の20分の昼寝で返してください。起床時刻をこの1時間の幅に収めるだけでも、2週間で月曜の朝の重さがはっきり変わります。",
+    },
+    {
+      q: "お酒を飲んだ夜は、夜のルーティンをどうすればいいですか?",
+      a: "その夜は順番を一つだけ変えてください — 画面を切るより先に水分補給を。アルコールは入眠までの時間を短くする一方、後半のレム睡眠を断片化させ、浅い眠りを増やすことがよく知られています。「早く眠れた気がするのに朝が重い」という飲酒翌日によくある感覚はこのためです。この夜はステップ1(明日の最初の一手)とステップ2(スマホを寝室の外で充電)だけを守り、ステップ3・4は省略して構いません。水を一杯とスマホを遠ざけること、その二つで十分です。[節制の科学](/ja/blog/self-control-science)で扱ったように、その夜の選択を「失敗」として採点しないこと自体が、翌日の復帰を楽にします。",
     },
   ],
 };

@@ -62,6 +62,7 @@ import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-i
 import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
 import { en as fiveMinReviewEn, ja as fiveMinReviewJa } from "./blog-i18n/five-minute-review";
 import { en as growthMindsetEn, ja as growthMindsetJa } from "./blog-i18n/growth-mindset";
+import { en as selfControlEn } from "./blog-i18n/self-control-science";
 
 export type FaqItem = { q: string; a: string };
 
@@ -3899,7 +3900,7 @@ if-then 플랜의 힘은 '결정' 자체를 없앤다는 데서 나옵니다. "�
     description:
       "좋은 아침은 새벽의 의지가 아니라 전날 밤 10분에서 만들어집니다. 내일 첫 행동 3분 · 화면 끄기 4분 · 오늘 닫기 2분 · 비전 10초 — 어젯밤을 채점하는 4가지 숫자, 취침 90분 전부터의 분 단위 배치표, 무너지는 5가지 유형별 처방, 20분·10분·3분 버전 비교, 14박 한 장 기록표, 주말·출장·회식·아픈 날 복귀 규칙까지 정리했습니다.",
     date: "2026-07-02",
-    updated: "2026-09-08",
+    updated: "2026-09-20",
     category: "습관",
     readMinutes: 22,
     emoji: "🌙",
@@ -4227,6 +4228,10 @@ T-40이 지나도 머리가 안 꺼지고 생각이 계속 돌아간다면, 억�
       {
         q: "주말에 몰아서 자면 회복되지 않나요?",
         a: "총 수면시간은 늘지만 회복은 잘 안 됩니다. 토·일에 오전 11~12시까지 자면 일요일 밤에 졸림이 오지 않아 새벽 2시에 눕게 되고, 월요일 아침은 시차 적응에 실패한 상태로 시작합니다. 잠을 더 많이 잔 쪽이 더 피곤한 이유가 이것입니다. 주말 보정은 평일 기상 시각 대비 최대 1시간까지만 허용하고, 부족한 잠은 오후 3시 이전 20분 낮잠으로 갚으세요. 기상 시각만 ±1시간 안에 묶어도 2주면 월요일 아침의 무게가 눈에 띄게 달라집니다."
+      },
+      {
+        q: "술을 마신 날은 저녁 루틴을 어떻게 하나요?",
+        a: "그날은 순서를 하나만 바꾸세요 — 화면 끄기보다 수분 보충을 먼저 둡니다. 알코올은 잠들기까지 걸리는 시간은 줄이지만, 후반부 렘(REM) 수면을 조각내 얕은 잠을 늘리는 것으로 알려져 있습니다. 그래서 '일찍 잠든 것 같은데 아침이 더 무겁다'는 술 마신 다음 날 흔한 착시입니다. 이럴 땐 1단계(내일 첫 행동 한 줄)와 2단계(폰 거실 충전)만 지키고, 3·4단계는 생략해도 괜찮습니다. 물 한 잔과 폰 치우기, 이 두 가지가 그날 밤의 전부여도 충분합니다. 의지력·절제에 관해서는 [절제의 성공학](/blog/self-control-science)에서 다뤘듯, 그날의 선택을 '실패'로 채점하지 않는 것 자체가 다음 날 복귀를 쉽게 만듭니다.",
       },
     ],
   },
@@ -6809,7 +6814,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [selfControlEn, growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa, growthMindsetJa];
 
 export type PostLang = "ko" | "en" | "ja";
