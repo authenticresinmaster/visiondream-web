@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "The Mandal-Art chart is the 9×9 grid Shohei Ohtani used in high school: one real goal in the center, eight sub-goals around it, and eight concrete actions under each. It works because it breaks one huge goal into 64 doable actions. Here's how to fill every box — and how to keep the finished chart from dying in a drawer.",
   date: "2026-07-07",
-  updated: "2026-09-05",
+  updated: "2026-09-21",
   category: "Goals",
-  readMinutes: 17,
+  readMinutes: 19,
   emoji: "🧩",
   cover: "/blog/mandalart-planner.svg",
   body: `You've seen the grid — a big 9×9 square, a goal written dead center, sixty-four little boxes around it, all filled in tidy handwriting. It went viral as the sheet **Shohei Ohtani wrote at sixteen**, the one that supposedly turned a high-schooler into a two-way superstar. So you search for a template, print it out, stare at the sixty-four empty boxes... and freeze. The **Mandal-Art chart** isn't magic, and it isn't a coloring page. It's a thinking tool with one job: take a goal too big to act on and shatter it into actions small enough to do this week. Here's how to actually fill it — and why most people's charts die in a drawer.
@@ -195,6 +195,25 @@ Why seeing the checks accumulate matters is covered in [the power of consistency
 
 They work best in sequence: **spread it with Mandal-Art, sharpen the center with SMART, run three boxes a week through your weekly review, and keep the goal in front of you daily so it isn't forgotten.**
 
+## A worked example — a job-seeker's full 3-month grid
+
+Talking about it abstractly only gets you so far, so here's a chart someone actually finished. A hypothetical job-seeker, A, set "land a junior backend developer role at a tech company within 3 months" as the center goal. Below are three representative actions per pillar (a real chart has eight per pillar). The daily hour under "coding skill" only works if it's protected as an interruption-free block — see [deep work and focus](/en/blog/deep-work-focus) for how to carve that out.
+
+| Pillar | 3 representative actions (a real box has 8 per pillar) |
+| --- | --- |
+| Coding skill | One algorithm problem 8–9 a.m. on weekdays, weekly study-group review, log every solved problem in Notion |
+| Portfolio | Ship one side project this month, at least one GitHub commit a day, document why each tech choice was made in the README |
+| Résumé | Draft one application-essay question every Thursday evening, get study-group feedback every other Friday, update the target-company list with 5 new names weekly |
+| Interview prep | 30-minute mock interview with the study group Tue/Thu, review 3 CS flashcards daily, write up interview notes and apply them to the next one |
+| Network / information | Read and summarize one developer-community post weekly, request one coffee chat with someone in the field monthly, set up 3 job-alert feeds |
+| Physical condition | 20-minute walk Mon/Wed/Fri evening, no screens after 11 p.m., fixed wake-up time |
+| Mindset / recovery | 5-minute Sunday-evening review, apply to one more company the same day after a rejection, cap it at 30 minutes on hard days |
+| Finances / life | Check the monthly budget on the 1st, cancel unnecessary subscriptions, keep a 3-month living-expense buffer |
+
+What's worth noticing: half of the eight pillars — everything after "interview prep" — isn't pure coding skill. If physical condition, mindset, or finances collapse, the other four pillars don't matter enough to survive three months. Just as Ohtani's chart leaned on "luck" and "character" to hold up the rest, A's chart leans on "mindset/recovery" and "finances/life." Pulling this week's three squares from across all eight pillars, not just coding skill, also supports [identity-based habits](/en/blog/identity-based-habits) — building an identity as "someone who improves a little every day," not just "someone who's good at coding."
+
+Another thing to notice: **the difficulty is deliberately uneven across pillars.** "Coding skill" asks for an hour daily; "finances/life" only needs a monthly check. Trying to fill every pillar at the same intensity breaks the chart. Research on self-efficacy suggests that [stacking small wins first](/en/blog/self-efficacy) builds the capacity to take on harder challenges, so the recommended order is: spend the first two weeks banking checks on the easier pillars (finances/life, network/information), then start pulling the harder coding and interview squares from week three onward.
+
 ## How VisionDream keeps your grid alive
 
 VisionDream is, in a sense, a Mandal-Art chart that refuses to sit in a drawer. Its **DreamMap (Vision Mandala)** is literally the 9×9 grid — your core vision in the center, eight sub-goals around it, sixty-four actions fanning out — but every box is *live*. With one tap, the actions you wrote become tracked **goals and habits**, so the plan turns into a daily checklist instead of a pretty picture. Each check you complete grows your **Success Tree (S = B·T·A)**, giving those sixty-four boxes visible progress. And when a box feels stuck or too vague, the **AI coach** helps you translate it — "what's one action this week for that box?" A grid is only as good as what you do with it. Plant your vision, and the fruit will come. 🌱`,
@@ -231,6 +250,14 @@ VisionDream is, in a sense, a Mandal-Art chart that refuses to sit in a drawer. 
       q: "How does VisionDream help with a Mandal-Art chart?",
       a: "VisionDream's DreamMap (Vision Mandala) is the 9×9 grid itself, but every box is live. With one tap the actions you wrote become tracked goals and habits, so the plan becomes a daily checklist instead of a poster in a drawer. Each check grows your Success Tree for visible progress, and when a box feels vague the AI coach helps translate it into one concrete action for this week.",
     },
+    {
+      q: "Is it okay to fill all eight pillars with pure to-dos?",
+      a: "No. On Ohtani's chart, three of the eight pillars — luck, character, mentality — weren't baseball skills at all; roughly 37% of the 64 boxes had no direct link to how well he could throw. In the worked example above, half of the job-seeker's eight pillars were physical condition, mindset, finances, and network rather than coding skill. A chart built only from skill pillars runs fine for two weeks, then stalls the moment physical condition or mindset gives out. Reserve at least two pillars for people, attitude, or recovery.",
+    },
+    {
+      q: "Is it fine to make the eight pillars uneven in difficulty?",
+      a: "That's exactly what keeps a chart running long-term. In the worked example, 'coding skill' demanded an hour daily while 'finances/life' only needed a once-a-month check. Filling every pillar at the same intensity makes the day physically impossible. Spend the first one to two weeks banking checks on the lower-difficulty pillars to build the sense that 'this chart actually gets kept,' then start pulling harder squares from the tougher pillars in the weeks after.",
+    },
   ],
 };
 
@@ -240,9 +267,9 @@ export const ja: Post = {
   description:
     "マンダラート計画表は、大谷翔平が高校時代に書いた9×9のマス目。真ん中に本当の目標を一つ、周りに8つのサブ目標、その一つひとつの下に8つの具体的な行動。大きな目標を64の実行に分解するから効く。全マスの埋め方と、書き上げた表を引き出しで眠らせない方法を紹介します。",
   date: "2026-07-07",
-  updated: "2026-09-05",
+  updated: "2026-09-21",
   category: "目標",
-  readMinutes: 17,
+  readMinutes: 19,
   emoji: "🧩",
   cover: "/blog/mandalart-planner.svg",
   body: `あの表を見たことがあるはずです — 大きな9×9のマス目、真ん中に目標、周りに64の小さなマスがきれいな字で埋まっている。**大谷翔平が16歳で書いたシート**として広まり、高校生を二刀流のスターに変えたと言われるあの一枚です。だからテンプレートを探して印刷し、64個の空欄を前にして…固まる。**マンダラート計画表**は魔法でも塗り絵でもありません。一つの仕事を持つ思考ツールです — 行動に移すには大きすぎる目標を、今週できるほど小さな行動に砕くこと。ここでは実際の埋め方と、なぜ多くの人の表が引き出しで死ぬのかを紹介します。
@@ -429,6 +456,25 @@ export const ja: Post = {
 
 順番で使うのが一番です。**マンダラートで広げ、SMARTで中央を磨き、週次レビューで3マスずつ回し、忘れないように毎日目標に触れる。**
 
+## 実例 — 就活生の3か月マンダラート全体表
+
+言葉だけでは抽象的なので、実際に最後まで埋めた例を見せます。ある就活生Aさんが「3か月以内にIT企業でバックエンドエンジニアとして就職」を中央の目標に据えて書いた表です。8つの柱それぞれの代表的な行動を3つだけ抜き出しています（実際の表は柱ごとに8マスあります）。「コーディング力」の毎日1時間は、[ディープワーク（集中時間）の確保法](/ja/blog/deep-work-focus)で扱った、邪魔の入らないブロックとして確保しないと問題1問すら終わりません。
+
+| 柱 | 代表的な行動3つ（実際は柱ごとに8マス） |
+| --- | --- |
+| コーディング力 | 平日朝8時〜9時にアルゴリズム問題を1問解く、週1回スタディでレビューを受ける、解いた問題はNotionに整理 |
+| ポートフォリオ | 今月中にサイドプロジェクトを1つ公開、GitHubのコミットを毎日1つ以上、READMEに技術選定の理由を記録 |
+| 職務経歴書 | 木曜の夜にES設問を1つ下書き、隔週金曜にスタディ仲間からフィードバック、応募先企業リストを毎週5社更新 |
+| 面接対策 | 火・木の夜30分、模擬面接スタディ、CS知識カードを毎日3枚復習、面接後の振り返りを次の面接に反映 |
+| 人脈・情報 | 週1回、エンジニアコミュニティの記事を1本読んで要約、月1回、現職者にコーヒーチャットを申し込む、求人アラートを3件設定 |
+| 体力・体調 | 月・水・金の夜20分歩く、23時以降は画面を見ない、起床時刻を固定 |
+| メンタル・回復 | 毎週日曜の夜5分の振り返り、不採用でもその日のうちに応募先を1社追加、しんどい日は30分だけやって切り上げる |
+| 資金・生活 | 毎月1日に生活費の予算を確認、不要なサブスクを解約、3か月分の生活費バッファを確保 |
+
+注目してほしいのは、8つの柱のうち半分（面接対策以降の4つ）が純粋なコーディング力ではないという点です。体力・メンタル・資金が崩れれば、残り4つの柱がどれだけ良くても3か月は持ちません。大谷の表で「運」や「人間性」がそうだったように、Aさんの表でも「メンタル・回復」と「資金・生活」が残りを支える柱になっています。今週の3マスを選ぶときもコーディング力からだけでなく、8つの柱全体から均等に選ぶほうが[アイデンティティに基づく習慣](/ja/blog/identity-based-habits)づくりにも有利です——「コーディングが得意な人」ではなく「毎日少しずつ前進する人」というアイデンティティが表全体からつくられるからです。
+
+この例からもう一つ学べるのは、**柱ごとに行動の難易度をわざと変えている**ことです。「コーディング力」の柱は毎日1時間を要求しますが、「資金・生活」の柱は月1回で十分です。すべてのマスを同じ強度で埋めようとすると表は崩れます。自己効力感の研究によれば、[小さな成功体験が積み重なる](/ja/blog/self-efficacy)ことでより難しい挑戦を受け入れる力が育つので、最初の2週間は難易度の低い柱（資金・生活、人脈・情報）からチェックを積み、3週目からコーディング・面接の難しいマスを引き出す順番をおすすめします。
+
 ## ビジョンドリームが表を生かし続ける方法
 
 ビジョンドリームは、ある意味、引き出しに眠るのを拒むマンダラート計画表です。その**夢の地図(ビジョン曼荼羅)**はまさに9×9のグリッド — 中央にあなたの核となるビジョン、周りに8つのサブ目標、64の行動 — ただしどのマスも*生きています*。ワンタップで、書いた行動が追跡される**目標と習慣**になり、計画がきれいな絵ではなく毎日のチェックリストに変わります。チェックするたびに**成功の木(S = B・T・A)**が育ち、64のマスに目に見える進捗を与えます。マスが行き詰まったり漠然としたら、**AIコーチ**が翻訳を手伝います — 「そのマスの今週の行動一つは?」。グリッドは、それで何をするか次第です。ビジョンを植えれば、必ず実がなります。🌱`,
@@ -464,6 +510,14 @@ export const ja: Post = {
     {
       q: "ビジョンドリームはマンダラート計画表にどう役立ちますか?",
       a: "ビジョンドリームの夢の地図(ビジョン曼荼羅)は9×9のグリッドそのものですが、どのマスも生きています。ワンタップで書いた行動が追跡される目標と習慣になり、計画が引き出しのポスターではなく毎日のチェックリストになります。チェックのたびに成功の木が育って進捗が見え、マスが漠然としたらAIコーチが今週の具体的な行動一つに翻訳を手伝います。",
+    },
+    {
+      q: "8つの柱を全部「やるべきこと」だけで埋めてもいいですか?",
+      a: "いけません。大谷の表では8つの柱のうち3つ(運・人間性・メンタル)は野球の技術ではなく、64マスの約37%が球の速さと直接関係ありませんでした。上の実例でも、就活生の8つの柱のうち半分はコーディング力ではなく体力・メンタル・資金・人脈でした。技術系の柱だけで埋めると最初の2週間は順調でも、体力かメンタルが崩れた瞬間に全体が止まります。最低2つの柱は必ず人・態度・回復の領域に割り当ててください。",
+    },
+    {
+      q: "8つの柱の難易度をわざと変えてもいいですか?",
+      a: "むしろそのほうが表は長く回ります。実例でも「コーディング力」の柱は毎日1時間を要求しましたが、「資金・生活」の柱は月1回の点検で十分でした。すべての柱を同じ強度で埋めようとすると、1日の時間が物理的に足りなくなります。最初の1〜2週間は難易度の低い柱からチェックを積んで「この表は守られる」という感覚をまず作り、その後の週から難しい柱のマスを1つずつ引き出す順番をおすすめします。",
     },
   ],
 };

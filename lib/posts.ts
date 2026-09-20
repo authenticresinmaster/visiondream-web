@@ -62,7 +62,7 @@ import { en as inferiorityEn, ja as inferiorityJa } from "./blog-i18n/overcome-i
 import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-performer-system";
 import { en as fiveMinReviewEn, ja as fiveMinReviewJa } from "./blog-i18n/five-minute-review";
 import { en as growthMindsetEn, ja as growthMindsetJa } from "./blog-i18n/growth-mindset";
-import { en as selfControlEn } from "./blog-i18n/self-control-science";
+import { en as selfControlEn, ja as selfControlJa } from "./blog-i18n/self-control-science";
 
 export type FaqItem = { q: string; a: string };
 
@@ -2191,9 +2191,9 @@ export const POSTS: Post[] = [
     description:
       "만다라트 계획표는 오타니 쇼헤이가 고등학생 때 쓴 9×9 표입니다 — 한가운데 진짜 목표 하나, 둘레 8칸에 세부 목표, 그 각각 아래 다시 8개의 구체적 행동. 큰 목표를 64개의 실행으로 쪼개기 때문에 통합니다. 빈칸을 전부 채우는 법과, 다 쓴 표를 서랍에서 죽이지 않는 법을 정리했습니다.",
     date: "2026-07-07",
-    updated: "2026-09-05",
+    updated: "2026-09-21",
     category: "목표·성장",
-    readMinutes: 17,
+    readMinutes: 19,
     emoji: "🧩",
     cover: "/blog/mandalart-planner.svg",
     body: `그 표, 본 적 있을 겁니다 — 커다란 9×9 정사각형, 한가운데 목표 하나, 그 둘레로 64개의 작은 칸이 반듯한 글씨로 빼곡히 채워진 그림이요. **오타니 쇼헤이가 열여섯에 쓴 시트**로 퍼지면서, 고등학생을 이도류 스타로 만들었다는 바로 그 한 장입니다. 그래서 양식을 찾아 인쇄하고, 64개의 빈칸을 앞에 두고… 멈춥니다. **만다라트 계획표**는 마법도, 색칠공부도 아닙니다. 하나의 일을 하는 사고 도구예요 — 행동에 옮기기엔 너무 큰 목표를, 이번 주에 해낼 만큼 작은 행동으로 부숴 주는 것. 여기서는 실제로 칸을 채우는 법과, 왜 대부분의 표가 서랍에서 죽는지를 정리했습니다.
@@ -2384,6 +2384,25 @@ export const POSTS: Post[] = [
 
 가장 좋은 건 순서로 쓰는 것입니다. **만다라트로 펼치고 → SMART로 중앙을 다듬고 → 주간 리뷰로 3칸씩 굴리고 → 매일 한 줄 써서 잊히지 않게 한다.**
 
+## 실전 예시 — 취업준비생의 3개월 만다라트 전체 표
+
+말로만 하면 추상적이니, 실제로 한 장을 끝까지 채운 예시를 보여드립니다. 가상의 취업준비생 A씨가 "3개월 안에 IT기업 신입 백엔드 개발자로 취업"을 중앙 목표로 잡고 쓴 표입니다. 8기둥과 각 기둥의 대표 행동 2~3개만 추려서 보여드립니다(실제 표는 기둥마다 8칸입니다). "코딩 실력" 기둥의 매일 1시간은 [딥워크(몰입 시간) 확보법](/blog/deep-work-focus)에서 다룬 방해 없는 블록으로 잡아야 문제 1개가 실제로 끝납니다.
+
+| 기둥 | 대표 행동 3개 (실제로는 칸마다 8개) |
+| --- | --- |
+| 코딩 실력 | 평일 아침 8시~9시 알고리즘 문제 1개 풀기, 주 1회 스터디에서 리뷰받기, 완료한 문제는 노션에 정리 |
+| 포트폴리오 | 이번 달 안에 사이드 프로젝트 1개 배포, 깃허브 커밋 메시지 매일 1줄 이상, 프로젝트 README에 기술 선택 이유 기록 |
+| 이력서·자소서 | 목요일 저녁 자소서 문항 1개씩 초안, 격주 금요일 스터디원 피드백 받기, 지원 기업 리스트 매주 5곳 업데이트 |
+| 면접 대비 | 화·목 저녁 30분 모의면접 스터디, CS 지식 카드 매일 3장 복습, 면접 후기 정리해서 다음 면접에 반영 |
+| 네트워크·정보 | 주 1회 개발자 커뮤니티 글 1개 읽고 요약, 월 1회 현직자 커피챗 신청, 채용 공고 알림 3곳 설정 |
+| 체력·컨디션 | 월·수·금 저녁 20분 걷기, 23시 이후 화면 끄기, 아침 기상 시각 고정 |
+| 멘탈·회복 | 매주 일요일 저녁 5분 회고, 탈락해도 그날 안에 지원 기업 1곳 추가, 힘든 날은 30분만 하고 접기 |
+| 재정·생활 | 매달 1일 생활비 예산 확인, 불필요한 구독 서비스 해지, 3개월 치 생활비 버퍼 확보 |
+
+이 표에서 주목할 점은 8기둥 중 절반(면접 대비 이후 4개)이 순수 코딩 실력이 아니라는 겁니다. 체력·멘탈·재정이 무너지면 나머지 4기둥이 아무리 좋아도 3개월을 버티지 못합니다. 오타니의 표에서 "운"과 "인간성"이 그랬듯, A씨의 표에서도 "멘탈·회복"과 "재정·생활"이 나머지를 지탱하는 기둥입니다. 이번 주 3칸을 고를 때도 코딩 실력에서만 고르지 말고, 8기둥 전체에서 골고루 가져오는 게 [정체성 기반 습관](/blog/identity-based-habits) 형성에도 유리합니다 — "코딩을 잘하는 사람"이 아니라 "매일 조금씩 나아지는 사람"이라는 정체성이 표 전체에서 만들어지기 때문입니다.
+
+이 예시에서 또 하나 배울 점은 **행동의 난이도를 기둥마다 다르게 잡았다는 것**입니다. "코딩 실력" 기둥은 매일 1시간을 요구하지만, "재정·생활" 기둥은 월 1회로 충분합니다. 모든 칸을 똑같은 강도로 채우려 하면 표가 무너집니다. 자기효능감 연구에 따르면 사람은 [작은 성공 경험이 쌓일 때](/blog/self-efficacy) 더 어려운 도전을 받아들일 힘이 생기므로, 처음 2주는 난이도가 낮은 기둥(재정·생활, 네트워크·정보)부터 체크를 쌓고, 3주차부터 코딩·면접 기둥의 어려운 칸을 끌어오는 순서를 권합니다.
+
 ## 비전드림이 당신의 표를 살려 두는 법
 
 비전드림은, 어떤 의미에서 서랍에 앉아 있기를 거부하는 만다라트 계획표입니다. 그 **꿈지도(비전 만다라)**가 바로 9×9 격자예요 — 한가운데 당신의 핵심 비전, 둘레에 세부 목표 8개, 뻗어 나가는 행동 64개 — 다만 모든 칸이 *살아 있습니다*. 한 번 탭하면 당신이 적은 행동이 추적되는 **목표와 습관**이 되어, 계획이 예쁜 그림이 아니라 매일의 체크리스트로 바뀝니다. 체크할 때마다 **성공의 나무(S = B·T·A)**가 자라, 그 64개의 칸에 눈에 보이는 진척을 줍니다. 그리고 어떤 칸이 막히거나 막연할 땐, **AI코치**가 번역을 도와줘요 — "그 칸의 이번 주 행동 하나는 뭘까요?". 격자는 그걸로 무엇을 하느냐에 달려 있습니다. 비전을 심으면, 반드시 열매가 열립니다. 🌱`,
@@ -2419,6 +2438,14 @@ export const POSTS: Post[] = [
       {
         q: "비전드림은 만다라트 계획표에 어떻게 도움이 되나요?",
         a: "비전드림의 꿈지도(비전 만다라)가 9×9 격자 그 자체지만, 모든 칸이 살아 있습니다. 한 번 탭하면 적은 행동이 추적되는 목표와 습관이 되어, 계획이 서랍 속 포스터가 아니라 매일의 체크리스트가 됩니다. 체크할 때마다 성공의 나무가 자라 진척이 눈에 보이고, 칸이 막연할 땐 AI코치가 이번 주의 구체적 행동 하나로 번역을 도와줍니다.",
+      },
+      {
+        q: "8기둥을 전부 '해야 할 일'로만 채워도 되나요?",
+        a: "안 됩니다. 오타니의 표에서 8기둥 중 3개(운·인간성·멘탈)는 야구 기술이 아니었습니다 — 64칸 중 약 37%가 '무엇을 잘하느냐'와 직접 상관없는 칸이었죠. 실전 예시의 취업준비생 표에서도 8기둥 중 절반이 코딩 실력이 아니라 체력·멘탈·재정·네트워크였습니다. 기술 기둥만 채우면 초반 2주는 잘 굴러가다가, 체력이나 멘탈이 무너지는 순간 전체가 멈춥니다. 최소 2개 기둥은 반드시 사람·태도·회복 영역에 배정하세요.",
+      },
+      {
+        q: "8기둥의 난이도를 다르게 잡아도 되나요?",
+        a: "오히려 그래야 표가 오래 굴러갑니다. 실전 예시에서도 '코딩 실력' 기둥은 매일 1시간을 요구하지만 '재정·생활' 기둥은 월 1회 점검으로 충분했습니다. 모든 기둥을 같은 강도로 채우면 하루가 물리적으로 부족해집니다. 처음 1~2주는 난이도가 낮은 기둥부터 체크를 쌓아 '이 표는 지켜진다'는 감각을 먼저 만들고, 그다음 주부터 어려운 기둥의 칸을 하나씩 끌어오는 순서를 권합니다.",
       },
     ],
   },
@@ -6815,7 +6842,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
 export const POSTS_EN: Post[] = [selfControlEn, growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
-export const POSTS_JA: Post[] = [fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa, growthMindsetJa];
+export const POSTS_JA: Post[] = [selfControlJa, fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa, growthMindsetJa];
 
 export type PostLang = "ko" | "en" | "ja";
 const BY_LANG: Record<PostLang, Post[]> = { ko: POSTS, en: POSTS_EN, ja: POSTS_JA };
