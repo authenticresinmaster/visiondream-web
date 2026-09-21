@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Mental strength isn't a personality you're born with — it's a muscle. And the muscle isn't 'never getting shaken'; it's how fast you come back. Here's a 4-line log that turns recovery into a number, the 90-second rule for the wave that actually passes, a prescription table for the four types of being shaken, an 8-row feeling-vs-fact conversion table, a 5-question self-check and a 4-week drill — plus the line where this stops being training and becomes a reason to see a professional.",
   date: "2026-07-03",
-  updated: "2026-09-12",
+  updated: "2026-09-22",
   category: "Mindset",
   readMinutes: 13,
   emoji: "🛡️",
@@ -179,7 +179,7 @@ Trying to change everything at once collapses in week one. **Add one per week.**
 | **Week 3** | **Set the floor** — write down 3 actions that work at intensity 8 | 10 min (once) | Times you reached for one | At least 1 use |
 | **Week 4** | **4-line log** — four lines on a shaken evening, compute recovery time | 2 min | Entries logged | 2+ entries accumulated |
 
-What you look for in week 4 isn't "was I shaken less." It's **is recovery time lower than entry #1**. If intensity held steady but the clock shrank, the drill worked. Folding those four lines into Sunday's [weekly review habit](/en/blog/weekly-review-habit) means you don't have to carve out separate time for it.
+What you look for in week 4 isn't "was I shaken less." It's **is recovery time lower than entry #1**. If intensity held steady but the clock shrank, the drill worked. Folding those four lines into Sunday's [weekly review habit](/en/blog/weekly-review-habit) means you don't have to carve out separate time for it. Sticking with these four weeks to the end is the exact same skill covered in [grit and consistency](/en/blog/grit-consistency).
 
 ## After Week 4 — what actually changes by Week 8
 
@@ -192,7 +192,7 @@ Finishing the 4-week drill isn't the end. Keep the same 4-line log going for fou
 | 5–6 | 6.9 | 3 hours | 85% |
 | 7–8 | 6.8 | **1.5 hours** | 91% |
 
-Two things stand out. First, intensity barely moves past week 4 (7.4 → 6.8) — that's not failure, that's just how it works. Second, recovery time keeps shrinking, from 8 hours at week 4 to 1.5 hours at week 8 — the gap between *knowing* the protocol and *reaching for it on reflex*. Watch the completion rate too: it climbs from 61% to 91%, because the habit of logging itself strengthens the recovery reflex. Tack the log onto the end of your evening routine and it merges naturally with the three lines of a [5-minute daily review](/en/blog/five-minute-review) — just add one more line for recovery time next to what went well, what didn't, and tomorrow's step.
+Two things stand out. First, intensity barely moves past week 4 (7.4 → 6.8) — that's not failure, that's just how it works. Second, recovery time keeps shrinking, from 8 hours at week 4 to 1.5 hours at week 8 — the gap between *knowing* the protocol and *reaching for it on reflex*. Watch the completion rate too: it climbs from 61% to 91%, because the habit of logging itself strengthens the recovery reflex. Tack the log onto the end of your evening routine and it merges naturally with the three lines of a [5-minute daily review](/en/blog/five-minute-review) — just add one more line for recovery time next to what went well, what didn't, and tomorrow's step. If you feel the urge to quit somewhere inside week 4, that's usually a sign the design is too big, not that your will is too weak — the minimum-unit principle in [beating the three-day quit](/en/blog/beat-three-day-quitting) carries over directly.
 
 ## Burnout or depression — the line where you should see someone
 
@@ -209,11 +209,26 @@ Everything above is the training zone. But **there is a zone training can't reac
 
 If **two or more rows land on the right and it's run past two weeks**, that isn't resilience training — it's care. Seeing a psychiatrist or a counselor isn't admitting failure; it's the fastest available way to shorten recovery time. Hurting and being ill are different things, and the second one gets longer the harder you push it alone.
 
+### A 30-second self-check for when you're not sure
+
+If checking each row above feels like too much work, answer these six yes/no questions instead.
+
+| # | Question | Yes | No |
+| --- | --- | --- | --- |
+| 1 | I'm just as flat after work, on weekends, and in hobbies | 1 | 0 |
+| 2 | This has run nearly every day for more than two weeks | 1 | 0 |
+| 3 | I don't feel restored even after sleeping | 1 | 0 |
+| 4 | Things I used to enjoy don't register anymore | 1 | 0 |
+| 5 | My self-blame has shifted from "I didn't do this well" to "something is wrong with me as a person" | 1 | 0 |
+| 6 | My appetite or weight has changed noticeably | 1 | 0 |
+
+**2 or fewer "yes" answers** — this is still the training zone covered by the 4-week drill above. **3 or more, or it's run past two weeks** — make today's floor action a single call to book an appointment.
+
 ## Your vision is the anchor
 
 Here's what keeps a resilient person from being blown around by every wave: they're anchored to something bigger than the moment. When you know the direction you're growing toward, a bad day stays what it is — *a day* — instead of becoming a referendum on your whole life. The setback shrinks against the size of the vision behind it. Without that anchor, every gust feels like it might be the one that decides everything.
 
-This is why people who bounce back well almost always have a clear sense of *why* they keep going. The vision doesn't make the shaking stop; it makes the shaking smaller. It gives your recovery a destination to return **to**, so getting back up isn't just enduring — it's resuming. (A steady [long-term motivation system](/en/blog/motivation-system) is what keeps that anchor from drifting over time.)
+This is why people who bounce back well almost always have a clear sense of *why* they keep going. The vision doesn't make the shaking stop; it makes the shaking smaller. It gives your recovery a destination to return **to**, so getting back up isn't just enduring — it's resuming. (A steady [long-term motivation system](/en/blog/motivation-system) is what keeps that anchor from drifting over time.) Mapping that direction onto a single page ahead of time is what [the Mandal-Art chart](/en/blog/mandalart-planner) is for.
 
 ## Three common misconceptions
 
@@ -258,6 +273,10 @@ You were never supposed to be someone who never gets shaken. You were meant to b
       a: "A few lines help. Is the flatness bound to specific work or people, or does it follow you into evenings, weekends and hobbies? Does it rise and fall within days, or has it run nearly every day for more than two weeks? Does sleep restore anything? Do things you used to love still register? And is your self-blame shaped like 'I didn't do this task well' or 'there's something wrong with me as a person'? If two or more of those land on the harder side and it's been over two weeks, that's a matter for care, not training. Seeing a professional isn't a failure — it's the fastest way to shorten recovery.",
     },
     {
+      q: "I can't tell if this is burnout or just being tired — is there a quick way to check?",
+      a: "A 6-question self-check takes about 30 seconds: are you just as flat after work, on weekends, and in hobbies; has it run nearly every day for more than two weeks; do you feel restored after sleep; do things you used to enjoy still register; has your self-blame shifted from 'I didn't do this well' to 'something is wrong with me as a person'; and has your appetite or weight changed noticeably. Two or fewer yes answers is still the training zone covered by the 4-week drill in this article. Three or more, or it's run past two weeks, is a signal to book an appointment rather than keep self-diagnosing.",
+    },
+    {
       q: "How does VisionDream help build resilience?",
       a: "It gives your recovery a home. The Today tab's belief, thought and action checks turn 'take one small step' into a single box you can press even on a shaken day, and the evidence stacks up on the calendar heatmap. Miss a day and two streak-protection passes are used automatically each month, so the streak survives — a structural guard against the all-or-nothing collapse. The success tree shows, in leaf and branch, that you always come back, and Sunday's weekly review covers the same ground as a recovery log.",
     },
@@ -274,7 +293,7 @@ export const ja: Post = {
   description:
     "メンタルの強さは、生まれ持った性格ではなく筋肉です。そしてその筋肉は「決して揺れない」ことではなく、揺れた後に「どれだけ早く戻るか」。回復を数字に変える4行ログ、感情の波が過ぎる90秒ルール、揺れの4タイプ別処方表、感情と事実を分ける変換表8行、5問の自己診断と4週間の訓練表、そして訓練ではなく受診を考えるべき境界線まで整理しました。",
   date: "2026-07-03",
-  updated: "2026-09-12",
+  updated: "2026-09-22",
   category: "メンタル・実行力",
   readMinutes: 13,
   emoji: "🛡️",
@@ -447,7 +466,7 @@ export const ja: Post = {
 | **3週目** | **最低ライン確定** — 強度8でもできる行動を3つ先に書いておく | 10分(1回) | 実際に取り出して使った回数 | 1回以上使用 |
 | **4週目** | **4行ログ** — 揺れた日の夜に4行、回復時間を計算 | 2分 | 記録した回数 | 2回以上の蓄積 |
 
-4週目に見るのは「揺れが減ったか」ではありません。**回復時間が1回目より縮んだか**です。強度がそのままでも時間が縮んだなら、訓練は成功しています。この4行を日曜にまとめて見る形は[週次レビューの習慣](/ja/blog/weekly-review-habit)にそのまま載せれば、別に時間を取る必要がありません。
+4週目に見るのは「揺れが減ったか」ではありません。**回復時間が1回目より縮んだか**です。強度がそのままでも時間が縮んだなら、訓練は成功しています。この4行を日曜にまとめて見る形は[週次レビューの習慣](/ja/blog/weekly-review-habit)にそのまま載せれば、別に時間を取る必要がありません。この4週間をやり抜く力そのものが、[やり抜く力と継続](/ja/blog/grit-consistency)で扱った原理と同じです。
 
 ## 4週目以降 — 8週目までに実際に変わること
 
@@ -460,7 +479,7 @@ export const ja: Post = {
 | 5〜6週目 | 6.9 | 3時間 | 85% |
 | 7〜8週目 | 6.8 | **1.5時間** | 91% |
 
-二つ見えてきます。まず、強度は4週目以降もほとんど下がりません(7.4→6.8) — これは失敗ではなく、もともとそういうものです。次に、回復時間は4週目の8時間から8週目の1.5時間へさらに縮みますが、これはプロトコルを「知っている」ことと「反射的に使える」ことの差です。ログ記入率自体も61%から91%へ上がる点にも注目してください — 記録し続ける習慣そのものが回復の反射を強化します。このログを夜のルーティンの最後にくっつければ、[1日5分の振り返り](/ja/blog/five-minute-review)の三行と自然に合わさります — うまくいったこと・うまくいかなかったこと・明日の一手に、回復時間の一行を足すだけです。
+二つ見えてきます。まず、強度は4週目以降もほとんど下がりません(7.4→6.8) — これは失敗ではなく、もともとそういうものです。次に、回復時間は4週目の8時間から8週目の1.5時間へさらに縮みますが、これはプロトコルを「知っている」ことと「反射的に使える」ことの差です。ログ記入率自体も61%から91%へ上がる点にも注目してください — 記録し続ける習慣そのものが回復の反射を強化します。このログを夜のルーティンの最後にくっつければ、[1日5分の振り返り](/ja/blog/five-minute-review)の三行と自然に合わさります — うまくいったこと・うまくいかなかったこと・明日の一手に、回復時間の一行を足すだけです。4週目のどこかでやめたくなったら、それは意志が弱いからではなく設計が大きすぎるサインであることが多いです — [三日坊主に勝つ習慣設計](/ja/blog/beat-three-day-quitting)の最小単位の原則がそのまま使えます。
 
 ## 燃え尽きなのか、うつなのか — 専門家に行くべき線
 
@@ -477,11 +496,26 @@ export const ja: Post = {
 
 右の列が**2行以上あてはまり、2週間を超えて続くなら**、それはレジリエンス訓練の対象ではなく医療の対象です。精神科やカウンセリングに行くのは失敗を認めることではなく、回復時間を縮める最も速い選択です。心が痛むことと心が病むことは違い、後者は一人で押し切るほど長引きます。
 
+### 30秒の自己診断 — 迷ったときにすぐ確認
+
+上の表を一行ずつ照らし合わせるのが面倒なら、次の6問に「はい/いいえ」で答えてみてください。
+
+| # | 質問 | はい | いいえ |
+| --- | --- | --- | --- |
+| 1 | 退勤後・週末・趣味の前でも同じように無気力だ | 1 | 0 |
+| 2 | 2週間以上、ほぼ毎日この状態だ | 1 | 0 |
+| 3 | 眠っても回復した感じがない | 1 | 0 |
+| 4 | 以前好きだったものにも反応がない | 1 | 0 |
+| 5 | 自責が「今回の仕事ができなかった」を超えて「存在そのものが問題だ」に向かっている | 1 | 0 |
+| 6 | 食欲や体重がはっきり変わった | 1 | 0 |
+
+**「はい」が2個以下**なら、この記事の4週間の訓練表で扱える範囲です。**「はい」が3個以上**、または2週間を超えて続くなら、今日の最低ラインの行動を「相談の予約電話をかける」一つに決めてもいいでしょう。
+
 ## ビジョンが錨(いかり)になる
 
 回復力のある人が、あらゆる波に翻弄されずにいられる理由 — それは、その瞬間より大きな何かに錨を下ろしているからです。自分がどの方向へ育とうとしているかを知っていると、悪い日はそのまま — *一日* — にとどまり、人生全体への審判にはなりません。挫折は、その背後にあるビジョンの大きさに対して小さく縮みます。その錨がなければ、どの突風も「すべてを決める一撃」に感じられてしまいます。
 
-だからこそ、よく立ち直る人はほぼ必ず、なぜ続けるのかという*理由*をはっきり持っています。ビジョンは揺れを止めはしませんが、揺れを小さくします。回復に、戻る**先**の目的地を与えてくれる。だから立ち上がることが、ただ耐えることではなく、再開することになります。(その錨が時間とともに流されないよう保つのが、安定した[長続きする動機づけの仕組み](/ja/blog/motivation-system)です。)
+だからこそ、よく立ち直る人はほぼ必ず、なぜ続けるのかという*理由*をはっきり持っています。ビジョンは揺れを止めはしませんが、揺れを小さくします。回復に、戻る**先**の目的地を与えてくれる。だから立ち上がることが、ただ耐えることではなく、再開することになります。(その錨が時間とともに流されないよう保つのが、安定した[長続きする動機づけの仕組み](/ja/blog/motivation-system)です。)その方向を一枚の表にあらかじめ描いておく方法は[マンダラート計画表](/ja/blog/mandalart-planner)にまとめてあります。
 
 ## よくある誤解3つ
 
@@ -524,6 +558,10 @@ export const ja: Post = {
     {
       q: "ただつらいだけなのか、うつなのか、どう見分けますか?",
       a: "いくつかの線で分けて見られます。特定の仕事や人の前でだけ沈むのか、退勤後・週末・趣味でも同じなのか。数日で上下するのか、2週間以上ほぼ毎日続いているのか。眠れば少しでも回復するか。好きだったものにまだ反応があるか。そして自責が「今回の仕事ができなかった」なのか「存在そのものが間違っている」なのか。後者側にあてはまる項目が二つ以上あり、2週間を超えて続くなら、それは訓練ではなく医療の領域です。専門家を訪ねるのは失敗ではなく、回復時間を縮める最も速い選択です。",
+    },
+    {
+      q: "今のが燃え尽きなのか、ただ疲れているだけなのか分かりません — 手早く確認する方法はありますか?",
+      a: "6問の自己診断で30秒です。退勤後・週末・趣味の前でも同じように無気力か、2週間以上ほぼ毎日その状態か、眠っても回復した感じがないか、以前好きだったものに反応がないか、自責が「今回の仕事ができなかった」を超えて「存在そのものが問題だ」に向かっているか、食欲・体重がはっきり変わったかを見ます。「はい」が2個以下ならこの記事の4週間の訓練表で扱える範囲、3個以上か2週間を超えて続くなら、自己診断で終わらせず相談・受診の予約が必要な信号です。",
     },
     {
       q: "ビジョンドリームは回復力を育てるのにどう役立ちますか?",
