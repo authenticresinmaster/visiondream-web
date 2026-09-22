@@ -4,11 +4,11 @@ export const en: Post = {
   slug: "grit-consistency",
   title: "Grit and Consistency — Why the Person Who Lasts Beats the Talented One",
   description:
-    "Talent gets the applause, but consistency gets the results. The compounding math of 1% a day, the 66-day average before a habit feels automatic, a minimum-version table for bad days, a 48-hour recovery procedure for a broken chain, and 30/60/90-day checkpoints — how to last on structure instead of willpower. Plus a frequency comparison (daily vs. 5 or 3 days a week: 365 reps a year against 156), four streak-protecting devices side by side, and three 12-week logs showing where each chain broke and what restarted it.",
+    "Talent gets the applause, but consistency gets the results. The compounding math of 1% a day, the 66-day average before a habit feels automatic, a minimum-version table for bad days, a 48-hour recovery procedure for a broken chain, and 30/60/90-day checkpoints — how to last on structure instead of willpower. Plus a frequency comparison (daily vs. 5 or 3 days a week: 365 reps a year against 156), four streak-protecting devices side by side, three 12-week logs showing where each chain broke and what restarted it, a three-layer goal table, a four-question quit-or-hold verdict and a six-question self-check for where your grit leaks.",
   date: "2026-07-02",
-  updated: "2026-09-11",
+  updated: "2026-09-23",
   category: "Mindset",
-  readMinutes: 14,
+  readMinutes: 17,
   emoji: "🪨",
   cover: "/blog/grit-consistency.svg",
   body: `Before this week runs out, pull one goal back out. Of everything you wrote down at the start of the year, how much is still alive? Most likely there's one item you missed for a single day about three weeks in, and never touched again. Strangely, picking a dropped goal back up feels embarrassing — so most people quietly close the file with "I guess my willpower is weak."
@@ -209,6 +209,54 @@ The "implementation intention" formalized by psychologist Peter Gollwitzer chang
 
 Sticking those four lines in your phone's lock-screen note takes thirty seconds. If motivation won't come back at all right now, start with [how to beat laziness](/en/blog/overcome-laziness); if the problem is putting off the start itself, read [how to stop procrastinating](/en/blog/stop-procrastinating) first.
 
+## Goals to keep, methods to swap — split your goals into three layers
+
+If you read grit as "hold on to everything until the end," you burn out faster — because you end up clinging to methods that don't fit. In *Grit*, Angela Duckworth describes goals as a **hierarchy**. The top goal almost never changes; the lower you go, the more freely you swap. Grit is the force you spend on the top layer, not on one method at the bottom.
+
+| Layer | Example (health) | Example (career) | OK to change? | Signal to change |
+| --- | --- | --- | --- | --- |
+| **Top — why (vision)** | Someone who still runs up stairs at 60 | An expert people hire by name | Almost never | Only a value shift over years |
+| **Middle — how (means)** | Build stamina by running | Prepare for a certification | Review every 12 weeks | 12 weeks in, the progress metric has never moved |
+| **Bottom — today (action)** | 20-minute evening run | 30 minutes of practice problems after work | Often | It collapsed twice within two weeks for the same reason |
+
+If a bad knee stops you running, you haven't quit — you've swapped the middle goal to swimming. As long as the top goal is alive, that's a **course correction**, not giving up. Someone with only bottom-layer actions and no top goal, on the other hand, drops everything the moment one method is blocked. In the three 12-week logs above, C moving the start time from 9 to 11 was exactly this: change the bottom layer, keep everything above it.
+
+## When to quit and when to hold — a four-question verdict
+
+"Stick with it" and "cut your losses fast" are both good advice, which is what makes them so confusing. Leave the call to your mood and you'll quit on the hardest day — usually weeks three to five of a new habit. So set the criteria in advance, and only rule on a fixed day.
+
+| Question | If yes | If no |
+| --- | --- | --- |
+| 1. Do I still want the top goal? | Go to the next question | You can quit — this isn't something to spend grit on |
+| 2. Is it hard because I'm *still clumsy at it*? | Hold — that's the normal pain of the growth zone | Go to the next question |
+| 3. In 12 weeks, has the progress metric moved even once? | Keep the method, adjust only the dose | Swap the middle goal (the method) |
+| 4. Do body and mind stay drained even after rest? | Stop and recover first — a burnout signal | Hold |
+
+Question 2 is the same "not yet" zone described in [growth mindset](/en/blog/growth-mindset) — you're not bad at it, you're not good at it *yet*. Question 4 isn't a grit problem at all. If you keep collapsing again soon after resting, the next step is [burnout recovery](/en/blog/burnout-recovery), not pushing through; forcing it only lengthens the recovery.
+
+And you rule **only on the fixed day**. Duckworth describes the "Hard Thing Rule" her own family uses: everyone picks one hard thing that needs deliberate practice, chooses it themselves, and can only quit at a natural stopping point — the end of a season or a term. Translated for one person: **your verdict day is the last Sunday of each 12-week cycle.** Any "should I quit?" before then just goes on a note, and you look at all of them together on verdict day with the four questions above. A decision made on the heaviest day of weeks three to five is rarely a good one.
+
+## Where does your grit leak? — a six-question self-check
+
+Two people can both "quit after three days" and still need different fixes, because the leak is in a different place. Think back over the past month and tick whatever applies.
+
+| # | Statement | If ticked, the leak is in |
+| --- | --- | --- |
+| 1 | I've had more planning days than doing days | Starting |
+| 2 | In the first week, things went well so I raised the goal | Starting |
+| 3 | After missing one day, I've left it alone for three days or more | Returning |
+| 4 | On a missed day I thought "typical me…" | Returning |
+| 5 | I'd struggle to say in one sentence what this habit changes a year from now | Direction |
+| 6 | I've never reopened last month's log | Direction |
+
+| Most ticks in | Type | First fix | Where to look in this post |
+| --- | --- | --- | --- |
+| Starting (1–2) | Starts too big | Write a one-line minimum version next to the normal one | The minimum-version table |
+| Returning (3–4) | One break ends it | 24-hour return rule + count the misses | The 48-hour recovery procedure · the return-speed table |
+| Direction (5–6) | Blurry reason | One sentence for the top goal + reread the log once a week | The three-layer goal table · the weekly review |
+
+If it's a tie, fix **returning** first — as the arithmetic above showed, return speed is the variable that splits 12-week results the most. If all six boxes have been ticked for months, deal with the stall itself before redesigning habits; start with [how to beat a slump](/en/blog/beat-slump). And if you suspect you simply have weak willpower, [the science of self-control](/en/blog/self-control-science) — how self-regulation actually works — clears up that misunderstanding first.
+
 ## Vision is the fuel that outlasts
 
 Willpower is a small tank; it empties by noon. What refills it isn't discipline — it's *meaning*. When today's boring rep is visibly connected to a future you actually want, perseverance stops feeling like force and starts feeling like direction. That's why grit and vision belong together: the vision tells the reps why they matter, and the reps tell the vision it's real.
@@ -283,6 +331,10 @@ You don't have to be the most talented. You just have to be the one who's still 
       q: "What if the streak itself becomes the pressure?",
       a: "Then the log is being used as a judge instead of a gauge. The point of a record isn't a verdict on you — it's a view of whether the flow is still running. Count the minimum version as done, let a streak shield (two a month) cover the days you miss, and keep exactly one rule: never miss two days in a row. If the number itself is what stresses you, hide the total count and look only at the last seven days.",
     },
+    {
+      q: "When is it OK to quit? How is quitting different from changing course?",
+      a: "Split the goal into three layers and the difference is clear. Letting go of the top layer — the why, the vision — is quitting; changing the method or today's action underneath it is a course correction. Make the call only on the last Sunday of a 12-week cycle, not on the heaviest day in weeks three to five. On that day ask four questions: do I still want the top goal, is it hard because I'm still clumsy at it, has the progress metric moved even once in 12 weeks, and do I stay drained even after rest? If the last answer is yes, the next step is recovery, not grit.",
+    },
   ],
 };
 
@@ -292,9 +344,9 @@ export const ja: Post = {
   description:
     "才能は拍手を集め、継続は結果を集めます。1日1%の複利計算、習慣が自動になるまでの平均66日、悪い日専用の「最小バージョン」設計表、記録が切れたときの48時間リカバリー手順、30・60・90日のチェックポイントまで — 意志ではなく構造で続ける方法を順番に整理しました。さらに、毎日と週5回・週3回の頻度比較(年365回と156回)、連続記録を守る4つの装置の比較、12週間続けた3人の記録がどこで切れ何で立て直ったのかも加えました。",
   date: "2026-07-02",
-  updated: "2026-09-11",
+  updated: "2026-09-23",
   category: "メンタル・実行力",
-  readMinutes: 14,
+  readMinutes: 17,
   emoji: "🪨",
   cover: "/blog/grit-consistency.svg",
   body: `今週が終わる前に、目標をひとつだけ引っぱり出してみませんか。年の初めに書いた中で、今も生きているのはいくつでしょう。おそらく三週間ほど経った頃に一日抜かして、その日以来ずっと触れないままの項目がひとつはあるはずです。不思議なことに、一度落とした目標を出し直すのは恥ずかしい。だから多くの人は「自分は意志が弱いんだ」で静かに閉じてしまいます。
@@ -495,6 +547,54 @@ export const ja: Post = {
 
 この四文をスマホのロック画面メモに貼るのに30秒で足ります。意欲がまったく戻らない時期なら[怠けから抜け出す方法](/ja/blog/overcome-laziness)を、始めること自体を先延ばしにしてしまうなら[先延ばし癖をやめる方法](/ja/blog/stop-procrastinating)を先に読んでも構いません。
 
+## 貫く目標と、替えていい方法 — 目標を3層に分ける
+
+やり抜く力を「何でも最後までしがみつくこと」と捉えると、かえって早く疲れます。合わない方法にまでしがみつくからです。ダックワースは『やり抜く力 GRIT』で目標を**階層**として説明しています。いちばん上の目標はほとんど変えず、下に行くほど気軽に替える。やり抜く力は最上層に使う力であって、最下層の方法ひとつに使う力ではありません。
+
+| 層 | 例(健康) | 例(キャリア) | 変えていいか | 替えるサイン |
+| --- | --- | --- | --- | --- |
+| **最上位 — なぜ(ビジョン)** | 60歳でも階段を駆け上がれる人 | 名指しで仕事を頼まれる専門家 | ほぼ変えない | 数年単位の価値観の変化だけ |
+| **中間 — どうやって(手段)** | ランニングで体力をつける | 資格の勉強 | 12週ごとに点検 | 12週続けても進捗指標が一度も動かない |
+| **下位 — 今日(行動)** | 夜20分のラン | 退勤後30分の問題演習 | よく変える | 2週間以内に同じ理由で2回崩れた |
+
+膝を痛めて走れなくなったなら、それはやめたのではなく、中間目標を水泳に替えただけです。最上位の目標が生きている限り、これは挫折ではなく**ルート修正**です。逆に最上位の目標がなく下位の行動だけを持つ人は、方法がひとつ塞がった瞬間にすべてを手放します。先ほどの「12週間の記録・3人」でCが開始時刻を9時から11時に移したのも、下の層だけを替えて上はそのまま残した例です。
+
+## やめていいときと、踏ん張るとき — 4問の判定表
+
+「粘り強く続けろ」と「合わないなら早く切り上げろ」はどちらも正しいので、余計に迷います。判断を気分に任せると、いちばんつらい日 — たいてい新しい習慣の3〜5週目 — にやめてしまいます。だから判定基準を先に決めておき、決めた日にだけ判定します。
+
+| 質問 | 「はい」なら | 「いいえ」なら |
+| --- | --- | --- |
+| 1. 最上位の目標を、今も望んでいるか? | 次の質問へ | やめていい — やり抜く力を使う対象ではない |
+| 2. つらい理由は「まだ不慣れだから」か? | 踏ん張る — 成長区間の正常な痛み | 次の質問へ |
+| 3. 12週間で、進捗指標が一度でも動いたか? | 方法は維持し、量だけ調整 | 中間目標(方法)を替える |
+| 4. 休んでも心身が回復しないか? | 止まって回復が先 — 燃え尽きのサイン | 踏ん張る |
+
+2は[成長マインドセット](/ja/blog/growth-mindset)でいう「まだ」の区間と同じ話です — できないのではなく、まだできないだけ。4はやり抜く力の問題ではありません。休んでもすぐまた崩れる状態なら、踏ん張るより[燃え尽きからの回復](/ja/blog/burnout-recovery)が先です。意志で押し切ると、回復期間が長引くだけです。
+
+そして判定は**決めた日にだけ**行います。ダックワースは自宅で使っている「難しいことのルール(Hard Thing Rule)」を紹介しています — 家族全員が地道な練習の必要な難しいことをひとつ自分で選び、やめるのはシーズンや学期の終わりのような自然な区切りでだけ、というルールです。個人に置き換えるとこうなります。**判定日は12週サイクルの最後の日曜日、一回だけ。** それまでに浮かぶ「やめようかな」はメモに書くだけにして、判定日に上の4問でまとめて見ます。3〜5週目のいちばん重い日に下した決断が良い決断であることは、めったにありません。
+
+## あなたのやり抜く力はどこから漏れているか — 6問セルフチェック
+
+同じ三日坊主でも、漏れている場所が違えば処方も違います。この1か月を振り返り、当てはまる項目にチェックしてください。
+
+| # | 項目 | チェックが付いたら漏れている場所 |
+| --- | --- | --- |
+| 1 | 計画を立てた日のほうが、実行した日より多い | 開始 |
+| 2 | 最初の週にうまくいったので、目標を増やしたことがある | 開始 |
+| 3 | 1日抜けたあと、3日以上手をつけなかったことがある | 復帰 |
+| 4 | 抜けた日に「やっぱり自分は…」と思った | 復帰 |
+| 5 | この習慣が1年後に何を変えるか、一文で言いにくい | 方向 |
+| 6 | 1か月前の記録を見返したことがない | 方向 |
+
+| いちばん多くチェックが付いた場所 | タイプ | 最初の処方 | この記事で見る場所 |
+| --- | --- | --- | --- |
+| 開始(1・2) | 大きく始めるタイプ | 通常バージョンの横に最小バージョンを一行書く | 「最小バージョン」設計表 |
+| 復帰(3・4) | 切れたら終わりタイプ | 24時間復帰ルール+抜けた回数を数える | 48時間リカバリー手順・復帰速度の表 |
+| 方向(5・6) | 理由がぼやけるタイプ | 最上位目標を一文に+週1回記録を見返す | 目標3層の表・週次レビュー |
+
+同点なら**復帰**から直してください。先ほどの算数のとおり、12週間の結果をいちばん大きく分けるのは復帰の速さです。何か月も6項目すべてにチェックが付くなら、習慣の設計より今の停滞そのものを先に扱うほうが早い — まず[スランプを抜け出す方法](/ja/blog/beat-slump)を読んでください。そして「自分はもともと意志が弱い」と感じるなら、自己調整が実際にどう働くかを扱った[セルフコントロールの科学](/ja/blog/self-control-science)が、その誤解から解いてくれるはずです。
+
 ## ビジョンは、長持ちする燃料
 
 意志力は小さなタンクで、昼にはもう空です。それを満たし直すのは規律ではなく*意味*です。今日の退屈な反復が、本当に望む未来と目に見えてつながっているとき、粘り強さは無理やりの力ではなく、方向感覚に変わります。だからグリットとビジョンは一緒にいるべきなのです。ビジョンは反復に「なぜ大切か」を伝え、反復はビジョンに「これは本物だ」と伝えます。
@@ -568,6 +668,10 @@ export const ja: Post = {
     {
       q: "連続記録そのものが負担になったらどうしますか?",
       a: "それは記録を「計器」ではなく「審判」として使っている状態です。記録の目的は評価ではなく、流れがまだ続いているかの確認です。最小バージョンも完了に数え、落とした日はストリーク保護券(毎月2枚)に守らせ、ルールは「二日連続では抜かさない」の一つだけ残してください。数字そのものが重いなら、通算日数は隠して直近7日だけを見るようにすると圧力が下がります。",
+    },
+    {
+      q: "いつならやめていいですか? 挫折と方向転換はどう違いますか?",
+      a: "目標を3層に分けると区別できます。いちばん上の「なぜ(ビジョン)」を手放すのが挫折で、その下の「方法」や「今日の行動」を替えるのは方向転換です。判定は気分がいちばん重い3〜5週目ではなく、12週サイクルの最後の日曜日にだけ行ってください。その日に4つを問います。最上位の目標を今も望んでいるか、つらい理由はまだ不慣れだからか、12週間で進捗指標が一度でも動いたか、休んでも回復しないか。最後の問いが「はい」なら、先に必要なのはやり抜く力ではなく回復です。",
     },
   ],
 };
