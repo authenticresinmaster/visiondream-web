@@ -6,9 +6,9 @@ export const en: Post = {
   description:
     "Backcasting (dream backcasting) is a goal-setting method that first decides the future you want, then designs backward to today's to-dos. Here's how it differs from forecasting, a one-page 30-minute worksheet (5+5+5+10+5), the 5-step method, three worked examples, and the five places backcasting usually breaks — with a fix for each.",
   date: "2026-06-19",
-  updated: "2026-09-18",
+  updated: "2026-09-24",
   category: "Goal Setting",
-  readMinutes: 16,
+  readMinutes: 18,
   emoji: "🛰️",
   cover: "/blog/backcasting-flow.svg",
   body: `"Three years from now, things will be different." How many Januarys have started with that sentence? The problem isn't willpower — it's **order**. Most of us start from "what can I do right now" and draw the future forward from there. Which means today's bank balance, energy, and calendar quietly become the ceiling of your next three years.
@@ -172,6 +172,28 @@ The fix is to attach a [five-minute review](/en/blog/five-minute-review) at nigh
 
 If you miss a day, one rule holds — as long as it isn't two in a row, the map is still alive. What keeps you from torching the whole map over one missed day isn't willpower but [a little self-compassion](/en/blog/self-compassion), and that kindness is the real engine of [consistency](/en/blog/grit-consistency).
 
+## The Week-6 Progress Signal — Judge Your New Year Goals Before February Takes Them
+
+Most of us know the feeling: full of energy in January, quietly letting go by mid-February. It rarely happens because willpower is weak. It happens because **there is no standard for "Am I behind, or am I fine?"** Without one, falling a little behind slides straight into "It's already ruined." So once per quarter, in **week 6**, you turn on a signal light. Nearly half of the 13-week quarter has passed, but half still remains — enough time to fix the route.
+
+Two lines of math are all it takes.
+
+- **Progress** = amount finished so far ÷ your ③ column (three-month) target
+- **Elapsed** = working days passed ÷ working days in the quarter (about 65 on a five-day week)
+
+Progress divided by elapsed is your signal.
+
+| Signal | Progress ÷ elapsed | What it means | This week's fix |
+|---|---|---|---|
+| 🟢 Green | 0.8 or higher | The route is right | Keep going. Don't raise the daily amount just because it feels good |
+| 🟡 Yellow | 0.5–0.8 | The daily amount was too big, or it has no slot on the calendar | Re-divide: remaining amount ÷ remaining working days. If it fits in one sitting (30–50 min), just fix the time; if not, cut the target by 20–30% |
+| 🔴 Red | Below 0.5 | The quarterly target exceeds this quarter's capacity | Drop one quarterly goal or extend the deadline by a quarter. Fix the ④ column (one year) too |
+| ⚫ Stalled | Zero for two weeks straight | The problem is the starting point, not the goal | Keep the goal. Restart with a two-minute first action |
+
+**Here's what it looks like in real numbers.** If your quarterly target is "60,000 words of a manuscript," that's 65 working days, about 920 words a day. If by week 6 (30 working days in, 46% elapsed) you've written 20,000 words, progress is 33% — 0.33 ÷ 0.46 ≈ **0.72, yellow**. The remaining 40,000 words over the remaining 35 days means about 1,140 words a day, but this writer produces about 900 words in 50 minutes. That won't fit in one sitting, so the quarterly target drops to 50,000. Now the remaining 30,000 ÷ 35 days = about 860 words a day — a single sitting. "Manuscript finished" in the one-year column slides back a month, but you still arrive far sooner than if you'd thrown the whole plan away.
+
+Remember two things. First, **the signal is a navigation system, not a report card.** Red doesn't mean "I can't do this"; it means "this route won't get there in time." Second, judging **once, in week 6,** is enough. Measure daily and you'll be pushed around by every wobble. If your New Year plans stall in the same spot every year, read [a New Year plan system that survives February](/en/blog/new-year-plan-system); if you want to keep moving after motivation fades, see [a practice system that doesn't rely on motivation](/en/blog/motivation-system); and if red or stalled signals persist for weeks, try [how to get out of a slump](/en/blog/beat-slump).
+
 ## Redraw It Every 90 Days
 
 A backcast isn't a picture you frame; it's **a map you update**. Spend 30 minutes on the day the quarter turns.
@@ -231,6 +253,10 @@ Take out one sheet of paper right now and write **three present-tense sentences 
       a: "No. Spend 30 minutes every 90 days. Usually the future column stays as is, the one-year column gets adjusted to your real speed, and only the three-month column is rewritten from scratch. Anything untouched from last quarter should be deleted, not carried. Backcasting fixes the route, not the goal.",
     },
     {
+      q: "My New Year goals collapse every February. Can backcasting prevent that?",
+      a: "The key isn't a better plan but a standard for judging it midway. In week 6 of the quarter, divide progress (amount finished ÷ quarterly target) by elapsed time (working days passed ÷ about 65). At 0.8 or higher, keep going; at 0.5–0.8, re-divide the remaining amount and adjust the daily load; below 0.5, drop one quarterly goal or extend the deadline. Fixing the route with numbers instead of a vague 'I'm already behind' keeps you from abandoning everything in February.",
+    },
+    {
       q: "How do I use Vision Dream's dream backcasting feature?",
       a: "Enter the future you want (e.g., what you'll look like 5 years from now) in one sentence, and the AI generates a draft from vision → dream → goal → today's to-dos. You can edit the generated content yourself and reflect it into your vision, dreams, goals, plans, and habits tree, while the four-level planner and weekly review carry that route through each day and week.",
     },
@@ -243,9 +269,9 @@ export const ja: Post = {
   description:
     "バックキャスティング（夢の逆算設計）は、望む未来をまず決め、そこから逆向きに今日やることを設計する目標設定法です。フォアキャスティングとの違い、紙1枚30分のワークシート（5分+5分+5分+10分+5分）、5ステップ実践法、出版・転職・健康の事例3つ、そして逆算が崩れる5つのポイントの処方までまとめました。",
   date: "2026-06-19",
-  updated: "2026-09-18",
+  updated: "2026-09-24",
   category: "目標設定",
-  readMinutes: 16,
+  readMinutes: 18,
   emoji: "🛰️",
   cover: "/blog/backcasting-flow.svg",
   body: `「3年後には少しは変わっているだろう。」その一文で新年を始めたのは、もう何度目でしょうか。問題は意志ではなく**順序**です。私たちはたいてい「今の自分にできること」から出発して未来を描きます。すると今日の残高・体力・時間が、そのまま3年後の天井になってしまいます。
@@ -409,6 +435,28 @@ export const ja: Post = {
 
 1日休んだら、ルールは一つ — 2日続けてでなければ、地図はまだ生きています。1日の抜けで地図ごと捨てないためのものは意志ではなく[少しの自己への思いやり](/ja/blog/self-compassion)であり、その優しさが[継続](/ja/blog/grit-consistency)の本当のエンジンです。
 
+## 6週目の進捗信号 — 新年の目標が2月に崩れる前に判定する方法
+
+1月はやる気に満ちていたのに、2月半ばには静かに手を離してしまう。そんな経験、一度はあると思います。たいていは意志が弱いからではなく、**「今遅れているのか、大丈夫なのか」を判断する基準がないから**崩れます。基準がないと、少し遅れただけで「もう終わった」に飛んでしまうからです。そこで四半期の真ん中、**6週目**に一度だけ信号をつけます。13週の四半期のほぼ半分が過ぎ、それでもまだ半分残っていて、経路を直す時間が十分ある時点です。
+
+計算は2行で済みます。
+
+- **進捗率** = これまでに終えた量 ÷ ③の枠（3ヶ月）の目標量
+- **経過率** = 過ぎた稼働日 ÷ 四半期の稼働日（週5日なら約65日）
+
+進捗率を経過率で割った値が信号です。
+
+| 信号 | 進捗 ÷ 経過 | 意味 | 今週の処方 |
+|---|---|---|---|
+| 🟢 青 | 0.8以上 | 経路は合っている | そのまま進む。調子がいいからと分量を増やさない |
+| 🟡 黄 | 0.5〜0.8 | 1日の分量が多すぎたか、カレンダーに居場所がない | 残りの量 ÷ 残りの稼働日で割り直す。1回座って終わる量（30〜50分）なら時刻だけ固定し、超えるなら目標を20〜30%減らす |
+| 🔴 赤 | 0.5未満 | 四半期目標が今期の容量を超えている | 四半期目標を1つ手放すか、期限を1四半期延ばす。④の枠（1年）も一緒に直す |
+| ⚫ 停止 | 2週連続でゼロ | 目標ではなく出発点が問題 | 目標はそのまま、2分でできる最初の行動から再開する |
+
+**実際に計算するとこうなります。** 四半期目標が「原稿6万字」なら稼働日65日、1日約920字です。6週目（30稼働日経過、経過率46%）に2万字を書いていれば進捗率33% — 0.33 ÷ 0.46 ≈ **0.72、黄**です。残り4万字を残り35日で割ると1日約1,140字ですが、この人が50分で書ける量は約900字。1回では終わらない分量なので、四半期目標を5万字に減らします。すると残り3万字 ÷ 35日 = 1日約860字、1回座れば終わる量になります。1年の枠の「原稿完成」は1ヶ月後ろにずれますが、計画を丸ごと捨てるよりずっと早くたどり着きます。
+
+覚えておくことは2つだけです。第一に、**信号は成績表ではなくナビゲーション**です。赤は「自分はダメだ」ではなく「この経路では時間内に着かない」という意味です。第二に、判定は**6週目に1回**で十分です。毎日測ると1日の揺れに振り回されます。新年の計画が毎年同じところで止まるなら[2月に崩れない新年計画システム](/ja/blog/new-year-plan-system)を、やる気が冷めても回り続ける仕組みが欲しいなら[モチベーションに頼らない実践システム](/ja/blog/motivation-system)を、赤・停止の信号が何週も続くなら[スランプから抜け出す方法](/ja/blog/beat-slump)をあわせて読んでみてください。
+
 ## 90日ごとに描き直す
 
 逆算設計は額縁に飾る絵ではなく、**更新する地図**です。四半期が変わる日に30分だけ使ってください。
@@ -466,6 +514,10 @@ export const ja: Post = {
     {
       q: "計画がずれたら最初から作り直すべきですか？",
       a: "いいえ。90日ごとに30分だけ使ってください。未来の枠はたいていそのまま、1年後の枠は実際の速度に合わせて調整し、3ヶ月の枠だけを全部書き直します。前の四半期にやらなかったことがそのまま残っているなら、それは消すのが正解です。目標ではなく経路を直すのがバックキャスティングのやり方です。",
+    },
+    {
+      q: "新年の目標が毎年2月に崩れます。バックキャスティングで防げますか？",
+      a: "鍵は計画をもっと上手に立てることではなく、途中で判定する基準を持つことです。四半期の6週目に、進捗率（終えた量 ÷ 四半期目標量）を経過率（過ぎた稼働日 ÷ 約65日）で割ってみてください。0.8以上ならそのまま、0.5〜0.8なら残りの量を割り直して1日の分量を調整し、0.5未満なら四半期目標を1つ手放すか期限を延ばします。「もう遅れた」という漠然とした感覚ではなく数字で経路を直せば、2月に丸ごと諦めることが減ります。",
     },
     {
       q: "ビジョンドリームの夢の逆算設計機能はどう使いますか？",
