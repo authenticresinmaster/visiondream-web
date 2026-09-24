@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" role="img" aria-label="위빠사나 명상 4단계 사다리: 하루 10분 → 1일 체험 → 8주 과정 → 10일 집중수련">
+  <rect width="880" height="400" rx="20" fill="#f5f8fb"/>
+  <text x="440" y="46" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="22" font-weight="800">위빠사나는 비우기가 아니라 돌아오기</text>
+  <text x="440" y="74" text-anchor="middle" fill="#105d9e" font-family="sans-serif" font-size="14" font-weight="700">딴생각 → "생각" 이름 붙이기 → 다시 호흡으로</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="40" y="250" width="180" height="100" rx="14" fill="#ffffff" stroke="#9aa5b6" stroke-width="2"/>
+    <text x="130" y="282" font-size="22">🏠</text>
+    <text x="130" y="310" fill="#1a2332" font-size="15" font-weight="800">1단계 · 집에서</text>
+    <text x="130" y="332" fill="#5b6b82" font-size="12">하루 5~10분 · 4주</text>
+
+    <rect x="245" y="205" width="180" height="145" rx="14" fill="#ffffff" stroke="#9aa5b6" stroke-width="2"/>
+    <text x="335" y="240" font-size="22">🛕</text>
+    <text x="335" y="268" fill="#1a2332" font-size="15" font-weight="800">2단계 · 1일 체험</text>
+    <text x="335" y="290" fill="#5b6b82" font-size="12">반나절~1박 2일</text>
+    <text x="335" y="310" fill="#5b6b82" font-size="12">자세·방법 점검</text>
+
+    <rect x="450" y="160" width="180" height="190" rx="14" fill="#ffffff" stroke="#9aa5b6" stroke-width="2"/>
+    <text x="540" y="195" font-size="22">📅</text>
+    <text x="540" y="223" fill="#1a2332" font-size="15" font-weight="800">3단계 · 8주 과정</text>
+    <text x="540" y="245" fill="#5b6b82" font-size="12">주 1회 × 8주</text>
+    <text x="540" y="265" fill="#5b6b82" font-size="12">커리큘럼·동료</text>
+
+    <rect x="655" y="115" width="185" height="235" rx="14" fill="#e8f1fa" stroke="#105d9e" stroke-width="2"/>
+    <text x="747" y="150" font-size="22">🪷</text>
+    <text x="747" y="178" fill="#105d9e" font-size="15" font-weight="800">4단계 · 10일 수련</text>
+    <text x="747" y="200" fill="#5b6b82" font-size="12">하루 약 10시간 좌선</text>
+    <text x="747" y="220" fill="#5b6b82" font-size="12">묵언 · 대개 기부제</text>
+    <text x="747" y="240" fill="#5b6b82" font-size="12">혼자 3개월 뒤 권장</text>
+  </g>
+  <text x="440" y="382" text-anchor="middle" fill="#1a2332" font-family="sans-serif" font-size="13" font-weight="700">순서를 건너뛰지 않는 것이 완주의 비결 🌱</text>
+</svg>

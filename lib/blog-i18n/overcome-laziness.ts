@@ -6,7 +6,7 @@ export const en: Post = {
   description:
     "Laziness isn't who you are. Most of the time it's a signal — low energy, low motivation, or a task that feels too big. A 60-second self-check for the five signal types, a 2-minute conversion table, a way to count friction in steps, and a 7-day plan to get moving again.",
   date: "2026-07-03",
-  updated: "2026-09-19",
+  updated: "2026-09-25",
   category: "Mindset",
   readMinutes: 16,
   emoji: "🦥",
@@ -198,6 +198,23 @@ The extra power of an if-then plan comes from removing the decision itself. "I'l
 
 This often overlaps with the afraid type from the self-check above. If what you need is practice reinterpreting failure as data, [building self-efficacy](/en/blog/self-efficacy) is worth a look; if it's less about starting and more about your footing wobbling underneath you, [building mental strength](/en/blog/mental-strength) covers that ground.
 
+## Temptation bundling and the fresh start effect — two research-backed "starting devices"
+
+If the 2-minute rule and implementation intentions answer "how do I start," these two devices answer "why start now." Both come from Katy Milkman's team at the Wharton School, tested on real behavior data.
+
+**① Temptation bundling.** You only allow yourself a pleasure while doing the thing you avoid. In a 2014 study, participants who could listen to their favorite audiobooks only at the gym made up to 51% more gym visits than a control group. The effect faded after several weeks, though — the pleasure itself gets familiar. The trick is to swap the bundled pleasure every 2–3 weeks.
+
+**② The fresh start effect.** In another 2014 paper, the same team showed with Google search and gym attendance data that people start goal behaviors more often on "new chapter" days — the start of a week, the start of a month, right after a birthday. If you treat laziness as a flaw in who you are, there's never a reason to restart; if you use a calendar turn as a new chapter, you can draw a line under yesterday. It's the same reason New Year's resolutions spike — [a new-year plan system that doesn't collapse](/en/blog/new-year-plan-system) shows how to use this effect all year.
+
+| Device | How to bundle (example) | Laziness type it fits | Where it breaks, and the fix |
+| --- | --- | --- | --- |
+| Temptation bundling | Your favorite podcast **only while doing dishes or folding laundry** | Boredom type — the task itself is dull | When the effect fades after 2–3 weeks, swap the pleasure |
+| Temptation bundling | Your favorite café drink **only on days you draft the report** | Avoidance type — starting feels heavy | Keep the condition small, like "first paragraph of the draft" |
+| Fresh start | Use the first 10 minutes of Monday to pick "one thing this week" | Fade-out type — it blurs after a few days | Missed Monday? The 1st and 15th of the month work too |
+| Fresh start | Log the day after a collapse as **"Chapter 2, Day 1"** | Self-blame type — one miss and you drop it all | Rename the day, and shrink the goal to its 2-minute version |
+
+Neither device asks for willpower. You don't squeeze out more patience — you just move where the pleasure sits and when the start happens. Recent research suggesting willpower is a less reliable resource than we thought is summarized in [the science of self-control](/en/blog/self-control-science). And if you log one line a day in a [5-minute review](/en/blog/five-minute-review), two weeks later the data will show which device actually fits you.
+
 ## 🌱 Doing this in the VisionDream app
 
 Laziness thrives in the gap between a big goal and today's blank moment. The VisionDream app closes that gap: the vision on your **dream map** travels down through the **four planner levels** (yearly, monthly, weekly, daily) to a single **belief · thought · action (B·T·A) check** on the Today tab, so whatever you're starting is already a two-minute item. There's a safeguard for the bad days too — **two streak protections are used automatically each month**, so missing one day doesn't break the chain, and anything unfinished **rolls over** to tomorrow. Every action you log grows the **success tree** and leaves a mark on the **calendar heatmap**, so "I'm someone who doesn't move" gets contradicted by your own data.
@@ -256,6 +273,10 @@ You were never lazy. You were tired, or unsure, or disconnected — and all thre
       q: "Do if-then plans actually work, or is it just another productivity trick?",
       a: "It's one of the more replicated findings in behavior-change research: a meta-analysis pooling 94 independent studies (Gollwitzer & Sheeran, 2006) found a medium-to-large effect size (d = 0.65) for implementation intentions across goals ranging from exercise to studying to healthy eating. The mechanism is simple — writing 'if [situation], then I [action]' in advance means your tired, distracted, future self doesn't have to decide anything in the moment, only notice the trigger.",
     },
+    {
+      q: "How do I use temptation bundling and the fresh start effect?",
+      a: "Temptation bundling means allowing a pleasure you enjoy (a podcast, a drink, a show) only while doing the task you avoid — in a 2014 Wharton study it raised gym visits by up to 51%. The effect fades after a few weeks, so swap the bundled pleasure every 2–3 weeks. The fresh start effect is the tendency to start more easily on 'new chapter' days like Mondays, the 1st of the month, or right after a birthday. Name the day after a collapse 'Chapter 2, Day 1', shrink the goal to its 2-minute version, and you restart from a fresh chapter instead of from self-blame.",
+    },
   ],
 };
 
@@ -265,7 +286,7 @@ export const ja: Post = {
   description:
     "怠けは、あなたの正体ではありません。多くの場合それはサイン — エネルギー切れ、意欲の低下、あるいは大きすぎるタスク。5種類のサインを60秒で見分ける自己診断表、2分ルール変換表、摩擦を歩数で数える方法、7日間の立て直し計画までまとめました。",
   date: "2026-07-03",
-  updated: "2026-09-19",
+  updated: "2026-09-25",
   category: "メンタル・実行力",
   readMinutes: 16,
   emoji: "🦥",
@@ -457,6 +478,23 @@ if-thenプランの力は「決断」そのものをなくす点にあります�
 
 これは上の自己診断表の恐れ型と重なることが多いです。失敗をデータとして読み直す練習が必要なら[自己効力感を育てる](/ja/blog/self-efficacy)を、始めることより足場そのものが揺らいでいるなら[メンタルを強くする](/ja/blog/mental-strength)を合わせてご覧ください。
 
+## 誘惑の抱き合わせとフレッシュスタート効果 — 研究で確かめられた2つの「始める装置」
+
+2分ルールと実行意図が「どう始めるか」を扱うなら、この2つの装置は「なぜ今始めるのか」を解決します。どちらもペンシルベニア大学ウォートン校のケイティ・ミルクマンの研究チームが、実際の行動データで確かめた方法です。
+
+**① 誘惑の抱き合わせ(temptation bundling)。** やりたい楽しみを、先延ばしにしている作業をするときだけ許す方法です。2014年の研究では、好きなオーディオブックをジムでだけ聴けるようにした参加者は、条件のない集団よりジムに行く回数が最大51%増えました。ただし効果は数週間で薄れました — 楽しみそのものに慣れてしまうからです。抱き合わせる楽しみを2〜3週間ごとに替えるのがコツです。
+
+**② フレッシュスタート効果(fresh start effect)。** 同じ研究チームは2014年の論文で、人は週の始まり(月曜日)、月の始まり、誕生日の直後のような「新しい章が開く」日に、目標に向けた行動を始めやすいことを、Google検索量とジムの出席データで示しました。怠けを「自分という人間」の問題と見ると、やり直す理由が見つかりません。でも暦がめくれる日を「新しい章」として使えば、昨日の記録と線を引いて始められます。新年の抱負が一時的に効くのも同じ原理で、[崩れない新年計画のシステム](/ja/blog/new-year-plan-system)でこの効果を一年中使う方法を扱いました。
+
+| 装置 | こう抱き合わせる(例) | 合う怠けのタイプ | 崩れるポイントと補い方 |
+| --- | --- | --- | --- |
+| 誘惑の抱き合わせ | 好きなポッドキャストは**皿洗い・洗濯物たたみのときだけ**聴く | 退屈型 — 作業自体がつまらなくて先延ばしにする | 2〜3週間で効果が薄れたら楽しみを替える |
+| 誘惑の抱き合わせ | 好きなカフェのドリンクは**報告書の下書きを書く日だけ**買う | 回避型 — 始めるのが重い | 「下書きの最初の段落」のように条件を小さくする |
+| フレッシュスタート | 月曜朝の最初の10分を「今週のひとつ」を決める時間にする | 尻すぼみ型 — 数日で曖昧になる | 月曜を逃したら1日・15日も新しい章として使う |
+| フレッシュスタート | 崩れた翌日を**「第2章1日目」**と名づけて記録する | 自責型 — 一度崩れると全部投げ出す | 名前だけ変え、目標は2分バージョンに縮める |
+
+2つの装置に共通するのは、意志の力を求めないことです。忍耐を絞り出す代わりに、楽しみの置き場所と始める日付を動かすだけです。意志力が思ったほど頼れる資源ではないという最近の研究は[節制の成功学](/ja/blog/self-control-science)にまとめました。そして抱き合わせと新しい章が本当に効いたかを、1日5分の[短い振り返り](/ja/blog/five-minute-review)で一行ずつ残しておけば、2週間後にはどの装置が自分に合うかがデータで見えてきます。
+
 ## 🌱 ビジョンドリームのアプリで実行する
 
 怠けは、大きな目標と、今日の空白の瞬間との「すき間」で育ちます。ビジョンドリームのアプリはそのすき間を埋めます — ドリームマップのビジョンが**プランナー4段階(年間・月間・週間・日次)**を通って、今日タブの**信念・思考・行動(B・T・A)のチェック1つ**まで下りてくるので、始める対象がいつでも2分サイズです。崩れる日への備えもあります。**ストリーク保護が毎月2つ自動で**使われるので一日落としても連続は切れず、未完了の項目は翌日へ**自動繰り越し**されます。そして実践するたび**成功の木**が育ち、**カレンダーのヒートマップ**に跡が残るので、「自分は動かない人間だ」という一文が、自分の記録によって反証されます。
@@ -514,6 +552,10 @@ if-thenプランの力は「決断」そのものをなくす点にあります�
     {
       q: "if-thenプランは本当に効果がありますか、それとも別の生産性トリックに過ぎませんか?",
       a: "行動変容研究の中でも特に安定して再現される効果です。94件の独立した研究をまとめたメタ分析(ゴルヴィツァー・シーラン、2006年)は、運動から勉強、食習慣まで多様な目標で実行意図が中〜大の効果量(d=0.65)を出すことを確認しました。原理は単純です — 「[状況]なら[行動]をする」をあらかじめ書いておけば、疲れて気が散った未来の自分はその瞬間、何も決める必要なく引き金に気づくだけで済みます。",
+    },
+    {
+      q: "誘惑の抱き合わせとフレッシュスタート効果はどう使えばいいですか?",
+      a: "誘惑の抱き合わせは、好きな楽しみ(ポッドキャスト・ドリンク・ドラマ)を先延ばしにしている作業のときだけ許す方法で、2014年のウォートン校の研究ではジムに行く回数を最大51%増やしました。ただし数週間で効果が薄れるので、抱き合わせる楽しみは2〜3週間ごとに替えましょう。フレッシュスタート効果は、月曜日・毎月1日・誕生日の直後のように「新しい章」が開く日に始めやすくなる現象です。崩れた翌日を「第2章1日目」と名づけ、目標を2分バージョンに縮めて再開すれば、自責ではなく新しい出発として記録をつなげられます。",
     },
   ],
 };
