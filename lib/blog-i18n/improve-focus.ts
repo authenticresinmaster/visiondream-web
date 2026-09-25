@@ -263,7 +263,7 @@ If your capacity collapses in the evening again and again, that isn't a focus-tr
 | You can't start at all | The first move is too big | The 2-minute rule — [overcome laziness](/en/blog/overcome-laziness) |
 | Afternoons always collapse | Energy type (sleep/recovery debt) | Hard work in the morning, 25-min sprints after lunch / [burnout recovery](/en/blog/burnout-recovery) |
 | Hours spent, nothing to show | The block's name is vague | Put the **done-condition** in the name — [time blocking](/en/blog/time-blocking) |
-| Your head won't quiet down | Unresolved thoughts keep looping | Parking-lot note + [three-minute breathing](/en/blog/mindfulness-basics) |
+| Your head won't quiet down | Unresolved thoughts keep looping | Parking-lot note + [three-minute breathing](/en/blog/mindfulness-basics) + silently label each thought "thinking" ([vipassana noting](/en/blog/vipassana-meditation)) |
 
 ## Nine distractions — the 60-second prescription table
 

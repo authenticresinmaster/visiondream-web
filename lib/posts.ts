@@ -63,6 +63,7 @@ import { en as topPerformerEn, ja as topPerformerJa } from "./blog-i18n/top-perf
 import { en as fiveMinReviewEn, ja as fiveMinReviewJa } from "./blog-i18n/five-minute-review";
 import { en as growthMindsetEn, ja as growthMindsetJa } from "./blog-i18n/growth-mindset";
 import { en as selfControlEn, ja as selfControlJa } from "./blog-i18n/self-control-science";
+import { en as vipassanaEn } from "./blog-i18n/vipassana-meditation";
 
 export type FaqItem = { q: string; a: string };
 
@@ -2208,9 +2209,9 @@ export const POSTS: Post[] = [
     description:
       "미라클모닝은 사흘이면 무너집니다 — 새벽 6시에 자기 뇌랑 싸우고 있으니까요. 해법은 더 센 의지력이 아니라, 딱 다섯 가지 마인드셋을 바꾸는 것. 아침이 이어지게 만드는 미라클 마인드셋 5가지를, 예시와 함께 그리고 비전드림 앱으로 매일 실행·비전에 연결하는 법까지 정리했습니다.",
     date: "2026-07-09",
-    updated: "2026-07-09",
+    updated: "2026-09-26",
     category: "습관",
-    readMinutes: 7,
+    readMinutes: 11,
     emoji: "🌄",
     cover: "/blog/miracle-mindset.svg",
     body: `결의에 차서 알람을 30분 일찍 맞춥니다. 이틀은 성공해요. 그런데 삼일째, 스누즈 버튼이 이기고 그 계획은 조용히 사라집니다. 익숙한가요? 거의 아무도 말해주지 않는 사실은 이거예요 — **문제는 당신의 의지력이 아니라, 눈을 뜬 바로 그 순간의 마인드셋이었습니다.** 동기부여가 떨어지면 그대로 중단하고, "아침 루틴" 글을 한 편 더 읽어도 바뀌는 건 없죠. 해법은 규율보다 작고 오래갑니다 — 아침이 스스로 굴러가게 만드는, 다섯 가지 마인드셋의 전환입니다. 아래가 **미라클 마인드셋 5가지** — 그리고 내일부터 실제로 돌리는 법입니다.
@@ -2253,6 +2254,61 @@ export const POSTS: Post[] = [
 ### 5. 매일 리셋 — 한 번은 걸러도 두 번은 안 거른다
 아침을 거르는 날은 반드시 옵니다. 오래가는 사람은 한 번도 안 흔들리는 사람이 아니라, **한 번의 거름을 세 번으로 만들지 않는 사람**이에요. 자책의 소용돌이는 건너뛰고, 새벽마다 백지로 여기고, 그냥 다시 나타나세요. 약간의 [자기연민](/blog/self-compassion)이 하루의 거름으로 습관 전체가 끝나는 걸 막아줍니다. (전날 밤 설계도 도움이 돼요 — [저녁 루틴](/blog/evening-routine) 참고.)
 
+## 기상 시각은 '잠드는 시각'에서 거꾸로 정한다 — 수면 역산표
+
+미라클모닝이 사흘 만에 끝나는 사람의 절반은 마인드셋 이전에 **산수**에서 집니다. 밤 12시 반에 자면서 5시 기상을 잡으면 수면이 4시간 반이고, 그 상태의 뇌는 어떤 마인드셋도 버티지 못합니다. 성인 권장 수면은 7시간 이상이니, 기상 시각은 늘 잠드는 시각에서 거꾸로 계산해야 합니다. 누워서 잠들기까지 걸리는 15분 안팎까지 넣으면 이렇습니다.
+
+| 목표 기상 | 7시간 수면 기준 잠드는 시각 | 불 끄고 눕는 시각(+15분) | 휴대폰 내려놓는 시각(+30분) |
+| --- | --- | --- | --- |
+| 오전 5:00 | 오후 10:00 | 오후 9:45 | 오후 9:15 |
+| 오전 5:30 | 오후 10:30 | 오후 10:15 | 오후 9:45 |
+| 오전 6:00 | 오후 11:00 | 오후 10:45 | 오후 10:15 |
+| 오전 6:30 | 오후 11:30 | 오후 11:15 | 오후 10:45 |
+
+표의 마지막 칸이 핵심입니다. 기상을 앞당기는 실제 행동은 알람이 아니라 **전날 밤 휴대폰을 내려놓는 시각**이에요. 이 시각을 못 지키게 만드는 건 대부분 침대 위 스크롤이라, 충전기를 침실 밖으로 옮기는 [핸드폰 중독 끊는 법](/blog/phone-addiction-detox)의 마찰 장치가 기상 성공률을 가장 빨리 올립니다.
+
+그리고 한 번에 당기지 마세요. 평소 7시 기상인 사람이 내일부터 5시에 일어나면 몸은 시차 2시간을 맞은 것과 같습니다. **3~4일마다 15분씩** 당기는 게 원칙입니다. 7시에서 6시까지 당기는 데 약 2주, 5시 반까지 약 3~4주가 걸립니다. 느려 보여도, 사흘 만에 포기하고 원점으로 돌아가는 것보다 훨씬 빠른 길입니다.
+
+## 첫 2분 메뉴표 — 에너지 상태별로 미리 골라 둔다
+
+"2분 시작"이 무너지는 이유는 아침에 **무엇을 할지 고르는 것** 자체가 결정 비용이기 때문입니다. 그래서 전날 밤, 내일 아침 컨디션별 메뉴를 한 줄씩 정해 둡니다. 아침에는 고르지 않고 해당 칸을 그냥 실행합니다.
+
+| 아침 상태 | 2분 메뉴(하나만) | 이어지면 늘리는 버전(10~20분) |
+| --- | --- | --- |
+| 개운함 | 오늘 할 한 가지를 종이에 쓰고 첫 5분 착수 | 그 일에 25분 집중 1블록 |
+| 보통 | 물 한 잔 + 창문 열고 햇빛 1분 | 10분 산책 또는 스트레칭 |
+| 피곤함 | 이불 정리 하나 | 책 한 페이지 → 5페이지 |
+| 최악(야근·아픔 다음 날) | 앉아서 호흡 10번 | 없음 — 2분으로 끝내도 '한 날'로 기록 |
+
+마지막 줄이 중요합니다. 최악인 날의 기준을 미리 낮춰 두면 그날도 기록이 끊기지 않고, 그게 마인드셋 5번 '한 번은 걸러도 두 번은 안 거른다'를 실제로 지키게 해 줍니다. 무너진 날의 최소 버전을 설계하는 원리는 [끈기와 꾸준함](/blog/grit-consistency)에서 더 자세히 다뤘습니다.
+
+## 4주 전환 로드맵 — 마인드셋을 하나씩 얹는 순서
+
+다섯 가지를 한꺼번에 하려는 것 자체가 '거창한 루틴'의 함정입니다. 한 주에 하나씩 얹으세요.
+
+| 주차 | 기상 시각 변화 | 이번 주 얹는 마인드셋 | 통과 기준 |
+| --- | --- | --- | --- |
+| 1주 | 평소 시각 그대로 | ① 첫 생각(오늘 할 한 가지) + ② 2분 시작 | 7일 중 5일 '한 가지'를 적었다 |
+| 2주 | 15분 당기기(3~4일 뒤 15분 더) | ③ 정체성 문장 1줄을 메모지에 붙이기 | 7일 중 5일 기상 + 2분 실행 |
+| 3주 | 15분씩 계속 당기기 | ④ 비전 연결 — 아침 첫 일을 이번 달 목표와 연결 | 7일 중 5일 + 아침 첫 일 중 3번이 목표 관련 |
+| 4주 | 목표 시각 도달 또는 유지 | ⑤ 리셋 규칙 — 이틀 연속 거르지 않기 | 이틀 연속 결석 0회 |
+
+통과 기준이 '7일 중 5일'인 이유는 하루 빠진 날을 실패로 만들지 않기 위해서입니다. 매주 일요일 이 표를 한 번 보고 다음 주 칸을 정하는 데는 5분이면 충분하고, 그 5분을 [주간 리뷰](/blog/weekly-review-habit) 안에 넣으면 따로 시간을 낼 필요도 없습니다.
+
+## 무너지는 상황별 처방 — 미리 정해 두면 흥정이 없다
+
+아침 루틴은 평범한 날이 아니라 **예외적인 날**에 끝납니다. 예외를 미리 규칙으로 만들어 두면 새벽의 흥정이 사라집니다.
+
+| 상황 | 흔한 반응 | 미리 정해 두는 규칙 |
+| --- | --- | --- |
+| 야근·회식으로 새벽 1시에 잠 | 알람 그대로 → 수면 4시간 → 다음 날 무너짐 | 기상을 **최대 60분까지만** 늦추고 2분 메뉴 '최악' 칸 실행 |
+| 주말 | 늦잠으로 2~3시간 밀림 → 월요일 기상 실패 | 주말 기상도 평일 **±60분 이내** 유지 |
+| 알람 끄고 다시 잠듦 | "오늘은 망했다" | 일어난 시각에 2분 메뉴 실행 — 늦은 시작도 기록으로 인정 |
+| 아프거나 컨디션 저하 | 루틴 전체 중단 | 수면 우선, 호흡 10번만 하고 '쉰 날'로 표시 |
+| 출장·여행 | 루틴 자체를 잊음 | 전날 밤 '오늘 할 한 가지'만 적기로 축소 |
+
+아침을 통째로 시간표에 넣어 흔들리지 않게 고정하는 방법은 [타임블로킹](/blog/time-blocking)에, 새벽 루틴의 원전인 할 엘로드의 6단계 구성(침묵·확언·시각화·운동·독서·기록)은 [미라클모닝 시스템](/blog/miracle-morning-system)에, 한국 독자에게 익숙한 김미경식 새벽 기상 설계는 [김미경 미라클모닝](/blog/kim-mikyung-miracle)에 정리돼 있습니다. 이 글의 마인드셋 5가지는 그 어떤 루틴 위에도 얹어 쓸 수 있는 '운영체제'라고 보면 됩니다.
+
 ## 마인드셋이 원인. 시스템이 붙게 한다.
 
 솔직한 함정 하나 — 마인드셋은 머릿속에만 있으면 흐려집니다. 이 글을 읽고 고개를 끄덕여도, 다음 주 화요일이면 '첫 생각' 습관이 조용히 미끄러져 나가죠. 바로 그 틈을 **비전드림**이 메웁니다. 아침을 매일의 **습관**으로 기록하면 계기와 체크가 붙어 "하려고 했다"가 "완료"로 바뀌고 — 체크할 때마다 **성공의 나무(S = B·T·A)**에 잎이 돋아, 보이지 않던 노력이 "계속 나타났다는 증거"로 보입니다. 텅 빈, 동기 없는 아침엔 **AI코치**가 빈 페이지 대신 작은 다음 한 걸음을 건네요. 그리고 아침은 이유에 이어질 때만 지속되니, 비전드림은 각 습관을 그것이 조용히 키우는 **비전·목표** 바로 옆에 둡니다.
@@ -2274,6 +2330,14 @@ export const POSTS: Post[] = [
       {
         q: "비전드림은 아침 마인드셋 만들기에 어떻게 도움이 되나요?",
         a: "비전드림은 각 마인드셋을 계기와 체크가 붙은 기록 가능한 매일 습관으로 바꿔, 의도를 완료된 행동으로 만듭니다. 체크할 때마다 성공의 나무(S = 믿음 × 생각 × 행동)에 잎이 돋아 꾸준한 노력이 눈에 보이고, 동기 없는 아침엔 AI코치가 작은 다음 한 걸음을 건네며, 모든 습관이 그것이 키우는 비전·목표에 계속 연결됩니다 — 그래서 아침엔 늘 '왜'가 있습니다.",
+      },
+      {
+        q: "몇 시에 일어나야 미라클모닝인가요? 꼭 새벽 5시여야 하나요?",
+        a: "아닙니다. 미라클모닝의 핵심은 특정 시각이 아니라 '하루가 나를 끌고 가기 전에 나를 위한 시간을 먼저 확보하는 것'입니다. 기준은 7시간 이상 수면을 지킬 수 있는 시각이에요. 밤 12시에 자야 하는 생활이라면 5시가 아니라 7시 기상이 맞습니다. 평소 기상 시각에서 3~4일마다 15분씩 당겨 보고, 일주일 중 5일 이상 지킬 수 있는 시각을 내 기상 시각으로 정하세요.",
+      },
+      {
+        q: "일찍 일어났는데 하루 종일 졸리면 어떻게 하나요?",
+        a: "기상을 너무 빨리 당겼거나 잠드는 시각이 따라오지 않았다는 신호입니다. 기상 시각을 15분 뒤로 돌리고, 전날 밤 휴대폰을 내려놓는 시각부터 30분 앞당기세요. 깬 직후 10~30분 정도 멍한 것은 정상적인 수면 관성이라, 그 시간엔 판단이 필요 없는 2분 메뉴(물 한 잔·햇빛 1분)를 먼저 하는 게 좋습니다. 오후에 졸리다면 20분 이내의 짧은 낮잠이 밤잠을 덜 방해합니다.",
       },
     ],
   },
@@ -7119,7 +7183,7 @@ AI 코치는 점쟁이도, 내 판단의 대체재도 아닙니다. 정말 잘�
 ];
 
 /** 영어·일본어 번역본(번역 완료된 글만 포함; 미번역 글은 해당 언어 목록에서 제외) */
-export const POSTS_EN: Post[] = [selfControlEn, growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
+export const POSTS_EN: Post[] = [vipassanaEn, selfControlEn, growthMindsetEn, fiveMinReviewEn, topPerformerEn, inferiorityEn, kimSeunghoEn, selfHelpBookEn, readingClubGuideEn,phoneDetoxEn, diaryLastsEn, readingCafeEn, readingHabitEn, prodsysEn, bodDiaryEn, vocabPlanEn, bookDiscussionEn, paidBookClubEn, ilsanBookClubEn, stopDelayingEn, notionPlanEn, careerBoardEn, habitTrackerEn, digitalBoardEn, procrastEn, goalTrackEn, kmmiracleEn, ldreadingEn, mmindsetEn, gratitudeEn, mandalartEn, readingEn, selfefficacyEn, goalmgmtEn, okrEn, lazyEn, godsaengEn, focusEn, mindfulEn, mentalEn, eveningEn, deepworkEn, perfectionEn, esteemEn, gritEn, bucketlistEn, selfstartEn, slumpEn, timeblockEn, affirmEn, smartEn, identityEn, smallwinsEn, selfcompEn, burnoutEn, weeklyEn, aicoachEn, motivationEn, newyearEn, miracleEn, backcastingEn, fearEn, successEn, visionboardEn, beatEn];
 export const POSTS_JA: Post[] = [selfControlJa, fiveMinReviewJa, topPerformerJa, inferiorityJa, kimSeunghoJa, selfHelpBookJa, readingClubGuideJa, phoneDetoxJa, diaryLastsJa, readingCafeJa, readingHabitJa, prodsysJa, bodDiaryJa, vocabPlanJa, bookDiscussionJa, paidBookClubJa, ilsanBookClubJa, stopDelayingJa, notionPlanJa, careerBoardJa, habitTrackerJa, digitalBoardJa, procrastJa, goalTrackJa, kmmiracleJa, ldreadingJa, mmindsetJa, gratitudeJa, mandalartJa, readingJa, selfefficacyJa, goalmgmtJa, okrJa, lazyJa, godsaengJa, focusJa, mindfulJa, mentalJa, eveningJa, deepworkJa, perfectionJa, esteemJa, gritJa, bucketlistJa, selfstartJa, slumpJa, timeblockJa, affirmJa, smartJa, identityJa, smallwinsJa, selfcompJa, burnoutJa, weeklyJa, aicoachJa, motivationJa, newyearJa, miracleJa, backcastingJa, fearJa, successJa, visionboardJa, beatJa, growthMindsetJa];
 
 export type PostLang = "ko" | "en" | "ja";
